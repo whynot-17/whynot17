@@ -19,6 +19,14 @@ Raw GEO, DepMap and GDSC files are excluded from Git because they are large down
 
 The main outputs are under [`outputs/`](outputs/), and analysis scripts are under [`work/scripts/`](work/scripts/).
 
+After completing an analysis run, push tracked outputs with:
+
+```powershell
+.\work\scripts\push_to_github.ps1 -Message "Describe the completed phase"
+```
+
+The same commit-and-push step is part of the project workflow for subsequent analysis runs.
+
 ## Scope and interpretation
 
 This is an in-silico prediction project. DepMap projections and GDSC associations are not equivalent to paired parental/OXA-R functional experiments. Drug candidates require independent validation of indication, novelty, exposure feasibility and wet-lab response.
