@@ -1,0 +1,118 @@
+# Phase 7B-R2 validation patch：corrected dependency interpretation
+
+## Revised conclusion
+
+Using 56 CRC DepMap 23Q4 models, six OXA-R trajectories and four biological backgrounds, **no universal single-gene dependency was identified**. A broad set of non-universal discovery-tier candidates emerged, but none is yet sufficiently validated for drug mapping. Phase 7C/8 were not run.
+Independent flags: Tier1=0，Tier2 discovery=1105，Tier3 subtype=15。Display-only primary tiers: {'none': 17338, 'Tier2_discovery': 1105}。
+Tier2 is deliberately a discovery filter, not a claim that every flagged gene is a strong dependency. Tier3 is counted independently; a gene can satisfy both Tier2 and Tier3.
+
+## HCT116 trajectory heterogeneity
+
+GSE77932|HCT116 vs GSE42387|HCT116: rho=0.629; GSE77932|HCT116 vs GSE119603|HCT116: rho=0.092; GSE42387|HCT116 vs GSE119603|HCT116: rho=-0.032。The three trajectories are retained as one biological background for aggregation, not treated as three independent backgrounds.
+
+## Background-level empirical p-values
+
+Within each biological background, trajectory score vectors were permuted independently 1000 times, the same median vulnerability-rho operator was applied, and empirical p-values were computed from the two-sided absolute null distribution. HCT116 therefore uses the median of three trajectory null correlations rather than median analytical p-values.
+
+## Main ranking
+
+```text
+ rank     gene  median_background_vulnerability_rho  n_positive_backgrounds  n_resampling_supported_backgrounds  meta_empirical_q_value  tier1_flag  tier2_flag  tier3_flag
+    1 C16ORF86                             0.319697                       3                                   1                0.085246       False        True       False
+    2 HS3ST3B1                             0.283983                       3                                   1                0.099596       False        True       False
+    3     TJP1                             0.275866                       3                                   1                0.058818       False        True       False
+    4    FOXF1                             0.269769                       3                                   1                0.105946       False        True       False
+    5   CFAP90                             0.264250                       3                                   0                0.110444       False        True       False
+    6  ZFP36L1                             0.263384                       3                                   2                0.105946       False        True        True
+    7  ADAMTS9                             0.263095                       3                                   2                0.058818       False        True        True
+    8   DIAPH3                             0.257612                       3                                   1                0.105946       False        True       False
+    9    SPRY1                             0.253319                       4                                   0                0.230033       False        True       False
+   10     SOD2                             0.252381                       3                                   0                0.099596       False        True       False
+   11 ATP6V0E2                             0.250974                       3                                   1                0.115045       False        True       False
+   12     MOB4                             0.250866                       3                                   2                0.094464       False        True        True
+   13 SLC25A14                             0.248846                       3                                   1                0.105946       False        True       False
+   14   PPP6R2                             0.248629                       3                                   1                0.085246       False        True       False
+   15     MXD4                             0.246501                       4                                   0                0.142383       False        True       False
+   16  SLC52A3                             0.243831                       4                                   0                0.157340       False        True       False
+   17     AFDN                             0.242280                       4                                   2                0.150453       False        True        True
+   18   IFNA10                             0.241414                       3                                   2                0.105946       False        True        True
+   19     JDP2                             0.240620                       3                                   1                0.099596       False        True       False
+   20    KDM5B                             0.239899                       3                                   1                0.105946       False        True       False
+```
+
+### Provisional computational leads
+
+```text
+   gene  rank  median_background_vulnerability_rho  n_positive_backgrounds  n_resampling_supported_backgrounds  meta_empirical_q_value  tier1_flag  tier2_flag  tier3_flag
+   TJP1     3                             0.275866                       3                                   1                0.058818       False        True       False
+ZFP36L1     6                             0.263384                       3                                   2                0.105946       False        True        True
+ADAMTS9     7                             0.263095                       3                                   2                0.058818       False        True        True
+   MOB4    12                             0.250866                       3                                   2                0.094464       False        True        True
+   AFDN    17                             0.242280                       4                                   2                0.150453       False        True        True
+```
+
+MOB4 remains a reasonable provisional computational lead because its effect size, two-background resampling support and empirical meta-evidence converge better than a rank-1 effect-size-only hit. It is not a wet-lab or drug-mapping lead yet.
+TJP1 is a hypothesis-generating signal of particular interest because the prior resistance-state analysis showed TJP1 downregulation while this analysis shows a positive dependency association; this is not evidence that expression alone predicts dependency.
+
+## Corrected covariate audit
+
+The audit was rerun on the actual vulnerability top200 genes per trajectory and the final convergent top500 genes. The absolute adjusted-minus-raw rho median across all corrected audit rows is 0.045; this value is not interpreted as a genome-wide proof of no confounding.
+
+## Cross-method stability
+
+The stability table covers top100/top250/top500 × weighted/rank and includes direction-consistent background counts, top100/top500 appearances, median rank percentile, LOBO/LODO rank summaries and adjusted rho. The predeclared robust-candidate rule leaves 19 genes:
+
+```text
+ stability_rank     gene  n_models_direction_ge3of4  n_models_direction_4of4  n_models_median_rho_positive  n_models_top100  n_models_top500  median_rank_percentile  max_rank_percentile  median_model_vulnerability_rho  min_model_vulnerability_rho  cross_method_stable_flag  lodo_rank_percentile_median  lodo_rank_percentile_min  lodo_rank_percentile_max  lodo_rank_percentile_iqr  lobo_HCT116_out_median_vulnerability_rho  lobo_HCT116_out_n_positive_backgrounds  adjusted_vulnerability_rho_median  adjusted_vulnerability_rho_min  adjusted_positive_fraction  covariate_audit_n  rank  meta_empirical_q_value  tier1_flag  tier2_flag  tier3_flag    primary_tier  robust_candidate_flag
+              1 C16ORF86                          6                        0                             6                6                6                0.000054             0.000651                        0.308759                     0.235678                      True                     0.002006                  0.000054                  0.016429                  0.008187                                  0.299495                                       2                           0.339474                       -0.149149                    0.833333                6.0     1                0.085246       False        True       False Tier2_discovery                   True
+              2     SOD2                          6                        0                             6                6                6                0.000624             0.001139                        0.251742                     0.223124                      True                     0.017676                  0.000596                  0.021200                  0.010302                                  0.276768                                       2                           0.225942                       -0.302219                    0.833333                6.0    10                0.099596       False        True       False Tier2_discovery                   True
+              3     JDP2                          6                        0                             6                5                6                0.001003             0.025592                        0.245456                     0.140512                      True                     0.015561                  0.001464                  0.022448                  0.010492                                  0.189971                                       2                           0.286299                       -0.112615                    0.833333                6.0    19                0.099596       False        True       False Tier2_discovery                   True
+              4  ADAMTS9                          6                        0                             6                4                6                0.001328             0.017568                        0.248250                     0.153824                      True                     0.000542                  0.000380                  0.054330                  0.026975                                  0.129293                                       2                           0.285938                       -0.260521                    0.833333                6.0     7                0.058818       False        True        True Tier2_discovery                   True
+              5   PPP6R2                          6                        0                             6                6                6                0.002060             0.003416                        0.248611                     0.195779                      True                     0.005368                  0.000325                  0.026189                  0.012932                                  0.281241                                       2                           0.188421                       -0.255896                    0.833333                6.0    14                0.085246       False        True       False Tier2_discovery                   True
+              6    MALT1                          6                        0                             6                6                6                0.002467             0.004392                        0.226136                     0.210967                      True                     0.001627                  0.001301                  0.024400                  0.011549                                  0.180880                                       2                           0.115145                       -0.016578                    0.833333                6.0    40                0.099596       False        True        True Tier2_discovery                   True
+              7     TJP1                          6                        0                             6                4                6                0.003226             0.013826                        0.242082                     0.177633                      True                     0.007266                  0.000271                  0.017080                  0.008404                                  0.286508                                       2                           0.250072                       -0.067883                    0.833333                6.0     3                0.058818       False        True       False Tier2_discovery                   True
+              8   PLXDC2                          6                        0                             6                3                6                0.003687             0.017513                        0.222042                     0.153824                      True                     0.039148                  0.000922                  0.096947                  0.048013                                  0.249495                                       2                           0.179619                       -0.428512                    0.666667                6.0    31                0.085246       False        True       False Tier2_discovery                   True
+              9    STK10                          6                        0                             6                3                6                0.004229             0.011658                        0.219336                     0.188384                      True                     0.001518                  0.001139                  0.052215                  0.025538                                  0.131241                                       2                           0.281761                       -0.161482                    0.833333                6.0    27                0.099596       False        True        True Tier2_discovery                   True
+             10    REEP3                          6                        0                             6                3                4                0.005720             0.099496                        0.199982                     0.092388                      True                     0.059589                  0.004609                  0.189394                  0.092393                                  0.133405                                       2                           0.138908                       -0.218036                    0.666667                6.0    67                0.099596       False        True       False Tier2_discovery                   True
+             11     MOB4                          6                        0                             6                3                5                0.006479             0.049667                        0.216847                     0.116631                      True                     0.000705                  0.000651                  0.128070                  0.063710                                  0.089250                                       2                           0.268176                       -0.181314                    0.666667                6.0    12                0.094464       False        True        True Tier2_discovery                   True
+             12     TRMU                          6                        0                             6                2                5                0.006751             0.033617                        0.215314                     0.148773                      True                     0.004880                  0.001301                  0.073524                  0.036111                                  0.115584                                       2                           0.230667                       -0.248256                    0.666667                6.0    34                0.087843       False        True        True Tier2_discovery                   True
+             13  SMARCA2                          5                        0                             6                3                6                0.006913             0.021905                        0.205231                     0.145851                      True                     0.008621                  0.001627                  0.251261                  0.124817                                  0.051227                                       2                           0.227466                       -0.321269                    0.833333                6.0   169                0.058818       False        True       False Tier2_discovery                   True
+             14   ENTPD2                          5                        0                             6                2                6                0.007103             0.022990                        0.188203                     0.168290                      True                     0.005151                  0.000813                  0.349889                  0.174538                                  0.027994                                       2                           0.257079                       -0.141807                    0.666667                6.0   102                0.099596       False        True       False Tier2_discovery                   True
+             15 HS3ST3B1                          5                        0                             6                3                5                0.007293             0.090549                        0.211508                     0.105540                      True                     0.002548                  0.000108                  0.017351                  0.008621                                  0.321356                                       2                           0.288184                       -0.121605                    0.833333                6.0     2                0.099596       False        True       False Tier2_discovery                   True
+             16     IL15                          5                        0                             6                0                6                0.008160             0.019520                        0.194444                     0.149747                      True                     0.008892                  0.008025                  0.155831                  0.073903                                  0.079509                                       2                           0.222624                       -0.353001                    0.833333                6.0   138                0.099596       False        True       False Tier2_discovery                   True
+             17     MSL1                          6                        0                             6                1                6                0.010166             0.013284                        0.188618                     0.166017                      True                     0.007971                  0.005314                  0.379385                  0.187036                                  0.021934                                       2                           0.215881                       -0.392356                    0.833333                6.0   231                0.085246       False        True       False Tier2_discovery                   True
+             18     CLTA                          5                        0                             6                0                5                0.011468             0.081765                        0.184903                     0.098810                      True                     0.012688                  0.006181                  0.316272                  0.155045                                  0.035426                                       2                           0.178944                       -0.319019                    0.666667                6.0   195                0.099596       False        True       False Tier2_discovery                   True
+             19    SIMC1                          5                        0                             6                1                5                0.016022             0.037901                        0.168056                     0.126190                      True                     0.016809                  0.013338                  0.425094                  0.205878                                  0.011544                                       2                           0.200658                       -0.308897                    0.666667                6.0   292                0.058818       False        True       False Tier2_discovery                   True
+```
+
+LODO global rank stability: {'GSE119603': 0.9800271835969915, 'GSE42387': 0.7938646719447395, 'GSE77932': 0.7264383024616113}。The GSE77932 and GSE42387 perturbations remain material, so candidates should not be called universal from the full ranking alone.
+
+## Mechanism audit
+
+   gene  rank  median_background_vulnerability_rho  meta_empirical_q_value  tier1_flag  tier2_flag  tier3_flag
+    FN1  1057                             0.121681                0.546211       False        True       False
+HSP90B1  1129                             0.120310                0.101983       False       False       False
+  ITGB1  1883                             0.098160                0.701148       False       False       False
+   GPX4  2237                             0.090368                0.183340       False       False       False
+   CPT2  2654                             0.081818                0.879043       False       False       False
+  PSMB5  3195                             0.072403                0.208875       False       False       False
+  EDEM1  4608                             0.050108                0.383345       False       False       False
+SLC22A5  6714                             0.024459                1.000000       False       False       False
+  DERL1  7887                             0.010606                0.273663       False       False       False
+SLC7A11  7931                             0.010101                0.854404       False       False       False
+    VCP 10007                            -0.011941                0.831139       False       False       False
+  CPT1A 12279                            -0.040224                0.898600       False       False       False
+  DHODH 13390                            -0.055339                0.774788       False       False       False
+   RRM2 14481                            -0.072872                0.132843       False       False       False
+
+DHODH, RRM2, CPT1A, VCP and SLC22A5 do not emerge as universal convergent dependencies in this correction. Meldonium therefore remains a failed broad OXA-R reversal hypothesis, not a candidate rescued by this patch.
+
+## Files and boundary
+
+- `phase7bR2_background_empirical_p.csv`: corrected background-level empirical p-values.
+- `phase7bR2_convergent_gene_ranking.csv`: corrected ranking with independent tier flags.
+- `phase7bR2_covariate_sensitivity.csv`: corrected top200/top500 covariate audit.
+- `phase7bR2_cross_method_stability.csv`: six-model stability summary.
+- `phase7bR2_manifest.json`: exact definitions and thresholds.
+
+Raw DepMap/GEO files remain local and are not committed. Phase 7C/8 remain deferred.

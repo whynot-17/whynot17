@@ -1,5 +1,7 @@
 # Phase 7B-R：OXA-resistant CRC trajectory-conditioned dependency mapping
 
+> **Baseline report notice:** this report is retained for provenance. Its interpretation is superseded by the corrected [Phase 7B-R2 validation report](phase7bR2_report.md), which replaces median analytical-p handling, corrects the covariate audit selection, reports independent tier flags, and adds six-model stability filtering.
+
 ## 结论先行
 
 本轮使用 DepMap 23Q4 的 56 个 CRC 模型、6 条 acquired OXA-R trajectory，但按 HCT116、DLD1、HT29、LoVo 四个独立生物学背景聚合。主模型为 top 250+250 weighted directional score；HCT116/DLD1/HT29/LoVo 自身 DepMap cell line 在对应 trajectory 中排除。

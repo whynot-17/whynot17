@@ -1,0 +1,69 @@
+{
+  "phase": "7B-R2",
+  "parent_phase": "7B-R",
+  "status": "completed_validation_patch",
+  "phase7c8_executed": false,
+  "depmap_release": "23Q4",
+  "n_crc_models": 56,
+  "trajectories": [
+    "GSE77932|HCT116",
+    "GSE77932|DLD1",
+    "GSE42387|HCT116",
+    "GSE42387|HT29",
+    "GSE42387|LoVo",
+    "GSE119603|HCT116"
+  ],
+  "backgrounds": [
+    "HCT116",
+    "DLD1",
+    "HT29",
+    "LoVo"
+  ],
+  "self_line_exclusions": {
+    "GSE77932|HCT116": [
+      "ACH-000971"
+    ],
+    "GSE77932|DLD1": [
+      "ACH-001061"
+    ],
+    "GSE42387|HCT116": [
+      "ACH-000971"
+    ],
+    "GSE42387|HT29": [
+      "ACH-000552"
+    ],
+    "GSE42387|LoVo": [
+      "ACH-000950"
+    ],
+    "GSE119603|HCT116": [
+      "ACH-000971"
+    ]
+  },
+  "background_empirical_permutation": {
+    "operator": "median trajectory vulnerability rho within background",
+    "permutations_per_background": 1000,
+    "tail": "two-sided absolute vulnerability rho",
+    "seed": 20261020
+  },
+  "covariate_audit_scopes": [
+    "actual top200 vulnerability genes per trajectory",
+    "final convergent top500 genes"
+  ],
+  "tier_reporting": "tier1_flag, tier2_flag, tier3_flag are independent; primary_tier is display-only precedence",
+  "cross_method_models": [
+    "top100_weighted",
+    "top100_rank",
+    "top250_weighted",
+    "top250_rank",
+    "top500_weighted",
+    "top500_rank"
+  ],
+  "counts": {
+    "tier1_flag": 0,
+    "tier2_flag": 1105,
+    "tier3_flag": 15
+  },
+  "robust_candidate_definition": "top500 in >=4/6 models, >=3/4 backgrounds positive in >=4/6 models, median rank percentile <=0.10, empirical meta q <=0.10, covariate-adjusted median rho >0 and positive fraction >=0.5",
+  "robust_candidate_count": 19,
+  "raw_data_policy": "Raw DepMap/GEO files remain local and ignored by git; only derived R2 outputs and scripts are committed."
+}
