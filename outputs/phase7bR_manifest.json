@@ -1,0 +1,165 @@
+{
+  "phase": "7B-R",
+  "objective": "Robust OXA-resistant CRC trajectory-conditioned CRISPR dependency mapping",
+  "status": "completed_genetic_mapping_only",
+  "phase7c8_executed": false,
+  "depmap_release": "23Q4",
+  "depmap_files": {
+    "model": "work\\phase7b_depmap\\raw\\Model.csv",
+    "expression": "work\\phase7b_depmap\\raw\\OmicsExpressionProteinCodingGenesTPMLogp1.csv",
+    "crispr_gene_effect": "work\\phase7b_depmap\\raw\\CRISPRGeneEffect.csv"
+  },
+  "crc_inclusion_rule": "Model.csv OncotreeLineage == Bowel AND OncotreePrimaryDisease contains colorectal; intersect expression and CRISPR IDs",
+  "n_crc_models_after_intersection": 56,
+  "trajectories": [
+    "GSE77932|HCT116",
+    "GSE77932|DLD1",
+    "GSE42387|HCT116",
+    "GSE42387|HT29",
+    "GSE42387|LoVo",
+    "GSE119603|HCT116"
+  ],
+  "background_map": {
+    "GSE77932|HCT116": "HCT116",
+    "GSE77932|DLD1": "DLD1",
+    "GSE42387|HCT116": "HCT116",
+    "GSE42387|HT29": "HT29",
+    "GSE42387|LoVo": "LoVo",
+    "GSE119603|HCT116": "HCT116"
+  },
+  "independent_backgrounds": [
+    "HCT116",
+    "DLD1",
+    "HT29",
+    "LoVo"
+  ],
+  "trajectory_metadata": [
+    {
+      "trajectory": "GSE77932|HCT116",
+      "dataset": "GSE77932",
+      "background": "HCT116",
+      "platform": "GPL16699",
+      "parental_n": "1",
+      "resistant_n": "3",
+      "context": "acquired_OXA_R",
+      "n_pathway_rows": 22,
+      "metadata_source": "outputs\\phase1_pathway_effects_long_all_contexts.csv"
+    },
+    {
+      "trajectory": "GSE77932|DLD1",
+      "dataset": "GSE77932",
+      "background": "DLD1",
+      "platform": "GPL16699",
+      "parental_n": "1",
+      "resistant_n": "3",
+      "context": "acquired_OXA_R",
+      "n_pathway_rows": 22,
+      "metadata_source": "outputs\\phase1_pathway_effects_long_all_contexts.csv"
+    },
+    {
+      "trajectory": "GSE42387|HCT116",
+      "dataset": "GSE42387",
+      "background": "HCT116",
+      "platform": "GPL16297",
+      "parental_n": "3",
+      "resistant_n": "3",
+      "context": "acquired_OXA_R",
+      "n_pathway_rows": 22,
+      "metadata_source": "outputs\\phase1_pathway_effects_long_all_contexts.csv"
+    },
+    {
+      "trajectory": "GSE42387|HT29",
+      "dataset": "GSE42387",
+      "background": "HT29",
+      "platform": "GPL16297",
+      "parental_n": "3",
+      "resistant_n": "3",
+      "context": "acquired_OXA_R",
+      "n_pathway_rows": 22,
+      "metadata_source": "outputs\\phase1_pathway_effects_long_all_contexts.csv"
+    },
+    {
+      "trajectory": "GSE42387|LoVo",
+      "dataset": "GSE42387",
+      "background": "LoVo",
+      "platform": "GPL16297",
+      "parental_n": "3",
+      "resistant_n": "3",
+      "context": "acquired_OXA_R",
+      "n_pathway_rows": 22,
+      "metadata_source": "outputs\\phase1_pathway_effects_long_all_contexts.csv"
+    },
+    {
+      "trajectory": "GSE119603|HCT116",
+      "dataset": "GSE119603",
+      "background": "HCT116",
+      "platform": "RNA_COUNTS",
+      "parental_n": "3",
+      "resistant_n": "3",
+      "context": "acquired_OXA_R",
+      "n_pathway_rows": 22,
+      "metadata_source": "outputs\\phase1_pathway_effects_long_all_contexts.csv"
+    }
+  ],
+  "self_line_exclusions": {
+    "GSE77932|HCT116": [
+      "ACH-000971"
+    ],
+    "GSE77932|DLD1": [
+      "ACH-001061"
+    ],
+    "GSE42387|HCT116": [
+      "ACH-000971"
+    ],
+    "GSE42387|HT29": [
+      "ACH-000552"
+    ],
+    "GSE42387|LoVo": [
+      "ACH-000950"
+    ],
+    "GSE119603|HCT116": [
+      "ACH-000971"
+    ]
+  },
+  "signature_sizes": [
+    100,
+    250,
+    500
+  ],
+  "primary_signature": {
+    "size": 250,
+    "up_down": "250+250",
+    "scoring_method": "weighted"
+  },
+  "scoring_methods": {
+    "primary": "weighted directional z-score; expression standardized within CRC models",
+    "sensitivity": "rank-based directional score using percentile ranks"
+  },
+  "seed": 20260820,
+  "permutation_resamples": 1000,
+  "bootstrap_resamples": 1000,
+  "minimum_n": 30,
+  "aggregation": "median across trajectories within each biological background; HCT116 has 3 trajectories",
+  "tier_thresholds": {
+    "Tier1_universal": "4/4 backgrounds positive; median vulnerability rho >= 0.10; >=2/4 backgrounds resampling-supported; meta FDR <= 0.10; leave-HCT116-out positive",
+    "Tier2_strong": ">=3/4 positive; median vulnerability rho >= 0.12; >=2 backgrounds rho >= 0.10",
+    "Tier3_subtype": ">=2/4 positive; median vulnerability rho >= 0.20; >=2 backgrounds resampling-supported"
+  },
+  "predefined_mechanism_audit_only": [
+    "DHODH",
+    "RRM2",
+    "VCP",
+    "CPT1A",
+    "CPT2",
+    "SLC22A5",
+    "GPX4",
+    "SLC7A11",
+    "FN1",
+    "ITGB1",
+    "DERL1",
+    "EDEM1",
+    "HSP90B1",
+    "PSMB5"
+  ],
+  "raw_data_policy": "Raw DepMap/GEO files remain local and are ignored by git; only derived outputs and scripts are committed."
+}
