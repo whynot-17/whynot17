@@ -1,0 +1,407 @@
+database,DRUG_NAME,drug_key,n_models_available,n_models_positive_median_rho,n_models_direction_consistent_ge3of4,n_models_top50,n_models_top100,n_models_top200,median_model_rho,median_model_rank,signature_robust_flag,model_combinations
+CTRPv2,1541B,1541B,6,0,0,0,0,0,-0.12339085719482029,361.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,16-beta-bromoandrosterone,16BETABROMOANDROSTERONE,6,4,3,0,3,3,0.04760975065265798,152.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,"1S,3R-RSL-3",1S3RRSL3,6,0,0,0,0,0,-0.17286916017797554,395.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,3-Cl-AHPC,3CLAHPC,6,0,0,0,0,0,-0.06754658385093168,317.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,5-Fluorouracil,5FLUOROURACIL,6,0,0,0,0,0,-0.14897793777104124,384.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,AACOCF3,AACOCF3,6,4,0,0,0,2,0.015978975098299212,219.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,ABT-737,ABT737,6,4,0,0,0,3,0.04077619030653015,186.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,AC55649,AC55649,6,3,1,0,0,2,0.011314052917875884,214.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,AGK2,AGK2,6,6,6,5,6,6,0.1734712452762217,22.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,AM-580,AM580,6,5,5,1,4,5,0.09253246753246754,84.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,AT7867,AT7867,6,5,1,0,0,3,0.023433088650479956,186.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,AZ-3146,AZ3146,6,6,6,6,6,6,0.19282216022419224,19.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,AZD-7545,AZD7545,6,6,6,3,4,6,0.13733132584579566,43.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,AZD4547,AZD4547,6,0,0,0,0,0,-0.18632128740824394,394.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,AZD6482,AZD6482,6,6,6,3,6,6,0.13236263736263737,50.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,AZD7762,AZD7762,6,2,2,0,1,2,-0.047861142688728896,272.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,AZD8055,AZD8055,6,5,4,0,1,6,0.06020799124247399,135.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Afatinib,AFATINIB,6,0,0,0,0,0,-0.21053418803418805,397.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Alisertib,ALISERTIB,6,6,5,0,3,6,0.07158679375020988,110.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Alisertib:navitoclax (2:1 mol/mol),ALISERTIBNAVITOCLAX21MOLMOL,6,1,1,0,0,0,-0.08002136752136751,320.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Apicidin,APICIDIN,6,3,2,0,0,1,-0.0022167487684729044,243.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Austocystin D,AUSTOCYSTIND,6,0,0,0,0,0,-0.19417265081763693,398.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Axitinib,AXITINIB,6,3,3,0,0,3,0.0056521739130434775,201.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Azacitidine,AZACITIDINE,6,3,3,0,1,2,-0.007153525858376135,214.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,B02,B02,6,5,4,0,2,4,0.04125494071146245,186.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BAM7,BAM7,6,0,0,0,0,0,-0.23117009160038332,396.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BI 2536,BI2536,6,0,0,0,0,0,-0.0873015873015873,341.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BIBR1532,BIBR1532,6,1,1,0,0,2,-0.03403846153846153,279.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BIX-01294,BIX01294,6,2,2,0,0,2,-0.030335175500853042,244.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BMS-195614,BMS195614,6,0,0,0,0,0,-0.07513390111251317,329.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BMS-270394,BMS270394,6,1,0,0,0,0,-0.227984791017615,401.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BMS-345541,BMS345541,6,0,0,0,0,0,-0.0726869952451652,316.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BMS-536924,BMS536924,6,6,2,0,5,6,0.09630036630036629,86.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BMS-754807,BMS754807,6,5,4,0,2,5,0.04937231844907039,166.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-A02303741,BRDA02303741,6,6,5,1,2,6,0.06855138875713024,122.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-A02303741:carboplatin (1:1 mol/mol),BRDA02303741CARBOPLATIN11MOLMOL,6,6,4,2,6,6,0.11257743153519018,69.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-A02303741:navitoclax (2:1 mol/mol),BRDA02303741NAVITOCLAX21MOLMOL,6,0,0,0,0,0,-0.14115788945600896,381.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-A71883111,BRDA71883111,6,3,3,0,0,3,-0.009171022816651775,237.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K02492147,BRDK02492147,6,3,2,1,1,2,0.001542643888182026,226.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K03536150,BRDK03536150,6,3,0,0,0,0,-0.0703016951104645,310.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K04800985,BRDK04800985,6,5,3,2,3,6,0.08490102693580448,91.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K09587429,BRDK09587429,6,4,3,2,2,3,0.04610040614657608,169.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K11533227,BRDK11533227,6,3,3,1,2,3,0.017196307966547572,209.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K14844214,BRDK14844214,6,0,0,0,0,0,-0.06051953495912662,298.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K16147474,BRDK16147474,6,5,4,1,2,5,0.0737696668299754,133.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K17060750,BRDK17060750,6,4,3,1,2,4,0.059948532764003054,149.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K19103580,BRDK19103580,6,4,4,2,2,4,0.06528625408268418,137.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K24690302,BRDK24690302,6,4,3,0,0,3,0.025282059431113932,182.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K26531177,BRDK26531177,6,4,2,0,0,5,0.03973320158102767,182.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K27188169,BRDK27188169,6,6,4,1,3,6,0.10495626212271068,92.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K28456706,BRDK28456706,6,4,3,0,1,4,0.08184345012642047,115.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K29313308,BRDK29313308,6,4,3,1,2,3,0.026539446521704237,171.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K33199242,BRDK33199242,6,2,0,0,0,1,-0.04789390410881769,252.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K34222889,BRDK34222889,6,4,1,0,1,2,0.005010315355142941,217.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K35604418,BRDK35604418,6,4,2,0,0,4,0.028127038460529212,196.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K37390332,BRDK37390332,6,0,0,0,0,0,-0.06392809504636426,314.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K41597374,BRDK41597374,6,5,5,3,4,5,0.14692154710393224,49.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K45681478,BRDK45681478,6,6,5,2,4,6,0.09674028378037142,72.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K50799972,BRDK50799972,6,3,2,0,2,3,0.018567554302294825,180.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K51490254,BRDK51490254,6,6,6,3,6,6,0.1558381642803528,41.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K52037352,BRDK52037352,6,4,2,0,1,4,0.04253082426525852,182.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K55116708,BRDK55116708,6,5,3,2,3,4,0.08149646305150031,94.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K61166597,BRDK61166597,6,4,2,1,3,5,0.08272806050123924,107.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K63431240,BRDK63431240,6,0,0,0,0,1,-0.06368446754929964,312.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K64610608,BRDK64610608,6,6,5,1,4,5,0.10191028300971391,81.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K66453893,BRDK66453893,6,4,0,0,0,2,0.010362965400167356,234.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K66532283,BRDK66532283,6,3,2,0,2,3,0.029003842965843435,172.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K71781559,BRDK71781559,6,4,1,0,2,3,0.010411273338522656,183.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K71935468,BRDK71935468,6,1,1,0,0,1,-0.059789410061997644,312.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K80183349,BRDK80183349,6,0,0,0,0,0,-0.10270730339984982,345.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K85133207,BRDK85133207,6,2,0,0,0,3,-0.026837606837606838,238.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K94991378,BRDK94991378,6,2,0,0,2,2,-0.06253459473192098,320.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K97651142,BRDK97651142,6,1,0,0,0,1,-0.09352258852258852,340.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD1835,BRD1835,6,6,6,2,6,6,0.12146191415694761,63.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD2698,BRD2698,6,2,2,0,0,3,-0.011554412645229937,201.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD6340,BRD6340,6,0,0,0,0,0,-0.04693486590038314,283.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD8899,BRD8899,6,1,0,0,0,0,-0.04252600994949875,283.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD8958,BRD8958,6,5,4,1,1,5,0.06615903546500868,139.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD9647,BRD9647,6,2,0,0,0,1,-0.04074608026081196,267.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD9876,BRD9876,6,4,0,0,0,2,0.008971363069156444,226.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Barasertib,BARASERTIB,6,0,0,0,0,0,-0.09302775989033582,357.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Bendamustine,BENDAMUSTINE,6,5,4,0,0,5,0.05457008734165188,126.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Betulinic Acid,BETULINICACID,6,6,3,0,2,6,0.05007592198131207,109.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Bexarotene,BEXAROTENE,6,6,6,0,4,6,0.09112681991932134,90.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Birinapant,BIRINAPANT,6,3,0,0,0,1,-0.00030715803042142414,244.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Bleomycin A2,BLEOMYCINA2,6,0,0,0,0,0,-0.09950738916256156,354.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Bortezomib,BORTEZOMIB,6,5,3,3,4,6,0.10300876128347766,71.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Bosutinib,BOSUTINIB,6,0,0,0,0,0,-0.053440170940170936,292.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Brefeldin A,BREFELDINA,6,0,0,0,0,0,-0.2114102564102564,399.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Brivanib,BRIVANIB,6,6,2,2,2,6,0.08381422924901184,120.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,C6-ceramide,C6CERAMIDE,6,6,4,2,4,6,0.10841209741365249,71.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,CAY10594,CAY10594,6,6,5,3,6,6,0.13040944362352586,55.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,CAY10603,CAY10603,6,4,3,1,2,4,0.0489102564102564,173.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,CAY10618,CAY10618,6,4,4,2,2,4,0.053081045655349025,164.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,CD-1530,CD1530,6,3,3,0,1,3,0.0039866189645937355,216.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,CD-437,CD437,6,0,0,0,0,0,-0.1212148962148962,367.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,CHIR-99021,CHIR99021,6,6,4,0,1,5,0.06127689279435043,126.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,CHM-1,CHM1,6,0,0,0,0,0,-0.09456521739130433,344.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,CI-976,CI976,6,0,0,0,0,0,-0.09171931947159383,345.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,CID-5951923,CID5951923,6,5,4,0,1,5,0.05349130485397064,141.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,CR-1-31B,CR131B,6,1,0,0,0,1,-0.036630036630036625,277.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Cabozantinib,CABOZANTINIB,6,6,6,3,4,6,0.14478987715873043,47.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Carboplatin,CARBOPLATIN,6,0,0,0,0,0,-0.09760964161392388,358.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Carboplatin:etoposide (40:17 mol/mol),CARBOPLATINETOPOSIDE4017MOLMOL,6,2,1,1,1,2,-0.004577723129396133,231.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Ceranib-2,CERANIB2,6,1,0,0,0,1,-0.05720811755294514,290.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Cerulenin,CERULENIN,6,5,5,4,4,5,0.13501487214558122,45.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Ch-55,CH55,6,0,0,0,0,0,-0.0736918287379089,317.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Chlorambucil,CHLORAMBUCIL,6,5,4,2,3,4,0.05961538461538461,130.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Ciclopirox,CICLOPIROX,6,6,5,1,4,6,0.09311662670339954,89.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Clofarabine,CLOFARABINE,6,3,2,0,0,3,-0.0024767378215654065,207.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Compound 1B,COMPOUND1B,6,6,4,1,3,6,0.09210135614943496,112.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Compound 23 citrate,COMPOUND23CITRATE,6,6,4,1,2,4,0.040192307692307694,124.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Compound 7d-cis,COMPOUND7DCIS,6,0,0,0,0,0,-0.14022721576606423,381.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Crizotinib,CRIZOTINIB,6,2,2,1,1,3,-0.003995621237000546,209.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Crizotinib:PLX-4032 (2:1 mol/mol),CRIZOTINIBPLX403221MOLMOL,6,2,0,0,0,1,-0.008500864181358793,235.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Cucurbitacin I,CUCURBITACINI,6,1,0,0,0,1,-0.12430213464696221,367.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Curcumin,CURCUMIN,6,4,3,0,1,4,0.03337606837606837,189.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Cytarabine,CYTARABINE,6,6,4,1,3,5,0.07509578544061302,108.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Cytochalasin B,CYTOCHALASINB,6,0,0,0,0,0,-0.06335512355910802,303.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,DBeQ,DBEQ,6,0,0,0,0,0,-0.09394191879578731,342.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Dacarbazine,DACARBAZINE,6,1,0,0,0,1,-0.01786005532858615,265.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Dasatinib,DASATINIB,6,5,0,0,1,5,0.03461959496442254,157.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Decitabine,DECITABINE,6,0,0,0,0,0,-0.11226117865093135,359.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Decitabine:carboplatin (1:1 mol/mol),DECITABINECARBOPLATIN11MOLMOL,6,6,5,0,3,6,0.1050628426824711,94.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Decitabine:navitoclax (2:1 mol/mol),DECITABINENAVITOCLAX21MOLMOL,6,1,1,0,0,1,-0.13822465193939942,374.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Dexamethasone,DEXAMETHASONE,6,0,0,0,0,0,-0.09735413533832173,348.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Docetaxel:tanespimycin (2:1 mol/mol),DOCETAXELTANESPIMYCIN21MOLMOL,6,0,0,0,0,0,-0.08422276956759714,342.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Doramapimod,DORAMAPIMOD,6,3,0,0,0,2,-0.022210810743786627,262.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Doxorubicin,DOXORUBICIN,6,3,3,0,0,3,0.013014460511679643,222.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Doxorubicin:navitoclax (2:1 mol/mol),DOXORUBICINNAVITOCLAX21MOLMOL,6,4,2,0,0,3,0.031876452881930396,195.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Elocalcitol,ELOCALCITOL,6,3,1,2,2,2,0.006520102996757085,229.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Entinostat,ENTINOSTAT,6,5,5,3,3,5,0.10640078312492104,95.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Erastin,ERASTIN,6,6,5,0,3,4,0.0649474804258044,123.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Erismodegib,ERISMODEGIB,6,6,5,4,5,6,0.18925658445659388,22.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Erlotinib,ERLOTINIB,6,0,0,0,0,0,-0.10741652983032293,359.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Erlotinib:PLX-4032 (2:1 mol/mol),ERLOTINIBPLX403221MOLMOL,6,0,0,0,0,0,-0.03508224687695613,283.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Etomoxir,ETOMOXIR,6,6,6,0,4,6,0.08518986320774294,73.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Etoposide,ETOPOSIDE,6,3,2,0,1,3,0.012575930823541137,203.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,FQI-2,FQI2,6,6,2,1,2,6,0.07844932844932845,109.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Fedratinib,FEDRATINIB,6,5,2,0,3,3,0.04878215654077722,143.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Fingolimod hydrochloride,FINGOLIMODHYDROCHLORIDE,6,6,3,3,4,5,0.13545787545787547,51.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Foretinib,FORETINIB,6,5,2,0,0,2,0.011116600790513834,230.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Fumonisin B1,FUMONISINB1,6,5,3,0,0,5,0.037730514915681926,173.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,GANT-61,GANT61,6,1,1,0,0,1,-0.019194320693118015,245.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,GDC-0879,GDC0879,6,3,1,0,0,2,-0.0201391050841535,261.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,GMX-1778,GMX1778,6,0,0,0,0,0,-0.08476907172298963,346.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,GSK-3 inhibitor IX,GSK3INHIBITORIX,6,1,1,0,0,0,-0.08527777777777777,334.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,GSK319347A,GSK319347A,6,3,3,0,0,3,0.024660330934709918,189.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,GSK4112,GSK4112,6,6,4,4,5,5,0.19462467785552579,22.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,GSK461364,GSK461364,6,2,0,0,0,1,-0.07230006835269992,325.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,GW-405833,GW405833,6,5,4,2,3,5,0.11454405874798579,81.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Gefitinib,GEFITINIB,6,0,0,0,0,0,-0.07071304070208073,326.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,HC-067047,HC067047,6,5,2,0,1,6,0.0473076923076923,160.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,HLI 373,HLI373,6,1,0,0,0,0,-0.06102900930487139,300.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,HMN-214,HMN214,6,3,1,0,0,3,0.008442802408319652,193.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Hyperforin,HYPERFORIN,6,6,6,2,3,5,0.07892622550059097,120.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,I-BET-762,IBET762,6,0,0,0,0,0,-0.09562780283601727,331.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,I-BET151,IBET151,6,0,0,0,0,0,-0.10431555111614622,362.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,IC-87114,IC87114,6,6,6,0,1,6,0.0589633890443131,132.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,IPR-456,IPR456,6,6,5,5,6,6,0.1932862679573552,24.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,ISOX:bortezomib (250:1 mol/mol),ISOXBORTEZOMIB2501MOLMOL,6,2,1,0,0,3,-0.015940170940170945,204.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,IU1,IU1,6,2,2,0,1,2,-0.03341155263667212,294.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Idelalisib,IDELALISIB,6,5,3,1,3,5,0.08431855500821017,105.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Imatinib,IMATINIB,6,3,1,0,0,3,0.002180510414438383,207.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Importazole,IMPORTAZOLE,6,6,3,5,6,6,0.13937980245030082,38.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Indisulam,INDISULAM,6,5,4,0,2,6,0.06383629779960581,113.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Isoevodiamine,ISOEVODIAMINE,6,0,0,0,0,0,-0.10656919708643847,364.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Itraconazole,ITRACONAZOLE,6,6,4,0,1,6,0.08235969011831082,116.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Ixazomib,IXAZOMIB,6,4,4,1,2,3,0.02832512315270936,182.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,JQ-1:MK-0752 (1:1 mol/mol),JQ1MK075211MOLMOL,6,5,3,1,3,6,0.09370658077554629,93.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,JQ-1:UNC0638 (2:1 mol/mol),JQ1UNC063821MOLMOL,6,3,2,0,0,3,0.004693675889328064,198.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,JQ-1:carboplatin (1:1 mol/mol),JQ1CARBOPLATIN11MOLMOL,6,4,1,3,4,4,0.13125763125763124,63.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,JQ-1:vorinostat (2:1 mol/mol),JQ1VORINOSTAT21MOLMOL,6,3,1,0,2,3,0.024188963210702345,201.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,JQ1,JQ1,6,5,3,0,0,4,0.042777146225422086,172.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,JW-480,JW480,6,3,3,0,0,3,-0.0021273282192567633,235.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,KHS101,KHS101,6,5,5,3,3,5,0.15527311973097666,62.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,KU 0060648,KU0060648,6,5,2,0,1,6,0.036372152751463105,167.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,KU-0063794,KU0063794,6,6,6,3,5,6,0.10123545240126083,50.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,KU-55933,KU55933,6,6,6,4,6,6,0.1274551616568091,30.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,KU-60019,KU60019,6,6,5,0,4,6,0.09300520352626034,81.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,KW-2449,KW2449,6,0,0,0,0,0,-0.1885275759282939,395.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,KX2-391,KX2391,6,0,0,0,0,0,-0.11711538461538461,366.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Ki8751,KI8751,6,2,0,0,0,0,-0.016622512451648933,253.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Ko-143,KO143,6,3,0,0,0,2,0.0060900506934073,219.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,LE-135,LE135,6,2,0,0,0,1,-0.013461456320259505,227.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,LY-2183240,LY2183240,6,0,0,0,0,0,-0.13725274725274725,375.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Lapatinib,LAPATINIB,6,0,0,0,0,0,-0.19836676375456103,397.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Lenvatinib,LENVATINIB,6,3,3,0,2,3,0.020749100233889838,211.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Leptomycin B,LEPTOMYCINB,6,0,0,0,0,0,-0.09020251778872468,342.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Linifanib,LINIFANIB,6,4,1,0,1,4,0.052692307692307684,159.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Linsitinib,LINSITINIB,6,6,5,1,3,6,0.07167858608696878,113.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Lomeguatrib,LOMEGUATRIB,6,3,2,0,0,2,-0.003180703568523801,236.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Lovastatin,LOVASTATIN,6,5,4,2,3,5,0.11003495947878594,85.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,MGCD-265,MGCD265,6,4,0,0,1,4,0.058260704812428954,154.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,MI-1,MI1,6,0,0,0,0,1,-0.03225104617985776,269.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,MK 1775,MK1775,6,1,0,0,0,0,-0.07230574057187258,316.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,MK-0752,MK0752,6,6,6,6,6,6,0.1700366240289801,27.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,MK-2206,MK2206,6,0,0,0,0,0,-0.08475752508361203,351.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,ML029,ML029,6,6,6,3,3,6,0.09523980364261464,79.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,ML050,ML050,6,1,1,0,0,1,-0.10249000178665475,352.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,ML083,ML083,6,6,6,3,4,6,0.15321929978231286,48.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,ML203,ML203,6,3,1,0,1,1,-0.02107988483475882,251.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,ML210,ML210,6,0,0,0,0,0,-0.09273820049682119,334.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,ML239,ML239,6,4,0,0,0,0,0.0024660086238517337,246.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,ML258,ML258,6,6,6,4,5,6,0.19475879509238625,15.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,ML320,ML320,6,5,3,0,2,4,0.051660089836371235,127.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,MST-312,MST312,6,5,4,1,2,4,0.06559048756457972,134.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Manumycin A,MANUMYCINA,6,3,0,0,0,4,0.0011209685418429594,192.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Masitinib,MASITINIB,6,4,3,1,3,4,0.05686810040340873,148.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Mdivi-1,MDIVI1,6,4,0,0,0,5,0.031849714810077666,190.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Merck60,MERCK60,6,0,0,0,0,0,-0.07153332603855297,332.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Methotrexate,METHOTREXATE,6,4,4,2,2,4,0.08653010033444816,118.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Mitomycin-C,MITOMYCINC,6,0,0,0,0,0,-0.03702635190631101,277.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Momelotinib,MOMELOTINIB,6,0,0,0,0,0,-0.08117521367521367,346.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Myricetin,MYRICETIN,6,3,2,2,2,3,0.04386547153304891,174.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,N9-Isopropyl-olomoucine,N9ISOPROPYLOLOMOUCINE,6,3,1,0,0,0,-0.020065336486791367,266.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,NPC-26,NPC26,6,3,1,0,1,3,0.01943669919376034,180.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,NSC 74859,NSC74859,6,6,2,1,2,5,0.05698429164024482,134.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,NSC23766,NSC23766,6,6,2,1,2,5,0.04059576919388423,145.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,NSC30930,NSC30930,6,6,6,1,4,6,0.09377726746811674,91.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,NSC48300,NSC48300,6,3,2,1,1,3,-0.022241211234188703,244.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,NSC632839,NSC632839,6,2,1,0,0,2,-0.03124058924067164,266.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,NSC95397,NSC95397,6,1,1,0,1,2,-0.025708130359782103,270.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,NVP-231,NVP231,6,0,0,0,0,1,-0.040519346553829313,271.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,NVP-BSK805,NVPBSK805,6,6,4,2,2,6,0.09291187739463602,106.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Nakiterpiosin,NAKITERPIOSIN,6,0,0,0,0,1,-0.06360195360195359,306.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Narciclasine,NARCICLASINE,6,1,1,0,0,3,-0.013869282891022022,227.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Navitoclax,NAVITOCLAX,6,0,0,0,0,0,-0.10247743329997089,350.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Navitoclax:MST-312 (1:1 mol/mol),NAVITOCLAXMST31211MOLMOL,6,4,2,0,2,3,0.025405982905982907,205.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Navitoclax:PLX-4032 (1:1 mol/mol),NAVITOCLAXPLX403211MOLMOL,6,5,2,1,3,5,0.08030523438260283,107.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Navitoclax:birinapant (1:1 mol/mol),NAVITOCLAXBIRINAPANT11MOLMOL,6,1,1,0,0,1,-0.0059913722928423875,258.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Navitoclax:gemcitabine (1:1 mol/mol),NAVITOCLAXGEMCITABINE11MOLMOL,6,6,2,2,4,6,0.09331196581196582,82.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Navitoclax:piperlongumine (1:1 mol/mol),NAVITOCLAXPIPERLONGUMINE11MOLMOL,6,3,3,0,1,3,-0.019885852547308718,252.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Navitoclax:pluripotin (1:1 mol/mol),NAVITOCLAXPLURIPOTIN11MOLMOL,6,2,1,0,0,2,-0.00471571906354515,252.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Necrostatin-1,NECROSTATIN1,6,6,6,3,5,6,0.13750576565355455,38.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Necrostatin-7,NECROSTATIN7,6,6,2,0,4,5,0.08745421245421245,64.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Nelarabine,NELARABINE,6,4,3,0,3,5,0.05523514121616507,130.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Neratinib,NERATINIB,6,0,0,0,0,0,-0.20496505410298516,392.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Neuronal differentiation inducer III,NEURONALDIFFERENTIATIONINDUCERIII,6,6,3,2,4,5,0.12252508361204013,56.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Niclosamide,NICLOSAMIDE,6,6,0,2,3,6,0.09566544566544564,97.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Nilotinib,NILOTINIB,6,6,6,6,6,6,0.23704828146967888,8.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Nintedanib,NINTEDANIB,6,3,2,0,1,2,-0.008143082209245374,223.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Nutlin-3,NUTLIN3,6,5,2,0,1,3,0.03062626936903315,186.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,OSI-027,OSI027,6,6,4,1,2,4,0.03965622500105259,157.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Obatoclax Mesylate,OBATOCLAXMESYLATE,6,6,3,2,3,6,0.10221674876847289,99.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Olaparib,OLAPARIB,6,6,3,3,5,6,0.10619278890535974,58.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Oligomycin A,OLIGOMYCINA,6,0,0,0,0,0,-0.07196581196581196,324.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Ouabain,OUABAIN,6,1,0,0,0,0,-0.05353985095364406,288.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Oxaliplatin,OXALIPLATIN,6,0,0,0,0,0,-0.08175566181614077,320.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,PCI-34051,PCI34051,6,4,3,0,0,3,0.03696100428859714,187.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,PD318088,PD318088,6,5,3,0,0,5,0.045429666119321296,151.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,PDMP,PDMP,6,3,3,0,0,3,0.025122123653828977,207.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,PF-184,PF184,6,2,1,0,0,1,-0.010641025641025644,212.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,PF-543,PF543,6,4,3,0,2,3,0.030422713248543242,164.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,PF-573228,PF573228,6,6,6,5,6,6,0.1797195296361036,28.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,PF-750,PF750,6,3,0,0,0,1,-0.0194763091361666,248.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,PHA-793887,PHA793887,6,4,2,0,1,3,0.03290598290598291,173.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,PI-103,PI103,6,6,4,3,3,6,0.16157278065087344,61.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,PIK-93,PIK93,6,2,2,1,1,2,-0.03095094778345092,281.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,PL-DI,PLDI,6,2,1,0,0,2,-0.02891351943076081,260.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,PLX-4720,PLX4720,6,5,1,0,0,4,0.02893821809642001,165.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,PRIMA-1,PRIMA1,6,5,3,0,0,6,0.056865738398407056,140.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,PRL-3 inhibitor I,PRL3INHIBITORI,6,6,2,0,6,6,0.11140443461294217,78.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,PX-12,PX12,6,6,5,1,5,6,0.09295433217782109,69.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,PYR-41,PYR41,6,6,4,2,3,6,0.10260061188467554,96.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Pandacostat,PANDACOSTAT,6,6,3,2,3,6,0.09800887329986208,106.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Panobinostat,PANOBINOSTAT,6,3,3,1,2,3,0.035303776683087026,193.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Parbendazole,PARBENDAZOLE,6,1,0,0,0,1,-0.03511705685618728,259.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Parthenolide,PARTHENOLIDE,6,2,2,0,1,2,-0.028653395587592483,271.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Pazopanib,PAZOPANIB,6,0,0,0,0,0,-0.12559364548494983,369.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Pevonedistat,PEVONEDISTAT,6,6,3,2,4,5,0.10459706959706958,74.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Phloretin,PHLORETIN,6,4,1,0,2,4,0.03977196783524681,154.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Pictilisib,PICTILISIB,6,0,0,0,0,0,-0.07156540777230432,314.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Pifithrin-mu,PIFITHRINMU,6,0,0,0,0,0,-0.2241296507859265,400.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Piperlongumine,PIPERLONGUMINE,6,5,5,1,3,6,0.09863247863247862,88.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Piperlongumine:MST-312 (1:1 mol/mol),PIPERLONGUMINEMST31211MOLMOL,6,6,6,4,6,6,0.14711462450592883,38.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Platin,PLATIN,6,6,3,2,3,6,0.08736044756476352,119.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Pluripotin,PLURIPOTIN,6,4,4,1,3,5,0.0882435568585267,117.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Procarbazine hydrochloride,PROCARBAZINEHYDROCHLORIDE,6,6,1,0,3,4,0.055799889404342634,119.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Prochlorperazine,PROCHLORPERAZINE,6,6,4,0,2,6,0.06891304347826087,138.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Purmorphamine,PURMORPHAMINE,6,0,0,0,0,0,-0.06439474173693381,302.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Pyrazolanthrone,PYRAZOLANTHRONE,6,3,1,0,0,2,0.0059260662708938575,222.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Quizartinib,QUIZARTINIB,6,1,0,0,0,0,-0.08239902121433132,322.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,RG-108,RG108,6,3,3,0,1,3,0.03773348373511229,164.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,RITA,RITA,6,2,2,0,1,2,-0.004818095598865323,212.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Rapamycin,RAPAMYCIN,6,6,6,3,4,6,0.11405469481211508,61.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Rigosertib,RIGOSERTIB,6,3,3,0,1,3,-0.0034756431308155464,210.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Ruxolitinib,RUXOLITINIB,6,4,0,0,0,3,0.005433008126620405,203.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,SB-225002,SB225002,6,6,2,1,4,6,0.089369921266473,78.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,SB-431542,SB431542,6,6,0,1,3,5,0.0789905134640909,114.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,SB-743921,SB743921,6,0,0,0,0,0,-0.14090308676307006,377.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,SB52334,SB52334,6,0,0,0,0,0,-0.06239316239316239,319.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,SCH-529074,SCH529074,6,6,3,1,3,6,0.06956285715357283,109.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,SCH-79797,SCH79797,6,6,4,2,4,6,0.08499115826702033,91.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,SGX-523,SGX523,6,6,1,1,3,4,0.06839716163654698,114.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,SID 26681509,SID26681509,6,5,0,1,2,5,0.04492518351214003,123.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,SJ-172550,SJ172550,6,2,0,0,0,2,-0.040197479299207424,264.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,SKI-II,SKIII,6,2,2,0,1,2,-0.024800703928006894,268.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,SMER-3,SMER3,6,6,3,0,0,5,0.057058159232072275,152.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,SN-38,SN38,6,6,5,0,3,6,0.07182855458717527,99.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,SNS-032,SNS032,6,4,3,3,3,4,0.12177350427350427,71.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,SNX-2112,SNX2112,6,3,2,0,1,2,0.0005164468457015733,237.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,SNX-2112:bortezomib (250:1 mol/mol),SNX2112BORTEZOMIB2501MOLMOL,6,1,1,0,0,1,-0.06268394648829431,315.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,SR-II-138A,SRII138A,6,2,2,0,0,1,-0.03701465201465201,259.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,SR1001,SR1001,6,6,4,4,6,6,0.1755373112799233,26.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,SRT-1720,SRT1720,6,0,0,0,0,0,-0.21895990529367437,400.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,STF-31,STF31,6,5,2,0,0,4,0.015253562828437565,174.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Salermide:PLX-4032 (12:1 mol/mol),SALERMIDEPLX4032121MOLMOL,6,3,3,0,2,3,0.031462154756527194,169.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Saracatinib,SARACATINIB,6,3,3,0,0,3,-0.015329670329670328,238.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Selisistat,SELISISTAT,6,1,1,0,0,1,-0.07574136892667982,318.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Selumetinib,SELUMETINIB,6,2,0,0,0,0,-0.018229548229548233,255.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Selumetinib:BRD-A02303741 (4:1 mol/mol),SELUMETINIBBRDA0230374141MOLMOL,6,0,0,0,0,0,-0.09050671550671549,346.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Selumetinib:GDC-0941 (4:1 mol/mol),SELUMETINIBGDC094141MOLMOL,6,1,0,0,0,0,-0.06969549499443826,331.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Selumetinib:JQ-1 (4:1 mol/mol),SELUMETINIBJQ141MOLMOL,6,0,0,0,0,0,-0.03770856507230256,280.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Selumetinib:MK-2206 (8:1 mol/mol),SELUMETINIBMK220681MOLMOL,6,4,4,0,0,4,0.04627805145046525,170.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Selumetinib:PLX-4032 (8:1 mol/mol),SELUMETINIBPLX403281MOLMOL,6,5,0,0,0,5,0.05199781061850027,156.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Selumetinib:UNC0638 (4:1 mol/mol),SELUMETINIBUNC063841MOLMOL,6,4,4,0,0,5,0.06112479474548439,144.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Selumetinib:decitabine (4:1 mol/mol),SELUMETINIBDECITABINE41MOLMOL,6,6,3,4,4,6,0.1586324786324786,40.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Selumetinib:navitoclax (8:1 mol/mol),SELUMETINIBNAVITOCLAX81MOLMOL,6,2,1,0,0,2,-0.03863247863247863,294.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Selumetinib:piperlongumine (8:1 mol/mol),SELUMETINIBPIPERLONGUMINE81MOLMOL,6,6,6,0,2,6,0.065,122.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Selumetinib:tretinoin (2:1 mol/mol),SELUMETINIBTRETINOIN21MOLMOL,6,5,1,0,0,4,0.01984126984126984,197.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Selumetinib:vorinostat (8:1 mol/mol),SELUMETINIBVORINOSTAT81MOLMOL,6,0,0,0,0,0,-0.06608142515871396,300.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Semagacestat,SEMAGACESTAT,6,5,1,1,2,5,0.05066086814085667,159.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Sepantronium bromide,SEPANTRONIUMBROMIDE,6,6,4,2,5,5,0.11935897435897434,60.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Serdemetan,SERDEMETAN,6,3,3,0,0,3,-0.023935088515436444,255.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Serdemetan:SCH-529074 (1:1 mol/mol),SERDEMETANSCH52907411MOLMOL,6,4,0,1,1,4,0.05392858243887867,172.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Sildenafil citrate,SILDENAFILCITRATE,6,6,6,4,6,6,0.1499863163656267,40.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Silmitasertib,SILMITASERTIB,6,6,6,5,6,6,0.25488428412724073,8.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Simvastatin,SIMVASTATIN,6,5,2,0,0,4,0.003568270809650116,173.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Sirolimus:bortezomib (250:1 mol/mol),SIROLIMUSBORTEZOMIB2501MOLMOL,6,4,4,1,1,4,0.07140679103759787,135.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Sorafenib,SORAFENIB,6,4,3,0,2,4,0.06384615384615384,149.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Spautin-1,SPAUTIN1,6,2,1,0,0,1,-0.03442316860003178,252.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,StemRegenin 1,STEMREGENIN1,6,1,0,0,0,1,-0.02709052119607969,242.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Sunitinib,SUNITINIB,6,4,3,0,0,4,0.02229379815586712,188.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,T-5345967,T5345967,6,0,0,0,0,0,-0.13315923207227554,374.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,TG-100-115,TG100115,6,6,6,3,4,6,0.11575936264985587,56.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,TGX221,TGX221,6,6,4,2,4,4,0.0862654877350975,87.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,TPCA-1,TPCA1,6,0,0,0,0,0,-0.06304914976582503,317.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,TW 37,TW37,6,1,0,0,0,0,-0.06113323354053442,307.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Tacrolimus,TACROLIMUS,6,2,2,0,0,2,-0.00886324961580554,216.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Tamatinib,TAMATINIB,6,6,6,1,5,6,0.08900224924483059,81.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Tamoxifen,TAMOXIFEN,6,5,5,0,3,5,0.0879927563532786,96.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Tandutinib,TANDUTINIB,6,6,6,3,4,6,0.12648221343873522,55.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Tanespimycin,TANESPIMYCIN,6,4,2,0,0,3,0.012478632478632476,197.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Tanespimycin:bortezomib (250:1 mol/mol),TANESPIMYCINBORTEZOMIB2501MOLMOL,6,1,0,0,0,1,-0.028514963297571996,261.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Tanespimycin:gemcitabine (1:1 mol/mol),TANESPIMYCINGEMCITABINE11MOLMOL,6,0,0,0,0,0,-0.056239737274220034,303.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Temozolomide,TEMOZOLOMIDE,6,6,4,1,3,6,0.08642819463157672,108.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Tipifarnib,TIPIFARNIB,6,5,5,0,4,5,0.08809829059829058,87.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Tivozanib,TIVOZANIB,6,3,3,2,3,3,0.03227725366443904,167.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Topotecan,TOPOTECAN,6,3,0,0,0,0,-0.008278598795840177,253.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Tretinoin:carboplatin (2:1 mol/mol),TRETINOINCARBOPLATIN21MOLMOL,6,6,6,0,1,6,0.07063776470478672,129.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Tretinoin:navitoclax (4:1 mol/mol),TRETINOINNAVITOCLAX41MOLMOL,6,6,3,3,4,6,0.13691056889080072,58.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Triazolothiadiazine,TRIAZOLOTHIADIAZINE,6,3,1,0,1,2,-0.008319649698960043,248.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Trifluoperazine,TRIFLUOPERAZINE,6,0,0,0,0,0,-0.03571723192179706,281.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Triptolide,TRIPTOLIDE,6,3,0,1,2,3,0.010943312083499848,218.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,UNC0321,UNC0321,6,3,1,0,0,1,-0.015850953305764498,239.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,UNC0638,UNC0638,6,1,0,0,0,0,-0.035261792503637465,237.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,VER155008,VER155008,6,1,0,0,0,0,-0.06866018680056392,311.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,VU0155056,VU0155056,6,0,0,0,0,0,-0.19985563314538374,397.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Valdecoxib,VALDECOXIB,6,3,3,2,3,3,0.03995608879470269,168.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Vandetanib,VANDETANIB,6,1,0,0,0,1,-0.08395038665556256,331.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Veliparib,VELIPARIB,6,1,0,0,0,0,-0.05732485371411036,313.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Vemurafenib,VEMURAFENIB,6,1,0,0,0,0,-0.052731318269454305,289.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Vincristine sulfate,VINCRISTINESULFATE,6,0,0,0,0,0,-0.0858652470999523,338.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Vorapaxar,VORAPAXAR,6,5,3,3,3,5,0.12006817515491411,78.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Vorinostat,VORINOSTAT,6,4,4,1,1,4,0.04221001221001221,133.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Vorinostat:navitoclax (4:1 mol/mol),VORINOSTATNAVITOCLAX41MOLMOL,6,6,6,4,6,6,0.14632445416067197,39.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Voxtalisib,VOXTALISIB,6,6,5,4,5,6,0.17267555648228183,20.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,WAY-362450,WAY362450,6,0,0,0,0,0,-0.10665721109098103,353.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,WP1130,WP1130,6,3,0,0,0,1,-0.02979177844221808,268.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,WZ8040,WZ8040,6,6,4,0,1,5,0.06090936035845042,126.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,YK-4-279,YK4279,6,1,0,0,0,0,-0.04533110981693411,278.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,YL54,YL54,6,6,6,1,2,4,0.03192743385637488,141.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,ZSTK474,ZSTK474,6,5,4,2,4,6,0.12054334554334553,73.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Zebularine,ZEBULARINE,6,0,0,0,0,0,-0.07701114423413463,326.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K13999467,BRDK13999467,6,1,1,0,0,1,-0.049566914199411435,312.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K92856060,BRDK92856060,6,0,0,0,0,0,-0.11486183508374287,365.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD1812,BRD1812,6,0,0,0,0,0,-0.07103174603174603,335.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Bax channel blocker,BAXCHANNELBLOCKER,6,6,3,0,1,6,0.07576923076923077,126.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,CCT036477,CCT036477,6,0,0,0,0,0,-0.06867643862542559,312.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Canertinib,CANERTINIB,6,0,0,0,0,0,-0.05980861244019139,295.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Carboplatin:UNC0638 (2:1 mol/mol),CARBOPLATINUNC063821MOLMOL,6,0,0,0,0,0,-0.1277339891016908,375.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Cyclosporin-A,CYCLOSPORINA,6,2,0,0,0,0,-0.056684093030307255,301.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Epigallocatechin-3-monogallate,EPIGALLOCATECHIN3MONOGALLATE,6,1,1,0,0,0,-0.035827759197324414,270.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Fluvastatin,FLUVASTATIN,6,1,0,0,0,1,-0.04030664681904426,293.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,GW843682X,GW843682X,6,6,4,0,2,6,0.07005360676151415,137.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Gossypol,GOSSYPOL,6,4,4,2,3,4,0.09013269339356297,111.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,JQ-1:navitoclax (2:1 mol/mol),JQ1NAVITOCLAX21MOLMOL,6,6,4,0,1,4,0.03195488721804511,177.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,L-685458,L685458,6,3,1,0,0,2,-0.0026211656199022996,253.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,ML162,ML162,6,0,0,0,0,0,-0.1853311439518336,395.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,NVP-ADW742,NVPADW742,6,6,2,0,1,6,0.03915866741953698,174.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Navitoclax:sorafenib (1:1 mol/mol),NAVITOCLAXSORAFENIB11MOLMOL,6,6,6,5,5,6,0.190311004784689,17.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,PAC-1,PAC1,6,1,0,0,0,0,-0.04578595317725752,273.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Pifithrin,PIFITHRIN,6,6,5,5,6,6,0.19587662828866642,11.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Regorafenib,REGORAFENIB,6,4,0,0,0,2,0.010090063154140802,212.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Repligen 136,REPLIGEN136,6,2,2,1,1,2,-0.02841986482091747,273.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Tretinoin,TRETINOIN,6,4,4,2,4,4,0.13543756240755633,58.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,UNC0638:navitoclax (1:1 mol/mol),UNC0638NAVITOCLAX11MOLMOL,6,5,3,2,3,4,0.08766210653024434,102.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Vorinostat:carboplatin (1:1 mol/mol),VORINOSTATCARBOPLATIN11MOLMOL,6,3,1,0,1,3,0.0016025641025641012,207.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K02251932,BRDK02251932,6,0,0,0,0,0,-0.0852470351977139,331.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-A94377914,BRDA94377914,6,3,0,2,3,3,-0.0007518796992481216,220.0,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,BRD-K79669418,BRDK79669418,6,6,0,6,6,6,0.2827506446641255,3.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,CIL55A,CIL55A,6,4,0,2,3,4,0.09774436090225563,103.0,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,FQI-1,FQI1,6,4,0,1,2,3,0.019548872180451128,194.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,SU11274,SU11274,6,6,0,3,4,6,0.12330827067669171,57.5,True,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank
+CTRPv2,Temsirolimus,TEMSIROLIMUS,6,3,0,0,0,1,-0.041353383458646614,287.5,False,top100_weighted;top100_rank;top250_weighted;top250_rank;top500_weighted;top500_rank

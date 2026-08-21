@@ -1,0 +1,47 @@
+{
+  "phase": "8-R2",
+  "frozen_signature_source": "outputs/phase7bR_trajectory_signatures.csv",
+  "primary_model": "top250 weighted; six trajectories; four backgrounds; self-line exclusion; 5000 shared matrix permutations",
+  "platforms": [
+    {
+      "n_crc_cell_lines": 35,
+      "n_response_rows": 34773,
+      "n_drugs": 1448,
+      "n_mts010_preferred_rows": 3567,
+      "sensitivity_metric": "-AUC; raw PRISM AUC stored in LN_IC50 placeholder for frozen association/null functions",
+      "source_readme": "C:\\Users\\21634\\Documents\\Codex\\2026-08-16\\meldonium-crc\\work\\phase8R_prism\\raw\\secondary-screen-readme.txt",
+      "platform": "PRISM",
+      "slug": "prism",
+      "n_expression_crc_models": 27,
+      "n_primary_rows": 1333,
+      "n_strict_primary_hits": 146,
+      "metric": "-AUC"
+    },
+    {
+      "n_crc_cell_lines": 35,
+      "n_response_rows": 12414,
+      "n_drugs": 544,
+      "sensitivity_metric": "-AUC; AUC_all_ccl_CTRPv2_conc stored in LN_IC50 placeholder for frozen association/null functions",
+      "source_readme": "CTRPv2 normalized AUC convention: 1=DMSO/least sensitive, 0=complete killing",
+      "platform": "CTRPv2",
+      "slug": "ctrpv2",
+      "n_expression_crc_models": 33,
+      "n_primary_rows": 406,
+      "n_strict_primary_hits": 69,
+      "metric": "-AUC"
+    }
+  ],
+  "replication_rule": "GDSC1/GDSC2=cross-GDSC; PRISM/CTRPv2=independent platforms; Level1 requires external platform support",
+  "prior_candidate_list_used": false,
+  "approved_nononcology_high_confidence_candidates_after_external_replication": ["ciclopirox"],
+  "novel_drugX_candidates_after_post_ranking_audit": [],
+  "ciclopirox_disposition": "phenotype-positive comparator; Class-B novelty downgrade because CRC and 5-FU-resistant CRC evidence pre-exists",
+  "next_step": "matched parental/OXA-R drug screen or focused wet-lab mini-screen",
+  "raw_data_policy": "raw files remain local and are not committed",
+  "outputs": [
+    "phase8R2_cross_platform_replication.csv",
+    "phase8R2_post_ranking_identity_audit.csv",
+    "phase8R2_novelty_audit.md",
+    "phase8R2_report.md"
+  ]
+}

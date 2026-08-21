@@ -1,0 +1,13 @@
+{
+  "phase": "8-R2",
+  "component": "GDSC_drug_universe_audit",
+  "locked_screen": "Phase 8-R top250 weighted; six trajectories; self-line exclusion retained",
+  "outputs": [
+    "phase8R2_gdsc_drug_universe_audit.csv",
+    "phase8R2_gdsc_coverage_summary.csv",
+    "phase8R2_gdsc_coverage_audit.md"
+  ],
+  "annotation_source": "local GDSC screened compound metadata + normalized PRISM secondary-screen metadata",
+  "approved_nononcology_rule": "PRISM phase=Launched, non-oncology context term present, oncology context term absent; unresolved matches excluded",
+  "raw_data_policy": "raw data remain local and are not committed"
+}
