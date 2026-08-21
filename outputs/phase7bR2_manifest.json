@@ -2,6 +2,7 @@
   "phase": "7B-R2",
   "parent_phase": "7B-R",
   "status": "completed_validation_patch",
+  "interpretation_status": "historical_R2; superseded_by_7B-R3_for_final_candidate_claims",
   "phase7c8_executed": false,
   "depmap_release": "23Q4",
   "n_crc_models": 56,

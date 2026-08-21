@@ -1,0 +1,57 @@
+{
+  "phase": "7B-R3",
+  "parent_phases": [
+    "7B-R",
+    "7B-R2"
+  ],
+  "status": "completed_final_global_null_validation",
+  "phase7c8_executed": false,
+  "depmap_release": "23Q4",
+  "n_crc_models": 56,
+  "trajectories": [
+    "GSE77932|HCT116",
+    "GSE77932|DLD1",
+    "GSE42387|HCT116",
+    "GSE42387|HT29",
+    "GSE42387|LoVo",
+    "GSE119603|HCT116"
+  ],
+  "backgrounds": [
+    "HCT116",
+    "DLD1",
+    "HT29",
+    "LoVo"
+  ],
+  "global_null": {
+    "permutations": 1000,
+    "seed": 20261120,
+    "unit": "one shared row-label permutation of full CRC CRISPR matrix per draw",
+    "statistic": "median vulnerability rho across 4 biological backgrounds; HCT116 median across its 3 trajectories",
+    "tail": "two-sided absolute global statistic",
+    "self_line_exclusion": "applied after the shared permutation for each trajectory",
+    "p_value_combination": "none; no Fisher; direct global empirical p followed by BH"
+  },
+  "corrected_partial_spearman": {
+    "same_covariates_for_X_and_Y": [
+      "proliferation",
+      "global_dependency",
+      "target_gene_expression"
+    ],
+    "scopes": [
+      "trajectory_top200",
+      "convergent_top500"
+    ]
+  },
+  "final_shortlist_criteria": [
+    "global empirical q <= 0.10",
+    ">=3/4 backgrounds positive",
+    ">=2 resampling-supported backgrounds",
+    ">=4/6 cross-method models internally stable",
+    "leave-HCT116-out median rho > 0 and >=2/3 remaining backgrounds positive",
+    "corrected partial-Spearman adjusted median rho > 0"
+  ],
+  "internal_stability_reclassification": "Phase 7B-R2 19 candidates are reported as internally cross-method-stable, not robust vulnerabilities.",
+  "internal_stability_count": 19,
+  "final_shortlist_count": 13,
+  "raw_data_policy": "Raw DepMap/GEO files remain local and ignored by git; only derived R3 outputs and scripts are committed."
+}

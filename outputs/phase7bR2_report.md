@@ -1,5 +1,7 @@
 # Phase 7B-R2 validation patch：corrected dependency interpretation
 
+> **R3 supersession notice:** the 19 candidates reported here are retained as historical R2 results and are now called **internally cross-method-stable candidates**, not robust vulnerabilities. The final calibrated interpretation is in [phase7bR3_report.md](phase7bR3_report.md), which adds a shared global permutation null and a symmetric partial-Spearman gate.
+
 ## Revised conclusion
 
 Using 56 CRC DepMap 23Q4 models, six OXA-R trajectories and four biological backgrounds, **no universal single-gene dependency was identified**. A broad set of non-universal discovery-tier candidates emerged, but none is yet sufficiently validated for drug mapping. Phase 7C/8 were not run.
