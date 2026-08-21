@@ -1,0 +1,31 @@
+{
+  "primary_contrasts": [],
+  "n_primary_contrasts": 7,
+  "n_pathways": 22,
+  "pathway_sizes": {
+    "GSH_redox": 36,
+    "NRF2_response": 23,
+    "ferroptosis_resistance": 19,
+    "DNA_repair": 150,
+    "UPR_ER_stress": 113,
+    "OXPHOS": 200,
+    "glycolysis": 200,
+    "EMT": 200,
+    "TGF_beta": 54,
+    "ABC_transport": 35,
+    "drug_metabolism": 200,
+    "apoptosis": 161,
+    "autophagy": 159,
+    "cholesterol_homeostasis": 74,
+    "lipid_FA_metabolism": 296,
+    "purine_metabolism": 40,
+    "pyrimidine_metabolism": 20,
+    "ROS": 49,
+    "TNF_NFkB": 200,
+    "IL6_JAK_STAT3": 87,
+    "FAO_mitochondrial": 37,
+    "carnitine_entry": 6
+  },
+  "standardization": "within dataset, gene-wise z-score; pathway score is mean z-score over present genes; delta is resistant minus parental",
+  "caution": "small sample sizes and platform heterogeneity make this a discovery matrix; sign consistency is descriptive until independent validation"
+}

@@ -1,0 +1,24 @@
+{
+  "n_cell_line_contrasts": 6,
+  "decomposition_sets": {
+    "pyrimidine_original_matrix": 20,
+    "pyrimidine_total_previous": 41,
+    "pyrimidine_de_novo_core": 5,
+    "pyrimidine_salvage": 16,
+    "pyrimidine_interconversion": 18,
+    "pyrimidine_catabolism": 12,
+    "UPR_total_hallmark": 113,
+    "PERK_eIF2A_ATF4": 8,
+    "IRE1_XBP1": 11,
+    "ATF6_proteostasis": 10,
+    "EMT_total_hallmark": 200,
+    "epithelial_state": 14,
+    "mesenchymal_state": 21,
+    "proliferation_E2F_G2M_MYC": 515,
+    "cell_cycle_G2M": 200,
+    "DNA_replication_E2F": 200,
+    "pyrimidine_original_no_prolif_overlap": 17
+  },
+  "scoring": "within dataset gene-wise z-score; delta is resistant minus parental; xenograft excluded from stability summaries",
+  "state_rule": "directional co-occurrence is EMT delta > 0, pyrimidine delta < 0, UPR delta < 0; exploratory only"
+}

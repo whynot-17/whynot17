@@ -1,0 +1,134 @@
+{
+  "scope": "first-pass transcriptomic screen of FAO/carnitine gene and module direction in parental versus OXA-resistant CRC models",
+  "datasets": {
+    "GSE77932": {
+      "platform": "GPL16699",
+      "groups": {
+        "HCT116": {
+          "parental": [
+            "GSM2061631"
+          ],
+          "resistant": [
+            "GSM2061632",
+            "GSM2061633",
+            "GSM2061634"
+          ]
+        },
+        "DLD1": {
+          "parental": [
+            "GSM2061635"
+          ],
+          "resistant": [
+            "GSM2061636",
+            "GSM2061637",
+            "GSM2061638"
+          ]
+        }
+      },
+      "note": "matched parental and independent OHP-resistant clones; no biological parental replicates"
+    },
+    "GSE42387": {
+      "platform": "GPL16297",
+      "groups": {
+        "HCT116": {
+          "parental": [
+            "GSM1038651",
+            "GSM1038652",
+            "GSM1038653"
+          ],
+          "resistant": [
+            "GSM1038654",
+            "GSM1038655",
+            "GSM1038656"
+          ]
+        },
+        "HT29": {
+          "parental": [
+            "GSM1038660",
+            "GSM1038661",
+            "GSM1038662"
+          ],
+          "resistant": [
+            "GSM1038663",
+            "GSM1038664",
+            "GSM1038665"
+          ]
+        },
+        "LoVo": {
+          "parental": [
+            "GSM1038669",
+            "GSM1038670",
+            "GSM1038671"
+          ],
+          "resistant": [
+            "GSM1038672",
+            "GSM1038673",
+            "GSM1038674"
+          ]
+        }
+      },
+      "note": "three CRC backgrounds with biological triplicates; parental and resistant cells cultured drug-free before profiling"
+    },
+    "GSE124808": {
+      "platform": "GPL16699",
+      "groups": {
+        "HCT116_xenograft": {
+          "parental": [
+            "GSM3554324"
+          ],
+          "resistant": [
+            "GSM3554325",
+            "GSM3554326"
+          ]
+        }
+      },
+      "note": "xenograft tumors from parental versus two HCT/OHP-resistant clones; descriptive validation only"
+    }
+  },
+  "gene_sets": {
+    "carnitine_core": [
+      "BBOX1",
+      "SLC22A5",
+      "CPT1A",
+      "CPT1B",
+      "CPT2",
+      "SLC25A20"
+    ],
+    "fao_core": [
+      "CPT1A",
+      "CPT1B",
+      "CPT2",
+      "ACADM",
+      "ACADVL",
+      "HADHA",
+      "HADHB",
+      "ECHS1",
+      "ETFA",
+      "ETFB",
+      "ETFDH",
+      "PPARGC1A",
+      "KLF5",
+      "FABP6"
+    ],
+    "fao_carnitine_combined": [
+      "BBOX1",
+      "SLC22A5",
+      "SLC25A20",
+      "CPT1A",
+      "CPT1B",
+      "CPT2",
+      "ACADM",
+      "ACADVL",
+      "HADHA",
+      "HADHB",
+      "ECHS1",
+      "ETFA",
+      "ETFB",
+      "ETFDH",
+      "PPARGC1A",
+      "KLF5",
+      "FABP6"
+    ]
+  },
+  "interpretation_boundary": "This screen tests transcriptomic direction, not biochemical FAO flux or causal dependency."
+}

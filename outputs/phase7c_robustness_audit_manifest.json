@@ -1,0 +1,7 @@
+{
+  "n_modules": 4227,
+  "n_selected_for_redundancy": 290,
+  "n_redundancy_clusters": 140,
+  "n_robust_modules": 101,
+  "rules": "trajectory and dataset leave-one-out; overlap coefficient >=0.60; full |median NES| >=0.75; >=2 trajectory FDR q<=0.25"
+}

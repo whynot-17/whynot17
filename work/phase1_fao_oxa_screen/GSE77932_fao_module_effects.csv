@@ -1,0 +1,7 @@
+dataset,cell_line,module,n_genes,parental_n,resistant_n,delta_resistant_minus_parental,p_value,direction
+GSE77932,HCT116,carnitine_core,6,1,3,1.0613948285703239,,up
+GSE77932,HCT116,fao_core,13,1,3,0.3145415415117081,,up
+GSE77932,HCT116,fao_carnitine_combined,16,1,3,0.512163209271471,,up
+GSE77932,DLD1,carnitine_core,6,1,3,-0.18842381202470646,,down
+GSE77932,DLD1,fao_core,13,1,3,-0.11199454689055705,,down
+GSE77932,DLD1,fao_carnitine_combined,16,1,3,-0.13605601944237194,,down

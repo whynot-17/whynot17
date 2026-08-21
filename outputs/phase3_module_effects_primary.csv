@@ -1,0 +1,120 @@
+contrast_id,dataset,model,pathway,source,n_genes_present,delta
+GSE77932|HCT116,GSE77932,HCT116,pyrimidine_original_matrix,curated mechanistic decomposition,20,-0.32088225654460345
+GSE77932|HCT116,GSE77932,HCT116,pyrimidine_total_previous,curated mechanistic decomposition,41,-0.7698194352314802
+GSE77932|HCT116,GSE77932,HCT116,pyrimidine_de_novo_core,curated mechanistic decomposition,5,-1.835322353603298
+GSE77932|HCT116,GSE77932,HCT116,pyrimidine_salvage,MSigDB Reactome + transport genes,16,-0.28083188216650257
+GSE77932|HCT116,GSE77932,HCT116,pyrimidine_interconversion,curated mechanistic decomposition,18,-0.9920996482552623
+GSE77932|HCT116,GSE77932,HCT116,pyrimidine_catabolism,MSigDB Reactome,12,-0.2975419887253776
+GSE77932|HCT116,GSE77932,HCT116,UPR_total_hallmark,MSigDB Hallmark,109,-0.8775099634455328
+GSE77932|HCT116,GSE77932,HCT116,PERK_eIF2A_ATF4,curated mechanistic decomposition,7,-0.6141771513748742
+GSE77932|HCT116,GSE77932,HCT116,IRE1_XBP1,curated mechanistic decomposition,11,0.4561971182706072
+GSE77932|HCT116,GSE77932,HCT116,ATF6_proteostasis,curated mechanistic decomposition,10,-0.014752007353131702
+GSE77932|HCT116,GSE77932,HCT116,EMT_total_hallmark,MSigDB Hallmark,195,0.6032493923557187
+GSE77932|HCT116,GSE77932,HCT116,epithelial_state,curated mechanistic decomposition,13,0.42101337807091666
+GSE77932|HCT116,GSE77932,HCT116,mesenchymal_state,curated mechanistic decomposition,20,0.5964978663683906
+GSE77932|HCT116,GSE77932,HCT116,proliferation_E2F_G2M_MYC,MSigDB Hallmark,489,-1.0409809999201116
+GSE77932|HCT116,GSE77932,HCT116,cell_cycle_G2M,MSigDB Hallmark,188,-0.5284499583359537
+GSE77932|HCT116,GSE77932,HCT116,DNA_replication_E2F,MSigDB Hallmark,193,-0.8625583461159797
+GSE77932|HCT116,GSE77932,HCT116,pyrimidine_original_no_prolif_overlap,curated mechanistic decomposition,17,-0.21248759844359824
+GSE77932|DLD1,GSE77932,DLD1,pyrimidine_original_matrix,curated mechanistic decomposition,20,-0.11906863314950741
+GSE77932|DLD1,GSE77932,DLD1,pyrimidine_total_previous,curated mechanistic decomposition,41,0.057385442899597155
+GSE77932|DLD1,GSE77932,DLD1,pyrimidine_de_novo_core,curated mechanistic decomposition,5,0.23162037066798563
+GSE77932|DLD1,GSE77932,DLD1,pyrimidine_salvage,MSigDB Reactome + transport genes,16,-0.0588944090881411
+GSE77932|DLD1,GSE77932,DLD1,pyrimidine_interconversion,curated mechanistic decomposition,18,0.22898552893036891
+GSE77932|DLD1,GSE77932,DLD1,pyrimidine_catabolism,MSigDB Reactome,12,0.017473200584778917
+GSE77932|DLD1,GSE77932,DLD1,UPR_total_hallmark,MSigDB Hallmark,109,0.3706582395124405
+GSE77932|DLD1,GSE77932,DLD1,PERK_eIF2A_ATF4,curated mechanistic decomposition,7,0.36542497998740464
+GSE77932|DLD1,GSE77932,DLD1,IRE1_XBP1,curated mechanistic decomposition,11,0.39436792991721226
+GSE77932|DLD1,GSE77932,DLD1,ATF6_proteostasis,curated mechanistic decomposition,10,0.5573211790138735
+GSE77932|DLD1,GSE77932,DLD1,EMT_total_hallmark,MSigDB Hallmark,195,0.20137737174008757
+GSE77932|DLD1,GSE77932,DLD1,epithelial_state,curated mechanistic decomposition,13,-0.024930259173282412
+GSE77932|DLD1,GSE77932,DLD1,mesenchymal_state,curated mechanistic decomposition,20,0.015045348385326396
+GSE77932|DLD1,GSE77932,DLD1,proliferation_E2F_G2M_MYC,MSigDB Hallmark,489,0.11522430840692759
+GSE77932|DLD1,GSE77932,DLD1,cell_cycle_G2M,MSigDB Hallmark,188,-0.0009344037126925997
+GSE77932|DLD1,GSE77932,DLD1,DNA_replication_E2F,MSigDB Hallmark,193,-0.010728257206832459
+GSE77932|DLD1,GSE77932,DLD1,pyrimidine_original_no_prolif_overlap,curated mechanistic decomposition,17,-0.1610179584438212
+GSE42387|HCT116,GSE42387,HCT116,pyrimidine_original_matrix,curated mechanistic decomposition,18,-0.14910440655621685
+GSE42387|HCT116,GSE42387,HCT116,pyrimidine_total_previous,curated mechanistic decomposition,37,-0.2903017821713574
+GSE42387|HCT116,GSE42387,HCT116,pyrimidine_de_novo_core,curated mechanistic decomposition,4,-0.2872486127603476
+GSE42387|HCT116,GSE42387,HCT116,pyrimidine_salvage,MSigDB Reactome + transport genes,15,-0.06472869902403744
+GSE42387|HCT116,GSE42387,HCT116,pyrimidine_interconversion,curated mechanistic decomposition,16,-0.49468526138055136
+GSE42387|HCT116,GSE42387,HCT116,pyrimidine_catabolism,MSigDB Reactome,11,-0.1200389045916728
+GSE42387|HCT116,GSE42387,HCT116,UPR_total_hallmark,MSigDB Hallmark,105,-0.07498504403770881
+GSE42387|HCT116,GSE42387,HCT116,PERK_eIF2A_ATF4,curated mechanistic decomposition,7,0.19215912442533434
+GSE42387|HCT116,GSE42387,HCT116,IRE1_XBP1,curated mechanistic decomposition,11,0.342608850363146
+GSE42387|HCT116,GSE42387,HCT116,ATF6_proteostasis,curated mechanistic decomposition,10,-0.1131017260408548
+GSE42387|HCT116,GSE42387,HCT116,EMT_total_hallmark,MSigDB Hallmark,194,0.01563523373885716
+GSE42387|HCT116,GSE42387,HCT116,epithelial_state,curated mechanistic decomposition,14,-0.08953244792015502
+GSE42387|HCT116,GSE42387,HCT116,mesenchymal_state,curated mechanistic decomposition,20,0.07793821590082645
+GSE42387|HCT116,GSE42387,HCT116,proliferation_E2F_G2M_MYC,MSigDB Hallmark,493,-0.29552497603435945
+GSE42387|HCT116,GSE42387,HCT116,cell_cycle_G2M,MSigDB Hallmark,189,-0.17732676950474038
+GSE42387|HCT116,GSE42387,HCT116,DNA_replication_E2F,MSigDB Hallmark,193,-0.25937856639490864
+GSE42387|HCT116,GSE42387,HCT116,pyrimidine_original_no_prolif_overlap,curated mechanistic decomposition,15,-0.1151978140113605
+GSE42387|HT29,GSE42387,HT29,pyrimidine_original_matrix,curated mechanistic decomposition,18,-0.1378341421348391
+GSE42387|HT29,GSE42387,HT29,pyrimidine_total_previous,curated mechanistic decomposition,37,0.14856607671481706
+GSE42387|HT29,GSE42387,HT29,pyrimidine_de_novo_core,curated mechanistic decomposition,4,0.446338758544748
+GSE42387|HT29,GSE42387,HT29,pyrimidine_salvage,MSigDB Reactome + transport genes,15,0.05141195316991935
+GSE42387|HT29,GSE42387,HT29,pyrimidine_interconversion,curated mechanistic decomposition,16,0.45793440776152594
+GSE42387|HT29,GSE42387,HT29,pyrimidine_catabolism,MSigDB Reactome,11,-0.1892184130555213
+GSE42387|HT29,GSE42387,HT29,UPR_total_hallmark,MSigDB Hallmark,105,-0.0399505380959215
+GSE42387|HT29,GSE42387,HT29,PERK_eIF2A_ATF4,curated mechanistic decomposition,7,-0.15630574188177554
+GSE42387|HT29,GSE42387,HT29,IRE1_XBP1,curated mechanistic decomposition,11,-0.2467429886440609
+GSE42387|HT29,GSE42387,HT29,ATF6_proteostasis,curated mechanistic decomposition,10,-0.10618385569186736
+GSE42387|HT29,GSE42387,HT29,EMT_total_hallmark,MSigDB Hallmark,194,0.10160134853610488
+GSE42387|HT29,GSE42387,HT29,epithelial_state,curated mechanistic decomposition,14,-0.26919759494471285
+GSE42387|HT29,GSE42387,HT29,mesenchymal_state,curated mechanistic decomposition,20,0.10087911089817539
+GSE42387|HT29,GSE42387,HT29,proliferation_E2F_G2M_MYC,MSigDB Hallmark,493,0.4978111773883279
+GSE42387|HT29,GSE42387,HT29,cell_cycle_G2M,MSigDB Hallmark,189,0.46213814405154136
+GSE42387|HT29,GSE42387,HT29,DNA_replication_E2F,MSigDB Hallmark,193,0.610413526960855
+GSE42387|HT29,GSE42387,HT29,pyrimidine_original_no_prolif_overlap,curated mechanistic decomposition,15,-0.3333602068846806
+GSE42387|LoVo,GSE42387,LoVo,pyrimidine_original_matrix,curated mechanistic decomposition,18,-0.09721386494728416
+GSE42387|LoVo,GSE42387,LoVo,pyrimidine_total_previous,curated mechanistic decomposition,37,0.15067575716329934
+GSE42387|LoVo,GSE42387,LoVo,pyrimidine_de_novo_core,curated mechanistic decomposition,4,0.6928870155076747
+GSE42387|LoVo,GSE42387,LoVo,pyrimidine_salvage,MSigDB Reactome + transport genes,15,0.13811079372007778
+GSE42387|LoVo,GSE42387,LoVo,pyrimidine_interconversion,curated mechanistic decomposition,16,0.320402654639064
+GSE42387|LoVo,GSE42387,LoVo,pyrimidine_catabolism,MSigDB Reactome,11,-0.15211877372267107
+GSE42387|LoVo,GSE42387,LoVo,UPR_total_hallmark,MSigDB Hallmark,105,-0.1463811431367426
+GSE42387|LoVo,GSE42387,LoVo,PERK_eIF2A_ATF4,curated mechanistic decomposition,7,-0.46696309966232646
+GSE42387|LoVo,GSE42387,LoVo,IRE1_XBP1,curated mechanistic decomposition,11,-0.2871986515905165
+GSE42387|LoVo,GSE42387,LoVo,ATF6_proteostasis,curated mechanistic decomposition,10,-0.19399770897005297
+GSE42387|LoVo,GSE42387,LoVo,EMT_total_hallmark,MSigDB Hallmark,194,-0.07244445136039451
+GSE42387|LoVo,GSE42387,LoVo,epithelial_state,curated mechanistic decomposition,14,-0.09926488604149053
+GSE42387|LoVo,GSE42387,LoVo,mesenchymal_state,curated mechanistic decomposition,20,0.07360582712902553
+GSE42387|LoVo,GSE42387,LoVo,proliferation_E2F_G2M_MYC,MSigDB Hallmark,493,0.10940957848853126
+GSE42387|LoVo,GSE42387,LoVo,cell_cycle_G2M,MSigDB Hallmark,189,-0.011066178059204242
+GSE42387|LoVo,GSE42387,LoVo,DNA_replication_E2F,MSigDB Hallmark,193,0.1455330366227739
+GSE42387|LoVo,GSE42387,LoVo,pyrimidine_original_no_prolif_overlap,curated mechanistic decomposition,15,-0.2059265331703622
+GSE124808|HCT116_xenograft,GSE124808,HCT116_xenograft,pyrimidine_original_matrix,curated mechanistic decomposition,20,0.12348291194503536
+GSE124808|HCT116_xenograft,GSE124808,HCT116_xenograft,pyrimidine_total_previous,curated mechanistic decomposition,41,-0.2640472595503923
+GSE124808|HCT116_xenograft,GSE124808,HCT116_xenograft,pyrimidine_de_novo_core,curated mechanistic decomposition,5,-0.7734269053758893
+GSE124808|HCT116_xenograft,GSE124808,HCT116_xenograft,pyrimidine_salvage,MSigDB Reactome + transport genes,16,0.278228768082165
+GSE124808|HCT116_xenograft,GSE124808,HCT116_xenograft,pyrimidine_interconversion,curated mechanistic decomposition,18,-0.5765975311060666
+GSE124808|HCT116_xenograft,GSE124808,HCT116_xenograft,pyrimidine_catabolism,MSigDB Reactome,12,0.22263706104410558
+GSE124808|HCT116_xenograft,GSE124808,HCT116_xenograft,UPR_total_hallmark,MSigDB Hallmark,109,-0.031767002350979914
+GSE124808|HCT116_xenograft,GSE124808,HCT116_xenograft,PERK_eIF2A_ATF4,curated mechanistic decomposition,7,0.1696944132485837
+GSE124808|HCT116_xenograft,GSE124808,HCT116_xenograft,IRE1_XBP1,curated mechanistic decomposition,11,1.1009223734506475
+GSE124808|HCT116_xenograft,GSE124808,HCT116_xenograft,ATF6_proteostasis,curated mechanistic decomposition,10,0.994603004707187
+GSE124808|HCT116_xenograft,GSE124808,HCT116_xenograft,EMT_total_hallmark,MSigDB Hallmark,195,0.20535453058664274
+GSE124808|HCT116_xenograft,GSE124808,HCT116_xenograft,epithelial_state,curated mechanistic decomposition,13,0.4303486361054397
+GSE124808|HCT116_xenograft,GSE124808,HCT116_xenograft,mesenchymal_state,curated mechanistic decomposition,20,0.28642461580296275
+GSE124808|HCT116_xenograft,GSE124808,HCT116_xenograft,proliferation_E2F_G2M_MYC,MSigDB Hallmark,489,-0.41138290347687767
+GSE124808|HCT116_xenograft,GSE124808,HCT116_xenograft,cell_cycle_G2M,MSigDB Hallmark,188,-0.26271609372642607
+GSE124808|HCT116_xenograft,GSE124808,HCT116_xenograft,DNA_replication_E2F,MSigDB Hallmark,193,-0.22870233691194425
+GSE124808|HCT116_xenograft,GSE124808,HCT116_xenograft,pyrimidine_original_no_prolif_overlap,curated mechanistic decomposition,17,0.2038568238544019
+GSE119603|HCT116,GSE119603,HCT116,pyrimidine_original_matrix,curated mechanistic decomposition,20,-0.06051265283358277
+GSE119603|HCT116,GSE119603,HCT116,pyrimidine_total_previous,curated mechanistic decomposition,41,0.20727624540298734
+GSE119603|HCT116,GSE119603,HCT116,pyrimidine_de_novo_core,curated mechanistic decomposition,5,-0.20450968346588572
+GSE119603|HCT116,GSE119603,HCT116,pyrimidine_salvage,MSigDB Reactome + transport genes,16,-0.4054752994055248
+GSE119603|HCT116,GSE119603,HCT116,pyrimidine_interconversion,curated mechanistic decomposition,18,0.5669235727274324
+GSE119603|HCT116,GSE119603,HCT116,pyrimidine_catabolism,MSigDB Reactome,12,-0.09171973976709598
+GSE119603|HCT116,GSE119603,HCT116,UPR_total_hallmark,MSigDB Hallmark,108,-0.013692624391979644
+GSE119603|HCT116,GSE119603,HCT116,PERK_eIF2A_ATF4,curated mechanistic decomposition,7,-0.9681141945515366
+GSE119603|HCT116,GSE119603,HCT116,IRE1_XBP1,curated mechanistic decomposition,11,-0.18292280654770188
+GSE119603|HCT116,GSE119603,HCT116,ATF6_proteostasis,curated mechanistic decomposition,10,-0.08505901049770348
+GSE119603|HCT116,GSE119603,HCT116,EMT_total_hallmark,MSigDB Hallmark,198,0.030638455345557848
+GSE119603|HCT116,GSE119603,HCT116,epithelial_state,curated mechanistic decomposition,14,0.9077043829362224
+GSE119603|HCT116,GSE119603,HCT116,mesenchymal_state,curated mechanistic decomposition,21,-0.38593150576096225
+GSE119603|HCT116,GSE119603,HCT116,proliferation_E2F_G2M_MYC,MSigDB Hallmark,500,0.2784982397639219
+GSE119603|HCT116,GSE119603,HCT116,cell_cycle_G2M,MSigDB Hallmark,190,0.3580706291646052
+GSE119603|HCT116,GSE119603,HCT116,DNA_replication_E2F,MSigDB Hallmark,196,0.20303275743174798
+GSE119603|HCT116,GSE119603,HCT116,pyrimidine_original_no_prolif_overlap,curated mechanistic decomposition,17,-0.3682051139933935

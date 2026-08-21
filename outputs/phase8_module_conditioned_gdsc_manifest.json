@@ -1,0 +1,8 @@
+{
+  "focus_modules": 29,
+  "pairwise_records": 89352,
+  "drug_module_records": 14906,
+  "robust_candidate_records": 596,
+  "mapping": "GDSC COSMICID -> DepMap ModelID",
+  "rule": "T1=6/6 or T2=5/6 positive module directions; >=2 datasets; >=3 trajectories; fraction negative rho >=0.60"
+}

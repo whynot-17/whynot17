@@ -1,0 +1,26 @@
+# Local raw data and downloaded archives
+work/**/raw/
+work/**/data/
+work/**/annotation/
+work/**/cache/
+work/**/signature_cache/
+work/**/*.part*
+work/**/*.xlsx
+work/**/*.xls
+work/**/*.gz
+work/**/*.tar.gz
+work/**/*.db
+work/**/*.sqlite
+work/**/*.soft.txt
+work/**/*series_matrix.txt
+
+# Local runtime/cache files
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+Thumbs.db
+
+# Keep the small, versioned gene-set definitions used by the analysis.
+!work/gene_sets/
+!work/gene_sets/*.gmt

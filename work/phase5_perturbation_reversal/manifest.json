@@ -1,0 +1,21 @@
+{
+  "n_models": 6,
+  "models": [
+    "GSE77932|HCT116",
+    "GSE77932|DLD1",
+    "GSE42387|HCT116",
+    "GSE42387|HT29",
+    "GSE42387|LoVo",
+    "GSE119603|HCT116"
+  ],
+  "drug_metadata_records": {
+    "leflunomide": 12,
+    "teriflunomide": 12,
+    "bortezomib": 24,
+    "meldonium": 0
+  },
+  "signature_selection": "HT29, 24 h when available; otherwise HT29 all times",
+  "rrs_definition": "(1 - Spearman(disease_delta, drug_CD_coefficient))/2; higher is stronger reversal",
+  "top_genes": "250 most up plus 250 most down disease genes",
+  "target_network_remove_DHODH": "DHODH removed from the curated compensatory network, not from the whole transcriptome top-gene score"
+}

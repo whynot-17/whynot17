@@ -1,0 +1,4 @@
+dataset,module,n_genes,responder_n,non_responder_n,mean_responder,mean_non_responder,delta_non_responder_minus_responder,p_value,direction
+GSE83129,carnitine_core,6,21,12,0.006523085182935996,-0.011415399070134452,-0.017938484253070448,0.9315105547572213,lower_in_non_responder
+GSE83129,fao_core,14,21,12,-0.03306603339072171,0.057865558433764196,0.0909315918244859,0.6122972965918462,higher_in_non_responder
+GSE83129,fao_carnitine_combined,17,21,12,-0.014201134880763735,0.024851986041338158,0.03905312092210189,0.7986129954182325,higher_in_non_responder

@@ -1,0 +1,7 @@
+trajectory,n_genes_total,n_up,n_down,top_n_each_direction,signature_rule
+GSE77932|HCT116,2418,1528,890,250,top directional gene-delta genes; trajectories kept separate
+GSE77932|DLD1,2418,1552,866,250,top directional gene-delta genes; trajectories kept separate
+GSE42387|HCT116,19228,9069,10159,250,top directional gene-delta genes; trajectories kept separate
+GSE42387|HT29,19228,10028,9200,250,top directional gene-delta genes; trajectories kept separate
+GSE42387|LoVo,19228,9777,9451,250,top directional gene-delta genes; trajectories kept separate
+GSE119603|HCT116,54261,15947,15266,250,top directional gene-delta genes; trajectories kept separate

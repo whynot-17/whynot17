@@ -1,0 +1,4 @@
+dataset,cell_line,module,n_genes,parental_n,resistant_n,delta_resistant_minus_parental,p_value,direction
+GSE124808,HCT116_xenograft,carnitine_core,6,1,2,0.5885687724575328,,up
+GSE124808,HCT116_xenograft,fao_core,13,1,2,0.08479305451972015,,up
+GSE124808,HCT116_xenograft,fao_carnitine_combined,16,1,2,0.13944010765316,,up

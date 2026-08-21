@@ -1,0 +1,17 @@
+{
+  "n_trajectories": 6,
+  "trajectories": [
+    "GSE77932|HCT116",
+    "GSE77932|DLD1",
+    "GSE42387|HCT116",
+    "GSE42387|HT29",
+    "GSE42387|LoVo",
+    "GSE119603|HCT116"
+  ],
+  "gene_delta_file": "C:\\Users\\21634\\Documents\\Codex\\2026-08-16\\meldonium-crc\\work\\phase5_perturbation_reversal\\gene_delta_matrix_primary.csv",
+  "dependency_analysis": "completed",
+  "n_crc_samples": 80,
+  "n_dependency_genes": 18443,
+  "n_convergent_genes": 0,
+  "n_exploratory_convergent_signals": 2
+}

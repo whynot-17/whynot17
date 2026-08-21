@@ -1,0 +1,4 @@
+dataset,module,n_genes,resistant_n,sensitive_n,delta_resistant_minus_sensitive,p_value,direction
+GSE30011,carnitine_core,5,8,6,-0.2589832185133179,0.49122526997445476,lower_in_resistant
+GSE30011,fao_core,4,8,6,-0.31349033051619646,,lower_in_resistant
+GSE30011,fao_carnitine_combined,7,8,6,-0.33254506927442723,0.2918064492593209,lower_in_resistant

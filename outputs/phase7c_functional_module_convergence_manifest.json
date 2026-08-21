@@ -1,0 +1,29 @@
+{
+  "phase": "7C",
+  "seed": 20260820,
+  "permutations": 100,
+  "dependency_input": "C:\\Users\\21634\\Documents\\Codex\\2026-08-16\\meldonium-crc\\outputs\\phase7b_trajectory_gene_dependency.csv",
+  "n_ranked_genes_by_trajectory": {
+    "GSE77932|HCT116": 17931,
+    "GSE77932|DLD1": 17931,
+    "GSE42387|HCT116": 17931,
+    "GSE42387|HT29": 17931,
+    "GSE42387|LoVo": 17931,
+    "GSE119603|HCT116": 17931
+  },
+  "tie_handling": "exact Spearman-rho ties were broken deterministically by alphabetical gene order using epsilon 1e-10..1e-12; this is required for a reproducible preranked order and does not change score magnitudes materially",
+  "gene_set_counts": {
+    "REACTOME": 1818,
+    "HALLMARK": 50,
+    "CURATED": 22,
+    "CORUM": 1592,
+    "COESSENTIALITY": 1878
+  },
+  "gene_set_sources": {
+    "Reactome/Hallmark": "local MSigDB v2026.1 GMT files",
+    "CURATED": "phase3/phase7b mechanistic modules",
+    "CORUM": "corum_allComplexes_2019.txt from mal2017/corumdata; frozen fallback due current CORUM TLS issue",
+    "COESSENTIALITY": "kundajelab/coessentiality clusterOne_clusters.tsv"
+  },
+  "note": "No drug screening or single-gene gate was applied in Phase 7C; module-level convergence is exploratory and must be validated in paired parental/OXA-R functional data."
+}

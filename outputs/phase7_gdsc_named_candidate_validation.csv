@@ -1,0 +1,11 @@
+dataset,DRUG_NAME,n_overlap,n_OXA_R_like,n_OXA_S_like,spearman_r,spearman_p,pearson_r,pearson_p,median_LN_IC50_R,median_LN_IC50_S,delta_R_minus_S,mannwhitney_p,collateral_sensitivity_direction,spearman_p_BH,pearson_p_BH,mannwhitney_p_BH,status
+GDSC2,Bortezomib,44.0,22.0,22.0,0.31994362226920364,0.03424522463311593,0.4760212859341335,0.0010905705309875889,-4.4371515,-4.8382735,0.401122,0.14886094830032753,no,0.04435571952479778,0.0022136954061837627,0.19189657790373976,measured
+GDSC2,Leflunomide,46.0,23.0,23.0,0.43595436324390996,0.0024576751899317776,0.5423982129139476,9.865827811717771e-05,5.583767,5.191762,0.39200500000000016,0.03891325832172359,no,0.005968639746977174,0.0003626358330793559,0.08467525010807053,measured
+GDSC1+GDSC2,Atorvastatin,,,,,,,,,,,,,,,,not_measured_in_available_OXA_anchor
+GDSC1+GDSC2,Sulfasalazine,,,,,,,,,,,,,,,,not_measured_in_available_OXA_anchor
+GDSC1+GDSC2,Topiramate,,,,,,,,,,,,,,,,not_measured_in_available_OXA_anchor
+GDSC1+GDSC2,Amlodipine,,,,,,,,,,,,,,,,not_measured_in_available_OXA_anchor
+GDSC1+GDSC2,Teriflunomide,,,,,,,,,,,,,,,,not_measured_in_available_OXA_anchor
+GDSC1+GDSC2,Minocycline,,,,,,,,,,,,,,,,not_measured_in_available_OXA_anchor
+GDSC1+GDSC2,Meldonium,,,,,,,,,,,,,,,,not_measured_in_available_OXA_anchor
+GDSC1+GDSC2,Ivermectin,,,,,,,,,,,,,,,,not_measured_in_available_OXA_anchor

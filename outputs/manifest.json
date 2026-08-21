@@ -1,0 +1,14 @@
+{
+  "ht29_metadata_records": 2626,
+  "candidate_metadata_records": 501,
+  "scored_signatures": 442,
+  "unique_scored_drugs": 28,
+  "contexts": [
+    "HT29",
+    "HCC515",
+    "A549",
+    "MCF7",
+    "PC3"
+  ],
+  "note": "This is the first HT29 page of the LINCS metadata universe; approved status is a curated filter and requires formal FDA/ChEMBL verification before publication."
+}

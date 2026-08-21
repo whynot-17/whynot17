@@ -1,0 +1,4 @@
+dataset,cell_line,module,n_genes,parental_n,resistant_n,delta_resistant_minus_parental,p_value,direction
+GSE119603,HCT116,carnitine_core,6,3,3,-0.14902457279158343,0.4368963057541722,down
+GSE119603,HCT116,fao_core,14,3,3,-0.051662682910505534,0.7393870942587544,down
+GSE119603,HCT116,fao_carnitine_combined,17,3,3,-0.10755583758038884,0.4289425416295921,down
