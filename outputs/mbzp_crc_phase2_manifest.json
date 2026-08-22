@@ -1,0 +1,238 @@
+{
+  "analysis": "MBzP-CRC Phase 2A NHANES sample audit",
+  "run_timestamp_utc": "2026-08-22T07:09:11.034213+00:00",
+  "audit_only": true,
+  "regression_performed": false,
+  "cycles": [
+    "1999-2000",
+    "2001-2002",
+    "2003-2004",
+    "2005-2006",
+    "2007-2008",
+    "2009-2010",
+    "2011-2012",
+    "2013-2014",
+    "2015-2016",
+    "2017-2018"
+  ],
+  "data_source": "CDC NHANES public XPT files",
+  "source_file_map": [
+    {
+      "file": "1999-2000_PHPYPA.XPT",
+      "sha256": "b26f557f9dfa11b3273a6ab6653e85172a6c7316e48267bdcbf9d597a2d6e084",
+      "bytes": 1514800
+    },
+    {
+      "file": "1999-2000_MCQ.XPT",
+      "sha256": "3bf45a296282a80baa23b4651c655cf422a235a08a142aa2ab5dd7ca963a2e5a",
+      "bytes": 12706880
+    },
+    {
+      "file": "1999-2000_DEMO.XPT",
+      "sha256": "a17bd1ebfd6007b8dc93f16259cb090678eb6c467a39363b7e932bba15febf89",
+      "bytes": 11500560
+    },
+    {
+      "file": "2001-2002_PHPYPA.XPT",
+      "sha256": "d20278e4c4ec84766beaad66282cb08f153430531f64fa69f29b2a525c335b5b",
+      "bytes": 724640
+    },
+    {
+      "file": "2001-2002_MCQ.XPT",
+      "sha256": "6e31c8d78e1ab0d1aaa8f012411641d6b51bc9601c2237d999d0acdddd04de01",
+      "bytes": 12417920
+    },
+    {
+      "file": "2001-2002_DEMO.XPT",
+      "sha256": "6458dc2307cee244ab6ba26f70ec78c7b842ffc68e668bc43f0ab6b9737937d9",
+      "bytes": 3273520
+    },
+    {
+      "file": "2003-2004_L24PH.XPT",
+      "sha256": "3c2847a7f5fa5acd5f50f846e648b9f9a0507af9a272c865d25d11d38b77dc54",
+      "bytes": 630560
+    },
+    {
+      "file": "2003-2004_MCQ.XPT",
+      "sha256": "42487737067c5dbdf533bb91b5f752d1fff1dfa9eed91c7ae54ab5e49b65b019",
+      "bytes": 11904960
+    },
+    {
+      "file": "2003-2004_DEMO.XPT",
+      "sha256": "2a2fdb88263337bfa06f0516bfb419631595f0a0ee88fb96069bed13d1857c6f",
+      "bytes": 3569840
+    },
+    {
+      "file": "2005-2006_PHTHTE.XPT",
+      "sha256": "5ed37a3d5d34a15db34d23806624f45ce2f217c4b6fadef31d6aa031ccaa572e",
+      "bytes": 701840
+    },
+    {
+      "file": "2005-2006_MCQ.XPT",
+      "sha256": "12bf5f557c97284e096a8cd8aefbc8e3ab9f12a410c2f50474c4dfddd2ebf6f4",
+      "bytes": 7006480
+    },
+    {
+      "file": "2005-2006_DEMO.XPT",
+      "sha256": "bf9cc79cce501b2fbe5aa8d5b403b618548d02d4aefeb528335cdd9f4c40a3af",
+      "bytes": 3566560
+    },
+    {
+      "file": "2007-2008_PHTHTE.XPT",
+      "sha256": "1cd285c7023329f425d59934fb490e4ef10b624c10af769321832a474a7e5ddc",
+      "bytes": 722960
+    },
+    {
+      "file": "2007-2008_MCQ.XPT",
+      "sha256": "dfbe11c6b036ec4e79aeba7805833fc4951c74662a9510066c3a93932f6990e6",
+      "bytes": 7127840
+    },
+    {
+      "file": "2007-2008_DEMO.XPT",
+      "sha256": "02b8e97703d04bc99769c751881bece51ac9ba68cf18a2992a45d3bdfb856147",
+      "bytes": 3498080
+    },
+    {
+      "file": "2009-2010_PHTHTE.XPT",
+      "sha256": "aeaae6409c168258d888bea3010e14a84dad9b5a519ac7cf2f40df1f4ea5aea0",
+      "bytes": 749600
+    },
+    {
+      "file": "2009-2010_MCQ.XPT",
+      "sha256": "c2f0f9223c6a9e38e5bf6d26501c4b11d3cfd97b82db46e1c9c266f24761c457",
+      "bytes": 6562720
+    },
+    {
+      "file": "2009-2010_DEMO.XPT",
+      "sha256": "78c4d4a6e5eafa9da3bbb24a90d140fef5d8c0cda932a7ff8ee609288d4fae07",
+      "bytes": 3631600
+    },
+    {
+      "file": "2011-2012_PHTHTE.XPT",
+      "sha256": "d858d116a6249848f912b1d7d96430de58bb73fafac64c1fb03dac673e021ec2",
+      "bytes": 648480
+    },
+    {
+      "file": "2011-2012_MCQ.XPT",
+      "sha256": "7538eb86c72b81fd5e76b56120fcb068ed38149d44650e9e750670ad58658d52",
+      "bytes": 6905520
+    },
+    {
+      "file": "2011-2012_DEMO.XPT",
+      "sha256": "eaf0525d1952626885af3e935415a1f66ad62c18698080e7354789c125af252d",
+      "bytes": 3753760
+    },
+    {
+      "file": "2013-2014_PHTHTE.XPT",
+      "sha256": "248209bd9171597729674e285f11e8ba0be056f03c49c727491372450b5694de",
+      "bytes": 649120
+    },
+    {
+      "file": "2013-2014_MCQ.XPT",
+      "sha256": "5c83210e6e1fe929282621322ed0f94d95cdb0a37ccaff36f703ab0b2e7b9dc6",
+      "bytes": 7439280
+    },
+    {
+      "file": "2013-2014_DEMO.XPT",
+      "sha256": "f8f0cbb3085a323d4cde22349b164878fea1e64dbc404e65b5815c7816b547d7",
+      "bytes": 3833200
+    },
+    {
+      "file": "2015-2016_PHTHTE.XPT",
+      "sha256": "9934f4befb8519daceb36358a10a6052b24b3452d85e55a47524544054f987e4",
+      "bytes": 877280
+    },
+    {
+      "file": "2015-2016_MCQ.XPT",
+      "sha256": "8b2bd62f5bcd5820d6aac380e4bad233d22ecab42fcf4a3a9a023ffc6b9f4002",
+      "bytes": 6907360
+    },
+    {
+      "file": "2015-2016_DEMO.XPT",
+      "sha256": "c9297c6c37ae8f78f29be9568fa2a03cf3b112616a39afee04030fc775a66a0d",
+      "bytes": 3756480
+    },
+    {
+      "file": "2017-2018_PHTHTE.XPT",
+      "sha256": "89e55b4459086e41e815228b18c144a8046bf9e2391137c3602cce92dfd3b67d",
+      "bytes": 961840
+    },
+    {
+      "file": "2017-2018_MCQ.XPT",
+      "sha256": "79c50c805a377fcd61d44fae8b86a16af0a5741f8b1aeebda918d7d743c68f98",
+      "bytes": 5420800
+    },
+    {
+      "file": "2017-2018_DEMO.XPT",
+      "sha256": "c0b46e0345ea19404928656277c8b0d10b0cca348a9b2fe4fc3c67e8b7ee73ec",
+      "bytes": 3412720
+    }
+  ],
+  "laboratory_measure": "URXMZP (mono-benzyl phthalate; ng/mL)",
+  "outcome_variable": "MCQ220 cancer history availability",
+  "crc_type_codes": {
+    "16": "colon",
+    "31": "rectal"
+  },
+  "crc_definition": "Union of MCQ230A-D code 16 (Colon) and code 31 (Rectum)",
+  "counts_are": "unweighted participant counts",
+  "totals": {
+    "nhanes_total_n": 101316,
+    "mbzp_available_n": 26740,
+    "cancer_outcome_available_n": 17382,
+    "mbzp_crc_outcome_n": 16768,
+    "crc_cases_n": 115,
+    "colon_cases_n": 111,
+    "rectal_cases_n": 7,
+    "both_colon_rectal_cases_n": 3,
+    "controls_non_crc_n": 16653,
+    "cancer_free_controls_n": 15259
+  },
+  "weight_columns_recorded": [
+    {
+      "cycle": "1999-2000",
+      "mbzp_weight_column": "WTSPH2YR"
+    },
+    {
+      "cycle": "2001-2002",
+      "mbzp_weight_column": "WTSPH2YR"
+    },
+    {
+      "cycle": "2003-2004",
+      "mbzp_weight_column": "WTSB2YR"
+    },
+    {
+      "cycle": "2005-2006",
+      "mbzp_weight_column": "WTSB2YR"
+    },
+    {
+      "cycle": "2007-2008",
+      "mbzp_weight_column": "WTSB2YR"
+    },
+    {
+      "cycle": "2009-2010",
+      "mbzp_weight_column": "WTSB2YR"
+    },
+    {
+      "cycle": "2011-2012",
+      "mbzp_weight_column": "WTSA2YR"
+    },
+    {
+      "cycle": "2013-2014",
+      "mbzp_weight_column": "WTSB2YR"
+    },
+    {
+      "cycle": "2015-2016",
+      "mbzp_weight_column": "WTSB2YR"
+    },
+    {
+      "cycle": "2017-2018",
+      "mbzp_weight_column": "WTSB2YR"
+    }
+  ],
+  "software": {
+    "python": "3.12.13",
+    "pandas": "3.0.1"
+  },
+  "next_gate": "Do not run Phase 2B regression until the event-count audit is accepted."
+}

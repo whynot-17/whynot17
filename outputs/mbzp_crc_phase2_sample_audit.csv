@@ -1,0 +1,14 @@
+metric,n,definition
+nhanes_total_n,101316,Sum of DEMO participant rows across the ten 2-year cycles; unweighted.
+mbzp_available_n,26740,URXMZP is non-missing in the phthalate laboratory file; unweighted.
+cancer_outcome_available_n,17382,MCQ220 is non-missing after lab–MCQ SEQN intersection; unweighted.
+mbzp_crc_outcome_n,16768,Both URXMZP and MCQ220 are non-missing; final Phase 2A audit denominator; unweighted.
+crc_cases_n,115,Combined CRC cases among MBzP + outcome participants; MCQ230A-D code 16 or 31; unweighted.
+colon_cases_n,111,At least one MCQ230A-D code 16 (Colon); unweighted.
+rectal_cases_n,7,At least one MCQ230A-D code 31 (Rectum); unweighted.
+both_colon_rectal_cases_n,3,Participants with both a colon and rectal cancer type code; unweighted.
+controls_non_crc_n,16653,MBzP + outcome participants without a combined CRC type code; unweighted.
+cancer_free_controls_n,15259,MBzP + MCQ220=2 (reported no cancer); unweighted.
+model_1_complete_case_n,,Deferred: Phase 2A audit only; no covariate model run.
+model_2_complete_case_n,,Deferred: Phase 2A audit only; no covariate model run.
+model_3_complete_case_n,,Deferred: Phase 2A audit only; no covariate model run.
