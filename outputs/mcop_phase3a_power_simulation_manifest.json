@@ -1,0 +1,61 @@
+{
+  "analysis": "MCOP-CRC Phase 3A planning power simulation",
+  "run_timestamp_utc": "2026-08-22T12:11:16.458871+00:00",
+  "seed": 20260822,
+  "n_sim_per_cell": 1000,
+  "case_counts": [
+    181,
+    150,
+    120,
+    100,
+    80
+  ],
+  "controls_per_case": [
+    1,
+    2
+  ],
+  "target_or_per_doubling": [
+    1.15,
+    1.2,
+    1.25,
+    1.3
+  ],
+  "alpha": 0.05,
+  "test": "two-sided Wald test from custom conditional logistic likelihood",
+  "proxy": {
+    "exposure_center_log2": 3.1663429794898996,
+    "exposure_sd_log2": 2.0586268408047013,
+    "numeric_standardization": {
+      "age": {
+        "mean": 47.336453301127214,
+        "sd": 17.258455641355365
+      },
+      "bmi": {
+        "mean": 29.238406803542674,
+        "sd": 7.098961808888677
+      },
+      "pir": {
+        "mean": 2.498160225442834,
+        "sd": 1.6348277069259127
+      },
+      "creatinine_log2": {
+        "mean": 6.651673922321708,
+        "sd": 1.0681646643992402
+      }
+    },
+    "categorical_dummy_columns": [
+      "sex_Male",
+      "race_Non-Hispanic Black",
+      "race_Non-Hispanic White",
+      "race_Other Hispanic",
+      "race_Other/Multi",
+      "smoking_Former",
+      "smoking_Never"
+    ],
+    "n_proxy_rows": 9936
+  },
+  "outputs": [
+    "mcop_phase3a_power_simulation.csv",
+    "mcop_phase3a_power_simulation_report.md"
+  ]
+}
