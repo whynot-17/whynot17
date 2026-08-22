@@ -342,7 +342,7 @@ def run_coexposure_audit(primary: pd.DataFrame, model_module) -> pd.DataFrame:
     result = pd.DataFrame(rows)
     adjusted = result["Model_role"].eq("coexposure_adjusted")
     result.loc[adjusted, "MCOP_BH_FDR"] = bh_fdr(result.loc[adjusted, "P"])
-    result["Burden_definition"] = "mean z-score of 9 non-MCOP phthalate metabolites; minimum 2 measured" 
+    result["Burden_definition"] = "mean z-score of 9 non-MCOP phthalate metabolites; minimum 2 measured"
     return result
 
 
