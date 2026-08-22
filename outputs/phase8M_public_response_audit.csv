@@ -1,0 +1,5 @@
+platform,metadata_or_response_match,n_matching_records,n_crc_response_records,matched_aliases,matched_names
+GDSC,False,0,0,,
+PRISM,False,0,0,,
+CTRPv2,False,0,0,,
+LINCS/L1000,False,0,0,,

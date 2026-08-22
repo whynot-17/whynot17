@@ -1,0 +1,135 @@
+{
+  "phase": "8-M",
+  "candidate": "Meldonium",
+  "prespecified_named_candidate_challenge": true,
+  "frozen_model": "Phase 8-R2 six trajectories; four backgrounds; top100/250/500 weighted/rank; no re-ranking",
+  "aliases": [
+    [
+      "meldonium",
+      "INN/common name"
+    ],
+    [
+      "mildronate",
+      "brand/generic name"
+    ],
+    [
+      "mildronat",
+      "MeSH entry term"
+    ],
+    [
+      "mildronāts",
+      "brand spelling"
+    ],
+    [
+      "mindronate",
+      "MeSH entry term"
+    ],
+    [
+      "MET-88",
+      "MeSH synonym"
+    ],
+    [
+      "3-TMHP",
+      "MeSH abbreviation"
+    ],
+    [
+      "Vasonat",
+      "MeSH synonym"
+    ],
+    [
+      "Quaterin",
+      "PubChem synonym"
+    ],
+    [
+      "Kvaterin",
+      "PubChem synonym"
+    ],
+    [
+      "Quaterine",
+      "PubChem synonym"
+    ],
+    [
+      "3-(2,2,2-trimethylhydrazine)propionate",
+      "chemical name"
+    ],
+    [
+      "3-(2,2,2-trimethylhydrazinium)propionate",
+      "chemical name"
+    ],
+    [
+      "3-(2,2,2-trimethylhydrazinium)propanoate",
+      "chemical name"
+    ],
+    [
+      "3-(2,2,2-trimethyldiazaniumyl)propanoate",
+      "chemical name"
+    ],
+    [
+      "3-[(trimethylazaniumyl)amino]propanoate",
+      "IUPAC name"
+    ],
+    [
+      "N-trimethylhydrazine-3-propionate",
+      "chemical name"
+    ],
+    [
+      "trimethylhydraziniumpropionate",
+      "chemical name"
+    ],
+    [
+      "76144-81-5",
+      "CAS"
+    ],
+    [
+      "802032-35-5",
+      "salt/CAS record"
+    ],
+    [
+      "CHEBI:131843",
+      "ChEBI"
+    ],
+    [
+      "CHEMBL2104708",
+      "ChEMBL"
+    ],
+    [
+      "CID 123868",
+      "PubChem CID"
+    ],
+    [
+      "C01EB22",
+      "ATC"
+    ],
+    [
+      "73H7UDN6EC",
+      "UNII"
+    ],
+    [
+      "DTXSID10997497",
+      "DSSTox"
+    ],
+    [
+      "DTXCID301424501",
+      "DSSTox compound ID"
+    ]
+  ],
+  "crc_expression_models_audited": 76,
+  "direct_response_available": false,
+  "challenge_status": "no_direct_response_unavailable_not_negative",
+  "public_platforms": [
+    "GDSC",
+    "PRISM",
+    "CTRPv2",
+    "LINCS/L1000"
+  ],
+  "if_direct_response": "apply frozen Phase 8-R2 locked model; no alternative threshold permitted",
+  "if_unavailable": "mechanism consistency audit followed by matched parental/OXA-R mini-screen",
+  "outputs": [
+    "phase8M_meldonium_alias_registry.csv",
+    "phase8M_public_response_audit.csv",
+    "phase8M_public_response_audit_matches.csv",
+    "phase8M_mechanism_consistency_audit.csv",
+    "phase8M_report.md"
+  ],
+  "raw_data_policy": "raw data remain local and are not committed"
+}

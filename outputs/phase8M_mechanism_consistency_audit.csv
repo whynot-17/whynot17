@@ -1,0 +1,9 @@
+evidence_layer,feature,metric,value,interpretation
+OXA-R transcriptional state,carnitine_entry,n_down/n_up; median_delta,5/1; -0.104503,"carnitine-entry is directionally down in 5/6 models; FAO is split 3/3. This is transcript-level state evidence, not flux or dependency."
+OXA-R transcriptional state,FAO_mitochondrial,n_down/n_up; median_delta,3/3; -0.067597,"carnitine-entry is directionally down in 5/6 models; FAO is split 3/3. This is transcript-level state evidence, not flux or dependency."
+R3 functional dependency,SLC22A5,r3_rank; median_rho; global_q; leave_HCT116_rho,13863; 0.024459; 0.961814; 0.006421,No gene passes the frozen final shortlist; the carnitine/FAO axis lacks stable universal functional dependency.
+R3 functional dependency,CPT1A,r3_rank; median_rho; global_q; leave_HCT116_rho,11408; -0.040224; 0.922193; -0.060245,No gene passes the frozen final shortlist; the carnitine/FAO axis lacks stable universal functional dependency.
+R3 functional dependency,CPT2,r3_rank; median_rho; global_q; leave_HCT116_rho,5989; 0.081818; 0.751836; 0.173232,No gene passes the frozen final shortlist; the carnitine/FAO axis lacks stable universal functional dependency.
+R3 functional dependency,BBOX1,r3_rank; median_rho; global_q; leave_HCT116_rho,10538; 0.047150; 0.904552; -0.013709,No gene passes the frozen final shortlist; the carnitine/FAO axis lacks stable universal functional dependency.
+Meldonium pharmacology,Meldonium→BBOX1/GBBD inhibition→carnitine availability↓,directionality,not a reversal of carnitine-entry↓,The broad direction is same-side rather than opposite-side to the dominant carnitine-entry transcript state; this weakens a universal reversal claim.
+Direct public drug response,Meldonium,GDSC/PRISM/CTRPv2/LINCS alias audit,0 direct response/signature records,"No public pharmacogenomic score or percentile can be calculated; this is unavailable, not negative."
