@@ -1,0 +1,4 @@
+dataset_id,compartment,score,paired_donors,mean_delta_tumor_minus_normal,median_delta_tumor_minus_normal,wilcoxon_statistic,p_value
+16023185-de21-4c0d-a9c8-73abdd52d142,epithelial,PPAR_nuclear_receptor_score,36,-0.548313739816447,-0.4186007613938946,44.0,4.2922329157590866e-07
+16023185-de21-4c0d-a9c8-73abdd52d142,epithelial,RELA_STAT3_score,36,1.196112560595379,1.1669473793631873,34.0,1.0841176845133305e-07
+16023185-de21-4c0d-a9c8-73abdd52d142,epithelial,DINP_axis_9_gene_score,36,-0.16066345083604108,0.0110431032559095,302.0,0.6357367984892335

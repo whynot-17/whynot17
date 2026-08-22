@@ -22,6 +22,10 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+# CELLxGENE Census metadata audit is reproducible but exceeds GitHub's
+# per-file limit; keep it locally and version its compact summaries instead.
+outputs/mcop_phase2f_singlecell_observation_metadata_audit.csv
+
 # Keep the small, versioned gene-set definitions used by the analysis.
 !work/gene_sets/
 !work/gene_sets/*.gmt

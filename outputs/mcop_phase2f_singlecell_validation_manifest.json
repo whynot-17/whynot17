@@ -1,0 +1,46 @@
+{
+  "analysis": "MCOP-CRC Phase 2F-B CELLxGENE Census single-cell validation",
+  "census_version": "2025-11-08",
+  "census_uri": "s3://cellxgene-census-public-us-west-2/cell-census/2025-11-08/soma/",
+  "organism": "homo_sapiens",
+  "primary_data_filter": "is_primary_data == True",
+  "nr_genes": [
+    "PPARA",
+    "PPARD",
+    "PPARG",
+    "NR1I2",
+    "NR1I3",
+    "NR1H2",
+    "NR1H3"
+  ],
+  "inflammatory_genes": [
+    "RELA",
+    "STAT3"
+  ],
+  "all_genes": [
+    "PPARA",
+    "PPARD",
+    "PPARG",
+    "NR1I2",
+    "NR1I3",
+    "NR1H2",
+    "NR1H3",
+    "RELA",
+    "STAT3"
+  ],
+  "unit_of_analysis": "donor-level pseudobulk",
+  "tumor_labeling": "tumor-derived epithelial; no malignant annotation/CNV inference",
+  "max_datasets": null,
+  "dataset_ids": [
+    "16023185-de21-4c0d-a9c8-73abdd52d142"
+  ],
+  "compartments": [
+    "epithelial"
+  ],
+  "full_scope": false,
+  "n_relevant_observations": 1145214,
+  "n_datasets": 23,
+  "n_donors": 289,
+  "execution_error": null,
+  "run_timestamp_utc": "2026-08-22T17:29:01.029191+00:00"
+}

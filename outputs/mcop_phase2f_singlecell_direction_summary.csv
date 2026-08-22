@@ -1,0 +1,4 @@
+compartment,score,eligible_datasets,positive_datasets,negative_datasets,positive_fraction,median_dataset_delta
+epithelial,DINP_axis_9_gene_score,1,0,1,0.0,-0.11076238746646758
+epithelial,PPAR_nuclear_receptor_score,1,0,1,0.0,-0.5055771800708357
+epithelial,RELA_STAT3_score,1,1,0,1.0,1.2710893866488209

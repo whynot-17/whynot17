@@ -1,0 +1,19 @@
+{
+  "organism": "homo_sapiens",
+  "tissue_general_candidates": [
+    "large intestine",
+    "colon"
+  ],
+  "preferred_tissue_general": [
+    "colon",
+    "large intestine"
+  ],
+  "tumor_disease_labels": [
+    "colon adenocarcinoma",
+    "colorectal carcinoma || metastatic malignant neoplasm"
+  ],
+  "normal_disease_labels": [
+    "normal"
+  ],
+  "summary_rows_human": 1739
+}

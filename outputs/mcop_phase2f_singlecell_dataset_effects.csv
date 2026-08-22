@@ -1,0 +1,4 @@
+compartment,score,dataset_dropped,tumor_donors,normal_donors,n_datasets,n_tumor_datasets,n_normal_datasets,tumor_median,normal_median,mean_delta_tumor_minus_normal,median_delta_tumor_minus_normal,mann_whitney_U,p_value,dataset_id
+epithelial,PPAR_nuclear_receptor_score,NONE,62,36,1,1,1,-0.005558605328020811,0.3792260632785236,-0.5055771800708357,-0.3847846686065444,186.0,7.397423485906375e-12,16023185-de21-4c0d-a9c8-73abdd52d142
+epithelial,RELA_STAT3_score,NONE,62,36,1,1,1,0.5502577584634589,-0.8290044651582851,1.2710893866488209,1.379262223621744,2094.0,5.869245185008669e-13,16023185-de21-4c0d-a9c8-73abdd52d142
+epithelial,DINP_axis_9_gene_score,NONE,62,36,1,1,1,0.09016087156549916,0.06958770101502199,-0.11076238746646758,0.02057317055047718,1100.0,0.9090601720974039,16023185-de21-4c0d-a9c8-73abdd52d142
