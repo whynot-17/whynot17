@@ -28,13 +28,18 @@ ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_OUTPUT = ROOT / "outputs"
 REQUIRED_COLUMNS = [
     "set_id", "crc", "mcop_ng_mL", "creatinine_mg_dL", "age", "bmi",
-    "smoking", "alcohol", "physical_activity", "ses", "sex", "race",
+    "smoking", "alcohol", "physical_activity", "ses", "race",
     "assay_batch",
 ]
 NUMERIC_COVARIATES = [
     "age", "bmi", "alcohol", "physical_activity", "ses", "log2_creatinine",
 ]
-CATEGORICAL_COVARIATES = ["smoking", "sex", "race", "assay_batch"]
+CATEGORICAL_COVARIATES = ["smoking", "race", "assay_batch"]
+ADJUSTMENT_CANDIDATES = [
+    "age", "bmi", "smoking", "alcohol", "physical_activity", "ses",
+    "race", "log2_creatinine", "assay_batch",
+]
+DEFAULT_ADJUSTMENT_COVARIATES = ADJUSTMENT_CANDIDATES.copy()
 
 
 def validate_input(data: pd.DataFrame) -> None:
@@ -61,8 +66,22 @@ def prepare(data: pd.DataFrame) -> pd.DataFrame:
     return work
 
 
-def encode_design(frame: pd.DataFrame, exposure_column: str = "log2_mcop") -> tuple[pd.DataFrame, list[str]]:
-    numeric = frame[NUMERIC_COVARIATES].copy()
+def resolve_adjustment_covariates(matching_factors: list[str]) -> list[str]:
+    unknown = [column for column in matching_factors if column not in ADJUSTMENT_CANDIDATES]
+    if unknown:
+        raise ValueError(f"Unknown matching factor(s): {', '.join(unknown)}")
+    return [column for column in ADJUSTMENT_CANDIDATES if column not in matching_factors]
+
+
+def encode_design(
+    frame: pd.DataFrame,
+    exposure_column: str = "log2_mcop",
+    adjustment_covariates: list[str] | None = None,
+) -> tuple[pd.DataFrame, list[str]]:
+    covariates = DEFAULT_ADJUSTMENT_COVARIATES if adjustment_covariates is None else adjustment_covariates
+    numeric_columns = [column for column in covariates if column in NUMERIC_COVARIATES]
+    categorical_columns = [column for column in covariates if column in CATEGORICAL_COVARIATES]
+    numeric = frame[numeric_columns].copy()
     for column in numeric.columns:
         numeric[column] = pd.to_numeric(numeric[column], errors="coerce")
         sd = numeric[column].std(ddof=0)
@@ -70,7 +89,7 @@ def encode_design(frame: pd.DataFrame, exposure_column: str = "log2_mcop") -> tu
             raise ValueError(f"Covariate has no usable variance: {column}")
         numeric[column] = (numeric[column] - numeric[column].mean()) / sd
     categorical = pd.get_dummies(
-        frame[CATEGORICAL_COVARIATES].astype("string"),
+        frame[categorical_columns].astype("string"),
         drop_first=True,
         dtype=float,
     )
@@ -81,8 +100,12 @@ def encode_design(frame: pd.DataFrame, exposure_column: str = "log2_mcop") -> tu
     return design.astype(float), list(design.columns)
 
 
-def fit_conditional_logit(frame: pd.DataFrame, exposure_column: str = "log2_mcop") -> dict:
-    design_frame, columns = encode_design(frame, exposure_column)
+def fit_conditional_logit(
+    frame: pd.DataFrame,
+    exposure_column: str = "log2_mcop",
+    adjustment_covariates: list[str] | None = None,
+) -> dict:
+    design_frame, columns = encode_design(frame, exposure_column, adjustment_covariates)
     work = frame[["set_id", "crc"]].join(design_frame)
     work = work.dropna().copy()
     within_set_range = work.groupby("set_id", sort=False)[columns].agg(lambda values: values.max() - values.min())
@@ -190,16 +213,19 @@ def analysis_frame(
     return frame.dropna(subset=required).copy()
 
 
-def run_pipeline(input_path: Path, outdir: Path) -> pd.DataFrame:
+def run_pipeline(input_path: Path, outdir: Path, matching_factors: list[str]) -> pd.DataFrame:
     data = pd.read_csv(input_path)
     validate_input(data)
     work = prepare(data)
+    adjustment_covariates = resolve_adjustment_covariates(matching_factors)
     outputs = []
     for label, lag in [("primary", None), ("lag_ge_2y", 2.0), ("lag_ge_5y", 5.0)]:
         frame = analysis_frame(work, lag)
-        fit = fit_conditional_logit(frame)
+        fit = fit_conditional_logit(frame, adjustment_covariates=adjustment_covariates)
         fit["analysis"] = label
         fit["lag_min_years"] = lag
+        fit["matching_factors"] = ";".join(matching_factors)
+        fit["adjustment_covariates_requested"] = ";".join(adjustment_covariates)
         outputs.append(fit)
 
     if {"mcop_baseline_ng_mL", "mcop_year3_ng_mL"}.issubset(work.columns):
@@ -210,9 +236,15 @@ def run_pipeline(input_path: Path, outdir: Path) -> pd.DataFrame:
             + np.log2(year3.where(year3 > 0))
         ) / 2.0
         repeated = analysis_frame(work, exposure_column="log2_mcop_repeated_mean")
-        fit = fit_conditional_logit(repeated, exposure_column="log2_mcop_repeated_mean")
+        fit = fit_conditional_logit(
+            repeated,
+            exposure_column="log2_mcop_repeated_mean",
+            adjustment_covariates=adjustment_covariates,
+        )
         fit["analysis"] = "repeated_urine_mean"
         fit["lag_min_years"] = np.nan
+        fit["matching_factors"] = ";".join(matching_factors)
+        fit["adjustment_covariates_requested"] = ";".join(adjustment_covariates)
         outputs.append(fit)
 
     result = pd.DataFrame(outputs)
@@ -222,9 +254,10 @@ def run_pipeline(input_path: Path, outdir: Path) -> pd.DataFrame:
         "run_timestamp_utc": datetime.now(timezone.utc).isoformat(),
         "input": str(input_path),
         "status": "requires WHI-accessed de-identified input CSV",
+        "matching_factors": matching_factors,
         "primary_exposure": "log2(MCOP), OR per doubling",
         "outcome": "incident invasive CRC, one case per matched set",
-        "covariates": NUMERIC_COVARIATES + CATEGORICAL_COVARIATES,
+        "adjustment_covariates": adjustment_covariates,
         "outputs": ["mcop_phase3a_whi_model_results.csv"],
     }
     (outdir / "mcop_phase3a_whi_model_manifest.json").write_text(
@@ -237,10 +270,16 @@ def run_pipeline(input_path: Path, outdir: Path) -> pd.DataFrame:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", type=Path, required=True)
+    parser.add_argument(
+        "--matching-factors",
+        required=True,
+        help="Comma-separated WHI matched-set variables to exclude from the fixed-effect adjustment set, e.g. age,race",
+    )
     parser.add_argument("--outdir", type=Path, default=DEFAULT_OUTPUT)
     args = parser.parse_args()
     args.outdir.mkdir(parents=True, exist_ok=True)
-    print(run_pipeline(args.input, args.outdir).to_string(index=False))
+    matching_factors = [item.strip() for item in args.matching_factors.split(",") if item.strip()]
+    print(run_pipeline(args.input, args.outdir, matching_factors).to_string(index=False))
 
 
 if __name__ == "__main__":

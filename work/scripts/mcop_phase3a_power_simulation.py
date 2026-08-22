@@ -30,7 +30,7 @@ CASE_COUNTS = [181, 150, 120, 100, 80]
 MATCH_RATIOS = [1, 2]
 TARGET_ORS = [1.15, 1.20, 1.25, 1.30]
 NUMERIC_PROXY = ["age", "bmi", "pir", "creatinine_log2"]
-CATEGORICAL_PROXY = ["sex", "race", "smoking"]
+CATEGORICAL_PROXY = ["race", "smoking"]
 
 
 def load_mcop_module():
@@ -51,9 +51,10 @@ def load_proxy_frame(harmonized: Path, data_dir: Path) -> pd.DataFrame:
         mcop_module.read_mcop(data_dir)[0],
     )
     primary = model_module.population_frames(data)["CRC_vs_cancer_free"].copy()
+    primary = primary[primary["sex"].astype("string").str.casefold().eq("female")].copy()
     required = [
         "mcop_log2", "age", "bmi", "pir", "creatinine_log2",
-        "sex", "race", "smoking", "pooled_weight", "psu", "strata",
+        "race", "smoking", "pooled_weight", "psu", "strata",
     ]
     return primary.dropna(subset=required).reset_index(drop=True)
 
@@ -210,7 +211,7 @@ def write_report(outdir: Path, rows: pd.DataFrame, proxy_meta: dict, n_sim: int,
     lines = [
         "# MCOP–CRC Phase 3A：WHI power planning simulation",
         "",
-        "本文件是 WHI biospecimen access 确认前的规划模拟，不是 WHI 实际回归结果。模拟使用 NHANES Phase 2 complete-case 的 MCOP/covariate 分布作为代理，模拟一个病例对应 1 或 2 个 matched controls，并用 conditional logistic likelihood 生成和拟合病例状态。",
+        "本文件是 WHI biospecimen access 确认前的规划模拟，不是 WHI 实际回归结果。模拟使用 NHANES Phase 2 女性 complete-case 的 MCOP/covariate 分布作为代理，模拟一个病例对应 1 或 2 个 matched controls，并用 conditional logistic likelihood 生成和拟合病例状态。",
         "",
         f"- Simulation seed: `{seed}`",
         f"- Replicates per cell: `{n_sim}`",
@@ -295,6 +296,7 @@ def main() -> None:
         "target_or_per_doubling": TARGET_ORS,
         "alpha": 0.05,
         "test": "two-sided Wald test from custom conditional logistic likelihood",
+        "proxy_population": "NHANES female CRC-vs-cancer-free complete cases",
         "proxy": proxy_meta,
         "outputs": [
             "mcop_phase3a_power_simulation.csv",

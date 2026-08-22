@@ -6,7 +6,8 @@
 - Origin Mode: plan
 - Origin Date: 2026-08-22
 - Verification Status: UNVERIFIED — WHI biospecimen/data access pending
-- Version Label: `mcop_whi_phase3a_prereg_v1.0`
+- Version Label: `mcop_whi_phase3a_prereg_v1.1`
+- Revision note: sex removed for the WHI female cohort; matching factors are now explicitly separated from additional adjustment covariates.
 
 ## 研究问题与假设
 
@@ -34,7 +35,9 @@
 
 - Outcome：incident invasive CRC，整体作为主结局。
 - Secondary outcomes：colon-only、rectum-only（若病例数允许，仅作描述性/方向性分析）。
-- Prespecified covariates：age、BMI、smoking、alcohol、physical activity、SES、sex、race、urinary creatinine、assay batch。
+- WHI is a women-only cohort; sex is not a model covariate.
+- Matching factors：在任何结果模型运行前，从 WHI 返回的 matched-set definition 中冻结。用于构造 risk-set matched sets 的变量不再机械重复进入 conditional logistic fixed effects。
+- Additional adjustment candidates：age、BMI、smoking、alcohol、physical activity、SES、race、urinary creatinine、assay batch；最终调整集 = 这些候选变量减去已用于 matching 的变量。
 - Continuous covariates：在分析数据中 z-score；MCOP 保持原始 log2 单位，因此主 OR 不改变。
 - Assay batch：作为分类固定效应；若 batch 与 matched set 完全共线，则记录为 non-estimable，不进行事后替代性调节。
 - 条件 logistic 只能估计 matched set 内有变异的协变量；任何在所有 matched sets 内均无变异的预设协变量都会被脚本自动记录并标记为 non-estimable，不进行事后替代性调节。
@@ -43,7 +46,9 @@
 
 主模型固定为 conditional logistic regression，以 matched set 为 stratum：
 
-`CRC ~ log2(MCOP) + age + BMI + smoking + alcohol + physical_activity + SES + sex + race + log2(creatinine) + assay_batch`
+`CRC ~ log2(MCOP) + additional_adjustment_candidates_not_used_for_matching + log2(creatinine)`
+
+其中 `additional_adjustment_candidates_not_used_for_matching` 必须根据 WHI 在 access gate 前提供的真实 matching factors 生成；不能根据暴露、结局或 P 值事后选择。
 
 预先定义：
 

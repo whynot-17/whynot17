@@ -1,6 +1,6 @@
 {
   "analysis": "MCOP-CRC Phase 3A planning power simulation",
-  "run_timestamp_utc": "2026-08-22T12:11:16.458871+00:00",
+  "run_timestamp_utc": "2026-08-22T12:19:23.479159+00:00",
   "seed": 20260822,
   "n_sim_per_cell": 1000,
   "case_counts": [
@@ -22,29 +22,29 @@
   ],
   "alpha": 0.05,
   "test": "two-sided Wald test from custom conditional logistic likelihood",
+  "proxy_population": "NHANES female CRC-vs-cancer-free complete cases",
   "proxy": {
-    "exposure_center_log2": 3.1663429794898996,
-    "exposure_sd_log2": 2.0586268408047013,
+    "exposure_center_log2": 3.07764433555764,
+    "exposure_sd_log2": 2.0726702942466635,
     "numeric_standardization": {
       "age": {
-        "mean": 47.336453301127214,
-        "sd": 17.258455641355365
+        "mean": 47.092003948667326,
+        "sd": 17.39140683838848
       },
       "bmi": {
-        "mean": 29.238406803542674,
-        "sd": 7.098961808888677
+        "mean": 29.55907206317868,
+        "sd": 7.678722109548932
       },
       "pir": {
-        "mean": 2.498160225442834,
-        "sd": 1.6348277069259127
+        "mean": 2.432406712734452,
+        "sd": 1.6358471221187145
       },
       "creatinine_log2": {
-        "mean": 6.651673922321708,
-        "sd": 1.0681646643992402
+        "mean": 6.404022444822312,
+        "sd": 1.1015171452227757
       }
     },
     "categorical_dummy_columns": [
-      "sex_Male",
       "race_Non-Hispanic Black",
       "race_Non-Hispanic White",
       "race_Other Hispanic",
@@ -52,7 +52,7 @@
       "smoking_Former",
       "smoking_Never"
     ],
-    "n_proxy_rows": 9936
+    "n_proxy_rows": 5065
   },
   "outputs": [
     "mcop_phase3a_power_simulation.csv",

@@ -21,7 +21,7 @@ WHI AS498 已有 181 名 adjudicated CRC cases，样本平均在诊断前约 7.2
 
 ## 预先冻结的分析
 
-主暴露为 `log2(MCOP)`，主结局为 incident invasive CRC，主模型为 conditional logistic regression，按 WHI matched set 分层。协变量包括 age、BMI、smoking、alcohol、physical activity、SES、sex、race、urinary creatinine 和 assay batch。预先定义 lag ≥2 年、lag ≥5 年及重复尿样平均值分析。
+主暴露为 `log2(MCOP)`，主结局为 incident invasive CRC，主模型为 conditional logistic regression，按 WHI matched set 分层。WHI 为女性队列，不纳入 sex；用于构造 matched set 的变量不重复进入 fixed-effect adjustment，最终调整集由 age、BMI、smoking、alcohol、physical activity、SES、race、urinary creatinine 和 assay batch 中剔除 matching factors 后确定。预先定义 lag ≥2 年、lag ≥5 年及重复尿样平均值分析。
 
 ## 成功标准
 
