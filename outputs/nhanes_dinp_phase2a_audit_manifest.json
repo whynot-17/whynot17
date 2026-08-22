@@ -1,0 +1,40 @@
+{
+  "run_timestamp_utc": "2026-08-22T08:53:21.716032+00:00",
+  "script": "C:/Users/21634/Documents/Codex/2026-08-22/non/work/whynot17/work/scripts/nhanes_dinp_phase2a_audit.py",
+  "harmonized_input": "work\\nhanes_phase2a\\phase2b_harmonized.pkl",
+  "data_dir": "work\\nhanes_phase2a\\data",
+  "analytes": {
+    "MiNP": {
+      "value": "URXMNP",
+      "comment": "URDMNPLC"
+    },
+    "MONP": {
+      "value": "URXMONP",
+      "comment": "URDMONLC"
+    },
+    "MCOP": {
+      "value": "URXCOP",
+      "comment": "URDCOPLC"
+    }
+  },
+  "outcome_frame": "existing Phase 2B harmonized NHANES CRC frame, age >=20",
+  "lod_rule": "NHANES comment code 0 = at or above LOD; 1 = below LOD",
+  "official_source": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PHTHTE_J.htm",
+  "skipped_files": [
+    {
+      "file": "1999-2000_PHTHTE.XPT",
+      "cycle": "1999-2000",
+      "reason": "not_an_xport_file: 1999-2000_PHTHTE.XPT: Header record is not an XPORT file."
+    },
+    {
+      "file": "2001-2002_PHTHTE.XPT",
+      "cycle": "2001-2002",
+      "reason": "not_an_xport_file: 2001-2002_PHTHTE.XPT: Header record is not an XPORT file."
+    },
+    {
+      "file": "2003-2004_PHTHTE.XPT",
+      "cycle": "2003-2004",
+      "reason": "not_an_xport_file: 2003-2004_PHTHTE.XPT: Header record is not an XPORT file."
+    }
+  ]
+}
