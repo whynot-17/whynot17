@@ -1,0 +1,2 @@
+Exposure,minimum_metabolites,status,N,CRC_N,Control_N,beta,SE,OR,CI_low,CI_high,P,design_df,PSU_N,strata_N,message
+PhthalateBurden_mean_z,2,ok,13779,104,13675,0.15195050593996734,0.27698492768076166,1.1641026188413588,0.6735060942213791,2.0120603492978666,0.5840880922417351,153,301,148,Newton-IRLS converged

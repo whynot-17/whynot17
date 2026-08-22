@@ -1,0 +1,25 @@
+GeneID,GeneSymbol,Interaction,Action,PMID
+7157,TP53,mono-benzyl phthalate results in decreased expression of TP53 mRNA,decreases^expression,35487445
+7157,TP53,mono-benzyl phthalate results in increased methylation of TP53 promoter,increases^methylation,35487445
+841,CASP8,[monoethyl phthalate co-treated with mono-(2-ethylhexyl)phthalate co-treated with monobutyl phthalate co-treated with mono-isobutyl phthalate co-treated with monoisononylphthalate co-treated with mono-benzyl phthalate] results in increased expression of CASP8 mRNA,affects^cotreatment|increases^expression,35861251
+378938,MALAT1,mono-benzyl phthalate affects the expression of MALAT1 mRNA,affects^expression,29385630
+5468,PPARG,mono-benzyl phthalate binds to PPARG protein,affects^binding,23843199
+5468,PPARG,mono-benzyl phthalate results in increased activity of PPARG protein,increases^activity,27551952
+5468,PPARG,mono-benzyl phthalate results in increased expression of PPARG protein,increases^expression,29089286
+581,BAX,[monoethyl phthalate co-treated with mono-(2-ethylhexyl)phthalate co-treated with monobutyl phthalate co-treated with mono-isobutyl phthalate co-treated with monoisononylphthalate co-treated with mono-benzyl phthalate] results in increased expression of BAX mRNA,affects^cotreatment|increases^expression,35861251
+595,CCND1,mono-benzyl phthalate results in decreased methylation of CCND1 promoter,decreases^methylation,35487445
+595,CCND1,mono-benzyl phthalate results in increased expression of CCND1 mRNA,increases^expression,35487445
+406913,MIR126,[butylbenzyl phthalate results in increased abundance of mono-benzyl phthalate] which affects the secretion of MIR126,affects^secretion|increases^abundance,33885134
+406935,MIR143,[butylbenzyl phthalate results in increased abundance of mono-benzyl phthalate] which affects the secretion of MIR143,affects^secretion|increases^abundance,33885134
+407006,MIR221,[butylbenzyl phthalate results in increased abundance of mono-benzyl phthalate] which affects the secretion of MIR221,affects^secretion|increases^abundance,33885134
+406933,MIR141,[monoethyl phthalate co-treated with mono-(2-ethylhexyl)phthalate co-treated with monobutyl phthalate co-treated with mono-isobutyl phthalate co-treated with monoisononylphthalate co-treated with mono-benzyl phthalate] results in increased expression of MIR141 mRNA,affects^cotreatment|increases^expression,35861251
+407037,MIR320A,[butylbenzyl phthalate results in increased abundance of mono-benzyl phthalate] which affects the secretion of MIR320A,affects^secretion|increases^abundance,33885134
+406914,MIR127,[butylbenzyl phthalate results in increased abundance of mono-benzyl phthalate] which affects the secretion of MIR127,affects^secretion|increases^abundance,33885134
+442901,MIR328,[butylbenzyl phthalate results in increased abundance of mono-benzyl phthalate] which affects the secretion of MIR328,affects^secretion|increases^abundance,33885134
+574411,MIR451A,[butylbenzyl phthalate results in increased abundance of mono-benzyl phthalate] which affects the secretion of MIR451A,affects^secretion|increases^abundance,33885134
+407014,MIR25,[butylbenzyl phthalate results in increased abundance of mono-benzyl phthalate] which affects the secretion of MIR25,affects^secretion|increases^abundance,33885134
+441951,ZFAS1,mono-benzyl phthalate affects the expression of ZFAS1 mRNA,affects^expression,29385630
+101926941,SPRY4-AS1,[mono(2-ethyl-5-hydroxyhexyl) phthalate co-treated with mono-(2-ethylhexyl)phthalate co-treated with mono(2-ethyl-5-oxohexyl)phthalate co-treated with 2-ethyl-5-carboxypentyl phthalate co-treated with mono-isobutyl phthalate co-treated with mono-benzyl phthalate co-treated with monoethyl phthalate co-treated with monobutyl phthalate] affects the expression of SPRY4-AS1 mRNA,affects^cotreatment|affects^expression,37160244
+1029,CDKN2A,mono-benzyl phthalate results in decreased expression of CDKN2A mRNA,decreases^expression,35487445
+1029,CDKN2A,mono-benzyl phthalate results in increased methylation of CDKN2A promoter,increases^methylation,35487445
+1029,CDKN2A,[monoethyl phthalate co-treated with mono-(2-ethylhexyl)phthalate co-treated with monobutyl phthalate co-treated with mono-isobutyl phthalate co-treated with monoisononylphthalate co-treated with mono-benzyl phthalate] results in decreased expression of CDKN2A mRNA,affects^cotreatment|decreases^expression,35861251

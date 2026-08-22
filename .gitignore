@@ -1,6 +1,7 @@
 # Local raw data and downloaded archives
 work/**/raw/
 work/**/data/
+work/**/phase2b_harmonized.pkl
 work/**/annotation/
 work/**/cache/
 work/**/signature_cache/

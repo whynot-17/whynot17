@@ -1,0 +1,8 @@
+metric,value,unit
+N_CRC_with_diagnosis_age,111.0,participants
+median,7.0,years
+IQR_low,2.5,years
+IQR_high,16.5,years
+less_than_1_year,11.0,participants
+1_to_5_years,37.0,participants
+more_than_5_years,63.0,participants

@@ -1,0 +1,13 @@
+metric,value,details
+n_overlap_genes,18,Fixed CTD human MBzP genes intersected with GeneCards Disorders CRC genes
+protein_coding_n,6,GeneCards GeneType / symbol-derived structural class
+miRNA_n,9,MIR-prefixed symbols or MicroRNA gene names
+lncRNA_n,3,Antisense/long noncoding labels or known antisense symbols
+other_ncRNA_n,0,Other noncoding labels
+transcription_factor_annotation,not_available,No TF annotation supplied in Phase 1 input exports
+tumor_suppressor_annotation,not_available,No TSG annotation supplied in Phase 1 input exports
+oncogene_annotation,not_available,No oncogene annotation supplied in Phase 1 input exports
+total_CTD_interaction_rows,24,All gene-specific MBzP CTD rows retained in long table
+total_unique_PMIDs,8,Distinct PMIDs across the 18-gene bridge
+CTD_evidence_top_genes,PPARG;CDKN2A;TP53;CCND1;CASP8;MALAT1;BAX;MIR126;MIR143;MIR221,Ranked by gene-specific unique PMID count then interaction rows
+GeneCards_top_genes,TP53;CASP8;MALAT1;PPARG;BAX;CCND1;MIR126;MIR143;MIR221;MIR141,Ranked by GeneCards Disorders rank

@@ -1,0 +1,9 @@
+Model,Population,Total_N,CRC_N,Control_N,Required_variables,Fit_status
+Model 0,CRC_vs_cancer_free,15374,115,15259,outcome;pooled_weight;psu;strata;mbzp_log2,eligible
+Model 1,CRC_vs_cancer_free,15374,115,15259,outcome;pooled_weight;psu;strata;mbzp_log2;age;sex;race,eligible
+Model 2,CRC_vs_cancer_free,13779,104,13675,outcome;pooled_weight;psu;strata;mbzp_log2;age;bmi;pir;creatinine_log2;sex;race;smoking,eligible
+Model 3,CRC_vs_cancer_free,13766,104,13662,outcome;pooled_weight;psu;strata;mbzp_log2;age;bmi;pir;creatinine_log2;sex;race;smoking;alcohol_ever;education;diabetes;physical_activity,eligible
+Model 0,CRC_vs_all_nonCRC,16745,115,16630,outcome;pooled_weight;psu;strata;mbzp_log2,eligible
+Model 1,CRC_vs_all_nonCRC,16745,115,16630,outcome;pooled_weight;psu;strata;mbzp_log2;age;sex;race,eligible
+Model 2,CRC_vs_all_nonCRC,15007,104,14903,outcome;pooled_weight;psu;strata;mbzp_log2;age;bmi;pir;creatinine_log2;sex;race;smoking,eligible
+Model 3,CRC_vs_all_nonCRC,14993,104,14889,outcome;pooled_weight;psu;strata;mbzp_log2;age;bmi;pir;creatinine_log2;sex;race;smoking;alcohol_ever;education;diabetes;physical_activity,eligible
