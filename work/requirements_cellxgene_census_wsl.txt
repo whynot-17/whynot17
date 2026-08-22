@@ -1,0 +1,2 @@
+cellxgene-census==1.17.0
+tiledbsoma==1.17.1
