@@ -1,0 +1,45 @@
+{
+  "analysis": "MCOP-CRC Phase 2E DINP-axis molecular validation",
+  "run_timestamp_utc": "2026-08-22T13:09:22.658667+00:00",
+  "script": "work\\scripts\\mcop_phase2e_molecular_validation.py",
+  "chemical_targets": {
+    "MiNP": {
+      "id": "C471400",
+      "name": "monoisononylphthalate",
+      "role": "DINP-axis molecular discovery"
+    },
+    "MCOP": {
+      "id": "C573544",
+      "name": "mono(carboxy-isooctyl)phthalate",
+      "role": "NHANES urinary biomarker"
+    },
+    "DINP_parent": {
+      "id": "C012125",
+      "name": "diisononyl phthalate",
+      "role": "parent DINP comparator"
+    },
+    "MBzP": {
+      "id": "C103325",
+      "name": "mono-benzyl phthalate",
+      "role": "historical human-validation comparator"
+    }
+  },
+  "ctd_species": "Homo sapiens",
+  "primary_gene_cards_scope": "Disorders",
+  "primary_gene_cards_crc_n_in_U_core": 585,
+  "U_core_n": 22786,
+  "pathway_libraries": {
+    "Hallmark_2026.1": "work\\gene_sets\\h.all.v2026.1.Hs.symbols.gmt",
+    "Reactome_2026.1": "work\\gene_sets\\c2.cp.reactome.v2026.1.Hs.symbols.gmt"
+  },
+  "input_sha256": {
+    "work\\environmental_toxicology_crc_phase1\\data\\CTD_chemicals.tsv.gz": "9e4b642c8716140d30a9376d6b2229acb81ee48a8b106a4f41ed06b29894ef6c",
+    "work\\environmental_toxicology_crc_phase1\\data\\CTD_chem_gene_ixns.tsv.gz": "05e1b0d2d93bb33f72659e6ed2d590304cdb58da9538c787ad51fc6624d0e055",
+    "work\\environmental_toxicology_crc_phase1\\data\\genecards_disorders_crc.csv": "79bff2923c36b02f8f7307a36604890cf3de73e2e17488ccb6f60aa392a87362",
+    "outputs\\environmental_toxicology_crc_phase1_chemical_classification.csv": "9c6c97fac1ff5ba2976786624ef8916075db1b5c4db67e7cfa157653c1e52416",
+    "outputs\\environmental_toxicology_crc_phase1_ranked_core.csv": "609239674c641a307db49bfbf7392a392dcfea6ea50b6bda0d477ed2266a2ce3",
+    "work\\gene_sets\\h.all.v2026.1.Hs.symbols.gmt": "76547221245ab6a88533c2d523a2d3faefbdd8fa611049b75fff89ade0957276",
+    "work\\gene_sets\\c2.cp.reactome.v2026.1.Hs.symbols.gmt": "373763dce87b698513cf5a090e84236a3b0603669e56a7b43cd80eb1efaa80e1"
+  },
+  "interpretation": "MiNP axis bridge supports a hypothesis but is partly co-treatment driven; MCOP remains a human biomarker, not a CTD-specific molecular discovery."
+}

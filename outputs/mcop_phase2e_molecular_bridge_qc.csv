@@ -1,0 +1,30 @@
+chemical_label,ChemicalID,ChemicalName,role,GeneID,GeneSymbol,GeneCards_rank,GeneCards_relevance_score,GeneCards_gene_type,bridge_class,n_raw_interaction_rows,n_unique_pmids,n_co_treatment_rows,n_co_treatment_pmids,n_single_chemical_rows,n_single_chemical_pmids,has_single_chemical_evidence,PMIDs,co_treatment_PMIDs,single_chemical_PMIDs
+DINP_parent,C012125,diisononyl phthalate,parent DINP comparator,5468,PPARG,80,14.6,Protein Coding,protein_coding,3,3,0,0,3,3,True,23843199;26172262;29410257,,23843199;26172262;29410257
+DINP_parent,C012125,diisononyl phthalate,parent DINP comparator,283131,NEAT1,206,14.6,RNA Gene,RNA_or_unresolved,1,1,1,1,0,0,False,32949613,32949613,
+DINP_parent,C012125,diisononyl phthalate,parent DINP comparator,5970,RELA,641,2.2,Protein Coding,protein_coding,1,1,0,0,1,1,True,31154059,,31154059
+DINP_parent,C012125,diisononyl phthalate,parent DINP comparator,6774,STAT3,644,2.2,Protein Coding,protein_coding,1,1,0,0,1,1,True,31154059,,31154059
+MBzP,C103325,mono-benzyl phthalate,historical human-validation comparator,7157,TP53,24,22.7,Protein Coding,protein_coding,2,1,0,0,2,1,True,35487445,,35487445
+MBzP,C103325,mono-benzyl phthalate,historical human-validation comparator,841,CASP8,55,14.9,Protein Coding,protein_coding,1,1,1,1,0,0,False,35861251,35861251,
+MBzP,C103325,mono-benzyl phthalate,historical human-validation comparator,378938,MALAT1,61,14.9,RNA Gene,RNA_or_unresolved,1,1,0,0,1,1,True,29385630,,29385630
+MBzP,C103325,mono-benzyl phthalate,historical human-validation comparator,5468,PPARG,80,14.6,Protein Coding,protein_coding,3,3,0,0,3,3,True,23843199;27551952;29089286,,23843199;27551952;29089286
+MBzP,C103325,mono-benzyl phthalate,historical human-validation comparator,581,BAX,104,14.6,Protein Coding,protein_coding,1,1,1,1,0,0,False,35861251,35861251,
+MBzP,C103325,mono-benzyl phthalate,historical human-validation comparator,595,CCND1,112,14.6,Protein Coding,protein_coding,2,1,0,0,2,1,True,35487445,,35487445
+MBzP,C103325,mono-benzyl phthalate,historical human-validation comparator,406913,MIR126,173,14.6,RNA Gene,RNA_or_unresolved,1,1,0,0,0,0,False,33885134,,
+MBzP,C103325,mono-benzyl phthalate,historical human-validation comparator,406935,MIR143,180,14.6,RNA Gene,RNA_or_unresolved,1,1,0,0,0,0,False,33885134,,
+MBzP,C103325,mono-benzyl phthalate,historical human-validation comparator,407006,MIR221,189,14.6,RNA Gene,RNA_or_unresolved,1,1,0,0,0,0,False,33885134,,
+MBzP,C103325,mono-benzyl phthalate,historical human-validation comparator,406933,MIR141,223,14.6,RNA Gene,RNA_or_unresolved,1,1,1,1,0,0,False,35861251,35861251,
+MBzP,C103325,mono-benzyl phthalate,historical human-validation comparator,407037,MIR320A,227,14.6,RNA Gene,RNA_or_unresolved,1,1,0,0,0,0,False,33885134,,
+MBzP,C103325,mono-benzyl phthalate,historical human-validation comparator,406914,MIR127,243,14.6,RNA Gene,RNA_or_unresolved,1,1,0,0,0,0,False,33885134,,
+MBzP,C103325,mono-benzyl phthalate,historical human-validation comparator,442901,MIR328,252,14.6,RNA Gene,RNA_or_unresolved,1,1,0,0,0,0,False,33885134,,
+MBzP,C103325,mono-benzyl phthalate,historical human-validation comparator,574411,MIR451A,254,14.6,RNA Gene,RNA_or_unresolved,1,1,0,0,0,0,False,33885134,,
+MBzP,C103325,mono-benzyl phthalate,historical human-validation comparator,407014,MIR25,267,14.6,RNA Gene,RNA_or_unresolved,1,1,0,0,0,0,False,33885134,,
+MBzP,C103325,mono-benzyl phthalate,historical human-validation comparator,441951,ZFAS1,295,14.6,RNA Gene,lncRNA_or_antisense,1,1,0,0,1,1,True,29385630,,29385630
+MBzP,C103325,mono-benzyl phthalate,historical human-validation comparator,101926941,SPRY4-AS1,446,14.6,RNA Gene,lncRNA_or_antisense,1,1,1,1,0,0,False,37160244,37160244,
+MBzP,C103325,mono-benzyl phthalate,historical human-validation comparator,1029,CDKN2A,588,9.4,Protein Coding,protein_coding,3,2,1,1,2,1,True,35487445;35861251,35861251,35487445
+MCOP,C573544,mono(carboxy-isooctyl)phthalate,NHANES urinary biomarker,283131,NEAT1,206,14.6,RNA Gene,RNA_or_unresolved,1,1,0,0,1,1,True,34478338,,34478338
+MCOP,C573544,mono(carboxy-isooctyl)phthalate,NHANES urinary biomarker,100507217,CHASERR,340,14.6,RNA Gene,RNA_or_unresolved,1,1,0,0,1,1,True,34478338,,34478338
+MiNP,C471400,monoisononylphthalate,DINP-axis molecular discovery,841,CASP8,55,14.9,Protein Coding,protein_coding,1,1,1,1,0,0,False,35861251,35861251,
+MiNP,C471400,monoisononylphthalate,DINP-axis molecular discovery,5468,PPARG,80,14.6,Protein Coding,protein_coding,2,2,0,0,2,2,True,23843199;27551952,,23843199;27551952
+MiNP,C471400,monoisononylphthalate,DINP-axis molecular discovery,581,BAX,104,14.6,Protein Coding,protein_coding,1,1,1,1,0,0,False,35861251,35861251,
+MiNP,C471400,monoisononylphthalate,DINP-axis molecular discovery,406933,MIR141,223,14.6,RNA Gene,RNA_or_unresolved,1,1,1,1,0,0,False,35861251,35861251,
+MiNP,C471400,monoisononylphthalate,DINP-axis molecular discovery,1029,CDKN2A,588,9.4,Protein Coding,protein_coding,1,1,1,1,0,0,False,35861251,35861251,
