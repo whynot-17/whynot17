@@ -1,0 +1,10 @@
+gene,TCGA_normal_direction,GTEx_normal_direction,direction_concordant
+PPARA,up,down,False
+PPARD,down,down,True
+PPARG,up,down,False
+NR1I2,up,down,False
+NR1I3,down,down,True
+NR1H2,down,down,True
+NR1H3,down,down,True
+RELA,down,up,False
+STAT3,down,down,True

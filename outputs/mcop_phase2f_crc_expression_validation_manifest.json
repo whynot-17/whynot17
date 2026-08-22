@@ -1,0 +1,40 @@
+{
+  "analysis": "MCOP-CRC Phase 2F-A targeted CRC expression validation",
+  "run_timestamp_utc": "2026-08-22T13:36:03.869348+00:00",
+  "script": "work\\scripts\\mcop_phase2f_crc_expression_validation.py",
+  "xena_hub": "https://toil.xenahubs.net",
+  "expression_dataset": "TcgaTargetGtex_rsem_gene_tpm",
+  "phenotype_dataset": "TcgaTargetGTEX_phenotype.txt",
+  "genes": [
+    "PPARA",
+    "PPARD",
+    "PPARG",
+    "NR1I2",
+    "NR1I3",
+    "NR1H2",
+    "NR1H3",
+    "RELA",
+    "STAT3"
+  ],
+  "PPAR_nuclear_receptor_genes": [
+    "PPARA",
+    "PPARD",
+    "PPARG",
+    "NR1I2",
+    "NR1I3",
+    "NR1H2",
+    "NR1H3"
+  ],
+  "inflammatory_genes": [
+    "RELA",
+    "STAT3"
+  ],
+  "group_counts": {
+    "TCGA_CRC_primary_tumor": 380,
+    "GTEx_colon_normal": 308,
+    "TCGA_CRC_solid_normal": 51
+  },
+  "single_cell_status": "pending_cellxgene_census_runtime",
+  "single_cell_blocker": "cellxgene-census installation requires TileDB-SOMA build unavailable in the current Windows runtime",
+  "analysis_boundary": "disease-state expression validation, not exposure causality or mediation"
+}

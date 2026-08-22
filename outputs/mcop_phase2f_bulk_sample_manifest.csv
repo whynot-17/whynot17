@@ -1,0 +1,740 @@
+sample_id,_study,primary disease or tissue,_sample_type,group,include,dataset,patient_id
+GTEX-WQUQ-2526-SM-4MVNO,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-D5-6929-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6929
+TCGA-AA-3511-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3511
+TCGA-EI-6512-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6512
+GTEX-13G51-2126-SM-5IJD9,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-QG-A5YX-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-QG-A5YX
+GTEX-1122O-1526-SM-5N9CL,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-F4-6704-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6704
+GTEX-UPIC-1726-SM-4IHKG,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-CM-6164-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6164
+TCGA-A6-A567-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-A567
+TCGA-AA-3516-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3516
+TCGA-G4-6320-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6320
+GTEX-146FH-2426-SM-5Q5EW,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZTSS-1126-SM-5985O,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-13N2G-2226-SM-5IJCU,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-F5-6863-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6863
+TCGA-AY-A69D-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AY-A69D
+TCGA-AG-3742-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-3742
+TCGA-AY-A8YK-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AY-A8YK
+GTEX-ZYFC-2626-SM-5NQ6S,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-F4-6806-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6806
+TCGA-5M-AAT4-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-5M-AAT4
+TCGA-CM-6167-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6167
+GTEX-ZDYS-2326-SM-4WKG6,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AZ-6603-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6603
+GTEX-ZAB5-1426-SM-5HL9D,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-DC-6681-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-6681
+GTEX-12WSG-2426-SM-5EQLZ,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-DC-5337-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-5337
+TCGA-DC-4745-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-4745
+TCGA-CM-6168-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6168
+TCGA-G4-6314-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6314
+GTEX-ZTSS-1226-SM-51MSZ,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-13X6I-2726-SM-5Q5ET,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-F4-6808-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6808
+TCGA-AZ-4615-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-4615
+TCGA-AY-6386-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AY-6386
+TCGA-AZ-6598-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6598
+TCGA-A6-6653-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6653
+TCGA-NH-A50V-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-NH-A50V
+TCGA-AD-6899-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-6899
+GTEX-WFG8-1726-SM-5CHTE,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-G4-6311-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6311
+GTEX-13OW5-2626-SM-5MR3M,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-A6-2683-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2683
+TCGA-AF-3911-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-3911
+TCGA-CI-6622-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CI-6622
+TCGA-DM-A280-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A280
+TCGA-NH-A6GC-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-NH-A6GC
+TCGA-F4-6570-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6570
+TCGA-CM-6679-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6679
+TCGA-A6-4105-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-4105
+GTEX-WH7G-1426-SM-4LVMU,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-DC-6158-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-6158
+GTEX-WHWD-1226-SM-4OOS1,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-D5-5538-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-5538
+GTEX-11ONC-2026-SM-5HL61,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZE7O-2626-SM-51MSS,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-NH-A50U-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-NH-A50U
+TCGA-D5-6924-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6924
+TCGA-D5-6931-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6931
+GTEX-11P82-1226-SM-5HL5P,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-A6-5656-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5656
+TCGA-EI-6884-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6884
+TCGA-A6-6649-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6649
+GTEX-Y3I4-1426-SM-4TT9C,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-R55G-1226-SM-48FDC,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-1211K-1726-SM-5FQUJ,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-11TT1-0926-SM-5GU5M,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AA-3518-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3518
+GTEX-12ZZY-2726-SM-5EQ45,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-Y5V6-1626-SM-4VDT2,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-13PVQ-2726-SM-5L3H7,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-DM-A0X9-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A0X9
+TCGA-DM-A28G-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A28G
+GTEX-PX3G-1426-SM-48U1J,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-F4-6703-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6703
+GTEX-WFON-1426-SM-5CHT1,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-11O72-2226-SM-5PNW2,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AA-3492-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3492
+TCGA-G4-6293-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6293
+TCGA-AA-3531-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3531
+TCGA-DM-A28E-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A28E
+TCGA-CK-6747-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-6747
+TCGA-CK-4947-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-4947
+TCGA-G5-6233-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G5-6233
+TCGA-AG-3731-11,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-3731
+TCGA-AD-6888-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-6888
+TCGA-F4-6809-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6809
+TCGA-CK-5914-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-5914
+TCGA-AZ-4313-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-4313
+GTEX-ZV6S-1126-SM-57WE9,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-1211K-1826-SM-5EGJ2,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-11NSD-1626-SM-5986U,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-G4-6588-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6588
+GTEX-XMK1-1726-SM-4B64Z,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-13D11-0626-SM-5LZYY,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-11I78-1326-SM-5PNY9,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-13U4I-2626-SM-5SI9C,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZY6K-1226-SM-5GZYL,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZLV1-1326-SM-4WWER,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-147JS-2526-SM-5S2Q8,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-G4-6309-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6309
+TCGA-CM-5868-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-5868
+TCGA-F4-6855-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6855
+GTEX-ZQG8-2426-SM-57WEE,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-V955-1626-SM-4JBHJ,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZTTD-2626-SM-57WEX,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AD-6964-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-6964
+TCGA-G4-6295-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6295
+TCGA-AG-3725-11,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-3725
+TCGA-D5-5539-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-5539
+TCGA-AH-6903-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AH-6903
+TCGA-CI-6621-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CI-6621
+GTEX-13O3O-2526-SM-5L3DR,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-QDVN-1326-SM-48TZ3,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-EI-6882-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6882
+TCGA-AA-3506-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3506
+TCGA-A6-5661-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5661
+TCGA-RU-A8FL-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-RU-A8FL
+TCGA-5M-AATE-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-5M-AATE
+TCGA-AA-3712-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3712
+TCGA-A6-6648-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6648
+GTEX-OXRL-1426-SM-3NM9E,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-R53T-1326-SM-48FCQ,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZVZP-2026-SM-57WB3,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-A6-5662-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5662
+GTEX-QLQW-0426-SM-447A7,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AF-2687-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-2687
+TCGA-DM-A1D8-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A1D8
+GTEX-P4QT-1426-SM-3NMCX,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-D5-6539-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6539
+TCGA-AZ-6599-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6599
+TCGA-G4-6299-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6299
+TCGA-AZ-5403-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-5403
+TCGA-AD-5900-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-5900
+GTEX-SUCS-1026-SM-5CHTC,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-11I78-1226-SM-5A5K6,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-D5-6898-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6898
+TCGA-AA-3489-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3489
+TCGA-DM-A1D7-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A1D7
+TCGA-DC-6156-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-6156
+GTEX-13VXT-2026-SM-5L3EW,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-S4Q7-0826-SM-4AD5E,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AA-A02Y-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-A02Y
+TCGA-CM-6676-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6676
+TCGA-CA-5797-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CA-5797
+GTEX-111YS-1826-SM-5GIEP,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AA-3496-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3496
+GTEX-ZYFG-1826-SM-5GZWX,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-X5EB-1126-SM-46MVV,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-NH-A8F7-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-NH-A8F7
+GTEX-ZF29-1726-SM-4WKFV,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-146FQ-1926-SM-5NQBY,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-EF-5830-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EF-5830
+TCGA-AA-3712-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3712
+TCGA-G5-6641-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G5-6641
+TCGA-CM-4743-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-4743
+TCGA-AA-3662-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3662
+TCGA-A6-3809-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-3809
+GTEX-11EQ9-1426-SM-5987G,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZVT4-2626-SM-5N9GJ,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AF-6136-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-6136
+TCGA-CM-4747-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-4747
+TCGA-F5-6813-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6813
+TCGA-A6-5666-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5666
+GTEX-XBEW-1926-SM-4SOJO,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-YF7O-1626-SM-5IFII,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-DM-A285-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A285
+GTEX-13CF3-1326-SM-5LZXZ,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-131XG-1526-SM-5GCNQ,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-CM-6171-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6171
+TCGA-D5-6538-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6538
+GTEX-ZGAY-2126-SM-4YCFB,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AA-3511-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3511
+TCGA-AF-6655-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-6655
+TCGA-AF-A56L-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-A56L
+TCGA-A6-2675-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2675
+TCGA-G5-6572-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G5-6572
+TCGA-G4-6298-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6298
+GTEX-11ZVC-2126-SM-5EGJ1,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-12WSL-1826-SM-5LZW9,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-11DXY-2026-SM-5N9CZ,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZAB4-2426-SM-5HL8A,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZPIC-2626-SM-57WE2,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-A6-6650-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6650
+TCGA-AM-5820-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AM-5820
+TCGA-AA-3663-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3663
+GTEX-Y114-1526-SM-4TT79,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-13OVG-1426-SM-5K7VP,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-Y3IK-1826-SM-4WWDS,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-11P81-1126-SM-5GU5G,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AF-5654-11,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-5654
+GTEX-11TUW-2026-SM-5EQL8,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-A6-6654-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6654
+GTEX-148VJ-2426-SM-5NQ9Y,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-11DXX-1926-SM-5EGJK,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-CM-5349-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-5349
+GTEX-ZZ64-0826-SM-5E449,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AZ-6599-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6599
+GTEX-ZAJG-2626-SM-5S2NU,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZG7Y-1826-SM-4WWD3,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-A6-2686-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2686
+TCGA-AZ-6600-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6600
+GTEX-11ONC-1926-SM-5GU75,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-EI-6507-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6507
+TCGA-AA-3509-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3509
+GTEX-13S86-1626-SM-5Q5C5,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AH-6549-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AH-6549
+TCGA-AZ-6606-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6606
+TCGA-EI-6508-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6508
+TCGA-WS-AB45-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-WS-AB45
+TCGA-AH-6897-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AH-6897
+GTEX-ZYFD-2226-SM-5E43P,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AD-6548-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-6548
+TCGA-AF-4110-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-4110
+GTEX-YECK-2826-SM-5IFHF,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-DC-6682-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-6682
+GTEX-ZF28-2526-SM-57WFH,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-13X6K-2726-SM-5O9DG,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-139T6-1326-SM-5IFFO,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-XXEK-1926-SM-4BRVD,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-D5-6926-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6926
+GTEX-111CU-1426-SM-5GZYP,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AZ-6598-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6598
+GTEX-145LS-2726-SM-5Q5D8,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZZ64-0726-SM-5GZX4,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-A6-6138-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6138
+TCGA-AZ-4616-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-4616
+TCGA-A6-5659-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5659
+GTEX-Y5LM-1426-SM-5RQJL,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZT9W-1726-SM-51MS3,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AA-A02K-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-A02K
+TCGA-A6-2685-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2685
+GTEX-ZLFU-1426-SM-4WWEU,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AZ-6601-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6601
+TCGA-AF-2691-11,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-2691
+TCGA-DM-A1HA-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A1HA
+GTEX-131YS-2926-SM-5EGKI,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-117YW-1826-SM-5PNY5,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AA-3713-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3713
+TCGA-G4-6627-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6627
+GTEX-PWCY-1026-SM-48TD4,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-XUZC-1326-SM-4BRV2,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-147JS-2626-SM-5S2UX,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AA-3502-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3502
+GTEX-13W3W-2126-SM-5K7UX,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZVT3-2826-SM-5GU6A,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AA-A01X-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-A01X
+GTEX-WOFM-1926-SM-4OOSP,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-CK-5913-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-5913
+TCGA-4N-A93T-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-4N-A93T
+GTEX-PWN1-1426-SM-48TDF,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AZ-6603-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6603
+TCGA-QG-A5YV-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-QG-A5YV
+TCGA-AZ-6607-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6607
+TCGA-G4-6321-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6321
+TCGA-EI-6513-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6513
+GTEX-TKQ2-1326-SM-4DXT9,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-XUJ4-2026-SM-4BOOW,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-SE5C-1526-SM-4BRWU,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-D5-6536-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6536
+TCGA-A6-6140-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6140
+TCGA-A6-2682-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2682
+TCGA-A6-A566-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-A566
+TCGA-AD-6963-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-6963
+GTEX-WHSB-0926-SM-4M1XJ,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-D5-5541-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-5541
+TCGA-EI-6506-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6506
+TCGA-AM-5821-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AM-5821
+TCGA-A6-6652-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6652
+TCGA-DM-A282-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A282
+TCGA-AD-6901-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-6901
+TCGA-CM-6161-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6161
+GTEX-S4P3-1226-SM-4AD4Y,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-111VG-2226-SM-5N9DU,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-5M-AAT5-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-5M-AAT5
+GTEX-13FHO-2726-SM-5K7VG,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-CK-6748-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-6748
+GTEX-O5YW-1426-SM-3MJHF,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-A6-5665-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5665
+GTEX-OHPM-1426-SM-3TW8Y,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-Z93S-2426-SM-5HL8N,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-XGQ4-1726-SM-4RH4G,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-11P7K-1826-SM-5HL5A,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AZ-4684-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-4684
+GTEX-13FH7-1526-SM-5J2N6,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AA-3517-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3517
+GTEX-TKQ1-0626-SM-4DXTS,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-G4-6302-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6302
+TCGA-AU-6004-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AU-6004
+TCGA-DC-6683-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-6683
+GTEX-ZDTS-2726-SM-5L3E2,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-145ME-0826-SM-5O9AF,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-G4-6310-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6310
+GTEX-ZP4G-1726-SM-4WWCM,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-YEC3-2426-SM-5IFJR,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-13OVI-2126-SM-5KM3U,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-CA-5255-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CA-5255
+TCGA-NH-A6GA-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-NH-A6GA
+TCGA-AA-3655-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3655
+GTEX-XV7Q-2226-SM-4BRVY,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-A6-2678-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2678
+TCGA-CM-5863-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-5863
+GTEX-12696-1926-SM-5EGJT,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-G4-6304-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6304
+TCGA-DC-6155-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-6155
+TCGA-BM-6198-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-BM-6198
+TCGA-CM-6678-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6678
+TCGA-DY-A1DG-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DY-A1DG
+TCGA-DC-4749-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-4749
+GTEX-WYJK-2326-SM-4ONDN,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-A6-5657-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5657
+TCGA-A6-2672-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2672
+TCGA-D5-6930-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6930
+TCGA-F4-6805-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6805
+GTEX-YEC3-2026-SM-4WWFL,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-DM-A28M-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A28M
+GTEX-14C38-2626-SM-5RQI4,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-QL-A97D-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-QL-A97D
+GTEX-ZYT6-2826-SM-5GICX,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZQUD-1026-SM-4YCEZ,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZVZQ-2626-SM-59HLB,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-3L-AA1B-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-3L-AA1B
+TCGA-CM-5860-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-5860
+GTEX-ZPU1-1726-SM-4WWFV,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-A6-2684-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2684
+GTEX-XAJ8-0426-SM-47JYJ,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AA-3534-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3534
+TCGA-A6-2679-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2679
+TCGA-SS-A7HO-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-SS-A7HO
+GTEX-YJ8A-1726-SM-5P9IQ,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-T6MO-0826-SM-4DM51,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-D5-6537-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6537
+TCGA-AA-3495-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3495
+TCGA-CA-5254-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CA-5254
+TCGA-AD-A5EK-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-A5EK
+TCGA-G5-6235-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G5-6235
+TCGA-CK-6746-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-6746
+TCGA-CA-6718-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CA-6718
+TCGA-AY-5543-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AY-5543
+GTEX-Y114-1626-SM-4TT7I,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-CK-4952-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-4952
+TCGA-F4-6807-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6807
+GTEX-NFK9-2026-SM-3LK5K,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-12C56-0626-SM-5EGGC,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AH-6643-11,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AH-6643
+TCGA-CK-5915-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-5915
+GTEX-ZVP2-1526-SM-5NQ82,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-A6-6781-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6781
+TCGA-AZ-6605-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6605
+TCGA-AU-3779-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AU-3779
+TCGA-EI-6514-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6514
+TCGA-DM-A1D4-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A1D4
+GTEX-13PVR-1726-SM-5Q5EC,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AF-2693-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-2693
+TCGA-AF-A56N-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-A56N
+TCGA-DM-A1D0-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A1D0
+GTEX-T5JW-1126-SM-4DM5V,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-DY-A1DD-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DY-A1DD
+GTEX-13OW6-2226-SM-5N9FL,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-13U4I-2426-SM-5LU34,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-A6-2671-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2671
+TCGA-CM-6675-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6675
+TCGA-AF-A56K-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-A56K
+GTEX-11PRG-2026-SM-5GU5F,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AY-6197-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AY-6197
+GTEX-12BJ1-2026-SM-5FQUH,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-11ZU8-1126-SM-5EQ5K,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-YF7O-1726-SM-5IFJ9,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-F5-6571-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6571
+TCGA-DM-A28K-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A28K
+GTEX-WY7C-1926-SM-4ONCI,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-145MO-2626-SM-5QGPD,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-12BJ1-2126-SM-5BC5O,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-G4-6307-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6307
+GTEX-145MN-1726-SM-5SIA6,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-11EI6-2626-SM-5PNVT,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-132NY-2726-SM-5PNY2,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-TML8-1326-SM-4DXTO,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-148VJ-2626-SM-5QGPI,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-CM-5861-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-5861
+GTEX-XXEK-1826-SM-4BRVC,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-CA-5796-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CA-5796
+TCGA-AZ-4323-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-4323
+TCGA-DM-A1DA-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A1DA
+TCGA-D5-6928-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6928
+TCGA-AA-3685-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3685
+TCGA-CI-6623-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CI-6623
+TCGA-AF-2690-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-2690
+GTEX-ZF2S-1926-SM-4WWAN,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-OXRK-1726-SM-3NB16,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-PLZ5-1126-SM-3P613,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-Z93S-2626-SM-57WBX,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-145MH-2726-SM-5QGQ6,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-A6-5664-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5664
+TCGA-AZ-5407-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-5407
+TCGA-AA-3522-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3522
+GTEX-1339X-1726-SM-5P9J9,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AA-3496-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3496
+GTEX-11P7K-1526-SM-5EGI7,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AY-6196-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AY-6196
+GTEX-11DXZ-1626-SM-5GIDI,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-D5-6920-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6920
+TCGA-F4-6461-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6461
+GTEX-Y8LW-1226-SM-4WWDP,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-14BMU-1326-SM-5RQIH,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-A6-5667-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5667
+TCGA-D5-6540-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6540
+GTEX-12WSJ-1426-SM-5GCON,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-X4EO-2726-SM-4E3HS,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-G4-6297-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6297
+GTEX-XQ8I-2126-SM-4BOOM,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-A6-2686-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2686
+TCGA-DM-A28F-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A28F
+GTEX-WY7C-1626-SM-4ONC8,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-VJYA-2026-SM-4KL1K,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-CA-5256-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CA-5256
+TCGA-A6-6142-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6142
+GTEX-13113-1426-SM-5EGHU,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZPU1-1926-SM-57WDT,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-S341-1426-SM-4AD6U,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AZ-6608-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6608
+GTEX-145ME-1126-SM-5SIAT,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AG-3591-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-3591
+GTEX-111YS-1626-SM-5GZZ9,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-14C39-1626-SM-5S2P4,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-RM2N-0926-SM-48FD1,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-117YX-0826-SM-5H11J,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-11DXZ-1726-SM-5H12M,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AG-4022-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-4022
+TCGA-A6-6141-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6141
+TCGA-G4-6306-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6306
+TCGA-AG-3731-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-3731
+TCGA-DY-A1DF-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DY-A1DF
+TCGA-AA-3525-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3525
+TCGA-D5-6922-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6922
+TCGA-EI-6917-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6917
+GTEX-Q734-1126-SM-48TZY,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-QDVJ-1326-SM-48U1X,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-DM-A288-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A288
+TCGA-AZ-6600-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6600
+GTEX-145LT-0926-SM-5LU9C,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-DY-A1DE-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DY-A1DE
+TCGA-AH-6644-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AH-6644
+GTEX-OIZH-1426-SM-3NB1O,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-XV7Q-2126-SM-4BRVX,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-11P81-1426-SM-5P9JN,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-WEY5-1426-SM-4LMJ3,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-W5WG-2426-SM-4LMI6,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-DM-A1HB-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A1HB
+TCGA-AF-2689-11,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-2689
+GTEX-13OVJ-1826-SM-5KM2D,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-RU1J-1326-SM-46MUL,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-R55D-1826-SM-48FEF,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-X3Y1-1726-SM-4PQZL,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-12WSJ-1526-SM-5GCNI,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-14E6E-1526-SM-5RQIG,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-A6-2682-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2682
+GTEX-X15G-1526-SM-4PQZM,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-PWOO-1326-SM-48TCJ,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-F5-6861-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6861
+TCGA-F5-6814-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6814
+TCGA-EI-6511-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6511
+TCGA-CK-4951-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-4951
+TCGA-CK-4948-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-4948
+GTEX-13FH7-1626-SM-5J2O9,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZVT2-1726-SM-51MRO,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-13QBU-1826-SM-5IJG3,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AG-3732-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-3732
+GTEX-QEL4-1926-SM-4R1JI,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-F4-6856-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6856
+TCGA-F4-6569-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6569
+TCGA-CM-6163-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6163
+TCGA-D5-6535-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6535
+GTEX-P78B-1726-SM-3P5ZV,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-14A5H-1626-SM-5SIAN,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-5M-AAT6-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-5M-AAT6
+TCGA-A6-5662-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5662
+TCGA-AA-3526-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3526
+GTEX-UJHI-1126-SM-4IHLN,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AA-3514-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3514
+TCGA-AD-6895-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-6895
+TCGA-AH-6544-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AH-6544
+TCGA-G4-6586-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6586
+GTEX-13O61-1526-SM-5KM3P,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-NH-A8F8-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-NH-A8F8
+TCGA-AF-6672-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-6672
+TCGA-DY-A0XA-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DY-A0XA
+TCGA-D5-6529-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6529
+TCGA-DM-A0XF-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A0XF
+GTEX-XBED-1526-SM-4AT5W,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-A6-5667-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5667
+GTEX-UJMC-1326-SM-4IHLS,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-EI-7002-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-7002
+GTEX-11TUW-2326-SM-5EQMO,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-139YR-2126-SM-5KM11,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-Y8E4-2426-SM-4WWDN,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-CM-6169-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6169
+GTEX-Q2AH-1226-SM-48TZL,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-WQUQ-2626-SM-4MVNP,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-12ZZX-2726-SM-5N9FT,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-CA-6719-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CA-6719
+GTEX-11ZTT-1626-SM-5EQKR,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-D5-7000-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-7000
+TCGA-G4-6625-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6625
+TCGA-AG-3742-11,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-3742
+TCGA-CM-6680-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6680
+TCGA-F5-6702-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6702
+GTEX-YEC3-2026-SM-5CVLQ,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-11ZTS-1526-SM-5N9G7,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-XUW1-1926-SM-4BOP1,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-QMRM-1226-SM-447C6,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-WFG7-1526-SM-4LVMG,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-WH7G-1326-SM-4LVMS,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-DY-A1H8-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DY-A1H8
+TCGA-CM-6166-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6166
+TCGA-DT-5265-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DT-5265
+GTEX-Y3I4-1126-SM-4TT7Y,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-12WSL-1626-SM-5GCMU,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-W5WG-2026-SM-4LMIB,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-NH-A6GB-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-NH-A6GB
+TCGA-F5-6465-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6465
+TCGA-D5-6923-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6923
+TCGA-AZ-4614-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-4614
+TCGA-CM-5864-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-5864
+GTEX-147F3-1926-SM-5SIB9,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-11EQ8-2626-SM-5N9BO,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-111CU-1226-SM-5EGIN,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AA-3655-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3655
+TCGA-CK-5912-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-5912
+TCGA-D5-6927-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6927
+GTEX-ZV7C-1526-SM-5NQ72,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-QG-A5YW-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-QG-A5YW
+TCGA-AF-3400-11,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-3400
+GTEX-11TTK-2426-SM-5PNYO,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZY6K-1326-SM-5GZWP,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-F5-6864-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6864
+TCGA-D5-6532-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6532
+TCGA-CM-6172-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6172
+GTEX-13CF2-1826-SM-5N9GK,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-D5-6533-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6533
+TCGA-EI-6510-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6510
+GTEX-13PL7-2526-SM-5IFGR,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AA-3697-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3697
+TCGA-DM-A28H-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A28H
+TCGA-F4-6460-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6460
+TCGA-D5-5540-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-5540
+TCGA-A6-5660-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5660
+TCGA-F4-6463-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6463
+GTEX-133LE-1526-SM-5IFEN,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-CM-6170-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6170
+GTEX-1399R-2226-SM-5P9JB,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AA-3662-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3662
+TCGA-QG-A5Z2-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-QG-A5Z2
+TCGA-A6-2675-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2675
+TCGA-F5-6812-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6812
+GTEX-Y5LM-1526-SM-4VDTA,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-WFG8-1526-SM-5CHSI,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-1212Z-1826-SM-5FQSH,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZXES-1626-SM-5NQ7L,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-13111-0726-SM-5DUVE,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-131XE-1026-SM-5EGKE,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZEX8-1926-SM-4WKFR,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-G4-6294-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6294
+GTEX-13OW8-2726-SM-5L3FZ,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-DC-6160-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-6160
+GTEX-11ILO-2026-SM-5N9CQ,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-D5-6530-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6530
+GTEX-145LS-2926-SM-5O99G,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-145MO-2426-SM-5NQ9W,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-G4-6315-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6315
+TCGA-AA-A01P-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-A01P
+TCGA-G4-6303-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6303
+GTEX-13FHP-2426-SM-5KLZ5,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-13O21-2426-SM-5MR4A,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-132AR-2726-SM-5PNVN,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AZ-4682-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-4682
+TCGA-F5-6810-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6810
+TCGA-CL-4957-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CL-4957
+TCGA-EI-7004-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-7004
+TCGA-AA-3527-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3527
+TCGA-AD-6890-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-6890
+GTEX-XAJ8-0726-SM-47JY5,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZYWO-1626-SM-5E44H,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AD-6889-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-6889
+GTEX-147GR-2826-SM-5RQK8,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-XUW1-1826-SM-4BOQD,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-11DXX-1826-SM-5H126,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-CK-4950-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-4950
+TCGA-CM-5344-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-5344
+TCGA-DC-6154-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-6154
+TCGA-QG-A5Z1-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-QG-A5Z1
+GTEX-1122O-1426-SM-5H11R,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZAB4-2226-SM-5HL97,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-G4-6628-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6628
+TCGA-CI-6619-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CI-6619
+TCGA-CI-6624-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CI-6624
+TCGA-D5-6534-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6534
+GTEX-12WSM-1426-SM-5GCPA,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-WXYG-1726-SM-4ONCU,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AA-3663-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3663
+TCGA-A6-5659-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5659
+GTEX-11EMC-1426-SM-5N9E4,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-CL-5918-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CL-5918
+TCGA-AG-3732-11,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-3732
+GTEX-U3ZM-1126-SM-4DXUB,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-CM-5862-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-5862
+GTEX-131XE-0826-SM-5HL9W,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AA-3697-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3697
+TCGA-F4-6704-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6704
+GTEX-ZA64-1426-SM-5CVMC,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-CK-6751-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-6751
+GTEX-13111-1926-SM-5GCOL,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AD-A5EJ-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-A5EJ
+TCGA-T9-A92H-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-T9-A92H
+TCGA-AA-3713-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3713
+TCGA-CA-6716-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CA-6716
+TCGA-AA-3660-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3660
+TCGA-AA-3489-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3489
+GTEX-13W3W-2226-SM-5LU4M,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AA-A01Z-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-A01Z
+GTEX-13SLW-2826-SM-5Q5ES,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-1128S-1626-SM-5H12O,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-14AS3-1126-SM-5Q5CR,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-Q2AI-0926-SM-48U1F,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-D5-5537-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-5537
+TCGA-AG-3592-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-3592
+GTEX-SNOS-1226-SM-4DM5H,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-YB5E-1626-SM-5IFIQ,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-D5-6531-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6531
+TCGA-DM-A1D9-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A1D9
+TCGA-DM-A1DB-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A1DB
+TCGA-A6-A5ZU-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-A5ZU
+TCGA-NH-A5IV-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-NH-A5IV
+TCGA-A6-6651-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6651
+TCGA-CA-6715-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CA-6715
+TCGA-CL-5917-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CL-5917
+GTEX-117XS-2226-SM-5GIE1,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-WYVS-1126-SM-4SOJX,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-CM-6674-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6674
+GTEX-XYKS-2226-SM-4E3IU,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-D5-6932-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6932
+TCGA-A6-2685-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2685
+TCGA-EI-6885-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6885
+TCGA-A6-6137-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6137
+GTEX-117YX-0526-SM-5EGJH,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-12KS4-2426-SM-5LU8P,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-CK-5916-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-5916
+GTEX-QLQ7-1126-SM-4R1KN,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-EF-5831-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EF-5831
+GTEX-ZF2S-1826-SM-4WKFF,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-F4-6459-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6459
+GTEX-ZYFG-1926-SM-5GID5,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-CM-6165-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6165
+TCGA-A6-3810-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-3810
+GTEX-14DAR-1526-SM-5RQIX,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-A6-6780-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6780
+GTEX-14A5I-2426-SM-5Q5CP,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZF29-1826-SM-4WKG8,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-ZYVF-2826-SM-5GIDK,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-1399S-1926-SM-5J2M5,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-13CF3-1426-SM-5K7YY,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-CM-6677-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6677
+GTEX-13O61-1626-SM-5KM3T,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-G4-6322-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6322
+TCGA-F4-6854-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6854
+TCGA-DC-5869-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-5869
+TCGA-A6-A565-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-A565
+GTEX-ZE9C-2126-SM-4WKGY,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AG-4021-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-4021
+GTEX-XGQ4-1226-SM-4AT67,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-A6-A56B-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-A56B
+GTEX-WFG8-1726-SM-4LVM6,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AY-A54L-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AY-A54L
+TCGA-A6-5665-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5665
+TCGA-A6-2677-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2677
+TCGA-CM-6162-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6162
+GTEX-144GM-1226-SM-5LU52,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-DC-6157-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-6157
+GTEX-WI4N-2226-SM-4OOS9,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AH-6547-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AH-6547
+TCGA-D5-6541-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6541
+TCGA-CM-5348-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-5348
+TCGA-AF-5654-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-5654
+GTEX-11GSP-1626-SM-5986N,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-4T-AA8H-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-4T-AA8H
+GTEX-13D11-0826-SM-5KLZJ,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-5M-AATA-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-5M-AATA
+TCGA-AY-A71X-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AY-A71X
+TCGA-NH-A50T-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-NH-A50T
+TCGA-AA-3520-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3520
+TCGA-DM-A28C-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A28C
+GTEX-1399R-2126-SM-5K7WZ,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-WOFM-2026-SM-4OOSQ,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-F5-6811-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6811
+TCGA-EI-6509-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6509
+TCGA-AD-6965-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-6965
+TCGA-DM-A0XD-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A0XD
+GTEX-YEC4-1926-SM-5IFHJ,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-WHWD-1526-SM-4OORV,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-S7SF-1926-SM-4AT5B,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-QCQG-1626-SM-48U26,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AF-2692-11,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-2692
+GTEX-QV31-0826-SM-4R1KR,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-CA-6717-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CA-6717
+TCGA-A6-6782-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6782
+TCGA-CI-6620-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CI-6620
+TCGA-A6-2674-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2674
+GTEX-ZP4G-1526-SM-57WE5,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AH-6643-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AH-6643
+TCGA-G4-6626-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6626
+GTEX-132AR-2826-SM-5IJFV,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-WHPG-1626-SM-4M1ZL,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-DY-A1DC-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DY-A1DC
+GTEX-13O1R-2426-SM-5KLZZ,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-11GS4-1826-SM-5HL4T,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-CM-4744-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-4744
+TCGA-AZ-6605-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6605
+TCGA-EI-6881-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6881
+TCGA-A6-2680-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA_CRC_solid_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2680
+GTEX-WRHK-1126-SM-4MVOJ,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-11EQ9-1526-SM-5PNY7,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AZ-6601-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6601
+GTEX-XUJ4-2126-SM-4BOOX,GTEX,Colon - Sigmoid,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AG-3725-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-3725
+GTEX-WFON-1426-SM-4LVMT,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+GTEX-11P82-1026-SM-5BC5J,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-F5-6464-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6464
+TCGA-A6-2684-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2684
+GTEX-ZLV1-1226-SM-4WWBX,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-AZ-4315-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-4315
+TCGA-CM-4751-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-4751
+TCGA-AA-3675-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3675
+GTEX-X15G-1326-SM-4PQZJ,GTEX,Colon - Transverse,Normal Tissue,GTEx_colon_normal,True,TcgaTargetGtex_rsem_gene_tpm,
+TCGA-G4-6317-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6317
+TCGA-DM-A28A-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A28A
+TCGA-AA-3660-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA_CRC_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3660

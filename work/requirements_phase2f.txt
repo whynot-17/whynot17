@@ -1,0 +1,5 @@
+xenaPython==1.0.14
+pandas>=2.0
+numpy>=1.23
+scipy>=1.10
+matplotlib>=3.7
