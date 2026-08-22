@@ -1,0 +1,45 @@
+{
+  "run_timestamp_utc": "2026-08-22T06:38:36.119958+00:00",
+  "script": "work\\scripts\\environmental_toxicology_crc_phase1.py",
+  "rules": "work\\environmental_toxicology_crc_phase1\\chemical_class_rules.json",
+  "drugcentral": {
+    "path": "work\\environmental_toxicology_crc_phase1\\data\\drugcentral_structures.smiles.tsv",
+    "sha256": "5B81423A2EC1E2766E9666EC4A172D5A5B47045EA2CC032D1BA06085956BC1FC"
+  },
+  "pah_formulas": {
+    "path": "work\\environmental_toxicology_crc_phase1\\data\\pubchem_pah_formula.json",
+    "sha256": "C9057CABC8C3CB740FCBF56E0224431BE860BEA450083A026D374715E41634EB"
+  },
+  "interaction_file": "work\\environmental_toxicology_crc_phase1\\data\\CTD_chem_gene_ixns.tsv.gz",
+  "chemicals_file": "work\\environmental_toxicology_crc_phase1\\data\\CTD_chemicals.tsv.gz",
+  "gene_cards": {
+    "GeneCards_Disorders": {
+      "input_rows": 706,
+      "mapped_rows": 670,
+      "ambiguous_symbols": 0,
+      "sha256": "79bff2923c36b02f8f7307a36604890cf3de73e2e17488ccb6f60aa392a87362",
+      "path": "work\\environmental_toxicology_crc_phase1\\data\\genecards_disorders_crc.csv"
+    },
+    "GeneCards_Anywhere": {
+      "input_rows": 2000,
+      "mapped_rows": 1935,
+      "ambiguous_symbols": 0,
+      "sha256": "f09e8951a7790c460f93dae6c40fc35070c9092f72908a91bccae3292e86b7e9",
+      "path": "work\\environmental_toxicology_crc_phase1\\data\\genecards_anywhere_crc_top2000.csv"
+    }
+  },
+  "n_human_raw_interaction_rows": 1327615,
+  "n_human_unique_pairs": 828394,
+  "n_core_chemicals": 267,
+  "n_core_classes": 14,
+  "n_core_universe_genes": 22786,
+  "n_allctd_universe_genes": 28632,
+  "n_permutations": 1000,
+  "seed": 20260822,
+  "ctd_organism": "Homo sapiens",
+  "ctd_pair_deduplication": "unique ChemicalID x GeneID",
+  "primary_gene_cards_scope": "Disorders",
+  "primary_gene_cards_k": 1000,
+  "primary_background": "U_core",
+  "independent_crc_literature_search": false
+}

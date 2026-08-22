@@ -1,0 +1,26 @@
+{
+  "version": "2026-08-22",
+  "source": "CTD TreeNumbers and ParentTreeNumbers from CTD_chemicals.tsv.gz",
+  "core_rules": {
+    "heavy_metals": ["D01.268.556", "D01.552.544"],
+    "pesticides": ["D27.720.031.700", "D27.888.723"],
+    "pfas_perfluoro": ["D02.455.526.510.435"],
+    "phthalates": ["D02.241.223.805"],
+    "bisphenols": ["D02.455.426.559.389.657.110"],
+    "pahs": ["D02.455.426.559.847"],
+    "vocs": ["D02.974"],
+    "flame_retardants": ["D27.720.361"],
+    "persistent_organic_pollutants": ["D27.888.284.429"],
+    "endocrine_disruptors": ["D27.505.696.353", "D27.888.141"],
+    "environmental_pollutants": ["D27.888.284"]
+  },
+  "drugbank_field_expected": false,
+  "drug_exclusion_regex": "(?i)(analgesic|narcotic|opiate|opioid|antineoplastic|antitumor|antibiotic|antiviral|chemotherapeutic|immunosuppressive|immunomodulator|hypnotic|statin|medication|pharmacologic|pharmacological|thalidomide|etoposide|morphine)",
+  "notes": [
+    "A chemical is core when any CTD TreeNumber or ParentTreeNumber is a descendant of one of the listed MeSH paths.",
+    "DrugBankID is not present in the current CTD_chemicals.tsv.gz header. As deterministic fallbacks, the script uses the prespecified CTD drug-semantic regex and the locally supplied DrugCentral CAS/INN reference; this is not manual name review.",
+    "DrugCentral reference file: structures.smiles.tsv, downloaded from the official DrugCentral download endpoint; it is used only for drug exclusion and is not part of the CRC enrichment model.",
+    "For the PAHs branch only, PubChem MolecularFormula is used as a structure-level guard: the PAH label requires a C/H-only molecular formula; compounds without a retrievable formula or with heteroatoms remain excluded from that class.",
+    "The environmental_pollutants rule is broad and is retained as a prespecified core class; class-specific results are reported separately."
+  ]
+}
