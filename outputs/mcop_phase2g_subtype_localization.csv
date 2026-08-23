@@ -1,0 +1,3 @@
+dataset_id,group,compartment,n_cells,n_donors,n_cell_types,n_tissues,subtype,median_PPAR_NR,PPAR_low_fraction,PPAR_high_fraction,tumor_normal_distribution,status
+16023185-de21-4c0d-a9c8-73abdd52d142,normal,epithelial,34429,36,6,1,annotation available only as aggregate cell-type audit,,,,normal,not_estimable_runtime_blocked
+16023185-de21-4c0d-a9c8-73abdd52d142,tumor,epithelial,15316,62,8,1,annotation available only as aggregate cell-type audit,,,,tumor,not_estimable_runtime_blocked

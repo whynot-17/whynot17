@@ -1,0 +1,146 @@
+{
+  "analysis": "Phase 2G DINP/MCOP-CRC epithelial state convergence and regulatory anchoring",
+  "mode": "fallback_existing_phase2f_evidence",
+  "runtime_status": "Census raw-expression query blocked by WSL/TileDB service failure",
+  "census_version": "2025-11-08",
+  "primary_dataset_id": "16023185-de21-4c0d-a9c8-73abdd52d142",
+  "ppar_nr_core_genes": [
+    "PPARA",
+    "PPARD",
+    "PPARG",
+    "NR1I2",
+    "NR1I3",
+    "NR1H2",
+    "NR1H3"
+  ],
+  "state_programs": {
+    "EMT": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 200
+    },
+    "E2F_targets": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 200
+    },
+    "G2M_checkpoint": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 200
+    },
+    "MYC_targets_V1": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 200
+    },
+    "MYC_targets_V2": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 58
+    },
+    "Hypoxia": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 200
+    },
+    "Inflammatory_response": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 200
+    },
+    "TNF_NFkB": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 200
+    },
+    "IL6_JAK_STAT3": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 87
+    },
+    "ROS": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 49
+    },
+    "OXPHOS": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 200
+    },
+    "Fatty_acid_metabolism": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 158
+    },
+    "Cholesterol_homeostasis": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 74
+    },
+    "Apoptosis": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 161
+    },
+    "p53": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 200
+    },
+    "UPR": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 113
+    },
+    "Glycolysis": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 200
+    },
+    "IFN_alpha": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 97
+    },
+    "IFN_gamma": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 200
+    },
+    "TGF_beta": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 54
+    },
+    "WNT_beta_catenin": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 42
+    },
+    "intestinal_epithelial_differentiation": {
+      "source": "curated marker panel; frozen before analysis",
+      "n_genes": 17
+    },
+    "stemness": {
+      "source": "curated marker panel; frozen before analysis",
+      "n_genes": 10
+    },
+    "secretory_differentiation": {
+      "source": "curated marker panel; frozen before analysis",
+      "n_genes": 10
+    },
+    "enterocyte_differentiation": {
+      "source": "curated marker panel; frozen before analysis",
+      "n_genes": 10
+    },
+    "goblet_program": {
+      "source": "curated marker panel; frozen before analysis",
+      "n_genes": 8
+    },
+    "stress_like_epithelial": {
+      "source": "curated marker panel; frozen before analysis",
+      "n_genes": 10
+    }
+  },
+  "unit_of_inference": "existing donor-level Phase 2F output; primary Phase 2G state inference not estimable",
+  "external_validation": "GSE144735 target-universe state scores plus existing TCGA paired Phase 2F output; frozen Phase 2F PPAR/NR row reused for exact comparability",
+  "causal_status": "not established",
+  "verdict": "PARTIALLY",
+  "virtual_perturbation": "not run",
+  "outputs": [
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_epithelial_state_scores.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_ppar_low_high_de.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_pathway_state_scores.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_state_correlations.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_donor_level_validation.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_subtype_localization.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_tumor_ppar_interaction.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_regulator_activity.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_regulatory_anchor_ranking.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_external_validation.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_bridge_evidence_table.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_donor_state_pseudobulk.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_report.md"
+  ]
+}
