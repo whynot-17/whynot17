@@ -4,11 +4,21 @@ This directory contains the five assembled manuscript figures defined by the fro
 
 ## Assembled figures
 
+- `Figure1_study_design_v2.{png,pdf,svg}` (revised study-design figure)
+- `Figure2_candidate_triage_v1.{png,pdf,svg}` (revised candidate-prioritization figure)
 - `Figure1_study_design_v1.{png,pdf,svg}`
 - `Figure2_nhanes_primary_v1.{png,pdf,svg}`
 - `Figure3_robustness_v1.{png,pdf,svg}`
 - `Figure4_ppar_singlecell_v1.{png,pdf,svg}`
 - `Figure5_integrated_model_v1.{png,pdf,svg}`
+
+The revised manuscript sequence inserts the candidate-triage figure as Figure 2. The earlier `Figure2_nhanes_primary_v1` and downstream V1 files are retained as legacy production artifacts until their final renumbering pass.
+
+The revised Figure 2 can be rebuilt from the repository root with:
+
+```powershell
+python work/scripts/make_figure2_candidate_triage_v1.py
+```
 
 The `panels/` directory contains 19 separately exported panels in the same three formats. The `source_data/` directory contains the exact plotting tables used by each quantitative panel.
 
@@ -36,4 +46,3 @@ python work/scripts/make_manuscript_figures_v1.py `
 - Captions and figure-level titles are kept outside the artwork in `figure_legends_v1.md`.
 
 For submission, use the vector PDF as the primary artwork file. PNG is retained for rapid review and slide/PPT import; SVG is the editable master.
-
