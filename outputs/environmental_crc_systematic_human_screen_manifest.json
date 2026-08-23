@@ -1,0 +1,88 @@
+{
+  "phase": "Phase 2I systematic human screen",
+  "generated_at_utc": "2026-08-23T15:20:14.595282+00:00",
+  "actionability_matrix": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\environmental_crc_267_actionability_matrix.csv",
+  "n_eligible_permissive": 1,
+  "n_tested_estimable": 1,
+  "candidate_ids_tested": [
+    "C573544"
+  ],
+  "outcome_blinded_eligibility": true,
+  "selection_used_human_crc_effect": false,
+  "input_manifest": {
+    "harmonized_rebuilt_from_local_xpt": true,
+    "source_manifest_rows": 90,
+    "mcop_manifest": [
+      {
+        "cycle": "2005-2006",
+        "file": "2005-2006_PHTHTE.XPT",
+        "bytes": 701840,
+        "sha256": "5ed37a3d5d34a15db34d23806624f45ce2f217c4b6fadef31d6aa031ccaa572e",
+        "value_variable": "URXCOP",
+        "lod_comment_variable": "URDCOPLC",
+        "raw_rows": 2638
+      },
+      {
+        "cycle": "2007-2008",
+        "file": "2007-2008_PHTHTE.XPT",
+        "bytes": 722960,
+        "sha256": "1cd285c7023329f425d59934fb490e4ef10b624c10af769321832a474a7e5ddc",
+        "value_variable": "URXCOP",
+        "lod_comment_variable": "URDCOPLC",
+        "raw_rows": 2718
+      },
+      {
+        "cycle": "2009-2010",
+        "file": "2009-2010_PHTHTE.XPT",
+        "bytes": 749600,
+        "sha256": "aeaae6409c168258d888bea3010e14a84dad9b5a519ac7cf2f40df1f4ea5aea0",
+        "value_variable": "URXCOP",
+        "lod_comment_variable": "URDCOPLC",
+        "raw_rows": 2819
+      },
+      {
+        "cycle": "2011-2012",
+        "file": "2011-2012_PHTHTE.XPT",
+        "bytes": 648480,
+        "sha256": "d858d116a6249848f912b1d7d96430de58bb73fafac64c1fb03dac673e021ec2",
+        "value_variable": "URXCOP",
+        "lod_comment_variable": "URDCOPLC",
+        "raw_rows": 2594
+      },
+      {
+        "cycle": "2013-2014",
+        "file": "2013-2014_PHTHTE.XPT",
+        "bytes": 649120,
+        "sha256": "248209bd9171597729674e285f11e8ba0be056f03c49c727491372450b5694de",
+        "value_variable": "URXCOP",
+        "lod_comment_variable": "URDCOPLC",
+        "raw_rows": 2777
+      },
+      {
+        "cycle": "2015-2016",
+        "file": "2015-2016_PHTHTE.XPT",
+        "bytes": 877280,
+        "sha256": "9934f4befb8519daceb36358a10a6052b24b3452d85e55a47524544054f987e4",
+        "value_variable": "URXCOP",
+        "lod_comment_variable": "URDCOPLC",
+        "raw_rows": 3205
+      },
+      {
+        "cycle": "2017-2018",
+        "file": "2017-2018_PHTHTE.XPT",
+        "bytes": 961840,
+        "sha256": "89e55b4459086e41e815228b18c144a8046bf9e2391137c3602cce92dfd3b67d",
+        "value_variable": "URXCOP",
+        "lod_comment_variable": "URDCOPLC",
+        "raw_rows": 2986
+      }
+    ]
+  },
+  "outputs": [
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\environmental_crc_systematic_human_screen.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\environmental_crc_systematic_human_screen_fdr.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\environmental_crc_systematic_human_screen_report.md",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\environmental_crc_systematic_human_screen_manifest.json"
+  ],
+  "warning": "Only one axis is currently eligible; 265 chemical actionability audits remain pending."
+}
