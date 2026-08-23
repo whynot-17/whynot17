@@ -478,11 +478,19 @@ def main() -> None:
     if not detect_df.empty:
         detect_df = detect_df.rename(columns={"n_measured": "n_measured", "n_above_lod": "n_above_lod"})
 
-    summary = detect_df.groupby("ChemicalID", as_index=False).agg(
+    # Detectability eligibility is evaluated on the pre-outcome selected
+    # primary biomarker for each chemical. Do not let a low-detectability
+    # secondary biomarker (e.g. MiNP) drag down a distinct primary analyte
+    # (e.g. MCOP/URXCOP) while the full multi-biomarker evidence remains in
+    # OUT_DETECT and all_biomarker_summary.
+    selected_lookup = mapping_df[["ChemicalID", "selected_primary_biomarker"]].rename(columns={"selected_primary_biomarker": "selected_primary_biomarker_expected"})
+    detect_primary = detect_df.merge(selected_lookup, on="ChemicalID", how="left", validate="many_to_one")
+    detect_primary = detect_primary.loc[detect_primary["variable"].eq(detect_primary["selected_primary_biomarker_expected"])].copy()
+    summary = detect_primary.groupby("ChemicalID", as_index=False).agg(
         above_lod_pct=("above_lod_pct", "mean"), min_cycle_above_lod_pct=("above_lod_pct", "min"),
         median_cycle_above_lod_pct=("above_lod_pct", "median"), max_cycle_above_lod_pct=("above_lod_pct", "max"),
         n_measured=("n_measured", "sum"), n_above_lod=("n_above_lod", "sum"),
-    ) if not detect_df.empty else pd.DataFrame(columns=["ChemicalID"])
+    ) if not detect_primary.empty else pd.DataFrame(columns=["ChemicalID"])
     if not summary.empty:
         summary["above_lod_pct"] = 100 * summary["n_above_lod"] / summary["n_measured"].replace(0, np.nan)
         summary["D_tag"] = np.select([summary["above_lod_pct"] < 50, summary["above_lod_pct"] < 90], [0, 1], default=2)

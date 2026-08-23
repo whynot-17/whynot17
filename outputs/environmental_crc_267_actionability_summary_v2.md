@@ -1,6 +1,6 @@
 # Complete 267-chemical environmental CRC human-actionability audit v2
 
-Generated: 2026-08-23T16:25:50.237701+00:00
+Generated: 2026-08-23T16:47:37.975174+00:00
 
 ## Scope and firewall
 
@@ -20,7 +20,7 @@ Outcome firewall: `PRIORITIZATION_OUTCOME_BLINDED=True`; candidate-specific huma
 | E_X_B_D_and_C_coverage | 124 |
 | E_X_B_D_C_and_T_testable | 87 |
 | moderate_eligibility | 87 |
-| strict_eligibility | 25 |
+| strict_eligibility | 27 |
 
 The permissive rule was frozen as `E=1 & X=1 & B=1 & D>=1 & C>=1 & T>=1`; moderate and strict tiers were retained as sensitivity tiers. The 87 eligible chemical rows collapse to 15 unique biomarker-axis tests because multiple parent chemicals share the same validated NHANES proxy; the human screen is run once per unique axis and reports the member chemicals.
 
@@ -28,7 +28,7 @@ The permissive rule was frozen as `E=1 & X=1 & B=1 & D>=1 & C>=1 & T>=1`; modera
 
 | Tier | Definition | N chemical rows |
 |---|---|---:|
-| A strict | D=2, C=2, T=2 | 25 |
+| A strict | D=2, C=2, T=2 | 27 |
 | A moderate | D>=1, C=2, T>=1 | 87 |
 | B human-testable | permissive eligibility but not moderate | 0 |
 | C molecular-only | M2 but not human-testable | 10 |

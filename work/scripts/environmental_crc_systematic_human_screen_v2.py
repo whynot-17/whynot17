@@ -85,19 +85,23 @@ def read_environmental_axis(axis_rows: pd.DataFrame) -> tuple[pd.DataFrame, dict
             raise FileNotFoundError(path)
         frame = pd.read_sas(path, format="xport", encoding="latin1")
         needed = ["SEQN", row.variable, row.weight_variable]
+        flag_variable = str(row.flag_variable) if pd.notna(row.flag_variable) and str(row.flag_variable) not in {"", "nan"} else ""
+        if flag_variable and flag_variable in frame.columns:
+            needed.append(flag_variable)
         if not set(needed).issubset(frame.columns):
             continue
         part = frame[needed].copy()
         part["SEQN"] = pd.to_numeric(part["SEQN"], errors="coerce").astype("Int64")
         part["exposure_raw"] = pd.to_numeric(part[row.variable], errors="coerce")
         part["survey_weight"] = pd.to_numeric(part[row.weight_variable], errors="coerce")
+        part["above_lod"] = pd.to_numeric(part[flag_variable], errors="coerce").ne(1) if flag_variable and flag_variable in part.columns else part["exposure_raw"].notna()
         # CDC's 1999-2000/2001-2002 phthalate 4-year weight covers twice the
         # width of a single 2-year cycle. Match the frozen harmonizer: apply
         # the 2x conversion only when the file actually carries WTSPH4YR.
         weight_multiplier = 2.0 if str(row.cycle) in {"1999-2000", "2001-2002"} and str(row.weight_variable) == "WTSPH4YR" else 1.0
         part["survey_weight"] = part["survey_weight"] * weight_multiplier
         part["cycle"] = str(row.cycle)
-        part = part[["SEQN", "cycle", "exposure_raw", "survey_weight"]]
+        part = part[["SEQN", "cycle", "exposure_raw", "survey_weight", "above_lod"]]
         pieces.append(part)
         source_rows.append({"cycle": row.cycle, "data_file": row.data_file, "variable": row.variable, "weight_variable": row.weight_variable, "weight_multiplier": weight_multiplier})
     if not pieces:
