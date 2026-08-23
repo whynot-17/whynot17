@@ -31,16 +31,18 @@
   "unit_of_analysis": "donor-level pseudobulk",
   "tumor_labeling": "tumor-derived epithelial; no malignant annotation/CNV inference",
   "max_datasets": null,
-  "dataset_ids": [
-    "16023185-de21-4c0d-a9c8-73abdd52d142"
-  ],
+  "dataset_ids": null,
   "compartments": [
-    "epithelial"
+    "epithelial",
+    "myeloid",
+    "fibroblast",
+    "endothelial"
   ],
+  "reuse_pseudobulk": true,
   "full_scope": false,
   "n_relevant_observations": 1145214,
   "n_datasets": 23,
   "n_donors": 289,
   "execution_error": null,
-  "run_timestamp_utc": "2026-08-22T17:29:01.029191+00:00"
+  "run_timestamp_utc": "2026-08-23T01:50:37.093876+00:00"
 }

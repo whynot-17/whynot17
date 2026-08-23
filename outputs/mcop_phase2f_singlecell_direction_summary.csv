@@ -1,4 +1,13 @@
 compartment,score,eligible_datasets,positive_datasets,negative_datasets,positive_fraction,median_dataset_delta
+endothelial,DINP_axis_9_gene_score,1,1,0,1.0,0.12987549495778358
+endothelial,PPAR_nuclear_receptor_score,1,1,0,1.0,0.10453113608046065
+endothelial,RELA_STAT3_score,1,1,0,1.0,0.21858075102841373
 epithelial,DINP_axis_9_gene_score,1,0,1,0.0,-0.11076238746646758
 epithelial,PPAR_nuclear_receptor_score,1,0,1,0.0,-0.5055771800708357
 epithelial,RELA_STAT3_score,1,1,0,1.0,1.2710893866488209
+fibroblast,DINP_axis_9_gene_score,1,0,1,0.0,-0.025027339389639844
+fibroblast,PPAR_nuclear_receptor_score,1,0,1,0.0,-0.06746307165736401
+fibroblast,RELA_STAT3_score,1,1,0,1.0,0.12349772354739466
+myeloid,DINP_axis_9_gene_score,1,1,0,1.0,0.7102609864730596
+myeloid,PPAR_nuclear_receptor_score,1,1,0,1.0,0.7670733828334783
+myeloid,RELA_STAT3_score,1,1,0,1.0,0.5114175992115935

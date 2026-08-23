@@ -1,3 +1,9 @@
 dataset_id,group,compartment,n_cells,n_donors,n_cell_types,n_tissues
+16023185-de21-4c0d-a9c8-73abdd52d142,normal,endothelial,2608,35,6,1
 16023185-de21-4c0d-a9c8-73abdd52d142,normal,epithelial,34429,36,6,1
+16023185-de21-4c0d-a9c8-73abdd52d142,normal,fibroblast,2200,35,2,1
+16023185-de21-4c0d-a9c8-73abdd52d142,normal,myeloid,2943,36,6,1
+16023185-de21-4c0d-a9c8-73abdd52d142,tumor,endothelial,4912,60,6,1
 16023185-de21-4c0d-a9c8-73abdd52d142,tumor,epithelial,15316,62,8,1
+16023185-de21-4c0d-a9c8-73abdd52d142,tumor,fibroblast,3031,58,2,1
+16023185-de21-4c0d-a9c8-73abdd52d142,tumor,myeloid,37128,62,6,1

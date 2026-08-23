@@ -566,10 +566,18 @@ def score_pseudobulk(pseudobulk: pd.DataFrame) -> pd.DataFrame:
                     }
                 )
             )
-    score_index = pd.DataFrame({"index": scored.index})
+    score_columns = [
+        column
+        for label in SCORE_COLUMNS.values()
+        for column in (label, f"{label}_n_genes")
+    ]
+    score_index = pd.DataFrame(np.nan, index=scored.index, columns=score_columns)
     for frame in score_frames:
-        score_index = score_index.merge(frame, on="index", how="left")
-    score_index = score_index.drop_duplicates("index").set_index("index")
+        frame_index = frame["index"].to_numpy()
+        for column in frame.columns:
+            if column == "index":
+                continue
+            score_index.loc[frame_index, column] = frame[column].to_numpy()
     for column in score_index.columns:
         scored[column] = score_index[column]
     return scored
@@ -693,6 +701,14 @@ def write_report(
     error: str | None = None,
     scope_note: str | None = None,
 ) -> None:
+    if pooled.empty:
+        pooled = pd.DataFrame(columns=["compartment", "score", "tumor_donors", "normal_donors", "median_delta_tumor_minus_normal", "p_value"])
+    if lodo.empty:
+        lodo = pd.DataFrame(columns=["compartment", "score", "tumor_donors", "normal_donors", "mean_delta_tumor_minus_normal"])
+    if directions.empty:
+        directions = pd.DataFrame(columns=["compartment", "score", "eligible_datasets", "positive_datasets", "negative_datasets", "positive_fraction"])
+    if paired.empty:
+        paired = pd.DataFrame(columns=["dataset_id", "compartment", "score", "paired_donors", "median_delta_tumor_minus_normal", "p_value"])
     primary_score = SCORE_COLUMNS["PPAR_NR"]
     primary_direction = directions[(directions["compartment"].eq("epithelial")) & directions["score"].eq(primary_score)]
     primary_lodo = lodo[(lodo["compartment"].eq("epithelial")) & lodo["score"].eq(primary_score)]
@@ -715,7 +731,7 @@ def write_report(
         interpretation = f"Census execution did not complete: {error}"
     elif scope_note:
         status = "PARTIAL"
-        interpretation = scope_note
+        interpretation = "The targeted dataset result is informative but cannot trigger the frozen multi-dataset mechanism gate."
     elif eligible >= 2 and all_positive and lodo_stable:
         status = "GREEN"
         interpretation = "Epithelial donor-level PPAR/NR scores are directionally concordant across datasets and remain positive after dataset leave-one-out."
@@ -726,10 +742,37 @@ def write_report(
         status = "RED"
         interpretation = "No compartment meets the frozen multi-dataset direction criterion. Stop treating PPAR/NR as the main mechanism and retain it as exploratory only."
 
+    observed_compartments = sorted(
+        set(
+            cell_audit.loc[
+                pd.to_numeric(cell_audit.get("n_cells", pd.Series(dtype=float)), errors="coerce").gt(0),
+                "compartment",
+            ].dropna().astype(str)
+        )
+        | set(
+            pooled.loc[
+                pd.to_numeric(pooled.get("tumor_donors", pd.Series(dtype=float)), errors="coerce").gt(0)
+                | pd.to_numeric(pooled.get("normal_donors", pd.Series(dtype=float)), errors="coerce").gt(0),
+                "compartment",
+            ].dropna().astype(str)
+        )
+    )
+    if scope_note:
+        run_description = (
+            "This is a targeted partial run: the paired Census dataset was processed across "
+            f"the available compartments ({', '.join(observed_compartments) or 'none'}). "
+            "It cannot trigger the frozen multi-dataset GREEN/YELLOW/RED mechanism gate; "
+            "the independent dataset replication remains a separate analysis."
+        )
+    else:
+        run_description = "This is the full multi-dataset, four-compartment Census run."
+
     lines = [
         "# MCOP–CRC Phase 2F-B：CELLxGENE Census 单细胞验证",
         "",
         f"## 当前判定：**{status}**",
+        "",
+        run_description,
         "",
         interpretation,
         "",
@@ -860,6 +903,11 @@ def main() -> None:
         action="store_true",
         help="Reuse the existing observation metadata audit instead of re-querying Census metadata.",
     )
+    parser.add_argument(
+        "--reuse-pseudobulk",
+        action="store_true",
+        help="Reuse the existing donor pseudobulk CSV and rerun scoring/reporting without querying Census expression.",
+    )
     args = parser.parse_args()
     OUTPUT.mkdir(parents=True, exist_ok=True)
 
@@ -875,6 +923,7 @@ def main() -> None:
     paired = pd.DataFrame()
     labels: dict[str, object] = {}
     execution_error: str | None = None
+    reused_pseudobulk = False
 
     try:
         with open_census() as census:
@@ -892,33 +941,51 @@ def main() -> None:
                 obs = fetch_relevant_obs(census, labels)
                 obs.to_csv(audit_path, index=False)
 
-            dataset_ids = sorted(obs["dataset_id"].dropna().astype(str).unique())
-            if args.dataset_ids:
-                requested = [str(x) for x in args.dataset_ids]
-                missing = sorted(set(requested) - set(dataset_ids))
-                if missing:
-                    raise RuntimeError(f"Requested dataset IDs were not present in the metadata audit: {missing}")
-                dataset_ids = requested
-            if args.max_datasets is not None:
-                dataset_ids = dataset_ids[: args.max_datasets]
-            tissue_labels = [str(x) for x in labels.get("preferred_tissue_general", [])]
-            tumor_labels = set(str(x) for x in labels.get("tumor_disease_labels", []))
-            normal_labels = set(str(x) for x in labels.get("normal_disease_labels", []))
-            expression_disease_labels = sorted(tumor_labels | normal_labels)
-            pb_frames, cell_frames, donor_frames = [], [], []
-            for index, dataset_id in enumerate(dataset_ids, start=1):
-                dataset_obs = obs[obs["dataset_id"].astype(str).eq(dataset_id)]
-                print(f"[{index}/{len(dataset_ids)}] querying {dataset_id} by compartment")
-                for compartment in args.compartments:
+            if args.reuse_pseudobulk:
+                pseudobulk_path = OUTPUT / "mcop_phase2f_singlecell_donor_pseudobulk.csv"
+                cell_audit_path = OUTPUT / "mcop_phase2f_singlecell_dataset_donor_cell_audit.csv"
+                donor_audit_path = OUTPUT / "mcop_phase2f_singlecell_donor_audit.csv"
+                if not pseudobulk_path.exists():
+                    raise RuntimeError(f"Requested pseudobulk reuse but file is missing: {pseudobulk_path}")
+                pseudobulk = pd.read_csv(pseudobulk_path)
+                if cell_audit_path.exists():
+                    cell_audit = pd.read_csv(cell_audit_path)
+                if donor_audit_path.exists():
+                    donor_audit = pd.read_csv(donor_audit_path)
+                reused_pseudobulk = True
+                print(f"[reuse] loaded donor pseudobulk: {len(pseudobulk):,} rows")
+            else:
+                dataset_ids = sorted(obs["dataset_id"].dropna().astype(str).unique())
+                if args.dataset_ids:
+                    requested = [str(x) for x in args.dataset_ids]
+                    missing = sorted(set(requested) - set(dataset_ids))
+                    if missing:
+                        raise RuntimeError(f"Requested dataset IDs were not present in the metadata audit: {missing}")
+                    dataset_ids = requested
+                if args.max_datasets is not None:
+                    dataset_ids = dataset_ids[: args.max_datasets]
+                tissue_labels = [str(x) for x in labels.get("preferred_tissue_general", [])]
+                tumor_labels = set(str(x) for x in labels.get("tumor_disease_labels", []))
+                normal_labels = set(str(x) for x in labels.get("normal_disease_labels", []))
+                expression_disease_labels = sorted(tumor_labels | normal_labels)
+                pb_frames, cell_frames, donor_frames = [], [], []
+                for index, dataset_id in enumerate(dataset_ids, start=1):
+                    dataset_obs = obs[obs["dataset_id"].astype(str).eq(dataset_id)]
                     cell_type_labels = sorted(
-                        dataset_obs.loc[dataset_obs["compartment"].eq(compartment), "cell_type"]
+                        dataset_obs.loc[
+                            dataset_obs["compartment"].isin(args.compartments), "cell_type"
+                        ]
                         .dropna()
                         .astype(str)
                         .unique()
                     )
                     if not cell_type_labels:
                         continue
-                    print(f"    compartment={compartment}; cell types={len(cell_type_labels)}")
+                    print(
+                        f"[{index}/{len(dataset_ids)}] querying {dataset_id} once "
+                        f"for compartments={','.join(args.compartments)}; "
+                        f"cell types={len(cell_type_labels)}"
+                    )
                     pb, cells, donors = fetch_dataset_pseudobulk(
                         census,
                         dataset_id,
@@ -929,16 +996,19 @@ def main() -> None:
                         normal_labels,
                     )
                     if not pb.empty:
+                        pb = pb[pb["compartment"].isin(args.compartments)].copy()
                         pb_frames.append(pb)
                     if not cells.empty:
+                        cells = cells[cells["compartment"].isin(args.compartments)].copy()
                         cell_frames.append(cells)
                     if not donors.empty:
+                        donors = donors[donors["compartment"].isin(args.compartments)].copy()
                         donor_frames.append(donors)
-                    print(f"        usable donor rows={len(pb):,}")
+                    print(f"    usable donor rows={len(pb):,}")
 
-            pseudobulk = pd.concat(pb_frames, ignore_index=True) if pb_frames else pd.DataFrame()
-            cell_audit = pd.concat(cell_frames, ignore_index=True) if cell_frames else pd.DataFrame()
-            donor_audit = pd.concat(donor_frames, ignore_index=True) if donor_frames else pd.DataFrame()
+                pseudobulk = pd.concat(pb_frames, ignore_index=True) if pb_frames else pd.DataFrame()
+                cell_audit = pd.concat(cell_frames, ignore_index=True) if cell_frames else pd.DataFrame()
+                donor_audit = pd.concat(donor_frames, ignore_index=True) if donor_frames else pd.DataFrame()
             if pseudobulk.empty:
                 raise RuntimeError("No donor-level pseudobulk rows remained after donor, disease, tissue and compartment gates.")
             scored = score_pseudobulk(pseudobulk)
@@ -972,9 +1042,14 @@ def main() -> None:
     pooled.to_csv(OUTPUT / "mcop_phase2f_singlecell_pooled_contrasts.csv", index=False)
     lodo.to_csv(OUTPUT / "mcop_phase2f_singlecell_leave_one_dataset_out.csv", index=False)
     directions.to_csv(OUTPUT / "mcop_phase2f_singlecell_direction_summary.csv", index=False)
-    full_scope = args.dataset_ids is None and args.max_datasets is None and set(args.compartments) == set(COMPARTMENTS)
+    full_scope = (
+        not reused_pseudobulk
+        and args.dataset_ids is None
+        and args.max_datasets is None
+        and set(args.compartments) == set(COMPARTMENTS)
+    )
     scope_note = None if full_scope else (
-        "This is a targeted/partial run (explicit dataset or compartment restriction). "
+        "This is a targeted/partial run (explicit dataset, compartment, or pseudobulk reuse restriction). "
         "Do not apply the frozen GREEN/YELLOW/RED mechanism gate until the full multi-dataset, "
         "four-compartment run is complete."
     )
@@ -996,6 +1071,7 @@ def main() -> None:
             "max_datasets": args.max_datasets,
             "dataset_ids": args.dataset_ids,
             "compartments": args.compartments,
+            "reuse_pseudobulk": args.reuse_pseudobulk,
             "full_scope": full_scope,
             "n_relevant_observations": int(len(obs)),
             "n_datasets": int(obs["dataset_id"].nunique()) if not obs.empty else 0,

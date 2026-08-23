@@ -1,0 +1,35 @@
+{
+  "analysis": "MCOP-CRC Phase 2F-B independent epithelial replication",
+  "dataset": "GSE144735",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE144735",
+  "primary_contrast": "Tumor versus Normal epithelial cells; Border excluded",
+  "unit_of_analysis": "patient-level pseudobulk",
+  "n_annotation_cells": 27414,
+  "n_matrix_cells": 27414,
+  "n_pseudobulk_rows": 12,
+  "n_patients": 6,
+  "nr_genes": [
+    "PPARA",
+    "PPARD",
+    "PPARG",
+    "NR1I2",
+    "NR1I3",
+    "NR1H2",
+    "NR1H3"
+  ],
+  "all_genes": [
+    "PPARA",
+    "PPARD",
+    "PPARG",
+    "NR1I2",
+    "NR1I3",
+    "NR1H2",
+    "NR1H3",
+    "RELA",
+    "STAT3"
+  ],
+  "annotation_sha256": "4eb9da239bef95b9003c0f6d0eeb41c6598ecc794cd25f57ad06d9bad81e881b",
+  "matrix_sha256": "046cbbd6c7501a4ddbca6d09fc0bb923e62d4d9421d5781efdeacb2c0a5b3b31",
+  "include_border_sensitivity_requested": true,
+  "run_timestamp_utc": "2026-08-23T01:51:11.244055+00:00"
+}

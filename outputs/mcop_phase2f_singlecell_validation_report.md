@@ -2,7 +2,9 @@
 
 ## 当前判定：**PARTIAL**
 
-这是一个 targeted partial run：只完成了 `16023185-de21-4c0d-a9c8-73abdd52d142` 的 epithelial compartment。它不能触发 frozen GREEN/YELLOW/RED 机制门槛。该 dataset 内，PPAR/NR score 在 tumor-derived epithelial 中低于 normal，RELA+STAT3 升高，而 9-gene composite 没有明显变化；这只是一个需要外部 dataset 复核的疾病状态结果。
+This is a targeted partial run: the paired Census dataset was processed across the available compartments (endothelial, epithelial, fibroblast, myeloid). It cannot trigger the frozen multi-dataset GREEN/YELLOW/RED mechanism gate; the independent dataset replication remains a separate analysis.
+
+The targeted dataset result is informative but cannot trigger the frozen multi-dataset mechanism gate.
 
 本轮的疾病细胞标签只能支持 **tumor-derived epithelial**；本脚本没有把它写成 malignant epithelial，也没有做 CNV 推断或使用未经核验的 malignant 标签。
 
@@ -44,17 +46,41 @@ A dataset is eligible for this check only when it has at least two tumor and two
 
 | compartment | score | eligible datasets | positive | negative | positive fraction |
 |---|---|---:|---:|---:|---:|
+| endothelial | DINP_axis_9_gene_score | 1 | 1 | 0 | 1.00 |
+| endothelial | PPAR_nuclear_receptor_score | 1 | 1 | 0 | 1.00 |
+| endothelial | RELA_STAT3_score | 1 | 1 | 0 | 1.00 |
 | epithelial | DINP_axis_9_gene_score | 1 | 0 | 1 | 0.00 |
 | epithelial | PPAR_nuclear_receptor_score | 1 | 0 | 1 | 0.00 |
 | epithelial | RELA_STAT3_score | 1 | 1 | 0 | 1.00 |
+| fibroblast | DINP_axis_9_gene_score | 1 | 0 | 1 | 0.00 |
+| fibroblast | PPAR_nuclear_receptor_score | 1 | 0 | 1 | 0.00 |
+| fibroblast | RELA_STAT3_score | 1 | 1 | 0 | 1.00 |
+| myeloid | DINP_axis_9_gene_score | 1 | 1 | 0 | 1.00 |
+| myeloid | PPAR_nuclear_receptor_score | 1 | 1 | 0 | 1.00 |
+| myeloid | RELA_STAT3_score | 1 | 1 | 0 | 1.00 |
+
+## Paired-donor check
+
+When the same donor ID contains both tumor and normal observations, the paired donor result is reported separately. This is not substituted for the multi-dataset gate.
+
+| dataset | compartment | score | paired donors | median delta | P |
+|---|---|---|---:|---:|---:|
+| 16023185-de21-4c0d-a9c8-73abdd52d142 | endothelial | PPAR_nuclear_receptor_score | 33 | -0.019 | 0.609 |
+| 16023185-de21-4c0d-a9c8-73abdd52d142 | endothelial | RELA_STAT3_score | 33 | 0.061 | 0.000952 |
+| 16023185-de21-4c0d-a9c8-73abdd52d142 | endothelial | DINP_axis_9_gene_score | 33 | -0.000 | 0.358 |
+| 16023185-de21-4c0d-a9c8-73abdd52d142 | epithelial | PPAR_nuclear_receptor_score | 36 | -0.419 | 4.29e-07 |
+| 16023185-de21-4c0d-a9c8-73abdd52d142 | epithelial | RELA_STAT3_score | 36 | 1.167 | 1.08e-07 |
+| 16023185-de21-4c0d-a9c8-73abdd52d142 | epithelial | DINP_axis_9_gene_score | 36 | 0.011 | 0.636 |
+| 16023185-de21-4c0d-a9c8-73abdd52d142 | fibroblast | PPAR_nuclear_receptor_score | 31 | 0.172 | 0.504 |
+| 16023185-de21-4c0d-a9c8-73abdd52d142 | fibroblast | RELA_STAT3_score | 31 | 0.051 | 0.347 |
+| 16023185-de21-4c0d-a9c8-73abdd52d142 | fibroblast | DINP_axis_9_gene_score | 31 | 0.184 | 0.433 |
+| 16023185-de21-4c0d-a9c8-73abdd52d142 | myeloid | PPAR_nuclear_receptor_score | 35 | 0.610 | 7.97e-09 |
+| 16023185-de21-4c0d-a9c8-73abdd52d142 | myeloid | RELA_STAT3_score | 35 | -0.029 | 0.728 |
+| 16023185-de21-4c0d-a9c8-73abdd52d142 | myeloid | DINP_axis_9_gene_score | 35 | 0.471 | 1.75e-10 |
 
 ## Leave-one-dataset-out
 
 `mcop_phase2f_singlecell_leave_one_dataset_out.csv` contains the full table. For the primary epithelial PPAR/NR score, the report uses only leave-one-out rows with at least two donors per group; this prevents a formally computed but uninformative result from being called stable.
-
-## Paired-donor check
-
-The same dataset contains 36 donor IDs with both tumor and normal epithelial observations. Paired tumor-minus-normal deltas were: PPAR/NR median **−0.419**, Wilcoxon P=**4.29e−07**; RELA+STAT3 median **1.167**, P=**1.08e−07**; nine-gene axis median **0.011**, P=**0.636**. These are targeted single-dataset results, not independent replication.
 
 ## Interpretation boundaries
 
@@ -78,7 +104,7 @@ The same dataset contains 36 donor IDs with both tumor and normal epithelial obs
 
 ## Reproducibility
 
-- Run UTC: `2026-08-22T17:29:01.001584+00:00`
+- Run UTC: `2026-08-23T01:50:37.063914+00:00`
 - Python: `3.12.3`
 - Script: `work/scripts/mcop_phase2f_singlecell_validation.py`
 - NR genes: `PPARA,PPARD,PPARG,NR1I2,NR1I3,NR1H2,NR1H3`
@@ -88,4 +114,4 @@ Primary epithelial PPAR/NR eligible datasets=1; positive=0; leave-one-dataset-ou
 
 ## Scope note
 
-This is a targeted/partial run. The full multi-dataset, four-compartment run is still required before applying the final mechanism gate.
+This is a targeted/partial run (explicit dataset, compartment, or pseudobulk reuse restriction). Do not apply the frozen GREEN/YELLOW/RED mechanism gate until the full multi-dataset, four-compartment run is complete.
