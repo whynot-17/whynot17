@@ -1,2 +1,16 @@
-ChemicalID,ChemicalName,chemical_class,CasRN,PubChemCID,DTXSID,phase1_scope,gene_cards_k,phase1_unfiltered_rank,phase1_bh_fdr,phase1_degree_matched_bh_fdr,phase1_n_ctd_human_genes,phase1_crc_overlap,molecular_level,molecular_M2_definition_met,entity_E_tag,entity_E_reason,entity_manual_review_required,exposure_axis_X_tag,exposure_axis_name,biomarker_relationship,biomarker_B_tag,human_biomarker,biomarker_matrix,direct_analyte_identity,identity_separation_note,detectability_D_tag,above_lod_pct,detectability_reason,cycle_coverage_C_tag,n_cycles_available,cycles_available,testability_T_tag,testability_basis,analytic_exposure_outcome_n,available_crc_cases_for_planning,available_cancer_free_controls_for_planning,novelty_N_tag,manual_review_required,manual_review_reason,eligible_permissive,eligible_moderate,eligible_strict,priority_tier,disposition,PRIORITIZATION_OUTCOME_BLINDED
-C573544,mono(carboxy-isooctyl)phthalate,phthalates,,CID:121232681,,GeneCards_Disorders,1000,78,0.2841687474373862,0.2993944830679524,19,2,M0,False,1,specific_entity_identifier:PubChemCID,False,1,DINP-related exposure axis,direct urinary MCOP analyte; biomarker of DINP-related exposure,1,MCOP,urine,mono(carboxy-isooctyl)phthalate,Direct MCOP candidate; do not relabel as MiNP.,2,98.40026387400016,MCOP above-LOD 98.4% across 7 NHANES cycles,2,7.0,2005-2006;2007-2008;2009-2010;2011-2012;2013-2014;2015-2016;2017-2018,2,analytic_n=12127;crc_cases=76,12127.0,76.0,11010.0,pending_manual_review,True,Novelty/collision review remains to be completed; human actionability is audited.,True,True,True,human-testable; M0; novelty_pending,advance_to_systematic_human_screen,True
+axis_key,eligible_chemical_count,eligible_chemical_ids,axis_name,primary_biomarker,mapping_confidence
+serum_or_blood|LBXPFDE,1,C036567,PFAS exposure axis,LBXPFDE,high
+serum_or_blood|LBXPFHS,1,C471071,PFAS exposure axis,LBXPFHS,high
+serum_or_blood|LBXPFNA,1,C101816,PFAS exposure axis,LBXPFNA,high
+urine|URXBPH,17,C008745;C517113;C047969;C000705701;C000730470;C000730511;C512161;C534679;D017438;C019273;C047971;C543008;C006780;C000611646;C000655605;C583074;C492482,bisphenol exposure axis,URXBPH,high
+urine|URXCOP,3,C573544;C019174;C012125,DINP-related exposure axis,URXCOP,high
+urine|URXECP,2,C051450;D004051,DEHP-related exposure axis;phthalate exposure axis,URXECP,moderate
+urine|URXMBP,1,C028577,phthalate exposure axis,URXMBP,high
+urine|URXMEP,1,C581825,phthalate exposure axis,URXMEP,high
+urine|URXMHP,1,C016599,DEHP-related exposure axis,URXMHP,high
+urine|URXMIB,1,C575690,phthalate exposure axis,URXMIB,high
+urine|URXMOH,1,C080276,phthalate exposure axis,URXMOH,high
+urine|URXMZP,2,C027561;C103325,phthalate exposure axis,URXMZP,moderate
+urine|URXP02,11,C031721;C018520;C025968;C027384;C028519;C031969;C042552;C042553;C065012;C117619;C466921,PAH exposure axis,URXP02,moderate
+urine|URXP04,5,C041509;C041511;C041512;C041513;C053036,PAH exposure axis,URXP04,moderate
+urine|URXP10,39,C056699;C006710;C008422;C009590;C021146;C023389;C027704;C031195;C042881;C047249;C051446;C053035;C065011;C093581;C093582;C095210;C100422;C110144;C402363;C434863;C447880;C501268;C522458;C529617;C529618;C535034;C535035;D010569;C006718;C022921;C007738;C041508;C032121;C006703;C031180;C041517;D008748;D001564;C026487,PAH exposure axis,URXP10,moderate

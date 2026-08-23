@@ -1,0 +1,24 @@
+{
+  "PRIORITIZATION_OUTCOME_BLINDED": true,
+  "eligibility_features": [
+    "E_tag",
+    "X_tag",
+    "B_tag",
+    "D_tag",
+    "C_tag",
+    "T_tag"
+  ],
+  "forbidden_human_outcome_fields": [
+    "crc_or",
+    "crc_ci",
+    "crc_p",
+    "crc_fdr",
+    "loco_effect",
+    "cycle_specific_effect",
+    "human_or",
+    "human_p"
+  ],
+  "forbidden_columns_present_in_actionability_matrix": [],
+  "candidate_specific_crc_effect_used": false,
+  "note": "CRC case counts are used only as pre-outcome testability infrastructure; no human effect estimate enters eligibility."
+}

@@ -1,6 +1,9 @@
 # Local raw data and downloaded archives
 work/**/raw/
 work/**/data/
+work/**/environmental_xpt/
+work/**/catalogs/
+work/nhanes_lab_*.html
 work/**/phase2b_harmonized.pkl
 work/**/annotation/
 work/**/cache/

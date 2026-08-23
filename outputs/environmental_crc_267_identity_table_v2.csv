@@ -1,0 +1,268 @@
+ChemicalID,ChemicalName,canonical_name,synonyms,CasRN,PubChemCID,DTXSID,chemical_class,entity_type,parent_compound,metabolite_of,exposure_family
+C573544,mono(carboxy-isooctyl)phthalate,mono carboxy isooctyl phthalate,mono(carboxy-isooctyl)phthalate;phthalate;plasticizer,,CID:121232681,,phthalates,phthalate parent or monoester metabolite,DINP,DINP,phthalates
+D008982,Molybdenum,molybdenum,Molybdenum;7439-98-7,7439-98-7,CID:23932,DTXSID1024207,heavy_metals,elemental species or metal compound,,,heavy_metals
+C033729,fluorotelomer alcohols,fluorotelomer alcohols,fluorotelomer alcohols,,,,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+C008745,"4,4'-bisphenol F",4 4 bisphenol f,"4,4'-bisphenol F",,CID:12111,,bisphenols,bisphenol or bisphenol-related compound,,,bisphenols
+D013793,Thallium,thallium,Thallium;7440-28-0,7440-28-0,,DTXSID2036035,heavy_metals,elemental species or metal compound,,,heavy_metals
+C031721,naphthalene,naphthalene,naphthalene;91-20-3,91-20-3,CID:931,DTXSID8020913,pahs,CTD entity,,,pahs
+C032279,phthalic acid,phthalic acid,phthalic acid;88-99-3,88-99-3,,DTXSID8021484,phthalates,CTD entity,,,phthalates
+C011363,terephthalic acid,terephthalic acid,terephthalic acid;100-21-0,100-21-0,,DTXSID6026080,phthalates,CTD entity,,,phthalates
+C041260,mono-n-octyl phthalate,mono n octyl phthalate,mono-n-octyl phthalate;5393-19-1;phthalate;plasticizer,5393-19-1,,DTXSID4052714,phthalates,phthalate parent or monoester metabolite,,,phthalates
+C005020,folpet,folpet,folpet;133-07-3,133-07-3,CID:8607,DTXSID0021385,phthalates,CTD entity,,,phthalates
+C035197,nickel nitrate,nickel nitrate,nickel nitrate;13138-45-9,13138-45-9,,DTXSID70872958,heavy_metals,elemental species or metal compound,,,heavy_metals
+C028419,cuprous chloride,cuprous chloride,cuprous chloride;7758-89-6,7758-89-6,CID:62652,DTXSID5035242,heavy_metals,elemental species or metal compound,,,heavy_metals
+D005708,Gallium,gallium,Gallium;7440-55-3,7440-55-3,CID:5360835,DTXSID401029758,heavy_metals,elemental species or metal compound,,,heavy_metals
+C018520,"2,6-diisopropylnaphthalene",2 6 diisopropylnaphthalene,"2,6-diisopropylnaphthalene;24157-81-1",24157-81-1,CID:32241,DTXSID7035272,pahs,CTD entity,,,pahs
+C019174,dinonylphthalate,dinonylphthalate,dinonylphthalate;84-76-4;phthalate;plasticizer,84-76-4,CID:6787,DTXSID9047966,phthalates,phthalate parent or monoester metabolite,DINP,DINP,phthalates
+C027718,didecyl phthalate,didecyl phthalate,didecyl phthalate;84-77-5;phthalate;plasticizer,84-77-5,CID:6788,DTXSID3026512,phthalates,phthalate parent or monoester metabolite,,,phthalates
+C049841,mono-n-hexyl phthalate,mono n hexyl phthalate,mono-n-hexyl phthalate;24539-57-9;phthalate;plasticizer,24539-57-9,CID:90532,DTXSID40947420,phthalates,phthalate parent or monoester metabolite,,,phthalates
+D001729,Bismuth,bismuth,Bismuth;7440-69-9,7440-69-9,CID:5359367,DTXSID3052484,heavy_metals,elemental species or metal compound,,,heavy_metals
+C073340,ranitidine bismuth citrate,ranitidine bismuth citrate,ranitidine bismuth citrate,,CID:62984,,heavy_metals,elemental species or metal compound,,,heavy_metals
+C043041,gold cyanide,gold cyanide,gold cyanide;506-65-0,506-65-0,,DTXSID1060136,heavy_metals,elemental species or metal compound,,,heavy_metals
+C034020,anthracene,anthracene,anthracene;120-12-7,120-12-7,CID:8418,DTXSID0023878,pahs,CTD entity,,,pahs
+C517113,bisphenol Z,bisphenol z,bisphenol Z,,CID:232446,,bisphenols,bisphenol or bisphenol-related compound,,,bisphenols
+C035983,dimethoxyethyl phthalate,dimethoxyethyl phthalate,dimethoxyethyl phthalate;117-82-8;phthalate;plasticizer,117-82-8,CID:8344,DTXSID8025094,phthalates,phthalate parent or monoester metabolite,,,phthalates
+D010984,Platinum,platinum,Platinum;7440-06-4,7440-06-4,CID:23939,DTXSID9064681,heavy_metals,elemental species or metal compound,,,heavy_metals
+C007379,diethyl phthalate,diethyl phthalate,diethyl phthalate;84-66-2;phthalate;plasticizer,84-66-2,CID:6781,DTXSID7021780,phthalates,phthalate parent or monoester metabolite,,,phthalates
+D009764,o-Phthalaldehyde,o phthalaldehyde,o-Phthalaldehyde;643-79-8,643-79-8,CID:4807,DTXSID6032514,phthalates,CTD entity,,,phthalates
+C047969,"2,2'-bisphenol F",2 2 bisphenol f,"2,2'-bisphenol F",,CID:75575,,bisphenols,bisphenol or bisphenol-related compound,,,bisphenols
+C049098,diallyl phthalate,diallyl phthalate,diallyl phthalate;131-17-9;phthalate;plasticizer,131-17-9,CID:8560,DTXSID7020392,phthalates,phthalate parent or monoester metabolite,,,phthalates
+D003678,"Defoliants, Chemical",defoliants chemical,"Defoliants, Chemical",,,,pesticides,CTD entity,,,pesticides
+C040654,titanium nickelide,titanium nickelide,titanium nickelide;12035-60-8,12035-60-8,CID:159408,DTXSID40923345,heavy_metals,elemental species or metal compound,,,heavy_metals
+C056699,picene,picene,picene;213-46-7,213-46-7,CID:9162,DTXSID8073895,pahs,CTD entity,,,pahs
+C063732,sulfluramid,sulfluramid,sulfluramid;4151-50-2,4151-50-2,CID:77797,DTXSID1032646,pfas_perfluoro,CTD entity,,,pfas_perfluoro
+C000606252,ARV-825,arv 825,ARV-825,,CID:92044400,,phthalates,CTD entity,,,phthalates
+D005466,Fluorocarbons,fluorocarbons,Fluorocarbons,,CID:6393,,pfas_perfluoro,CTD entity,,,pfas_perfluoro
+C020758,indium trichloride,indium trichloride,indium trichloride;10025-82-8,10025-82-8,CID:24812,DTXSID8033566,heavy_metals,elemental species or metal compound,,,heavy_metals
+C012125,diisononyl phthalate,diisononyl phthalate,diisononyl phthalate;28553-12-0;phthalate;plasticizer,28553-12-0,,DTXSID4022521,phthalates,phthalate parent or monoester metabolite,DINP,DINP,phthalates
+C089799,diheptyl phthalate,diheptyl phthalate,diheptyl phthalate;3648-21-3;phthalate;plasticizer,3648-21-3,,DTXSID8040779,phthalates,phthalate parent or monoester metabolite,,,phthalates
+C000720117,fluorotelomer sulfonic acids,fluorotelomer sulfonic acids,fluorotelomer sulfonic acids,,,,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+C108042,perfluorobutane,perfluorobutane,perfluorobutane;PFAS;PFbutane,,CID:9638,,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+C028541,zirconium oxide,zirconium oxide,zirconium oxide;1314-23-4,1314-23-4,,DTXSID1042520,heavy_metals,elemental species or metal compound,,,heavy_metals
+C106479,di-n-propylphthalate,di n propylphthalate,di-n-propylphthalate;131-16-8;phthalate;plasticizer,131-16-8,CID:8559,DTXSID5031133,phthalates,phthalate parent or monoester metabolite,,,phthalates
+C017558,nickel sulfide,nickel sulfide,nickel sulfide;16812-54-7,16812-54-7,CID:166709,DTXSID5036921,heavy_metals,elemental species or metal compound,,,heavy_metals
+C034171,di-n-pentyl phthalate,di n pentyl phthalate,di-n-pentyl phthalate;131-18-0;phthalate;plasticizer,131-18-0,CID:8561,DTXSID5031131,phthalates,phthalate parent or monoester metabolite,,,phthalates
+C042080,diisodecyl phthalate,diisodecyl phthalate,diisodecyl phthalate;26761-40-0;phthalate;plasticizer,26761-40-0,CID:33599,DTXSID4025082,phthalates,phthalate parent or monoester metabolite,,,phthalates
+C017557,nickel subsulfide,nickel subsulfide,nickel subsulfide,,CID:25199732,,heavy_metals,elemental species or metal compound,,,heavy_metals
+C029891,lead chloride,lead chloride,lead chloride;7758-95-4,7758-95-4,CID:24459,DTXSID1041059,heavy_metals,elemental species or metal compound,,,heavy_metals
+C479228,perfluorohexanoic acid,perfluorohexanoic acid,perfluorohexanoic acid;PFAS;PFhexanoic acid,,,,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+C000720111,perfluorotetradecanoic acid,perfluorotetradecanoic acid,perfluorotetradecanoic acid;PFAS;PFtetradecanoic acid,,,,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+C060728,cobalt oxide,cobalt oxide,cobalt oxide;11104-61-3,11104-61-3,CID:6432046,DTXSID801014561,heavy_metals,elemental species or metal compound,,,heavy_metals
+C010715,di-n-octyl phthalate,di n octyl phthalate,di-n-octyl phthalate;117-84-0;phthalate;plasticizer,117-84-0,,DTXSID1021956,phthalates,phthalate parent or monoester metabolite,,,phthalates
+C586085,perfluoroundecanoic acid,perfluoroundecanoic acid,perfluoroundecanoic acid;PFAS;PFundecanoic acid,,,,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+C026305,cobalt sulfate,cobalt sulfate,cobalt sulfate;10124-43-3,10124-43-3,,DTXSID1031042,heavy_metals,elemental species or metal compound,,,heavy_metals
+C063900,perfluorooctanesulfonamide,perfluorooctanesulfonamide,perfluorooctanesulfonamide;754-91-6;PFAS;PFoctanesulfonamide,754-91-6,,DTXSID3038939,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+C025605,diisobutyl phthalate,diisobutyl phthalate,diisobutyl phthalate;84-69-5;phthalate;plasticizer,84-69-5,CID:6782,DTXSID9022522,phthalates,phthalate parent or monoester metabolite,,,phthalates
+C033094,perfluorobutyric acid,perfluorobutyric acid,perfluorobutyric acid;375-22-4;PFAS;PFbutyric acid,375-22-4,,DTXSID4059916,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+D019216,"Metals, Heavy",metals heavy,"Metals, Heavy",,,,heavy_metals,elemental species or metal compound,,,heavy_metals
+C000720114,perfluorodecanesulfonic acid,perfluorodecanesulfonic acid,perfluorodecanesulfonic acid;PFAS;PFdecanesulfonic acid,,,,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+C015559,trimellitic anhydride,trimellitic anhydride,trimellitic anhydride;552-30-7,552-30-7,,DTXSID7026235,phthalates,CTD entity,,,phthalates
+C101815,perfluoro-n-heptanoic acid,perfluoro n heptanoic acid,perfluoro-n-heptanoic acid;375-85-9;PFAS;PF n heptanoic acid,375-85-9,CID:67818,DTXSID1037303,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+D014639,Vanadium,vanadium,Vanadium;7440-62-2,7440-62-2,,DTXSID2040282,heavy_metals,elemental species or metal compound,,,heavy_metals
+D001464,Barium,barium,Barium;7440-39-3,7440-39-3,CID:5355457,DTXSID8023894,heavy_metals,elemental species or metal compound,,,heavy_metals
+C522391,perfluorododecanoic acid,perfluorododecanoic acid,perfluorododecanoic acid;PFAS;PFdodecanoic acid,,,,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+D000965,Antimony,antimony,Antimony;7440-36-0,7440-36-0,,DTXSID5023879,heavy_metals,elemental species or metal compound,,,heavy_metals
+C423915,T0901317,t0901317,T0901317,,CID:447912,,pfas_perfluoro,CTD entity,,,pfas_perfluoro
+D006540,Herbicides,herbicides,Herbicides,,,,pesticides,CTD entity,,,pesticides
+C000595304,bis(2-propylheptyl)phthalate,bis 2 propylheptyl phthalate,bis(2-propylheptyl)phthalate;phthalate;plasticizer,,,,phthalates,phthalate parent or monoester metabolite,,,phthalates
+C000614989,Cesium-137,cesium 137,Cesium-137,,CID:5486527,,heavy_metals,elemental species or metal compound,,,heavy_metals
+C000619812,perfluoropentanoic acid,perfluoropentanoic acid,perfluoropentanoic acid;PFAS;PFpentanoic acid,,,,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+C000705689,"1,1-bis(4-hydroxyphenyl)-2,2-dichloroethylene",1 1 bis 4 hydroxyphenyl 2 2 dichloroethylene,"1,1-bis(4-hydroxyphenyl)-2,2-dichloroethylene",,,,bisphenols,CTD entity,,,bisphenols
+C000705701,bisphenol E,bisphenol e,bisphenol E,,CID:608116,,bisphenols,bisphenol or bisphenol-related compound,,,bisphenols
+C000720090,"4,8-dioxa-3H-perfluorononanoic acid",4 8 dioxa 3h perfluorononanoic acid,"4,8-dioxa-3H-perfluorononanoic acid;PFAS;4 8 dioxa 3h PFnonanoic acid",,,,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+C000720141,perfluorotridecanoic acid,perfluorotridecanoic acid,perfluorotridecanoic acid;PFAS;PFtridecanoic acid,,,,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+C000720151,"perfluoro-3,5,7,9-butaoxadecanoic acid",perfluoro 3 5 7 9 butaoxadecanoic acid,"perfluoro-3,5,7,9-butaoxadecanoic acid;PFAS;PF 3 5 7 9 butaoxadecanoic acid",,CID:57358057,,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+C000720250,perfluoro-2-methoxyacetic acid,perfluoro 2 methoxyacetic acid,perfluoro-2-methoxyacetic acid;PFAS;PF 2 methoxyacetic acid,,CID:5125273,,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+C000730470,bisphenol P,bisphenol p,bisphenol P,,CID:630355,,bisphenols,bisphenol or bisphenol-related compound,,,bisphenols
+C000730511,"3,3'-dimethylbisphenol A",3 3 dimethylbisphenol a,"3,3'-dimethylbisphenol A;BPA",,CID:6620,,bisphenols,bisphenol or bisphenol-related compound,,,bisphenols
+C002462,"4,4'-isopropylidenediphenol dimethacrylate",4 4 isopropylidenediphenol dimethacrylate,"4,4'-isopropylidenediphenol dimethacrylate",,CID:76739,,bisphenols,CTD entity,,,bisphenols
+C002615,benzo(c)phenanthrene,benzo c phenanthrene,benzo(c)phenanthrene;195-19-7,195-19-7,CID:9136,DTXSID4075459,pahs,CTD entity,,,pahs
+C006710,benzotriphenylene,benzotriphenylene,benzotriphenylene;215-58-7,215-58-7,CID:9164,DTXSID9049245,pahs,CTD entity,,,pahs
+C008422,5-methylchrysene,5 methylchrysene,5-methylchrysene;3697-24-3,3697-24-3,CID:19427,DTXSID6063143,pahs,CTD entity,,,pahs
+C009005,potassium mercuric thiocyanate,potassium mercuric thiocyanate,potassium mercuric thiocyanate;14099-12-8,14099-12-8,CID:11615,DTXSID70930966,heavy_metals,elemental species or metal compound,,,heavy_metals
+C009590,triphenylene,triphenylene,triphenylene;217-59-4,217-59-4,CID:9170,DTXSID9059757,pahs,CTD entity,,,pahs
+C013707,thallium sulfate,thallium sulfate,thallium sulfate;10031-59-1,10031-59-1,CID:24833,DTXSID401014795,heavy_metals,elemental species or metal compound,,,heavy_metals
+C014844,tetrahydrophthalamic acid,tetrahydrophthalamic acid,tetrahydrophthalamic acid;2028-12-8,2028-12-8,CID:99725,DTXSID90942400,phthalates,CTD entity,,,phthalates
+C015428,perrhenate,perrhenate,perrhenate;14333-24-5,14333-24-5,,DTXSID301318427,heavy_metals,elemental species or metal compound,,,heavy_metals
+C021146,"dibenzo(a,i)pyrene",dibenzo a i pyrene,"dibenzo(a,i)pyrene;189-55-9",189-55-9,CID:9106,DTXSID9059751,pahs,CTD entity,,,pahs
+C023389,"9,10-dihydrobenzo(a)pyrene",9 10 dihydrobenzo a pyrene,"9,10-dihydrobenzo(a)pyrene;17573-15-8",17573-15-8,CID:28597,DTXSID60170011,pahs,CTD entity,,,pahs
+C024687,sodium molybdate(VI),sodium molybdate vi,sodium molybdate(VI);7631-95-0,7631-95-0,CID:61424,DTXSID2052788,heavy_metals,elemental species or metal compound,,,heavy_metals
+C025700,strontium chloride,strontium chloride,strontium chloride;10476-85-4,10476-85-4,,DTXSID6040616,heavy_metals,elemental species or metal compound,,,heavy_metals
+C025968,1-methylnaphthalene,1 methylnaphthalene,1-methylnaphthalene;90-12-0,90-12-0,CID:7002,DTXSID9020877,pahs,CTD entity,,,pahs
+C027384,2-methylnaphthalene,2 methylnaphthalene,2-methylnaphthalene;91-57-6,91-57-6,CID:7055,DTXSID4020878,pahs,CTD entity,,,pahs
+C027704,benzo(j)fluoranthene,benzo j fluoranthene,benzo(j)fluoranthene;205-82-3,205-82-3,CID:9152,DTXSID8052691,pahs,CTD entity,,,pahs
+C028019,cesium chloride,cesium chloride,cesium chloride;7647-17-8,7647-17-8,CID:24293,DTXSID3040435,heavy_metals,elemental species or metal compound,,,heavy_metals
+C028044,epoxy resin AH-26,epoxy resin ah 26,epoxy resin AH-26;55599-25-2,55599-25-2,,DTXSID001059973,heavy_metals,elemental species or metal compound,,,heavy_metals
+C028519,"2,6-dimethylnaphthalene",2 6 dimethylnaphthalene,"2,6-dimethylnaphthalene;581-42-0",581-42-0,CID:11387,DTXSID0029187,pahs,CTD entity,,,pahs
+C029126,"9,10-dimethylanthracene",9 10 dimethylanthracene,"9,10-dimethylanthracene;781-43-1",781-43-1,CID:13076,DTXSID8073928,pahs,CTD entity,,,pahs
+C029823,mercuric acetate,mercuric acetate,mercuric acetate;1600-27-7,1600-27-7,CID:15337,DTXSID4042123,heavy_metals,elemental species or metal compound,,,heavy_metals
+C030174,tetrachloropalladium,tetrachloropalladium,tetrachloropalladium;14349-67-8,14349-67-8,,DTXSID30276493,heavy_metals,elemental species or metal compound,,,heavy_metals
+C031195,"dibenzo(a,h)pyrene",dibenzo a h pyrene,"dibenzo(a,h)pyrene;189-64-0",189-64-0,CID:9108,DTXSID4059752,pahs,CTD entity,,,pahs
+C031895,lead chromate,lead chromate,lead chromate;11119-70-3,11119-70-3,CID:24460,DTXSID201015373,heavy_metals,elemental species or metal compound,,,heavy_metals
+C031969,"1,4-dimethylnaphthalene",1 4 dimethylnaphthalene,"1,4-dimethylnaphthalene;571-58-4",571-58-4,CID:11304,DTXSID8035423,pahs,CTD entity,,,pahs
+C033093,perfluoropropionic acid,perfluoropropionic acid,perfluoropropionic acid;422-64-0;PFAS;PFpropionic acid,422-64-0,CID:62356,DTXSID8059970,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+C036042,dicyclohexyl phthalate,dicyclohexyl phthalate,dicyclohexyl phthalate;84-61-7;phthalate;plasticizer,84-61-7,CID:6777,DTXSID5025021,phthalates,phthalate parent or monoester metabolite,,,phthalates
+C037431,phthalimide,phthalimide,phthalimide;85-41-6,85-41-6,,DTXSID3026514,phthalates,CTD entity,,,phthalates
+C037554,antimony trioxide,antimony trioxide,antimony trioxide;1309-64-4,1309-64-4,CID:14794,DTXSID4023880,heavy_metals,elemental species or metal compound,,,heavy_metals
+C041507,1-methylphenanthrene,1 methylphenanthrene,1-methylphenanthrene;832-69-9,832-69-9,CID:13257,DTXSID6025648,pahs,CTD entity,,,pahs
+C041509,fluorene,fluorene,fluorene;86-73-7,86-73-7,CID:6853,DTXSID8024105,pahs,CTD entity,,,pahs
+C041511,benzo(a)fluorene,benzo a fluorene,benzo(a)fluorene;238-84-6,238-84-6,CID:9195,DTXSID3075204,pahs,CTD entity,,,pahs
+C041512,benzo(b)fluorene,benzo b fluorene,benzo(b)fluorene;243-17-4,243-17-4,CID:9201,DTXSID1022477,pahs,CTD entity,,,pahs
+C041513,benzo(c)fluorene,benzo c fluorene,benzo(c)fluorene;205-12-9,205-12-9,CID:9150,DTXSID30874039,pahs,CTD entity,,,pahs
+C042552,acenaphthene,acenaphthene,acenaphthene;83-32-9,83-32-9,CID:6734,DTXSID3021774,pahs,CTD entity,,,pahs
+C042553,acenaphthylene,acenaphthylene,acenaphthylene;208-96-8,208-96-8,CID:9161,DTXSID3023845,pahs,CTD entity,,,pahs
+C042881,1-ethynylpyrene,1 ethynylpyrene,1-ethynylpyrene;34993-56-1,34993-56-1,CID:154905,DTXSID30188527,pahs,CTD entity,,,pahs
+C043103,phthalic anhydride,phthalic anhydride,phthalic anhydride;85-44-9,85-44-9,CID:6811,DTXSID2021159,phthalates,CTD entity,,,phthalates
+C044659,molybdate,molybdate,molybdate;14259-85-9,14259-85-9,CID:24621,DTXSID401015698,heavy_metals,elemental species or metal compound,,,heavy_metals
+C045076,Fenton's reagent,fenton s reagent,Fenton's reagent,,CID:160257,,heavy_metals,elemental species or metal compound,,,heavy_metals
+C046962,9-methylanthracene,9 methylanthracene,9-methylanthracene;779-02-2,779-02-2,CID:13068,DTXSID3061134,pahs,CTD entity,,,pahs
+C047249,6-methylchrysene,6 methylchrysene,6-methylchrysene;1705-85-7,1705-85-7,CID:15564,DTXSID3074814,pahs,CTD entity,,,pahs
+C049051,ferric pyrophosphate,ferric pyrophosphate,ferric pyrophosphate;10058-44-3,10058-44-3,,DTXSID6047600,heavy_metals,elemental species or metal compound,,,heavy_metals
+C050718,dentinol,dentinol,dentinol,,,,heavy_metals,elemental species or metal compound,,,heavy_metals
+C051070,"4-methylcyclohexyl-1,6-dicarboxylic acid anhydride",4 methylcyclohexyl 1 6 dicarboxylic acid anhydride,"4-methylcyclohexyl-1,6-dicarboxylic acid anhydride;19438-60-9",19438-60-9,,DTXSID8044333,phthalates,CTD entity,,,phthalates
+C051446,3-methylcholanthrylene,3 methylcholanthrylene,3-methylcholanthrylene;3343-10-0,3343-10-0,CID:18761,DTXSID90187076,pahs,CTD entity,,,pahs
+C053035,1-methylpyrene,1 methylpyrene,1-methylpyrene;2381-21-7,2381-21-7,CID:16932,DTXSID0025654,pahs,CTD entity,,,pahs
+C053036,1-methylfluorene,1 methylfluorene,1-methylfluorene;1730-37-6,1730-37-6,CID:15604,DTXSID4061919,pahs,CTD entity,,,pahs
+C054672,antimony trichloride,antimony trichloride,antimony trichloride;10025-91-9,10025-91-9,CID:24814,DTXSID4044161,heavy_metals,elemental species or metal compound,,,heavy_metals
+C058039,hexafluoron,hexafluoron,hexafluoron,,CID:91741,,pfas_perfluoro,CTD entity,,,pfas_perfluoro
+C059768,isophthalate,isophthalate,isophthalate;121-91-5;phthalate;plasticizer,121-91-5,CID:8496,DTXSID3021485,phthalates,phthalate parent or monoester metabolite,,,phthalates
+C063006,norflurane,norflurane,norflurane,,CID:13129,,pfas_perfluoro,CTD entity,,,pfas_perfluoro
+C065011,1-vinylpyrene,1 vinylpyrene,1-vinylpyrene;17088-21-0,17088-21-0,CID:146322,DTXSID90168961,pahs,CTD entity,,,pahs
+C065012,2-ethynylnaphthalene,2 ethynylnaphthalene,2-ethynylnaphthalene;2949-26-0,2949-26-0,CID:115017,DTXSID50183690,pahs,CTD entity,,,pahs
+C082290,molybdenum trioxide,molybdenum trioxide,molybdenum trioxide;1313-27-5,1313-27-5,CID:14802,DTXSID7020899,heavy_metals,elemental species or metal compound,,,heavy_metals
+C086511,RU 58668,ru 58668,RU 58668;151555-47-4,151555-47-4,CID:6918261,DTXSID60934291,pfas_perfluoro,CTD entity,,,pfas_perfluoro
+C091696,antimony oxide,antimony oxide,antimony oxide;1332-81-6,1332-81-6,CID:74002,DTXSID9061677,heavy_metals,elemental species or metal compound,,,heavy_metals
+C093581,indene,indene,indene;95-13-6,95-13-6,CID:7219,DTXSID8042052,pahs,CTD entity,,,pahs
+C093582,indan,indan,indan;496-11-7,496-11-7,CID:10326,DTXSID4052132,pahs,CTD entity,,,pahs
+C095210,tetralin,tetralin,tetralin;119-64-2,119-64-2,CID:8404,DTXSID1026118,pahs,CTD entity,,,pahs
+C096666,9-ethynylphenanthrene,9 ethynylphenanthrene,9-ethynylphenanthrene,,CID:182098,,pahs,CTD entity,,,pahs
+C098123,"3,3-bis(trifluoromethyl)bicyclo(2.2.1)heptane-2,2-dicarbonitrile",3 3 bis trifluoromethyl bicyclo 2 2 1 heptane 2 2 dicarbonitrile,"3,3-bis(trifluoromethyl)bicyclo(2.2.1)heptane-2,2-dicarbonitrile;82947-63-5",82947-63-5,CID:134125,DTXSID501003018,pfas_perfluoro,CTD entity,,,pfas_perfluoro
+C099343,cuprous sulfide,cuprous sulfide,cuprous sulfide;1308-78-7,1308-78-7,CID:10130093,DTXSID0041804,heavy_metals,elemental species or metal compound,,,heavy_metals
+C100422,benzo(g)chrysene,benzo g chrysene,benzo(g)chrysene;196-78-1,196-78-1,CID:9140,DTXSID40173267,pahs,CTD entity,,,pahs
+C110144,benzo(c)chrysene,benzo c chrysene,benzo(c)chrysene;194-69-4,194-69-4,CID:9135,DTXSID3073894,pahs,CTD entity,,,pahs
+C113497,dimethyl-W84,dimethyl w84,dimethyl-W84,,CID:10350027,,phthalates,CTD entity,,,phthalates
+C115112,CC 3052,cc 3052,CC 3052,,CID:112500503,,phthalates,CTD entity,,,phthalates
+C115612,single bond,single bond,single bond,,,,bisphenols,CTD entity,,,bisphenols
+C116689,"heptane-1,7-bis-(dimethyl-3'-phthalimidopropyl)ammonium bromide",heptane 1 7 bis dimethyl 3 phthalimidopropyl ammonium bromide,"heptane-1,7-bis-(dimethyl-3'-phthalimidopropyl)ammonium bromide",,,,phthalates,CTD entity,,,phthalates
+C117619,"1,2-dimethylnaphthalene",1 2 dimethylnaphthalene,"1,2-dimethylnaphthalene;573-98-8",573-98-8,CID:11317,DTXSID1058717,pahs,CTD entity,,,pahs
+C402363,1-(1-propynyl)pyrene,1 1 propynyl pyrene,1-(1-propynyl)pyrene,,CID:54377632,,pahs,CTD entity,,,pahs
+C434863,corannulene,corannulene,corannulene,,CID:11831840,,pahs,CTD entity,,,pahs
+C447880,retene,retene,retene,,CID:10222,,pahs,CTD entity,,,pahs
+C466921,"1,6-dimethylnaphthalene",1 6 dimethylnaphthalene,"1,6-dimethylnaphthalene",,CID:11328,,pahs,CTD entity,,,pahs
+C501268,"naphtho(2,3-a)pyrene",naphtho 2 3 a pyrene,"naphtho(2,3-a)pyrene",,CID:9137,,pahs,CTD entity,,,pahs
+C502587,"(N-N'-bis-(2-(1H-indol-3-yl)-ethyl)-N,N'-bis-(3-thiomorpholin-4-yl-propyl)-phthalamide)",n n bis 2 1h indol 3 yl ethyl n n bis 3 thiomorpholin 4 yl propyl phthalamide,"(N-N'-bis-(2-(1H-indol-3-yl)-ethyl)-N,N'-bis-(3-thiomorpholin-4-yl-propyl)-phthalamide)",,,,phthalates,CTD entity,,,phthalates
+C508802,NSC 401077,nsc 401077,NSC 401077,,CID:344265,,phthalates,CTD entity,,,phthalates
+C512161,bisphenol A glucuronide,bisphenol a glucuronide,bisphenol A glucuronide;BPA,,CID:71309820,,bisphenols,bisphenol or bisphenol-related compound,,,bisphenols
+C516433,copper(II) nitrate,copper ii nitrate,copper(II) nitrate,,CID:18616,,heavy_metals,elemental species or metal compound,,,heavy_metals
+C522458,"2-hydroxy-4-(2,2,3,3,3-pentafluoropropoxy)benzoic acid",2 hydroxy 4 2 2 3 3 3 pentafluoropropoxy benzoic acid,"2-hydroxy-4-(2,2,3,3,3-pentafluoropropoxy)benzoic acid",,CID:9795862,,pfas_perfluoro,CTD entity,,,pfas_perfluoro
+C523076,CuFe2O4,cufe2o4,CuFe2O4,,CID:16217788,,heavy_metals,elemental species or metal compound,,,heavy_metals
+C523456,CEP 8983,cep 8983,CEP 8983,,CID:23584940,,phthalates,CTD entity,,,phthalates
+C524826,tetraconazole,tetraconazole,tetraconazole,,CID:80277,,pfas_perfluoro,CTD entity,,,pfas_perfluoro
+C529617,3-methylchrysene,3 methylchrysene,3-methylchrysene,,CID:18781,,pahs,CTD entity,,,pahs
+C529618,4-methylchrysene,4 methylchrysene,4-methylchrysene,,CID:18780,,pahs,CTD entity,,,pahs
+C532828,potassium hexachloropalladate(IV),potassium hexachloropalladate iv,potassium hexachloropalladate(IV),,CID:61852,,heavy_metals,elemental species or metal compound,,,heavy_metals
+C533806,"1,1,1,2,2-pentafluoro-7-phenylheptan-3-one",1 1 1 2 2 pentafluoro 7 phenylheptan 3 one,"1,1,1,2,2-pentafluoro-7-phenylheptan-3-one",,CID:24995215,,pfas_perfluoro,CTD entity,,,pfas_perfluoro
+C534679,"3,3'-dichlorobisphenol A",3 3 dichlorobisphenol a,"3,3'-dichlorobisphenol A;BPA",,CID:66238,,bisphenols,bisphenol or bisphenol-related compound,,,bisphenols
+C535034,2-ethynylpyrene,2 ethynylpyrene,2-ethynylpyrene,,CID:10846871,,pahs,CTD entity,,,pahs
+C535035,4-ethynylpyrene,4 ethynylpyrene,4-ethynylpyrene,,CID:54094439,,pahs,CTD entity,,,pahs
+C558144,"ammonium 4,8-dioxa-3H-perfluorononanoate",ammonium 4 8 dioxa 3h perfluorononanoate,"ammonium 4,8-dioxa-3H-perfluorononanoate;PFAS;ammonium 4 8 dioxa 3h PFnonanoate",,,,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+C582932,BRD73954,brd73954,BRD73954,,CID:71680913,,phthalates,CTD entity,,,phthalates
+D000083462,Persistent Organic Pollutants,persistent organic pollutants,Persistent Organic Pollutants,,CID:5283499,,environmental_pollutants;persistent_organic_pollutants,umbrella exposure class,,,environmental_pollutants
+D002586,Cesium,cesium,Cesium;7440-46-2,7440-46-2,CID:5354618,DTXSID5036767,heavy_metals,elemental species or metal compound,,,heavy_metals
+D005659,"Fungicides, Industrial",fungicides industrial,"Fungicides, Industrial",,,,pesticides,CTD entity,,,pesticides
+D007306,Insecticides,insecticides,Insecticides,,CID:107720,,pesticides,CTD entity,,,pesticides
+D010165,Palladium,palladium,Palladium;7440-05-3,7440-05-3,CID:23938,DTXSID4064680,heavy_metals,elemental species or metal compound,,,heavy_metals
+D010569,Perylene,perylene,Perylene;198-55-0,198-55-0,CID:9142,DTXSID4047753,pahs,CTD entity,,,pahs
+D012238,Rhodium,rhodium,Rhodium;7440-16-6,7440-16-6,CID:23948,DTXSID3052480,heavy_metals,elemental species or metal compound,,,heavy_metals
+D012413,Rubidium,rubidium,Rubidium;7440-17-7,7440-17-7,CID:5357696,DTXSID4064686,heavy_metals,elemental species or metal compound,,,heavy_metals
+D012989,Soil Pollutants,soil pollutants,Soil Pollutants,,,,environmental_pollutants,umbrella exposure class,,,environmental_pollutants
+D013324,Strontium,strontium,Strontium;7440-24-6,7440-24-6,CID:5359327,DTXSID3024312,heavy_metals,elemental species or metal compound,,,heavy_metals
+D013667,Technetium,technetium,Technetium;7440-26-8,7440-26-8,CID:23957,DTXSID5075028,heavy_metals,elemental species or metal compound,,,heavy_metals
+D014001,Tin,tin,Tin;7440-31-5,7440-31-5,,DTXSID1049801,heavy_metals,elemental species or metal compound,,,heavy_metals
+D014414,Tungsten,tungsten,Tungsten;7440-33-7,7440-33-7,,DTXSID8052481,heavy_metals,elemental species or metal compound,,,heavy_metals
+D015040,Zirconium,zirconium,Zirconium;7440-67-7,7440-67-7,CID:23995,DTXSID0049818,heavy_metals,elemental species or metal compound,,,heavy_metals
+D017438,Bisphenol A-Glycidyl Methacrylate,bisphenol a glycidyl methacrylate,Bisphenol A-Glycidyl Methacrylate;1565-94-2;BPA,1565-94-2,,DTXSID7044841,bisphenols,bisphenol or bisphenol-related compound,,,bisphenols
+D012834,Silver,silver,Silver;7440-22-4,7440-22-4,,DTXSID4024305,heavy_metals,elemental species or metal compound,,,heavy_metals
+C074702,chromium hexavalent ion,chromium hexavalent ion,chromium hexavalent ion;18540-29-9,18540-29-9,CID:29131,DTXSID7023982,heavy_metals,elemental species or metal compound,,,heavy_metals
+D015032,Zinc,zinc,Zinc;7440-66-6,7440-66-6,CID:23994,DTXSID7035012,heavy_metals,elemental species or metal compound,,,heavy_metals
+C569492,cobalt ferrite,cobalt ferrite,cobalt ferrite,,,,heavy_metals,elemental species or metal compound,,,heavy_metals
+C517284,monomethyl phthalate,monomethyl phthalate,monomethyl phthalate;phthalate;plasticizer,,CID:20392,,phthalates,phthalate parent or monoester metabolite,,,phthalates
+C494622,CPS 49,cps 49,CPS 49,,CID:9905583,,phthalates,CTD entity,,,phthalates
+C020809,tetrathiomolybdate,tetrathiomolybdate,tetrathiomolybdate;16330-92-0,16330-92-0,,DTXSID801318953,heavy_metals,elemental species or metal compound,,,heavy_metals
+C028031,cadmium acetate,cadmium acetate,cadmium acetate;543-90-8,543-90-8,,DTXSID1020225,heavy_metals,elemental species or metal compound,,,heavy_metals
+C576262,"bis(2-ethylhexyl) 2,3,4,5-tetrabromophthalate",bis 2 ethylhexyl 2 3 4 5 tetrabromophthalate,"bis(2-ethylhexyl) 2,3,4,5-tetrabromophthalate;phthalate;plasticizer",,CID:117291,,phthalates,phthalate parent or monoester metabolite,DEHP,DEHP,phthalates
+C030935,benz(a)anthracene,benz a anthracene,benz(a)anthracene;56-55-3,56-55-3,CID:5954,DTXSID5023902,pahs,CTD entity,,,pahs
+D000395,"Air Pollutants, Occupational",air pollutants occupational,"Air Pollutants, Occupational",,,,environmental_pollutants,umbrella exposure class,,,environmental_pollutants
+C022838,nickel chloride,nickel chloride,nickel chloride;7718-54-9,7718-54-9,,DTXSID7040316,heavy_metals,elemental species or metal compound,,,heavy_metals
+C006718,"1,12-benzoperylene",1 12 benzoperylene,"1,12-benzoperylene;191-24-2",191-24-2,CID:9117,DTXSID5023908,pahs,CTD entity,,,pahs
+C494620,CPS 11,cps 11,CPS 11,,CID:9900574,,phthalates,CTD entity,,,phthalates
+C026105,butylidenephthalide,butylidenephthalide,butylidenephthalide;551-08-6,551-08-6,,DTXSID9060281,phthalates,CTD entity,,,phthalates
+C019273,bisphenol A diglycidyl ether,bisphenol a diglycidyl ether,bisphenol A diglycidyl ether;BPA,,CID:2286,,bisphenols,bisphenol or bisphenol-related compound,,,bisphenols
+D010575,Pesticides,pesticides,Pesticides,,,,pesticides,umbrella exposure class,,,pesticides
+C047971,"2,4'-bisphenol F",2 4 bisphenol f,"2,4'-bisphenol F",,CID:75576,,bisphenols,bisphenol or bisphenol-related compound,,,bisphenols
+C539348,perfluorobutanesulfonic acid,perfluorobutanesulfonic acid,perfluorobutanesulfonic acid;PFAS;PFbutanesulfonic acid,,,,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+C027387,di-n-hexyl phthalate,di n hexyl phthalate,di-n-hexyl phthalate;84-75-3;phthalate;plasticizer,84-75-3,,DTXSID6025068,phthalates,phthalate parent or monoester metabolite,,,phthalates
+D014873,Water Pollutants,water pollutants,Water Pollutants,,,,environmental_pollutants,umbrella exposure class,,,environmental_pollutants
+D014874,"Water Pollutants, Chemical",water pollutants chemical,"Water Pollutants, Chemical",,,,environmental_pollutants,umbrella exposure class,,,environmental_pollutants
+C080276,mono(2-ethyl-5-oxohexyl)phthalate,mono 2 ethyl 5 oxohexyl phthalate,mono(2-ethyl-5-oxohexyl)phthalate;40321-98-0;phthalate;plasticizer,40321-98-0,CID:119096,DTXSID00865994,phthalates,phthalate parent or monoester metabolite,,,phthalates
+D005411,Flame Retardants,flame retardants,Flame Retardants,,CID:136917,,flame_retardants,CTD entity,,,flame_retardants
+C000720115,perfluoroheptanesulfonic acid,perfluoroheptanesulfonic acid,perfluoroheptanesulfonic acid;PFAS;PFheptanesulfonic acid,,,,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+D008628,Mercury,mercury,Mercury;7439-97-6,7439-97-6,CID:23931,DTXSID1024172,heavy_metals,elemental species or metal compound,,,heavy_metals
+D052244,Endocrine Disruptors,endocrine disruptors,Endocrine Disruptors,,,,endocrine_disruptors,umbrella exposure class,,,endocrine_disruptors
+C051450,2-ethyl-5-carboxypentyl phthalate,2 ethyl 5 carboxypentyl phthalate,2-ethyl-5-carboxypentyl phthalate;40809-41-4;phthalate;plasticizer,40809-41-4,,DTXSID20873152,phthalates,phthalate parent or monoester metabolite,,,phthalates
+C031181,phenanthrene,phenanthrene,phenanthrene;85-01-8,85-01-8,CID:995,DTXSID6024254,pahs,CTD entity,,,pahs
+C027235,gallium nitrate,gallium nitrate,gallium nitrate;13494-90-1,13494-90-1,CID:61635,DTXSID0043923,heavy_metals,elemental species or metal compound,,,heavy_metals
+D012428,Ruthenium,ruthenium,Ruthenium;7440-18-8,7440-18-8,CID:23950,DTXSID9064687,heavy_metals,elemental species or metal compound,,,heavy_metals
+C022921,benzo(k)fluoranthene,benzo k fluoranthene,benzo(k)fluoranthene;207-08-9,207-08-9,CID:9158,DTXSID0023909,pahs,CTD entity,,,pahs
+C023036,perfluorooctanoic acid,perfluorooctanoic acid,perfluorooctanoic acid;335-67-1;PFAS;PFoctanoic acid,335-67-1,,DTXSID8031865,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+C007738,fluoranthene,fluoranthene,fluoranthene;206-44-0,206-44-0,CID:9154,DTXSID3024104,pahs,CTD entity,,,pahs
+C550717,nickel ferrite,nickel ferrite,nickel ferrite,,CID:16217731,,heavy_metals,elemental species or metal compound,,,heavy_metals
+C041508,"indeno(1,2,3-cd)pyrene",indeno 1 2 3 cd pyrene,"indeno(1,2,3-cd)pyrene;193-39-5",193-39-5,CID:9131,DTXSID8024153,pahs,CTD entity,,,pahs
+D006046,Gold,gold,Gold;7440-57-5,7440-57-5,CID:23985,DTXSID3064697,heavy_metals,elemental species or metal compound,,,heavy_metals
+D002104,Cadmium,cadmium,Cadmium;7440-43-9,7440-43-9,CID:23973,DTXSID1023940,heavy_metals,elemental species or metal compound,,,heavy_metals
+D003035,Cobalt,cobalt,Cobalt;7440-48-4,7440-48-4,CID:104730,DTXSID1031040,heavy_metals,elemental species or metal compound,,,heavy_metals
+D000393,Air Pollutants,air pollutants,Air Pollutants,,,,environmental_pollutants,umbrella exposure class,,,environmental_pollutants
+C543008,bisphenol S,bisphenol s,bisphenol S,,CID:6626,,bisphenols,bisphenol or bisphenol-related compound,,,bisphenols
+C032121,7-methylbenzo(a)pyrene,7 methylbenzo a pyrene,7-methylbenzo(a)pyrene;63041-77-0,63041-77-0,CID:44368,DTXSID7049340,pahs,CTD entity,,,pahs
+C015531,tetrafluoroethylene,tetrafluoroethylene,tetrafluoroethylene;116-14-3,116-14-3,CID:8301,DTXSID6021325,pfas_perfluoro,CTD entity,,,pfas_perfluoro
+C006780,bisphenol A,bisphenol a,bisphenol A;80-05-7;BPA,80-05-7,,DTXSID7020182,bisphenols,bisphenol or bisphenol-related compound,,,bisphenols
+C006703,benzo(b)fluoranthene,benzo b fluoranthene,benzo(b)fluoranthene;205-99-2,205-99-2,CID:9153,DTXSID0023907,pahs,CTD entity,,,pahs
+D010795,Phthalic Acids,phthalic acids,Phthalic Acids,,CID:37013,,phthalates,CTD entity,,,phthalates
+D009532,Nickel,nickel,Nickel;7440-02-0,7440-02-0,CID:935,DTXSID2020925,heavy_metals,elemental species or metal compound,,,heavy_metals
+C031180,chrysene,chrysene,chrysene;218-01-9,218-01-9,CID:9171,DTXSID0022432,pahs,CTD entity,,,pahs
+D002857,Chromium,chromium,Chromium;7440-47-3,7440-47-3,CID:23976,DTXSID3031022,heavy_metals,elemental species or metal compound,,,heavy_metals
+C061374,antimonite,antimonite,antimonite;39349-74-1,39349-74-1,,DTXSID001047938,heavy_metals,elemental species or metal compound,,,heavy_metals
+C041517,"dibenzo(a,l)pyrene",dibenzo a l pyrene,"dibenzo(a,l)pyrene;191-30-0",191-30-0,CID:9119,DTXSID9059753,pahs,CTD entity,,,pahs
+D004051,Diethylhexyl Phthalate,diethylhexyl phthalate,Diethylhexyl Phthalate;117-81-7;phthalate;plasticizer,117-81-7,,DTXSID5020607,phthalates,phthalate parent or monoester metabolite,DEHP,DEHP,phthalates
+D007854,Lead,lead,Lead;7439-92-1,7439-92-1,,DTXSID2024161,heavy_metals,elemental species or metal compound,,,heavy_metals
+C029938,nickel sulfate,nickel sulfate,nickel sulfate;7786-81-4,7786-81-4,,DTXSID6023787,heavy_metals,elemental species or metal compound,,,heavy_metals
+C036567,perfluorodecanoic acid,perfluorodecanoic acid,perfluorodecanoic acid;335-76-2;PFAS;PFdecanoic acid,335-76-2,,DTXSID3031860,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+C101816,perfluoro-n-nonanoic acid,perfluoro n nonanoic acid,perfluoro-n-nonanoic acid;375-95-1;PFAS;PF n nonanoic acid,375-95-1,,DTXSID8031863,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+D004785,Environmental Pollutants,environmental pollutants,Environmental Pollutants,,,,environmental_pollutants,umbrella exposure class,,,environmental_pollutants
+C471071,perfluorohexanesulfonic acid,perfluorohexanesulfonic acid,perfluorohexanesulfonic acid;355-46-4;PFAS;PFhexanesulfonic acid,355-46-4,,DTXSID7040150,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+D008748,Methylcholanthrene,methylcholanthrene,Methylcholanthrene;56-49-5,56-49-5,CID:1674,DTXSID0020862,pahs,CTD entity,,,pahs
+C018021,cobaltous chloride,cobaltous chloride,cobaltous chloride;7646-79-9,7646-79-9,CID:3032536,DTXSID9040180,heavy_metals,elemental species or metal compound,,,heavy_metals
+D008345,Manganese,manganese,Manganese;7439-96-5,7439-96-5,CID:23930,DTXSID2024169,heavy_metals,elemental species or metal compound,,,heavy_metals
+D014501,Uranium,uranium,Uranium;7440-61-1,7440-61-1,CID:23989,DTXSID1042522,heavy_metals,elemental species or metal compound,,,heavy_metals
+C000611646,bisphenol F,bisphenol f,bisphenol F,,CID:12111,,bisphenols,bisphenol or bisphenol-related compound,,,bisphenols
+C000655605,fluorene-9-bisphenol,fluorene 9 bisphenol,fluorene-9-bisphenol,,CID:76716,,bisphenols,bisphenol or bisphenol-related compound,,,bisphenols
+C583074,bisphenol AF,bisphenol af,bisphenol AF;BPA,,CID:73864,,bisphenols;pfas_perfluoro,bisphenol or bisphenol-related compound,,,bisphenols
+D001564,Benzo(a)pyrene,benzo a pyrene,Benzo(a)pyrene;50-32-8,50-32-8,CID:2336,DTXSID2020139,pahs,CTD entity,,,pahs
+C492482,bisphenol B,bisphenol b,bisphenol B,,CID:66166,,bisphenols,bisphenol or bisphenol-related compound,,,bisphenols
+C027561,butylbenzyl phthalate,butylbenzyl phthalate,butylbenzyl phthalate;85-68-7;phthalate;plasticizer,85-68-7,CID:2347,DTXSID3020205,phthalates,phthalate parent or monoester metabolite,BBzP,BBzP,phthalates
+C103325,mono-benzyl phthalate,mono benzyl phthalate,mono-benzyl phthalate;2528-16-7;phthalate;plasticizer,2528-16-7,CID:31736,DTXSID9043938,phthalates,phthalate parent or monoester metabolite,BBzP,BBzP,phthalates
+C028007,nickel monoxide,nickel monoxide,nickel monoxide;1313-99-1,1313-99-1,CID:179931,DTXSID7025710,heavy_metals,elemental species or metal compound,,,heavy_metals
+D003300,Copper,copper,Copper;7440-50-8,7440-50-8,,DTXSID2023985,heavy_metals,elemental species or metal compound,,,heavy_metals
+C028577,monobutyl phthalate,monobutyl phthalate,monobutyl phthalate;131-70-4;phthalate;plasticizer,131-70-4,CID:8575,DTXSID4040002,phthalates,phthalate parent or monoester metabolite,,,phthalates
+C016599,mono-(2-ethylhexyl)phthalate,mono 2 ethylhexyl phthalate,mono-(2-ethylhexyl)phthalate;4376-20-9;phthalate;plasticizer,4376-20-9,CID:20393,DTXSID2025680,phthalates,phthalate parent or monoester metabolite,DEHP,DEHP,phthalates
+C000611729,"ammonium 2,3,3,3-tetrafluoro-2-(heptafluoropropoxy)-propanoate",ammonium 2 3 3 3 tetrafluoro 2 heptafluoropropoxy propanoate,"ammonium 2,3,3,3-tetrafluoro-2-(heptafluoropropoxy)-propanoate",,,,pfas_perfluoro,CTD entity,,,pfas_perfluoro
+D015127,"9,10-Dimethyl-1,2-benzanthracene",9 10 dimethyl 1 2 benzanthracene,"9,10-Dimethyl-1,2-benzanthracene;57-97-6",57-97-6,CID:6001,DTXSID1020510,pahs,CTD entity,,,pahs
+C581825,monoethyl phthalate,monoethyl phthalate,monoethyl phthalate;phthalate;plasticizer,,CID:75318,,phthalates,phthalate parent or monoester metabolite,,,phthalates
+D055549,Volatile Organic Compounds,volatile organic compounds,Volatile Organic Compounds,,,,vocs,CTD entity,,,vocs
+C017461,lead nitrate,lead nitrate,lead nitrate;18256-98-9,18256-98-9,CID:24924,DTXSID2035069,heavy_metals,elemental species or metal compound,,,heavy_metals
+C479069,mono(2-ethyl-5-hydroxyhexyl) phthalate,mono 2 ethyl 5 hydroxyhexyl phthalate,mono(2-ethyl-5-hydroxyhexyl) phthalate;phthalate;plasticizer,,CID:170295,,phthalates,phthalate parent or monoester metabolite,,,phthalates
+C043055,gallium arsenide,gallium arsenide,gallium arsenide;1303-00-0,1303-00-0,,DTXSID2023779,heavy_metals,elemental species or metal compound,,,heavy_metals
+C575690,mono-isobutyl phthalate,mono isobutyl phthalate,mono-isobutyl phthalate;phthalate;plasticizer,,CID:92272,,phthalates,phthalate parent or monoester metabolite,,,phthalates
+C471400,monoisononylphthalate,monoisononylphthalate,monoisononylphthalate;phthalate;plasticizer,,,,phthalates,phthalate parent or monoester metabolite,DINP,DINP,phthalates
+C076994,perfluorooctane sulfonic acid,perfluorooctane sulfonic acid,perfluorooctane sulfonic acid;1763-23-1;PFAS;PFoctane sulfonic acid,1763-23-1,,DTXSID3031864,pfas_perfluoro,PFAS or fluorinated compound,,,pfas_perfluoro
+C026487,benzo(e)pyrene,benzo e pyrene,benzo(e)pyrene;192-97-2,192-97-2,CID:9128,DTXSID3023764,pahs,CTD entity,,,pahs
