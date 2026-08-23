@@ -9,6 +9,10 @@
 
 ## Figure 2
 
+- `figure2_top30_screen_v2.csv`: all 30 Top-30 candidates with molecular evidence, CRC overlap and chemical class
+- `figure2_triage_matrix_v2.csv`: eight representative candidates spanning molecular, biomarker, novelty and human-epidemiology evidence
+- `figure2_pubmed_collision_audit_v2.csv`: exact-query CRC Title/Abstract collision indicators; not an exhaustive literature review
+- `figure2_biomarker_translation_v2.csv`: seven-cycle MiNP and MCOP detectability audit
 - `figure2_primary_python_vs_r.csv`: pooled R and independent Python survey estimates
 - `figure2_loco.csv`: pooled and seven leave-one-cycle-out estimates
 - `figure2_per_cycle.csv`: seven cycle-specific estimates, case counts and convergence status

@@ -6,6 +6,7 @@ This directory contains the five assembled manuscript figures defined by the fro
 
 - `Figure1_study_design_v2.{png,pdf,svg}` (revised study-design figure)
 - `Figure2_candidate_triage_v1.{png,pdf,svg}` (revised candidate-prioritization figure)
+- `Figure2_candidate_triage_v2.{png,pdf,svg}` (Top-30 landscape and four-gate actionability upgrade)
 - `Figure1_study_design_v1.{png,pdf,svg}`
 - `Figure2_nhanes_primary_v1.{png,pdf,svg}`
 - `Figure3_robustness_v1.{png,pdf,svg}`
