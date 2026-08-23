@@ -2,7 +2,7 @@
 
 ## Figure 1. Data-first prioritization of the DINP exposure axis and overall study design
 
-A, The discovery universe combined 267 core environmental chemicals, CTD human chemical–gene interactions and GeneCards CRC-associated genes using enrichment, BH-FDR and degree-matched permutation. B, The full frozen primary screen is shown by rank; MiNP is highlighted within the audited shortlist, with DINP and MBzP marked as contextual anchors. C, MiNP molecular evidence nominated a DINP-related exposure axis, whereas urinary MCOP was selected separately as the broadly available and detectable NHANES biomarker of DINP exposure. D, The study proceeded from discovery to complex-survey human biomonitoring and then paired bulk and donor-level transcriptomic analyses. The transcriptomic layer represents candidate biological convergence, not a proven exposure mechanism.
+A, The discovery universe combined 267 core environmental chemicals, CTD human chemical–gene interactions and GeneCards CRC-associated genes using enrichment, BH-FDR and degree-matched permutation. B, The full frozen primary screen is shown by rank; MiNP is highlighted within the audited shortlist, with DINP and MBzP marked as contextual anchors. C, MiNP molecular evidence nominated a DINP-related exposure axis, whereas urinary MCOP was selected separately as the broadly available and detectable NHANES biomarker of DINP exposure. D, The study proceeded from discovery to complex-survey human biomonitoring and then paired bulk and donor-level transcriptomic analyses. Future prospective replication is planned using prediagnostic urine and incident CRC in the Women’s Health Initiative (WHI), subject to specimen and data access. The transcriptomic layer represents candidate biological convergence, not a proven exposure mechanism.
 
 ## Figure 2. Urinary MCOP is positively associated with prevalent colorectal cancer across seven NHANES cycles
 
@@ -19,4 +19,3 @@ A, Paired PPAR/nuclear-receptor module scores in 32 matched TCGA tumor–normal 
 ## Figure 5. Integrated evidence model linking a DINP-related exposure axis, urinary MCOP and epithelial PPAR/nuclear-receptor remodeling in CRC
 
 The synthesis separates three evidence layers: A, data-driven nomination of a MiNP/DINP exposure axis; B, a robust survey-weighted association between urinary MCOP and prevalent CRC; and C, CRC-associated epithelial PPAR/nuclear-receptor suppression with parallel RELA/STAT3 activation and an opposing myeloid PPAR/nuclear-receptor direction. The dashed connector denotes the candidate mechanistic bridge between DINP exposure and epithelial remodeling. Temporality, direct intestinal perturbation and mediation remain unproven.
-
