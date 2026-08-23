@@ -47,4 +47,4 @@
 
 **READY — Figure 1 v2 passes the publication-oriented QA checks.**
 
-The figure is a study-design/logic figure, not a causal model. WHI is shown only as future prospective replication, and the DINP-to-epithelial PPAR/NR relationship remains visually subordinate and unproven.
+The figure is a study-design/logic figure, not a causal model. The future stage is shown only as prospective replication, with the cohort identity reserved for the manuscript legend; the DINP-to-epithelial PPAR/NR relationship remains visually subordinate and unproven.

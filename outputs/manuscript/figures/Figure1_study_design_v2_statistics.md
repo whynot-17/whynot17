@@ -12,7 +12,7 @@ How did the data-first environmental screen lead to DINP-axis biomonitoring and 
 ## Schematic panels
 - Panel A: workflow nodes from `figure1_panelA_workflow_nodes.csv`; no quantitative effect estimate is encoded.
 - Panel C: translation boundary is explicitly labelled as biomarker translation; MCOP is not represented as a direct CTD nomination.
-- Panel D: completed evidence layers are solid; WHI is a dashed future prospective replication stage and contains no result.
+- Panel D: completed evidence layers are solid; the future prospective replication stage is dashed and contains no result. The specific cohort identity is reserved for the manuscript legend.
 
 ## Source traceability
 - `outputs\manuscript\figures\source_data\figure1_primary_screen.csv` — all 267 rows — Panel B ranked screen.

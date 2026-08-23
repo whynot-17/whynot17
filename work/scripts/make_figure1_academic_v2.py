@@ -262,7 +262,7 @@ def draw_panel_a(ax, nodes: pd.DataFrame):
     rounded_card(
         ax,
         (0.10, 0.19, 0.80, 0.17),
-        "Fisher / hypergeometric enrichment\nBH-FDR + degree-matched permutation",
+        "Enrichment + BH-FDR\nDegree-matched permutation",
         facecolor=WHITE,
         edgecolor=NEUTRAL,
         linewidth=1.0,
@@ -322,12 +322,12 @@ def draw_panel_b(ax, screen: pd.DataFrame):
         transform=ax.transAxes,
         ha="right",
         va="top",
-        fontsize=5.3,
-        color=EXPOSURE,
+        fontsize=4.8,
+        color=NEUTRAL,
     )
 
     special = {
-        "MiNP": dict(marker="D", size=50, color=EXPOSURE, text="MiNP  |  rank 24\nOR 10.06; degree-matched FDR 0.0356", xytext=(59, 4.05)),
+        "MiNP": dict(marker="D", size=50, color=EXPOSURE, text="MiNP  |  rank 24\nOR 10.06; empirical FDR 0.036", xytext=(59, 4.05)),
         "DINP": dict(marker="o", size=38, color=EXPOSURE, text="DINP parent  |  rank 107", xytext=(126, 0.92)),
         "MBzP": dict(marker="s", size=38, color=NEUTRAL_DARK, text="MBzP  |  rank 2", xytext=(17, 8.38)),
     }
@@ -436,7 +436,7 @@ def draw_panel_d(ax, roadmap: pd.DataFrame):
         (0.07, 0.78, 0.86, 0.14, "1  Discovery", "CTD / GeneCards → MiNP / DINP axis", NEUTRAL_PALE, NEUTRAL_LIGHT, NEUTRAL_DARK, False),
         (0.07, 0.56, 0.86, 0.17, "2  Human biomonitoring", "NHANES 2005–2018\nN = 9,936; CRC = 70\nurinary MCOP", EXPOSURE_PALE, EXPOSURE, EXPOSURE, False),
         (0.07, 0.32, 0.86, 0.17, "3  CRC biological state", "TCGA paired bulk\nCELLxGENE donors\nGSE144735 directional check", TUMOR_LIGHT, TUMOR, TUMOR, False),
-        (0.07, 0.11, 0.86, 0.14, "Future  Prospective replication", "WHI prediagnostic urine → incident CRC", WHITE, EXPOSURE, EXPOSURE, True),
+        (0.07, 0.11, 0.86, 0.14, "Future  Prospective replication", "Prediagnostic urine → incident CRC", WHITE, EXPOSURE, EXPOSURE, True),
     ]
     for i, (x, y, w, h, heading, body, face, edge, text_color, dashed) in enumerate(cards):
         patch = rounded_card(
@@ -500,7 +500,7 @@ def write_reports(output_dir: Path, screen: pd.DataFrame, manifest: pd.DataFrame
     stats += "## Schematic panels\n"
     stats += "- Panel A: workflow nodes from `figure1_panelA_workflow_nodes.csv`; no quantitative effect estimate is encoded.\n"
     stats += "- Panel C: translation boundary is explicitly labelled as biomarker translation; MCOP is not represented as a direct CTD nomination.\n"
-    stats += "- Panel D: completed evidence layers are solid; WHI is a dashed future prospective replication stage and contains no result.\n\n"
+    stats += "- Panel D: completed evidence layers are solid; the future prospective replication stage is dashed and contains no result. The specific cohort identity is reserved for the manuscript legend.\n\n"
     stats += "## Source traceability\n"
     for row in manifest.itertuples(index=False):
         stats += f"- `{row.source_file}` — {row.rows_or_scope} — {row.figure_use}.\n"
