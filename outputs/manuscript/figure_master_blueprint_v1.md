@@ -19,16 +19,16 @@ Target manuscript style: Environment International submission, with visual hiera
 
 ---
 
-# Figure 1 — Data-first prioritization of the DINP exposure axis and overall study design
+# Figure 1 — From rank-24 molecular signal to a human-testable DINP exposure axis
 
 ## One-line purpose
-Allow an editor or reviewer to understand the entire paper within ~5 seconds: unbiased environmental discovery -> DINP/MiNP prioritization -> MCOP human biomonitoring -> CRC association -> candidate biological convergence.
+Allow an editor or reviewer to understand within ~5 seconds that MiNP was not the top molecular hit but became the lead actionable axis after multistage prioritization and biomarker translation.
 
 ## Core message
-**A DINP-related exposure axis was identified by a data-first environmental screen, translated to MCOP as a human biomarker, and then evaluated in NHANES and CRC transcriptomic datasets.**
+**MiNP ranked 24th in the molecular screen but advanced through multistage prioritization to a human-testable DINP exposure axis represented by urinary MCOP.**
 
 ## Layout
-Horizontal four-part / funnel-like multi-panel composition: A -> B -> C -> D.
+Horizontal three-part composition: A -> B -> C, with B as the quantitative anchor.
 
 ### Panel A — Environmental chemical discovery universe
 
@@ -70,34 +70,27 @@ Suggested encoding:
 
 Do not imply MiNP was the absolute top chemical; communicate prioritization within the audited shortlist.
 
-### Panel C — Translation bridge: MiNP/DINP -> MCOP
+### Panel C — Actionability-driven translation: rank-24 MiNP -> DINP axis -> MCOP
 
-Purpose: explain why the molecular nomination and population biomarker are not the same molecule.
+Purpose: explain why molecular rank was not the final selection criterion and why the molecular nomination and population biomarker are not the same molecule.
 
 Core logic:
-`MiNP/DINP molecular nomination -> MCOP as a human biomarker of DINP exposure`
+`Rank-24 MiNP signal -> multistage prioritization -> DINP-related exposure axis -> MCOP for human validation`
 
 Short supporting labels:
-- `MiNP molecular evidence nominated a DINP-related exposure axis`
-- `MCOP selected for NHANES because of broad availability and high detectability`
+- `Molecular stability • human biomarker • novelty • epidemiologic testability`
+- `MiNP 27.4% versus MCOP 98.4% above LOD across seven cycles`
 
 Plot type:
 - clean exposure-biomarker translation diagram.
 
 Critical boundary:
 - do not state or visually imply `CTD discovered MCOP`.
-
-### Panel D — Overall study roadmap
-
-Three stages:
-1. Discovery: CTD/GeneCards -> MiNP/DINP axis.
-2. Human biomonitoring: NHANES 2005–2018, N=9,936, CRC=70, urinary MCOP.
-3. Biological interpretation: TCGA paired bulk, CELLxGENE donor-level single-cell analyses, GSE144735 external epithelial dataset.
-
-Use wording such as `transcriptomic validation` and `candidate mechanistic bridge`, not `mechanism proven`.
+- do not imply that MiNP was the top-ranked molecular hit or that rank alone determined advancement.
+- reserve detailed Top-30 gate-by-gate triage for a dedicated candidate-prioritization figure.
 
 ## Figure 1 legend core sentence
-A data-first environmental screen prioritized a DINP-related exposure axis from 267 chemicals using CTD–GeneCards CRC enrichment. MCOP was then selected as a human biomarker of DINP exposure for NHANES evaluation, followed by transcriptomic and single-cell analyses to identify candidate CRC-associated biological convergence.
+A data-first screen of 267 environmental chemicals placed MiNP at molecular rank 24. Multistage prioritization incorporating molecular stability, biomarker tractability, novelty and epidemiologic testability advanced this signal to a DINP-related exposure axis, with urinary MCOP selected for human validation because of substantially higher seven-cycle detectability than MiNP.
 
 ---
 

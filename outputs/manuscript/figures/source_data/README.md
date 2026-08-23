@@ -5,7 +5,7 @@
 - `figure1_primary_screen.csv`: all 267 chemicals from the frozen primary GeneCards-disorders screen, including screen rank, enrichment odds ratio, BH-FDR, CRC overlap count and degree-matched permutation values
 - `figure1_panelA_workflow_nodes.csv`: discovery-universe workflow nodes
 - `figure1_panelC_translation_links.csv`: MiNP/DINP-to-MCOP translation relations
-- `figure1_panelD_study_roadmap.csv`: discovery, human biomonitoring and biological-interpretation stages
+- `outputs/nhanes_dinp_phase2a_audit_summary.csv` (external to this source-data folder): MiNP and MCOP seven-cycle above-LOD percentages used in Panel C
 
 ## Figure 2
 

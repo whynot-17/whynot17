@@ -4,13 +4,13 @@ Global contract: Python/matplotlib only; 190 mm double-column width; editable SV
 
 ## Figure 1 — Study design
 
-Core conclusion: A data-first screen of 267 environmental chemicals nominated a DINP/MiNP exposure axis, which was translated to urinary MCOP for NHANES evaluation and followed by CRC transcriptomic localization.
+Core conclusion: MiNP ranked 24th in a data-first molecular screen of 267 environmental chemicals but advanced through multistage actionability prioritization to a human-testable DINP exposure axis represented by urinary MCOP.
 
 Archetype: schematic-led horizontal composite.
 
-Panel map: A, discovery universe and audited workflow; B, full 267-chemical primary ranked screen with MiNP, DINP and MBzP direct labels; C, MiNP/DINP-to-MCOP translation boundary; D, discovery-to-human-to-transcriptomic roadmap.
+Panel map: A, discovery universe and audited workflow; B, full 267-chemical primary ranked screen with MiNP, DINP and MBzP direct labels; C, high-level multistage prioritization and MiNP/DINP-to-MCOP translation boundary.
 
-Evidence hierarchy: B is the quantitative anchor; A establishes unbiased discovery; C prevents molecule/biomarker conflation; D closes the manuscript workflow.
+Evidence hierarchy: B is the quantitative anchor; A establishes unbiased discovery; C explains why molecular rank was not the final actionability criterion and prevents molecule/biomarker conflation. Detailed Top-30 triage is reserved for a dedicated candidate-prioritization figure.
 
 Reviewer risk: do not imply that MiNP was the top-ranked chemical, that CTD nominated MCOP, or that the transcriptomic layer proves a DINP mechanism.
 
@@ -61,4 +61,3 @@ Panel map: A, data-driven discovery; B, human biomonitoring; C, CRC biological s
 Evidence hierarchy: B is the quantitative center; A and C are convergent supporting layers; the dashed bridge is visually subordinate.
 
 Reviewer risk: never use causal verbs for DINP-to-CRC or DINP-to-PPAR relationships; explicitly state the need for prospective and direct perturbational validation.
-

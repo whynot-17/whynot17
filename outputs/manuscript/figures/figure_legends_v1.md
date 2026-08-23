@@ -1,8 +1,8 @@
 # Figure legends V1
 
-## Figure 1. Data-first prioritization of the DINP exposure axis and overall study design
+## Figure 1. A rank-24 MiNP signal advances to a human-testable DINP exposure axis
 
-A, The discovery universe combined 267 core environmental chemicals, CTD human chemical–gene interactions and GeneCards CRC-associated genes using enrichment, BH-FDR and degree-matched permutation. B, The full frozen primary screen is shown by rank; MiNP is highlighted within the audited shortlist, with DINP and MBzP marked as contextual anchors. C, MiNP molecular evidence nominated a DINP-related exposure axis, whereas urinary MCOP was selected separately as the broadly available and detectable NHANES biomarker of DINP exposure. D, The study proceeded from discovery to complex-survey human biomonitoring and then paired bulk and donor-level transcriptomic analyses. Future prospective replication is planned using prediagnostic urine and incident CRC in the Women’s Health Initiative (WHI), subject to specimen and data access. The transcriptomic layer represents candidate biological convergence, not a proven exposure mechanism.
+A, The discovery universe combined 267 core environmental chemicals, CTD human chemical–gene interactions and GeneCards CRC-associated genes using enrichment, BH-FDR and degree-matched permutation. B, The full frozen primary screen is shown by rank; MiNP ranked 24th and is highlighted with its degree-matched FDR, whereas DINP parent and MBzP are marked as contextual anchors. Molecular rank was not treated as the final selection criterion. C, Multistage prioritization considered molecular stability, human-biomarker tractability, novelty and epidemiologic testability. This process advanced the MiNP signal to a DINP-related exposure axis, with urinary MCOP selected for human validation because it was above the limit of detection in 98.4% of participants across seven NHANES cycles compared with 27.4% for MiNP. MCOP represents biomarker translation and was not a direct CTD nomination.
 
 ## Figure 2. Urinary MCOP is positively associated with prevalent colorectal cancer across seven NHANES cycles
 
