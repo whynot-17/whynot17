@@ -1,0 +1,5 @@
+source_file,rows_or_scope,figure_use
+outputs\manuscript\figures\source_data\figure1_primary_screen.csv,all 267 rows,Panel B ranked screen
+outputs\manuscript\figures\source_data\figure1_panelA_workflow_nodes.csv,4 workflow nodes,Panel A workflow labels
+outputs\manuscript\figures\source_data\figure1_panelD_study_roadmap.csv,3 frozen stages,Panel D completed roadmap
+outputs/mcop_crc_phase2h_primary_reanalysis.csv,frozen primary survey result,Panel D NHANES evidence label
