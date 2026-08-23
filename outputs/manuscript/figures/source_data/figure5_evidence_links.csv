@@ -1,0 +1,6 @@
+source,target,relation,connector,evidence_status
+A1,A2,screening workflow,solid,observed
+A2,A3,audited nomination,solid,observed
+B1,B2,MCOP-CRC association,solid bidirectional,observed association
+C1,C2,CRC-state remodeling,solid bidirectional,observed disease-state relationship
+A3,C2,candidate mechanistic bridge,dashed,hypothetical

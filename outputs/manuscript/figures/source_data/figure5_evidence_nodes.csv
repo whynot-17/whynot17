@@ -1,0 +1,8 @@
+node_id,label,layer,evidence_status
+A1,267 environmental chemicals,discovery,observed
+A2,CTD x GeneCards CRC enrichment,discovery,observed
+A3,MiNP/DINP exposure axis nominated,discovery,observed
+B1,Urinary MCOP in NHANES 2005-2018,human biomonitoring,observed
+B2,Prevalent CRC: OR 1.246 per doubling,human biomonitoring,observed association
+C1,CRC tumor epithelium,biological state,observed
+C2,PPAR/NR down; RELA/STAT3 up,biological state,observed disease-state remodeling

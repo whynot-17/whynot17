@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="102.982496pt" height="237.96pt" viewBox="0 0 102.982496 237.96" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-23T17:35:34.243004</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 237.96 
+L 102.982496 237.96 
+L 102.982496 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 20.668387 86.9184 
+L 82.31411 86.9184 
+Q 84.600672 86.9184 84.600672 81.7884 
+L 84.600672 54.2916 
+Q 84.600672 49.1616 82.31411 49.1616 
+L 20.668387 49.1616 
+Q 18.381825 49.1616 18.381825 54.2916 
+L 18.381825 81.7884 
+Q 18.381825 86.9184 20.668387 86.9184 
+z
+" style="fill: #ddebed; stroke: #1f6f78; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 20.668387 142.3224 
+L 82.31411 142.3224 
+Q 84.600672 142.3224 84.600672 137.1924 
+L 84.600672 109.6956 
+Q 84.600672 104.5656 82.31411 104.5656 
+L 20.668387 104.5656 
+Q 18.381825 104.5656 18.381825 109.6956 
+L 18.381825 137.1924 
+Q 18.381825 142.3224 20.668387 142.3224 
+z
+" style="fill: #ffffff; stroke: #1f6f78; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 20.668387 197.7264 
+L 82.31411 197.7264 
+Q 84.600672 197.7264 84.600672 192.5964 
+L 84.600672 165.0996 
+Q 84.600672 159.9696 82.31411 159.9696 
+L 20.668387 159.9696 
+Q 18.381825 159.9696 18.381825 165.0996 
+L 18.381825 192.5964 
+Q 18.381825 197.7264 20.668387 197.7264 
+z
+" style="fill: #ddebed; stroke: #1f6f78; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 51.491248 89.010378 
+Q 51.491248 95.743926 51.491248 101.35944 
+" style="fill: none; stroke: #1f6f78; stroke-linecap: round"/>
+    <path d="M 53.091248 98.15944 
+L 51.491248 101.35944 
+L 49.891248 98.15944 
+z
+" style="fill: #1f6f78; stroke: #1f6f78; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 51.491248 144.414378 
+Q 51.491248 151.147926 51.491248 156.76344 
+" style="fill: none; stroke: #1f6f78; stroke-linecap: round"/>
+    <path d="M 53.091248 153.56344 
+L 51.491248 156.76344 
+L 49.891248 153.56344 
+z
+" style="fill: #1f6f78; stroke: #1f6f78; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f6f78" x="51.491248" y="69.644492" transform="rotate(-0 51.491248 69.644492)">MiNP molecular evidence</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #1f6f78" transform="translate(32.887373 121.674518)">DINP-related</text>
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #1f6f78" transform="translate(30.814733 128.422467)">exposure axis</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #1f6f78" transform="translate(30.47567 177.078457)">Urinary MCOP</text>
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #1f6f78" transform="translate(22.549842 183.826527)">NHANES biomarker</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #6e7478" transform="translate(24.179904 214.242732)">Broad cycle availability</text>
+    <text style="font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #6e7478" transform="translate(26.12517 220.120084)">and high detectability</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start" x="5.76" y="22" transform="rotate(-0 5.76 22)">MiNP/DINP to MCOP</text>
+   </g>
+  </g>
+  <g id="text_6">
+   <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #303437" x="-277.847767" y="21.865957" transform="rotate(-0 -277.847767 21.865957)">A</text>
+  </g>
+  <g id="text_7">
+   <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #303437" x="-160.775772" y="21.865957" transform="rotate(-0 -160.775772 21.865957)">B</text>
+  </g>
+  <g id="text_8">
+   <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #303437" x="-8.781732" y="21.865957" transform="rotate(-0 -8.781732 21.865957)">C</text>
+  </g>
+  <g id="text_9">
+   <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #303437" x="116.605036" y="21.865957" transform="rotate(-0 116.605036 21.865957)">D</text>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="162.928543pt" height="200.2752pt" viewBox="0 0 162.928543 200.2752" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-23T17:35:44.983983</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 200.2752 
+L 162.928543 200.2752 
+L 162.928543 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 10.756482 193.097318 
+L 152.172061 193.097318 
+Q 155.957274 193.097318 155.957274 188.666438 
+L 155.957274 26.673466 
+Q 155.957274 22.242586 152.172061 22.242586 
+L 10.756482 22.242586 
+Q 6.971268 22.242586 6.971268 26.673466 
+L 6.971268 188.666438 
+Q 6.971268 193.097318 10.756482 193.097318 
+z
+" style="fill: #ffffff; stroke: #79aeb3; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 19.840994 51.309158 
+L 143.087548 51.309158 
+Q 146.872762 51.309158 146.872762 46.878278 
+L 146.872762 31.990522 
+Q 146.872762 27.559642 143.087548 27.559642 
+L 19.840994 27.559642 
+Q 16.055781 27.559642 16.055781 31.990522 
+L 16.055781 46.878278 
+Q 16.055781 51.309158 19.840994 51.309158 
+z
+" style="fill: #ddebed; stroke: #1f6f78; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 22.869165 125.747942 
+L 140.059377 125.747942 
+Q 143.844591 125.747942 143.844591 121.317062 
+L 143.844591 83.38873 
+Q 143.844591 78.95785 140.059377 78.95785 
+L 22.869165 78.95785 
+Q 19.083952 78.95785 19.083952 83.38873 
+L 19.083952 121.317062 
+Q 19.083952 125.747942 22.869165 125.747942 
+z
+" style="fill: #ddebed; stroke: #1f6f78; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 22.869165 171.829094 
+L 73.439619 171.829094 
+Q 77.224832 171.829094 77.224832 167.398214 
+L 77.224832 154.28281 
+Q 77.224832 149.85193 73.439619 149.85193 
+L 22.869165 149.85193 
+Q 19.083952 149.85193 19.083952 154.28281 
+L 19.083952 167.398214 
+Q 19.083952 171.829094 22.869165 171.829094 
+z
+" style="fill: #f2f3f4; stroke: #a7adb2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 89.488924 171.829094 
+L 140.059377 171.829094 
+Q 143.844591 171.829094 143.844591 167.398214 
+L 143.844591 154.28281 
+Q 143.844591 149.85193 140.059377 149.85193 
+L 89.488924 149.85193 
+Q 85.70371 149.85193 85.70371 154.28281 
+L 85.70371 167.398214 
+Q 85.70371 171.829094 89.488924 171.829094 
+z
+" style="fill: #f2f3f4; stroke: #a7adb2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 6.3px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f6f78" x="81.464271" y="41.064771" transform="rotate(-0 81.464271 41.064771)">HUMAN BIOMONITORING</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 6.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #303437" x="81.464271" y="69.44822" transform="rotate(-0 81.464271 69.44822)">Urinary MCOP  |  NHANES 2005-2018</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f6f78" x="81.464271" y="98.271654" transform="rotate(-0 81.464271 98.271654)">OR 1.246 per doubling</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #303437" x="81.464271" y="113.653508" transform="rotate(-0 81.464271 113.653508)">95% CI 1.077-1.440  |  P = 0.0034</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 6.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #303437" x="81.464271" y="137.606138" transform="rotate(-0 81.464271 137.606138)">9,936 adults  |  70 CRC cases</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 5.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="48.154392" y="162.263798" transform="rotate(-0 48.154392 162.263798)">R/Python agree</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 5.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="114.774151" y="162.263852" transform="rotate(-0 114.774151 162.263852)">7/7 LOCO CIs &gt; 1</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 5.3px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #6e7478" x="81.464271" y="184.367995" transform="rotate(-0 81.464271 184.367995)">Observed association - not causal proof</text>
+   </g>
+  </g>
+  <g id="patch_7">
+   <path d="M -89.870988 219.276 
+Q 84.969384 219.276 258.691723 219.276 
+" style="fill: none; stroke-dasharray: 4,3; stroke-dashoffset: 0; stroke: #79aeb3; stroke-linecap: round"/>
+   <path d="M 255.491723 217.676 
+L 258.691723 219.276 
+L 255.491723 220.876 
+z
+" style="fill: #79aeb3; stroke-dasharray: 4,3; stroke-dashoffset: 0; stroke: #79aeb3; stroke-linecap: round"/>
+  </g>
+  <g id="text_9">
+   <text style="font-weight: 700; font-size: 5.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f6f78" x="76.078445" y="213.363761" transform="rotate(-0 76.078445 213.363761)">candidate mechanistic bridge</text>
+  </g>
+  <g id="text_10">
+   <text style="font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #6e7478" x="76.078445" y="236.384269" transform="rotate(-0 76.078445 236.384269)">Unproven: temporality, direct DINP-to-epithelium perturbation, and mediation</text>
+  </g>
+  <g id="text_11">
+   <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #303437" x="-183.518406" y="12.258277" transform="rotate(-0 -183.518406 12.258277)">A</text>
+  </g>
+  <g id="text_12">
+   <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #303437" x="-8.781732" y="12.258277" transform="rotate(-0 -8.781732 12.258277)">B</text>
+  </g>
+  <g id="text_13">
+   <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #303437" x="177.170389" y="12.258277" transform="rotate(-0 177.170389 12.258277)">C</text>
+  </g>
+ </g>
+</svg>

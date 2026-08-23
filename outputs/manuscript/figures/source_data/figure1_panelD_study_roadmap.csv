@@ -1,0 +1,4 @@
+stage,stage_label,content
+1,Discovery,CTD/GeneCards; MiNP/DINP axis
+2,Human biomonitoring,"NHANES 2005-2018; N=9,936; CRC=70; urinary MCOP"
+3,Biological interpretation,TCGA; CELLxGENE; GSE144735

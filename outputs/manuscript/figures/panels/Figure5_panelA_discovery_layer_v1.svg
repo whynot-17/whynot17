@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="151.713095pt" height="200.2752pt" viewBox="0 0 151.713095 200.2752" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-23T17:35:44.629264</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 200.2752 
+L 151.713095 200.2752 
+L 151.713095 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 10.386372 193.097318 
+L 141.326723 193.097318 
+Q 144.83155 193.097318 144.83155 188.666438 
+L 144.83155 26.673466 
+Q 144.83155 22.242586 141.326723 22.242586 
+L 10.386372 22.242586 
+Q 6.881545 22.242586 6.881545 26.673466 
+L 6.881545 188.666438 
+Q 6.881545 193.097318 10.386372 193.097318 
+z
+" style="fill: #ffffff; stroke: #d6d9dc; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 18.797958 51.309158 
+L 132.915137 51.309158 
+Q 136.419965 51.309158 136.419965 46.878278 
+L 136.419965 31.990522 
+Q 136.419965 27.559642 132.915137 27.559642 
+L 18.797958 27.559642 
+Q 15.29313 27.559642 15.29313 31.990522 
+L 15.29313 46.878278 
+Q 15.29313 51.309158 18.797958 51.309158 
+z
+" style="fill: #f2f3f4; stroke: #a7adb2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 30.013405 86.756198 
+L 121.69969 86.756198 
+Q 125.204517 86.756198 125.204517 82.325318 
+L 125.204517 65.66521 
+Q 125.204517 61.23433 121.69969 61.23433 
+L 30.013405 61.23433 
+Q 26.508578 61.23433 26.508578 65.66521 
+L 26.508578 82.325318 
+Q 26.508578 86.756198 30.013405 86.756198 
+z
+" style="fill: #f2f3f4; stroke: #a7adb2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 75.856547 88.904483 
+Q 75.856547 93.492525 75.856547 96.962533 
+" style="fill: none; stroke: #6e7478; stroke-linecap: round"/>
+    <path d="M 77.456547 93.762533 
+L 75.856547 96.962533 
+L 74.256547 93.762533 
+z
+" style="fill: #6e7478; stroke: #6e7478; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 30.013405 125.747942 
+L 121.69969 125.747942 
+Q 125.204517 125.747942 125.204517 121.317062 
+L 125.204517 104.656954 
+Q 125.204517 100.226074 121.69969 100.226074 
+L 30.013405 100.226074 
+Q 26.508578 100.226074 26.508578 104.656954 
+L 26.508578 121.317062 
+Q 26.508578 125.747942 30.013405 125.747942 
+z
+" style="fill: #f2f3f4; stroke: #a7adb2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 75.856547 127.896227 
+Q 75.856547 132.484269 75.856547 135.954277 
+" style="fill: none; stroke: #1f6f78; stroke-linecap: round"/>
+    <path d="M 77.456547 132.754277 
+L 75.856547 135.954277 
+L 74.256547 132.754277 
+z
+" style="fill: #1f6f78; stroke: #1f6f78; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 21.60182 173.601446 
+L 130.111275 173.601446 
+Q 133.616103 173.601446 133.616103 169.170566 
+L 133.616103 143.648698 
+Q 133.616103 139.217818 130.111275 139.217818 
+L 21.60182 139.217818 
+Q 18.096992 139.217818 18.096992 143.648698 
+L 18.096992 169.170566 
+Q 18.096992 173.601446 21.60182 173.601446 
+z
+" style="fill: #ddebed; stroke: #1f6f78; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 6.3px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #303437" x="75.856547" y="41.064771" transform="rotate(-0 75.856547 41.064771)">DATA-DRIVEN DISCOVERY</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="75.856547" y="75.599756" transform="rotate(-0 75.856547 75.599756)">267 environmental chemicals</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="75.856547" y="114.539742" transform="rotate(-0 75.856547 114.539742)">CTD x GeneCards CRC enrichment</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #1f6f78" transform="translate(33.518579 154.411829)">MiNP/DINP exposure axis</text>
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #1f6f78" transform="translate(58.162954 162.030482)">nominated</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 5.3px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #6e7478" x="75.856547" y="184.366442" transform="rotate(-0 75.856547 184.366442)">FDR + degree-matched permutation</text>
+   </g>
+  </g>
+  <g id="patch_9">
+   <path d="M 84.865685 219.276 
+Q 259.706058 219.276 433.428397 219.276 
+" style="fill: none; stroke-dasharray: 4,3; stroke-dashoffset: 0; stroke: #79aeb3; stroke-linecap: round"/>
+   <path d="M 430.228397 217.676 
+L 433.428397 219.276 
+L 430.228397 220.876 
+z
+" style="fill: #79aeb3; stroke-dasharray: 4,3; stroke-dashoffset: 0; stroke: #79aeb3; stroke-linecap: round"/>
+  </g>
+  <g id="text_6">
+   <text style="font-weight: 700; font-size: 5.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f6f78" x="250.815118" y="213.363761" transform="rotate(-0 250.815118 213.363761)">candidate mechanistic bridge</text>
+  </g>
+  <g id="text_7">
+   <text style="font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #6e7478" x="250.815118" y="236.384269" transform="rotate(-0 250.815118 236.384269)">Unproven: temporality, direct DINP-to-epithelium perturbation, and mediation</text>
+  </g>
+  <g id="text_8">
+   <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #303437" x="-8.781732" y="12.258277" transform="rotate(-0 -8.781732 12.258277)">A</text>
+  </g>
+  <g id="text_9">
+   <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #303437" x="165.954941" y="12.258277" transform="rotate(-0 165.954941 12.258277)">B</text>
+  </g>
+  <g id="text_10">
+   <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #303437" x="351.907062" y="12.258277" transform="rotate(-0 351.907062 12.258277)">C</text>
+  </g>
+ </g>
+</svg>

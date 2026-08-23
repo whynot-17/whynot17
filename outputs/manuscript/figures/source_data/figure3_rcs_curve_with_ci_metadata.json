@@ -1,0 +1,31 @@
+{
+  "display_range": "survey-weighted 5th to 95th percentile of complete-case log2(MCOP)",
+  "reference": "survey-weighted complete-case median log2(MCOP)",
+  "reference_log2": 2.9818526532897405,
+  "reference_ng_ml": 7.8999999999999995,
+  "knots_log2": [
+    0.0,
+    2.263034405833794,
+    3.807354922057604,
+    7.026729241916766
+  ],
+  "knots_ng_ml": [
+    1.0,
+    4.8,
+    14.0,
+    130.3935992253613
+  ],
+  "knot_quantiles": [
+    0.05,
+    0.35,
+    0.65,
+    0.95
+  ],
+  "N": 9936,
+  "CRC_N": 70,
+  "design_df": 109,
+  "critical_t_0.975": 1.9819674897364823,
+  "overall_P_F": 0.002327908671256653,
+  "nonlinear_P_F": 0.36505692689678787,
+  "model_status": "ok"
+}
