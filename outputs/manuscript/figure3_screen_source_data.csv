@@ -1,0 +1,16 @@
+axis_key,exposure_axis,primary_biomarker,matrix,mapping_confidence,OR,CI_low,CI_high,P,BH_FDR_15test,robustness_tier,robustness_fingerprint,figure_highlight
+serum_or_blood|LBXPFDE,PFAS exposure axis,LBXPFDE,serum_or_blood,high,0.7160906892,0.3850474840,1.3317471129,0.2861252753,0.5429380169,Exploratory,F0|L1|C0|H1|D2|T2|A1|E1,no
+serum_or_blood|LBXPFHS,PFAS exposure axis,LBXPFHS,serum_or_blood,high,0.6244137165,0.4707016001,0.8283219969,0.0014600807,0.0219012098,Tier B,F2|L2|C2|H1|D2|T2|A0|E1,FDR-supported Tier B
+serum_or_blood|LBXPFNA,PFAS exposure axis,LBXPFNA,serum_or_blood,high,0.8058544847,0.5554259057,1.1691954659,0.2507490624,0.5429380169,Exploratory,F0|L1|C1|H0|D2|T2|A0|E1,no
+urine|URXBPH,bisphenol exposure axis,URXBPH,urine,high,1.0613167813,0.9180985815,1.2268762124,0.4151904347,0.6227856520,Exploratory,F0|L1|C1|H2|D2|T2|A0|E1,no
+urine|URXCOP,DINP-related exposure axis,URXCOP,urine,high,1.2455067763,1.0775254463,1.4396756337,0.0033113585,0.0248351889,Robust Tier A,F2|L2|C2|H0|D2|T2|A1|E2,FDR-supported sole Robust Tier A
+urine|URXECP,DEHP-related/phthalate exposure axis,URXECP,urine,moderate,1.2109310124,0.9873552950,1.4851329852,0.0658441912,0.2469157169,Exploratory,F0|L1|C1|H0|D2|T2|A1|E2,no
+urine|URXMBP,phthalate exposure axis,URXMBP,urine,high,0.8954105062,0.6900632810,1.1618644213,0.4034426935,0.6227856520,Exploratory,F0|L0|C1|H0|D2|T2|A1|E2,no
+urine|URXMEP,phthalate exposure axis,URXMEP,urine,high,0.9329209184,0.8340638272,1.0434950080,0.2225855093,0.5429380169,Exploratory,F0|L1|C0|H0|D2|T2|A1|E2,no
+urine|URXMHP,DEHP-related exposure axis,URXMHP,urine,high,1.0929315587,0.9265125961,1.2892424744,0.2895669424,0.5429380169,Exploratory,F0|L1|C1|H0|D2|T2|A1|E2,no
+urine|URXMIB,phthalate exposure axis,URXMIB,urine,high,0.9658530593,0.8218167064,1.1351340572,0.6712276393,0.7527775982,Exploratory,F0|L0|C1|H0|D2|T2|A1|E2,no
+urine|URXMOH,phthalate exposure axis,URXMOH,urine,high,1.2036806907,1.0225988590,1.4168284977,0.0261382701,0.1306913505,Tier B,F1|L1|C1|H0|D2|T2|A1|E2,nominal-only Tier B
+urine|URXMZP,phthalate exposure axis,URXMZP,urine,moderate,0.9545082279,0.8005459101,1.1380808341,0.6017916258,0.7527775982,Exploratory,F0|L1|C1|H0|D2|T2|A1|E2,no
+urine|URXP02,PAH exposure axis,URXP02,urine,moderate,1.0029716594,0.7780067220,1.2929864499,0.9815429146,0.9815429146,Exploratory,F0|L0|C0|H2|D0|T2|A2|E2,no
+urine|URXP04,PAH exposure axis,URXP04,urine,moderate,0.9542162063,0.7483935779,1.2166440162,0.7025924250,0.7527775982,Exploratory,F0|L0|C1|H2|D2|T2|A1|E2,no
+urine|URXP10,PAH exposure axis,URXP10,urine,moderate,1.0721174283,0.8179168678,1.4053210359,0.6106236812,0.7527775982,Exploratory,F0|L0|C0|H2|D2|T2|A1|E2,no
