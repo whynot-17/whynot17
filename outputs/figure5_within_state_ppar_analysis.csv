@@ -1,0 +1,4 @@
+definition,n_paired_donors,mean_delta_tumor_minus_normal,median_delta_tumor_minus_normal,p_value,direction,donor_consistency,cell_subtype,minimum_cells_per_condition,BH_FDR
+enterocyte-like annotation,24,-0.17451661093620005,-0.19123806266861448,0.00017547607421875,down,0.8333333333333334,enterocyte-like annotation,20,0.00052642822265625
+other epithelial annotation,4,0.0779006510535851,0.10395120923677154,0.625,up,0.5,other epithelial annotation,20,0.625
+secretory-like annotation,27,0.06268948315357409,0.06842655117083685,0.012076601386070251,up,0.6666666666666666,secretory-like annotation,20,0.018114902079105377

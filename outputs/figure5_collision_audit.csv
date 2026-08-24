@@ -1,0 +1,18 @@
+collision_level,query,audited_relevant_records,finding,exact_prior_complete_chain,novelty_wording_allowed
+exact,DINP AND colorectal cancer AND PPAR,0,No direct DINP-PPAR-CRC mechanistic paper identified,False,targeted search did not identify an exact prior study
+exact,MiNP AND colorectal cancer AND PPAR,0,No direct MiNP-PPAR-CRC mechanistic paper identified,False,targeted search did not identify an exact prior study
+exact,MCOP AND colorectal cancer AND PPAR,0,No direct MCOP-PPAR-CRC mechanistic paper identified,False,targeted search did not identify an exact prior study
+partial,DINP AND cancer AND PPAR,1,2026 systematic carcinogenic-hazard review emphasizes rodent PPAR-alpha liver mode and limited human cancer evidence; PMID 42094681,False,targeted search did not identify an exact prior study
+partial,MiNP AND PPAR,4,"Receptor/hepatocyte, ovarian and macrophage studies; none establish CRC epithelial mediation",False,targeted search did not identify an exact prior study
+adjacent,colorectal cancer AND PPAR signaling single-cell,4,CRC PPAR literature is substantial but definition- and isoform-dependent,False,targeted search did not identify an exact prior study
+background,phthalates AND PPAR,100,Broad crowded background; count is qualitative/lower-bound and not used for novelty claims,False,targeted search did not identify an exact prior study
+exact,DINP AND colon epithelial AND PPAR,0,No exact exposure-epithelial-state study identified,False,targeted search did not identify an exact prior study
+exact,MiNP AND colorectal cancer,0,No direct CRC paper identified,False,targeted search did not identify an exact prior study
+exact,MiNP AND colon epithelial,0,No direct colon epithelial perturbation identified,False,targeted search did not identify an exact prior study
+partial,phthalate AND colorectal cancer AND single cell,0,No study connecting measured DINP/MCOP exposure to CRC single-cell state identified,False,targeted search did not identify an exact prior study
+partial,phthalate AND epithelial state AND colorectal,0,No exact chain identified,False,targeted search did not identify an exact prior study
+adjacent,PPARG AND colorectal epithelial AND single cell,3,CRC receptor/state literature exists without DINP/MCOP human exposure,False,targeted search did not identify an exact prior study
+adjacent,PPARA AND colorectal epithelial AND single cell,3,CRC receptor/state literature exists without DINP/MCOP human exposure,False,targeted search did not identify an exact prior study
+adjacent,PPAR AND RELA AND STAT3 AND colorectal epithelial,1,Pathway crosstalk literature is adjacent; no exposure-to-state chain,False,targeted search did not identify an exact prior study
+adjacent,PPAR AND stress-like epithelial AND colorectal cancer,1,State-remodeling literature is adjacent; no DINP/MCOP linkage,False,targeted search did not identify an exact prior study
+background,nuclear receptor AND colorectal epithelial state,10,Broad disease biology only,False,targeted search did not identify an exact prior study
