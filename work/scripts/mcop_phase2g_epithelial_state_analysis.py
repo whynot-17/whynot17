@@ -386,6 +386,50 @@ def donor_all_units(units: pd.DataFrame, genes: list[str]) -> pd.DataFrame:
     return grouped
 
 
+def frozen_donor_ppar_score(donor_counts: pd.DataFrame) -> pd.DataFrame:
+    """Reproduce the frozen Phase 2F donor-pseudobulk score exactly."""
+    axis_genes = [*PPAR_NR_GENES, "RELA", "STAT3"]
+    missing = sorted(set(axis_genes) - set(donor_counts.columns))
+    if missing:
+        raise RuntimeError(f"Frozen nine-gene donor score cannot be computed; missing genes: {missing}")
+    values = donor_counts[axis_genes].astype(float)
+    total = values.sum(axis=1)
+    log_cpm = pd.DataFrame(np.nan, index=values.index, columns=axis_genes, dtype=float)
+    valid = total.gt(0)
+    log_cpm.loc[valid, axis_genes] = np.log1p(values.loc[valid].div(total.loc[valid], axis=0) * 1_000_000)
+    z = (log_cpm - log_cpm.mean(axis=0)) / log_cpm.std(axis=0, ddof=1).replace(0, np.nan)
+    result = donor_counts[["donor_key", "donor_id", "group"]].copy()
+    result["PPAR_NR_score"] = z[PPAR_NR_GENES].mean(axis=1)
+    result["RELA_STAT3_score"] = z[["RELA", "STAT3"]].mean(axis=1)
+    result["DINP_axis_9gene_score"] = z[axis_genes].mean(axis=1)
+    result["target_gene_total_counts"] = total.to_numpy()
+    return result
+
+
+def load_phase2f_frozen_donor_scores(dataset_id: str, paired_donors: list[str]) -> pd.DataFrame:
+    """Load Phase 2F scores standardized in the full dataset/compartment context."""
+    path = OUTPUT / "mcop_phase2f_singlecell_donor_scores.csv"
+    use = [
+        "dataset_id", "donor_key", "donor_id", "group", "compartment",
+        "PPAR_nuclear_receptor_score", "RELA_STAT3_score", "DINP_axis_9_gene_score",
+        "target_gene_total_counts",
+    ]
+    scores = pd.read_csv(path, usecols=use, dtype={"dataset_id": str, "donor_id": str})
+    scores = scores.loc[
+        scores["dataset_id"].eq(dataset_id)
+        & scores["compartment"].eq("epithelial")
+        & scores["donor_id"].isin(paired_donors)
+        & scores["group"].isin(["tumor", "normal"])
+    ].copy()
+    expected = len(paired_donors) * 2
+    if len(scores) != expected or scores.duplicated(["donor_key", "group"]).any():
+        raise RuntimeError(f"Frozen Phase 2F donor-score audit failed: expected {expected} unique rows, observed {len(scores)}")
+    return scores.rename(columns={
+        "PPAR_nuclear_receptor_score": "PPAR_NR_score",
+        "DINP_axis_9_gene_score": "DINP_axis_9gene_score",
+    })[["donor_key", "donor_id", "group", "PPAR_NR_score", "RELA_STAT3_score", "DINP_axis_9gene_score", "target_gene_total_counts"]]
+
+
 def paired_effects(frame: pd.DataFrame, feature_cols: list[str], feature_type: str, level: str) -> pd.DataFrame:
     rows = []
     for feature in feature_cols:
@@ -410,15 +454,16 @@ def paired_effects(frame: pd.DataFrame, feature_cols: list[str], feature_type: s
 
 
 def ppar_low_high_de(units: pd.DataFrame, expr: pd.DataFrame, genes: list[str]) -> pd.DataFrame:
+    meta = units[["donor_id", "group", "PPAR_group"]].reset_index(drop=True)
+    values = expr[genes].reset_index(drop=True)
+    work = pd.concat([meta, values], axis=1)
+    low = work.loc[work["PPAR_group"].eq("PPAR-low")].groupby(["donor_id", "group"], observed=True)[genes].mean()
+    high = work.loc[work["PPAR_group"].eq("PPAR-high")].groupby(["donor_id", "group"], observed=True)[genes].mean()
+    common = low.index.intersection(high.index)
+    delta_matrix = low.loc[common, genes] - high.loc[common, genes]
     rows = []
-    low = units["PPAR_group"].eq("PPAR-low")
-    high = units["PPAR_group"].eq("PPAR-high")
     for gene in genes:
-        data = pd.DataFrame({"donor_id": units["donor_id"], "group": units["group"], "PPAR_group": units["PPAR_group"], "value": expr[gene]})
-        pivot = data.loc[data["PPAR_group"].isin(["PPAR-low", "PPAR-high"])].pivot_table(index=["donor_id", "group"], columns="PPAR_group", values="value", aggfunc="mean")
-        if not {"PPAR-low", "PPAR-high"}.issubset(pivot.columns):
-            continue
-        delta = (pivot["PPAR-low"] - pivot["PPAR-high"]).dropna()
+        delta = delta_matrix[gene].dropna()
         if len(delta) < 5:
             continue
         p = float(wilcoxon(delta).pvalue) if np.any(delta != 0) else 1.0
@@ -503,24 +548,48 @@ def subtype_audit(cell_scores: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-def regulator_activity(expr: pd.DataFrame, units: pd.DataFrame, net: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
+def regulator_activity(
+    expr: pd.DataFrame,
+    units: pd.DataFrame,
+    net: pd.DataFrame,
+    ppar_expr: pd.DataFrame | None = None,
+    ppar_units: pd.DataFrame | None = None,
+) -> tuple[pd.DataFrame, pd.DataFrame]:
     import decoupler as dc
     present_net = net.loc[net["target"].isin(expr.columns)].copy()
     if present_net.empty:
         return pd.DataFrame(), pd.DataFrame()
-    matrix = expr.copy()
-    matrix.index = units["donor_key"].astype(str) + "|" + units["group"].astype(str)
-    estimates, pvalues = dc.mt.ulm(matrix, present_net, tmin=5, verbose=False)
-    activity = estimates.copy()
-    activity.index.name = "unit_id"
-    long = activity.reset_index().melt(id_vars="unit_id", var_name="regulator", value_name="activity_score")
-    long["p_value_ulm"] = pvalues.reset_index(drop=True).melt(value_name="p_value_ulm")["p_value_ulm"].to_numpy()
-    meta = units.copy()
-    meta["unit_id"] = meta["donor_key"].astype(str) + "|" + meta["group"].astype(str)
-    long = long.merge(meta[["unit_id", "donor_id", "group", "PPAR_group"]], on="unit_id", how="left", validate="many_to_one")
+    def run_ulm(matrix_expr: pd.DataFrame, matrix_units: pd.DataFrame, unit_suffix: str) -> pd.DataFrame:
+        matrix = matrix_expr.copy()
+        unit_id = (
+            matrix_units["donor_key"].astype(str)
+            + "|" + matrix_units["group"].astype(str)
+            + unit_suffix
+        )
+        matrix.index = unit_id
+        estimates, pvalues = dc.mt.ulm(matrix, present_net, tmin=5, verbose=False)
+        activity = estimates.copy()
+        activity.index.name = "unit_id"
+        result = activity.reset_index().melt(id_vars="unit_id", var_name="regulator", value_name="activity_score")
+        result["p_value_ulm"] = pvalues.reset_index(drop=True).melt(value_name="p_value_ulm")["p_value_ulm"].to_numpy()
+        meta = matrix_units.copy()
+        meta["unit_id"] = unit_id.to_numpy()
+        keep = ["unit_id", "donor_id", "group"] + (["PPAR_group"] if "PPAR_group" in meta.columns else [])
+        result = result.merge(meta[keep], on="unit_id", how="left", validate="many_to_one")
+        return result
+
+    tumor_long = run_ulm(expr, units, "")
+    ppar_long = pd.DataFrame()
+    if ppar_expr is not None and ppar_units is not None:
+        suffix = "|" + ppar_units["PPAR_group"].astype(str)
+        ppar_long = run_ulm(ppar_expr, ppar_units, suffix)
+    long = pd.concat([tumor_long.assign(activity_unit="donor_group"), ppar_long.assign(activity_unit="donor_group_ppar_quartile")], ignore_index=True)
     rows = []
     for regulator, subset in long.groupby("regulator"):
-        for comparison, key in [("tumor_vs_normal", "group"), ("PPAR_low_vs_high", "PPAR_group")]:
+        for comparison, source in [("tumor_vs_normal", tumor_long), ("PPAR_low_vs_high", ppar_long)]:
+            subset = source.loc[source["regulator"].eq(regulator)].copy() if not source.empty else pd.DataFrame()
+            if subset.empty:
+                continue
             if comparison == "tumor_vs_normal":
                 pivot = subset.pivot_table(index="donor_id", columns="group", values="activity_score", aggfunc="mean")
                 a, b = "tumor", "normal"
@@ -546,6 +615,173 @@ def regulator_activity(expr: pd.DataFrame, units: pd.DataFrame, net: pd.DataFram
     if not summary.empty:
         summary["BH_FDR"] = summary.groupby("comparison", group_keys=False)["P"].transform(lambda x: bh(x))
     return long, summary
+
+
+def fetch_local_h5ad(
+    h5ad_path: Path,
+    dataset_id: str,
+    tumor_labels: list[str],
+    normal_labels: list[str],
+    cell_types: list[str],
+    paired_donors: list[str],
+    query_genes: set[str],
+) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
+    """Rebuild the frozen Census slice from the official source H5AD.
+
+    Raw CSR rows are streamed twice from disk. Pass 1 computes the fixed
+    seven-gene cell score; pass 2 aggregates the frozen target universe to
+    donor/group/PPAR-quartile pseudobulk. No full cell-by-gene matrix is held
+    in memory.
+    """
+    import anndata as ad
+    import h5py
+    from scipy.sparse import csr_matrix
+
+    adata = ad.read_h5ad(h5ad_path, backed="r")
+    try:
+        obs = adata.obs.copy()
+        raw_var = adata.raw.var.copy() if adata.raw is not None else adata.var.copy()
+        if adata.raw is None:
+            raise RuntimeError("Official source H5AD has no .raw matrix; frozen raw-count analysis cannot proceed.")
+        required_obs = {"donor_id", "disease", "cell_type", "is_primary_data", "observation_joinid"}
+        missing_obs = required_obs - set(obs.columns)
+        if missing_obs:
+            raise RuntimeError(f"Source H5AD is missing required observation fields: {sorted(missing_obs)}")
+        mask = (
+            obs["is_primary_data"].eq(True)
+            & obs["donor_id"].astype(str).isin(paired_donors)
+            & obs["disease"].astype(str).isin(tumor_labels + normal_labels)
+            & obs["cell_type"].astype(str).isin(cell_types)
+        )
+        selected_rows = np.flatnonzero(mask.to_numpy())
+        selected_obs = obs.iloc[selected_rows].copy().reset_index(drop=False).rename(columns={"index": "source_cell_id"})
+        selected_obs["donor_id"] = selected_obs["donor_id"].astype(str)
+        selected_obs["group"] = np.where(selected_obs["disease"].astype(str).isin(tumor_labels), "tumor", "normal")
+        selected_obs["donor_key"] = dataset_id + "::" + selected_obs["donor_id"]
+        # Source H5AD observation_joinid is the study barcode, not the Census
+        # numeric soma_joinid. Keep the source row as an internal stable index
+        # and preserve the original barcode in cell_id.
+        selected_obs["soma_joinid"] = selected_rows.astype(np.int64)
+        if selected_obs.empty:
+            raise RuntimeError("Local H5AD filter returned no eligible epithelial cells.")
+        paired_check = set(selected_obs.loc[selected_obs["group"].eq("tumor"), "donor_id"]) & set(selected_obs.loc[selected_obs["group"].eq("normal"), "donor_id"])
+        if paired_check != set(paired_donors):
+            raise RuntimeError(f"Local H5AD paired-donor mismatch: expected={len(paired_donors)}, observed={len(paired_check)}")
+
+        feature_names = raw_var["feature_name"].astype(str)
+        duplicate_features = feature_names[feature_names.duplicated(keep=False)]
+        requested = sorted(set(query_genes) | set(PPAR_NR_GENES))
+        gene_to_col: dict[str, int] = {}
+        for col, gene in enumerate(feature_names):
+            if gene in requested and gene not in gene_to_col:
+                gene_to_col[gene] = col
+        missing_genes = sorted(set(requested) - set(gene_to_col))
+        core_missing = sorted(set(PPAR_NR_GENES) - set(gene_to_col))
+        if core_missing:
+            raise RuntimeError(f"Frozen PPAR/NR genes missing from source H5AD: {core_missing}")
+        genes = sorted(set(query_genes) & set(gene_to_col))
+        target_cols = np.asarray([gene_to_col[g] for g in genes], dtype=np.int64)
+        core_target_pos = np.asarray([genes.index(g) for g in PPAR_NR_GENES], dtype=np.int64)
+        n_obs, n_var = adata.raw.shape
+    finally:
+        adata.file.close()
+
+    selected_flag = np.zeros(n_obs, dtype=bool)
+    selected_flag[selected_rows] = True
+    selected_position = np.full(n_obs, -1, dtype=np.int64)
+    selected_position[selected_rows] = np.arange(len(selected_rows), dtype=np.int64)
+    core_counts = np.zeros((len(selected_rows), len(PPAR_NR_GENES)), dtype=np.float64)
+    chunk_rows = 2048
+
+    with h5py.File(h5ad_path, "r") as handle:
+        raw_x = handle["raw/X"]
+        if raw_x.attrs.get("encoding-type") != "csr_matrix":
+            raise RuntimeError(f"Expected raw CSR matrix, found {raw_x.attrs.get('encoding-type')!r}")
+        indptr = raw_x["indptr"][:]
+        for start in range(0, n_obs, chunk_rows):
+            stop = min(n_obs, start + chunk_rows)
+            local_selected = np.flatnonzero(selected_flag[start:stop])
+            if not len(local_selected):
+                continue
+            p0, p1 = int(indptr[start]), int(indptr[stop])
+            block = csr_matrix(
+                (raw_x["data"][p0:p1], raw_x["indices"][p0:p1], indptr[start:stop + 1] - p0),
+                shape=(stop - start, n_var),
+            )
+            target = block[local_selected][:, target_cols]
+            positions = selected_position[start + local_selected]
+            core_counts[positions] = target[:, core_target_pos].toarray()
+
+    core_total = core_counts.sum(axis=1)
+    normalized = np.log1p(np.divide(core_counts * 1_000_000.0, core_total[:, None], out=np.zeros_like(core_counts), where=core_total[:, None] > 0))
+    gene_sd = normalized.std(axis=0, ddof=1)
+    z = (normalized - normalized.mean(axis=0)) / np.where(gene_sd > 0, gene_sd, 1.0)
+    score = np.nanmean(z, axis=1)
+    ranks = pd.Series(score).rank(method="first")
+    selected_obs["PPAR_group_primary"] = pd.qcut(ranks, 4, labels=["PPAR-low", "Q2", "Q3", "PPAR-high"]).astype(str).to_numpy()
+    selected_obs["PPAR_group_tercile"] = pd.qcut(ranks, 3, labels=["PPAR-low", "middle", "PPAR-high"]).astype(str).to_numpy()
+    selected_obs["PPAR_group_median"] = np.where(score <= np.nanmedian(score), "PPAR-low", "PPAR-high")
+    selected_obs["PPAR_group"] = selected_obs["PPAR_group_primary"]
+    selected_obs["PPAR_NR_score"] = score
+    selected_obs["cell_id"] = dataset_id + "::" + selected_obs["observation_joinid"].astype(str)
+    selected_obs["tumor_normal"] = selected_obs["group"]
+    selected_obs["cell_subtype"] = selected_obs["cell_type"].map(subtype_label)
+    selected_obs["PPAR_NR_core_genes"] = ";".join(PPAR_NR_GENES)
+
+    unit_meta = selected_obs[["donor_key", "donor_id", "group", "PPAR_group_primary"]].rename(columns={"PPAR_group_primary": "PPAR_group"})
+    unit_index = pd.MultiIndex.from_frame(unit_meta).unique().sort_values()
+    unit_lookup = {key: idx for idx, key in enumerate(unit_index)}
+    cell_unit = np.asarray([unit_lookup[tuple(row)] for row in unit_meta.itertuples(index=False, name=None)], dtype=np.int64)
+    aggregate = np.zeros((len(unit_index), len(genes)), dtype=np.float64)
+    n_cells = np.bincount(cell_unit, minlength=len(unit_index)).astype(int)
+
+    with h5py.File(h5ad_path, "r") as handle:
+        raw_x = handle["raw/X"]
+        indptr = raw_x["indptr"][:]
+        for start in range(0, n_obs, chunk_rows):
+            stop = min(n_obs, start + chunk_rows)
+            local_selected = np.flatnonzero(selected_flag[start:stop])
+            if not len(local_selected):
+                continue
+            p0, p1 = int(indptr[start]), int(indptr[stop])
+            block = csr_matrix(
+                (raw_x["data"][p0:p1], raw_x["indices"][p0:p1], indptr[start:stop + 1] - p0),
+                shape=(stop - start, n_var),
+            )
+            target = block[local_selected][:, target_cols]
+            positions = selected_position[start + local_selected]
+            units_here = cell_unit[positions]
+            for unit in np.unique(units_here):
+                aggregate[unit] += np.asarray(target[units_here == unit].sum(axis=0)).ravel()
+
+    units = unit_index.to_frame(index=False)
+    units["n_cells"] = n_cells
+    units = pd.concat([units.reset_index(drop=True), pd.DataFrame(aggregate, columns=genes)], axis=1)
+    keep_cell = [
+        "dataset_id", "donor_id", "disease", "tissue", "cell_type", "is_primary_data", "sex",
+        "soma_joinid", "donor_key", "group", "cell_id", "tumor_normal", "PPAR_NR_score",
+        "PPAR_group_primary", "PPAR_group_tercile", "PPAR_group_median", "PPAR_group",
+        "cell_subtype", "PPAR_NR_core_genes",
+    ]
+    selected_obs["dataset_id"] = dataset_id
+    if "sex" not in selected_obs:
+        selected_obs["sex"] = np.nan
+    audit = {
+        "source_h5ad": str(h5ad_path),
+        "source_bytes": int(h5ad_path.stat().st_size),
+        "source_n_obs": int(n_obs),
+        "source_n_vars": int(n_var),
+        "eligible_cells": int(len(selected_obs)),
+        "eligible_paired_donors": int(len(paired_check)),
+        "target_genes_requested": int(len(query_genes)),
+        "target_genes_present": int(len(genes)),
+        "target_genes_missing": missing_genes,
+        "duplicate_feature_names_n": int(duplicate_features.nunique()),
+        "raw_encoding": "csr_matrix",
+        "local_cell_index_mapping": "soma_joinid column contains source H5AD row index; cell_id contains source observation_joinid barcode",
+        "streaming_passes": 2,
+    }
+    return selected_obs[keep_cell].copy(), units, audit
 
 
 def external_gse_state_scores(state_sets: dict[str, set[str]], query_genes: set[str]) -> pd.DataFrame:
@@ -846,6 +1082,8 @@ def fallback_existing_phase2f() -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--fallback-existing", action="store_true", help="Use existing Phase 2F outputs and external files; do not claim primary Census Phase 2G estimability.")
+    parser.add_argument("--local-h5ad", type=Path, help="Official source H5AD used to bypass the live TileDB expression endpoint.")
+    parser.add_argument("--reuse-local-extraction", action="store_true", help="Reuse completed local cell-score and pseudobulk files; rerun downstream inference only.")
     args = parser.parse_args()
     if args.fallback_existing:
         fallback_existing_phase2f()
@@ -861,9 +1099,28 @@ def main() -> None:
     metadata, dataset_id, tumor_labels, normal_labels, cell_types, paired_donors = load_primary_metadata()
     query_genes = set().union(*state_sets.values()) | set(PPAR_NR_GENES) | set(ANCHOR_CANDIDATES) | set(net["target"].astype(str))
     print(f"Primary dataset={dataset_id}; paired donors={len(paired_donors)}; epithelial cell types={len(cell_types)}; query genes={len(query_genes)}")
-    with open_census() as census:
-        cell_scores = fetch_cell_scores(census, dataset_id, tumor_labels, normal_labels, cell_types, paired_donors)
-        units = fetch_donor_pseudobulk(census, cell_scores, dataset_id, tumor_labels, normal_labels, cell_types, paired_donors, query_genes)
+    local_audit = None
+    if args.reuse_local_extraction:
+        if not OUT_CELL.exists() or not OUT_PSEUDOBULK.exists():
+            raise SystemExit("Local extraction reuse requested, but required cell-score/pseudobulk outputs are missing.")
+        cell_scores = pd.read_csv(OUT_CELL)
+        units = pd.read_csv(OUT_PSEUDOBULK)
+        previous_manifest = json.loads(OUT_MANIFEST.read_text(encoding="utf-8")) if OUT_MANIFEST.exists() else {}
+        local_audit = previous_manifest.get("local_h5ad_audit") or {"reused_completed_local_extraction": True}
+        local_audit["reused_completed_local_extraction"] = True
+        print(f"Reusing validated local extraction: cells={len(cell_scores):,}; units={len(units):,}", flush=True)
+    elif args.local_h5ad:
+        local_path = args.local_h5ad.resolve()
+        if not local_path.exists():
+            raise SystemExit(f"Local source H5AD does not exist: {local_path}")
+        print(f"Using official source H5AD: {local_path}", flush=True)
+        cell_scores, units, local_audit = fetch_local_h5ad(
+            local_path, dataset_id, tumor_labels, normal_labels, cell_types, paired_donors, query_genes
+        )
+    else:
+        with open_census() as census:
+            cell_scores = fetch_cell_scores(census, dataset_id, tumor_labels, normal_labels, cell_types, paired_donors)
+            units = fetch_donor_pseudobulk(census, cell_scores, dataset_id, tumor_labels, normal_labels, cell_types, paired_donors, query_genes)
     cell_scores.to_csv(OUT_CELL, index=False)
     genes = sorted(query_genes & set(units.columns))
     expr_units = log_expression(units, genes)
@@ -872,7 +1129,9 @@ def main() -> None:
     expr_all["donor_key"] = expr_all_counts["donor_key"].to_numpy()
     expr_all["donor_id"] = expr_all_counts["donor_id"].to_numpy()
     expr_all["group"] = expr_all_counts["group"].to_numpy()
-    ppar_donor = cell_scores.groupby(["donor_key", "donor_id", "group"], as_index=False)["PPAR_NR_score"].mean()
+    # Reuse the Phase 2F score standardized against the full epithelial
+    # dataset, rather than re-standardizing after restricting to paired donors.
+    ppar_donor = load_phase2f_frozen_donor_scores(dataset_id, paired_donors)
     donor_all = expr_all_counts[["donor_key", "donor_id", "group", "n_cells"]].copy()
     donor_all = donor_all.merge(ppar_donor, on=["donor_key", "donor_id", "group"], how="left", validate="one_to_one")
     all_state_scores, state_sizes = state_scores(expr_all[genes], state_sets)
@@ -918,7 +1177,10 @@ def main() -> None:
     donor_validation.to_csv(OUT_DONOR, index=False)
     subtype_audit(cell_scores).to_csv(OUT_SUBTYPE, index=False)
     interaction_analysis(primary_states).to_csv(OUT_INTERACTION, index=False)
-    reg_long, reg_summary = regulator_activity(expr_all[genes], expr_all_counts, net)
+    reg_long, reg_summary = regulator_activity(
+        expr_all[genes], expr_all_counts, net,
+        ppar_expr=expr_units[genes], ppar_units=units,
+    )
     reg_summary.to_csv(OUT_REGULATOR, index=False)
     external = external_gse_state_scores(state_sets, query_genes)
     external = replace_with_frozen_phase2f_core(external)
@@ -948,6 +1210,7 @@ def main() -> None:
         "## Frozen analysis boundaries",
         "",
         f"- Census release: **{CENSUS_VERSION}**; primary data filter enforced.",
+        f"- Expression access path: **{'official source H5AD, streamed locally' if local_audit else 'live Census TileDB query'}**.",
         f"- Primary dataset selected from Phase 2F matched epithelial audit: **{dataset_id}**; paired donors queried={len(paired_donors)}; epithelial cell types={len(cell_types)}.",
         f"- PPAR/NR core fixed as: **{', '.join(PPAR_NR_GENES)}**; no result-driven gene editing.",
         f"- State universe: **{len(state_sets)}** programs; gene-set sizes present in queried expression: `{json.dumps(state_sizes, ensure_ascii=False)}`.",
@@ -986,6 +1249,8 @@ def main() -> None:
         "run_timestamp_utc": datetime.now(timezone.utc).isoformat(),
         "census_version": CENSUS_VERSION,
         "census_uri": CENSUS_URI,
+        "expression_access": "official_source_h5ad_streamed_locally" if local_audit else "live_census_tiledb",
+        "local_h5ad_audit": local_audit,
         "primary_dataset_id": dataset_id,
         "paired_donors_queried": paired_donors,
         "primary_filter": PRIMARY_FILTER,

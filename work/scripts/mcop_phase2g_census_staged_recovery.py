@@ -18,6 +18,7 @@ import argparse
 import json
 import sys
 import traceback
+from contextlib import nullcontext
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -87,7 +88,13 @@ def write_json(path: Path, payload: dict) -> None:
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def run_one_donor(stage: int, donor: str, genes: list[str], force: bool = False) -> dict:
+def run_one_donor(
+    stage: int,
+    donor: str,
+    genes: list[str],
+    force: bool = False,
+    census_handle=None,
+) -> dict:
     CACHE.mkdir(parents=True, exist_ok=True)
     manifest_file = manifest_path(stage, donor)
     if manifest_file.exists() and not force:
@@ -119,7 +126,12 @@ def run_one_donor(stage: int, donor: str, genes: list[str], force: bool = False)
         import tiledbsoma as soma
 
         print(f"[stage {stage}] opening Census {CENSUS_VERSION}; donor={donor}; genes={len(genes)}", flush=True)
-        with cellxgene_census.open_soma(uri=CENSUS_URI) as census:
+        census_context = (
+            cellxgene_census.open_soma(uri=CENSUS_URI)
+            if census_handle is None
+            else nullcontext(census_handle)
+        )
+        with census_context as census:
             experiment = census["census_data"][ORGANISM]
             with experiment.axis_query(
                 measurement_name="RNA",
@@ -183,14 +195,26 @@ def main() -> None:
     donors = paired_donors()
     print(f"[stage 3] eligible paired epithelial donors={len(donors)}", flush=True)
     genes = load_target_universe()
+    import cellxgene_census
+
     failures = []
-    for index, donor in enumerate(donors, start=1):
-        print(f"[stage 3] donor {index}/{len(donors)}: {donor}", flush=True)
-        result = run_one_donor(3, donor, genes, force=args.force)
-        if result.get("status") != "success":
-            failures.append(donor)
-            break
-    summary = {"stage": 3, "n_eligible_donors": len(donors), "n_success_before_failure": len(donors) - len(failures), "failures": failures, "finished_utc": utc_now()}
+    success_count = 0
+    print("[stage 3] opening one shared Census session for all remaining donors", flush=True)
+    with cellxgene_census.open_soma(uri=CENSUS_URI) as census:
+        for index, donor in enumerate(donors, start=1):
+            print(f"[stage 3] donor {index}/{len(donors)}: {donor}", flush=True)
+            result = run_one_donor(
+                3,
+                donor,
+                genes,
+                force=args.force,
+                census_handle=census,
+            )
+            if result.get("status") != "success":
+                failures.append(donor)
+                break
+            success_count += 1
+    summary = {"stage": 3, "n_eligible_donors": len(donors), "n_success_before_failure": success_count, "failures": failures, "finished_utc": utc_now()}
     write_json(CACHE / "stage3_summary.json", summary)
     raise SystemExit(0 if not failures else 2)
 

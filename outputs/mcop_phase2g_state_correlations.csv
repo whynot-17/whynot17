@@ -1,28 +1,130 @@
-status,group,state,n_donors,spearman_rho,P,BH_FDR
-not_estimable_runtime_blocked,primary Census,EMT,0,,,
-not_estimable_runtime_blocked,primary Census,E2F_targets,0,,,
-not_estimable_runtime_blocked,primary Census,G2M_checkpoint,0,,,
-not_estimable_runtime_blocked,primary Census,MYC_targets_V1,0,,,
-not_estimable_runtime_blocked,primary Census,MYC_targets_V2,0,,,
-not_estimable_runtime_blocked,primary Census,Hypoxia,0,,,
-not_estimable_runtime_blocked,primary Census,Inflammatory_response,0,,,
-not_estimable_runtime_blocked,primary Census,TNF_NFkB,0,,,
-not_estimable_runtime_blocked,primary Census,IL6_JAK_STAT3,0,,,
-not_estimable_runtime_blocked,primary Census,ROS,0,,,
-not_estimable_runtime_blocked,primary Census,OXPHOS,0,,,
-not_estimable_runtime_blocked,primary Census,Fatty_acid_metabolism,0,,,
-not_estimable_runtime_blocked,primary Census,Cholesterol_homeostasis,0,,,
-not_estimable_runtime_blocked,primary Census,Apoptosis,0,,,
-not_estimable_runtime_blocked,primary Census,p53,0,,,
-not_estimable_runtime_blocked,primary Census,UPR,0,,,
-not_estimable_runtime_blocked,primary Census,Glycolysis,0,,,
-not_estimable_runtime_blocked,primary Census,IFN_alpha,0,,,
-not_estimable_runtime_blocked,primary Census,IFN_gamma,0,,,
-not_estimable_runtime_blocked,primary Census,TGF_beta,0,,,
-not_estimable_runtime_blocked,primary Census,WNT_beta_catenin,0,,,
-not_estimable_runtime_blocked,primary Census,intestinal_epithelial_differentiation,0,,,
-not_estimable_runtime_blocked,primary Census,stemness,0,,,
-not_estimable_runtime_blocked,primary Census,secretory_differentiation,0,,,
-not_estimable_runtime_blocked,primary Census,enterocyte_differentiation,0,,,
-not_estimable_runtime_blocked,primary Census,goblet_program,0,,,
-not_estimable_runtime_blocked,primary Census,stress_like_epithelial,0,,,
+group,state,n_donors,spearman_rho,P,donor_consistency,direction,BH_FDR,state_association_interpretation
+pooled,EMT,72,-0.11849636632580875,0.3215019999691804,0.3888888888888889,negative,0.4189268484446896,state rises as PPAR/NR falls
+pooled,E2F_targets,72,-0.1989517010740241,0.09385383387233906,0.3888888888888889,negative,0.15521980217348383,state rises as PPAR/NR falls
+pooled,G2M_checkpoint,72,-0.22506270499710598,0.0573332434598679,0.3611111111111111,negative,0.10272206119892999,state rises as PPAR/NR falls
+pooled,MYC_targets_V1,72,-0.4781014856260853,2.1629324383004526e-05,0.2777777777777778,negative,7.154314988224575e-05,state rises as PPAR/NR falls
+pooled,MYC_targets_V2,72,-0.3742041288828864,0.0012029995877699989,0.3333333333333333,negative,0.003233061392131872,state rises as PPAR/NR falls
+pooled,Hypoxia,72,0.01225159174223423,0.9186434978677954,0.4722222222222222,positive,0.9186434978677954,state falls or tracks as PPAR/NR falls
+pooled,Inflammatory_response,72,-0.019100906810727382,0.8734683784932363,0.4166666666666667,negative,0.8942652446478372,state rises as PPAR/NR falls
+pooled,TNF_NFkB,72,-0.08244903209209598,0.49111732023192667,0.4166666666666667,negative,0.5866123547214679,state rises as PPAR/NR falls
+pooled,IL6_JAK_STAT3,72,0.06428066113576436,0.5916483972987558,0.4444444444444444,positive,0.6523302842011924,state falls or tracks as PPAR/NR falls
+pooled,ROS,72,0.1541578236542543,0.1960374931802295,0.5277777777777778,positive,0.2863006974113045,state falls or tracks as PPAR/NR falls
+pooled,OXPHOS,72,0.5175573991896586,3.231248433232481e-06,0.6944444444444444,positive,1.3894368262899668e-05,state falls or tracks as PPAR/NR falls
+pooled,Fatty_acid_metabolism,72,0.5586532896006176,3.4025072478752674e-07,0.75,positive,2.0901115951233783e-06,state falls or tracks as PPAR/NR falls
+pooled,Cholesterol_homeostasis,72,0.036368898321435465,0.761661449533564,0.4722222222222222,positive,0.7988156665839817,state falls or tracks as PPAR/NR falls
+pooled,Apoptosis,72,0.13113383497331021,0.2722119312491285,0.5555555555555556,positive,0.36578478261601644,state falls or tracks as PPAR/NR falls
+pooled,p53,72,0.090841854781658,0.44791278486068486,0.5,positive,0.5502928499716986,state falls or tracks as PPAR/NR falls
+pooled,UPR,72,-0.5073316612000772,5.411305281117078e-06,0.25,negative,1.939051059066953e-05,state rises as PPAR/NR falls
+pooled,Glycolysis,72,-0.14103800887516885,0.23731676417583125,0.4166666666666667,negative,0.3291813180503466,state rises as PPAR/NR falls
+pooled,IFN_alpha,72,0.16123223358415334,0.17604663073663196,0.4444444444444444,positive,0.27035732577411337,state falls or tracks as PPAR/NR falls
+pooled,IFN_gamma,72,0.15290372371213584,0.19974467261253803,0.5,positive,0.2863006974113045,state falls or tracks as PPAR/NR falls
+pooled,TGF_beta,72,0.3695414496109075,0.001399861010844626,0.6388888888888888,positive,0.0033441124147954955,state falls or tracks as PPAR/NR falls
+pooled,WNT_beta_catenin,72,0.07579265547623643,0.5268788871513983,0.5277777777777778,positive,0.6123187066894629,state falls or tracks as PPAR/NR falls
+pooled,intestinal_epithelial_differentiation,72,0.7128111132548718,2.1622385768847305e-12,0.7777777777777778,positive,3.099208626868114e-11,state falls or tracks as PPAR/NR falls
+pooled,stemness,72,-0.28506656376615863,0.015218919756843353,0.3888888888888889,negative,0.031162549978298294,state rises as PPAR/NR falls
+pooled,secretory_differentiation,72,0.18142645829313786,0.12720924753319696,0.4722222222222222,positive,0.20259250533064702,state falls or tracks as PPAR/NR falls
+pooled,enterocyte_differentiation,72,0.7881857354170688,2.0916088466170592e-16,0.8333333333333334,positive,4.496959020226677e-15,state falls or tracks as PPAR/NR falls
+pooled,goblet_program,72,0.1059553669046241,0.3757127550703059,0.5,positive,0.4751661314124457,state falls or tracks as PPAR/NR falls
+pooled,stress_like_epithelial,72,-0.31516496237700176,0.0070061193166177285,0.3333333333333333,negative,0.015063156530728117,state rises as PPAR/NR falls
+tumor,EMT,36,0.322007722007722,0.055464093474605326,0.6111111111111112,positive,0.08866069439053516,state falls or tracks as PPAR/NR falls
+tumor,E2F_targets,36,0.17425997425997425,0.30940843573609333,0.5,positive,0.3695711871292226,state falls or tracks as PPAR/NR falls
+tumor,G2M_checkpoint,36,0.209009009009009,0.2211926456618538,0.5555555555555556,positive,0.2882207201048398,state falls or tracks as PPAR/NR falls
+tumor,MYC_targets_V1,36,-0.3217503217503218,0.05567066857080115,0.3888888888888889,negative,0.08866069439053516,state rises as PPAR/NR falls
+tumor,MYC_targets_V2,36,-0.046589446589446595,0.7873004286667751,0.5555555555555556,negative,0.806045676968365,state rises as PPAR/NR falls
+tumor,Hypoxia,36,0.3418275418275419,0.041299718548149754,0.5555555555555556,positive,0.07721251728567129,state falls or tracks as PPAR/NR falls
+tumor,Inflammatory_response,36,0.43037323037323044,0.008791990286518345,0.5555555555555556,positive,0.025203705488019257,state falls or tracks as PPAR/NR falls
+tumor,TNF_NFkB,36,0.3382239382239383,0.04363044179502563,0.5555555555555556,positive,0.07817120821608758,state falls or tracks as PPAR/NR falls
+tumor,IL6_JAK_STAT3,36,0.4805662805662806,0.003011214113417607,0.5555555555555556,positive,0.011771109716087007,state falls or tracks as PPAR/NR falls
+tumor,ROS,36,0.18764478764478768,0.2731202524338387,0.5,positive,0.3355477387044304,state falls or tracks as PPAR/NR falls
+tumor,OXPHOS,36,0.40205920205920204,0.0150660937359503,0.6111111111111112,positive,0.0340969489813612,state falls or tracks as PPAR/NR falls
+tumor,Fatty_acid_metabolism,36,0.527927927927928,0.000935794089090787,0.6111111111111112,positive,0.00670652430515064,state falls or tracks as PPAR/NR falls
+tumor,Cholesterol_homeostasis,36,0.2630630630630631,0.12111261748419677,0.5,positive,0.16274507974438943,state falls or tracks as PPAR/NR falls
+tumor,Apoptosis,36,0.40411840411840416,0.014508756726123177,0.6111111111111112,positive,0.0340969489813612,state falls or tracks as PPAR/NR falls
+tumor,p53,36,0.43989703989703993,0.007260606262732938,0.5555555555555556,positive,0.02325306477960887,state falls or tracks as PPAR/NR falls
+tumor,UPR,36,-0.11711711711711713,0.4963462262554287,0.3333333333333333,negative,0.5616549402364062,state rises as PPAR/NR falls
+tumor,Glycolysis,36,0.30296010296010295,0.07248095472792215,0.5555555555555556,positive,0.11131003761788044,state falls or tracks as PPAR/NR falls
+tumor,IFN_alpha,36,0.32767052767052773,0.05107173677798149,0.6111111111111112,positive,0.08784338725812817,state falls or tracks as PPAR/NR falls
+tumor,IFN_gamma,36,0.34311454311454315,0.04049213803351003,0.6111111111111112,positive,0.07721251728567129,state falls or tracks as PPAR/NR falls
+tumor,TGF_beta,36,0.418018018018018,0.011182287698381909,0.5555555555555556,positive,0.03005239818940138,state falls or tracks as PPAR/NR falls
+tumor,WNT_beta_catenin,36,0.28906048906048903,0.0872896248073932,0.5,positive,0.12942944367992787,state falls or tracks as PPAR/NR falls
+tumor,intestinal_epithelial_differentiation,36,0.6144144144144145,6.710537199476213e-05,0.7222222222222222,positive,0.0014427654978873858,state falls or tracks as PPAR/NR falls
+tumor,stemness,36,0.2012870012870013,0.23911746582756335,0.5,positive,0.3024132656054478,state falls or tracks as PPAR/NR falls
+tumor,secretory_differentiation,36,0.5109395109395111,0.001450908760928898,0.7222222222222222,positive,0.008912725245706087,state falls or tracks as PPAR/NR falls
+tumor,enterocyte_differentiation,36,0.6782496782496783,5.4801646014011e-06,0.7777777777777778,positive,0.00023564707786024732,state falls or tracks as PPAR/NR falls
+tumor,goblet_program,36,0.43783783783783786,0.007570765277081958,0.6666666666666666,positive,0.02325306477960887,state falls or tracks as PPAR/NR falls
+tumor,stress_like_epithelial,36,0.26563706563706563,0.11738254416763523,0.5555555555555556,positive,0.16274507974438943,state falls or tracks as PPAR/NR falls
+normal,EMT,36,0.1891891891891892,0.26912010683663884,0.5,positive,0.6833234713962457,state falls or tracks as PPAR/NR falls
+normal,E2F_targets,36,0.059202059202059204,0.7316155048226161,0.5555555555555556,positive,0.9537823867156289,state falls or tracks as PPAR/NR falls
+normal,G2M_checkpoint,36,-0.03577863577863578,0.8358834679885124,0.4444444444444444,negative,0.9537823867156289,state rises as PPAR/NR falls
+normal,MYC_targets_V1,36,0.034749034749034756,0.8405447851079859,0.5,positive,0.9537823867156289,state falls or tracks as PPAR/NR falls
+normal,MYC_targets_V2,36,0.013642213642213644,0.937057997366878,0.5555555555555556,positive,0.9797930769598763,state falls or tracks as PPAR/NR falls
+normal,Hypoxia,36,0.3523809523809524,0.03504758585147757,0.6111111111111112,positive,0.3014092383227071,state falls or tracks as PPAR/NR falls
+normal,Inflammatory_response,36,0.1564993564993565,0.3620365324657855,0.3888888888888889,positive,0.7261905748805925,state falls or tracks as PPAR/NR falls
+normal,TNF_NFkB,36,0.155984555984556,0.36363753485585343,0.4444444444444444,positive,0.7261905748805925,state falls or tracks as PPAR/NR falls
+normal,IL6_JAK_STAT3,36,0.1341055341055341,0.43552725624848576,0.3888888888888889,positive,0.7261905748805925,state falls or tracks as PPAR/NR falls
+normal,ROS,36,0.1541827541827542,0.36927426902855776,0.5555555555555556,positive,0.7261905748805925,state falls or tracks as PPAR/NR falls
+normal,OXPHOS,36,0.09549549549549549,0.5795648079675021,0.5555555555555556,positive,0.8454833913509785,state falls or tracks as PPAR/NR falls
+normal,Fatty_acid_metabolism,36,0.14285714285714285,0.40587856522945,0.6111111111111112,positive,0.7261905748805925,state falls or tracks as PPAR/NR falls
+normal,Cholesterol_homeostasis,36,0.24169884169884173,0.15555840752499275,0.6111111111111112,positive,0.6255272898469126,state falls or tracks as PPAR/NR falls
+normal,Apoptosis,36,0.14723294723294725,0.3914974224248126,0.4444444444444444,positive,0.7261905748805925,state falls or tracks as PPAR/NR falls
+normal,p53,36,0.22625482625482626,0.1845409921991474,0.4444444444444444,positive,0.6255272898469126,state falls or tracks as PPAR/NR falls
+normal,UPR,36,0.016473616473616476,0.9240290912893813,0.4444444444444444,positive,0.9797930769598763,state falls or tracks as PPAR/NR falls
+normal,Glycolysis,36,0.1281853281853282,0.4562411717272464,0.5,positive,0.7266063105285776,state falls or tracks as PPAR/NR falls
+normal,IFN_alpha,36,0.1966537966537967,0.25032947907968645,0.5555555555555556,positive,0.6833234713962457,state falls or tracks as PPAR/NR falls
+normal,IFN_gamma,36,0.216988416988417,0.20366004785713435,0.5,positive,0.6255272898469126,state falls or tracks as PPAR/NR falls
+normal,TGF_beta,36,0.22239382239382238,0.19234681419157404,0.5555555555555556,positive,0.6255272898469126,state falls or tracks as PPAR/NR falls
+normal,WNT_beta_catenin,36,0.1827541827541828,0.2860423833751726,0.5,positive,0.6833234713962457,state falls or tracks as PPAR/NR falls
+normal,intestinal_epithelial_differentiation,36,0.37168597168597167,0.025611277925915495,0.6666666666666666,positive,0.27532123770359157,state falls or tracks as PPAR/NR falls
+normal,stemness,36,-0.09420849420849423,0.5847083834433184,0.5,negative,0.8454833913509785,state rises as PPAR/NR falls
+normal,secretory_differentiation,36,-0.051994851994851994,0.7632902579093084,0.5,negative,0.9537823867156289,state rises as PPAR/NR falls
+normal,enterocyte_differentiation,36,0.47567567567567565,0.0033664100501976293,0.6666666666666666,positive,0.04825187738616602,state falls or tracks as PPAR/NR falls
+normal,goblet_program,36,-0.14594594594594595,0.3956961768333626,0.5,negative,0.7261905748805925,state rises as PPAR/NR falls
+normal,stress_like_epithelial,36,-0.008751608751608752,0.9595985311427969,0.5555555555555556,negative,0.9797930769598763,state rises as PPAR/NR falls
+pooled,PPARG,72,0.5472056080776899,6.565454268105087e-07,0.7777777777777778,positive,3.1368281503168746e-06,anchor expression association
+tumor,PPARG,36,0.4676962676962677,0.004024270115441982,0.6111111111111112,positive,0.014420301247000437,anchor expression association
+normal,PPARG,36,0.07593307593307594,0.6598241026691999,0.5555555555555556,positive,0.9152398843476,anchor expression association
+pooled,PPARA,72,0.5959755931087906,3.3300154502189135e-08,0.75,positive,2.386511072656888e-07,anchor expression association
+tumor,PPARA,36,0.5818907277639204,0.00019723272655926104,0.6666666666666666,positive,0.002302946483687663,anchor expression association
+normal,PPARA,36,-0.01415701415701416,0.9346878091083928,0.4444444444444444,negative,0.9797930769598763,anchor expression association
+pooled,PPARD,72,0.2685060132484405,0.022576426802448344,0.6666666666666666,positive,0.04412665238660358,anchor expression association
+tumor,PPARD,36,-0.08082368082368084,0.6393587567697459,0.4444444444444444,negative,0.6705469888072945,anchor expression association
+normal,PPARD,36,0.4790218790218791,0.0031196783044187626,0.6666666666666666,positive,0.04825187738616602,anchor expression association
+pooled,NR1I2,72,0.4020197524079337,0.00046442938024130766,0.5833333333333334,positive,0.0013313642233584153,anchor expression association
+tumor,NR1I2,36,0.34768070105820015,0.037729453379210694,0.7222222222222222,positive,0.07721251728567129,anchor expression association
+normal,NR1I2,36,0.32792792792792796,0.05087889619856825,0.5555555555555556,positive,0.36463208942307246,anchor expression association
+pooled,NR1I3,72,0.8231017555740358,7.215474619557084e-19,0.9861111111111112,positive,3.1026540864095466e-17,anchor expression association
+tumor,NR1I3,36,0.5792473425604658,0.00021422757987792212,1.0,positive,0.002302946483687663,anchor expression association
+normal,NR1I3,36,0.9020991879073867,5.825907920101117e-14,0.9444444444444444,positive,2.5051404056434803e-12,anchor expression association
+pooled,NR1H2,72,0.46044761721011,4.70670639279884e-05,0.6944444444444444,positive,0.00014456312492167864,anchor expression association
+tumor,NR1H2,36,0.5523809523809524,0.00047747666611277183,0.6666666666666666,positive,0.004106299328569838,anchor expression association
+normal,NR1H2,36,0.004375804375804376,0.9797930769598763,0.3888888888888889,positive,0.9797930769598763,anchor expression association
+pooled,NR1H3,72,0.6262340421927853,4.023427229520966e-09,0.7222222222222222,positive,4.325184271735039e-08,anchor expression association
+tumor,NR1H3,36,0.4098867283125792,0.013039106483568524,0.6111111111111112,positive,0.03298126934079097,anchor expression association
+normal,NR1H3,36,0.22651222651222655,0.18402868799820768,0.5555555555555556,positive,0.6255272898469126,anchor expression association
+pooled,RELA,72,-0.2564795163676121,0.029650265560118735,0.3611111111111111,negative,0.05543310517761329,anchor expression association
+tumor,RELA,36,-0.10424710424710425,0.5451387784571021,0.4444444444444444,negative,0.601050448042446,anchor expression association
+normal,RELA,36,-0.03423423423423424,0.842877458027765,0.5,negative,0.9537823867156289,anchor expression association
+pooled,STAT3,72,-0.3717923982249663,0.001301460559939059,0.3333333333333333,negative,0.0032919296516105614,anchor expression association
+tumor,STAT3,36,-0.09420849420849423,0.5847083834433184,0.3888888888888889,negative,0.6285615122015673,anchor expression association
+normal,STAT3,36,-0.26640926640926643,0.11628049382714263,0.3888888888888889,negative,0.5555623593963481,anchor expression association
+pooled,HIF1A,72,-0.20551160846356684,0.08330159705875342,0.4166666666666667,negative,0.14327874694105588,anchor expression association
+tumor,HIF1A,36,-0.024453024453024455,0.8874266102941009,0.5555555555555556,negative,0.8874266102941009,anchor expression association
+normal,HIF1A,36,-0.2944658944658945,0.08127608173651023,0.3333333333333333,negative,0.4992673592385628,anchor expression association
+pooled,MYC,72,-0.5964900997853354,3.2183104042465584e-08,0.2777777777777778,negative,2.386511072656888e-07,anchor expression association
+tumor,MYC,36,-0.48880308880308887,0.0024864265473499045,0.4444444444444444,negative,0.01069163415360459,anchor expression association
+normal,MYC,36,-0.04890604890604891,0.7769852884778079,0.5,negative,0.9537823867156289,anchor expression association
+pooled,JUN,72,0.0706476300726735,0.5553843537093972,0.5277777777777778,positive,0.6284612423553705,anchor expression association
+tumor,JUN,36,0.37400257400257403,0.024635617478231595,0.6666666666666666,positive,0.05296657757819793,anchor expression association
+normal,JUN,36,-0.13307593307593307,0.43909197550919543,0.3888888888888889,negative,0.7261905748805925,anchor expression association
+pooled,FOS,72,0.05222200784616375,0.6630829310703739,0.5,positive,0.7128141509006519,anchor expression association
+tumor,FOS,36,0.14388674388674388,0.40246795112978667,0.4444444444444444,positive,0.4677330242859683,anchor expression association
+normal,FOS,36,0.04195624195624196,0.808036332482814,0.5,positive,0.9537823867156289,anchor expression association
+pooled,TP53,72,-0.5511930027654512,5.23646641981544e-07,0.3055555555555556,negative,2.814600700650799e-06,anchor expression association
+tumor,TP53,36,-0.4957528957528957,0.002107645582944538,0.3333333333333333,negative,0.010069862229623904,anchor expression association
+normal,TP53,36,-0.2682110682110682,0.11373925401570759,0.4444444444444444,negative,0.5555623593963481,anchor expression association
+pooled,SMAD3,72,0.33337621009615925,0.004214639938849908,0.6111111111111112,positive,0.00953839565108137,anchor expression association
+tumor,SMAD3,36,0.26673533324863824,0.11581748415493254,0.5,positive,0.16274507974438943,anchor expression association
+normal,SMAD3,36,0.18558558558558558,0.27851388303897273,0.5,positive,0.6833234713962457,anchor expression association
+pooled,TCF7L2,72,0.5151135121229662,3.6605811742181413e-06,0.6944444444444444,positive,1.430954459012546e-05,anchor expression association
+tumor,TCF7L2,36,0.5027027027027027,0.0017803663593311027,0.5555555555555556,positive,0.009569469181404677,anchor expression association
+normal,TCF7L2,36,0.09292149292149292,0.5898721335006827,0.3888888888888889,positive,0.8454833913509785,anchor expression association

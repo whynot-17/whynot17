@@ -1,3 +1,15 @@
-dataset_id,group,compartment,n_cells,n_donors,n_cell_types,n_tissues,subtype,median_PPAR_NR,PPAR_low_fraction,PPAR_high_fraction,tumor_normal_distribution,status
-16023185-de21-4c0d-a9c8-73abdd52d142,normal,epithelial,34429,36,6,1,annotation available only as aggregate cell-type audit,,,,normal,not_estimable_runtime_blocked
-16023185-de21-4c0d-a9c8-73abdd52d142,tumor,epithelial,15316,62,8,1,annotation available only as aggregate cell-type audit,,,,tumor,not_estimable_runtime_blocked
+subtype,cell_type,n_cells,n_donors,median_PPAR_NR,PPAR_low_fraction,PPAR_high_fraction,tumor_normal_distribution,annotation_source
+enterocyte-like annotation,colonocyte,2976,36,-0.3891030384610307,0.30611559139784944,0.23723118279569894,tumor,CELLxGENE Census cell_type label; no forced re-clustering or malignancy inference
+enterocyte-like annotation,enterocyte,15816,36,-0.0058013882757147,0.18860647445624684,0.35065756196256953,normal,CELLxGENE Census cell_type label; no forced re-clustering or malignancy inference
+enterocyte-like annotation,enterocyte,960,28,-0.0304495431913576,0.271875,0.26979166666666665,tumor,CELLxGENE Census cell_type label; no forced re-clustering or malignancy inference
+other epithelial annotation,intestinal epithelial cell,6486,36,-0.0304495431913576,0.22124576009867405,0.29740980573543013,normal,CELLxGENE Census cell_type label; no forced re-clustering or malignancy inference
+other epithelial annotation,intestinal epithelial cell,280,30,-0.0512669347214538,0.3107142857142857,0.2571428571428571,tumor,CELLxGENE Census cell_type label; no forced re-clustering or malignancy inference
+secretory-like annotation,colon goblet cell,2118,33,-0.3891030384610307,0.29697828139754484,0.22049102927289896,tumor,CELLxGENE Census cell_type label; no forced re-clustering or malignancy inference
+secretory-like annotation,enteroendocrine cell,134,28,-0.3891030384610307,0.3880597014925373,0.04477611940298507,normal,CELLxGENE Census cell_type label; no forced re-clustering or malignancy inference
+secretory-like annotation,enteroendocrine cell,168,28,-0.22018498659124225,0.30952380952380953,0.15476190476190477,tumor,CELLxGENE Census cell_type label; no forced re-clustering or malignancy inference
+secretory-like annotation,glandular secretory epithelial cell,1139,32,0.295854087790791,0.09833187006145742,0.517998244073749,normal,CELLxGENE Census cell_type label; no forced re-clustering or malignancy inference
+secretory-like annotation,glandular secretory epithelial cell,112,17,0.2724425699961105,0.10714285714285714,0.49107142857142855,tumor,CELLxGENE Census cell_type label; no forced re-clustering or malignancy inference
+secretory-like annotation,goblet cell,9606,36,-0.3891030384610307,0.3159483656048303,0.08963148032479701,normal,CELLxGENE Census cell_type label; no forced re-clustering or malignancy inference
+secretory-like annotation,goblet cell,1767,31,-0.3891030384610307,0.22297679683078664,0.19185059422750425,tumor,CELLxGENE Census cell_type label; no forced re-clustering or malignancy inference
+secretory-like annotation,tuft cell of colon,1248,35,-0.3891030384610307,0.5961538461538461,0.009615384615384616,normal,CELLxGENE Census cell_type label; no forced re-clustering or malignancy inference
+secretory-like annotation,tuft cell of colon,991,34,-0.3891030384610307,0.2462159434914228,0.08274470232088799,tumor,CELLxGENE Census cell_type label; no forced re-clustering or malignancy inference
