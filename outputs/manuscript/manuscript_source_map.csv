@@ -1,0 +1,39 @@
+claim_id,manuscript_section,claim_or_number,source_file,status,notes
+C001,Abstract/Results 1,267 starting chemicals,work/environmental_crc_final_analysis_freeze_20260824.md,FROZEN,Starting actionability universe
+C002,Abstract/Results 1,259 E-valid candidates,outputs/environmental_crc_267_actionability_flow.csv,FROZEN,Sequential attrition
+C003,Abstract/Results 1,135 E+X interpretable,outputs/environmental_crc_267_actionability_flow.csv,FROZEN,Sequential attrition
+C004,Abstract/Results 1,134 E+X+B biomarker available,outputs/environmental_crc_267_actionability_flow.csv,FROZEN,Sequential attrition
+C005,Abstract/Results 1,127 detectable,outputs/environmental_crc_267_actionability_flow.csv,FROZEN,Sequential attrition
+C006,Abstract/Results 1,124 adequate cycle coverage,outputs/environmental_crc_267_actionability_flow.csv,FROZEN,Sequential attrition
+C007,Abstract/Results 1,87 human-testable chemical–biomarker mappings,outputs/environmental_crc_267_actionability_flow.csv,FROZEN,Do not call 87 independent exposures
+C008,Abstract/Results 1,27 strict-eligible mappings,outputs/environmental_crc_267_actionability_flow.csv,FROZEN,D2+C2+T2 strict rule
+C009,Abstract/Results 1,15 unique NHANES biomarker tests,outputs/environmental_crc_267_human_testable_candidates.csv,FROZEN,Statistical human-screen units
+C010,Results 1,MiNP direct detectability ~40.7% above LOD / D0,outputs/environmental_crc_267_actionability_matrix_v2.csv,FROZEN,Use current v2 value only; do not mix historical 27.4% audit
+C011,Results 1,MCOP high detectability and 7-cycle coverage,outputs/environmental_crc_267_actionability_matrix_v2.csv,FROZEN,MCOP is distinct from MiNP
+C012,Results 2,MCOP screen OR ~1.246 and BH-FDR ~0.02484,outputs/environmental_crc_15axis_robustness_scorecard.csv,FROZEN,15-test human screen
+C013,Results 2,PFHS OR ~0.624 and BH-FDR ~0.02190,outputs/environmental_crc_15axis_robustness_scorecard.csv,FROZEN,Competing FDR-supported test
+C014,Results 2,MCOP fingerprint F2|L2|C2|H0|D2|T2|A1|E2,outputs/environmental_crc_15axis_robustness_scorecard.csv,FROZEN,Sole Robust Tier A
+C015,Results 2,PFHS final Tier B,outputs/environmental_crc_15axis_robustness_scorecard.csv,FROZEN,Do not suppress competing positive result
+C016,Abstract/Results 3,Primary complete-case N=9936,work/environmental_crc_final_analysis_freeze_20260824.md,FROZEN,Primary R survey analysis population
+C017,Abstract/Results 3,CRC cases=70,work/environmental_crc_final_analysis_freeze_20260824.md,FROZEN,Primary R survey analysis population
+C018,Abstract/Results 3,OR per MCOP doubling=1.2455068,work/environmental_crc_final_analysis_freeze_20260824.md,FROZEN,Primary R survey estimate
+C019,Abstract/Results 3,95% CI 1.0773085–1.4399655,work/environmental_crc_final_analysis_freeze_20260824.md,FROZEN,Primary R survey estimate
+C020,Abstract/Results 3,design-df P=0.0033113,work/environmental_crc_final_analysis_freeze_20260824.md,FROZEN,Primary R survey estimate
+C021,Results 4,all seven LOCO pooled re-estimates OR>1 and CI excludes 1,work/mcop_crc_phase2i_manuscript_lock.md,FROZEN,Robustness statement; cycles are not independent cohorts
+C022,Results 4,significant MCOP×cycle heterogeneity,work/environmental_crc_final_analysis_freeze_20260824.md,FROZEN,Must remain visible
+C023,Results 4,2011–2012 major discordant cycle,work/mcop_crc_phase2i_manuscript_lock.md,FROZEN,Context for heterogeneity
+C024,Abstract/Results 5,Frozen PPAR/NR core median delta=-0.4186,outputs/figure5_final_report.md,FROZEN,Paired CRC epithelial disease-state result
+C025,Abstract/Results 5,Frozen PPAR/NR core FDR ~9.3e-07,outputs/figure5_final_report.md,FROZEN,Definition audit lock
+C026,Results 5,KEGG PPAR signaling median delta=-0.2758 FDR 2.76e-05,outputs/figure5_final_report.md,FROZEN,Independent definition
+C027,Results 5,Reactome PPAR-alpha lipid regulation median delta=-0.1436 FDR 0.0217,outputs/figure5_final_report.md,FROZEN,Independent definition
+C028,Results 5,Peroxisomal lipid metabolism median delta=-0.6282 FDR 4.68e-08,outputs/figure5_final_report.md,FROZEN,Independent definition
+C029,Results 5,Mitochondrial FA beta oxidation median delta=-0.5563 FDR 1.32e-08,outputs/figure5_final_report.md,FROZEN,Independent definition
+C030,Results 5,Hallmark fatty acid metabolism median delta=-0.2355 FDR 0.000219,outputs/figure5_final_report.md,FROZEN,Independent definition
+C031,Results 5,Enterocyte metabolic differentiation median delta=-0.6407 FDR 1.54e-07,outputs/figure5_final_report.md,FROZEN,Independent definition
+C032,Results 5,DoRothEA PPARG activity median delta=-1.5269 FDR 7.57e-10,outputs/figure5_final_report.md,FROZEN,Regulon support
+C033,Results 5,DoRothEA PPARA activity median delta=-0.5808 FDR 6.43e-06,outputs/figure5_final_report.md,FROZEN,Regulon support
+C034,Results 5,Enterocyte-like within-state n=24 median delta=-0.191 FDR 5.26e-04,outputs/figure5_final_report.md,FROZEN,State-specific suppression
+C035,Results 5,Secretory-like within-state n=27 median delta=+0.068 FDR 0.0181,outputs/figure5_final_report.md,FROZEN,State-specific opposite direction
+C036,Results 5,No simple PPAR-low→RELA/STAT3-high donor-level mediation support,outputs/figure5_final_report.md,FROZEN,Negative/constraint result must not be omitted
+C037,Discussion/Novelty,Targeted search did not identify exact complete DINP/MCOP+CRC+epithelial PPAR chain,outputs/figure5_collision_audit.csv,FROZEN,Use only targeted-search wording; no world-first claim
+C038,All sections,Exposure-to-epithelial-state causality remains untested,work/environmental_crc_final_analysis_freeze_20260824.md,FROZEN,Central causal boundary
