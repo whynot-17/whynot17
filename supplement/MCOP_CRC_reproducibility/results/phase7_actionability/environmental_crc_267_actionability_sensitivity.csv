@@ -1,0 +1,4 @@
+rule_set,definition,n_candidates,candidates
+permissive,E=1 & X=1 & B=1 & D>=1 & C>=1 & T>=1,1,C573544
+moderate,E=1 & X=1 & B=1 & D>=1 & C>=2 & T>=1,1,C573544
+strict,E=1 & X=1 & B=1 & D=2 & C=2 & T=2,1,C573544

@@ -1,0 +1,12 @@
+﻿check,status,detail,max_abs_difference,timestamp_utc
+Phase1-2 primary MCOP rerun vs frozen,PASS,"N, events, OR, CI and P reproduced within 1e-8",1.9984014443252818e-15,2026-08-25T15:37:21.936118+00:00
+Independent R survey::svyglm replication,PASS,R OR=1.2455068; Python OR=1.2455068; relative logOR change=4.88e-11%,,2026-08-25T15:37:21.936118+00:00
+15-axis human screen rerun vs frozen,PASS,rows=15; all OR/CI/P/FDR values reproduced,0.0,2026-08-25T15:37:21.936118+00:00
+15-axis screen cardinality,PASS,n_unique_axes=15,,2026-08-25T15:37:21.936118+00:00
+15-axis FDR-supported tests,PASS,n_BH_FDR_lt_0.05=2,,2026-08-25T15:37:21.936118+00:00
+15-axis robustness rerun vs frozen,PASS,rows=15; max primary OR difference=3.77e-15,3.774758283725532e-15,2026-08-25T15:37:21.936118+00:00
+Robust Tier A cardinality,PASS,Robust Tier A=1,,2026-08-25T15:37:21.936118+00:00
+267-chemical actionability rerun vs frozen,PASS,rows=267; all gate/disposition fields reproduced,,2026-08-25T15:37:21.936118+00:00
+Outcome firewall audit,PASS,Eligibility/actionability selection audited without using CRC OR/P/CI,,2026-08-25T15:37:21.936118+00:00
+Phase2G official H5AD source QC,PASS,eligible cells=43801; paired donors=36; source equivalence=True,,2026-08-25T15:37:21.936118+00:00
+Phase2G staged Census cache completeness,INFO,staged success=35/36; failures=['C136']; not used as final H5AD source,,2026-08-25T15:37:21.936118+00:00

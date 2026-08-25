@@ -1,0 +1,2 @@
+Analysis,Exposure,status,N,CRC_N,Control_N,beta,SE,OR,CI_low,CI_high,P,design_df,PSU_N,strata_N,message,Normalization
+Creatinine_normalized_MCOP,mcop_creatinine_norm_log2,ok,9936,70,9866,0.21833061663983572,0.0737928582006386,1.2439982861708034,1.0747365596014322,1.4399172729080707,0.003789899909310256,109,214,105,Newton-IRLS converged,log2(MCOP) - log2(urine creatinine)

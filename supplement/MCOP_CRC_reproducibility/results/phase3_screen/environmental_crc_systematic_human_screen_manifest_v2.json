@@ -1,0 +1,18 @@
+{
+  "analysis": "Complete 267-chemical systematic NHANES human screen v2",
+  "run_timestamp_utc": "2026-08-23T16:53:30.065894+00:00",
+  "input_actionability_matrix": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\environmental_crc_267_actionability_matrix_v2.csv",
+  "input_actionability_matrix_sha256": "32cf565641ee601f32c265003a2d1e175922e447f0ffd9763b22ab91d51fe3a8",
+  "n_original_chemicals": 267,
+  "n_permissive_eligible_chemical_rows": 87,
+  "n_unique_exposure_axes_tested": 15,
+  "n_finite_p_values": 15,
+  "bh_fdr_scope": "all finite P values from all unique eligible exposure axes",
+  "model": "validated Python Taylor-style complex-survey logistic; common model with creatinine only for urine",
+  "outcome_blinded_for_eligibility": true,
+  "outputs": [
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\environmental_crc_systematic_human_screen_v2.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\environmental_crc_systematic_human_screen_fdr_v2.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\environmental_crc_systematic_human_screen_report_v2.md"
+  ]
+}

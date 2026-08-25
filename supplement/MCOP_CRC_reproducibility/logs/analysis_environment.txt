@@ -1,0 +1,11 @@
+MCOP–CRC Supplement reproducibility environment
+Generated UTC: 2026-08-25T15:37:25.354001+00:00
+Repository: C:\Users\21634\Documents\Codex\2026-08-22\non\work\whynot17
+Branch: phase2f-compartment-external-replication
+Python: 3.12.13
+R: Rscript (R) version 4.5.1 (2025-06-13)
+R survey package: 4.5 (verified in Phase 2H output)
+Primary NHANES cycles: 2005–06 through 2017–18 (7 cycles)
+Primary pooled weight: cycle-specific phthalate subsample weight / 7
+Primary inference: complex-survey Taylor design; independent R survey::svyglm replication
+Phase2G final expression source: official CELLxGENE H5AD, local cached analysis

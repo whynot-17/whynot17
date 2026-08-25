@@ -1,0 +1,58 @@
+{
+  "phase": "Phase 2I",
+  "objective": "direct discovery of MCOP from the original 267 core environmental chemicals",
+  "input": {
+    "file": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\environmental_toxicology_crc_phase1_ranked_core.csv",
+    "scope": "GeneCards_Disorders",
+    "gene_cards_k": 1000,
+    "expected_unique_chemicals": 267
+  },
+  "outcome_blinded": true,
+  "outcome_firewall": {
+    "forbidden_human_outcome_fields": [
+      "human OR/HR",
+      "human CI",
+      "human P value",
+      "LOCO CRC result",
+      "cycle-specific CRC effect",
+      "candidate-specific epidemiologic significance"
+    ],
+    "forbidden_columns_detected_in_phase1_input": [],
+    "allowed_feasibility_fields": [
+      "analytic exposure/outcome N",
+      "available CRC cases",
+      "controls",
+      "cycle coverage",
+      "detectability"
+    ]
+  },
+  "molecular_rules": {
+    "M2": "BH-FDR<0.05 AND degree-matched BH-FDR<0.05 AND n_ctd_human_genes>=20 AND CRC_overlap>=5",
+    "M1": "M2 OR either FDR<0.05 OR n_ctd_human_genes>=20 AND CRC_overlap>=5",
+    "M0": "otherwise",
+    "note": "CRC_overlap here is Phase 1 molecular overlap, not a human epidemiologic result."
+  },
+  "actionability_rules": {
+    "permissive": "E=1 & X=1 & B=1 & D>=1 & C>=1 & T>=1",
+    "moderate": "E=1 & X=1 & B=1 & D>=1 & C>=2 & T>=1",
+    "strict": "E=1 & X=1 & B=1 & D=2 & C=2 & T=2",
+    "M_is_hard_gate": false,
+    "N_is_hard_gate": false
+  },
+  "local_human_audit_coverage": {
+    "audited_analytes": [
+      "MCOP",
+      "MiNP"
+    ],
+    "unreviewed_chemical_count": 265,
+    "warning": "Unreviewed chemicals are manual-review unknowns, not negatives."
+  },
+  "mcop_direct_discovery_audit": {
+    "ChemicalID": "C573544",
+    "present_in_original_267": true,
+    "phase1_rank": 78,
+    "molecular_level": "M0",
+    "eligible_permissive": true,
+    "selection_used_human_crc_effect": false
+  }
+}

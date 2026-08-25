@@ -1,0 +1,7 @@
+link,evidence_level,evidence_basis,figure_representation,status,locked_wording
+CRC -> epithelial PPAR/NR down,E3,directly observed in current human paired-donor data,solid,GREEN,Frozen core median delta=-0.419; FDR=9.3e-07.
+CRC -> RELA/STAT3 inflammatory state up,E3,directly observed in current human paired-donor data,solid,GREEN,Expression/regulon and state evidence; no exposure attribution.
+PPAR/NR <-> differentiation/inflammatory state,E2,donor-level cross-program convergence,thin solid,YELLOW,"Association, not mediation."
+Within-state PPAR remodeling,E2,annotation-state paired analysis,mixed split arrows,YELLOW,1 state down and 1 state up at FDR<0.05; composition also shifts.
+DINP/MiNP -> PPAR/NR,E1,external toxicology-supported candidate,dashed candidate label only; omit non-colon evidence nodes,YELLOW,6 curated records but 0 direct colon/intestinal records.
+MCOP/DINP -> CRC epithelial PPAR state,E0,untested exposure-to-state bridge,gap/dotted,RED,No human colon perturbation or formal mediation; causal arrow prohibited.

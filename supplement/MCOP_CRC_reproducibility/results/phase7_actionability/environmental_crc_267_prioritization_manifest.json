@@ -1,0 +1,22 @@
+{
+  "phase": "Phase 2I",
+  "script": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\scripts\\environmental_crc_267_actionability_prioritization.py",
+  "generated_at_utc": "2026-08-23T15:17:29.101836+00:00",
+  "outputs": [
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\environmental_crc_267_actionability_matrix.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\environmental_crc_267_actionability_rules.json",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\environmental_crc_267_actionability_summary.md",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\environmental_crc_267_actionability_sensitivity.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\environmental_crc_267_human_testable_candidates.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\environmental_crc_267_disposition_audit.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\environmental_crc_267_manual_review_queue.csv"
+  ],
+  "primary_chemical_count": 267,
+  "human_audit_chemical_count": 2,
+  "manual_review_count": 267,
+  "eligible_permissive_count": 1,
+  "eligible_moderate_count": 1,
+  "eligible_strict_count": 1,
+  "outcome_blinded": true,
+  "forbidden_columns_detected": []
+}

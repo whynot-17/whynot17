@@ -1,0 +1,2 @@
+status,reference_cycle,interaction_terms,N,CRC_N,design_df,Wald_statistic,F_statistic,df_num,df_denom,P_chi2,P_F
+ok,2005-2006,mcop_x_cycle_2007-2008;mcop_x_cycle_2009-2010;mcop_x_cycle_2011-2012;mcop_x_cycle_2013-2014;mcop_x_cycle_2015-2016;mcop_x_cycle_2017-2018,9936,70,109,19.315467538167518,3.2192445896945863,6,109,0.0036627389408795657,0.0059808839756113905

@@ -1,0 +1,55 @@
+{
+  "created_utc": "2026-08-24T12:32:22.709356+00:00",
+  "git_head_at_analysis": "644e87e3dca21ca564fbbb0d601857ed7d03da41",
+  "analysis_unit": "paired donor pseudobulk; donor/group/state aggregates only",
+  "paired_donors": 36,
+  "verdict": "YELLOW",
+  "causal_claim_allowed": false,
+  "inputs": [
+    "mcop_phase2g_donor_state_pseudobulk.csv",
+    "mcop_phase2g_epithelial_state_scores.csv",
+    "mcop_phase2g_regulator_activity.csv"
+  ],
+  "outputs": {
+    "figure5_ppar_literature_definition_audit.csv": {
+      "bytes": 5081,
+      "sha256": "bb099247427db33d42bd62a7132aa0e6fa8c649bd5fcfc15ae34115c97e6afbf"
+    },
+    "figure5_ppar_definition_comparison.csv": {
+      "bytes": 7603,
+      "sha256": "423ab29f4cf1dc203997f1facc66c2d2611b888d40f65fc067b9c7e14437087a"
+    },
+    "figure5_ppar_gene_module_decomposition.csv": {
+      "bytes": 79370,
+      "sha256": "70778bda80e43194883fb82ac481d89ae8573008e8ed991c411e8903f28e697f"
+    },
+    "figure5_epithelial_state_composition.csv": {
+      "bytes": 28669,
+      "sha256": "ef1c233fa361bec111ae78b305c314e4235480a9a22bfd1e2fd7b67a4a02961a"
+    },
+    "figure5_within_state_ppar_analysis.csv": {
+      "bytes": 620,
+      "sha256": "bd33ce86385ec268cf93bc53521efb2ab4161e024a8e422e333ff793ecaee0ad"
+    },
+    "figure5_state_correlation_matrix.csv": {
+      "bytes": 1621,
+      "sha256": "b3b3cbba044a13c3b528f8b0988882c3375bdcc3f089c41111395e5969cafa97"
+    },
+    "figure5_toxicology_bridge_evidence.csv": {
+      "bytes": 3448,
+      "sha256": "cceb0a737562d831e22d2371b0ba87a6e68bedebaab629598310780fd8b76624"
+    },
+    "figure5_collision_audit.csv": {
+      "bytes": 3037,
+      "sha256": "d17cb64709e68a27c95c3163b4e4744d772188c5594680c6c0e5bb9544011efe"
+    },
+    "figure5_evidence_tier_lock.csv": {
+      "bytes": 1041,
+      "sha256": "41eb357f6b90c186f41a17debc355bec8e6dfc84a99d96597b97431606175671"
+    },
+    "figure5_final_report.md": {
+      "bytes": 17327,
+      "sha256": "423afa09c53071a3e6f915640f042b39585ff4a893858644506db668533b9681"
+    }
+  }
+}

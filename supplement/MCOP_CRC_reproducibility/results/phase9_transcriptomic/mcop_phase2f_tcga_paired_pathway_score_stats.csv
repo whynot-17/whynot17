@@ -1,0 +1,4 @@
+comparison,score,paired_n,tumor_median,normal_median,median_delta_tumor_minus_normal,wilcoxon_statistic,p_value,BH_FDR_within_comparison
+TCGA_paired_primary_vs_solid_normal,PPAR_nuclear_receptor_score,32,-0.018692869520588233,0.4548991067738478,-0.5333436263216533,65.0,7.404014468193054e-05,0.00022212043404579163
+TCGA_paired_primary_vs_solid_normal,inflammatory_RELA_STAT3_score,32,0.2518589857785233,0.005735026816240021,0.1715438927614216,203.0,0.2618452035821974,0.2618452035821974
+TCGA_paired_primary_vs_solid_normal,DINP_axis_9_gene_score,32,0.08945757748723976,0.3768781452049093,-0.38717352011728756,110.0,0.0031568114645779133,0.00473521719686687

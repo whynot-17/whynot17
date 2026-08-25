@@ -1,0 +1,38 @@
+{
+  "source_h5ad_equivalence_qc": true,
+  "cell_ids_unique": true,
+  "eligible_cells": 43801,
+  "unit_cell_sum": 43801,
+  "cell_count_conserved": true,
+  "unit_keys_unique": true,
+  "paired_donors": 36,
+  "ppar_median_delta": -0.4186007613938946,
+  "phase2f_ppar_median_delta": -0.4186007613938947,
+  "ppar_delta_absolute_difference": 5.551115123125783e-17,
+  "ppar_p_value": 4.2922329157590877e-07,
+  "phase2f_ppar_p_value": 4.2922329157590877e-07,
+  "ppar_p_exact": true,
+  "target_genes_requested": 3826,
+  "target_genes_present": 3817,
+  "target_genes_missing": [
+    "CCL4L1",
+    "CHLSN",
+    "DLEU1",
+    "GPX1",
+    "H4C6",
+    "HSP90AA2P",
+    "MTRNR2L8",
+    "PRSS2",
+    "PTTG3P"
+  ],
+  "state_rows": 27,
+  "interaction_rows": 27,
+  "interaction_min_bh_fdr": 0.4991764115763011,
+  "regulator_rows": 28,
+  "regulator_min_bh_fdr": 5.0931703299283975e-11,
+  "directly_supported_anchors": [
+    "RELA",
+    "STAT3"
+  ],
+  "completion_qc_pass": true
+}

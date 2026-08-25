@@ -1,0 +1,31 @@
+{
+  "analysis": "MCOP-CRC Phase 2C cycle heterogeneity audit",
+  "run_timestamp_utc": "2026-08-25T15:32:09.169860+00:00",
+  "input_harmonized": "D:\\CodexData\\mcop_repro_worktree\\work\\nhanes_phase2a\\phase2b_harmonized.pkl",
+  "population": "CRC vs cancer-free controls, age >=20, MCOP available",
+  "outputs": [
+    "mcop_crc_phase2_cycle_heterogeneity_summary.csv",
+    "mcop_crc_phase2_assay_lod_audit.csv",
+    "mcop_crc_phase2_quartile_case_counts.csv"
+  ],
+  "quartile_meta": {
+    "cutpoints_log2": [
+      -2.8365012677171206,
+      1.765534746362977,
+      2.963474123974886,
+      4.412781525338476,
+      11.682731294139774
+    ],
+    "complete_case_N": 9936,
+    "complete_case_CRC_cases": 70
+  },
+  "assay_sources": [
+    "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PHTHTE_D.htm",
+    "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PHTHTE_E.htm",
+    "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PHTHTE_F.htm",
+    "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PHTHTE_G.htm",
+    "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PHTHTE_H.htm",
+    "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PHTHTE_I.htm",
+    "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PHTHTE_J.htm"
+  ]
+}

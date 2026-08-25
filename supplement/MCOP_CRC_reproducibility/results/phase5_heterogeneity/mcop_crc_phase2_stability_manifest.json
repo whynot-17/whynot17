@@ -1,0 +1,29 @@
+{
+  "analysis": "MCOP-CRC Phase 2B stability audit",
+  "run_timestamp_utc": "2026-08-25T15:32:16.887322+00:00",
+  "input_harmonized": "D:\\CodexData\\mcop_repro_worktree\\work\\nhanes_phase2a\\phase2b_harmonized.pkl",
+  "analyses": [
+    "single-cycle effects",
+    "global MCOP-by-cycle interaction",
+    "restricted cubic spline",
+    "top 1% and 2.5% exclusion",
+    "creatinine-normalized MCOP"
+  ],
+  "spline_knots": "5th,35th,65th,95th percentile",
+  "primary_outcome_population": "CRC vs cancer-free controls",
+  "excluded": [
+    "MONP",
+    "MiNP",
+    "new candidate screening",
+    "mechanistic expansion"
+  ],
+  "outputs": [
+    "mcop_crc_phase2_per_cycle.csv",
+    "mcop_crc_phase2_cycle_interaction.csv",
+    "mcop_crc_phase2_spline.csv",
+    "mcop_crc_phase2_spline_curve.csv",
+    "mcop_crc_phase2_spline.png",
+    "mcop_crc_phase2_tail_exclusion.csv",
+    "mcop_crc_phase2_creatinine_normalized.csv"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "analysis": "MCOP-CRC Phase 2 final DINP-axis validation",
+  "run_timestamp_utc": "2026-08-25T15:28:32.543611+00:00",
+  "exposure": "log2(URXCOP)",
+  "lod_comment": "URDCOPLC; CDC code 0/blank XPORT sentinel = at or above LOD, 1 = below LOD",
+  "official_source": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PHTHTE_J.htm",
+  "outcome": "CRC type code 16 or 31 vs MCQ220=2 cancer-free controls",
+  "covariates": [
+    "age",
+    "sex",
+    "race",
+    "BMI",
+    "smoking",
+    "PIR",
+    "log2(URXUCR)"
+  ],
+  "analyses": [
+    "continuous",
+    "quartiles",
+    "age_ge_40",
+    "cancer_free_controls",
+    "LOCO"
+  ],
+  "excluded_from_this_run": [
+    "MONP",
+    "MiNP",
+    "mechanistic_analysis",
+    "subgroup_fishing"
+  ],
+  "audit": {
+    "harmonized_rows": 17382,
+    "mcop_available_rows": 12127,
+    "mcop_cycles": "2005-2006;2007-2008;2009-2010;2011-2012;2013-2014;2015-2016;2017-2018",
+    "primary_exposure_outcome_rows": 11086,
+    "primary_crc_cases": 76,
+    "primary_cancer_free_controls": 11010,
+    "primary_mcop_above_lod_n": 10907
+  },
+  "quartile_meta": {
+    "quartile_cutpoints_log2": [
+      -2.8365012677171206,
+      1.765534746362977,
+      2.963474123974886,
+      4.412781525338476,
+      11.682731294139774
+    ],
+    "complete_case_n": 9936,
+    "complete_case_crc_n": 70,
+    "trend_fit_status": "ok"
+  },
+  "input_harmonized": {
+    "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\nhanes_phase2a\\phase2b_harmonized.pkl",
+    "sha256": "134d04173437078e214044bddd133a1fe2c1735e2007ba3ec465e3f9ddb106e6"
+  },
+  "input_files": [
+    {
+      "cycle": "2005-2006",
+      "file": "2005-2006_PHTHTE.XPT",
+      "bytes": 701840,
+      "sha256": "5ed37a3d5d34a15db34d23806624f45ce2f217c4b6fadef31d6aa031ccaa572e",
+      "value_variable": "URXCOP",
+      "lod_comment_variable": "URDCOPLC",
+      "raw_rows": 2638
+    },
+    {
+      "cycle": "2007-2008",
+      "file": "2007-2008_PHTHTE.XPT",
+      "bytes": 722960,
+      "sha256": "1cd285c7023329f425d59934fb490e4ef10b624c10af769321832a474a7e5ddc",
+      "value_variable": "URXCOP",
+      "lod_comment_variable": "URDCOPLC",
+      "raw_rows": 2718
+    },
+    {
+      "cycle": "2009-2010",
+      "file": "2009-2010_PHTHTE.XPT",
+      "bytes": 749600,
+      "sha256": "aeaae6409c168258d888bea3010e14a84dad9b5a519ac7cf2f40df1f4ea5aea0",
+      "value_variable": "URXCOP",
+      "lod_comment_variable": "URDCOPLC",
+      "raw_rows": 2819
+    },
+    {
+      "cycle": "2011-2012",
+      "file": "2011-2012_PHTHTE.XPT",
+      "bytes": 648480,
+      "sha256": "d858d116a6249848f912b1d7d96430de58bb73fafac64c1fb03dac673e021ec2",
+      "value_variable": "URXCOP",
+      "lod_comment_variable": "URDCOPLC",
+      "raw_rows": 2594
+    },
+    {
+      "cycle": "2013-2014",
+      "file": "2013-2014_PHTHTE.XPT",
+      "bytes": 649120,
+      "sha256": "248209bd9171597729674e285f11e8ba0be056f03c49c727491372450b5694de",
+      "value_variable": "URXCOP",
+      "lod_comment_variable": "URDCOPLC",
+      "raw_rows": 2777
+    },
+    {
+      "cycle": "2015-2016",
+      "file": "2015-2016_PHTHTE.XPT",
+      "bytes": 877280,
+      "sha256": "9934f4befb8519daceb36358a10a6052b24b3452d85e55a47524544054f987e4",
+      "value_variable": "URXCOP",
+      "lod_comment_variable": "URDCOPLC",
+      "raw_rows": 3205
+    },
+    {
+      "cycle": "2017-2018",
+      "file": "2017-2018_PHTHTE.XPT",
+      "bytes": 961840,
+      "sha256": "89e55b4459086e41e815228b18c144a8046bf9e2391137c3602cce92dfd3b67d",
+      "value_variable": "URXCOP",
+      "lod_comment_variable": "URDCOPLC",
+      "raw_rows": 2986
+    }
+  ],
+  "model_implementation": "imported from work/scripts/mbzp_crc_phase2b.py; validated Newton-IRLS survey-logistic fit"
+}

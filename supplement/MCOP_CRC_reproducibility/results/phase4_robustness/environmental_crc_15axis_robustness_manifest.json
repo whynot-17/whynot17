@@ -1,0 +1,49 @@
+{
+  "analysis": "15-axis systematic robustness audit",
+  "run_timestamp_utc": "2026-08-25T15:31:46.851591+00:00",
+  "n_axes": 15,
+  "primary_screen_fdr_scope": "all 15 fixed axes; unchanged in robustness audit",
+  "primary_model": "CRC ~ log2(exposure) + age + sex + race + BMI + smoking + PIR; urine adds log2(creatinine)",
+  "weight_rule": "analyte-specific NHANES survey weight, including WTSPH4YR 2x conversion where applicable, divided by included analyte cycles",
+  "prespecified_thresholds": {
+    "attenuation_log_or_threshold": 0.25,
+    "extreme_weight_ratio_warning": 100.0,
+    "F": {
+      "F2": "BH-FDR<0.05",
+      "F1": "nominal P<0.05",
+      "F0": "otherwise"
+    },
+    "C": {
+      "C2": ">=80% same direction",
+      "C1": "60-79%",
+      "C0": "<60%"
+    },
+    "H": {
+      "H2": "Pinteraction>=0.10",
+      "H1": "0.05<=Pinteraction<0.10",
+      "H0": "Pinteraction<0.05"
+    },
+    "E": {
+      "E2": ">=60 cases",
+      "E1": "30-59 cases",
+      "E0": "<30 cases"
+    },
+    "robust_tier_A": "F2 & L>=1 & C>=1 & D>=1 & T>=1 & A>=1"
+  },
+  "primary_reproduction_qc": "15/15 axes reproduced frozen OR within absolute log-OR difference <=1e-8",
+  "script": "work/scripts/environmental_crc_15axis_robustness_audit.py",
+  "outputs": [
+    "D:\\CodexData\\mcop_repro_worktree\\outputs\\environmental_crc_15axis_robustness_summary.csv",
+    "D:\\CodexData\\mcop_repro_worktree\\outputs\\environmental_crc_15axis_loco.csv",
+    "D:\\CodexData\\mcop_repro_worktree\\outputs\\environmental_crc_15axis_cycle_specific.csv",
+    "D:\\CodexData\\mcop_repro_worktree\\outputs\\environmental_crc_15axis_cycle_interaction.csv",
+    "D:\\CodexData\\mcop_repro_worktree\\outputs\\environmental_crc_15axis_diagnosis_timing.csv",
+    "D:\\CodexData\\mcop_repro_worktree\\outputs\\environmental_crc_15axis_tail_exclusion.csv",
+    "D:\\CodexData\\mcop_repro_worktree\\outputs\\environmental_crc_15axis_lod_sensitivity.csv",
+    "D:\\CodexData\\mcop_repro_worktree\\outputs\\environmental_crc_15axis_creatinine_sensitivity.csv",
+    "D:\\CodexData\\mcop_repro_worktree\\outputs\\environmental_crc_15axis_model_warnings.csv",
+    "D:\\CodexData\\mcop_repro_worktree\\outputs\\environmental_crc_15axis_robustness_scorecard.csv",
+    "D:\\CodexData\\mcop_repro_worktree\\outputs\\environmental_crc_15axis_primary_reproduction_qc.csv",
+    "D:\\CodexData\\mcop_repro_worktree\\outputs\\environmental_crc_15axis_robustness_report.md"
+  ]
+}

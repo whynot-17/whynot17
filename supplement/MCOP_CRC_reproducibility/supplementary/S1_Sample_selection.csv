@@ -1,0 +1,10 @@
+﻿Stage,N,Definition / audit note
+Harmonized NHANES records,17382,Seven-cycle harmonized frame; adults and core covariates available in source construction
+MCOP available records,12127,URXCOP available in 2005–06 through 2017–18
+Primary exposure/outcome records,11086,CRC case definition and cancer-free control frame before complete-case covariate restriction
+Primary CRC cases before complete-case restriction,76,Current/previous CRC definition used by frozen NHANES analysis
+Cancer-free controls before complete-case restriction,11010,Reference group for the primary CRC-versus-cancer-free analysis
+MCOP above LOD,10907,Detected MCOP values in the primary exposure/outcome frame
+Primary complete-case analytic sample,9936,"All frozen covariates, survey design variables and MCOP available"
+Primary complete-case CRC cases,70,Event count used in the frozen primary model
+Primary complete-case controls,9866,Cancer-free controls used in the frozen primary model

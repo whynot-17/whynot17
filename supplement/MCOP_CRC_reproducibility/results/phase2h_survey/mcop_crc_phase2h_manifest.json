@@ -1,0 +1,111 @@
+{
+  "analysis": "MCOP-CRC Phase 2H seven-cycle complex-survey audit",
+  "run_timestamp_utc": "2026-08-25T15:28:38.955722+00:00",
+  "cycles": [
+    "2005-2006",
+    "2007-2008",
+    "2009-2010",
+    "2011-2012",
+    "2013-2014",
+    "2015-2016",
+    "2017-2018"
+  ],
+  "n_cycles": 7,
+  "weight_rule": "cycle-specific phthalate subsample weight divided by 7",
+  "expected_weight_sources": {
+    "2005-2006": "WTSB2YR",
+    "2007-2008": "WTSB2YR",
+    "2009-2010": "WTSB2YR",
+    "2011-2012": "WTSA2YR",
+    "2013-2014": "WTSB2YR",
+    "2015-2016": "WTSB2YR",
+    "2017-2018": "WTSB2YR"
+  },
+  "outcome": "CRC type code 16 or 31 versus MCQ220=2 cancer-free controls",
+  "primary_exposure": "log2(URXCOP)",
+  "covariates": [
+    "age",
+    "sex",
+    "race",
+    "BMI",
+    "smoking",
+    "PIR",
+    "log2(URXUCR)"
+  ],
+  "python_method": "existing validated Newton-IRLS weighted logistic estimating equations with stratified PSU sandwich",
+  "standard_method": "R survey::svyglm quasibinomial Taylor linearization",
+  "rscript": "D:\\CodexData\\R-4.5.1\\bin\\Rscript.exe",
+  "r_script_sha256": "aaf5fece11bdd3fb38a7af789c27bb2e297ce47549d53a78118ff40c4f8b92b2",
+  "input_harmonized": {
+    "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\nhanes_phase2a\\phase2b_harmonized.pkl",
+    "sha256": "134d04173437078e214044bddd133a1fe2c1735e2007ba3ec465e3f9ddb106e6"
+  },
+  "input_files": [
+    {
+      "cycle": "2005-2006",
+      "file": "2005-2006_PHTHTE.XPT",
+      "bytes": 701840,
+      "sha256": "5ed37a3d5d34a15db34d23806624f45ce2f217c4b6fadef31d6aa031ccaa572e",
+      "value_variable": "URXCOP",
+      "lod_comment_variable": "URDCOPLC",
+      "raw_rows": 2638
+    },
+    {
+      "cycle": "2007-2008",
+      "file": "2007-2008_PHTHTE.XPT",
+      "bytes": 722960,
+      "sha256": "1cd285c7023329f425d59934fb490e4ef10b624c10af769321832a474a7e5ddc",
+      "value_variable": "URXCOP",
+      "lod_comment_variable": "URDCOPLC",
+      "raw_rows": 2718
+    },
+    {
+      "cycle": "2009-2010",
+      "file": "2009-2010_PHTHTE.XPT",
+      "bytes": 749600,
+      "sha256": "aeaae6409c168258d888bea3010e14a84dad9b5a519ac7cf2f40df1f4ea5aea0",
+      "value_variable": "URXCOP",
+      "lod_comment_variable": "URDCOPLC",
+      "raw_rows": 2819
+    },
+    {
+      "cycle": "2011-2012",
+      "file": "2011-2012_PHTHTE.XPT",
+      "bytes": 648480,
+      "sha256": "d858d116a6249848f912b1d7d96430de58bb73fafac64c1fb03dac673e021ec2",
+      "value_variable": "URXCOP",
+      "lod_comment_variable": "URDCOPLC",
+      "raw_rows": 2594
+    },
+    {
+      "cycle": "2013-2014",
+      "file": "2013-2014_PHTHTE.XPT",
+      "bytes": 649120,
+      "sha256": "248209bd9171597729674e285f11e8ba0be056f03c49c727491372450b5694de",
+      "value_variable": "URXCOP",
+      "lod_comment_variable": "URDCOPLC",
+      "raw_rows": 2777
+    },
+    {
+      "cycle": "2015-2016",
+      "file": "2015-2016_PHTHTE.XPT",
+      "bytes": 877280,
+      "sha256": "9934f4befb8519daceb36358a10a6052b24b3452d85e55a47524544054f987e4",
+      "value_variable": "URXCOP",
+      "lod_comment_variable": "URDCOPLC",
+      "raw_rows": 3205
+    },
+    {
+      "cycle": "2017-2018",
+      "file": "2017-2018_PHTHTE.XPT",
+      "bytes": 961840,
+      "sha256": "89e55b4459086e41e815228b18c144a8046bf9e2391137c3602cce92dfd3b67d",
+      "value_variable": "URXCOP",
+      "lod_comment_variable": "URDCOPLC",
+      "raw_rows": 2986
+    }
+  ],
+  "decision": "GREEN",
+  "singleton_strata_primary_complete_case": 0,
+  "standard_survey_ran": true
+}
