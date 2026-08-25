@@ -11,6 +11,7 @@ Status: **PASS for scientific-content handoff**
 - Candidate attrition reference: Supplementary Tables S1 and S8.
 - Signal-level robustness reference: Supplementary Table S4.
 - Figure 2 legend replaced with the final outcome-blinded actionability legend.
+- Figure 5 legend now describes only the displayed cross-platform and compartment analyses; within-epithelial state results are explicitly cross-referenced to Supplementary Fig. S4 in Results and Discussion.
 - Review PDF: 8 A4 pages; visual contact-sheet review passed without clipping or blank pages.
 
 ## Figure 2 checks
@@ -32,4 +33,3 @@ Status: **PASS for scientific-content handoff**
 ## Remaining non-scientific gate
 
 Author metadata and target-journal formatting must be supplied before portal submission.
-
