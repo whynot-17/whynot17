@@ -1,0 +1,9 @@
+figure,source_path,use
+Figure3_human_mcop_v1,outputs/manuscript/figures/panels/Figure2_panelA_primary_estimate_v1.png,native-run audited source
+Figure3_human_mcop_v1,outputs/manuscript/figures/panels/Figure2_panelC_loco_v1.png,native-run audited source
+Figure3_human_mcop_v1,outputs/manuscript/figures/panels/Figure2_panelD_per_cycle_v1.png,native-run audited source
+Figure3_human_mcop_v1,outputs/manuscript/figures/upgrade_v1/Figure3_clean_loco.png,native-run audited source
+Figure3_human_mcop_v1,outputs/manuscript/figures/upgrade_v1/Figure3_clean_per_cycle.png,native-run audited source
+Figure3_human_mcop_v1,outputs/manuscript/figures/source_data/figure2_primary_python_vs_r.csv,native-run audited source
+Figure3_human_mcop_v1,outputs/manuscript/figures/source_data/figure2_loco.csv,native-run audited source
+Figure3_human_mcop_v1,outputs/manuscript/figures/source_data/figure2_per_cycle.csv,native-run audited source

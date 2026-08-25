@@ -1,0 +1,54 @@
+dataset,feature,n_paired,median_delta_tumor_minus_normal,mean_delta_tumor_minus_normal,P,direction,replication_status,analysis_level,BH_FDR
+GSE144735,EMT,6,0.34845111210517465,0.23563201478887205,0.3125,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.5520833333333334
+GSE144735,E2F_targets,6,0.3494441430574793,0.25378837259434417,0.4375,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.6266891891891893
+GSE144735,G2M_checkpoint,6,0.2176141916167001,0.2506605019238197,0.4375,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.6266891891891893
+GSE144735,MYC_targets_V1,6,0.5174866450533244,0.3489973174439804,0.21875,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.42939814814814814
+GSE144735,MYC_targets_V2,6,0.6124549044668904,0.45231028804893253,0.15625,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.3600543478260869
+GSE144735,Hypoxia,6,0.06113324122221662,0.08862327291158122,0.4375,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.6266891891891893
+GSE144735,Inflammatory_response,6,0.30842085848210116,0.15821221891788487,0.4375,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.6266891891891893
+GSE144735,TNF_NFkB,6,0.42360590426753447,0.18905229972544535,0.4375,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.6266891891891893
+GSE144735,IL6_JAK_STAT3,6,0.23910195239652443,0.10775443388169241,0.5625,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.7098214285714285
+GSE144735,ROS,6,0.08438758838033265,0.09278549558757553,0.6875,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.7436224489795918
+GSE144735,OXPHOS,6,-0.26546929200300706,-0.21469388931203862,0.4375,down,directionally concordant but underpowered,patient-paired epithelial pseudobulk; public GSE144735,0.6266891891891893
+GSE144735,Fatty_acid_metabolism,6,-0.303979288667688,-0.2392440499270342,0.15625,down,directionally concordant but underpowered,patient-paired epithelial pseudobulk; public GSE144735,0.3600543478260869
+GSE144735,Cholesterol_homeostasis,6,0.3129001285174213,0.2771466803895732,0.3125,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.5520833333333334
+GSE144735,Apoptosis,6,0.1592071010264994,0.12670622014177704,0.3125,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.5520833333333334
+GSE144735,p53,6,0.17687115075904405,0.18167573450680316,0.09375,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.26151315789473684
+GSE144735,UPR,6,-0.10493065626149514,-0.02127992685120027,0.4375,down,directionally concordant but underpowered,patient-paired epithelial pseudobulk; public GSE144735,0.6266891891891893
+GSE144735,Glycolysis,6,0.10627158248550843,0.14254067498082792,0.6875,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.7436224489795918
+GSE144735,IFN_alpha,6,0.06759374448263922,0.09908451110402988,0.84375,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.8768382352941176
+GSE144735,IFN_gamma,6,0.036919768379948176,-0.017595054531664656,1.0,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,1.0
+GSE144735,TGF_beta,6,0.5235351149353694,0.45144031544421964,0.0625,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.21525851837941437
+GSE144735,WNT_beta_catenin,6,0.3199078615365456,0.241935115354962,0.15625,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.3600543478260869
+GSE144735,intestinal_epithelial_differentiation,6,-0.12460923139585359,-0.2703722853695598,0.5625,down,directionally concordant but underpowered,patient-paired epithelial pseudobulk; public GSE144735,0.7098214285714285
+GSE144735,stemness,6,0.26166464261117284,0.20812737998411113,0.21875,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.42939814814814814
+GSE144735,secretory_differentiation,6,-0.6051729693385366,-0.9158031276512779,0.0625,down,directionally concordant but underpowered,patient-paired epithelial pseudobulk; public GSE144735,0.21525851837941437
+GSE144735,enterocyte_differentiation,6,-0.47168931029359606,-0.565167627013932,0.21875,down,directionally concordant but underpowered,patient-paired epithelial pseudobulk; public GSE144735,0.42939814814814814
+GSE144735,goblet_program,6,-0.5870430047626375,-0.831515040659231,0.0625,down,directionally concordant but underpowered,patient-paired epithelial pseudobulk; public GSE144735,0.21525851837941437
+GSE144735,stress_like_epithelial,6,0.11797733860384467,0.08454961935044873,0.6875,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.7436224489795918
+GSE144735,PPARG,6,0.2173343473616356,0.10349120004411305,0.6875,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.7436224489795918
+GSE144735,PPARA,6,0.30908038382995784,0.15930228880115047,0.15625,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.3600543478260869
+GSE144735,PPARD,6,0.3925372165900112,0.28151041320475406,0.09375,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.26151315789473684
+GSE144735,NR1I2,6,0.7945145015387941,0.9766246848049139,0.0625,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.21525851837941437
+GSE144735,NR1I3,6,-0.07544588638130881,-0.21697407351957765,0.5625,down,directionally concordant but underpowered,patient-paired epithelial pseudobulk; public GSE144735,0.7098214285714285
+GSE144735,NR1H2,6,-0.22062998758271846,-0.2574250140925935,0.0625,down,directionally concordant but underpowered,patient-paired epithelial pseudobulk; public GSE144735,0.21525851837941437
+GSE144735,NR1H3,6,0.0721829471106521,0.06729898081947623,0.6875,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.7436224489795918
+GSE144735,RELA,6,0.33516419560484545,0.3228042683392471,0.0625,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.21525851837941437
+GSE144735,STAT3,6,0.07286561644002676,0.07753564312663268,0.5625,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.7098214285714285
+GSE144735,HIF1A,6,1.004996831892199,0.881922621079068,0.0625,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.21525851837941437
+GSE144735,MYC,6,-0.10277997180259257,-0.11730258054873592,0.84375,down,directionally concordant but underpowered,patient-paired epithelial pseudobulk; public GSE144735,0.8768382352941176
+GSE144735,JUN,6,-0.8956734763880028,-0.8651030743596538,0.03125,down,directionally concordant but underpowered,patient-paired epithelial pseudobulk; public GSE144735,0.21525851837941437
+GSE144735,FOS,6,-0.5091457667476109,-0.5633412608951197,0.03125,down,directionally concordant but underpowered,patient-paired epithelial pseudobulk; public GSE144735,0.21525851837941437
+GSE144735,TP53,6,0.47806188574537956,0.457996009692253,0.09375,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.26151315789473684
+GSE144735,SMAD3,6,0.23886546477150916,0.18385803411068977,0.21875,up,directionally concordant,patient-paired epithelial pseudobulk; public GSE144735,0.42939814814814814
+GSE144735,TCF7L2,6,-0.013965271078544728,0.05145678023034902,1.0,down,directionally concordant but underpowered,patient-paired epithelial pseudobulk; public GSE144735,1.0
+GSE144735,PPAR_NR_score,6,-0.3116856296387977,-0.1057725637355198,0.6875,down,directionally concordant but underpowered,frozen Phase 2F patient-paired epithelial score; reused for exact comparability,0.7436224489795918
+TCGA paired primary vs solid normal,PPARA,32,-0.3535000000000001,,0.06498370366171,down,external directional support,existing Phase 2F paired bulk output,0.21525851837941437
+TCGA paired primary vs solid normal,PPARD,32,-0.6655,,0.0003979005850851,down,external directional support,existing Phase 2F paired bulk output,0.01054436550475515
+TCGA paired primary vs solid normal,PPARG,32,-0.6440000000000001,,0.0009061265736818,down,external directional support,existing Phase 2F paired bulk output,0.016008236135045133
+TCGA paired primary vs solid normal,NR1I2,32,-0.1980000000000001,,0.6116922060027719,down,external directional support,existing Phase 2F paired bulk output,0.7436224489795918
+TCGA paired primary vs solid normal,NR1I3,32,-0.60205,,0.05696781584993,down,external directional support,existing Phase 2F paired bulk output,0.21525851837941437
+TCGA paired primary vs solid normal,NR1H2,32,-0.4050000000000002,,6.0301274061203e-05,down,external directional support,existing Phase 2F paired bulk output,0.003195967525243759
+TCGA paired primary vs solid normal,NR1H3,32,-0.5874999999999999,,0.0016809023960381,down,external directional support,existing Phase 2F paired bulk output,0.022271956747504828
+TCGA paired primary vs solid normal,RELA,32,0.2015000000000002,,0.0189370303008184,up,external directional support,existing Phase 2F paired bulk output,0.20073252118867502
+TCGA paired primary vs solid normal,STAT3,32,-0.1485000000000003,,0.5483431480824947,down,external directional support,existing Phase 2F paired bulk output,0.7098214285714285

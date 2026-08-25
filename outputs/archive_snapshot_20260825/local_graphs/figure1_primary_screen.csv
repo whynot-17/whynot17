@@ -1,0 +1,268 @@
+ChemicalID,ChemicalName,display_name,chemical_class,screen_rank,odds_ratio,bh_fdr,minus_log10_bh_fdr,crc_overlap,n_ctd_human_genes,stable_for_primary_sort,degree_matched_empirical_p,degree_matched_bh_fdr
+C027561,butylbenzyl phthalate,butylbenzyl phthalate,phthalates,1,5.9498851373525605,4.423392441701079e-10,9.354244528479244,28,214,True,0.0009990009990009,0.0121242393969666
+C103325,mono-benzyl phthalate,MBzP,phthalates,2,10.182654704393835,8.992397867382715e-10,9.046124486051458,18,87,True,0.0009990009990009,0.0121242393969666
+C028007,nickel monoxide,nickel monoxide,heavy_metals,3,12.49420987907358,1.1907844678021702e-06,5.9241668387816135,11,45,True,0.0009990009990009,0.0121242393969666
+D003300,Copper,Copper,heavy_metals,4,1.7047886812987485,1.1575374364339752e-05,4.936464954371535,138,3542,True,0.0009990009990009,0.0121242393969666
+C028577,monobutyl phthalate,monobutyl phthalate,phthalates,5,7.083866837387964,1.1617801554235037e-05,4.934876046058855,13,84,True,0.0009990009990009,0.0121242393969666
+D012834,Silver,Silver,heavy_metals,6,2.316004740138818,2.9990776516488967e-05,4.523012289410183,48,873,True,0.0059940059940059,0.0516257935612774
+C016599,mono-(2-ethylhexyl)phthalate,mono-(2-ethylhexyl)phthalate,phthalates,7,2.107134592860779,5.676652460130243e-05,4.2459076936322395,56,1118,True,0.0039960039960039,0.0355644355644355
+C000611729,"ammonium 2,3,3,3-tetrafluoro-2-(heptafluoropropoxy)-propanoate","ammonium 2,3,3,3-tetrafluoro-2-(heptafluoropropoxy)-propanoate",pfas_perfluoro,8,4.175554911748975,9.705421139708032e-05,4.012985614867781,17,175,True,0.0009990009990009,0.0121242393969666
+C074702,chromium hexavalent ion,chromium hexavalent ion,heavy_metals,9,1.8570400359874044,0.0001390450775217,3.8568443814348727,72,1632,True,0.0089910089910089,0.0727454363818
+D015127,"9,10-Dimethyl-1,2-benzanthracene","9,10-Dimethyl-1,2-benzanthracene",pahs,10,6.237523058003689,0.0001444821339979,3.8401858524633763,11,79,True,0.0009990009990009,0.0121242393969666
+C581825,monoethyl phthalate,monoethyl phthalate,phthalates,11,7.36502659574468,0.0002858400730271,3.543876885851018,9,56,True,0.0009990009990009,0.0121242393969666
+D015032,Zinc,Zinc,heavy_metals,12,1.7677484397391825,0.0003653683115145,3.437269121819748,74,1755,True,0.0659340659340659,0.3321584076301058
+D055549,Volatile Organic Compounds,Volatile Organic Compounds,vocs,13,1.685276836983805,0.0010119325816518,2.9948484206898236,77,1909,True,0.0039960039960039,0.0355644355644355
+C017461,lead nitrate,lead nitrate,heavy_metals,14,5.863877118644068,0.001111818561232,2.9539660799166825,9,68,True,0.0039960039960039,0.0355644355644355
+C517284,monomethyl phthalate,monomethyl phthalate,phthalates,15,25.46758462421113,0.0013323351592983,2.8753865112586827,4,10,False,0.0009990009990009,0.0121242393969666
+C569492,cobalt ferrite,cobalt ferrite,heavy_metals,16,25.46758462421113,0.0013323351592983,2.8753865112586827,4,10,False,0.0019980019980019,0.0213386613386613
+C479069,mono(2-ethyl-5-hydroxyhexyl) phthalate,mono(2-ethyl-5-hydroxyhexyl) phthalate,phthalates,17,7.669896193771626,0.001377023527373,2.8610586394664037,7,42,True,0.0009990009990009,0.0121242393969666
+C043055,gallium arsenide,gallium arsenide,heavy_metals,18,6.268029568846603,0.0014568347272344,2.836589714613937,8,57,True,0.0009990009990009,0.0121242393969666
+C494622,CPS 49,CPS 49,phthalates,19,21.82837472338333,0.0017273010490496,2.762631963216116,4,11,False,0.0009990009990009,0.0121242393969666
+C020809,tetrathiomolybdate,tetrathiomolybdate,heavy_metals,20,4.193259047159072,0.0019589893324046,2.7079679289314664,11,112,True,0.0299700299700299,0.1905237619523334
+C028031,cadmium acetate,cadmium acetate,heavy_metals,21,4.939955357142857,0.0024118911712362,2.6176422922192355,9,79,True,0.0179820179820179,0.1231076615692
+C575690,mono-isobutyl phthalate,mono-isobutyl phthalate,phthalates,22,6.389561707035756,0.002901415083933,2.5373901354627053,7,49,True,0.0009990009990009,0.0121242393969666
+C576262,"bis(2-ethylhexyl) 2,3,4,5-tetrabromophthalate","bis(2-ethylhexyl) 2,3,4,5-tetrabromophthalate",phthalates,23,10.62404214559387,0.0029185106492503,2.534838717669153,5,23,True,0.0079920079920079,0.0666833166833166
+C471400,monoisononylphthalate,MiNP,phthalates,24,10.06442831215971,0.0034587951022239,2.461075164672314,5,24,True,0.0039960039960039,0.0355644355644355
+C030935,benz(a)anthracene,benz(a)anthracene,pahs,25,3.7459221115599273,0.0038333214414442,2.416424761650357,11,124,True,0.0629370629370629,0.3282870975178668
+D000395,"Air Pollutants, Occupational","Air Pollutants, Occupational",environmental_pollutants,26,1.834906298834734,0.003908549913217,2.4079843376159573,42,940,True,0.0109890109890109,0.0862960568842921
+C076994,perfluorooctane sulfonic acid,perfluorooctane sulfonic acid,pfas_perfluoro,27,1.4137896708902409,0.0054998693582815,2.259647626442356,128,3799,True,0.0009990009990009,0.0121242393969666
+C022838,nickel chloride,nickel chloride,heavy_metals,28,2.10923920959363,0.0064361288972716,2.191375266808367,26,505,True,0.4095904095904096,1.0
+C006718,"1,12-benzoperylene","1,12-benzoperylene",pahs,29,5.158470854405111,0.0070098815354021,2.154289321399375,7,59,True,0.0269730269730269,0.1756536146780049
+C026105,butylidenephthalide,butylidenephthalide,phthalates,30,5.060912711366456,0.007374435343881,2.1322712277463904,7,60,True,0.0319680319680319,0.1984991752433613
+C494620,CPS 11,CPS 11,phthalates,31,22.882474226804124,0.007374435343881,2.1322712277463904,3,8,False,0.0039960039960039,0.0355644355644355
+C019273,bisphenol A diglycidyl ether,bisphenol A diglycidyl ether,bisphenols,32,5.888667463796997,0.0080993816005604,2.091548138864156,6,45,True,0.0339660339660339,0.2015318015318015
+C026487,benzo(e)pyrene,benzo(e)pyrene,pahs,33,1.4496377403715204,0.0094939080622332,2.0225549782483863,92,2624,True,0.0019980019980019,0.0213386613386613
+D010575,Pesticides,Pesticides,pesticides,34,2.547414792487828,0.0122601751133211,1.9115033267012955,15,242,True,0.0639360639360639,0.3282870975178668
+C047971,"2,4'-bisphenol F","2,4'-bisphenol F",bisphenols,35,76.15780445969125,0.0148027913580327,1.8296563820993264,2,3,False,0.0009990009990009,0.0121242393969666
+C539348,perfluorobutanesulfonic acid,perfluorobutanesulfonic acid,pfas_perfluoro,36,2.7465719272002,0.0182154111552326,1.7395610214885782,12,180,True,0.1068931068931069,0.4837366023806702
+C027387,di-n-hexyl phthalate,di-n-hexyl phthalate,phthalates,37,8.037684572877978,0.0186350651620082,1.7296690842918903,4,23,False,0.0179820179820179,0.1231076615692
+D014874,"Water Pollutants, Chemical","Water Pollutants, Chemical",environmental_pollutants,38,7.635456110154905,0.0207942226866864,1.6820573094511204,4,24,False,0.0569430569430569,0.3040759240759241
+C080276,mono(2-ethyl-5-oxohexyl)phthalate,mono(2-ethyl-5-oxohexyl)phthalate,phthalates,39,4.590880829015544,0.0207942226866864,1.6820573094511204,6,56,True,0.0149850149850149,0.1111388611388611
+D014873,Water Pollutants,Water Pollutants,environmental_pollutants,40,12.710194730813289,0.0207942226866864,1.6820573094511204,3,12,False,0.0219780219780219,0.1467032967032967
+D005411,Flame Retardants,Flame Retardants,flame_retardants,41,2.525596877869605,0.0214165090219212,1.6692513195020906,13,211,True,0.1608391608391608,0.6409560588665065
+C000720115,perfluoroheptanesulfonic acid,perfluoroheptanesulfonic acid,pfas_perfluoro,42,38.077186963979415,0.0242513562157501,1.6152639692041133,2,4,False,0.0019980019980019,0.0213386613386613
+D008628,Mercury,Mercury,heavy_metals,43,1.954652653165855,0.0287765072968602,1.5409619190078279,21,436,True,0.1738261738261738,0.6540445855514349
+D052244,Endocrine Disruptors,Endocrine Disruptors,endocrine_disruptors,44,9.53135738831615,0.0369201732868263,1.4327362692567476,3,15,False,0.0119880119880119,0.09145140573712
+C051450,2-ethyl-5-carboxypentyl phthalate,2-ethyl-5-carboxypentyl phthalate,phthalates,45,4.659377628259041,0.0374435847697152,1.4266225795071357,5,46,True,0.0179820179820179,0.1231076615692
+C031181,phenanthrene,phenanthrene,pahs,46,3.064263431542461,0.0390044771815085,1.4088855390344446,8,108,True,0.1248751248751248,0.5556943056943058
+C027235,gallium nitrate,gallium nitrate,heavy_metals,47,5.871839004369125,0.0394120504400648,1.4043709700661173,4,30,False,0.0799200799200799,0.3879756607029334
+C023036,perfluorooctanoic acid,perfluorooctanoic acid,pfas_perfluoro,48,1.366022706179484,0.0395759575691014,1.4025685682673592,82,2449,True,0.6783216783216783,1.0
+D012428,Ruthenium,Ruthenium,heavy_metals,49,8.797779540047582,0.0395759575691014,1.4025685682673592,3,16,False,0.0489510489510489,0.2722902097902098
+C022921,benzo(k)fluoranthene,benzo(k)fluoranthene,pahs,50,3.761148390384778,0.0395759575691014,1.4025685682673592,6,67,True,0.0859140859140859,0.4096260881975168
+C007738,fluoranthene,fluoranthene,pahs,51,4.2444444444444445,0.0469804053928745,1.3280832400248075,5,50,True,0.1778221778221778,0.6540445855514349
+C550717,nickel ferrite,nickel ferrite,heavy_metals,52,19.036878216123498,0.0473214294979871,1.3249421445658611,2,6,False,0.0359640359640359,0.2087477739651653
+C041508,"indeno(1,2,3-cd)pyrene","indeno(1,2,3-cd)pyrene",pahs,53,3.0783518275464345,0.0535454908565209,1.2712770958607764,7,94,True,0.2227772227772227,0.7724872530067336
+D006046,Gold,Gold,heavy_metals,54,1.857962189019031,0.0537924230861319,1.2692788924306537,19,413,True,0.2617382617382617,0.8319537605251891
+D002104,Cadmium,Cadmium,heavy_metals,55,1.2574911260106487,0.0558114404571313,1.2532767684793882,145,4755,True,0.0009990009990009,0.0121242393969666
+D008982,Molybdenum,Molybdenum,heavy_metals,56,15.228816466552315,0.0604774578570994,1.2184064724975494,2,7,False,0.0339660339660339,0.2015318015318015
+D003035,Cobalt,Cobalt,heavy_metals,57,2.151523501386617,0.0849825749645711,1.0706701139624133,11,207,True,0.4715284715284715,1.0
+D000393,Air Pollutants,Air Pollutants,environmental_pollutants,58,1.1952558420628523,0.0849825749645711,1.0706701139624133,293,10425,True,0.0009990009990009,0.0121242393969666
+C543008,bisphenol S,bisphenol S,bisphenols,59,1.228977206403063,0.1089685980609343,0.962698636496841,132,4387,True,0.0009990009990009,0.0121242393969666
+C015531,tetrafluoroethylene,tetrafluoroethylene,pfas_perfluoro,60,inf,0.1123748692395244,0.9493308006076451,1,1,False,0.0009990009990009,0.0121242393969666
+C032121,7-methylbenzo(a)pyrene,7-methylbenzo(a)pyrene,pahs,61,inf,0.1123748692395244,0.9493308006076451,1,1,False,0.0009990009990009,0.0121242393969666
+C006780,bisphenol A,bisphenol A,bisphenols,62,1.1805372791149589,0.1147782641144254,0.9401403477300873,323,11664,True,0.0009990009990009,0.0121242393969666
+C033729,fluorotelomer alcohols,fluorotelomer alcohols,pfas_perfluoro,63,4.970416853428955,0.1196765367734294,0.9219909870092879,3,26,False,0.1758241758241758,0.6540445855514349
+C006703,benzo(b)fluoranthene,benzo(b)fluoranthene,pahs,64,2.4545887432145013,0.1256998652256554,0.9006651879607053,7,116,True,0.5024975024975025,1.0
+D010795,Phthalic Acids,Phthalic Acids,phthalates,65,1.3319317711755116,0.137393916710684,0.8620324957878839,53,1598,True,0.0699300699300699,0.3457653457653458
+D009532,Nickel,Nickel,heavy_metals,66,1.214059614877341,0.154235638740245,0.811815263639795,117,3908,True,0.4465534465534465,1.0
+C008745,"4,4'-bisphenol F","4,4'-bisphenol F",bisphenols,67,3.9409882687522217,0.1919163627038211,0.7168879959313715,3,32,False,0.2947052947052947,0.9257213374860436
+D013793,Thallium,Thallium,heavy_metals,68,5.855126006069402,0.2175573691374303,0.6624262016311129,2,15,False,0.0469530469530469,0.2667332667332667
+D002857,Chromium,Chromium,heavy_metals,69,1.972024375244591,0.2282812728026831,0.6415297146685465,8,163,True,0.5374625374625375,1.0
+C031180,chrysene,chrysene,pahs,70,2.476936856247201,0.2282812728026831,0.6415297146685465,5,82,True,0.5714285714285714,1.0
+C031721,naphthalene,naphthalene,pahs,71,2.722522744037374,0.2560022531987447,0.5917562122370759,4,60,False,0.4785214785214785,1.0
+C032279,phthalic acid,phthalic acid,phthalates,72,5.073985134362493,0.2573944694418675,0.5894007888872769,2,17,False,0.2417582417582417,0.8232508232508233
+C061374,antimonite,antimonite,heavy_metals,73,2.3253784693019344,0.2602858133866392,0.5845495020244582,5,87,True,0.5664335664335665,1.0
+C005020,folpet,folpet,phthalates,74,19.005993150684933,0.2602858133866392,0.5845495020244582,1,3,False,0.1468531468531468,0.612652972027972
+C011363,terephthalic acid,terephthalic acid,phthalates,75,19.005993150684933,0.2602858133866392,0.5845495020244582,1,3,False,0.1498501498501498,0.6155383078460002
+C035197,nickel nitrate,nickel nitrate,heavy_metals,76,19.005993150684933,0.2602858133866392,0.5845495020244582,1,3,False,0.1458541458541458,0.612652972027972
+C041260,mono-n-octyl phthalate,mono-n-octyl phthalate,phthalates,77,19.005993150684933,0.2602858133866392,0.5845495020244582,1,3,False,0.1008991008991009,0.4644837920699989
+C573544,mono(carboxy-isooctyl)phthalate,mono(carboxy-isooctyl)phthalate,phthalates,78,4.476642114821915,0.2841687474373862,0.5464236870060956,2,19,False,0.0549450549450549,0.2993944830679524
+D004051,Diethylhexyl Phthalate,Diethylhexyl Phthalate,phthalates,79,1.2026734487887802,0.2841687474373862,0.5464236870060956,73,2426,True,0.8181818181818182,1.0
+C041517,"dibenzo(a,l)pyrene","dibenzo(a,l)pyrene",pahs,80,1.908391003460208,0.2841687474373862,0.5464236870060956,7,147,True,0.6723276723276723,1.0
+C034020,anthracene,anthracene,pahs,81,4.227749190013341,0.2899248115825032,0.5377146164067356,2,20,False,0.3796203796203796,1.0
+C517113,bisphenol Z,bisphenol Z,bisphenols,82,2.419255252301724,0.2899248115825032,0.5377146164067356,4,67,False,0.3786213786213786,1.0
+C018520,"2,6-diisopropylnaphthalene","2,6-diisopropylnaphthalene",pahs,83,12.670091324200913,0.2899248115825032,0.5377146164067356,1,4,False,0.1828171828171828,0.6596241596241597
+C019174,dinonylphthalate,dinonylphthalate,phthalates,84,12.670091324200913,0.2899248115825032,0.5377146164067356,1,4,False,0.1388611388611388,0.5979987754181302
+C027718,didecyl phthalate,didecyl phthalate,phthalates,85,12.670091324200913,0.2899248115825032,0.5377146164067356,1,4,False,0.1388611388611388,0.5979987754181302
+C028419,cuprous chloride,cuprous chloride,heavy_metals,86,12.670091324200913,0.2899248115825032,0.5377146164067356,1,4,False,0.1638361638361638,0.6432978785919963
+C043041,gold cyanide,gold cyanide,heavy_metals,87,12.670091324200913,0.2899248115825032,0.5377146164067356,1,4,False,0.1728271728271728,0.6540445855514349
+C049841,mono-n-hexyl phthalate,mono-n-hexyl phthalate,phthalates,88,12.670091324200913,0.2899248115825032,0.5377146164067356,1,4,False,0.1608391608391608,0.6409560588665065
+C073340,ranitidine bismuth citrate,ranitidine bismuth citrate,heavy_metals,89,12.670091324200913,0.2899248115825032,0.5377146164067356,1,4,False,0.2197802197802197,0.7721226142278773
+D001729,Bismuth,Bismuth,heavy_metals,90,12.670091324200913,0.2899248115825032,0.5377146164067356,1,4,False,0.1788211788211788,0.6540445855514349
+D005708,Gallium,Gallium,heavy_metals,91,12.670091324200913,0.2899248115825032,0.5377146164067356,1,4,False,0.2157842157842157,0.7681918081918081
+C035983,dimethoxyethyl phthalate,dimethoxyethyl phthalate,phthalates,92,4.005055520447774,0.2910890710350086,0.5359740998799435,2,21,False,0.3206793206793207,0.9841537772572256
+D010984,Platinum,Platinum,heavy_metals,93,3.804631217838765,0.3115777452452527,0.5064335698131606,2,22,False,0.3756243756243756,1.0
+D007854,Lead,Lead,heavy_metals,94,1.1641003888299752,0.3198742674870402,0.4950206956391876,85,2914,True,0.5054945054945055,1.0
+C007379,diethyl phthalate,diethyl phthalate,phthalates,95,2.2408626101042826,0.3198742674870402,0.4950206956391876,4,72,False,0.5474525474525475,1.0
+C040654,titanium nickelide,titanium nickelide,heavy_metals,96,9.502140410958903,0.3238097564374529,0.4897100700263914,1,5,False,0.2467532467532467,0.8232508232508233
+C047969,"2,2'-bisphenol F","2,2'-bisphenol F",bisphenols,97,9.502140410958903,0.3238097564374529,0.4897100700263914,1,5,False,0.2497502497502497,0.8232508232508233
+C049098,diallyl phthalate,diallyl phthalate,phthalates,98,9.502140410958903,0.3238097564374529,0.4897100700263914,1,5,False,0.2587412587412587,0.8319537605251891
+D003678,"Defoliants, Chemical","Defoliants, Chemical",pesticides,99,9.502140410958903,0.3238097564374529,0.4897100700263914,1,5,False,0.0979020979020979,0.458594037541406
+D009764,o-Phthalaldehyde,o-Phthalaldehyde,phthalates,100,9.502140410958903,0.3238097564374529,0.4897100700263914,1,5,False,0.2487512487512487,0.8232508232508233
+C056699,picene,picene,pahs,101,2.176641258913204,0.3238097564374529,0.4897100700263914,4,74,False,0.3426573426573426,1.0
+C063732,sulfluramid,sulfluramid,pfas_perfluoro,102,3.3079275113729585,0.3512289518839802,0.45440969229550543,2,25,False,0.4555444555444555,1.0
+C000606252,ARV-825,ARV-825,phthalates,103,7.601369863013699,0.3745821931773477,0.4264528718850469,1,6,False,0.2577422577422577,0.8319537605251891
+D005466,Fluorocarbons,Fluorocarbons,pfas_perfluoro,104,3.043018867924528,0.3901070552728524,0.4088161951935652,2,27,False,0.4235764235764235,1.0
+C029938,nickel sulfate,nickel sulfate,heavy_metals,105,1.181248575985418,0.4181129879136484,0.37870634167794953,45,1508,True,0.9410589410589412,1.0
+C020758,indium trichloride,indium trichloride,heavy_metals,106,6.334189497716895,0.4193192195611165,0.37745523118564545,1,7,False,0.3856143856143856,1.0
+C012125,diisononyl phthalate,DINP,phthalates,107,1.8571008773771045,0.4487741961738642,0.3479721222988506,4,86,False,0.6673326673326674,1.0
+C089799,diheptyl phthalate,diheptyl phthalate,phthalates,108,5.429060665362036,0.4621966226226112,0.33517323233532204,1,8,False,0.3096903096903097,0.9614803800850312
+C000720117,fluorotelomer sulfonic acids,fluorotelomer sulfonic acids,pfas_perfluoro,109,2.622818950730467,0.4621966226226112,0.33517323233532204,2,31,False,0.5814185814185814,1.0
+C028541,zirconium oxide,zirconium oxide,heavy_metals,110,4.750214041095891,0.5020925019513068,0.2992162641573937,1,9,False,0.4145854145854146,1.0
+C108042,perfluorobutane,perfluorobutane,pfas_perfluoro,111,4.750214041095891,0.5020925019513068,0.2992162641573937,1,9,False,0.3826173826173826,1.0
+C017558,nickel sulfide,nickel sulfide,heavy_metals,112,4.222222222222222,0.5412250151300265,0.26662213875241136,1,10,False,0.4285714285714285,1.0
+C106479,di-n-propylphthalate,di-n-propylphthalate,phthalates,113,4.222222222222222,0.5412250151300265,0.26662213875241136,1,10,False,0.4135864135864135,1.0
+C036567,perfluorodecanoic acid,perfluorodecanoic acid,pfas_perfluoro,114,1.445727028267856,0.5728056329389364,0.2419927198512688,6,164,True,0.8261738261738262,1.0
+C034171,di-n-pentyl phthalate,di-n-pentyl phthalate,phthalates,115,3.799828767123288,0.5728056329389364,0.2419927198512688,1,11,False,0.4575424575424575,1.0
+C042080,diisodecyl phthalate,diisodecyl phthalate,phthalates,116,3.799828767123288,0.5728056329389364,0.2419927198512688,1,11,False,0.3986013986013986,1.0
+C017557,nickel subsulfide,nickel subsulfide,heavy_metals,117,2.112159329140461,0.582176459784741,0.23494535917250436,2,38,False,0.6073926073926074,1.0
+C029891,lead chloride,lead chloride,heavy_metals,118,1.506450128661747,0.6423968260235295,0.19219661350128103,4,105,False,0.8621378621378621,1.0
+C479228,perfluorohexanoic acid,perfluorohexanoic acid,pfas_perfluoro,119,1.9006003430531733,0.658278641300585,0.18159023592384138,2,42,False,0.7342657342657343,1.0
+C000720111,perfluorotetradecanoic acid,perfluorotetradecanoic acid,pfas_perfluoro,120,1.727506627163574,0.7373415933397318,0.1323312669128071,2,46,False,0.7202797202797203,1.0
+C101816,perfluoro-n-nonanoic acid,perfluoro-n-nonanoic acid,pfas_perfluoro,121,1.0783522509399444,0.7510590760276927,0.12432590136628932,44,1601,True,0.94005994005994,1.0
+C060728,cobalt oxide,cobalt oxide,heavy_metals,122,1.4612086027180369,0.8871013699875369,0.052026750054672964,2,54,False,0.7462537462537463,1.0
+D004785,Environmental Pollutants,Environmental Pollutants,environmental_pollutants,123,1.1801242236024845,0.9182131585658492,0.03705648781527104,5,166,True,0.8401598401598401,1.0
+C010715,di-n-octyl phthalate,di-n-octyl phthalate,phthalates,124,1.651131625967838,1.0,-0.0,1,24,False,0.7672327672327672,1.0
+C586085,perfluoroundecanoic acid,perfluoroundecanoic acid,pfas_perfluoro,125,1.2659233847913094,1.0,-0.0,2,62,False,0.8691308691308691,1.0
+C018021,cobaltous chloride,cobaltous chloride,heavy_metals,126,1.012754622375431,1.0,-0.0,85,3276,True,0.987012987012987,1.0
+C471071,perfluorohexanesulfonic acid,perfluorohexanesulfonic acid,pfas_perfluoro,127,1.0197689706987227,1.0,-0.0,13,497,True,0.8751248751248751,1.0
+D008748,Methylcholanthrene,Methylcholanthrene,pahs,128,1.0156095129345073,1.0,-0.0,8,307,True,0.929070929070929,1.0
+D019216,"Metals, Heavy","Metals, Heavy",heavy_metals,129,1.047231289690783,1.0,-0.0,4,149,False,0.7102897102897103,1.0
+C033094,perfluorobutyric acid,perfluorobutyric acid,pfas_perfluoro,130,1.1165876299061648,1.0,-0.0,2,70,False,0.916083916083916,1.0
+C026305,cobalt sulfate,cobalt sulfate,heavy_metals,131,1.2245912505523642,1.0,-0.0,1,32,False,0.8861138861138861,1.0
+C063900,perfluorooctanesulfonamide,perfluorooctanesulfonamide,pfas_perfluoro,132,1.18626926369863,1.0,-0.0,1,33,False,0.8771228771228772,1.0
+C025605,diisobutyl phthalate,diisobutyl phthalate,phthalates,133,1.1502698215026983,1.0,-0.0,1,34,False,0.8781218781218781,1.0
+D014501,Uranium,Uranium,heavy_metals,134,0.9522405532551436,1.0,-0.0,6,245,True,0.8621378621378621,1.0
+C015559,trimellitic anhydride,trimellitic anhydride,phthalates,135,0.9484965635738832,1.0,-0.0,3,123,False,0.966033966033966,1.0
+D008345,Manganese,Manganese,heavy_metals,136,0.9657824261218636,1.0,-0.0,71,2849,True,0.9470529470529472,1.0
+C000720114,perfluorodecanesulfonic acid,perfluorodecanesulfonic acid,pfas_perfluoro,137,0.9486729452054794,1.0,-0.0,1,41,False,0.902097902097902,1.0
+C101815,perfluoro-n-heptanoic acid,perfluoro-n-heptanoic acid,pfas_perfluoro,138,0.8430745814307458,1.0,-0.0,1,46,False,0.95004995004995,1.0
+D014639,Vanadium,Vanadium,heavy_metals,139,0.8329329878383235,1.0,-0.0,4,186,False,0.952047952047952,1.0
+D001464,Barium,Barium,heavy_metals,140,0.8071262022733897,1.0,-0.0,1,48,False,0.7902097902097902,1.0
+C000611646,bisphenol F,bisphenol F,bisphenols,141,0.937219703278739,1.0,-0.0,80,3290,True,0.993006993006993,1.0
+C000655605,fluorene-9-bisphenol,fluorene-9-bisphenol,bisphenols,142,0.8127867396773716,1.0,-0.0,5,238,True,0.7722277722277723,1.0
+C522391,perfluorododecanoic acid,perfluorododecanoic acid,pfas_perfluoro,143,0.7436878861133495,1.0,-0.0,1,52,False,0.952047952047952,1.0
+D000965,Antimony,Antimony,heavy_metals,144,0.7432482426933037,1.0,-0.0,2,104,False,0.978021978021978,1.0
+C423915,T0901317,T0901317,pfas_perfluoro,145,0.5492356561445305,1.0,-0.0,1,70,False,0.989010989010989,1.0
+D006540,Herbicides,Herbicides,pesticides,146,0.4563046707377455,1.0,-0.0,1,84,False,0.9310689310689312,1.0
+C583074,bisphenol AF,bisphenol AF,bisphenols;pfas_perfluoro,147,0.8095640283140283,1.0,-0.0,45,2117,True,1.0,1.0
+C492482,bisphenol B,bisphenol B,bisphenols,148,0.6383401329026225,1.0,-0.0,29,1706,True,1.0,1.0
+D001564,Benzo(a)pyrene,Benzo(a)pyrene,pahs,149,0.749690364131781,1.0,-0.0,390,16538,True,0.0009990009990009,0.0121242393969666
+C000595304,bis(2-propylheptyl)phthalate,bis(2-propylheptyl)phthalate,phthalates,150,0.0,1.0,-0.0,0,2,False,1.0,1.0
+C000614989,Cesium-137,Cesium-137,heavy_metals,151,0.0,1.0,-0.0,0,6,False,1.0,1.0
+C000619812,perfluoropentanoic acid,perfluoropentanoic acid,pfas_perfluoro,152,0.0,1.0,-0.0,0,14,False,1.0,1.0
+C000705689,"1,1-bis(4-hydroxyphenyl)-2,2-dichloroethylene","1,1-bis(4-hydroxyphenyl)-2,2-dichloroethylene",bisphenols,153,0.0,1.0,-0.0,0,4,False,1.0,1.0
+C000705701,bisphenol E,bisphenol E,bisphenols,154,0.0,1.0,-0.0,0,9,False,1.0,1.0
+C000720090,"4,8-dioxa-3H-perfluorononanoic acid","4,8-dioxa-3H-perfluorononanoic acid",pfas_perfluoro,155,0.0,1.0,-0.0,0,3,False,1.0,1.0
+C000720141,perfluorotridecanoic acid,perfluorotridecanoic acid,pfas_perfluoro,156,0.0,1.0,-0.0,0,6,False,1.0,1.0
+C000720151,"perfluoro-3,5,7,9-butaoxadecanoic acid","perfluoro-3,5,7,9-butaoxadecanoic acid",pfas_perfluoro,157,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C000720250,perfluoro-2-methoxyacetic acid,perfluoro-2-methoxyacetic acid,pfas_perfluoro,158,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C000730470,bisphenol P,bisphenol P,bisphenols,159,0.0,1.0,-0.0,0,4,False,1.0,1.0
+C000730511,"3,3'-dimethylbisphenol A","3,3'-dimethylbisphenol A",bisphenols,160,0.0,1.0,-0.0,0,5,False,1.0,1.0
+C002462,"4,4'-isopropylidenediphenol dimethacrylate","4,4'-isopropylidenediphenol dimethacrylate",bisphenols,161,0.0,1.0,-0.0,0,7,False,1.0,1.0
+C002615,benzo(c)phenanthrene,benzo(c)phenanthrene,pahs,162,0.0,1.0,-0.0,0,9,False,1.0,1.0
+C006710,benzotriphenylene,benzotriphenylene,pahs,163,0.0,1.0,-0.0,0,6,False,1.0,1.0
+C008422,5-methylchrysene,5-methylchrysene,pahs,164,0.0,1.0,-0.0,0,3,False,1.0,1.0
+C009005,potassium mercuric thiocyanate,potassium mercuric thiocyanate,heavy_metals,165,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C009590,triphenylene,triphenylene,pahs,166,0.0,1.0,-0.0,0,6,False,1.0,1.0
+C013707,thallium sulfate,thallium sulfate,heavy_metals,167,0.0,1.0,-0.0,0,41,False,1.0,1.0
+C014844,tetrahydrophthalamic acid,tetrahydrophthalamic acid,phthalates,168,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C015428,perrhenate,perrhenate,heavy_metals,169,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C021146,"dibenzo(a,i)pyrene","dibenzo(a,i)pyrene",pahs,170,0.0,1.0,-0.0,0,2,False,1.0,1.0
+C023389,"9,10-dihydrobenzo(a)pyrene","9,10-dihydrobenzo(a)pyrene",pahs,171,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C024687,sodium molybdate(VI),sodium molybdate(VI),heavy_metals,172,0.0,1.0,-0.0,0,3,False,1.0,1.0
+C025700,strontium chloride,strontium chloride,heavy_metals,173,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C025968,1-methylnaphthalene,1-methylnaphthalene,pahs,174,0.0,1.0,-0.0,0,4,False,1.0,1.0
+C027384,2-methylnaphthalene,2-methylnaphthalene,pahs,175,0.0,1.0,-0.0,0,4,False,1.0,1.0
+C027704,benzo(j)fluoranthene,benzo(j)fluoranthene,pahs,176,0.0,1.0,-0.0,0,4,False,1.0,1.0
+C028019,cesium chloride,cesium chloride,heavy_metals,177,0.0,1.0,-0.0,0,2,False,1.0,1.0
+C028044,epoxy resin AH-26,epoxy resin AH-26,heavy_metals,178,0.0,1.0,-0.0,0,3,False,1.0,1.0
+C028519,"2,6-dimethylnaphthalene","2,6-dimethylnaphthalene",pahs,179,0.0,1.0,-0.0,0,5,False,1.0,1.0
+C029126,"9,10-dimethylanthracene","9,10-dimethylanthracene",pahs,180,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C029823,mercuric acetate,mercuric acetate,heavy_metals,181,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C030174,tetrachloropalladium,tetrachloropalladium,heavy_metals,182,0.0,1.0,-0.0,0,2,False,1.0,1.0
+C031195,"dibenzo(a,h)pyrene","dibenzo(a,h)pyrene",pahs,183,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C031895,lead chromate,lead chromate,heavy_metals,184,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C031969,"1,4-dimethylnaphthalene","1,4-dimethylnaphthalene",pahs,185,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C033093,perfluoropropionic acid,perfluoropropionic acid,pfas_perfluoro,186,0.0,1.0,-0.0,0,4,False,1.0,1.0
+C036042,dicyclohexyl phthalate,dicyclohexyl phthalate,phthalates,187,0.0,1.0,-0.0,0,30,False,1.0,1.0
+C037431,phthalimide,phthalimide,phthalates,188,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C037554,antimony trioxide,antimony trioxide,heavy_metals,189,0.0,1.0,-0.0,0,8,False,1.0,1.0
+C041507,1-methylphenanthrene,1-methylphenanthrene,pahs,190,0.0,1.0,-0.0,0,22,False,1.0,1.0
+C041509,fluorene,fluorene,pahs,191,0.0,1.0,-0.0,0,9,False,1.0,1.0
+C041511,benzo(a)fluorene,benzo(a)fluorene,pahs,192,0.0,1.0,-0.0,0,8,False,1.0,1.0
+C041512,benzo(b)fluorene,benzo(b)fluorene,pahs,193,0.0,1.0,-0.0,0,9,False,1.0,1.0
+C041513,benzo(c)fluorene,benzo(c)fluorene,pahs,194,0.0,1.0,-0.0,0,7,False,1.0,1.0
+C042552,acenaphthene,acenaphthene,pahs,195,0.0,1.0,-0.0,0,8,False,1.0,1.0
+C042553,acenaphthylene,acenaphthylene,pahs,196,0.0,1.0,-0.0,0,8,False,1.0,1.0
+C042881,1-ethynylpyrene,1-ethynylpyrene,pahs,197,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C043103,phthalic anhydride,phthalic anhydride,phthalates,198,0.0,1.0,-0.0,0,10,False,1.0,1.0
+C044659,molybdate,molybdate,heavy_metals,199,0.0,1.0,-0.0,0,8,False,1.0,1.0
+C045076,Fenton's reagent,Fenton's reagent,heavy_metals,200,0.0,1.0,-0.0,0,2,False,1.0,1.0
+C046962,9-methylanthracene,9-methylanthracene,pahs,201,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C047249,6-methylchrysene,6-methylchrysene,pahs,202,0.0,1.0,-0.0,0,3,False,1.0,1.0
+C049051,ferric pyrophosphate,ferric pyrophosphate,heavy_metals,203,0.0,1.0,-0.0,0,2,False,1.0,1.0
+C050718,dentinol,dentinol,heavy_metals,204,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C051070,"4-methylcyclohexyl-1,6-dicarboxylic acid anhydride","4-methylcyclohexyl-1,6-dicarboxylic acid anhydride",phthalates,205,0.0,1.0,-0.0,0,2,False,1.0,1.0
+C051446,3-methylcholanthrylene,3-methylcholanthrylene,pahs,206,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C053035,1-methylpyrene,1-methylpyrene,pahs,207,0.0,1.0,-0.0,0,4,False,1.0,1.0
+C053036,1-methylfluorene,1-methylfluorene,pahs,208,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C054672,antimony trichloride,antimony trichloride,heavy_metals,209,0.0,1.0,-0.0,0,6,False,1.0,1.0
+C058039,hexafluoron,hexafluoron,pfas_perfluoro,210,0.0,1.0,-0.0,0,3,False,1.0,1.0
+C059768,isophthalate,isophthalate,phthalates,211,0.0,1.0,-0.0,0,2,False,1.0,1.0
+C063006,norflurane,norflurane,pfas_perfluoro,212,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C065011,1-vinylpyrene,1-vinylpyrene,pahs,213,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C065012,2-ethynylnaphthalene,2-ethynylnaphthalene,pahs,214,0.0,1.0,-0.0,0,2,False,1.0,1.0
+C082290,molybdenum trioxide,molybdenum trioxide,heavy_metals,215,0.0,1.0,-0.0,0,2,False,1.0,1.0
+C086511,RU 58668,RU 58668,pfas_perfluoro,216,0.0,1.0,-0.0,0,7,False,1.0,1.0
+C091696,antimony oxide,antimony oxide,heavy_metals,217,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C093581,indene,indene,pahs,218,0.0,1.0,-0.0,0,2,False,1.0,1.0
+C093582,indan,indan,pahs,219,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C095210,tetralin,tetralin,pahs,220,0.0,1.0,-0.0,0,3,False,1.0,1.0
+C096666,9-ethynylphenanthrene,9-ethynylphenanthrene,pahs,221,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C098123,"3,3-bis(trifluoromethyl)bicyclo(2.2.1)heptane-2,2-dicarbonitrile","3,3-bis(trifluoromethyl)bicyclo(2.2.1)heptane-2,2-dicarbonitrile",pfas_perfluoro,222,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C099343,cuprous sulfide,cuprous sulfide,heavy_metals,223,0.0,1.0,-0.0,0,3,False,1.0,1.0
+C100422,benzo(g)chrysene,benzo(g)chrysene,pahs,224,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C110144,benzo(c)chrysene,benzo(c)chrysene,pahs,225,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C113497,dimethyl-W84,dimethyl-W84,phthalates,226,0.0,1.0,-0.0,0,2,False,1.0,1.0
+C115112,CC 3052,CC 3052,phthalates,227,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C115612,single bond,single bond,bisphenols,228,0.0,1.0,-0.0,0,2,False,1.0,1.0
+C116689,"heptane-1,7-bis-(dimethyl-3'-phthalimidopropyl)ammonium bromide","heptane-1,7-bis-(dimethyl-3'-phthalimidopropyl)ammonium bromide",phthalates,229,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C117619,"1,2-dimethylnaphthalene","1,2-dimethylnaphthalene",pahs,230,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C402363,1-(1-propynyl)pyrene,1-(1-propynyl)pyrene,pahs,231,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C434863,corannulene,corannulene,pahs,232,0.0,1.0,-0.0,0,3,False,1.0,1.0
+C447880,retene,retene,pahs,233,0.0,1.0,-0.0,0,9,False,1.0,1.0
+C466921,"1,6-dimethylnaphthalene","1,6-dimethylnaphthalene",pahs,234,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C501268,"naphtho(2,3-a)pyrene","naphtho(2,3-a)pyrene",pahs,235,0.0,1.0,-0.0,0,4,False,1.0,1.0
+C502587,"(N-N'-bis-(2-(1H-indol-3-yl)-ethyl)-N,N'-bis-(3-thiomorpholin-4-yl-propyl)-phthalamide)","(N-N'-bis-(2-(1H-indol-3-yl)-ethyl)-N,N'-bis-(3-thiomorpholin-4-yl-propyl)-phthalamide)",phthalates,236,0.0,1.0,-0.0,0,3,False,1.0,1.0
+C508802,NSC 401077,NSC 401077,phthalates,237,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C512161,bisphenol A glucuronide,bisphenol A glucuronide,bisphenols,238,0.0,1.0,-0.0,0,3,False,1.0,1.0
+C516433,copper(II) nitrate,copper(II) nitrate,heavy_metals,239,0.0,1.0,-0.0,0,3,False,1.0,1.0
+C522458,"2-hydroxy-4-(2,2,3,3,3-pentafluoropropoxy)benzoic acid","2-hydroxy-4-(2,2,3,3,3-pentafluoropropoxy)benzoic acid",pfas_perfluoro,240,0.0,1.0,-0.0,0,3,False,1.0,1.0
+C523076,CuFe2O4,CuFe2O4,heavy_metals,241,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C523456,CEP 8983,CEP 8983,phthalates,242,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C524826,tetraconazole,tetraconazole,pfas_perfluoro,243,0.0,1.0,-0.0,0,3,False,1.0,1.0
+C529617,3-methylchrysene,3-methylchrysene,pahs,244,0.0,1.0,-0.0,0,3,False,1.0,1.0
+C529618,4-methylchrysene,4-methylchrysene,pahs,245,0.0,1.0,-0.0,0,3,False,1.0,1.0
+C532828,potassium hexachloropalladate(IV),potassium hexachloropalladate(IV),heavy_metals,246,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C533806,"1,1,1,2,2-pentafluoro-7-phenylheptan-3-one","1,1,1,2,2-pentafluoro-7-phenylheptan-3-one",pfas_perfluoro,247,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C534679,"3,3'-dichlorobisphenol A","3,3'-dichlorobisphenol A",bisphenols,248,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C535034,2-ethynylpyrene,2-ethynylpyrene,pahs,249,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C535035,4-ethynylpyrene,4-ethynylpyrene,pahs,250,0.0,1.0,-0.0,0,1,False,1.0,1.0
+C558144,"ammonium 4,8-dioxa-3H-perfluorononanoate","ammonium 4,8-dioxa-3H-perfluorononanoate",pfas_perfluoro,251,0.0,1.0,-0.0,0,2,False,1.0,1.0
+C582932,BRD73954,BRD73954,phthalates,252,0.0,1.0,-0.0,0,1,False,1.0,1.0
+D000083462,Persistent Organic Pollutants,Persistent Organic Pollutants,environmental_pollutants;persistent_organic_pollutants,253,0.0,1.0,-0.0,0,4,False,1.0,1.0
+D002586,Cesium,Cesium,heavy_metals,254,0.0,1.0,-0.0,0,2,False,1.0,1.0
+D005659,"Fungicides, Industrial","Fungicides, Industrial",pesticides,255,0.0,1.0,-0.0,0,2,False,1.0,1.0
+D007306,Insecticides,Insecticides,pesticides,256,0.0,1.0,-0.0,0,16,False,1.0,1.0
+D010165,Palladium,Palladium,heavy_metals,257,0.0,1.0,-0.0,0,7,False,1.0,1.0
+D010569,Perylene,Perylene,pahs,258,0.0,1.0,-0.0,0,1,False,1.0,1.0
+D012238,Rhodium,Rhodium,heavy_metals,259,0.0,1.0,-0.0,0,1,False,1.0,1.0
+D012413,Rubidium,Rubidium,heavy_metals,260,0.0,1.0,-0.0,0,5,False,1.0,1.0
+D012989,Soil Pollutants,Soil Pollutants,environmental_pollutants,261,0.0,1.0,-0.0,0,10,False,1.0,1.0
+D013324,Strontium,Strontium,heavy_metals,262,0.0,1.0,-0.0,0,5,False,1.0,1.0
+D013667,Technetium,Technetium,heavy_metals,263,0.0,1.0,-0.0,0,1,False,1.0,1.0
+D014001,Tin,Tin,heavy_metals,264,0.0,1.0,-0.0,0,3,False,1.0,1.0
+D014414,Tungsten,Tungsten,heavy_metals,265,0.0,1.0,-0.0,0,3,False,1.0,1.0
+D015040,Zirconium,Zirconium,heavy_metals,266,0.0,1.0,-0.0,0,8,False,1.0,1.0
+D017438,Bisphenol A-Glycidyl Methacrylate,Bisphenol A-Glycidyl Methacrylate,bisphenols,267,0.0,1.0,-0.0,0,12,False,1.0,1.0

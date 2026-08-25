@@ -1,0 +1,9 @@
+candidate,screen_rank,molecular_signal,molecular_stable,human_biomarker,nhanes_cycles,pubmed_crc_hits,human_crc_gate,human_crc_result,decision
+BBzP,1,OR 5.95,PASS,MBzP proxy,10,0,Proxy null,OR 0.954; P 0.592,No
+MBzP,2,OR 10.18,PASS,MBzP,10,0,Null,OR 0.954; P 0.592,No
+Nickel monoxide,3,OR 6.03,PASS,Not frozen,—,3,Not evaluated,—,No
+MEHP,7,OR 4.34,PASS,MEHP,10,4,Null,OR 1.086; P 0.320,No
+GenX,8,OR 4.05,PASS,Not frozen,—,0,Not evaluated,—,No
+Gallium arsenide,18,OR 2.88,PASS,Not frozen,—,0,Not evaluated,—,No
+TBPH,23,OR 2.83,PASS,Not frozen,—,Not audited,Not evaluated,—,No
+MiNP/DINP,24,OR 10.06,PASS,MCOP,7,0,Positive,OR 1.246; P 0.0033,ADVANCE

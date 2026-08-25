@@ -1,0 +1,179 @@
+{
+  "source_h5ad": "/mnt/d/cellxgene_census/2025-11-08/16023185-de21-4c0d-a9c8-73abdd52d142.h5ad",
+  "file_bytes": 3759324000,
+  "expected_bytes": 3759324000,
+  "file_size_exact": true,
+  "source_shape": [
+    370115,
+    38361
+  ],
+  "source_raw_shape": [
+    370115,
+    38361
+  ],
+  "all_primary": true,
+  "core_genes_unique": true,
+  "c106_source_n_obs": 3392,
+  "c106_cache_n_obs": 3392,
+  "c106_source_core_nnz": 3628,
+  "c106_cache_core_nnz": 3628,
+  "c106_source_core_sum": 5230.0,
+  "c106_cache_core_sum": 5230.0,
+  "c106_nnz_exact": true,
+  "c106_sum_exact": true,
+  "successful_stage3_manifests": 25,
+  "stage3_donor_counts_all_exact": true,
+  "stage3_donor_checks": [
+    {
+      "donor": "C106",
+      "cache_n_obs": 3392,
+      "source_n_obs": 3392,
+      "exact": true
+    },
+    {
+      "donor": "C107",
+      "cache_n_obs": 7215,
+      "source_n_obs": 7215,
+      "exact": true
+    },
+    {
+      "donor": "C109",
+      "cache_n_obs": 4244,
+      "source_n_obs": 4244,
+      "exact": true
+    },
+    {
+      "donor": "C110",
+      "cache_n_obs": 5033,
+      "source_n_obs": 5033,
+      "exact": true
+    },
+    {
+      "donor": "C111",
+      "cache_n_obs": 5044,
+      "source_n_obs": 5044,
+      "exact": true
+    },
+    {
+      "donor": "C112",
+      "cache_n_obs": 6425,
+      "source_n_obs": 6425,
+      "exact": true
+    },
+    {
+      "donor": "C113",
+      "cache_n_obs": 5088,
+      "source_n_obs": 5088,
+      "exact": true
+    },
+    {
+      "donor": "C114",
+      "cache_n_obs": 4553,
+      "source_n_obs": 4553,
+      "exact": true
+    },
+    {
+      "donor": "C115",
+      "cache_n_obs": 1995,
+      "source_n_obs": 1995,
+      "exact": true
+    },
+    {
+      "donor": "C116",
+      "cache_n_obs": 5234,
+      "source_n_obs": 5234,
+      "exact": true
+    },
+    {
+      "donor": "C119",
+      "cache_n_obs": 1534,
+      "source_n_obs": 1534,
+      "exact": true
+    },
+    {
+      "donor": "C122",
+      "cache_n_obs": 7060,
+      "source_n_obs": 7060,
+      "exact": true
+    },
+    {
+      "donor": "C123",
+      "cache_n_obs": 14572,
+      "source_n_obs": 14572,
+      "exact": true
+    },
+    {
+      "donor": "C124",
+      "cache_n_obs": 16945,
+      "source_n_obs": 16945,
+      "exact": true
+    },
+    {
+      "donor": "C125",
+      "cache_n_obs": 12660,
+      "source_n_obs": 12660,
+      "exact": true
+    },
+    {
+      "donor": "C126",
+      "cache_n_obs": 12914,
+      "source_n_obs": 12914,
+      "exact": true
+    },
+    {
+      "donor": "C129",
+      "cache_n_obs": 12577,
+      "source_n_obs": 12577,
+      "exact": true
+    },
+    {
+      "donor": "C130",
+      "cache_n_obs": 11327,
+      "source_n_obs": 11327,
+      "exact": true
+    },
+    {
+      "donor": "C132",
+      "cache_n_obs": 7570,
+      "source_n_obs": 7570,
+      "exact": true
+    },
+    {
+      "donor": "C133",
+      "cache_n_obs": 3853,
+      "source_n_obs": 3853,
+      "exact": true
+    },
+    {
+      "donor": "C134",
+      "cache_n_obs": 7675,
+      "source_n_obs": 7675,
+      "exact": true
+    },
+    {
+      "donor": "C135",
+      "cache_n_obs": 5621,
+      "source_n_obs": 5621,
+      "exact": true
+    },
+    {
+      "donor": "C136",
+      "cache_n_obs": 6609,
+      "source_n_obs": 6609,
+      "exact": true
+    },
+    {
+      "donor": "C137",
+      "cache_n_obs": 5774,
+      "source_n_obs": 5774,
+      "exact": true
+    },
+    {
+      "donor": "C138",
+      "cache_n_obs": 3408,
+      "source_n_obs": 3408,
+      "exact": true
+    }
+  ],
+  "qc_pass": true
+}

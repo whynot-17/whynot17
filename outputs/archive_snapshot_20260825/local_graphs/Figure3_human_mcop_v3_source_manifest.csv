@@ -1,0 +1,4 @@
+figure,source,panel
+Figure3_human_mcop_v3,outputs/manuscript/figures/source_data/figure2_primary_python_vs_r.csv,A
+Figure3_human_mcop_v3,outputs/manuscript/figures/source_data/figure2_loco.csv,B
+Figure3_human_mcop_v3,outputs/manuscript/figures/source_data/figure2_per_cycle.csv,C

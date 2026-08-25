@@ -1,0 +1,7 @@
+dataset_id,compartment,score,paired_donors,mean_delta_tumor_minus_normal,median_delta_tumor_minus_normal,wilcoxon_statistic,p_value,group_mode
+GSE144735,epithelial,PPAR_nuclear_receptor_score,6,-0.10577256373551987,-0.31168562963879776,8.0,0.6875,core_tumor_vs_normal
+GSE144735,epithelial,RELA_STAT3_score,6,0.2876635300859543,0.3723076116591444,6.0,0.4375,core_tumor_vs_normal
+GSE144735,epithelial,DINP_axis_9_gene_score,6,-0.018342320664081146,-0.11158943993325525,10.0,1.0,core_tumor_vs_normal
+GSE144735,epithelial,PPAR_nuclear_receptor_score,6,-0.09564456688835615,-0.3260540174921869,8.0,0.6875,tumor_plus_border_vs_normal
+GSE144735,epithelial,RELA_STAT3_score,6,0.35600085279492544,0.5517377259770516,5.0,0.3125,tumor_plus_border_vs_normal
+GSE144735,epithelial,DINP_axis_9_gene_score,6,0.004721081930150907,-0.11046763790445197,10.0,1.0,tumor_plus_border_vs_normal

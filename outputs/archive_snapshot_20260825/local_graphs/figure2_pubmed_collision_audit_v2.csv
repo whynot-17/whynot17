@@ -1,0 +1,9 @@
+candidate,candidate_query,crc_query,hit_count,audit_date,scope_note
+BBzP,"(""butyl benzyl phthalate"" OR ""benzyl butyl phthalate"")","(""colorectal cancer"" OR ""colon cancer"" OR ""rectal cancer"") [Title/Abstract]",0,2026-08-23,NCBI PubMed ESearch exact Title/Abstract audit
+MBzP,"(""monobenzyl phthalate"" OR ""mono-benzyl phthalate"")","(""colorectal cancer"" OR ""colon cancer"" OR ""rectal cancer"") [Title/Abstract]",0,2026-08-23,NCBI PubMed ESearch exact Title/Abstract audit
+Nickel monoxide,"(""nickel oxide"" OR ""nickel monoxide"")","(""colorectal cancer"" OR ""colon cancer"" OR ""rectal cancer"") [Title/Abstract]",3,2026-08-23,NCBI PubMed ESearch exact Title/Abstract audit
+MEHP,"(""mono(2-ethylhexyl) phthalate"" OR ""mono-(2-ethylhexyl) phthalate"")","(""colorectal cancer"" OR ""colon cancer"" OR ""rectal cancer"") [Title/Abstract]",4,2026-08-23,NCBI PubMed ESearch exact Title/Abstract audit
+GenX,"(""hexafluoropropylene oxide dimer acid"" OR ""HFPO-DA"" OR ""GenX chemical"")","(""colorectal cancer"" OR ""colon cancer"" OR ""rectal cancer"") [Title/Abstract]",0,2026-08-23,NCBI PubMed ESearch exact Title/Abstract audit
+Gallium arsenide,"""gallium arsenide""","(""colorectal cancer"" OR ""colon cancer"" OR ""rectal cancer"") [Title/Abstract]",0,2026-08-23,NCBI PubMed ESearch exact Title/Abstract audit
+TBPH,"""bis(2-ethylhexyl) 2,3,4,5-tetrabromophthalate""","(""colorectal cancer"" OR ""colon cancer"" OR ""rectal cancer"") [Title/Abstract]",Not audited,2026-08-23,NCBI PubMed ESearch exact Title/Abstract audit
+MiNP/DINP,"(""diisononyl phthalate"" OR ""di-isononyl phthalate"" OR ""monoisononylphthalate"" OR ""monoisononyl phthalate"" OR ""mono(carboxy-isooctyl) phthalate"" OR ""MCOP"")","(""colorectal cancer"" OR ""colon cancer"" OR ""rectal cancer"") [Title/Abstract]",0,2026-08-23,NCBI PubMed ESearch exact Title/Abstract audit

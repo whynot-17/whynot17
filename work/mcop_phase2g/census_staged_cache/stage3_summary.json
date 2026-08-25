@@ -1,0 +1,9 @@
+{
+  "stage": 3,
+  "n_eligible_donors": 36,
+  "n_success_before_failure": 35,
+  "failures": [
+    "C136"
+  ],
+  "finished_utc": "2026-08-24T05:08:43.552488+00:00"
+}

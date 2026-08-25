@@ -1,0 +1,8 @@
+figure,source_path,use
+Figure5_ppar_convergence_v1,outputs/manuscript/figures/panels/Figure4_panelA_tcga_pairs_v1.png,native-run audited source
+Figure5_ppar_convergence_v1,outputs/manuscript/figures/panels/Figure4_panelB_census_epithelium_v1.png,native-run audited source
+Figure5_ppar_convergence_v1,outputs/manuscript/figures/panels/Figure4_panelC_compartments_v1.png,native-run audited source
+Figure5_ppar_convergence_v1,outputs/manuscript/figures/panels/Figure4_panelD_gse144735_v1.png,native-run audited source
+Figure5_ppar_convergence_v1,outputs/manuscript/figures/source_data/figure4_tcga_paired_summary.csv,native-run audited source
+Figure5_ppar_convergence_v1,outputs/manuscript/figures/source_data/figure4_census_paired_summary.csv,native-run audited source
+Figure5_ppar_convergence_v1,outputs/manuscript/figures/source_data/figure4_gse144735_paired_summary.csv,native-run audited source

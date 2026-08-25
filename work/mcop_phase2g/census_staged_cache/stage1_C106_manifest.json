@@ -1,0 +1,29 @@
+{
+  "stage": 1,
+  "donor": "C106",
+  "dataset_id": "16023185-de21-4c0d-a9c8-73abdd52d142",
+  "census_version": "2025-11-08",
+  "census_uri": "s3://cellxgene-census-public-us-west-2/cell-census/2025-11-08/soma/",
+  "value_filter": "is_primary_data == True and dataset_id == '16023185-de21-4c0d-a9c8-73abdd52d142' and donor_id == 'C106'",
+  "n_requested_genes": 9,
+  "requested_genes": [
+    "PPARA",
+    "PPARD",
+    "PPARG",
+    "NR1I2",
+    "NR1I3",
+    "NR1H2",
+    "NR1H3",
+    "RELA",
+    "STAT3"
+  ],
+  "started_utc": "2026-08-24T01:53:56.939327+00:00",
+  "status": "success",
+  "raw_tables_completed": 1,
+  "raw_rows_cached": 3628,
+  "n_obs": 3392,
+  "n_var_returned": 9,
+  "obs_joinids_n": 3392,
+  "var_joinids_n": 9,
+  "finished_utc": "2026-08-24T01:56:26.761255+00:00"
+}

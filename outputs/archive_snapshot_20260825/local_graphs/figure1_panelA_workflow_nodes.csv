@@ -1,0 +1,5 @@
+node_id,label,node_type
+chemical_universe,267 environmental chemicals,input
+ctd,CTD human chemical-gene interactions,evidence
+genecards,GeneCards CRC genes,evidence
+audit,Enrichment + degree-matched permutation,analysis

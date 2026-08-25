@@ -1,0 +1,273 @@
+{
+  "analysis": "Phase 2G DINP/MCOP-CRC epithelial state convergence — GSE144735 alternative primary",
+  "dataset": "GSE144735",
+  "dataset_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE144735",
+  "matrix_url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE144735&file=GSE144735_processed_KUL3_CRC_10X_natural_log_TPM_matrix.txt.gz&format=file",
+  "annotation_url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE144735&file=GSE144735_processed_KUL3_CRC_10X_annotation.txt.gz&format=file",
+  "matrix_file": "GSE144735_processed_KUL3_CRC_10X_natural_log_TPM_matrix.full.gz",
+  "frozen_core_matrix_file": "GSE144735_raw_UMI_count_matrix.txt.gz",
+  "annotation_file": "GSE144735_annotation.txt.gz",
+  "census_runtime_status": "live TileDB raw query bypassed; prior Census attempt remains in mcop_phase2g_manifest.json",
+  "ppar_nr_core_genes": [
+    "PPARA",
+    "PPARD",
+    "PPARG",
+    "NR1I2",
+    "NR1I3",
+    "NR1H2",
+    "NR1H3"
+  ],
+  "state_programs": {
+    "EMT": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 200
+    },
+    "E2F_targets": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 200
+    },
+    "G2M_checkpoint": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 200
+    },
+    "MYC_targets_V1": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 200
+    },
+    "MYC_targets_V2": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 58
+    },
+    "Hypoxia": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 200
+    },
+    "Inflammatory_response": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 200
+    },
+    "TNF_NFkB": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 200
+    },
+    "IL6_JAK_STAT3": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 87
+    },
+    "ROS": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 49
+    },
+    "OXPHOS": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 200
+    },
+    "Fatty_acid_metabolism": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 158
+    },
+    "Cholesterol_homeostasis": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 74
+    },
+    "Apoptosis": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 161
+    },
+    "p53": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 200
+    },
+    "UPR": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 113
+    },
+    "Glycolysis": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 200
+    },
+    "IFN_alpha": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 97
+    },
+    "IFN_gamma": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 200
+    },
+    "TGF_beta": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 54
+    },
+    "WNT_beta_catenin": {
+      "source": "MSigDB Hallmark v2026.1",
+      "n_genes": 42
+    },
+    "intestinal_epithelial_differentiation": {
+      "source": "curated marker panel; frozen before analysis",
+      "n_genes": 17
+    },
+    "stemness": {
+      "source": "curated marker panel; frozen before analysis",
+      "n_genes": 10
+    },
+    "secretory_differentiation": {
+      "source": "curated marker panel; frozen before analysis",
+      "n_genes": 10
+    },
+    "enterocyte_differentiation": {
+      "source": "curated marker panel; frozen before analysis",
+      "n_genes": 10
+    },
+    "goblet_program": {
+      "source": "curated marker panel; frozen before analysis",
+      "n_genes": 8
+    },
+    "stress_like_epithelial": {
+      "source": "curated marker panel; frozen before analysis",
+      "n_genes": 10
+    }
+  },
+  "n_epithelial_cells": 6168,
+  "n_primary_epithelial_cells": 3356,
+  "n_paired_donors": 6,
+  "unit_of_inference": "donor-level paired summaries; cell-level quartiles only define state labels",
+  "cell_ppar_score_definition": "frozen 7-gene raw-UMI log-CPM score with gene-wise z-scoring",
+  "donor_ppar_score_definition": "frozen Phase 2F nine-gene donor-pseudobulk score; PPAR/NR mean over seven core genes",
+  "state_expression_measure": "processed natural-log TPM; donor-by-group mean expression",
+  "regulator_method": "DoRothEA A-C weighted ULM, local implementation matching the decoupler ULM model",
+  "missing_query_genes": [
+    "ACP3",
+    "ADGRF2P",
+    "ADISSP",
+    "ATOSB",
+    "ATP5F1A",
+    "ATP5F1B",
+    "ATP5F1C",
+    "ATP5F1D",
+    "ATP5F1E",
+    "ATP5MC1",
+    "ATP5MC2",
+    "ATP5MC3",
+    "ATP5ME",
+    "ATP5MF",
+    "ATP5MG",
+    "ATP5PB",
+    "ATP5PD",
+    "ATP5PF",
+    "ATP5PO",
+    "BICRA",
+    "BLTP2",
+    "BMERB1",
+    "CAVIN1",
+    "CAVIN3",
+    "CCDC32",
+    "CCL4L1",
+    "CCN1",
+    "CCN2",
+    "CCN5",
+    "CEMIP2",
+    "CFAP144",
+    "CHLSN",
+    "CNOT9",
+    "COP1",
+    "COQ8A",
+    "CRIPTO",
+    "CRYBG1",
+    "CYRIB",
+    "DENND2B",
+    "DMAC2L",
+    "ELAPOR1",
+    "ELP1",
+    "EPRS1",
+    "GBA1",
+    "GFUS",
+    "H1-0",
+    "H1-2",
+    "H2AC25",
+    "H2AJ",
+    "H2AX",
+    "H2AZ1",
+    "H2AZ2",
+    "H2BC12",
+    "H4C6",
+    "HDHD5",
+    "HSP90AA2P",
+    "IARS1",
+    "INTS11",
+    "IQCN",
+    "IRAG2",
+    "JCAD",
+    "JPT1",
+    "KARS1",
+    "KNL1",
+    "KYAT3",
+    "LARGE1",
+    "MAP3K20",
+    "MARCHF1",
+    "MARCHF10",
+    "MARCHF3",
+    "MEAK7",
+    "MELTF",
+    "MIDEAS",
+    "MIX23",
+    "MRE11",
+    "MRTFA",
+    "MRTFB",
+    "MTREX",
+    "MUC2",
+    "MYG1",
+    "NECTIN1",
+    "NHERF2",
+    "NIBAN1",
+    "NIBAN2",
+    "NSD2",
+    "PALM2AKAP2",
+    "PAXX",
+    "PCNX1",
+    "PCNX2",
+    "PHAF1",
+    "PHB1",
+    "PRP4K",
+    "PRSS42P",
+    "PTPA",
+    "PTTG3P",
+    "RACK1",
+    "RARS1",
+    "RIDA",
+    "RIGI",
+    "SELENOS",
+    "SEPTIN9",
+    "SKIC3",
+    "SLC49A4",
+    "TAFA2",
+    "TARS1",
+    "TENT4A",
+    "TENT5A",
+    "TENT5B",
+    "TEPSIN",
+    "TMEM131L",
+    "TMT1B",
+    "TOMM70",
+    "VEGFD",
+    "WARS1"
+  ],
+  "missing_frozen_core_genes": [],
+  "missing_frozen_axis_genes": [],
+  "causal_status": "not established",
+  "verdict": "PARTIALLY",
+  "outputs": [
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_gse144735_cell_state_scores.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_gse144735_ppar_low_high_de.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_gse144735_pathway_state_scores.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_gse144735_state_correlations.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_gse144735_donor_level_validation.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_gse144735_subtype_localization.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_gse144735_tumor_ppar_interaction.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_gse144735_regulator_activity.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_gse144735_regulatory_anchor_ranking.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_gse144735_external_validation.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_gse144735_bridge_evidence_table.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_gse144735_donor_state_pseudobulk.csv",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\mcop_phase2g_gse144735_report.md"
+  ]
+}

@@ -1,0 +1,12 @@
+subtype,cell_type,n_cells,n_donors,median_PPAR_NR,PPAR_low_fraction,PPAR_high_fraction,tumor_normal_distribution,annotation_source
+BEST4+ Enterocytes,Epithelial cells,52,6,0.015903542526540564,0.11538461538461539,0.09615384615384616,normal,GSE144735 author-provided epithelial subtype label
+CMS1,Epithelial cells,758,4,-0.1897054439675022,0.14116094986807387,0.08575197889182058,tumor,GSE144735 author-provided epithelial subtype label
+CMS2,Epithelial cells,620,6,0.01568161070003164,0.1032258064516129,0.10483870967741936,tumor,GSE144735 author-provided epithelial subtype label
+CMS3,Epithelial cells,804,6,-0.05797971299155832,0.1256218905472637,0.14427860696517414,tumor,GSE144735 author-provided epithelial subtype label
+CMS4,Epithelial cells,30,3,-0.1897054439675022,0.06666666666666667,0.03333333333333333,tumor,GSE144735 author-provided epithelial subtype label
+Epithelial cells,Epithelial cells,2812,6,0.012398015318419102,0.0,0.0,border,GSE144735 author-provided epithelial subtype label
+Goblet cells,Epithelial cells,165,6,-0.25048388094872054,0.1696969696969697,0.048484848484848485,normal,GSE144735 author-provided epithelial subtype label
+Intermediate,Epithelial cells,253,6,-0.2572460231437464,0.09090909090909091,0.0,normal,GSE144735 author-provided epithelial subtype label
+Mature Enterocytes,Epithelial cells,153,5,-0.11921564558167548,0.0915032679738562,0.12418300653594772,normal,GSE144735 author-provided epithelial subtype label
+Stem-like/TA,Epithelial cells,495,6,0.018316779500463082,0.09696969696969697,0.23636363636363636,normal,GSE144735 author-provided epithelial subtype label
+Tuft cells,Epithelial cells,26,4,-0.2572460231437464,0.15384615384615385,0.0,normal,GSE144735 author-provided epithelial subtype label

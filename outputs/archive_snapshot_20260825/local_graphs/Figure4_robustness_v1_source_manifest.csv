@@ -1,0 +1,9 @@
+figure,source_path,use
+Figure4_robustness_v1,outputs/manuscript/figures/panels/Figure3_panelA_sensitivity_v1.png,native-run audited source
+Figure4_robustness_v1,outputs/manuscript/figures/panels/Figure3_panelB_coexposure_v1.png,native-run audited source
+Figure4_robustness_v1,outputs/manuscript/figures/panels/Figure3_panelC_rcs_v1.png,native-run audited source
+Figure4_robustness_v1,outputs/manuscript/figures/panels/Figure3_panelD_quartiles_v1.png,native-run audited source
+Figure4_robustness_v1,outputs/manuscript/figures/source_data/figure3_sensitivity.csv,native-run audited source
+Figure4_robustness_v1,outputs/manuscript/figures/source_data/figure3_coexposure.csv,native-run audited source
+Figure4_robustness_v1,outputs/manuscript/figures/source_data/figure3_rcs_curve_with_ci.csv,native-run audited source
+Figure4_robustness_v1,outputs/manuscript/figures/source_data/figure3_weighted_quartiles.csv,native-run audited source

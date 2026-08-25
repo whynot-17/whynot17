@@ -1,0 +1,4 @@
+source_file,rows_or_scope,figure_use
+outputs\manuscript\figures\source_data\figure1_primary_screen.csv,all 267 rows,Panel B ranked screen
+outputs\manuscript\figures\source_data\figure1_panelA_workflow_nodes.csv,4 workflow nodes,Panel A workflow labels
+outputs\nhanes_dinp_phase2a_audit_summary.csv,MiNP and MCOP rows,Panel C seven-cycle detectability
