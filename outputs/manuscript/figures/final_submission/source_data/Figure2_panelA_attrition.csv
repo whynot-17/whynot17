@@ -1,0 +1,14 @@
+stage,n,loss_to_next
+"Core
+chemicals",267,8.0
+"Entity
+valid",259,124.0
+"Exposure
+interpretable",135,1.0
+"Biomarker
+available",134,7.0
+Detectable,127,3.0
+"Cycle
+coverage",124,37.0
+"Human
+testable",87,

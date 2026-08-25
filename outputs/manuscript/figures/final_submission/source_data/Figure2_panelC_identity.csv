@@ -1,0 +1,4 @@
+ChemicalID,ChemicalName,phase1_unfiltered_rank,phase1_bh_fdr,phase1_degree_matched_bh_fdr,above_lod_pct,n_cycles_available,selected_primary_biomarker,final_disposition
+C573544,mono(carboxy-isooctyl)phthalate,78,0.2841687474373862,0.2993944830679524,98.76142887518606,7,URXCOP,enter_systematic_human_screen
+C012125,diisononyl phthalate,107,0.4487741961738642,1.0,98.76142887518606,7,URXCOP,enter_systematic_human_screen
+C471400,monoisononylphthalate,24,0.0034587951022239,0.0355644355644355,40.69184741959611,10,URXMNP,retain_with_resolved_audit_no_primary_screen

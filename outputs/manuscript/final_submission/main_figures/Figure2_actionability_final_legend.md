@@ -1,0 +1,4 @@
+# Figure 2 legend
+
+**Figure 2 | Outcome-blinded actionability defines the human screening universe.**
+(A) Prespecified gates reduced 267 core environmental chemicals to 87 human-testable chemical–biomarker mappings. CRC outcome statistics remained behind the outcome firewall until the biomarker-test universe was frozen; 27 mappings met the strict D2/C2/T2 rule. (B) The 87 eligible mappings represented 15 unique NHANES biomarker tests, which formed the denominator for BH-FDR correction. Point area reflects the number of eligible chemical mappings and color denotes biological matrix. (C) MiNP, parent DINP and urinary MCOP retained distinct roles. MiNP was a molecular nominee but failed the direct-detectability gate, parent DINP was not a significant Phase 1 hit, and MCOP entered the human screen as a measurable biomarker for a DINP-related exposure axis. Biomarker translation does not imply chemical equivalence or a direct MCOP molecular hit.
