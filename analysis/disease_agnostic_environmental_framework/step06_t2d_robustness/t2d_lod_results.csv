@@ -1,0 +1,15 @@
+test_id,biomarker,variable,exposure_axis,matrix,analysis,exposure_variable,status,N,CRC_N,Control_N,beta,SE,OR,CI_low,CI_high,P,design_df,PSU_N,strata_N,message,fit_status,warning_message,analytic_n,t2d_cases,controls,above_lod_pct,lod_threshold_rule,direction,reason
+NHANES_URXUUR,URXUUR,URXUUR,metal exposure axis,urine,lod,axis_log2,ok,9948.0,1519.0,8429.0,0.12162168157817126,0.031664962997643036,1.1293267758292151,1.060719922673071,1.2023710871676538,0.00019452413000977466,124.0,244.0,120.0,Newton-IRLS converged,ok,,9948.0,1519.0,8429.0,85.87355414131092,sensitivity only if <90% above LOD,same,
+NHANES_URXUMO,URXUMO,URXUMO,metal exposure axis,urine,lod,,,,,,,,,,,,,,,,not_applicable,,,,,99.98119735258724,sensitivity only if <90% above LOD,,LOD concern minimal
+NHANES_URXUTU,URXUTU,URXUTU,metal exposure axis,urine,lod,,,,,,,,,,,,,,,,not_applicable,,,,,90.73288005709777,sensitivity only if <90% above LOD,,LOD concern minimal
+NHANES_URXUPB,URXUPB,URXUPB,metal exposure axis,urine,lod,,,,,,,,,,,,,,,,not_applicable,,,,,97.21190999318131,sensitivity only if <90% above LOD,,LOD concern minimal
+NHANES_URXMIB,URXMIB,URXMIB,phthalate exposure axis,urine,lod,,,,,,,,,,,,,,,,not_applicable,,,,,98.45448159014835,sensitivity only if <90% above LOD,,LOD concern minimal
+NHANES_URXUBA,URXUBA,URXUBA,metal exposure axis,urine,lod,,,,,,,,,,,,,,,,not_applicable,,,,,98.84597978578971,sensitivity only if <90% above LOD,,LOD concern minimal
+NHANES_URXP02,URXP02,URXP02,PAH exposure axis,urine,lod,,,,,,,,,,,,,,,,not_applicable,,,,,99.99055088349239,sensitivity only if <90% above LOD,,LOD concern minimal
+NHANES_URXUSN,URXUSN,URXUSN,metal exposure axis,urine,lod,,,,,,,,,,,,,,,,not_applicable,,,,,91.79050380572671,sensitivity only if <90% above LOD,,LOD concern minimal
+NHANES_URXMHH,URXMHH,URXMHH,DEHP-related exposure axis,urine,lod,,,,,,,,,,,,,,,,not_applicable,,,,,99.56609777263523,sensitivity only if <90% above LOD,,LOD concern minimal
+NHANES_URXCOP,URXCOP,URXCOP,DINP-related exposure axis,urine,lod,,,,,,,,,,,,,,,,not_applicable,,,,,98.76142887518606,sensitivity only if <90% above LOD,,LOD concern minimal
+NHANES_URXMOH,URXMOH,URXMOH,DEHP-related exposure axis;phthalate exposure axis,urine,lod,,,,,,,,,,,,,,,,not_applicable,,,,,99.33468325137402,sensitivity only if <90% above LOD,,LOD concern minimal
+NHANES_URXECP,URXECP,URXECP,DEHP-related exposure axis;phthalate exposure axis,urine,lod,,,,,,,,,,,,,,,,not_applicable,,,,,99.86459354718214,sensitivity only if <90% above LOD,,LOD concern minimal
+NHANES_LBXPFHS,LBXPFHS,LBXPFHS,PFAS exposure axis,serum_or_blood,lod,,,,,,,,,,,,,,,,not_applicable,,,,,98.41001148660904,sensitivity only if <90% above LOD,,LOD concern minimal
+NHANES_URXUSR,URXUSR,URXUSR,metal exposure axis,urine,lod,,,,,,,,,,,,,,,,not_applicable,,,,,99.89061740398638,sensitivity only if <90% above LOD,,LOD concern minimal

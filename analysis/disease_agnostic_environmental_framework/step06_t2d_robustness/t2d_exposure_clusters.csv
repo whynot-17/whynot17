@@ -1,0 +1,15 @@
+variable,biomarker,exposure_axis,cluster_id
+NHANES_LBXPFHS,LBXPFHS,PFAS exposure axis,cluster_1
+NHANES_URXCOP,URXCOP,DINP-related exposure axis,cluster_2
+NHANES_URXECP,URXECP,DEHP-related exposure axis;phthalate exposure axis,cluster_3
+NHANES_URXMHH,URXMHH,DEHP-related exposure axis,cluster_3
+NHANES_URXMIB,URXMIB,phthalate exposure axis,cluster_4
+NHANES_URXMOH,URXMOH,DEHP-related exposure axis;phthalate exposure axis,cluster_3
+NHANES_URXP02,URXP02,PAH exposure axis,cluster_5
+NHANES_URXUBA,URXUBA,metal exposure axis,cluster_6
+NHANES_URXUMO,URXUMO,metal exposure axis,cluster_7
+NHANES_URXUPB,URXUPB,metal exposure axis,cluster_8
+NHANES_URXUSN,URXUSN,metal exposure axis,cluster_9
+NHANES_URXUSR,URXUSR,metal exposure axis,cluster_6
+NHANES_URXUTU,URXUTU,metal exposure axis,cluster_10
+NHANES_URXUUR,URXUUR,metal exposure axis,cluster_11

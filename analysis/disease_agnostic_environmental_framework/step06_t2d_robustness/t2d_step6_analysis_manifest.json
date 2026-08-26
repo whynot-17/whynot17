@@ -1,0 +1,104 @@
+{
+  "lock_type": "T2D_STEP6_ROBUSTNESS_AND_EXPOSURE_CLUSTER_AUDIT",
+  "run_timestamp_utc": "2026-08-26T11:41:29.967163+00:00",
+  "scope_test_count": 14,
+  "scope_test_ids": [
+    "NHANES_LBXPFHS",
+    "NHANES_URXCOP",
+    "NHANES_URXECP",
+    "NHANES_URXMHH",
+    "NHANES_URXMIB",
+    "NHANES_URXMOH",
+    "NHANES_URXP02",
+    "NHANES_URXUBA",
+    "NHANES_URXUMO",
+    "NHANES_URXUPB",
+    "NHANES_URXUSN",
+    "NHANES_URXUSR",
+    "NHANES_URXUTU",
+    "NHANES_URXUUR"
+  ],
+  "fdr_denominator": 29,
+  "step5_primary": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step05_t2d_screen\\t2d_primary_29_tests.csv",
+  "step5_primary_sha256": "a3764979386bfc903c19f2f382d02ebf93d9e1e67e77e5cefa642dc187c2f1a3",
+  "step5_script": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step05_t2d_screen\\run_t2d_screen.py",
+  "step5_script_sha256": "2690499f80926e284d638f69a1af33df9b90be2428c5bce4d3854a93c441d489",
+  "plan": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_t2d_robustness\\STEP6_T2D_ROBUSTNESS_PLAN.md",
+  "plan_sha256": "2239b920f4e775cac45d1175d66d6b4004e556b2f29331eb6b916b8b293ebb46",
+  "estimator": "Python NHANES survey-weighted Taylor/PSU-sandwich logistic estimator reused from frozen T2D screen",
+  "correlation_rule": {
+    "method": "pairwise Spearman on log2 exposure; cycle-adjusted sensitivity demeans within cycle",
+    "absolute_rho_threshold": 0.7,
+    "minimum_pairwise_n": 500,
+    "cluster_rule": "connected components of high-correlation graph"
+  },
+  "primary_reproduction_max_absolute_log_or_difference": 2.2204460492503136e-16,
+  "robust_fdr_candidate_count": 13,
+  "cluster_count": 11,
+  "outputs": {
+    "t2d_robustness_results.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_t2d_robustness\\t2d_robustness_results.csv",
+      "sha256": "3ae5786d0c9dc31bbd972ebf061499c382fbf1276f8c62a2d371fe767f92f88d"
+    },
+    "t2d_loco_results.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_t2d_robustness\\t2d_loco_results.csv",
+      "sha256": "a389594b7f398c8ab7843ef882d94f75aaa05a709583584a0b9d5c6a1ebe6d58"
+    },
+    "t2d_cycle_specific_results.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_t2d_robustness\\t2d_cycle_specific_results.csv",
+      "sha256": "23bd037f0a403842af2c64fe95f1bb339e4f2982a6638144aa4c1ec8bee703c9"
+    },
+    "t2d_cycle_heterogeneity.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_t2d_robustness\\t2d_cycle_heterogeneity.csv",
+      "sha256": "f26fefaae95a1f84ba977582a0c9d7b1419bbe5eb9d3fc8b213760094c4fed12"
+    },
+    "t2d_tail_results.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_t2d_robustness\\t2d_tail_results.csv",
+      "sha256": "77134c1fd382db5785e9b5249da5f49ab9c11ec299090b9139d7e46a9b08c452"
+    },
+    "t2d_creatinine_results.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_t2d_robustness\\t2d_creatinine_results.csv",
+      "sha256": "227666e4a6512d83df10ef2f99e676666f9afd577181897e3545d37a20e51c89"
+    },
+    "t2d_lod_results.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_t2d_robustness\\t2d_lod_results.csv",
+      "sha256": "b3f5ea0ca67cc906dc864ff95e9731d8e1ddf7de337c2e41f514b6eaaf290362"
+    },
+    "t2d_age40_results.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_t2d_robustness\\t2d_age40_results.csv",
+      "sha256": "d9503949f27792433fc553e5b98f91416b13ac4618a9afd250f3103a6523cc5f"
+    },
+    "t2d_sex_results.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_t2d_robustness\\t2d_sex_results.csv",
+      "sha256": "c1edc1270e50937f5bbde44a867768910d81c20a1a3a7c8194c39029c66d85bf"
+    },
+    "t2d_sex_interaction.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_t2d_robustness\\t2d_sex_interaction.csv",
+      "sha256": "7bcf3913f08e5f6c52c1b15264c6882c3cf09e8c9700e6a979c1d11563736752"
+    },
+    "t2d_exposure_pairwise_correlation.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_t2d_robustness\\t2d_exposure_pairwise_correlation.csv",
+      "sha256": "4e99fe57081843b9be770774b326a639cf15603f7a873198b355a6352d828cb0"
+    },
+    "t2d_exposure_correlation_matrix.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_t2d_robustness\\t2d_exposure_correlation_matrix.csv",
+      "sha256": "50b350bb94e92d5c494055fa808bfb2a72cc78ec810d4f6b04bb2ba308d5e663"
+    },
+    "t2d_exposure_clusters.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_t2d_robustness\\t2d_exposure_clusters.csv",
+      "sha256": "73d229a0c79b7d27bc93e335173f50cad998743218548e350e39d1d167c78c3b"
+    },
+    "t2d_step6_outcome_qc.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_t2d_robustness\\t2d_step6_outcome_qc.csv",
+      "sha256": "387e800f7501081ceae032afc34050754137c4d494f2da0b294fa660cf7f0069"
+    },
+    "t2d_step6_source_population_qc.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_t2d_robustness\\t2d_step6_source_population_qc.csv",
+      "sha256": "2fdf3cb7662246702bce26630099b96c3ae0f203fd90c104beef8d23564fae40"
+    },
+    "t2d_robustness_report.md": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_t2d_robustness\\t2d_robustness_report.md",
+      "sha256": "47f3dc0bfda94bf972f5229563f5463d070a66261e1af236c6d8a1c235ccf23c"
+    }
+  }
+}
