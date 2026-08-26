@@ -1,10 +1,9 @@
-"""Run the formal two-input Step 7 T2D CTD x GeneCards analysis.
+"""Run the formal Step 7 T2D CTD x GeneCards analysis.
 
-The primary input is the complete ranked result of the ordinary GeneCards
-query ``type 2 diabetes mellitus``.  The 111-row Disorders-scoped exact-phrase
-capture is retained as a high-specificity sensitivity analysis.  Both inputs
-are applied to all 11 frozen exposure clusters with the same CTD background
-and the same one-sided hypergeometric test.
+The only canonical GeneCards input is the complete ranked result of the
+ordinary GeneCards query ``type 2 diabetes mellitus``. The previously
+captured 111-row Disorders-scoped exact-phrase result is historical audit
+material only and is deliberately excluded from this analysis.
 """
 
 from __future__ import annotations
@@ -109,7 +108,6 @@ def make_joint(
     cluster_chemicals: pd.DataFrame,
     robust: pd.DataFrame,
     primary: pd.DataFrame,
-    strict: pd.DataFrame,
     out_dir: Path,
 ) -> pd.DataFrame:
     base = []
@@ -118,7 +116,6 @@ def make_joint(
         tests = sorted(group["test_id"].astype(str).unique())
         rs = [robust_lookup[x] for x in tests if x in robust_lookup]
         p = primary[primary["cluster_id"].eq(cluster_id)].iloc[0]
-        s = strict[strict["cluster_id"].eq(cluster_id)].iloc[0]
         n_robust = sum(x.get("priority_tier") == "robust_fdr_candidate" for x in rs)
         if float(p["bh_fdr"]) < 0.05 and n_robust:
             tier = "Tier_A"
@@ -139,11 +136,6 @@ def make_joint(
             "primary_full_hypergeom_p": float(p["hypergeom_p"]),
             "primary_full_bh_fdr": float(p["bh_fdr"]),
             "primary_full_rank_weighted_overlap": float(p["rank_weighted_overlap"]),
-            "strict_111_n_overlap": int(s["n_overlap"]),
-            "strict_111_odds_ratio": float(s["odds_ratio"]),
-            "strict_111_hypergeom_p": float(s["hypergeom_p"]),
-            "strict_111_bh_fdr": float(s["bh_fdr"]),
-            "strict_111_rank_weighted_overlap": float(s["rank_weighted_overlap"]),
             "final_tier": tier,
         })
     out = pd.DataFrame(base).sort_values(["final_tier", "primary_full_bh_fdr", "primary_full_hypergeom_p"])
@@ -158,9 +150,7 @@ def main() -> None:
     parser.add_argument("--membership", type=Path, default=DEFAULT_MEMBERSHIP)
     parser.add_argument("--ctd", type=Path, required=True)
     parser.add_argument("--genecards-primary", type=Path, required=True)
-    parser.add_argument("--genecards-strict", type=Path, required=True)
     parser.add_argument("--primary-query", default="type 2 diabetes mellitus")
-    parser.add_argument("--strict-query", default='[Disorders] "type 2 diabetes mellitus"')
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUT)
     args = parser.parse_args()
     args.output_dir.mkdir(parents=True, exist_ok=True)
@@ -183,50 +173,50 @@ def main() -> None:
     pd.DataFrame(gene_rows).to_csv(args.output_dir / "t2d_cluster_ctd_gene_membership.csv", index=False)
 
     primary_audit = raw_gene_audit(args.genecards_primary, "primary_anywhere", ctd_universe)
-    strict_audit = raw_gene_audit(args.genecards_strict, "strict_disorders_exact", ctd_universe)
     primary_audit.to_csv(args.output_dir / "t2d_genecards_primary_gene_audit.csv", index=False)
-    strict_audit.to_csv(args.output_dir / "t2d_genecards_strict_gene_audit.csv", index=False)
-    pd.concat([primary_audit, strict_audit], ignore_index=True).groupby(["set_label", "gene_type"], dropna=False).size().rename("n_rows").reset_index().to_csv(
+    primary_audit.groupby(["set_label", "gene_type"], dropna=False).size().rename("n_rows").reset_index().to_csv(
         args.output_dir / "t2d_genecards_gene_type_audit.csv", index=False
     )
 
     primary_full, primary_overlap, primary_rank, primary_cards, primary_meta = one_set(
         "primary_anywhere", args.genecards_primary, cluster_genes, args.output_dir, "primary"
     )
-    strict_full, strict_overlap, strict_rank, strict_cards, strict_meta = one_set(
-        "strict_disorders_exact", args.genecards_strict, cluster_genes, args.output_dir, "strict"
-    )
-    pd.concat([primary_rank, strict_rank], ignore_index=True).to_csv(args.output_dir / "t2d_rank_weighted_convergence.csv", index=False)
+    primary_rank.to_csv(args.output_dir / "t2d_rank_weighted_convergence.csv", index=False)
 
-    overlap = pd.concat([primary_overlap, strict_overlap], ignore_index=True)
-    overlap.to_csv(args.output_dir / "t2d_overlap_gene_details.csv", index=False)
+    primary_overlap.to_csv(args.output_dir / "t2d_overlap_gene_details.csv", index=False)
 
-    joint = make_joint(clusters, cluster_chemicals, robust, primary_full, strict_full, args.output_dir)
+    joint = make_joint(clusters, cluster_chemicals, robust, primary_full, args.output_dir)
 
     manifest = {
         "analysis": "Step 7 T2D-specific CTD x GeneCards biological convergence",
-        "status": "complete_two_gene_sets",
+        "status": "complete_primary_genecards_convergence",
+        "n_genes": int(primary_meta["n_ranked_rows"]),
+        "n_clusters": int(clusters["cluster_id"].nunique()),
+        "n_tier_A": int((joint["final_tier"] == "Tier_A").sum()),
         "n_step6_clusters": int(clusters["cluster_id"].nunique()),
         "n_cluster_chemical_rows": int(len(cluster_chemicals)),
         "n_ctd_interaction_pairs": int(len(pair)),
         "n_ctd_cluster_genes": int(sum(len(x) for x in cluster_genes.values())),
         "ctd_background": "union of all 11 frozen cluster human CTD genes",
         "primary": {**primary_meta, "query": args.primary_query, "acquisition_mode": "public pagination table capture", "sha256": core.sha256(args.genecards_primary)},
-        "strict_sensitivity": {**strict_meta, "query": args.strict_query, "acquisition_mode": "public pagination table capture", "sha256": core.sha256(args.genecards_strict)},
+        "deprecated_inputs": {
+            "query": '[Disorders] "type 2 diabetes mellitus"',
+            "n_ranked_rows": 111,
+            "path": "historical_preflight/t2d_genecards_public_disorders_results.csv",
+            "provenance_path": "historical_preflight/t2d_genecards_public_disorders_provenance.json",
+            "status": "deprecated_not_used",
+            "reason": "Overly narrow exact-phrase Disorders query; retained only for audit traceability.",
+        },
         "outcome_firewall": "T2D outcome was not used to construct the 29 tests or 11 clusters; GeneCards enters only at post-firewall Step 7.",
         "parent_mapping": "Inherited from Step 4; no parent relationships inferred from names.",
         "ctd_deduplication": "unique ChemicalID x GeneID among Homo sapiens interactions",
-        "multiple_testing": "BH-FDR across 11 clusters separately for primary and strict sets",
+        "multiple_testing": "BH-FDR across the 11 frozen exposure clusters in the single primary family",
         "primary_q_lt_0_05": int((primary_full["bh_fdr"] < 0.05).sum()),
-        "strict_q_lt_0_05": int((strict_full["bh_fdr"] < 0.05).sum()),
         "canonical_outputs": [
             "t2d_cluster_ctd_gene_membership.csv",
             "t2d_cluster_enrichment_primary.csv",
-            "t2d_cluster_enrichment_strict.csv",
             "t2d_cluster_genecards_overlap_primary.csv",
-            "t2d_cluster_genecards_overlap_strict.csv",
             "t2d_genecards_primary_gene_audit.csv",
-            "t2d_genecards_strict_gene_audit.csv",
             "t2d_genecards_gene_type_audit.csv",
             "t2d_rank_weighted_convergence.csv",
             "t2d_overlap_gene_details.csv",
@@ -238,31 +228,25 @@ def main() -> None:
     (args.output_dir / "STEP7_MANIFEST.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
 
     primary_sig = primary_full[primary_full["bh_fdr"] < 0.05]["cluster_id"].tolist()
-    strict_sig = strict_full[strict_full["bh_fdr"] < 0.05]["cluster_id"].tolist()
     report = [
         "# Step 7 — T2D-specific CTD × GeneCards biological convergence",
         "",
-        "- Status: **complete_two_gene_sets**",
+        "- Status: **complete_primary_genecards_convergence**",
         f"- Frozen exposure clusters: **{manifest['n_step6_clusters']}**",
         f"- CTD human chemical–gene pairs represented: **{manifest['n_ctd_interaction_pairs']:,}**",
         f"- Cluster CTD gene memberships summed over clusters: **{manifest['n_ctd_cluster_genes']:,}**",
         "",
-        "## GeneCards input sets",
+        "## GeneCards input",
         "",
         f"- Primary ordinary query: `{args.primary_query}`; complete public result: **{primary_meta['n_ranked_rows']:,} rows**.",
-        f"- High-specificity sensitivity: `{args.strict_query}`; complete public result: **{strict_meta['n_ranked_rows']:,} rows**.",
-        "- Primary analysis uses the complete ordinary-query list; the 111-row exact Disorders result is not used as the primary set.",
-        "- Primary full-list and strict-set enrichment are each corrected across the same 11-cluster family.",
+        "- Multiple testing is corrected across the 11 frozen exposure clusters in this single primary family.",
+        "- An earlier overly restrictive Disorders-scoped exact-phrase query was deprecated during method auditing and is retained solely for provenance; it does not contribute to the formal Step 7 results.",
         "",
         "## Primary full-list result",
         "",
         f"- Primary q < 0.05 clusters: **{len(primary_sig)}** — {', '.join(primary_sig) if primary_sig else 'none'}.",
         f"- Minimum primary q: **{primary_meta['minimum_q']:.4g}**.",
-        "",
-        "## Strict exact-phrase sensitivity",
-        "",
-        f"- Strict q < 0.05 clusters: **{len(strict_sig)}** — {', '.join(strict_sig) if strict_sig else 'none'}.",
-        f"- Minimum strict q: **{strict_meta['minimum_q']:.4g}**.",
+        f"- Step 6 robustness + Step 7 primary convergence: **{int((joint['final_tier'] == 'Tier_A').sum())} Tier A clusters**.",
         "",
         "## Cluster-level primary summary",
         "",

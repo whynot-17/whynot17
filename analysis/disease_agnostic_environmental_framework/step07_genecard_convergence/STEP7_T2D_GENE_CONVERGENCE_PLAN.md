@@ -10,8 +10,7 @@ Test all 11 exposure clusters carried forward from the frozen T2D Step 6 audit a
 - `step06_t2d_robustness/t2d_robustness_results.csv`
 - `hypothesis_unit_audit/step4_test_chemical_membership.csv`
 - CTD human chemical–gene interaction export, with unique `ChemicalID × GeneID` pairs
-- A complete ranked GeneCards result from the ordinary T2D query `type 2 diabetes mellitus`, retaining rank, symbol, and score fields, as the primary gene set.
-- A separate exact T2D `[Disorders] "type 2 diabetes mellitus"` result, retaining the same fields, as a strict high-specificity sensitivity set. Both sources may be the official public results table or official export; acquisition mode and checksums must be recorded.
+- A complete ranked GeneCards result from the ordinary T2D query `type 2 diabetes mellitus`, retaining rank, symbol, and score fields, as the sole formal gene set. The source may be the official public results table or official export; acquisition mode and checksum must be recorded.
 
 The CRC GeneCards export is explicitly prohibited as a substitute. If the T2D input is absent, the script runs a CTD-side preflight only and records the GeneCards analysis as blocked; it never fabricates a T2D gene set from web snippets or another disease.
 
@@ -25,7 +24,7 @@ Restrict to `Organism == Homo sapiens`. Deduplicate interactions by `ChemicalID 
 
 ## GeneCards rule
 
-The primary gene set is the complete ranked result of the ordinary query `type 2 diabetes mellitus` (currently 20,554 captured rows). K=100, 500, 1,000, and 2,000 are descriptive rank cutoffs; the full list is the primary analysis. The exact `[Disorders] "type 2 diabetes mellitus"` result (currently 111 rows) is a strict sensitivity analysis, not the primary set. The previously audited synonym OR query is not used as a replacement primary set. Query strings, acquisition mode, retrieval timestamp, GeneCards build when available, and file checksums must be recorded for both inputs. No CRC-specific GeneCards set, CRC outcome, or T2D outcome P value is used to construct either gene set.
+The formal gene set is the complete ranked result of the ordinary query `type 2 diabetes mellitus` (currently 20,554 captured rows). K=100, 500, 1,000, and 2,000 are descriptive rank cutoffs; the full list is the primary analysis. The previously audited exact `[Disorders] "type 2 diabetes mellitus"` result (111 rows) and synonym-OR query are deprecated preflight artifacts only; neither is a sensitivity analysis or a formal input. The primary query, acquisition mode, retrieval timestamp, GeneCards build when available, and checksum must be recorded. No CRC-specific GeneCards set, CRC outcome, or T2D outcome P value is used to construct the gene set.
 
 ## Enrichment and prioritization
 
@@ -38,6 +37,6 @@ Final flagship axes are selected only after all 11 clusters have been analyzed, 
 - cluster-to-chemical mapping audit
 - cluster CTD evidence and gene table
 - T2D GeneCards input audit and checksum
-- cluster × GeneCards overlap/enrichment tables for the primary and strict sets
+- cluster × GeneCards overlap/enrichment table for the primary set
 - overlap-gene table
 - analysis manifest and report, including missing-input or blocked status when applicable

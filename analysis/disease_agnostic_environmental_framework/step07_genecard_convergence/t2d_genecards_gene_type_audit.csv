@@ -6,8 +6,3 @@ primary_anywhere,Protein Coding,13561
 primary_anywhere,Pseudogene,1045
 primary_anywhere,RNA Gene,5709
 primary_anywhere,Uncategorized,18
-strict_disorders_exact,Functional Element,9
-strict_disorders_exact,Genetic Locus,2
-strict_disorders_exact,Protein Coding,80
-strict_disorders_exact,Pseudogene,1
-strict_disorders_exact,RNA Gene,19
