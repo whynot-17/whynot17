@@ -1,0 +1,389 @@
+accession,tissue,module_id,n_module_genes_frozen,n_module_genes_expression,platform,sample_selection,n_case,n_control,delta_t2d_minus_control,ci_low,ci_high,p_value,status,direction,q_value_within_dataset
+GSE21340,skeletal_muscle,cluster_11_M001,21,15,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.06328211854629055,-1.0031367085218825,0.8765724714293015,0.872156493421305,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_11_M002,20,13,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.24602832791752888,-1.141210435163289,0.6491537793282314,0.5191751331617732,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_11_M003,19,10,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.3556341746114349,-1.1516699718582994,0.4404016226354297,0.3258225028085049,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_11_M004,13,10,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.020671400880189955,-1.0649900657031346,1.0236472639427545,0.9620591131924264,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_11_M005,13,8,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.22033220536598302,-1.553268336308753,1.1126039255767868,0.6935046694800749,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_11_M006,12,5,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.16000843386038735,-0.5715069597133141,0.25149009199253947,0.4073662305788911,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_11_M007,7,4,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.2451362220820669,-1.7281410092059024,1.2378685650417685,0.6888317389278238,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_11_M008,5,4,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.029430614924928527,-0.934588984880478,0.8757277550306211,0.9388363570202045,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_11_M009,4,1,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_11_M010,3,3,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,0.042144163462187134,-1.3515391796278826,1.4358275065522568,0.944162658820226,ok,up_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_11_M011,3,3,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.0944063282487993,-0.44958595501834314,0.26077329852074455,0.5755674683840863,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_11_M012,3,1,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_11_M013,3,2,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_11_M014,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_11_M015,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_11_M016,2,1,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_11_M017,2,2,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_11_M018,2,1,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_11_M019,2,2,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_5_M001,26,24,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.10426300385253158,-1.3996263330720122,1.191100325366949,0.8482676360152156,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_5_M002,18,14,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.035941379338214445,-1.3794819638000604,1.3075992051236316,0.9498891916860258,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_5_M003,5,4,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,0.11868169398742895,-1.1458449089420735,1.3832082969169313,0.8305355421297381,ok,up_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_5_M004,2,1,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_6_M001,107,46,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,0.0021472538205154503,-1.3110913666869928,1.3153858743280236,0.9968603672778076,ok,up_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_6_M002,80,44,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.03397330998772623,-1.4052095923718435,1.3372629723963911,0.9528686496451932,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_6_M003,67,51,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,0.005494964430218547,-1.481411506208791,1.4924014350692278,0.9929864306097014,ok,up_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_6_M004,56,27,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.01569324553707275,-1.2806689901631736,1.2492824990890279,0.976715665720864,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_6_M005,54,33,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,0.07313066675803016,-1.0416288441507897,1.1878901776668502,0.8797115066955158,ok,up_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_6_M006,46,29,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.10783616682301372,-1.2354834460758457,1.0198111124298184,0.8193647247766267,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_6_M007,38,20,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,0.12934616295194826,-0.5823973553187481,0.8410896812226446,0.6798537139791929,ok,up_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_6_M008,35,27,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.01896530875534074,-1.1476129784401086,1.109682360929427,0.9686058696156535,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_6_M009,16,4,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.08598168731233438,-1.619302259942331,1.447338885317662,0.8938431689011349,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_6_M010,12,9,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,0.09962526694202395,-0.629360184630479,0.8286107185145271,0.7445679745416691,ok,up_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_6_M011,8,5,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,0.12709668898807022,-0.6581470321316555,0.912340410107796,0.7093657037685708,ok,up_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_6_M012,6,5,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,0.06333045032818596,-1.5343397743323304,1.6610006749887023,0.924461096167241,ok,up_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_6_M013,2,2,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_6_M014,2,2,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_6_M015,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_6_M016,2,2,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_6_M017,2,1,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_6_M018,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_6_M019,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_6_M020,2,1,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_6_M021,2,1,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_6_M022,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_6_M023,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_6_M024,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M001,428,264,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.01014662311117952,-1.2205167937625396,1.2002235475401806,0.9840968700898126,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_8_M002,204,63,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.0578476253899326,-1.3515116537090033,1.2358164029291383,0.9145490083317984,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_8_M003,202,81,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.0868825579505992,-1.2622850483027108,1.0885199324015125,0.8608273046686338,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_8_M004,180,74,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.05888458383193465,-1.5245934691050556,1.406824301441186,0.9236064424819866,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_8_M005,164,65,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.08753715432011704,-1.3224812049335588,1.1474068962933246,0.8650540367431195,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_8_M006,145,47,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.2821841643616038,-0.7278524110932513,0.16348408237004364,0.15681007895271287,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_8_M007,145,72,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.018169110332299166,-0.9745922867460377,0.9382540660814394,0.9644247034718326,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_8_M008,144,60,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.17743903098365632,-0.9642154839436043,0.6093374219762917,0.6016882918010619,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_8_M009,134,50,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.08618328678987217,-1.3609552513530792,1.1885886777733348,0.8717896299419776,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_8_M010,114,63,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,0.02400929109152639,-1.3082523361620022,1.356270918345055,0.9658847466739454,ok,up_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_8_M011,109,59,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.1546259478707629,-0.9187053444396355,0.6094534486981097,0.634289261946083,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_8_M012,92,56,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,0.005531352448703555,-1.2037289328142422,1.2147916377116492,0.9914103672224113,ok,up_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_8_M013,66,43,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,0.04410313294665364,-1.2333864228306608,1.3215926887239682,0.9343807905536892,ok,up_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_8_M014,12,7,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,5,10,-0.07413021973919107,-1.1518198012060608,1.0035593617276786,0.8749746921707254,ok,down_in_T2D,0.9968603672778076
+GSE21340,skeletal_muscle,cluster_8_M015,4,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M016,4,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M017,4,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M018,4,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M019,3,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M020,3,1,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M021,3,1,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M022,3,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M023,3,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M024,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M025,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M026,2,1,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M027,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M028,2,1,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M029,2,2,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M030,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M031,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M032,2,1,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M033,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M034,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M035,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M036,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M037,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M038,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M039,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M040,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M041,2,1,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M042,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M043,2,1,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M044,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M045,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M046,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M047,2,1,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M048,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M049,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE21340,skeletal_muscle,cluster_8_M050,2,0,GPL80,skeletal muscle; T2D versus control; replicate controls excluded,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_11_M001,21,21,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.2568926979538323,-0.25120591743674936,0.764991313344414,0.29470285797039986,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_11_M002,20,19,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.5569716049103326,-0.0940071873752455,1.2079503971959107,0.08817937213556959,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_11_M003,19,19,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.5347953232839304,-0.14516117636078518,1.214751822928646,0.1143581703149144,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_11_M004,13,13,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.31726001483409716,-0.34276459374308166,0.977284623411276,0.3216464094315587,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_11_M005,13,13,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.2283014931115118,-0.3000587496792264,0.75666173590225,0.37162264897790115,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_11_M006,12,11,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.48904057477418766,-0.3600500858881059,1.3381312354364812,0.23685485907661943,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_11_M007,7,7,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.09287623058419435,-0.6441362604026467,0.8298887215710354,0.7902602865277584,ok,up_in_T2D,0.8900567006634599
+GSE23343,liver,cluster_11_M008,5,5,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,-0.01370945885428533,-0.6627741653777594,0.6353552476691887,0.9645974253752898,ok,down_in_T2D,0.9761973991071227
+GSE23343,liver,cluster_11_M009,4,4,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.45046934072952416,-0.3096100397241851,1.2105487211832333,0.2246829924628614,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_11_M010,3,3,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.18405466424350142,-0.2788066489850471,0.6469159774720499,0.40587337752523367,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_11_M011,3,3,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,-0.009315588197020202,-0.6638092172528932,0.6451780408588529,0.9761973991071227,ok,down_in_T2D,0.9761973991071227
+GSE23343,liver,cluster_11_M012,3,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_11_M013,3,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_11_M014,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_11_M015,2,1,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_11_M016,2,1,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_11_M017,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_11_M018,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_11_M019,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_5_M001,26,26,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.1763955833063496,-0.13533331566643333,0.4881244822791325,0.24640215044503602,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_5_M002,18,18,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,-0.074099296851641,-0.5475456371422732,0.39934704343899124,0.7410034662737988,ok,down_in_T2D,0.8900567006634599
+GSE23343,liver,cluster_5_M003,5,5,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.6698641040993762,0.2991801190761586,1.040548089122594,0.001614370851726339,ok,up_in_T2D,0.07426105917941159
+GSE23343,liver,cluster_5_M004,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_6_M001,107,102,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.3310962893384872,-0.09472384434798609,0.7569164230249605,0.1182173730683939,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_6_M002,80,78,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.14068013873286145,-0.03876595351328452,0.3201262309790074,0.11314038710528704,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_6_M003,67,67,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.2060634206522456,-0.07907352793485795,0.4912003692393491,0.14428912717112913,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_6_M004,56,54,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.1970800622073554,-0.11473616132661929,0.5088962857413302,0.1973870677304011,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_6_M005,54,52,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.163549940665182,-0.24447146590410093,0.5715713472344649,0.40430123986281313,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_6_M006,46,41,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.06328308092646676,-0.34693058284617506,0.4734967446991085,0.74453407084356,ok,up_in_T2D,0.8900567006634599
+GSE23343,liver,cluster_6_M007,38,33,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.3401715313071545,-0.14471132697368344,0.8250543895879925,0.15523546667185986,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_6_M008,35,35,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.052413743747122266,-0.37012318404782907,0.4749506715420736,0.7933114071130838,ok,up_in_T2D,0.8900567006634599
+GSE23343,liver,cluster_6_M009,16,15,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.08802477408722549,-0.5356385225414853,0.7116880707159363,0.7676655558526039,ok,up_in_T2D,0.8900567006634599
+GSE23343,liver,cluster_6_M010,12,12,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,-0.05020662484884077,-0.763140846828681,0.6627275971309995,0.881221947127923,ok,down_in_T2D,0.9427025480903362
+GSE23343,liver,cluster_6_M011,8,8,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.17809684747084847,-0.32354164455806017,0.6797353394997572,0.4522051907637606,ok,up_in_T2D,0.717290992245965
+GSE23343,liver,cluster_6_M012,6,6,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,-0.0755823354948556,-0.4805074978013947,0.3293428268116835,0.6920592039543915,ok,down_in_T2D,0.8900567006634599
+GSE23343,liver,cluster_6_M013,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_6_M014,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_6_M015,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_6_M016,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_6_M017,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_6_M018,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_6_M019,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_6_M020,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_6_M021,2,1,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_6_M022,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_6_M023,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_6_M024,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M001,428,416,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.15111675908868186,-0.1471711262206755,0.4494046443980392,0.29697421304548943,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_8_M002,204,197,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.1614120638784043,-0.165800067523863,0.4886241952806716,0.30959147095969297,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_8_M003,202,194,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.038623663783975595,-0.12561429769189497,0.20286162525984613,0.6234558348118947,ok,up_in_T2D,0.8690596485256714
+GSE23343,liver,cluster_8_M004,180,174,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.1404698868993986,-0.2080835608401881,0.4890233346389853,0.40374597868115314,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_8_M005,164,157,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.20209228120903108,-0.23687822043615855,0.6410627828542207,0.34191639339591523,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_8_M006,145,119,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.139142385657288,-0.3668240587544286,0.6451088300690045,0.5664843201563579,ok,up_in_T2D,0.8143212102247644
+GSE23343,liver,cluster_8_M007,145,135,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.16402998426540893,-0.3090628392399689,0.6371228077707868,0.47130440925167455,ok,up_in_T2D,0.7226667608525676
+GSE23343,liver,cluster_8_M008,144,131,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.15575204731561215,-0.3311613848344935,0.6426654794657178,0.5044292800797899,ok,up_in_T2D,0.7485079639893657
+GSE23343,liver,cluster_8_M009,134,126,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.11882524553263443,-0.16631313264792127,0.40396362371319017,0.38843374619736265,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_8_M010,114,112,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.15418607830365325,-0.005804547132064408,0.3141767037393709,0.057801846964425856,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_8_M011,109,105,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.291558456661425,-0.20973648732112926,0.7928534006439792,0.23379369162989577,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_8_M012,92,87,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.11776069481084356,-0.1292859111643573,0.3648073007860444,0.32524884959441774,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_8_M013,66,60,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,-0.06569146332452076,-0.6515093662146093,0.5201264395655677,0.8138656827004217,ok,down_in_T2D,0.8913767001004619
+GSE23343,liver,cluster_8_M014,12,12,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.08371207806166256,-0.11268065845084627,0.28010481457417136,0.36578513871765755,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_8_M015,4,4,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.7135544805985405,0.23764654647623978,1.1894624147208412,0.007451616233547688,ok,up_in_T2D,0.1713871733715968
+GSE23343,liver,cluster_8_M016,4,4,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.021512207506246307,-0.5807162593243,0.6237406743367926,0.9376726640849486,ok,up_in_T2D,0.9761973991071227
+GSE23343,liver,cluster_8_M017,4,4,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.0943647370206519,-0.43428679057125646,0.6230162646125603,0.7033483581289502,ok,up_in_T2D,0.8900567006634599
+GSE23343,liver,cluster_8_M018,4,4,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.22304439784097022,-0.1856512860867496,0.63174008176869,0.26208065877695663,ok,up_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_8_M019,3,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M020,3,3,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,-0.30563027687961797,-1.0745605296655816,0.46329997590634575,0.3966513352242478,ok,down_in_T2D,0.6667919773628839
+GSE23343,liver,cluster_8_M021,3,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M022,3,3,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,10,7,0.16674985639787077,-0.7374012269599008,1.0709009397556424,0.679129067517907,ok,up_in_T2D,0.8900567006634599
+GSE23343,liver,cluster_8_M023,3,0,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M024,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M025,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M026,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M027,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M028,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M029,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M030,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M031,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M032,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M033,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M034,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M035,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M036,2,1,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M037,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M038,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M039,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M040,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M041,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M042,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M043,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M044,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M045,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M046,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M047,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M048,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M049,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE23343,liver,cluster_8_M050,2,2,GPL570,human fasting liver biopsy; T2D versus normal glucose tolerance,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_11_M001,21,20,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,-0.11476842655340498,-0.6059652949097156,0.37642844180290563,0.6122084288166915,ok,down_in_T2D,0.642818850257526
+GSE25724,pancreatic_islet,cluster_11_M002,20,19,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,-1.0851388774244342,-1.683924620886065,-0.48635313396280333,0.002331018249872193,ok,down_in_T2D,0.019580553298926422
+GSE25724,pancreatic_islet,cluster_11_M003,19,19,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,-1.1420340539425113,-1.744517925336175,-0.5395501825488478,0.001610976889781983,ok,down_in_T2D,0.01691525734271082
+GSE25724,pancreatic_islet,cluster_11_M004,13,13,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,-0.4554926610805616,-0.9179934491146426,0.0070081269535194335,0.05295732566095282,ok,down_in_T2D,0.08896830711040074
+GSE25724,pancreatic_islet,cluster_11_M005,13,12,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,-0.38710772175950325,-0.7052676309263598,-0.0689478125926467,0.023257410240508983,ok,down_in_T2D,0.048840561505068866
+GSE25724,pancreatic_islet,cluster_11_M006,12,11,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,-1.12066829546861,-1.7694769122415848,-0.4718596786956353,0.0029491527254081724,ok,down_in_T2D,0.020644069077857204
+GSE25724,pancreatic_islet,cluster_11_M007,7,7,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,-0.9282815539494993,-1.518093016451961,-0.33847009144703755,0.005367401846563616,ok,down_in_T2D,0.022602335032098148
+GSE25724,pancreatic_islet,cluster_11_M008,5,5,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,-0.512092910610815,-1.1445791133376308,0.12039329211600092,0.10217039759652594,ok,down_in_T2D,0.14797092065703757
+GSE25724,pancreatic_islet,cluster_11_M009,4,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_11_M010,3,3,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,-0.4240073177221729,-0.9768941336894933,0.12887949824514744,0.1177393897571526,ok,down_in_T2D,0.16483514566001364
+GSE25724,pancreatic_islet,cluster_11_M011,3,3,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,-0.2751507664194389,-0.8068043335344371,0.2565028006955593,0.2711886868119226,ok,down_in_T2D,0.3254264241743071
+GSE25724,pancreatic_islet,cluster_11_M012,3,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_11_M013,3,1,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_11_M014,2,1,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_11_M015,2,1,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_11_M016,2,1,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_11_M017,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_11_M018,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_11_M019,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_5_M001,26,26,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,0.56613566578181,0.17661582694099348,0.9556555046226265,0.008770122878293311,ok,up_in_T2D,0.024880370420655423
+GSE25724,pancreatic_islet,cluster_5_M002,18,17,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,0.700127645665015,0.1402323345373515,1.2600229567926784,0.018925029353446633,ok,up_in_T2D,0.04415840182470881
+GSE25724,pancreatic_islet,cluster_5_M003,5,4,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,0.2146491909296384,-0.13644758063861495,0.5657459624978918,0.1989425362430113,ok,up_in_T2D,0.24575254477077865
+GSE25724,pancreatic_islet,cluster_5_M004,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_6_M001,107,93,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,0.042575019521961445,-0.1500261714180102,0.23517621046193307,0.6356195703888002,ok,up_in_T2D,0.6511224867397466
+GSE25724,pancreatic_islet,cluster_6_M002,80,70,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,0.5000793029479736,0.19694785027440015,0.8032107556215471,0.004113341878013193,ok,up_in_T2D,0.021595044859569264
+GSE25724,pancreatic_islet,cluster_6_M003,67,64,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,0.3452696940349655,-0.020167098018785856,0.7107064860887169,0.06165476188576683,ok,up_in_T2D,0.09959615381546949
+GSE25724,pancreatic_islet,cluster_6_M004,56,47,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,-0.14863930084697372,-0.3653969803238451,0.06811837862989767,0.15901171682582302,ok,down_in_T2D,0.2087028783338927
+GSE25724,pancreatic_islet,cluster_6_M005,54,52,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,0.4455346782800176,0.0186453068743499,0.8724240496856852,0.04224905781939027,ok,up_in_T2D,0.07715045340932136
+GSE25724,pancreatic_islet,cluster_6_M006,46,41,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,-0.22380051345092716,-0.43317815480824695,-0.014422872093607403,0.038544386139606576,ok,down_in_T2D,0.07358473717561255
+GSE25724,pancreatic_islet,cluster_6_M007,38,27,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,-0.4264516969465977,-0.9017980417994945,0.04889464790629916,0.07388723753582167,ok,down_in_T2D,0.11493570283350038
+GSE25724,pancreatic_islet,cluster_6_M008,35,34,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,0.06628983265832239,-0.21274894710186248,0.34532861241850726,0.6110176197297084,ok,up_in_T2D,0.642818850257526
+GSE25724,pancreatic_islet,cluster_6_M009,16,12,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,-0.8381480568217216,-1.3872132781283688,-0.2890828355150743,0.007349404153032692,ok,down_in_T2D,0.02374422880210562
+GSE25724,pancreatic_islet,cluster_6_M010,12,10,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,0.26354676208507793,-0.4015687417893496,0.9286622659595054,0.401316248542169,ok,up_in_T2D,0.4435600641781868
+GSE25724,pancreatic_islet,cluster_6_M011,8,5,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,0.7710555409356359,0.4422072323883196,1.0999038494829523,0.0003991920581308654,ok,up_in_T2D,0.010203679325030716
+GSE25724,pancreatic_islet,cluster_6_M012,6,6,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,1.1126430469729534,0.6033622188403536,1.6219238751055531,0.0008395658481126531,ok,up_in_T2D,0.011753921873577143
+GSE25724,pancreatic_islet,cluster_6_M013,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_6_M014,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_6_M015,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_6_M016,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_6_M017,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_6_M018,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_6_M019,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_6_M020,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_6_M021,2,1,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_6_M022,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_6_M023,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_6_M024,2,0,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M001,428,375,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,0.2745343895490557,0.11203246428854216,0.43703631480956917,0.0035169703522433507,ok,up_in_T2D,0.0211018221134601
+GSE25724,pancreatic_islet,cluster_8_M002,204,157,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,-0.08579669086671085,-0.27342726786989857,0.1018338861364769,0.3356123805414583,ok,down_in_T2D,0.3809654049389527
+GSE25724,pancreatic_islet,cluster_8_M003,202,169,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,0.43539040331970313,0.1309538670020391,0.7398269396373671,0.009478236350725875,ok,up_in_T2D,0.024880370420655423
+GSE25724,pancreatic_islet,cluster_8_M004,180,143,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,-0.0879496380509514,-0.22631916338873978,0.05041988728683697,0.18765385870686813,ok,down_in_T2D,0.23883218380874127
+GSE25724,pancreatic_islet,cluster_8_M005,164,132,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,-0.4501427617662854,-0.7748061897121689,-0.125479333820402,0.011370122413121488,ok,down_in_T2D,0.02809089066771191
+GSE25724,pancreatic_islet,cluster_8_M006,145,98,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,-0.4174606578345885,-0.7044984288662142,-0.13042288680296293,0.009452450060302904,ok,down_in_T2D,0.024880370420655423
+GSE25724,pancreatic_islet,cluster_8_M007,145,122,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,-0.22337225132888044,-0.4156302117257951,-0.03111429093196577,0.02736334825700752,ok,down_in_T2D,0.05472669651401504
+GSE25724,pancreatic_islet,cluster_8_M008,144,114,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,-0.5452338825761892,-0.9038577194037044,-0.186610045748674,0.006820541381121266,ok,down_in_T2D,0.02374422880210562
+GSE25724,pancreatic_islet,cluster_8_M009,134,103,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,0.1229294966319868,-0.05053677928426939,0.296395772548243,0.14637323735215002,ok,up_in_T2D,0.19831212802549358
+GSE25724,pancreatic_islet,cluster_8_M010,114,96,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,0.39052810129011895,0.06875733613445512,0.7122988664457828,0.02185263688439831,ok,up_in_T2D,0.04830582890235416
+GSE25724,pancreatic_islet,cluster_8_M011,109,90,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,-0.5649476919219094,-0.9151790198864247,-0.21471636395739413,0.0053815083409757495,ok,down_in_T2D,0.022602335032098148
+GSE25724,pancreatic_islet,cluster_8_M012,92,81,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,0.4724133988693552,0.2605659494592989,0.6842608482794115,0.0004858894916681293,ok,up_in_T2D,0.010203679325030716
+GSE25724,pancreatic_islet,cluster_8_M013,66,56,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,0.4403025543963906,0.15771181759069108,0.7228932912020901,0.0060074042392539075,ok,up_in_T2D,0.022937361640787645
+GSE25724,pancreatic_islet,cluster_8_M014,12,12,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,-0.6927946324853603,-1.3886899411512714,0.0031006761805506544,0.050854345657535494,ok,down_in_T2D,0.08896830711040074
+GSE25724,pancreatic_islet,cluster_8_M015,4,3,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,0.23248265778160704,-0.2680315664458869,0.732996882009101,0.32641614813830067,ok,up_in_T2D,0.3808188394946841
+GSE25724,pancreatic_islet,cluster_8_M016,4,3,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,0.8109287690352325,-0.16362060237565967,1.7854781404461246,0.09299377672952695,ok,up_in_T2D,0.13949066509429042
+GSE25724,pancreatic_islet,cluster_8_M017,4,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M018,4,1,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M019,3,1,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M020,3,3,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,6,7,-0.032429736240237914,-0.3462984918916515,0.28143901941117566,0.8222205521975852,ok,down_in_T2D,0.8222205521975852
+GSE25724,pancreatic_islet,cluster_8_M021,3,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M022,3,1,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M023,3,0,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M024,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M025,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M026,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M027,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M028,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M029,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M030,2,1,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M031,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M032,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M033,2,1,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M034,2,1,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M035,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M036,2,0,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M037,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M038,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M039,2,1,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M040,2,0,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M041,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M042,2,1,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M043,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M044,2,1,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M045,2,2,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M046,2,1,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M047,2,1,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M048,2,1,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M049,2,1,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE25724,pancreatic_islet,cluster_8_M050,2,1,GPL96,isolated human pancreatic islets; T2D versus non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_11_M001,21,21,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.38075881145336654,-0.7909027681130771,0.02938514520634411,0.0665847959157539,ok,down_in_T2D,0.18017062424262822
+GSE71416,adipose,cluster_11_M002,20,19,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.5688887209792411,-1.1343625191616002,-0.0034149227968820473,0.04881355723988208,ok,down_in_T2D,0.18017062424262822
+GSE71416,adipose,cluster_11_M003,19,19,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.6028671821202929,-1.1931068129445161,-0.012627551296069628,0.04583333401739091,ok,down_in_T2D,0.18017062424262822
+GSE71416,adipose,cluster_11_M004,13,13,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.3796272187371571,-0.9013355895840104,0.14208115210969618,0.14145745472446575,ok,down_in_T2D,0.2711267882218927
+GSE71416,adipose,cluster_11_M005,13,13,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.27334722773900383,-0.7215060799667665,0.17481162448875892,0.2117479324543492,ok,down_in_T2D,0.3607557367740764
+GSE71416,adipose,cluster_11_M006,12,11,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.6168794374319413,-1.258435885442836,0.02467701057895333,0.05835485423980668,ok,down_in_T2D,0.18017062424262822
+GSE71416,adipose,cluster_11_M007,7,7,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.2827995686341258,-0.6417473809134301,0.07614824364517847,0.1143194606795565,ok,down_in_T2D,0.23903159960270906
+GSE71416,adipose,cluster_11_M008,5,5,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.01657574327685811,-0.48625299635203756,0.4531015097983213,0.9413398221800561,ok,down_in_T2D,0.9622584848951684
+GSE71416,adipose,cluster_11_M009,4,4,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.23425027071109833,-0.6740473671621865,0.2055468257399899,0.27546648285861114,ok,down_in_T2D,0.4063814191123853
+GSE71416,adipose,cluster_11_M010,3,3,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.13856796323180656,-0.688592448362477,0.41145652189886395,0.5932468320933093,ok,down_in_T2D,0.6822338569073058
+GSE71416,adipose,cluster_11_M011,3,3,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,0.39950625181095434,0.09312225031333315,0.7058902533085756,0.01347288731001385,ok,up_in_T2D,0.07746910203257965
+GSE71416,adipose,cluster_11_M012,3,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_11_M013,3,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_11_M014,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_11_M015,2,1,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_11_M016,2,1,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_11_M017,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_11_M018,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_11_M019,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_5_M001,26,26,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.203758724523308,-0.2974079441772,-0.11010950486941601,0.00024065056286134027,ok,down_in_T2D,0.005534962945810826
+GSE71416,adipose,cluster_5_M002,18,18,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,0.3554641772543351,0.06797113444744768,0.6429572200612226,0.018575571730020012,ok,up_in_T2D,0.09494181106454673
+GSE71416,adipose,cluster_5_M003,5,5,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.1492139947811384,-0.5821866368700195,0.28375864730774264,0.47671648760107926,ok,down_in_T2D,0.5770778534118328
+GSE71416,adipose,cluster_5_M004,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_6_M001,107,102,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.18563974467366132,-0.4020988054995247,0.03081931615220207,0.08832341810425577,ok,down_in_T2D,0.20694233485242086
+GSE71416,adipose,cluster_6_M002,80,78,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,0.0003241318773071467,-0.08881680410420066,0.08946506785881496,0.9939568654161909,ok,up_in_T2D,0.9939568654161909
+GSE71416,adipose,cluster_6_M003,67,67,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.21139145357813754,-0.43360963325717816,0.010826726100903072,0.06021882165980612,ok,down_in_T2D,0.18017062424262822
+GSE71416,adipose,cluster_6_M004,56,54,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.1921742191609368,-0.39037558678012607,0.0060271484582525015,0.056340689776041286,ok,down_in_T2D,0.18017062424262822
+GSE71416,adipose,cluster_6_M005,54,52,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.2658479015200258,-0.649197234435634,0.11750143139558245,0.16232646512994017,ok,down_in_T2D,0.2986806958390899
+GSE71416,adipose,cluster_6_M006,46,41,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.3841401247170231,-0.7939800976663315,0.025699848232285327,0.06450690562168225,ok,down_in_T2D,0.18017062424262822
+GSE71416,adipose,cluster_6_M007,38,33,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.15173354590933252,-0.4397424784513953,0.13627538663273026,0.2827001176433985,ok,down_in_T2D,0.4063814191123853
+GSE71416,adipose,cluster_6_M008,35,35,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.15388529160768238,-0.41671792985267814,0.10894734663731337,0.23447251524028098,ok,down_in_T2D,0.38520484646617587
+GSE71416,adipose,cluster_6_M009,16,15,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.5004670031375978,-1.0911175317577835,0.09018352548258779,0.08997492819670472,ok,down_in_T2D,0.20694233485242086
+GSE71416,adipose,cluster_6_M010,12,12,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.3094048595443153,-0.7843807425395971,0.16557102345096653,0.18613140179774265,ok,down_in_T2D,0.32930940318062163
+GSE71416,adipose,cluster_6_M011,8,8,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.3853814496387118,-0.6641810192934811,-0.10658187998394253,0.009465240465297703,ok,down_in_T2D,0.07580253389286147
+GSE71416,adipose,cluster_6_M012,6,6,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.16751903521512845,-0.5109498714939442,0.17591180106368737,0.31013997098952234,ok,down_in_T2D,0.41960113722111847
+GSE71416,adipose,cluster_6_M013,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_6_M014,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_6_M015,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_6_M016,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_6_M017,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_6_M018,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_6_M019,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_6_M020,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_6_M021,2,1,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_6_M022,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_6_M023,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_6_M024,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M001,428,416,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.03304009196380976,-0.15023932582129607,0.08415914189367656,0.5594127617580157,ok,down_in_T2D,0.6598201805350954
+GSE71416,adipose,cluster_8_M002,204,197,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,0.04736120577601381,-0.06524093033321354,0.15996334188524117,0.3884493965398075,ok,up_in_T2D,0.49635200668975404
+GSE71416,adipose,cluster_8_M003,202,194,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,0.15779298135415507,0.0396802739927902,0.2759056887155199,0.011821488626800082,ok,up_in_T2D,0.07746910203257965
+GSE71416,adipose,cluster_8_M004,180,174,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.05762316117488259,-0.17151969523758281,0.05627337288781763,0.301511103378506,ok,down_in_T2D,0.41960113722111847
+GSE71416,adipose,cluster_8_M005,164,157,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.4385494414619442,-0.7560389061534523,-0.12105997677043606,0.009529440127110881,ok,down_in_T2D,0.07580253389286147
+GSE71416,adipose,cluster_8_M006,145,119,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.2423641732344592,-0.5370101471429057,0.052281800673987355,0.10030647740615711,ok,down_in_T2D,0.2197189505087251
+GSE71416,adipose,cluster_8_M007,145,135,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.13570707053450723,-0.3785628902024485,0.10714874913343406,0.2519090814804955,ok,down_in_T2D,0.3995799223483722
+GSE71416,adipose,cluster_8_M008,144,131,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.26514168649169495,-0.6124905865356767,0.08220721355228677,0.12408668857422554,ok,down_in_T2D,0.24817337714845109
+GSE71416,adipose,cluster_8_M009,134,126,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.10860963046831115,-0.20507989431848422,-0.012139366618138095,0.029925287632799048,ok,down_in_T2D,0.1376563231108756
+GSE71416,adipose,cluster_8_M010,114,112,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,0.21393997415990013,0.09260659771183764,0.3352733506079626,0.0016276771546113766,ok,up_in_T2D,0.024957716370707775
+GSE71416,adipose,cluster_8_M011,109,105,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.14971970867347786,-0.4837225801042203,0.1842831627572646,0.35256925940589734,ok,down_in_T2D,0.4633767409334651
+GSE71416,adipose,cluster_8_M012,92,87,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,0.024572798081227854,-0.11830522104830375,0.16745081721075947,0.7195010921319083,ok,up_in_T2D,0.7880250056682805
+GSE71416,adipose,cluster_8_M013,66,60,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,0.027240690299559132,-0.09450330289701228,0.14898468349613056,0.6356276456280628,ok,up_in_T2D,0.7131432121680705
+GSE71416,adipose,cluster_8_M014,12,12,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,0.4334824520391586,0.24168298919049533,0.6252819148878218,0.000169980123108517,ok,up_in_T2D,0.005534962945810826
+GSE71416,adipose,cluster_8_M015,4,4,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.37593451947908074,-0.6498109785312711,-0.1020580604268903,0.00988728702950367,ok,down_in_T2D,0.07580253389286147
+GSE71416,adipose,cluster_8_M016,4,4,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,-0.0595681250702909,-0.5362348142402742,0.41709856409969237,0.790497717829322,ok,down_in_T2D,0.8264294322761093
+GSE71416,adipose,cluster_8_M017,4,4,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,0.4596200190637001,-0.06860141809381526,0.9878414562212154,0.0841002841709673,ok,up_in_T2D,0.20694233485242086
+GSE71416,adipose,cluster_8_M018,4,4,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,0.12163896253415918,-0.18339793859072145,0.4266758636590398,0.40814372360025125,ok,up_in_T2D,0.5074219266381501
+GSE71416,adipose,cluster_8_M019,3,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M020,3,3,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,0.23353109397375094,-0.20810136705455756,0.6751635550020594,0.2783666140028184,ok,up_in_T2D,0.4063814191123853
+GSE71416,adipose,cluster_8_M021,3,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M022,3,3,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,14,6,0.08270903650471866,-0.6010655502694573,0.7664836232788945,0.788186370425528,ok,up_in_T2D,0.8264294322761093
+GSE71416,adipose,cluster_8_M023,3,0,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M024,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M025,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M026,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M027,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M028,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M029,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M030,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M031,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M032,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M033,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M034,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M035,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M036,2,1,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M037,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M038,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M039,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M040,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M041,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M042,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M043,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M044,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M045,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M046,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M047,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M048,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M049,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,
+GSE71416,adipose,cluster_8_M050,2,2,GPL570,omental adipose tissue; obese diabetic versus obese non-diabetic,0,0,,,,,insufficient_group_size,not_estimable,

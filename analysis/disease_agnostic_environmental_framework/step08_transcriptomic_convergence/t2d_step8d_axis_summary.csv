@@ -1,0 +1,5 @@
+cluster_id,n_modules,n_modules_tested,median_module_delta,n_modules_majority_positive,n_modules_majority_negative,n_modules_with_any_q_lt_0_05
+cluster_11,19,11,-0.20014930980867351,10,11,5
+cluster_5,4,3,0.15976139895806032,3,3,2
+cluster_6,24,12,0.019542677083564605,12,12,4
+cluster_8,50,20,0.01891659343881372,20,15,10

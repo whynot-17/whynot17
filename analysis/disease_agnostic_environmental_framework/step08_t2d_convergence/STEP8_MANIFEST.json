@@ -1,6 +1,6 @@
 {
   "analysis": "Step 8 T2D pathway convergence",
-  "status": "complete_pathway_ora_redundancy_network_convergence",
+  "status": "complete_pathway_ora_redundancy_network_transcriptomic_directionality",
   "tier_a_clusters": [
     "cluster_11",
     "cluster_5",
@@ -516,5 +516,24 @@
       "t2d_step8c_module_annotations.csv"
     ],
     "interpretation": "network connectivity, community structure, and pathway recurrence are descriptive; no exposure causality, pathway activation, directionality, mediation, or flagship selection"
+  },
+  "stage4_transcriptomic_directionality": {
+    "status": "complete_module_directionality",
+    "manifest": "../step08_transcriptomic_convergence/STEP8D_MANIFEST.json",
+    "report": "../step08_transcriptomic_convergence/STEP8D_T2D_TRANSCRIPTOMIC_REPORT.md",
+    "input_rule": "97 frozen Step 8C network modules; no gene-set expansion",
+    "datasets": [
+      "GSE23343 liver",
+      "GSE21340 skeletal muscle",
+      "GSE71416 adipose",
+      "GSE25724 pancreatic islet"
+    ],
+    "n_frozen_modules": 97,
+    "n_dataset_module_results": 388,
+    "n_estimable_dataset_module_results": 173,
+    "score_rule": "mean within-dataset gene-wise z-scores; minimum 3 observed module genes",
+    "contrast": "T2D minus comparator Welch two-sample t test within each dataset",
+    "multiple_testing": "BH-FDR within each dataset across tested modules",
+    "interpretation": "tissue-stratified descriptive directionality; no tissue pooling, exposure causality, pathway activation, mediation, or flagship selection"
   }
 }

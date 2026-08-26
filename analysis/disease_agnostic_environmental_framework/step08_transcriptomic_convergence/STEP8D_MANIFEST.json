@@ -1,0 +1,118 @@
+{
+  "status": "complete_module_directionality",
+  "analysis": "Step 8D T2D transcriptomic module directionality",
+  "module_input": "/mnt/c/Users/21634/Documents/Codex/2026-08-22/non/work/whynot17/analysis/disease_agnostic_environmental_framework/step08_t2d_convergence/t2d_step8c_network_modules.csv",
+  "n_frozen_modules": 97,
+  "datasets": [
+    {
+      "accession": "GSE23343",
+      "tissue": "liver",
+      "series_matrix_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE23nnn/GSE23343/matrix/GSE23343_series_matrix.txt.gz",
+      "platform_annotation_url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPLnnn/GPL570/annot/GPL570.annot.gz",
+      "platform_declared": "GPL570",
+      "platform_observed": "GPL570",
+      "platform_annotation_used": "GPL570",
+      "sample_rule": {
+        "case_patterns": [
+          "disease status:\\s*type 2 diabetes"
+        ],
+        "control_patterns": [
+          "disease status:\\s*normal glucose tolerance"
+        ],
+        "exclusion_patterns": []
+      },
+      "n_samples_total": 17,
+      "n_t2d": 10,
+      "n_control": 7,
+      "series_matrix_sha256": "400b144732d0d9a0b41db7bceefb50210e4444cf071fd826dfe9e938e1ef8b7b",
+      "platform_annotation_sha256": "d7cd44352127b1e34f3a720ebea86093ef255a38f1612a85a2962b71bde8f394"
+    },
+    {
+      "accession": "GSE21340",
+      "tissue": "skeletal_muscle",
+      "series_matrix_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE21nnn/GSE21340/matrix/GSE21340_series_matrix.txt.gz",
+      "platform_annotation_url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPLnnn/GPL80/annot/GPL80.annot.gz",
+      "platform_declared": "GPL80",
+      "platform_observed": "GPL80",
+      "platform_annotation_used": "GPL80",
+      "sample_rule": {
+        "case_patterns": [
+          "disease state:\\s*dm\\b"
+        ],
+        "control_patterns": [
+          "disease state:\\s*control\\b"
+        ],
+        "exclusion_patterns": [
+          "disease state:\\s*replicate control"
+        ]
+      },
+      "n_samples_total": 20,
+      "n_t2d": 5,
+      "n_control": 10,
+      "series_matrix_sha256": "64550037c35088f2673484392240039b733042cb49ded6c7b5c9a9cfd3aa7b84",
+      "platform_annotation_sha256": "60efdfaa032a98cbe0caa0195b6b14a1b51f9e67cab69caa23ed6b92531a29a3"
+    },
+    {
+      "accession": "GSE71416",
+      "tissue": "adipose",
+      "series_matrix_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE71nnn/GSE71416/matrix/GSE71416_series_matrix.txt.gz",
+      "platform_annotation_url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPLnnn/GPL570/annot/GPL570.annot.gz",
+      "platform_declared": "GPL570",
+      "platform_observed": "GPL570",
+      "platform_annotation_used": "GPL570",
+      "sample_rule": {
+        "case_patterns": [
+          "!Sample_title:.*obese\\s+and\\s+diabetic\\b"
+        ],
+        "control_patterns": [
+          "!Sample_title:.*obese\\s+non[- ]diabetic\\b|!Sample_title:.*obese\\s+nondiabetic\\b"
+        ],
+        "exclusion_patterns": []
+      },
+      "n_samples_total": 20,
+      "n_t2d": 14,
+      "n_control": 6,
+      "series_matrix_sha256": "5debcdb9b83f59ca6c3726479c02e97b91844ddcf49a9fae39cb245cd4dcbf67",
+      "platform_annotation_sha256": "d7cd44352127b1e34f3a720ebea86093ef255a38f1612a85a2962b71bde8f394"
+    },
+    {
+      "accession": "GSE25724",
+      "tissue": "pancreatic_islet",
+      "series_matrix_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE25nnn/GSE25724/matrix/GSE25724_series_matrix.txt.gz",
+      "platform_annotation_url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPLnnn/GPL96/annot/GPL96.annot.gz",
+      "platform_declared": "GPL96",
+      "platform_observed": "GPL96",
+      "platform_annotation_used": "GPL96",
+      "sample_rule": {
+        "case_patterns": [
+          "\\btype 2\\s+diabetic\\b|\\bhuman islets,\\s*diabetic\\b"
+        ],
+        "control_patterns": [
+          "\\bnon[- ]diabetic\\b|\\bnondiabetic\\b"
+        ],
+        "exclusion_patterns": []
+      },
+      "n_samples_total": 13,
+      "n_t2d": 6,
+      "n_control": 7,
+      "series_matrix_sha256": "c40f3386d12af429abf8234363876f304bb7e5be04b31e6cd84d016a86583a8d",
+      "platform_annotation_sha256": "88e0b22362bac779eb220b3b185c80faa6510a92b9358eaad159a561ab4351c4"
+    }
+  ],
+  "module_score_rule": "mean within-dataset gene-wise z-scores; minimum 3 observed genes",
+  "contrast": "T2D minus comparator; Welch two-sample t test per dataset and module",
+  "multiple_testing": "BH-FDR within each dataset across tested modules",
+  "interpretation": "descriptive module directionality; no tissue pooling, exposure causality, activation, mediation, or flagship selection",
+  "retrieved_utc": "2026-08-26T17:08:37.494198+00:00",
+  "outputs": [
+    "t2d_step8d_dataset_audit.csv",
+    "t2d_step8d_module_directionality.csv",
+    "t2d_step8d_module_scores.csv",
+    "t2d_step8d_module_cross_dataset_synthesis.csv",
+    "t2d_step8d_axis_summary.csv",
+    "t2d_step8d_dataset_axis_summary.csv",
+    "t2d_step8d_*_sample_audit.csv",
+    "STEP8D_MANIFEST.json",
+    "STEP8D_T2D_TRANSCRIPTOMIC_REPORT.md"
+  ]
+}
