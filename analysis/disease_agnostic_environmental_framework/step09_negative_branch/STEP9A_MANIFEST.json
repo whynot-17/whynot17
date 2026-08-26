@@ -1,0 +1,51 @@
+{
+  "step": "9A",
+  "title": "Question-specific data-readiness audit",
+  "created_utc": "2026-08-26T18:38:59.481879+00:00",
+  "repository_relative_inputs": [
+    "analysis/disease_agnostic_environmental_framework/step05_crc_screen_rebuilt/full_29_test_crc_screen_rebuilt.csv",
+    "analysis/disease_agnostic_environmental_framework/step05_crc_screen_rebuilt/assay_specific_merge_audit.csv",
+    "analysis/disease_agnostic_environmental_framework/step05_crc_screen_rebuilt/assay_specific_outcome_frame_qc.csv",
+    "analysis/disease_agnostic_environmental_framework/step05_crc_screen/CRC_case_control_ledger.csv",
+    "analysis/disease_agnostic_environmental_framework/step05_t2d_screen/t2d_primary_29_tests.csv",
+    "analysis/disease_agnostic_environmental_framework/step05_t2d_screen/t2d_merge_audit.csv",
+    "analysis/disease_agnostic_environmental_framework/step05_t2d_screen/t2d_outcome_qc.csv"
+  ],
+  "input_sha256": {
+    "analysis/disease_agnostic_environmental_framework/step05_crc_screen_rebuilt/full_29_test_crc_screen_rebuilt.csv": "168a9dbbc9eabddda3fc69246f11e8a7d81f65ff186229273ef0ab573ec2c827",
+    "analysis/disease_agnostic_environmental_framework/step05_crc_screen_rebuilt/assay_specific_merge_audit.csv": "acb6805cfe671dd48b76f506423caf96b558ff835e9e12f9f6d3c9b37c607e9d",
+    "analysis/disease_agnostic_environmental_framework/step05_crc_screen_rebuilt/assay_specific_outcome_frame_qc.csv": "4ada2307c2910fcc62dfac28608d04eaa3d2aefc964128eb30cc3a650d5a385c",
+    "analysis/disease_agnostic_environmental_framework/step05_crc_screen/CRC_case_control_ledger.csv": "ceee7acb50adbba88aa0cf4f409ad03b11dda542bfdf0f25f1ad9dab0547206b",
+    "analysis/disease_agnostic_environmental_framework/step05_t2d_screen/t2d_primary_29_tests.csv": "a3764979386bfc903c19f2f382d02ebf93d9e1e67e77e5cefa642dc187c2f1a3",
+    "analysis/disease_agnostic_environmental_framework/step05_t2d_screen/t2d_merge_audit.csv": "61a3c3e9996767ab89b5c07511bd874b9eb5ac87abc767d4b4d4a799a0b4de53",
+    "analysis/disease_agnostic_environmental_framework/step05_t2d_screen/t2d_outcome_qc.csv": "387e800f7501081ceae032afc34050754137c4d494f2da0b294fa660cf7f0069"
+  },
+  "outputs": [
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/run_step09a_question_specific_readiness.py",
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9a_per_test_readiness.csv",
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9a_readiness_overview.csv",
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9a_outcome_granularity.csv",
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/STEP9A_QUESTION_SPECIFIC_READINESS_REPORT.md"
+  ],
+  "frozen_panel_n": 29,
+  "scope_boundaries": {
+    "refit_models": false,
+    "change_fdr_family": false,
+    "failure_attribution": false,
+    "counterfactual_simulation": false,
+    "readiness_score_collapsed": false
+  },
+  "qc": {
+    "crc_test_n": 29,
+    "t2d_test_n": 29,
+    "crc_estimable_n": 29,
+    "t2d_estimable_n": 29,
+    "crc_audit_n_discrepancy_abs_max": 0.0,
+    "t2d_audit_n_discrepancy_abs_max": 0.0,
+    "crc_audit_case_discrepancy_abs_max": 0.0,
+    "t2d_audit_case_discrepancy_abs_max": 0.0,
+    "crc_rebuilt_outcome_qc_case_n": 420,
+    "crc_legacy_ledger_case_n_secondary": 123,
+    "crc_outcome_qc_and_legacy_ledger_not_pooled": true
+  }
+}
