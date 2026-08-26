@@ -1,0 +1,4 @@
+cycle,source_exposure_rows,source_nonmissing_exposure,universal_outcome_covariate_rows,old_step5_phthalate_frame_rows,repaired_merge_rows,old_step5_merge_rows,repaired_crc_vs_cancer_free_rows,old_crc_vs_cancer_free_rows,repaired_complete_case_rows
+2013-2014,2755,2650,9770,1863,2755,0,1691,0,1517
+2015-2016,3279,3035,9575,1751,3279,0,1695,0,1453
+2017-2018,2979,2774,8897,1765,2979,0,1579,0,1305

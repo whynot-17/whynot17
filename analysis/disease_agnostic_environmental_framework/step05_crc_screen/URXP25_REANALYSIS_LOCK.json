@@ -1,0 +1,50 @@
+{
+  "lock_type": "URXP25_DIAGNOSTIC_REANALYSIS",
+  "run_timestamp_utc": "2026-08-26T10:37:08.276744+00:00",
+  "scope": "URXP25 only",
+  "does_not_modify": [
+    "full_29_test_crc_screen.csv",
+    "crc_bh_fdr_29_tests.csv",
+    "other 28 tests"
+  ],
+  "tests_input": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step04_testset_freeze\\unique_biomarker_test_set.csv",
+  "tests_input_sha256": "6b284b23d69f74991fc28978c85c1e39d10f096e2fd4d42290046df8224c3a9e",
+  "registry_input": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\data_processed\\detectability_registry_outcome_blinded.csv",
+  "registry_input_sha256": "6db7f7c171bc912d054b56725d3412616197f087abd7446b0fd554c9ff125646",
+  "model_script": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\scripts\\mbzp_crc_phase2b.py",
+  "model_script_sha256": "df96541e3662c6a57b70d6f8e7adbe4ffefb6677e827b13bb1d7fc5382d54d9c",
+  "reanalysis": {
+    "variable": "URXP25",
+    "chemical_mapping": "1-methylanthracene;1-methylbenz(a)anthracene;1-methylphenanthrene;11-methylbenzanthracene;12-methylbenzanthracene;2-methylanthracene;2-methylbenz(a)anthracene;2-methylphenanthrene;4-methylbenz(a)anthracene;5-methylbenzanthracene;6-methylbenz(a)anthracene;7-methylbenzanthracene;8-methylbenzanthracene;9,10-Dimethyl-1,2-benzanthracene;9,10-bis(phenylethynyl)anthracene;9,10-dimethylanthracene;9,10-diphenylanthracene;9-ethynylphenanthrene;9-methylanthracene;anthracene;benz(a)anthracene;benzo(c)phenanthrene;perfluorophenanthrene;phenanthrene",
+    "source_cycles": "2013-2014;2015-2016;2017-2018",
+    "source_registry_status": "ok",
+    "source_registry_rows": 9013,
+    "source_exposure_rows": 9013,
+    "source_nonmissing_exposure": 8459,
+    "old_step5_harmonized_rows": 17382,
+    "old_step5_merge_rows": 0,
+    "old_step5_analytic_n": 0,
+    "old_step5_status": "not_estimable",
+    "repaired_universal_frame_rows": 28242,
+    "repaired_merge_rows": 9013,
+    "repaired_complete_case_n": 4275,
+    "repaired_crc_cases": 30,
+    "repaired_controls": 4245,
+    "repaired_status": "ok",
+    "repaired_beta": 0.1396868379709853,
+    "repaired_SE": 0.3016898141936863,
+    "repaired_OR": 1.1499136331785056,
+    "repaired_CI_low": 0.6262863156594793,
+    "repaired_CI_high": 2.1113368290306767,
+    "repaired_P": 0.645585248923222,
+    "repaired_design_df": 45,
+    "repaired_message": "Newton-IRLS converged",
+    "repaired_model": "CRC ~ log2(URXP25) + age + sex + race + BMI + smoking + PIR + log2(creatinine)",
+    "repair_scope": "isolated URXP25 diagnostic/reanalysis; frozen 29-test screen and BH-FDR unchanged"
+  },
+  "outputs": {
+    "URXP25_REANALYSIS.csv": "ad432aa04fb1e6b56089dc6a1a09c50ae848906f715c2d7ced48e3c0db444cdd",
+    "URXP25_DIAGNOSTIC_BY_CYCLE.csv": "b85927f0740939c9438c4735303881ee53ea62abac3ac48348ce6a59ab1c2b9d",
+    "URXP25_DIAGNOSTIC_AUDIT.md": "167be3d0d20bf36cdb0fd82d960b845b48dae6b6ff2ff7d7a22aeb8b5e5a5055"
+  }
+}
