@@ -1,0 +1,743 @@
+{
+  "analysis": "Step 5 uniform CRC screen for frozen disease-agnostic test set",
+  "run_timestamp_utc": "2026-08-26T10:24:58.783215+00:00",
+  "n_frozen_tests": 29,
+  "fdr_denominator": 29,
+  "n_finite_p_values": 28,
+  "n_nominal_p_lt_0_05": 5,
+  "n_fdr_supported": 2,
+  "outcome_definition": "MCQ220=1 plus colon/rectal code 16/31 vs MCQ220=2; age >=20",
+  "source_manifest_n": 90,
+  "source_manifest": [
+    {
+      "cycle": "1999-2000",
+      "component": "lab",
+      "local_file": "1999-2000_PHPYPA.XPT",
+      "source_stem": "PHPYPA",
+      "bytes": 1514800,
+      "sha256": "b26f557f9dfa11b3273a6ab6653e85172a6c7316e48267bdcbf9d597a2d6e084"
+    },
+    {
+      "cycle": "1999-2000",
+      "component": "mcq",
+      "local_file": "1999-2000_MCQ.XPT",
+      "source_stem": "MCQ",
+      "bytes": 12706880,
+      "sha256": "3bf45a296282a80baa23b4651c655cf422a235a08a142aa2ab5dd7ca963a2e5a"
+    },
+    {
+      "cycle": "1999-2000",
+      "component": "demo",
+      "local_file": "1999-2000_DEMO.XPT",
+      "source_stem": "DEMO",
+      "bytes": 11500560,
+      "sha256": "a17bd1ebfd6007b8dc93f16259cb090678eb6c467a39363b7e932bba15febf89"
+    },
+    {
+      "cycle": "1999-2000",
+      "component": "bmx",
+      "local_file": "1999-2000_BMX.XPT",
+      "source_stem": "BMX",
+      "bytes": 2827840,
+      "sha256": "6b9bc4d998c0004fc42b213cc7f5bf347df937707f46d6d25fab926723a60500"
+    },
+    {
+      "cycle": "1999-2000",
+      "component": "smq",
+      "local_file": "1999-2000_SMQ.XPT",
+      "source_stem": "SMQ",
+      "bytes": 1733760,
+      "sha256": "fb1505ea08e310a5cb703ccae0e220aede3da812674e9e53f832fe76e31c2ce3"
+    },
+    {
+      "cycle": "1999-2000",
+      "component": "alq",
+      "local_file": "1999-2000_ALQ.XPT",
+      "source_stem": "ALQ",
+      "bytes": 322000,
+      "sha256": "7164f56e28c150b4218014f72b40735a5ca901686726a9215effc29209b68c9c"
+    },
+    {
+      "cycle": "1999-2000",
+      "component": "diq",
+      "local_file": "1999-2000_DIQ.XPT",
+      "source_stem": "DIQ",
+      "bytes": 1294240,
+      "sha256": "85f1816a9d1809290012c2e58741f266ef811a63e51f75f7856538593c89cf7d"
+    },
+    {
+      "cycle": "1999-2000",
+      "component": "paq",
+      "local_file": "1999-2000_PAQ.XPT",
+      "source_stem": "PAQ",
+      "bytes": 1547280,
+      "sha256": "e256a0fe7fdc99fcd7fd23245b82b2aea84586ed3a65767c08b10ee68f96b8fa"
+    },
+    {
+      "cycle": "1999-2000",
+      "component": "creatinine",
+      "local_file": "1999-2000_ALB_CR.XPT",
+      "source_stem": "LAB16",
+      "bytes": 314240,
+      "sha256": "93e47660c2c647d368549b1ff940eee4aa12015906395cfa432721fc4c00feea"
+    },
+    {
+      "cycle": "2001-2002",
+      "component": "lab",
+      "local_file": "2001-2002_PHPYPA.XPT",
+      "source_stem": "PHPYPA_B",
+      "bytes": 724640,
+      "sha256": "d20278e4c4ec84766beaad66282cb08f153430531f64fa69f29b2a525c335b5b"
+    },
+    {
+      "cycle": "2001-2002",
+      "component": "mcq",
+      "local_file": "2001-2002_MCQ.XPT",
+      "source_stem": "MCQ_B",
+      "bytes": 12417920,
+      "sha256": "6e31c8d78e1ab0d1aaa8f012411641d6b51bc9601c2237d999d0acdddd04de01"
+    },
+    {
+      "cycle": "2001-2002",
+      "component": "demo",
+      "local_file": "2001-2002_DEMO.XPT",
+      "source_stem": "DEMO_B",
+      "bytes": 3273520,
+      "sha256": "6458dc2307cee244ab6ba26f70ec78c7b842ffc68e668bc43f0ab6b9737937d9"
+    },
+    {
+      "cycle": "2001-2002",
+      "component": "bmx",
+      "local_file": "2001-2002_BMX.XPT",
+      "source_stem": "BMX_B",
+      "bytes": 2183680,
+      "sha256": "55715d4387960f88e48a2adf44da0b270a83290b1edf7c8e4ecc0eb2c29c59cf"
+    },
+    {
+      "cycle": "2001-2002",
+      "component": "smq",
+      "local_file": "2001-2002_SMQ.XPT",
+      "source_stem": "SMQ_B",
+      "bytes": 2073680,
+      "sha256": "179d7ad46de9478824d475de0e6425f474b34dd4798066a552acd31b89f07fde"
+    },
+    {
+      "cycle": "2001-2002",
+      "component": "alq",
+      "local_file": "2001-2002_ALQ.XPT",
+      "source_stem": "ALQ_B",
+      "bytes": 364000,
+      "sha256": "ed2f90b82e1d9dc87ada702c2fb3f11c7f53942bd5a7a6d7463c209b894e3765"
+    },
+    {
+      "cycle": "2001-2002",
+      "component": "diq",
+      "local_file": "2001-2002_DIQ.XPT",
+      "source_stem": "DIQ_B",
+      "bytes": 1427040,
+      "sha256": "795aece6fa9a755744a4c1171cfce827fc3798ac4a4a04c894facac8176efb61"
+    },
+    {
+      "cycle": "2001-2002",
+      "component": "paq",
+      "local_file": "2001-2002_PAQ.XPT",
+      "source_stem": "PAQ_B",
+      "bytes": 1699520,
+      "sha256": "c03073bb2e50ac4a97b588947fd4b4783a3b5c43da07a9d9a53f0879ec0b9229"
+    },
+    {
+      "cycle": "2001-2002",
+      "component": "creatinine",
+      "local_file": "2001-2002_ALB_CR.XPT",
+      "source_stem": "L16_B",
+      "bytes": 347360,
+      "sha256": "730e2cf809f940ef7240187006bc11542996692305ce1ae27cc6471f1369167e"
+    },
+    {
+      "cycle": "2003-2004",
+      "component": "lab",
+      "local_file": "2003-2004_L24PH.XPT",
+      "source_stem": "L24PH_C",
+      "bytes": 630560,
+      "sha256": "3c2847a7f5fa5acd5f50f846e648b9f9a0507af9a272c865d25d11d38b77dc54"
+    },
+    {
+      "cycle": "2003-2004",
+      "component": "mcq",
+      "local_file": "2003-2004_MCQ.XPT",
+      "source_stem": "MCQ_C",
+      "bytes": 11904960,
+      "sha256": "42487737067c5dbdf533bb91b5f752d1fff1dfa9eed91c7ae54ab5e49b65b019"
+    },
+    {
+      "cycle": "2003-2004",
+      "component": "demo",
+      "local_file": "2003-2004_DEMO.XPT",
+      "source_stem": "DEMO_C",
+      "bytes": 3569840,
+      "sha256": "2a2fdb88263337bfa06f0516bfb419631595f0a0ee88fb96069bed13d1857c6f"
+    },
+    {
+      "cycle": "2003-2004",
+      "component": "bmx",
+      "local_file": "2003-2004_BMX.XPT",
+      "source_stem": "BMX_C",
+      "bytes": 2551120,
+      "sha256": "b3d3e431b5964ea8b5807035044322fcf32f3878d814d4a844204e51c793f090"
+    },
+    {
+      "cycle": "2003-2004",
+      "component": "smq",
+      "local_file": "2003-2004_SMQ.XPT",
+      "source_stem": "SMQ_C",
+      "bytes": 1932320,
+      "sha256": "fbfe1e4b286ab43fdc3fd84c3830bb241b8b5ca84b3ab5902b8808e4136efc2c"
+    },
+    {
+      "cycle": "2003-2004",
+      "component": "alq",
+      "local_file": "2003-2004_ALQ.XPT",
+      "source_stem": "ALQ_C",
+      "bytes": 343440,
+      "sha256": "e223a963ad4470e1a2e0dd1561b55a3fa91781dab3b46f5017f9eb1f62d0ced9"
+    },
+    {
+      "cycle": "2003-2004",
+      "component": "diq",
+      "local_file": "2003-2004_DIQ.XPT",
+      "source_stem": "DIQ_C",
+      "bytes": 1314880,
+      "sha256": "e64a1db590d733c812359abb0da6fdc3f20860ec3f89aec24442df994e90befe"
+    },
+    {
+      "cycle": "2003-2004",
+      "component": "paq",
+      "local_file": "2003-2004_PAQ.XPT",
+      "source_stem": "PAQ_C",
+      "bytes": 1488000,
+      "sha256": "085928dcff32acc98efc8d1d30eeceb022b56d6ab565e0572251a325a576c765"
+    },
+    {
+      "cycle": "2003-2004",
+      "component": "creatinine",
+      "local_file": "2003-2004_ALB_CR.XPT",
+      "source_stem": "L16_C",
+      "bytes": 320720,
+      "sha256": "577f7ca1af1b146c9eba640b8a5a2b33de731d97cb40de91d07b49df9b1545b4"
+    },
+    {
+      "cycle": "2005-2006",
+      "component": "lab",
+      "local_file": "2005-2006_PHTHTE.XPT",
+      "source_stem": "PHTHTE_D",
+      "bytes": 701840,
+      "sha256": "5ed37a3d5d34a15db34d23806624f45ce2f217c4b6fadef31d6aa031ccaa572e"
+    },
+    {
+      "cycle": "2005-2006",
+      "component": "mcq",
+      "local_file": "2005-2006_MCQ.XPT",
+      "source_stem": "MCQ_D",
+      "bytes": 7006480,
+      "sha256": "12bf5f557c97284e096a8cd8aefbc8e3ab9f12a410c2f50474c4dfddd2ebf6f4"
+    },
+    {
+      "cycle": "2005-2006",
+      "component": "demo",
+      "local_file": "2005-2006_DEMO.XPT",
+      "source_stem": "DEMO_D",
+      "bytes": 3566560,
+      "sha256": "bf9cc79cce501b2fbe5aa8d5b403b618548d02d4aefeb528335cdd9f4c40a3af"
+    },
+    {
+      "cycle": "2005-2006",
+      "component": "bmx",
+      "local_file": "2005-2006_BMX.XPT",
+      "source_stem": "BMX_D",
+      "bytes": 2153760,
+      "sha256": "a52909be94cf825ba8a65477a9528603576fd5fbf3abadd72549a3f15c88566e"
+    },
+    {
+      "cycle": "2005-2006",
+      "component": "smq",
+      "local_file": "2005-2006_SMQ.XPT",
+      "source_stem": "SMQ_D",
+      "bytes": 2578880,
+      "sha256": "ef82433aca1a36ba2310a624ccdbaf195e2a258a88af0f284ef2a58d36be3011"
+    },
+    {
+      "cycle": "2005-2006",
+      "component": "alq",
+      "local_file": "2005-2006_ALQ.XPT",
+      "source_stem": "ALQ_D",
+      "bytes": 345680,
+      "sha256": "be651da341d629cf2456e5c2fa0387c48fa67cd0949d6dc9acc46ff6060bcabe"
+    },
+    {
+      "cycle": "2005-2006",
+      "component": "diq",
+      "local_file": "2005-2006_DIQ.XPT",
+      "source_stem": "DIQ_D",
+      "bytes": 2834560,
+      "sha256": "ac81ed56d09aadbe12df39c6991d9f4d9cfa04211aee4d103d38c981390b826e"
+    },
+    {
+      "cycle": "2005-2006",
+      "component": "paq",
+      "local_file": "2005-2006_PAQ.XPT",
+      "source_stem": "PAQ_D",
+      "bytes": 1511360,
+      "sha256": "a2c21b90a964aaa08a854d66526b29a1a7ad009d8a26c3cc9a8c18bf70f0c0aa"
+    },
+    {
+      "cycle": "2005-2006",
+      "component": "creatinine",
+      "local_file": "2005-2006_ALB_CR.XPT",
+      "source_stem": "ALB_CR_D",
+      "bytes": 324880,
+      "sha256": "694c4d9bd6e966b8973f31c64fb89f8577896717f7049551f8fa044c7c366a7b"
+    },
+    {
+      "cycle": "2007-2008",
+      "component": "lab",
+      "local_file": "2007-2008_PHTHTE.XPT",
+      "source_stem": "PHTHTE_E",
+      "bytes": 722960,
+      "sha256": "1cd285c7023329f425d59934fb490e4ef10b624c10af769321832a474a7e5ddc"
+    },
+    {
+      "cycle": "2007-2008",
+      "component": "mcq",
+      "local_file": "2007-2008_MCQ.XPT",
+      "source_stem": "MCQ_E",
+      "bytes": 7127840,
+      "sha256": "dfbe11c6b036ec4e79aeba7805833fc4951c74662a9510066c3a93932f6990e6"
+    },
+    {
+      "cycle": "2007-2008",
+      "component": "demo",
+      "local_file": "2007-2008_DEMO.XPT",
+      "source_stem": "DEMO_E",
+      "bytes": 3498080,
+      "sha256": "02b8e97703d04bc99769c751881bece51ac9ba68cf18a2992a45d3bdfb856147"
+    },
+    {
+      "cycle": "2007-2008",
+      "component": "bmx",
+      "local_file": "2007-2008_BMX.XPT",
+      "source_stem": "BMX_E",
+      "bytes": 1800240,
+      "sha256": "b67b50dbd12c9510b49b6348b595b9fd073c422c0c6eac182f90ac57b491a97d"
+    },
+    {
+      "cycle": "2007-2008",
+      "component": "smq",
+      "local_file": "2007-2008_SMQ.XPT",
+      "source_stem": "SMQ_E",
+      "bytes": 2449520,
+      "sha256": "881865ee05f4b2be0c03c761f00ad8e355f2cc5e7d3be41666edef6f3dca5862"
+    },
+    {
+      "cycle": "2007-2008",
+      "component": "alq",
+      "local_file": "2007-2008_ALQ.XPT",
+      "source_stem": "ALQ_E",
+      "bytes": 412960,
+      "sha256": "3fca970ac6ed096119d47962f3c72157dde7c11b13a499380e9a1bbb33123789"
+    },
+    {
+      "cycle": "2007-2008",
+      "component": "diq",
+      "local_file": "2007-2008_DIQ.XPT",
+      "source_stem": "DIQ_E",
+      "bytes": 2789600,
+      "sha256": "fb4d698fbec26bc8a09b2cd0f3019f815114742dd2c37ccac1aaf5e0123394c5"
+    },
+    {
+      "cycle": "2007-2008",
+      "component": "paq",
+      "local_file": "2007-2008_PAQ.XPT",
+      "source_stem": "PAQ_E",
+      "bytes": 1576000,
+      "sha256": "cc4fe3815c0e3602f69db33a3709bf06b7bca38c21d6b2f74d1bb5c98a5ff35a"
+    },
+    {
+      "cycle": "2007-2008",
+      "component": "creatinine",
+      "local_file": "2007-2008_ALB_CR.XPT",
+      "source_stem": "ALB_CR_E",
+      "bytes": 326720,
+      "sha256": "6bf8018a465499043d5aeb89ac6d38ab4bc25a126ec663979bbbeffe0afdc2d8"
+    },
+    {
+      "cycle": "2009-2010",
+      "component": "lab",
+      "local_file": "2009-2010_PHTHTE.XPT",
+      "source_stem": "PHTHTE_F",
+      "bytes": 749600,
+      "sha256": "aeaae6409c168258d888bea3010e14a84dad9b5a519ac7cf2f40df1f4ea5aea0"
+    },
+    {
+      "cycle": "2009-2010",
+      "component": "mcq",
+      "local_file": "2009-2010_MCQ.XPT",
+      "source_stem": "MCQ_F",
+      "bytes": 6562720,
+      "sha256": "c2f0f9223c6a9e38e5bf6d26501c4b11d3cfd97b82db46e1c9c266f24761c457"
+    },
+    {
+      "cycle": "2009-2010",
+      "component": "demo",
+      "local_file": "2009-2010_DEMO.XPT",
+      "source_stem": "DEMO_F",
+      "bytes": 3631600,
+      "sha256": "78c4d4a6e5eafa9da3bbb24a90d140fef5d8c0cda932a7ff8ee609288d4fae07"
+    },
+    {
+      "cycle": "2009-2010",
+      "component": "bmx",
+      "local_file": "2009-2010_BMX.XPT",
+      "source_stem": "BMX_F",
+      "bytes": 1890560,
+      "sha256": "1fa42e07764037674c3f56e1e76f990e10c32245897597de3d731c57b91d869a"
+    },
+    {
+      "cycle": "2009-2010",
+      "component": "smq",
+      "local_file": "2009-2010_SMQ.XPT",
+      "source_stem": "SMQ_F",
+      "bytes": 2580560,
+      "sha256": "ee85c82ea55046eb7bf491088b5bb9efecbea8aaf66ae8c89123bad23a5f1901"
+    },
+    {
+      "cycle": "2009-2010",
+      "component": "alq",
+      "local_file": "2009-2010_ALQ.XPT",
+      "source_stem": "ALQ_F",
+      "bytes": 438320,
+      "sha256": "15a46b2310d5ba90e1488df5f84846d97468247b0aae6608407fa9bf2405d0d1"
+    },
+    {
+      "cycle": "2009-2010",
+      "component": "diq",
+      "local_file": "2009-2010_DIQ.XPT",
+      "source_stem": "DIQ_F",
+      "bytes": 1620960,
+      "sha256": "7e90371cbc98e77a9684eff32ffa0e4ee3e8fc04d97581a8773e19cb9fe901fa"
+    },
+    {
+      "cycle": "2009-2010",
+      "component": "paq",
+      "local_file": "2009-2010_PAQ.XPT",
+      "source_stem": "PAQ_F",
+      "bytes": 1645280,
+      "sha256": "02d25e8312a36103ff6ed416dfd597fb109f5a299cc951477337ff8fe694aa84"
+    },
+    {
+      "cycle": "2009-2010",
+      "component": "creatinine",
+      "local_file": "2009-2010_ALB_CR.XPT",
+      "source_stem": "ALB_CR_F",
+      "bytes": 758400,
+      "sha256": "f902e8892db69054e8898022dc1ced19770cc2fa613bf2655455f6a4f1cfbb67"
+    },
+    {
+      "cycle": "2011-2012",
+      "component": "lab",
+      "local_file": "2011-2012_PHTHTE.XPT",
+      "source_stem": "PHTHTE_G",
+      "bytes": 648480,
+      "sha256": "d858d116a6249848f912b1d7d96430de58bb73fafac64c1fb03dac673e021ec2"
+    },
+    {
+      "cycle": "2011-2012",
+      "component": "mcq",
+      "local_file": "2011-2012_MCQ.XPT",
+      "source_stem": "MCQ_G",
+      "bytes": 6905520,
+      "sha256": "7538eb86c72b81fd5e76b56120fcb068ed38149d44650e9e750670ad58658d52"
+    },
+    {
+      "cycle": "2011-2012",
+      "component": "demo",
+      "local_file": "2011-2012_DEMO.XPT",
+      "source_stem": "DEMO_G",
+      "bytes": 3753760,
+      "sha256": "eaf0525d1952626885af3e935415a1f66ad62c18698080e7354789c125af252d"
+    },
+    {
+      "cycle": "2011-2012",
+      "component": "bmx",
+      "local_file": "2011-2012_BMX.XPT",
+      "source_stem": "BMX_G",
+      "bytes": 1946720,
+      "sha256": "4814bfc3047ed400b9d43d285f8c3ea7c940ac6489404a9b699579715d158ec3"
+    },
+    {
+      "cycle": "2011-2012",
+      "component": "smq",
+      "local_file": "2011-2012_SMQ.XPT",
+      "source_stem": "SMQ_G",
+      "bytes": 1946960,
+      "sha256": "69f2375f036a815082b1e97110e79c505b91e0985c61696f8eaacf94828115dc"
+    },
+    {
+      "cycle": "2011-2012",
+      "component": "alq",
+      "local_file": "2011-2012_ALQ.XPT",
+      "source_stem": "ALQ_G",
+      "bytes": 451360,
+      "sha256": "5f06ba3506f9d69cedffa0380ad0cecbc15df2d6d9b7a3644ac3e2678aaac5e5"
+    },
+    {
+      "cycle": "2011-2012",
+      "component": "diq",
+      "local_file": "2011-2012_DIQ.XPT",
+      "source_stem": "DIQ_G",
+      "bytes": 3978560,
+      "sha256": "a9d5475e0cd66d6a7bc30230345ed0172a9abcbc0a7a4145a35025c827a52a87"
+    },
+    {
+      "cycle": "2011-2012",
+      "component": "paq",
+      "local_file": "2011-2012_PAQ.XPT",
+      "source_stem": "PAQ_G",
+      "bytes": 1533680,
+      "sha256": "6b56874f6c3af191aebcb10316c028bc1ae1d4f89d0aafc00cc080c9f533b32a"
+    },
+    {
+      "cycle": "2011-2012",
+      "component": "creatinine",
+      "local_file": "2011-2012_ALB_CR.XPT",
+      "source_stem": "ALB_CR_G",
+      "bytes": 377040,
+      "sha256": "46c5733d0bdb1d4bbe841614a3e6ef6b9dab8501f455af4f841cc43a312e579d"
+    },
+    {
+      "cycle": "2013-2014",
+      "component": "lab",
+      "local_file": "2013-2014_PHTHTE.XPT",
+      "source_stem": "PHTHTE_H",
+      "bytes": 649120,
+      "sha256": "248209bd9171597729674e285f11e8ba0be056f03c49c727491372450b5694de"
+    },
+    {
+      "cycle": "2013-2014",
+      "component": "mcq",
+      "local_file": "2013-2014_MCQ.XPT",
+      "source_stem": "MCQ_H",
+      "bytes": 7439280,
+      "sha256": "5c83210e6e1fe929282621322ed0f94d95cdb0a37ccaff36f703ab0b2e7b9dc6"
+    },
+    {
+      "cycle": "2013-2014",
+      "component": "demo",
+      "local_file": "2013-2014_DEMO.XPT",
+      "source_stem": "DEMO_H",
+      "bytes": 3833200,
+      "sha256": "f8f0cbb3085a323d4cde22349b164878fea1e64dbc404e65b5815c7816b547d7"
+    },
+    {
+      "cycle": "2013-2014",
+      "component": "bmx",
+      "local_file": "2013-2014_BMX.XPT",
+      "source_stem": "BMX_H",
+      "bytes": 2045520,
+      "sha256": "fd5e9fc6e6aab0a4aee6e699f51497bbc9b62101f7f43aee924c473e38fd9442"
+    },
+    {
+      "cycle": "2013-2014",
+      "component": "smq",
+      "local_file": "2013-2014_SMQ.XPT",
+      "source_stem": "SMQ_H",
+      "bytes": 2170000,
+      "sha256": "86d74bb8842ce6d60350944417cbd3e9ee39dd5a9fa1bda33426f276b673861f"
+    },
+    {
+      "cycle": "2013-2014",
+      "component": "alq",
+      "local_file": "2013-2014_ALQ.XPT",
+      "source_stem": "ALQ_H",
+      "bytes": 476080,
+      "sha256": "174e4dd21e05f81df8bc786a6e76253a2cdc07503cd7cde4c7dd1c1b9d3e3098"
+    },
+    {
+      "cycle": "2013-2014",
+      "component": "diq",
+      "local_file": "2013-2014_DIQ.XPT",
+      "source_stem": "DIQ_H",
+      "bytes": 4228960,
+      "sha256": "c74c7ccef65e6997dfac1db1e73bc3f63dec67c70b2e322ffc14f14ce27429a9"
+    },
+    {
+      "cycle": "2013-2014",
+      "component": "paq",
+      "local_file": "2013-2014_PAQ.XPT",
+      "source_stem": "PAQ_H",
+      "bytes": 7297920,
+      "sha256": "fa35acbb489594e8e55350f7402a12b5a607805c28ec16246929d33237bd3269"
+    },
+    {
+      "cycle": "2013-2014",
+      "component": "creatinine",
+      "local_file": "2013-2014_ALB_CR.XPT",
+      "source_stem": "ALB_CR_H",
+      "bytes": 399600,
+      "sha256": "65adbd6c87541464e69fa2da54fb2c5e9e0c198fa322943a21ccbcacd8c40670"
+    },
+    {
+      "cycle": "2015-2016",
+      "component": "lab",
+      "local_file": "2015-2016_PHTHTE.XPT",
+      "source_stem": "PHTHTE_I",
+      "bytes": 877280,
+      "sha256": "9934f4befb8519daceb36358a10a6052b24b3452d85e55a47524544054f987e4"
+    },
+    {
+      "cycle": "2015-2016",
+      "component": "mcq",
+      "local_file": "2015-2016_MCQ.XPT",
+      "source_stem": "MCQ_I",
+      "bytes": 6907360,
+      "sha256": "8b2bd62f5bcd5820d6aac380e4bad233d22ecab42fcf4a3a9a023ffc6b9f4002"
+    },
+    {
+      "cycle": "2015-2016",
+      "component": "demo",
+      "local_file": "2015-2016_DEMO.XPT",
+      "source_stem": "DEMO_I",
+      "bytes": 3756480,
+      "sha256": "c9297c6c37ae8f78f29be9568fa2a03cf3b112616a39afee04030fc775a66a0d"
+    },
+    {
+      "cycle": "2015-2016",
+      "component": "bmx",
+      "local_file": "2015-2016_BMX.XPT",
+      "source_stem": "BMX_I",
+      "bytes": 1989600,
+      "sha256": "d31da84e14212b4e58e8340598a5b8e2144fac83333563e966eb1b332e4141d6"
+    },
+    {
+      "cycle": "2015-2016",
+      "component": "smq",
+      "local_file": "2015-2016_SMQ.XPT",
+      "source_stem": "SMQ_I",
+      "bytes": 2681040,
+      "sha256": "529ce1c407e99dce937ca75d14c8c630e0c9c30a4a9a851760cd2884bbb28fe0"
+    },
+    {
+      "cycle": "2015-2016",
+      "component": "alq",
+      "local_file": "2015-2016_ALQ.XPT",
+      "source_stem": "ALQ_I",
+      "bytes": 460960,
+      "sha256": "ed445c40ec3f3f993f78321f86e513340d4f131708c7624d88803bde3909102d"
+    },
+    {
+      "cycle": "2015-2016",
+      "component": "diq",
+      "local_file": "2015-2016_DIQ.XPT",
+      "source_stem": "DIQ_I",
+      "bytes": 4144720,
+      "sha256": "e87587479b29f175b63eee5dd40d582837e3e3fe2665503012085eefdb978e0d"
+    },
+    {
+      "cycle": "2015-2016",
+      "component": "paq",
+      "local_file": "2015-2016_PAQ.XPT",
+      "source_stem": "PAQ_I",
+      "bytes": 6973680,
+      "sha256": "c508dc563a907b2fcd05048f37008197257a3e1c6eb64563623c60459c1afc9d"
+    },
+    {
+      "cycle": "2015-2016",
+      "component": "creatinine",
+      "local_file": "2015-2016_ALB_CR.XPT",
+      "source_stem": "ALB_CR_I",
+      "bytes": 552800,
+      "sha256": "af61c16db8d9e96549bf0fb446049ff0631ae1ccf7e2dcd017d28edba84dbe3d"
+    },
+    {
+      "cycle": "2017-2018",
+      "component": "lab",
+      "local_file": "2017-2018_PHTHTE.XPT",
+      "source_stem": "PHTHTE_J",
+      "bytes": 961840,
+      "sha256": "89e55b4459086e41e815228b18c144a8046bf9e2391137c3602cce92dfd3b67d"
+    },
+    {
+      "cycle": "2017-2018",
+      "component": "mcq",
+      "local_file": "2017-2018_MCQ.XPT",
+      "source_stem": "MCQ_J",
+      "bytes": 5420800,
+      "sha256": "79c50c805a377fcd61d44fae8b86a16af0a5741f8b1aeebda918d7d743c68f98"
+    },
+    {
+      "cycle": "2017-2018",
+      "component": "demo",
+      "local_file": "2017-2018_DEMO.XPT",
+      "source_stem": "DEMO_J",
+      "bytes": 3412720,
+      "sha256": "c0b46e0345ea19404928656277c8b0d10b0cca348a9b2fe4fc3c67e8b7ee73ec"
+    },
+    {
+      "cycle": "2017-2018",
+      "component": "bmx",
+      "local_file": "2017-2018_BMX.XPT",
+      "source_stem": "BMX_J",
+      "bytes": 1466000,
+      "sha256": "8d675e42d8826ac98714b2c3dd4c5138a5e353fb4424f7eff5e6db4a01ce838a"
+    },
+    {
+      "cycle": "2017-2018",
+      "component": "smq",
+      "local_file": "2017-2018_SMQ.XPT",
+      "source_stem": "SMQ_J",
+      "bytes": 2305600,
+      "sha256": "73c3708e540cbf520a566508aa629c3e4ba53cad77dae9388ca36384646455f4"
+    },
+    {
+      "cycle": "2017-2018",
+      "component": "alq",
+      "local_file": "2017-2018_ALQ.XPT",
+      "source_stem": "ALQ_J",
+      "bytes": 444800,
+      "sha256": "53006d407764ad16491f823d25f2781ba55363aee9cb304d3f5d9450cf25d5c1"
+    },
+    {
+      "cycle": "2017-2018",
+      "component": "diq",
+      "local_file": "2017-2018_DIQ.XPT",
+      "source_stem": "DIQ_J",
+      "bytes": 3851840,
+      "sha256": "1ecbf5360dfc331d1efbf32198553dc30e9a1f4cff0a907ed30ca72bac797f89"
+    },
+    {
+      "cycle": "2017-2018",
+      "component": "paq",
+      "local_file": "2017-2018_PAQ.XPT",
+      "source_stem": "PAQ_J",
+      "bytes": 799600,
+      "sha256": "048120aa3a5c8b5cd457ad3e13dfd62d728b12ea6644960e933ad374ec907e79"
+    },
+    {
+      "cycle": "2017-2018",
+      "component": "creatinine",
+      "local_file": "2017-2018_ALB_CR.XPT",
+      "source_stem": "ALB_CR_J",
+      "bytes": 509760,
+      "sha256": "0017a7b8d87d29009923e22300b4ec393b06c9bbf6147eb6b2d777aca605bcbf"
+    }
+  ],
+  "output_files": [
+    "CRC_outcome_definition.md",
+    "CRC_case_control_ledger.csv",
+    "full_29_test_crc_screen.csv",
+    "crc_bh_fdr_29_tests.csv",
+    "model_diagnostics.csv",
+    "sample_size_by_test.csv",
+    "STEP5_CRC_SCREEN_REPORT.md",
+    "CRC_SCREEN_LOCK.json"
+  ]
+}
