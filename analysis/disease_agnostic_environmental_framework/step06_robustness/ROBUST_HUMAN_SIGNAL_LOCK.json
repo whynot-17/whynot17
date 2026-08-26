@@ -1,0 +1,105 @@
+{
+  "lock_type": "ROBUST_HUMAN_SIGNAL_LOCK",
+  "run_timestamp_utc": "2026-08-26T10:32:50.674830+00:00",
+  "scope": [
+    "URXCOP",
+    "LBXPFHS"
+  ],
+  "fdr_denominator": 29,
+  "step5_screen": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step05_crc_screen\\full_29_test_crc_screen.csv",
+  "step5_screen_sha256": "415a383a1b0c365c9012c62b2ff6ac0d8e776c07b220387d90b12283f660a6a6",
+  "step5_fdr": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step05_crc_screen\\crc_bh_fdr_29_tests.csv",
+  "step5_fdr_sha256": "43b363a5bcf78cdc1b8f2440e582487bf04b985c6fe8f8ec9aca7ab7ee5785cb",
+  "step4_test_set": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step04_testset_freeze\\unique_biomarker_test_set.csv",
+  "step4_test_set_sha256": "6b284b23d69f74991fc28978c85c1e39d10f096e2fd4d42290046df8224c3a9e",
+  "registry": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\data_processed\\detectability_registry_outcome_blinded.csv",
+  "registry_sha256": "6db7f7c171bc912d054b56725d3412616197f087abd7446b0fd554c9ff125646",
+  "model_script": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\scripts\\mbzp_crc_phase2b.py",
+  "model_script_sha256": "df96541e3662c6a57b70d6f8e7adbe4ffefb6677e827b13bb1d7fc5382d54d9c",
+  "rubric": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_robustness\\ROBUSTNESS_RUBRIC_LOCK.md",
+  "rubric_sha256": "e3f7a732ca425ef60d9a94d9fd2a8d4853d9587cc32f780f5c683790ab0cb84d",
+  "estimator": "Python NHANES survey-weighted Taylor/PSU-sandwich logistic estimator reused from Step 5",
+  "primary_reproduction_max_absolute_logOR_difference": 3.33066907387547e-16,
+  "primary_results": [
+    {
+      "variable": "LBXPFHS",
+      "step5_OR": 0.624413716483948,
+      "step6_rerun_OR": 0.6244137164839481,
+      "absolute_logOR_difference": 2.2204460492503128e-16,
+      "step5_P": 0.0014600806539248,
+      "step5_BH_FDR_29": 0.0423423389638195,
+      "step5_status": "converged_with_warning",
+      "step6_status": "converged_with_warning"
+    },
+    {
+      "variable": "URXCOP",
+      "step5_OR": 1.2455067762777354,
+      "step6_rerun_OR": 1.245506776277735,
+      "absolute_logOR_difference": 3.33066907387547e-16,
+      "step5_P": 0.0033113585227656,
+      "step5_BH_FDR_29": 0.0480146985801017,
+      "step5_status": "ok",
+      "step6_status": "ok"
+    }
+  ],
+  "tier_counts": {
+    "Tier B": 1,
+    "Robust Tier A": 1
+  },
+  "warning_assessment": [
+    {
+      "primary_biomarker": "LBXPFHS",
+      "audit_status": "warning",
+      "warning_assessment": "persistent convergence warning",
+      "warning_status_distribution": "converged_with_warning=19;ok=1"
+    },
+    {
+      "primary_biomarker": "URXCOP",
+      "audit_status": "pass",
+      "warning_assessment": "localized convergence warning",
+      "warning_status_distribution": "converged_with_warning=3;ok=24"
+    }
+  ],
+  "outputs": {
+    "robustness_results.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_robustness\\robustness_results.csv",
+      "sha256": "07f16efbdbf0357b9953192f3cdf218ca8a81416592668a4af3fcf0d68695902"
+    },
+    "loco_results.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_robustness\\loco_results.csv",
+      "sha256": "cc68df2f1b27935c9591670a78e82fc0d5b6aa9de711a5cc2d84741e86aa3e47"
+    },
+    "cycle_specific_results.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_robustness\\cycle_specific_results.csv",
+      "sha256": "7211cac2c1dffb7510140f00824c592936575fc0c180d7a0dab46a9c1f06d64c"
+    },
+    "cycle_heterogeneity.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_robustness\\cycle_heterogeneity.csv",
+      "sha256": "6b6c48e0654a87a64172c409e805e8c119a3ec0e028dcd7235bf67003afac6d1"
+    },
+    "sensitivity_results.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_robustness\\sensitivity_results.csv",
+      "sha256": "af8ae6498dc8befbed79f7fb298957037f63142c4fc7b7b17cd23a1ca49d79ba"
+    },
+    "robustness_fingerprints.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_robustness\\robustness_fingerprints.csv",
+      "sha256": "d235c2c764d899bb6b38b8c2eaa1bf7e78a8b2f70de1a6f7f44092ee149a1e5d"
+    },
+    "model_warnings.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_robustness\\model_warnings.csv",
+      "sha256": "cb2ca4e853e248df443873556441a1e4685dea0731c1026ed165ccd2dfa64f27"
+    },
+    "primary_reproduction_qc.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_robustness\\primary_reproduction_qc.csv",
+      "sha256": "bd7e307b80bd5a6477a4a3eb762413ec73dcb449a6d4a5e30ff8d328b6065928"
+    },
+    "source_population_qc.csv": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_robustness\\source_population_qc.csv",
+      "sha256": "ca3504317aac1d04ceba11afa3b87727243a35b46f83d29cdc9563763d88119d"
+    },
+    "STEP6_ROBUSTNESS_REPORT.md": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step06_robustness\\STEP6_ROBUSTNESS_REPORT.md",
+      "sha256": "d8b0f3ca2c936f29b32dbed67f63ba221a4c534a9603d90b051368873b4c24bf"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+variable,source_status,source_cycles,source_n,primary_population_n,primary_population_crc_cases,primary_population_controls,source_rows
+LBXPFHS,ok,2003-2004;2005-2006;2007-2008;2009-2010;2011-2012;2013-2014;2015-2016;2017-2018,18236,6520,45,6475,8
+URXCOP,ok,2005-2006;2007-2008;2009-2010;2011-2012;2013-2014;2015-2016;2017-2018,19737,11464,83,11381,7
