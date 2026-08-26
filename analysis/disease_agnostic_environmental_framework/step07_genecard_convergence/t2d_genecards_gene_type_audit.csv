@@ -1,0 +1,13 @@
+set_label,gene_type,n_rows
+primary_anywhere,Functional Element,181
+primary_anywhere,Gene Cluster,1
+primary_anywhere,Genetic Locus,39
+primary_anywhere,Protein Coding,13561
+primary_anywhere,Pseudogene,1045
+primary_anywhere,RNA Gene,5709
+primary_anywhere,Uncategorized,18
+strict_disorders_exact,Functional Element,9
+strict_disorders_exact,Genetic Locus,2
+strict_disorders_exact,Protein Coding,80
+strict_disorders_exact,Pseudogene,1
+strict_disorders_exact,RNA Gene,19

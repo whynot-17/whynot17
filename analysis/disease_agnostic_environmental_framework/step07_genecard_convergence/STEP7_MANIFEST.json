@@ -1,0 +1,70 @@
+{
+  "analysis": "Step 7 T2D-specific CTD x GeneCards biological convergence",
+  "status": "complete_two_gene_sets",
+  "n_step6_clusters": 11,
+  "n_cluster_chemical_rows": 136,
+  "n_ctd_interaction_pairs": 7551,
+  "n_ctd_cluster_genes": 7379,
+  "ctd_background": "union of all 11 frozen cluster human CTD genes",
+  "primary": {
+    "set_label": "primary_anywhere",
+    "path": "analysis\\disease_agnostic_environmental_framework\\step07_genecard_convergence\\input\\t2d_genecards_primary_public_results.csv",
+    "n_ranked_rows": 20554,
+    "max_rank": 20554,
+    "rank_cutoffs_reported": [
+      100,
+      500,
+      1000,
+      2000,
+      20554
+    ],
+    "primary_full_k": 20554,
+    "n_primary_clusters": 11,
+    "n_q_lt_0_05": 5,
+    "minimum_q": 0.00012140716762646246,
+    "query": "type 2 diabetes mellitus",
+    "acquisition_mode": "public pagination table capture",
+    "sha256": "75fe015753566c107e6ba56ef15ae2f0f3ef1729e38afe2aaf1581fd6ddb8e79"
+  },
+  "strict_sensitivity": {
+    "set_label": "strict_disorders_exact",
+    "path": "analysis\\disease_agnostic_environmental_framework\\step07_genecard_convergence\\input\\t2d_genecards_strict_111.csv",
+    "n_ranked_rows": 111,
+    "max_rank": 111,
+    "rank_cutoffs_reported": [
+      100,
+      111,
+      500,
+      1000,
+      2000
+    ],
+    "primary_full_k": 111,
+    "n_primary_clusters": 11,
+    "n_q_lt_0_05": 0,
+    "minimum_q": 0.1513988138441387,
+    "query": "[Disorders] \"type 2 diabetes mellitus\"",
+    "acquisition_mode": "public pagination table capture",
+    "sha256": "f1be5698518eaa4b27a23c4e80b3666c48835cf98f26120d9335f2e1971cf743"
+  },
+  "outcome_firewall": "T2D outcome was not used to construct the 29 tests or 11 clusters; GeneCards enters only at post-firewall Step 7.",
+  "parent_mapping": "Inherited from Step 4; no parent relationships inferred from names.",
+  "ctd_deduplication": "unique ChemicalID x GeneID among Homo sapiens interactions",
+  "multiple_testing": "BH-FDR across 11 clusters separately for primary and strict sets",
+  "primary_q_lt_0_05": 5,
+  "strict_q_lt_0_05": 0,
+  "canonical_outputs": [
+    "t2d_cluster_ctd_gene_membership.csv",
+    "t2d_cluster_enrichment_primary.csv",
+    "t2d_cluster_enrichment_strict.csv",
+    "t2d_cluster_genecards_overlap_primary.csv",
+    "t2d_cluster_genecards_overlap_strict.csv",
+    "t2d_genecards_primary_gene_audit.csv",
+    "t2d_genecards_strict_gene_audit.csv",
+    "t2d_genecards_gene_type_audit.csv",
+    "t2d_rank_weighted_convergence.csv",
+    "t2d_overlap_gene_details.csv",
+    "t2d_step7_joint_prioritization.csv",
+    "STEP7_MANIFEST.json",
+    "STEP7_T2D_GENE_CONVERGENCE_REPORT.md"
+  ]
+}

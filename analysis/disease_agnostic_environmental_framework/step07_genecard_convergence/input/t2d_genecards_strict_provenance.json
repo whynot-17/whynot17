@@ -1,0 +1,21 @@
+{
+  "query": "[Disorders] \"type 2 diabetes mellitus\"",
+  "url": "https://www.genecards.org/search/results?q=%5Bdisorders%5D%20%22type%202%20diabetes%20mellitus%22",
+  "retrieved_at": "2026-08-26T12:12:42.531Z",
+  "source": "GeneCards publicly rendered results page",
+  "pagination": {
+    "page_size": 100,
+    "pages": 2,
+    "total_rows": 111
+  },
+  "fields": [
+    "Rank",
+    "GeneSymbol",
+    "GeneName",
+    "GeneType",
+    "RelevanceScore",
+    "KnowledgeScore"
+  ],
+  "method": "Read-only extraction of the publicly rendered table after selecting 100 rows per page; no login-restricted export or API was used.",
+  "note": "Exact scoped public result contains 111 rows, so K=500/1000/2000 are not distinguishable; all available rows are retained."
+}

@@ -1,0 +1,24 @@
+{
+  "query": "type 2 diabetes mellitus",
+  "url": "https://www.genecards.org/search/results?q=type%202%20diabetes%20mellitus",
+  "retrieved_at": "2026-08-26T12:44:54.040616+00:00",
+  "source": "GeneCards publicly rendered results page",
+  "acquisition_mode": "public pagination table capture",
+  "pagination": {
+    "page_size": 100,
+    "pages": 206,
+    "total_rows": 20554
+  },
+  "fields": [
+    "Rank",
+    "GeneSymbol",
+    "GeneName",
+    "GeneType",
+    "RelevanceScore",
+    "KnowledgeScore"
+  ],
+  "n_rows": 20554,
+  "unique_symbols": 20554,
+  "sha256_csv": "75fe015753566c107e6ba56ef15ae2f0f3ef1729e38afe2aaf1581fd6ddb8e79",
+  "note": "Complete public ranked result set captured from the ordinary Anywhere query; no login-restricted export or private API was used."
+}\n
