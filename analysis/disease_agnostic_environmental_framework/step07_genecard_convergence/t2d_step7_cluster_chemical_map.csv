@@ -1,0 +1,137 @@
+test_id,biomarker,cluster_id,variable,chemical_id,chemical_name,primary_class,step2_mapping_type,step2_mapping_confidence,recorded_parent_compound,candidate_hypothesis_unit,mapping_inherited_from_step4
+NHANES_LBXPFHS,LBXPFHS,cluster_1,LBXPFHS,C471071,perfluorohexanesulfonic acid,PFAS,direct serum PFAS analyte,high,,direct::LBXPFHS,True
+NHANES_URXCOP,URXCOP,cluster_2,URXCOP,C012125,diisononyl phthalate,phthalates,parent-to-validated-urinary-metabolite axis,moderate,DINP,parent::DINP,True
+NHANES_URXCOP,URXCOP,cluster_2,URXCOP,C019174,dinonylphthalate,phthalates,parent-to-validated-urinary-metabolite axis,moderate,DINP,parent::DINP,True
+NHANES_URXCOP,URXCOP,cluster_2,URXCOP,C573544,mono(carboxy-isooctyl)phthalate,phthalates,direct urinary metabolite,high,DINP,parent::DINP,True
+NHANES_URXECP,URXECP,cluster_3,URXECP,C051450,2-ethyl-5-carboxypentyl phthalate,phthalates,parent-to-validated-urinary-metabolite axis,moderate,DEHP,parent::DEHP,True
+NHANES_URXECP,URXECP,cluster_3,URXECP,D004051,Diethylhexyl Phthalate,phthalates,parent-to-validated-urinary-metabolite axis,moderate,DEHP,parent::DEHP,True
+NHANES_URXMHH,URXMHH,cluster_3,URXMHH,D004051,Diethylhexyl Phthalate,phthalates,parent-to-validated-urinary-metabolite axis,moderate,DEHP,parent::DEHP,True
+NHANES_URXMIB,URXMIB,cluster_4,URXMIB,C575690,mono-isobutyl phthalate,phthalates,direct urinary metabolite,high,,biomarker::URXMIB,True
+NHANES_URXMOH,URXMOH,cluster_3,URXMOH,C080276,mono(2-ethyl-5-oxohexyl)phthalate,phthalates,direct urinary metabolite,high,DEHP,parent::DEHP,True
+NHANES_URXMOH,URXMOH,cluster_3,URXMOH,D004051,Diethylhexyl Phthalate,phthalates,parent-to-validated-urinary-metabolite axis,moderate,DEHP,parent::DEHP,True
+NHANES_URXP02,URXP02,cluster_5,URXP02,C018520,"2,6-diisopropylnaphthalene",PAHs,parent PAH to validated urinary OH-PAH proxy,moderate,,proxy::URXP02,True
+NHANES_URXP02,URXP02,cluster_5,URXP02,C025968,1-methylnaphthalene,PAHs,parent PAH to validated urinary OH-PAH proxy,moderate,,proxy::URXP02,True
+NHANES_URXP02,URXP02,cluster_5,URXP02,C027384,2-methylnaphthalene,PAHs,parent PAH to validated urinary OH-PAH proxy,moderate,,proxy::URXP02,True
+NHANES_URXP02,URXP02,cluster_5,URXP02,C028519,"2,6-dimethylnaphthalene",PAHs,parent PAH to validated urinary OH-PAH proxy,moderate,,proxy::URXP02,True
+NHANES_URXP02,URXP02,cluster_5,URXP02,C031721,naphthalene,PAHs,parent PAH to validated urinary OH-PAH proxy,moderate,,proxy::URXP02,True
+NHANES_URXP02,URXP02,cluster_5,URXP02,C031969,"1,4-dimethylnaphthalene",PAHs,parent PAH to validated urinary OH-PAH proxy,moderate,,proxy::URXP02,True
+NHANES_URXP02,URXP02,cluster_5,URXP02,C042552,acenaphthene,PAHs,parent PAH to validated urinary OH-PAH proxy,moderate,,proxy::URXP02,True
+NHANES_URXP02,URXP02,cluster_5,URXP02,C042553,acenaphthylene,PAHs,parent PAH to validated urinary OH-PAH proxy,moderate,,proxy::URXP02,True
+NHANES_URXP02,URXP02,cluster_5,URXP02,C065012,2-ethynylnaphthalene,PAHs,parent PAH to validated urinary OH-PAH proxy,moderate,,proxy::URXP02,True
+NHANES_URXP02,URXP02,cluster_5,URXP02,C117619,"1,2-dimethylnaphthalene",PAHs,parent PAH to validated urinary OH-PAH proxy,moderate,,proxy::URXP02,True
+NHANES_URXP02,URXP02,cluster_5,URXP02,C466921,"1,6-dimethylnaphthalene",PAHs,parent PAH to validated urinary OH-PAH proxy,moderate,,proxy::URXP02,True
+NHANES_URXP02,URXP02,cluster_5,URXP02,C523241,octafluoronaphthalene,PAHs,parent PAH to validated urinary OH-PAH proxy,moderate,,proxy::URXP02,True
+NHANES_URXUBA,URXUBA,cluster_6,URXUBA,C000614996,Barium-135,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUBA,True
+NHANES_URXUBA,URXUBA,cluster_6,URXUBA,C000614997,Barium-136,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUBA,True
+NHANES_URXUBA,URXUBA,cluster_6,URXUBA,C000614998,Barium-137,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUBA,True
+NHANES_URXUBA,URXUBA,cluster_6,URXUBA,C006685,barium carbonate,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUBA,True
+NHANES_URXUBA,URXUBA,cluster_6,URXUBA,C070629,barium copper yttrium oxide,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUBA,True
+NHANES_URXUBA,URXUBA,cluster_6,URXUBA,C516499,barium metagermanate,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUBA,True
+NHANES_URXUBA,URXUBA,cluster_6,URXUBA,C520730,barium gallogermanate glass,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUBA,True
+NHANES_URXUBA,URXUBA,cluster_6,URXUBA,D001464,Barium,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUBA,True
+NHANES_URXUMO,URXUMO,cluster_7,URXUMO,C000615510,Molybdenum-94,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUMO,True
+NHANES_URXUMO,URXUMO,cluster_7,URXUMO,C000615511,Molybdenum-95,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUMO,True
+NHANES_URXUMO,URXUMO,cluster_7,URXUMO,C000615512,Molybdenum-96,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUMO,True
+NHANES_URXUMO,URXUMO,cluster_7,URXUMO,C000615513,Molybdenum-97,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUMO,True
+NHANES_URXUMO,URXUMO,cluster_7,URXUMO,C000615514,Molybdenum-100,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUMO,True
+NHANES_URXUMO,URXUMO,cluster_7,URXUMO,C000615515,Molybdenum-99,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUMO,True
+NHANES_URXUMO,URXUMO,cluster_7,URXUMO,C000723919,molybdenum oxide,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUMO,True
+NHANES_URXUMO,URXUMO,cluster_7,URXUMO,C017541,molybdenum blue,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUMO,True
+NHANES_URXUMO,URXUMO,cluster_7,URXUMO,C082290,molybdenum trioxide,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUMO,True
+NHANES_URXUMO,URXUMO,cluster_7,URXUMO,C082964,molybdenum disulfide,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUMO,True
+NHANES_URXUMO,URXUMO,cluster_7,URXUMO,C085192,molybdenum chloride,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUMO,True
+NHANES_URXUMO,URXUMO,cluster_7,URXUMO,C088876,molybdenum telluride,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUMO,True
+NHANES_URXUMO,URXUMO,cluster_7,URXUMO,C434645,hexacarbonylmolybdenum,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUMO,True
+NHANES_URXUMO,URXUMO,cluster_7,URXUMO,C532628,phosphoantimonylmolybdenum blue,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUMO,True
+NHANES_URXUMO,URXUMO,cluster_7,URXUMO,C539565,molybdenum dioxide,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUMO,True
+NHANES_URXUMO,URXUMO,cluster_7,URXUMO,C574181,molybdenum carbide,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUMO,True
+NHANES_URXUMO,URXUMO,cluster_7,URXUMO,C582810,molybdenum boride,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUMO,True
+NHANES_URXUMO,URXUMO,cluster_7,URXUMO,D008982,Molybdenum,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUMO,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C000615127,Lead-204,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C000615128,Lead-206,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C000615129,Lead-207,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C017461,lead nitrate,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C017462,lead tetrachloride,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C018391,lead sulfide,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C028356,lead tetroxide,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C029891,lead chloride,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C031330,diethyllead,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C031895,lead chromate,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C032721,lead bromide,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C032722,lead sulfate,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C036682,lead phosphate,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C037372,lead azide,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C043262,lead carbonate,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C044795,lead silicate,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C045846,lead arsenate,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C047365,lead oxide,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C060248,bismuth lead,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C065267,tricatechol hexalactam-lead(II) complex,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C065321,vinyl lead,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C065536,lead titanate zirconate,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C077765,lead fluoride,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C088065,lead selenide,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C404734,lead magnesium niobate,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C432863,lead hydroxide,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C474493,lead zinc niobate titanate,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,C481719,lead titanate,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUPB,URXUPB,cluster_8,URXUPB,D007854,Lead,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUPB,True
+NHANES_URXUSN,URXUSN,cluster_9,URXUSN,C000615155,Actinium-225,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSN,True
+NHANES_URXUSN,URXUSN,cluster_9,URXUSN,C000615156,Actinium-228,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSN,True
+NHANES_URXUSN,URXUSN,cluster_9,URXUSN,C000615167,Protactinium-230,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSN,True
+NHANES_URXUSN,URXUSN,cluster_9,URXUSN,C000615168,Protactinium-231,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSN,True
+NHANES_URXUSN,URXUSN,cluster_9,URXUSN,C000615169,Protactinium-233,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSN,True
+NHANES_URXUSN,URXUSN,cluster_9,URXUSN,C000615561,Tin-112,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSN,True
+NHANES_URXUSN,URXUSN,cluster_9,URXUSN,C000615562,Tin-116,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSN,True
+NHANES_URXUSN,URXUSN,cluster_9,URXUSN,C000615563,Tin-117,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSN,True
+NHANES_URXUSN,URXUSN,cluster_9,URXUSN,C000615564,Tin-118,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSN,True
+NHANES_URXUSN,URXUSN,cluster_9,URXUSN,C000615565,Tin-119,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSN,True
+NHANES_URXUSN,URXUSN,cluster_9,URXUSN,C000617035,Actinium-227,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSN,True
+NHANES_URXUSN,URXUSN,cluster_9,URXUSN,C050718,dentinol,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSN,True
+NHANES_URXUSN,URXUSN,cluster_9,URXUSN,C088922,magnetoferritin,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSN,True
+NHANES_URXUSN,URXUSN,cluster_9,URXUSN,C419565,2-ethylhexanoic acid tin(II) salt,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSN,True
+NHANES_URXUSN,URXUSN,cluster_9,URXUSN,C481499,(188)Rhenium tin-colloid,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSN,True
+NHANES_URXUSN,URXUSN,cluster_9,URXUSN,D000186,Actinium,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSN,True
+NHANES_URXUSN,URXUSN,cluster_9,URXUSN,D011478,Protactinium,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSN,True
+NHANES_URXUSN,URXUSN,cluster_9,URXUSN,D014001,Tin,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSN,True
+NHANES_URXUSR,URXUSR,cluster_6,URXUSR,C000212,ammoniacal silver,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSR,True
+NHANES_URXUSR,URXUSR,cluster_6,URXUSR,C000615533,Silver-109,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSR,True
+NHANES_URXUSR,URXUSR,cluster_6,URXUSR,C000615534,Silver-94,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSR,True
+NHANES_URXUSR,URXUSR,cluster_6,URXUSR,C000615535,Silver-105,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSR,True
+NHANES_URXUSR,URXUSR,cluster_6,URXUSR,C000615536,Silver-108,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSR,True
+NHANES_URXUSR,URXUSR,cluster_6,URXUSR,C000615537,Silver-110m,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSR,True
+NHANES_URXUSR,URXUSR,cluster_6,URXUSR,C000617011,Silver-110,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSR,True
+NHANES_URXUSR,URXUSR,cluster_6,URXUSR,C000617013,Silver-111,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSR,True
+NHANES_URXUSR,URXUSR,cluster_6,URXUSR,C000719392,silver graphene,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSR,True
+NHANES_URXUSR,URXUSR,cluster_6,URXUSR,C026160,silver-allantoin-heparin,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSR,True
+NHANES_URXUSR,URXUSR,cluster_6,URXUSR,C031342,Henis' silver paste,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSR,True
+NHANES_URXUSR,URXUSR,cluster_6,URXUSR,C036936,Silver-Percha,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSR,True
+NHANES_URXUSR,URXUSR,cluster_6,URXUSR,C054102,silver kaolin,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSR,True
+NHANES_URXUSR,URXUSR,cluster_6,URXUSR,C500574,silverlon,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSR,True
+NHANES_URXUSR,URXUSR,cluster_6,URXUSR,C586932,colloidal silver,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSR,True
+NHANES_URXUSR,URXUSR,cluster_6,URXUSR,D012834,Silver,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUSR,True
+NHANES_URXUTU,URXUTU,cluster_10,URXUTU,C000615069,Tungsten-182,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUTU,True
+NHANES_URXUTU,URXUTU,cluster_10,URXUTU,C000615070,Tungsten-183,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUTU,True
+NHANES_URXUTU,URXUTU,cluster_10,URXUTU,C000615071,Tungsten-186,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUTU,True
+NHANES_URXUTU,URXUTU,cluster_10,URXUTU,C000615072,Tungsten-178,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUTU,True
+NHANES_URXUTU,URXUTU,cluster_10,URXUTU,C000615073,Tungsten-181,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUTU,True
+NHANES_URXUTU,URXUTU,cluster_10,URXUTU,C000615074,Tungsten-185,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUTU,True
+NHANES_URXUTU,URXUTU,cluster_10,URXUTU,C000615075,Tungsten-187,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUTU,True
+NHANES_URXUTU,URXUTU,cluster_10,URXUTU,C000615076,Tungsten-188,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUTU,True
+NHANES_URXUTU,URXUTU,cluster_10,URXUTU,C009613,ammonium tungsten antimonate hydroxide oxide,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUTU,True
+NHANES_URXUTU,URXUTU,cluster_10,URXUTU,C434643,hexacarbonyltungsten,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUTU,True
+NHANES_URXUTU,URXUTU,cluster_10,URXUTU,C511604,tungsten oxide,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUTU,True
+NHANES_URXUTU,URXUTU,cluster_10,URXUTU,D014414,Tungsten,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUTU,True
+NHANES_URXUUR,URXUUR,cluster_11,URXUUR,C000615170,Uranium-226,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUUR,True
+NHANES_URXUUR,URXUUR,cluster_11,URXUUR,C000615171,Uranium-228,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUUR,True
+NHANES_URXUUR,URXUUR,cluster_11,URXUUR,C000615172,Uranium-230,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUUR,True
+NHANES_URXUUR,URXUUR,cluster_11,URXUUR,C000615173,Uranium-232,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUUR,True
+NHANES_URXUUR,URXUUR,cluster_11,URXUUR,C000615174,Uranium-233,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUUR,True
+NHANES_URXUUR,URXUUR,cluster_11,URXUUR,C000615175,Uranium-234,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUUR,True
+NHANES_URXUUR,URXUUR,cluster_11,URXUUR,C000615176,Uranium-235,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUUR,True
+NHANES_URXUUR,URXUUR,cluster_11,URXUUR,C000615177,Uranium-236,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUUR,True
+NHANES_URXUUR,URXUUR,cluster_11,URXUUR,C000615178,Uranium-237,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUUR,True
+NHANES_URXUUR,URXUUR,cluster_11,URXUUR,C000615179,Uranium-238,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUUR,True
+NHANES_URXUUR,URXUUR,cluster_11,URXUUR,C000615180,Uranium-240,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUUR,True
+NHANES_URXUUR,URXUUR,cluster_11,URXUUR,C510902,dioxouranium(VI),metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUUR,True
+NHANES_URXUUR,URXUUR,cluster_11,URXUUR,D014501,Uranium,metals,elemental urinary biomarker for parent metal/species,moderate,,elemental_proxy::URXUUR,True
