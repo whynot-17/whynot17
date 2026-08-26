@@ -1,0 +1,97 @@
+{
+  "ctd_path": "D:\\mcop and CRC\\disease_agnostic_environmental_framework\\data_raw\\CTD_chemicals.tsv.gz",
+  "ctd_sha256": "9e4b642c8716140d30a9376d6b2229acb81ee48a8b106a4f41ed06b29894ef6c",
+  "rules_path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\environmental_toxicology_crc_phase1\\chemical_class_rules.json",
+  "rules_sha256": "f565cd741ee32ea0683d70e5cf36ea1d13062a2c92bd0b8c0a430f736c057ee6",
+  "actionability_rules_path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step01_environmental_universe\\actionability_rules.json",
+  "actionability_rules_sha256": "035fac38d5cbedbe90d21509dfa9e39c25f2d28d447738eea7cafd7f401bac88",
+  "catalog_path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\environmental_crc_267_nhanes_environmental_lab_catalog.csv",
+  "catalog_sha256": "d38569b0b0225b9da4848e32160e31af9667c8e0959743bd799bbca01b28a8f9",
+  "runner_path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\run_steps01_04.py",
+  "runner_sha256": "ed414af6db762b2c94f7778df2e7f81515084174d40690ba60dee30bb8452435",
+  "drugcentral_path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\environmental_toxicology_crc_phase1\\data\\drugcentral_structures.smiles.tsv",
+  "drugcentral_sha256": "5b81423a2ec1e2766e9666ec4a172d5a5b47045ea2cc032d1ba06085956bc1fc",
+  "pah_formulas_path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\environmental_toxicology_crc_phase1\\data\\pubchem_pah_formula.json",
+  "pah_formulas_sha256": "c9057cabc8c3cb740fcbf56e0224431be860bea450083a026d374715e41634eb",
+  "generated_utc": "2026-08-26T10:12:40.216822+00:00",
+  "disease_information_used": false,
+  "disease_fields_loaded": [],
+  "gene_disease_information_used": false,
+  "environmental_universe_n": 2042,
+  "raw_ctd_rows_n": 179672,
+  "actionable_mapping_n": 411,
+  "unique_test_n": 29,
+  "planned_downstream_fdr_denominator": 29,
+  "actionability_rules": {
+    "version": "2026-08-22",
+    "source": "CTD TreeNumbers and ParentTreeNumbers from CTD_chemicals.tsv.gz",
+    "core_rules": {
+      "heavy_metals": [
+        "D01.268.556",
+        "D01.552.544"
+      ],
+      "pesticides": [
+        "D27.720.031.700",
+        "D27.888.723"
+      ],
+      "pfas_perfluoro": [
+        "D02.455.526.510.435"
+      ],
+      "phthalates": [
+        "D02.241.223.805"
+      ],
+      "bisphenols": [
+        "D02.455.426.559.389.657.110"
+      ],
+      "pahs": [
+        "D02.455.426.559.847"
+      ],
+      "vocs": [
+        "D02.974"
+      ],
+      "flame_retardants": [
+        "D27.720.361"
+      ],
+      "persistent_organic_pollutants": [
+        "D27.888.284.429"
+      ],
+      "endocrine_disruptors": [
+        "D27.505.696.353",
+        "D27.888.141"
+      ],
+      "environmental_pollutants": [
+        "D27.888.284"
+      ]
+    },
+    "drugbank_field_expected": false,
+    "drug_exclusion_regex": "(?i)(analgesic|narcotic|opiate|opioid|antineoplastic|antitumor|antibiotic|antiviral|chemotherapeutic|immunosuppressive|immunomodulator|hypnotic|statin|medication|pharmacologic|pharmacological|thalidomide|etoposide|morphine)",
+    "notes": [
+      "A chemical is core when any CTD TreeNumber or ParentTreeNumber is a descendant of one of the listed MeSH paths.",
+      "DrugBankID is not present in the current CTD_chemicals.tsv.gz header. As deterministic fallbacks, the script uses the prespecified CTD drug-semantic regex and the locally supplied DrugCentral CAS/INN reference; this is not manual name review.",
+      "DrugCentral reference file: structures.smiles.tsv, downloaded from the official DrugCentral download endpoint; it is used only for drug exclusion and is not part of the CRC enrichment model.",
+      "For the PAHs branch only, PubChem MolecularFormula is used as a structure-level guard: the PAH label requires a C/H-only molecular formula; compounds without a retrievable formula or with heteroatoms remain excluded from that class.",
+      "The environmental_pollutants rule is broad and is retained as a prespecified core class; class-specific results are reported separately."
+    ]
+  },
+  "pre_disease_gate_rules": {
+    "version": "2026-08-26",
+    "scope": "pre-disease environmental actionability only",
+    "identity_gate": "CTD chemical ID and name plus a mapped NHANES analyte",
+    "exposure_interpretability_gate": "mapped analyte with high, moderate, or low prespecified mapping confidence",
+    "nhanes_availability_gate": "analyte variable present in downloaded catalog/XPT registry",
+    "detectability": {
+      "D0": "pooled above-LOD <50%",
+      "D1": "pooled above-LOD >=50% and <90%",
+      "D2": "pooled above-LOD >=90%"
+    },
+    "cycle_coverage": {
+      "C0": "<=2 cycles",
+      "C1": ">2 and <5 cycles",
+      "C2": ">=5 cycles"
+    },
+    "survey_design_gate": "NHANES laboratory weight and participant identifier present; cycle-level NHANES design files are available for downstream use",
+    "actionable_rule": "identity_gate=1 AND exposure_interpretability_gate=1 AND nhanes_availability_gate=1 AND detectability_D>=1 AND cycle_coverage_C>=1 AND survey_design_gate=1",
+    "outcome_information_used": false,
+    "gene_disease_information_used": false
+  }
+}

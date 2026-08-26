@@ -1,0 +1,21 @@
+{
+  "version": "2026-08-26",
+  "scope": "pre-disease environmental actionability only",
+  "identity_gate": "CTD chemical ID and name plus a mapped NHANES analyte",
+  "exposure_interpretability_gate": "mapped analyte with high, moderate, or low prespecified mapping confidence",
+  "nhanes_availability_gate": "analyte variable present in downloaded catalog/XPT registry",
+  "detectability": {
+    "D0": "pooled above-LOD <50%",
+    "D1": "pooled above-LOD >=50% and <90%",
+    "D2": "pooled above-LOD >=90%"
+  },
+  "cycle_coverage": {
+    "C0": "<=2 cycles",
+    "C1": ">2 and <5 cycles",
+    "C2": ">=5 cycles"
+  },
+  "survey_design_gate": "NHANES laboratory weight and participant identifier present; cycle-level NHANES design files are available for downstream use",
+  "actionable_rule": "identity_gate=1 AND exposure_interpretability_gate=1 AND nhanes_availability_gate=1 AND detectability_D>=1 AND cycle_coverage_C>=1 AND survey_design_gate=1",
+  "outcome_information_used": false,
+  "gene_disease_information_used": false
+}
