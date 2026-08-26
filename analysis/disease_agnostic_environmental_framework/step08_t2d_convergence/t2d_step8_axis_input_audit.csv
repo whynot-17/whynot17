@@ -1,0 +1,5 @@
+cluster_id,final_tier,n_query_ctd_genes,n_background_ctd_genes,query_source,background_source
+cluster_11,Tier_A,245,6076,Step 7 frozen CTD cluster gene union,Step 7 frozen union of all 11 CTD cluster gene sets
+cluster_5,Tier_A,65,6076,Step 7 frozen CTD cluster gene union,Step 7 frozen union of all 11 CTD cluster gene sets
+cluster_6,Tier_A,919,6076,Step 7 frozen CTD cluster gene union,Step 7 frozen union of all 11 CTD cluster gene sets
+cluster_8,Tier_A,3016,6076,Step 7 frozen CTD cluster gene union,Step 7 frozen union of all 11 CTD cluster gene sets

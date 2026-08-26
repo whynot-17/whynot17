@@ -1,0 +1,483 @@
+{
+  "analysis": "Step 8 T2D pathway convergence",
+  "status": "complete_pathway_ora",
+  "tier_a_clusters": [
+    "cluster_11",
+    "cluster_5",
+    "cluster_6",
+    "cluster_8"
+  ],
+  "n_tier_a": 4,
+  "n_background_ctd_genes": 6076,
+  "n_returned_pathway_tests": 31623,
+  "n_global_bh_fdr_lt_0_05": 1647,
+  "gene_set_sources": [
+    "GO:BP",
+    "REAC",
+    "KEGG"
+  ],
+  "organism": "hsapiens",
+  "background_rule": "union of all 11 frozen Step 7 CTD cluster gene sets",
+  "query_rule": "frozen CTD gene union for each Step 7 Tier A cluster",
+  "ora": "one-sided hypergeometric; raw P reconstructed from API domain/term/query/intersection sizes",
+  "multiple_testing": "single BH-FDR family across all returned Tier A x source x term tests",
+  "gprofiler_api": "https://biit.cs.ut.ee/gprofiler/api/gost/profile/",
+  "api_options": {
+    "all_results": true,
+    "no_evidences": true,
+    "domain_scope": "custom",
+    "significance_threshold_method": "fdr"
+  },
+  "gprofiler_audit": [
+    {
+      "cluster_id": "cluster_11",
+      "source_filter": "GO:BP",
+      "n_returned_terms": 4113,
+      "n_query_mapped": 233,
+      "n_query_failed": 7,
+      "failed_symbols": [
+        "BACE",
+        "FBXL3A",
+        "LTAP1",
+        "RAB2",
+        "RAB7",
+        "RGL",
+        "SLC60A1"
+      ],
+      "n_query_ambiguous": 5,
+      "n_query_duplicates": 0,
+      "result_metadata": {
+        "GO:BP": {
+          "domain_size": 20972,
+          "number_of_terms": 24546,
+          "threshold": null
+        },
+        "KEGG": {
+          "domain_size": 8716,
+          "number_of_terms": 586,
+          "threshold": null
+        },
+        "REAC": {
+          "domain_size": 11056,
+          "number_of_terms": 2849,
+          "threshold": null
+        }
+      },
+      "timestamp": "2026-08-26T15:13:14.482582+00:00",
+      "gprofiler_version": "e114_eg62_p19_27110d83"
+    },
+    {
+      "cluster_id": "cluster_11",
+      "source_filter": "REAC",
+      "n_returned_terms": 1080,
+      "n_query_mapped": 233,
+      "n_query_failed": 7,
+      "failed_symbols": [
+        "BACE",
+        "FBXL3A",
+        "LTAP1",
+        "RAB2",
+        "RAB7",
+        "RGL",
+        "SLC60A1"
+      ],
+      "n_query_ambiguous": 5,
+      "n_query_duplicates": 0,
+      "result_metadata": {
+        "GO:BP": {
+          "domain_size": 20972,
+          "number_of_terms": 24546,
+          "threshold": null
+        },
+        "KEGG": {
+          "domain_size": 8716,
+          "number_of_terms": 586,
+          "threshold": null
+        },
+        "REAC": {
+          "domain_size": 11056,
+          "number_of_terms": 2849,
+          "threshold": null
+        }
+      },
+      "timestamp": "2026-08-26T15:13:14.482582+00:00",
+      "gprofiler_version": "e114_eg62_p19_27110d83"
+    },
+    {
+      "cluster_id": "cluster_11",
+      "source_filter": "KEGG",
+      "n_returned_terms": 285,
+      "n_query_mapped": 233,
+      "n_query_failed": 7,
+      "failed_symbols": [
+        "BACE",
+        "FBXL3A",
+        "LTAP1",
+        "RAB2",
+        "RAB7",
+        "RGL",
+        "SLC60A1"
+      ],
+      "n_query_ambiguous": 5,
+      "n_query_duplicates": 0,
+      "result_metadata": {
+        "GO:BP": {
+          "domain_size": 20972,
+          "number_of_terms": 24546,
+          "threshold": null
+        },
+        "KEGG": {
+          "domain_size": 8716,
+          "number_of_terms": 586,
+          "threshold": null
+        },
+        "REAC": {
+          "domain_size": 11056,
+          "number_of_terms": 2849,
+          "threshold": null
+        }
+      },
+      "timestamp": "2026-08-26T15:13:14.482582+00:00",
+      "gprofiler_version": "e114_eg62_p19_27110d83"
+    },
+    {
+      "cluster_id": "cluster_5",
+      "source_filter": "GO:BP",
+      "n_returned_terms": 3047,
+      "n_query_mapped": 63,
+      "n_query_failed": 2,
+      "failed_symbols": [
+        "CYP2F2",
+        "GSTA"
+      ],
+      "n_query_ambiguous": 0,
+      "n_query_duplicates": 0,
+      "result_metadata": {
+        "GO:BP": {
+          "domain_size": 20972,
+          "number_of_terms": 24546,
+          "threshold": null
+        },
+        "KEGG": {
+          "domain_size": 8716,
+          "number_of_terms": 586,
+          "threshold": null
+        },
+        "REAC": {
+          "domain_size": 11056,
+          "number_of_terms": 2849,
+          "threshold": null
+        }
+      },
+      "timestamp": "2026-08-26T15:15:20.088576+00:00",
+      "gprofiler_version": "e114_eg62_p19_27110d83"
+    },
+    {
+      "cluster_id": "cluster_5",
+      "source_filter": "REAC",
+      "n_returned_terms": 505,
+      "n_query_mapped": 63,
+      "n_query_failed": 2,
+      "failed_symbols": [
+        "CYP2F2",
+        "GSTA"
+      ],
+      "n_query_ambiguous": 0,
+      "n_query_duplicates": 0,
+      "result_metadata": {
+        "GO:BP": {
+          "domain_size": 20972,
+          "number_of_terms": 24546,
+          "threshold": null
+        },
+        "KEGG": {
+          "domain_size": 8716,
+          "number_of_terms": 586,
+          "threshold": null
+        },
+        "REAC": {
+          "domain_size": 11056,
+          "number_of_terms": 2849,
+          "threshold": null
+        }
+      },
+      "timestamp": "2026-08-26T15:15:20.088576+00:00",
+      "gprofiler_version": "e114_eg62_p19_27110d83"
+    },
+    {
+      "cluster_id": "cluster_5",
+      "source_filter": "KEGG",
+      "n_returned_terms": 202,
+      "n_query_mapped": 63,
+      "n_query_failed": 2,
+      "failed_symbols": [
+        "CYP2F2",
+        "GSTA"
+      ],
+      "n_query_ambiguous": 0,
+      "n_query_duplicates": 0,
+      "result_metadata": {
+        "GO:BP": {
+          "domain_size": 20972,
+          "number_of_terms": 24546,
+          "threshold": null
+        },
+        "KEGG": {
+          "domain_size": 8716,
+          "number_of_terms": 586,
+          "threshold": null
+        },
+        "REAC": {
+          "domain_size": 11056,
+          "number_of_terms": 2849,
+          "threshold": null
+        }
+      },
+      "timestamp": "2026-08-26T15:15:20.088576+00:00",
+      "gprofiler_version": "e114_eg62_p19_27110d83"
+    },
+    {
+      "cluster_id": "cluster_6",
+      "source_filter": "GO:BP",
+      "n_returned_terms": 7508,
+      "n_query_mapped": 899,
+      "n_query_failed": 7,
+      "failed_symbols": [
+        "AGPAT9",
+        "COXFA4L3",
+        "FGF",
+        "MIMS1",
+        "SELK",
+        "SLC61A1",
+        "TXN1"
+      ],
+      "n_query_ambiguous": 12,
+      "n_query_duplicates": 1,
+      "result_metadata": {
+        "GO:BP": {
+          "domain_size": 20972,
+          "number_of_terms": 24546,
+          "threshold": null
+        },
+        "KEGG": {
+          "domain_size": 8716,
+          "number_of_terms": 586,
+          "threshold": null
+        },
+        "REAC": {
+          "domain_size": 11056,
+          "number_of_terms": 2849,
+          "threshold": null
+        }
+      },
+      "timestamp": "2026-08-26T15:15:53.555519+00:00",
+      "gprofiler_version": "e114_eg62_p19_27110d83"
+    },
+    {
+      "cluster_id": "cluster_6",
+      "source_filter": "REAC",
+      "n_returned_terms": 1675,
+      "n_query_mapped": 899,
+      "n_query_failed": 7,
+      "failed_symbols": [
+        "AGPAT9",
+        "COXFA4L3",
+        "FGF",
+        "MIMS1",
+        "SELK",
+        "SLC61A1",
+        "TXN1"
+      ],
+      "n_query_ambiguous": 12,
+      "n_query_duplicates": 1,
+      "result_metadata": {
+        "GO:BP": {
+          "domain_size": 20972,
+          "number_of_terms": 24546,
+          "threshold": null
+        },
+        "KEGG": {
+          "domain_size": 8716,
+          "number_of_terms": 586,
+          "threshold": null
+        },
+        "REAC": {
+          "domain_size": 11056,
+          "number_of_terms": 2849,
+          "threshold": null
+        }
+      },
+      "timestamp": "2026-08-26T15:15:53.555519+00:00",
+      "gprofiler_version": "e114_eg62_p19_27110d83"
+    },
+    {
+      "cluster_id": "cluster_6",
+      "source_filter": "KEGG",
+      "n_returned_terms": 332,
+      "n_query_mapped": 899,
+      "n_query_failed": 7,
+      "failed_symbols": [
+        "AGPAT9",
+        "COXFA4L3",
+        "FGF",
+        "MIMS1",
+        "SELK",
+        "SLC61A1",
+        "TXN1"
+      ],
+      "n_query_ambiguous": 12,
+      "n_query_duplicates": 1,
+      "result_metadata": {
+        "GO:BP": {
+          "domain_size": 20972,
+          "number_of_terms": 24546,
+          "threshold": null
+        },
+        "KEGG": {
+          "domain_size": 8716,
+          "number_of_terms": 586,
+          "threshold": null
+        },
+        "REAC": {
+          "domain_size": 11056,
+          "number_of_terms": 2849,
+          "threshold": null
+        }
+      },
+      "timestamp": "2026-08-26T15:15:53.555519+00:00",
+      "gprofiler_version": "e114_eg62_p19_27110d83"
+    },
+    {
+      "cluster_id": "cluster_8",
+      "source_filter": "GO:BP",
+      "n_returned_terms": 10373,
+      "n_query_mapped": 2967,
+      "n_query_failed": 21,
+      "failed_symbols": [
+        "ARLN",
+        "CDC50A",
+        "DRC9",
+        "FAM127C",
+        "GSTT1",
+        "IGH",
+        "INOS",
+        "MTRNR2L10",
+        "MTRNR2L2",
+        "MTRNR2L8",
+        "PGCKA1",
+        "PPAP2A",
+        "RMP64",
+        "SACK1E",
+        "SEP15",
+        "SEPW1",
+        "SLC38A12",
+        "TSLIG1",
+        "TSLIG3C",
+        "URB1-DT",
+        "XTBD1"
+      ],
+      "n_query_ambiguous": 27,
+      "n_query_duplicates": 2,
+      "result_metadata": {
+        "GO:BP": {
+          "domain_size": 20972,
+          "number_of_terms": 24546,
+          "threshold": null
+        }
+      },
+      "timestamp": "2026-08-26T15:24:41.019737+00:00",
+      "gprofiler_version": "e114_eg62_p19_27110d83"
+    },
+    {
+      "cluster_id": "cluster_8",
+      "source_filter": "REAC",
+      "n_returned_terms": 2139,
+      "n_query_mapped": 2967,
+      "n_query_failed": 21,
+      "failed_symbols": [
+        "ARLN",
+        "CDC50A",
+        "DRC9",
+        "FAM127C",
+        "GSTT1",
+        "IGH",
+        "INOS",
+        "MTRNR2L10",
+        "MTRNR2L2",
+        "MTRNR2L8",
+        "PGCKA1",
+        "PPAP2A",
+        "RMP64",
+        "SACK1E",
+        "SEP15",
+        "SEPW1",
+        "SLC38A12",
+        "TSLIG1",
+        "TSLIG3C",
+        "URB1-DT",
+        "XTBD1"
+      ],
+      "n_query_ambiguous": 27,
+      "n_query_duplicates": 2,
+      "result_metadata": {
+        "REAC": {
+          "domain_size": 11056,
+          "number_of_terms": 2849,
+          "threshold": null
+        }
+      },
+      "timestamp": "2026-08-26T15:25:21.517610+00:00",
+      "gprofiler_version": "e114_eg62_p19_27110d83"
+    },
+    {
+      "cluster_id": "cluster_8",
+      "source_filter": "KEGG",
+      "n_returned_terms": 364,
+      "n_query_mapped": 2967,
+      "n_query_failed": 21,
+      "failed_symbols": [
+        "ARLN",
+        "CDC50A",
+        "DRC9",
+        "FAM127C",
+        "GSTT1",
+        "IGH",
+        "INOS",
+        "MTRNR2L10",
+        "MTRNR2L2",
+        "MTRNR2L8",
+        "PGCKA1",
+        "PPAP2A",
+        "RMP64",
+        "SACK1E",
+        "SEP15",
+        "SEPW1",
+        "SLC38A12",
+        "TSLIG1",
+        "TSLIG3C",
+        "URB1-DT",
+        "XTBD1"
+      ],
+      "n_query_ambiguous": 27,
+      "n_query_duplicates": 2,
+      "result_metadata": {
+        "KEGG": {
+          "domain_size": 8716,
+          "number_of_terms": 586,
+          "threshold": null
+        }
+      },
+      "timestamp": "2026-08-26T15:25:39.096007+00:00",
+      "gprofiler_version": "e114_eg62_p19_27110d83"
+    }
+  ],
+  "retrieved_utc": "2026-08-26T15:27:55.018310+00:00",
+  "canonical_outputs": [
+    "t2d_step8_axis_input_audit.csv",
+    "t2d_step8_pathway_ora_all.csv",
+    "t2d_step8_pathway_ora_significant.csv",
+    "t2d_step8_gprofiler_query_audit.json",
+    "STEP8_T2D_PATHWAY_REPORT.md",
+    "STEP8_MANIFEST.json"
+  ]
+}
