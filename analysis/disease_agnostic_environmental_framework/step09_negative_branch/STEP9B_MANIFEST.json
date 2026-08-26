@@ -1,0 +1,43 @@
+{
+  "step": "9B",
+  "title": "CRC negative-branch failure attribution",
+  "created_utc": "2026-08-26T18:53:05.369127+00:00",
+  "input_sha256": {
+    "analysis/disease_agnostic_environmental_framework/step05_crc_screen_rebuilt/full_29_test_crc_screen_rebuilt.csv": "168a9dbbc9eabddda3fc69246f11e8a7d81f65ff186229273ef0ab573ec2c827",
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9a_per_test_readiness.csv": "89f55d420110bcf178e5cc1cfdc8378a866551a777c09cf24c10121b83db1b13",
+    "analysis/disease_agnostic_environmental_framework/step06_robustness/robustness_results.csv": "07f16efbdbf0357b9953192f3cdf218ca8a81416592668a4af3fcf0d68695902",
+    "analysis/disease_agnostic_environmental_framework/step06_robustness/loco_results.csv": "cc68df2f1b27935c9591670a78e82fc0d5b6aa9de711a5cc2d84741e86aa3e47",
+    "analysis/disease_agnostic_environmental_framework/step06_robustness/cycle_heterogeneity.csv": "6b6c48e0654a87a64172c409e805e8c119a3ec0e028dcd7235bf67003afac6d1",
+    "analysis/disease_agnostic_environmental_framework/step06_robustness/ROBUSTNESS_RUBRIC_LOCK.md": "e3f7a732ca425ef60d9a94d9fd2a8d4853d9587cc32f780f5c683790ab0cb84d"
+  },
+  "outputs": [
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/run_step09b_crc_failure_attribution.py",
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9b_crc_failure_attribution_29_tests.csv",
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9b_crc_failure_attribution_summary.csv",
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/STEP9B_CRC_FAILURE_ATTRIBUTION_REPORT.md"
+  ],
+  "frozen_rules": {
+    "tests": 29,
+    "near_null_or_interval": [
+      0.9090909090909091,
+      1.1
+    ],
+    "meaningful_or_reference": 1.2,
+    "alpha": 0.05,
+    "target_power": 0.8,
+    "mde_formula": "(z_(1-alpha/2)+z_power)*SE on log(OR), exponentiated",
+    "power_limited_requires_non_near_null_observed_or": true,
+    "stability_scope": "Step 6 frozen two FDR-supported CRC signals only",
+    "design_flag_is_interpretation_limitation_not_statistical_failure_cause": true,
+    "refit_models": false,
+    "change_fdr_family": false,
+    "counterfactual_simulation": false
+  },
+  "qc": {
+    "primary_tests": 29,
+    "attribution_rows": 29,
+    "all_primary_tests_joined": true,
+    "step9a_crc_rows": 29,
+    "step6_stability_rows": 2
+  }
+}

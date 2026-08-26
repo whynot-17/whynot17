@@ -1,0 +1,14 @@
+metric,value,unit
+frozen_crc_tests,29,tests
+nominal_p_lt_0_05,5,tests
+bh_fdr_lt_0_05,0,tests
+signal_limited_observed_near_null,13,tests
+mde_exceeds_20pct_reference_all_tests,28,tests
+power_limited_nonnull_observed_signal,16,tests
+technical_warning,1,tests
+stability_assessed_under_frozen_step06,2,tests
+stability_limited_among_assessed,1,tests
+event_support_E2_ge_60_cases,25,tests
+event_support_E1_30_to_59_cases,4,tests
+event_support_E0_lt_30_cases,0,tests
+design_limited_interpretation,29,tests; interpretation limitation not a significance cause
