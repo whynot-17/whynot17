@@ -79,3 +79,31 @@ genes and a term size no greater than 25% of the effective background.  All
 other significant terms and all module assignments remain available for
 audit.  Cross-source similarity in the compact summary is lexical only and is
 not treated as semantic or mechanistic evidence.
+
+## Stage 3 — network convergence
+
+Network convergence is run separately for the four Tier A axes. Each network
+uses only that axis's frozen Step 7 CTD-overlap genes; no genes or interactors
+are added. STRING Homo sapiens functional associations are retained at a
+combined score of at least 700 (0.700), so the result is described as a
+high-confidence functional association network rather than a definitive
+physical PPI network.
+
+The frozen union of all 11 Step 7 cluster gene sets is used only as the
+empirical background. Connectivity is evaluated with 1,000 degree-stratified
+permutations using a fixed seed (20260827). Communities are detected with
+NetworkX Louvain using a fixed seed and unweighted community detection.
+
+Each module is reannotated using STRING Process, Reactome, and KEGG results;
+module annotations are descriptive and do not constitute new exposure or T2D
+hypothesis tests. Network-prioritized genes are ranked with a composite of
+normalized degree, betweenness, eigenvector centrality, within-module
+connectivity, and pathway recurrence. Module membership and annotations are
+reported separately, and no degree-only hub or causal-target claim is made.
+
+## Stage 3 interpretation boundary
+
+Network connectivity, community structure, and pathway recurrence do not
+establish exposure causality, pathway activation, directionality, or
+mediation. Transcriptomic directionality is a separate follow-up stage and
+flagship selection is intentionally not performed here.

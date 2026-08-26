@@ -1,0 +1,778 @@
+﻿[
+    {
+        "cluster_id":  "cluster_11",
+        "module_id":  "cluster_11_M001",
+        "n_network_nodes":  21,
+        "n_mapped_names":  21,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_11_cluster_11_M001.json"
+    },
+    {
+        "cluster_id":  "cluster_11",
+        "module_id":  "cluster_11_M002",
+        "n_network_nodes":  20,
+        "n_mapped_names":  20,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_11_cluster_11_M002.json"
+    },
+    {
+        "cluster_id":  "cluster_11",
+        "module_id":  "cluster_11_M003",
+        "n_network_nodes":  19,
+        "n_mapped_names":  19,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_11_cluster_11_M003.json"
+    },
+    {
+        "cluster_id":  "cluster_11",
+        "module_id":  "cluster_11_M004",
+        "n_network_nodes":  13,
+        "n_mapped_names":  13,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_11_cluster_11_M004.json"
+    },
+    {
+        "cluster_id":  "cluster_11",
+        "module_id":  "cluster_11_M005",
+        "n_network_nodes":  13,
+        "n_mapped_names":  13,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_11_cluster_11_M005.json"
+    },
+    {
+        "cluster_id":  "cluster_11",
+        "module_id":  "cluster_11_M006",
+        "n_network_nodes":  12,
+        "n_mapped_names":  12,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_11_cluster_11_M006.json"
+    },
+    {
+        "cluster_id":  "cluster_11",
+        "module_id":  "cluster_11_M007",
+        "n_network_nodes":  7,
+        "n_mapped_names":  7,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_11_cluster_11_M007.json"
+    },
+    {
+        "cluster_id":  "cluster_11",
+        "module_id":  "cluster_11_M008",
+        "n_network_nodes":  5,
+        "n_mapped_names":  5,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_11_cluster_11_M008.json"
+    },
+    {
+        "cluster_id":  "cluster_11",
+        "module_id":  "cluster_11_M009",
+        "n_network_nodes":  4,
+        "n_mapped_names":  4,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_11_cluster_11_M009.json"
+    },
+    {
+        "cluster_id":  "cluster_11",
+        "module_id":  "cluster_11_M010",
+        "n_network_nodes":  3,
+        "n_mapped_names":  3,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_11_cluster_11_M010.json"
+    },
+    {
+        "cluster_id":  "cluster_11",
+        "module_id":  "cluster_11_M011",
+        "n_network_nodes":  3,
+        "n_mapped_names":  3,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_11_cluster_11_M011.json"
+    },
+    {
+        "cluster_id":  "cluster_11",
+        "module_id":  "cluster_11_M012",
+        "n_network_nodes":  3,
+        "n_mapped_names":  3,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_11_cluster_11_M012.json"
+    },
+    {
+        "cluster_id":  "cluster_11",
+        "module_id":  "cluster_11_M013",
+        "n_network_nodes":  3,
+        "n_mapped_names":  3,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_11_cluster_11_M013.json"
+    },
+    {
+        "cluster_id":  "cluster_11",
+        "module_id":  "cluster_11_M014",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_11_cluster_11_M014.json"
+    },
+    {
+        "cluster_id":  "cluster_11",
+        "module_id":  "cluster_11_M015",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_11_cluster_11_M015.json"
+    },
+    {
+        "cluster_id":  "cluster_11",
+        "module_id":  "cluster_11_M016",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_11_cluster_11_M016.json"
+    },
+    {
+        "cluster_id":  "cluster_11",
+        "module_id":  "cluster_11_M017",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_11_cluster_11_M017.json"
+    },
+    {
+        "cluster_id":  "cluster_11",
+        "module_id":  "cluster_11_M018",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_11_cluster_11_M018.json"
+    },
+    {
+        "cluster_id":  "cluster_11",
+        "module_id":  "cluster_11_M019",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_11_cluster_11_M019.json"
+    },
+    {
+        "cluster_id":  "cluster_5",
+        "module_id":  "cluster_5_M001",
+        "n_network_nodes":  26,
+        "n_mapped_names":  26,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_5_cluster_5_M001.json"
+    },
+    {
+        "cluster_id":  "cluster_5",
+        "module_id":  "cluster_5_M002",
+        "n_network_nodes":  18,
+        "n_mapped_names":  18,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_5_cluster_5_M002.json"
+    },
+    {
+        "cluster_id":  "cluster_5",
+        "module_id":  "cluster_5_M003",
+        "n_network_nodes":  5,
+        "n_mapped_names":  5,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_5_cluster_5_M003.json"
+    },
+    {
+        "cluster_id":  "cluster_5",
+        "module_id":  "cluster_5_M004",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_5_cluster_5_M004.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M001",
+        "n_network_nodes":  107,
+        "n_mapped_names":  107,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M001.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M002",
+        "n_network_nodes":  80,
+        "n_mapped_names":  80,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M002.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M003",
+        "n_network_nodes":  67,
+        "n_mapped_names":  67,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M003.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M004",
+        "n_network_nodes":  56,
+        "n_mapped_names":  56,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M004.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M005",
+        "n_network_nodes":  54,
+        "n_mapped_names":  54,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M005.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M006",
+        "n_network_nodes":  46,
+        "n_mapped_names":  46,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M006.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M007",
+        "n_network_nodes":  38,
+        "n_mapped_names":  38,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M007.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M008",
+        "n_network_nodes":  35,
+        "n_mapped_names":  35,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M008.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M009",
+        "n_network_nodes":  16,
+        "n_mapped_names":  16,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M009.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M010",
+        "n_network_nodes":  12,
+        "n_mapped_names":  12,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M010.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M011",
+        "n_network_nodes":  8,
+        "n_mapped_names":  8,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M011.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M012",
+        "n_network_nodes":  6,
+        "n_mapped_names":  6,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M012.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M013",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M013.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M014",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M014.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M015",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M015.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M016",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M016.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M017",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M017.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M018",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M018.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M019",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M019.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M020",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M020.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M021",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M021.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M022",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M022.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M023",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M023.json"
+    },
+    {
+        "cluster_id":  "cluster_6",
+        "module_id":  "cluster_6_M024",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_6_cluster_6_M024.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M001",
+        "n_network_nodes":  428,
+        "n_mapped_names":  428,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M001.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M002",
+        "n_network_nodes":  204,
+        "n_mapped_names":  204,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M002.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M003",
+        "n_network_nodes":  202,
+        "n_mapped_names":  202,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M003.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M004",
+        "n_network_nodes":  180,
+        "n_mapped_names":  180,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M004.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M005",
+        "n_network_nodes":  164,
+        "n_mapped_names":  164,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M005.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M006",
+        "n_network_nodes":  145,
+        "n_mapped_names":  145,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M006.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M007",
+        "n_network_nodes":  145,
+        "n_mapped_names":  145,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M007.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M008",
+        "n_network_nodes":  144,
+        "n_mapped_names":  144,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M008.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M009",
+        "n_network_nodes":  134,
+        "n_mapped_names":  134,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M009.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M010",
+        "n_network_nodes":  114,
+        "n_mapped_names":  114,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M010.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M011",
+        "n_network_nodes":  109,
+        "n_mapped_names":  109,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M011.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M012",
+        "n_network_nodes":  92,
+        "n_mapped_names":  92,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M012.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M013",
+        "n_network_nodes":  66,
+        "n_mapped_names":  66,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M013.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M014",
+        "n_network_nodes":  12,
+        "n_mapped_names":  12,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M014.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M015",
+        "n_network_nodes":  4,
+        "n_mapped_names":  4,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M015.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M016",
+        "n_network_nodes":  4,
+        "n_mapped_names":  4,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M016.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M017",
+        "n_network_nodes":  4,
+        "n_mapped_names":  4,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M017.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M018",
+        "n_network_nodes":  4,
+        "n_mapped_names":  4,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M018.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M019",
+        "n_network_nodes":  3,
+        "n_mapped_names":  3,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M019.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M020",
+        "n_network_nodes":  3,
+        "n_mapped_names":  3,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M020.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M021",
+        "n_network_nodes":  3,
+        "n_mapped_names":  3,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M021.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M022",
+        "n_network_nodes":  3,
+        "n_mapped_names":  3,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M022.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M023",
+        "n_network_nodes":  3,
+        "n_mapped_names":  3,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M023.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M024",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M024.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M025",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M025.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M026",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M026.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M027",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M027.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M028",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M028.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M029",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M029.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M030",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M030.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M031",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M031.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M032",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M032.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M033",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M033.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M034",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M034.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M035",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M035.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M036",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M036.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M037",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M037.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M038",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M038.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M039",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M039.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M040",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M040.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M041",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M041.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M042",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M042.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M043",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M043.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M044",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M044.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M045",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M045.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M046",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M046.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M047",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M047.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M048",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M048.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M049",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M049.json"
+    },
+    {
+        "cluster_id":  "cluster_8",
+        "module_id":  "cluster_8_M050",
+        "n_network_nodes":  2,
+        "n_mapped_names":  2,
+        "status":  "queried",
+        "cache":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_enrichment_cluster_8_cluster_8_M050.json"
+    }
+]

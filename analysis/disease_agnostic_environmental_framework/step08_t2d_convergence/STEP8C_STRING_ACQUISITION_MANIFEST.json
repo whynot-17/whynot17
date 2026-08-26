@@ -1,0 +1,263 @@
+﻿{
+    "status":  "acquisition_complete",
+    "endpoint_base":  "https://string-db.org/api/json",
+    "species":  9606,
+    "required_score":  700,
+    "network_type":  "functional",
+    "add_nodes":  0,
+    "input_source":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step07_genecard_convergence\\t2d_cluster_ctd_gene_membership.csv",
+    "input_rule":  "Step 7 overlap genes only for Tier A axes; frozen 11-cluster union used only as empirical randomization background",
+    "generated_at":  "2026-08-26T16:02:12.2090422Z",
+    "axes":  {
+                 "cluster_6":  {
+                                   "n_input_genes":  919,
+                                   "n_blocks":  1,
+                                   "n_requests":  1,
+                                   "mapping":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_cluster_6_mapping.json",
+                                   "requests":  [
+                                                    {
+                                                        "id":  "b001",
+                                                        "n_genes":  919,
+                                                        "block_a":  0,
+                                                        "block_b":  0,
+                                                        "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_cluster_6_network_b001.json"
+                                                    }
+                                                ]
+                               },
+                 "cluster_5":  {
+                                   "n_input_genes":  65,
+                                   "n_blocks":  1,
+                                   "n_requests":  1,
+                                   "mapping":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_cluster_5_mapping.json",
+                                   "requests":  [
+                                                    {
+                                                        "id":  "b001",
+                                                        "n_genes":  65,
+                                                        "block_a":  0,
+                                                        "block_b":  0,
+                                                        "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_cluster_5_network_b001.json"
+                                                    }
+                                                ]
+                               },
+                 "cluster_11":  {
+                                    "n_input_genes":  245,
+                                    "n_blocks":  1,
+                                    "n_requests":  1,
+                                    "mapping":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_cluster_11_mapping.json",
+                                    "requests":  [
+                                                     {
+                                                         "id":  "b001",
+                                                         "n_genes":  245,
+                                                         "block_a":  0,
+                                                         "block_b":  0,
+                                                         "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_cluster_11_network_b001.json"
+                                                     }
+                                                 ]
+                                },
+                 "cluster_8":  {
+                                   "n_input_genes":  3016,
+                                   "n_blocks":  4,
+                                   "n_requests":  6,
+                                   "mapping":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_cluster_8_mapping.json",
+                                   "requests":  [
+                                                    {
+                                                        "id":  "b001",
+                                                        "n_genes":  1508,
+                                                        "block_a":  0,
+                                                        "block_b":  1,
+                                                        "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_cluster_8_network_b001.json"
+                                                    },
+                                                    {
+                                                        "id":  "b002",
+                                                        "n_genes":  1508,
+                                                        "block_a":  0,
+                                                        "block_b":  2,
+                                                        "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_cluster_8_network_b002.json"
+                                                    },
+                                                    {
+                                                        "id":  "b003",
+                                                        "n_genes":  1508,
+                                                        "block_a":  0,
+                                                        "block_b":  3,
+                                                        "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_cluster_8_network_b003.json"
+                                                    },
+                                                    {
+                                                        "id":  "b004",
+                                                        "n_genes":  1508,
+                                                        "block_a":  1,
+                                                        "block_b":  2,
+                                                        "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_cluster_8_network_b004.json"
+                                                    },
+                                                    {
+                                                        "id":  "b005",
+                                                        "n_genes":  1508,
+                                                        "block_a":  1,
+                                                        "block_b":  3,
+                                                        "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_cluster_8_network_b005.json"
+                                                    },
+                                                    {
+                                                        "id":  "b006",
+                                                        "n_genes":  1508,
+                                                        "block_a":  2,
+                                                        "block_b":  3,
+                                                        "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_cluster_8_network_b006.json"
+                                                    }
+                                                ]
+                               }
+             },
+    "background":  {
+                       "n_input_genes":  6076,
+                       "n_blocks":  7,
+                       "n_requests":  21,
+                       "mapping":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_background_11clusters_mapping.json",
+                       "requests":  [
+                                        {
+                                            "id":  "b001",
+                                            "n_genes":  1736,
+                                            "block_a":  0,
+                                            "block_b":  1,
+                                            "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_background_11clusters_network_b001.json"
+                                        },
+                                        {
+                                            "id":  "b002",
+                                            "n_genes":  1736,
+                                            "block_a":  0,
+                                            "block_b":  2,
+                                            "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_background_11clusters_network_b002.json"
+                                        },
+                                        {
+                                            "id":  "b003",
+                                            "n_genes":  1736,
+                                            "block_a":  0,
+                                            "block_b":  3,
+                                            "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_background_11clusters_network_b003.json"
+                                        },
+                                        {
+                                            "id":  "b004",
+                                            "n_genes":  1736,
+                                            "block_a":  0,
+                                            "block_b":  4,
+                                            "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_background_11clusters_network_b004.json"
+                                        },
+                                        {
+                                            "id":  "b005",
+                                            "n_genes":  1736,
+                                            "block_a":  0,
+                                            "block_b":  5,
+                                            "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_background_11clusters_network_b005.json"
+                                        },
+                                        {
+                                            "id":  "b006",
+                                            "n_genes":  1736,
+                                            "block_a":  0,
+                                            "block_b":  6,
+                                            "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_background_11clusters_network_b006.json"
+                                        },
+                                        {
+                                            "id":  "b007",
+                                            "n_genes":  1736,
+                                            "block_a":  1,
+                                            "block_b":  2,
+                                            "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_background_11clusters_network_b007.json"
+                                        },
+                                        {
+                                            "id":  "b008",
+                                            "n_genes":  1736,
+                                            "block_a":  1,
+                                            "block_b":  3,
+                                            "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_background_11clusters_network_b008.json"
+                                        },
+                                        {
+                                            "id":  "b009",
+                                            "n_genes":  1736,
+                                            "block_a":  1,
+                                            "block_b":  4,
+                                            "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_background_11clusters_network_b009.json"
+                                        },
+                                        {
+                                            "id":  "b010",
+                                            "n_genes":  1736,
+                                            "block_a":  1,
+                                            "block_b":  5,
+                                            "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_background_11clusters_network_b010.json"
+                                        },
+                                        {
+                                            "id":  "b011",
+                                            "n_genes":  1736,
+                                            "block_a":  1,
+                                            "block_b":  6,
+                                            "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_background_11clusters_network_b011.json"
+                                        },
+                                        {
+                                            "id":  "b012",
+                                            "n_genes":  1736,
+                                            "block_a":  2,
+                                            "block_b":  3,
+                                            "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_background_11clusters_network_b012.json"
+                                        },
+                                        {
+                                            "id":  "b013",
+                                            "n_genes":  1736,
+                                            "block_a":  2,
+                                            "block_b":  4,
+                                            "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_background_11clusters_network_b013.json"
+                                        },
+                                        {
+                                            "id":  "b014",
+                                            "n_genes":  1736,
+                                            "block_a":  2,
+                                            "block_b":  5,
+                                            "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_background_11clusters_network_b014.json"
+                                        },
+                                        {
+                                            "id":  "b015",
+                                            "n_genes":  1736,
+                                            "block_a":  2,
+                                            "block_b":  6,
+                                            "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_background_11clusters_network_b015.json"
+                                        },
+                                        {
+                                            "id":  "b016",
+                                            "n_genes":  1736,
+                                            "block_a":  3,
+                                            "block_b":  4,
+                                            "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_background_11clusters_network_b016.json"
+                                        },
+                                        {
+                                            "id":  "b017",
+                                            "n_genes":  1736,
+                                            "block_a":  3,
+                                            "block_b":  5,
+                                            "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_background_11clusters_network_b017.json"
+                                        },
+                                        {
+                                            "id":  "b018",
+                                            "n_genes":  1736,
+                                            "block_a":  3,
+                                            "block_b":  6,
+                                            "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_background_11clusters_network_b018.json"
+                                        },
+                                        {
+                                            "id":  "b019",
+                                            "n_genes":  1736,
+                                            "block_a":  4,
+                                            "block_b":  5,
+                                            "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_background_11clusters_network_b019.json"
+                                        },
+                                        {
+                                            "id":  "b020",
+                                            "n_genes":  1736,
+                                            "block_a":  4,
+                                            "block_b":  6,
+                                            "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_background_11clusters_network_b020.json"
+                                        },
+                                        {
+                                            "id":  "b021",
+                                            "n_genes":  1736,
+                                            "block_a":  5,
+                                            "block_b":  6,
+                                            "path":  "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\raw_string\\string_background_11clusters_network_b021.json"
+                                        }
+                                    ]
+                   }
+}

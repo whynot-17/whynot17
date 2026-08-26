@@ -1,0 +1,28 @@
+{
+  "status": "complete_network_convergence",
+  "tier_a_axes": [
+    "cluster_11",
+    "cluster_5",
+    "cluster_6",
+    "cluster_8"
+  ],
+  "input_rule": "Step 7 overlap genes only for each Tier A axis",
+  "species": 9606,
+  "string_network_type": "functional",
+  "required_score": 0.7,
+  "add_nodes": 0,
+  "background_rule": "frozen union of all 11 Step 7 CTD cluster gene sets used only for degree-stratified empirical randomization",
+  "permutation_n": 1000,
+  "random_seed": 20260827,
+  "community_method": "NetworkX louvain_communities; weight=None; fixed seed",
+  "hub_rule": "network-priority composite averages normalized degree, betweenness, eigenvector, within-module connectivity, and pathway recurrence; module membership reported separately; no degree-only hub claims",
+  "outputs": [
+    "t2d_step8c_string_mapping_audit.csv",
+    "t2d_step8c_network_summary.csv",
+    "t2d_step8c_network_edges.csv",
+    "t2d_step8c_network_nodes.csv",
+    "t2d_step8c_network_modules.csv",
+    "t2d_step8c_module_annotations.csv"
+  ],
+  "interpretation": "network connectivity and module organization are descriptive; no exposure causality, activation, or mediation inference"
+}

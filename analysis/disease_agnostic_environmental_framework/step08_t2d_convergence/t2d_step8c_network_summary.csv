@@ -1,0 +1,5 @@
+cluster_id,n_step7_overlap_genes,n_mapped_string_ids,n_network_nodes,n_network_edges_score_ge_700,n_connected_components,n_louvain_modules,largest_module_nodes,background_nodes,background_edges,degree_stratified_perm_n,perm_expected_edges,observed_to_expected_edge_ratio,empirical_p_ge_observed,random_seed,network_type,required_score
+cluster_11,245,240,138,190,13,19,21,4621,40762,1000,125.389,1.5152844348387817,0.000999000999000999,20260827,functional,0.7
+cluster_5,65,62,51,193,2,4,26,4621,40762,1000,42.259,4.567074469343808,0.000999000999000999,20260827,functional,0.7
+cluster_6,919,801,549,2536,13,24,107,4621,40762,1000,1572.778,1.6124335411609267,0.000999000999000999,20260827,functional,0.7
+cluster_8,3016,2917,2224,13364,36,50,428,4621,40762,1000,6606.707,2.022792898186646,0.000999000999000999,20260827,functional,0.7

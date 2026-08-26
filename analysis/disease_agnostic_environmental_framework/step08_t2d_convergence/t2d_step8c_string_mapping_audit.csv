@@ -1,0 +1,6 @@
+cluster_id,n_query_genes_in_mapping,n_mapped_genes_in_mapping,n_ambiguous_queries,n_step7_overlap_genes,n_mapped_string_ids,n_unmapped_input_genes,input_mapped_fraction
+background_11clusters,5707,5707,0,6076,4621,369,0.9392692560895326
+cluster_11,240,240,0,245,240,5,0.9795918367346939
+cluster_5,62,62,0,65,62,3,0.9538461538461539
+cluster_6,801,801,0,919,801,118,0.8715995647442872
+cluster_8,2917,2917,0,3016,2917,99,0.9671750663129973

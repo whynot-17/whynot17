@@ -1,6 +1,6 @@
 {
   "analysis": "Step 8 T2D pathway convergence",
-  "status": "complete_pathway_ora",
+  "status": "complete_pathway_ora_redundancy_network_convergence",
   "tier_a_clusters": [
     "cluster_11",
     "cluster_5",
@@ -492,5 +492,29 @@
     "n_modules": 321,
     "n_compact_representatives": 32,
     "interpretation": "descriptive redundancy reduction; no new hypothesis test; no direction or causal inference"
+  },
+  "stage3_network_convergence": {
+    "status": "complete_network_convergence",
+    "manifest": "STEP8C_MANIFEST.json",
+    "report": "STEP8C_T2D_NETWORK_REPORT.md",
+    "input_rule": "Step 7 overlap genes only for each Tier A axis",
+    "species": 9606,
+    "string_network_type": "functional",
+    "required_score": 0.7,
+    "add_nodes": 0,
+    "background_rule": "frozen union of all 11 Step 7 CTD cluster gene sets used only for degree-stratified empirical randomization",
+    "permutation_n": 1000,
+    "random_seed": 20260827,
+    "community_method": "NetworkX louvain_communities; weight=None; fixed seed",
+    "hub_rule": "network-priority composite averages normalized degree, betweenness, eigenvector, within-module connectivity, and pathway recurrence; module membership reported separately; no degree-only hub claims",
+    "outputs": [
+      "t2d_step8c_string_mapping_audit.csv",
+      "t2d_step8c_network_summary.csv",
+      "t2d_step8c_network_edges.csv",
+      "t2d_step8c_network_nodes.csv",
+      "t2d_step8c_network_modules.csv",
+      "t2d_step8c_module_annotations.csv"
+    ],
+    "interpretation": "network connectivity, community structure, and pathway recurrence are descriptive; no exposure causality, pathway activation, directionality, mediation, or flagship selection"
   }
 }
