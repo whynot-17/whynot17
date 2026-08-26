@@ -1,0 +1,258 @@
+{
+  "status": "complete_full_provenance_number_audit",
+  "generated_utc": "2026-08-26T19:25:34.580782+00:00",
+  "scope": "Canonical Step 1–8 positive T2D branch plus canonical Step 5/9A–9B CRC negative branch; legacy conflicts are retained separately.",
+  "canonical_assertion_count": 40,
+  "canonical_mismatch_count": 0,
+  "requested_numbers": [
+    409,
+    411,
+    29,
+    14,
+    13,
+    11,
+    5,
+    4,
+    420,
+    97,
+    16
+  ],
+  "key_rules": {
+    "411": "actionable chemical-biomarker mapping rows",
+    "409": "unique chemical IDs across actionable/frozen test memberships",
+    "420": "sum of assay-specific CRC outcome-QC cases across 10 cycles",
+    "97": "median analytic CRC case count across the 29 rebuilt CRC tests",
+    "13_crc": "signal-limited tests under Step 9B frozen near-null rule",
+    "16_crc": "power-limited non-null tests under Step 9B OR=1.20 detectability reference"
+  },
+  "outputs": {
+    "audit": {
+      "path": "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9e_full_provenance_number_audit.csv",
+      "sha256": "38a1491644125ff3b4d13dba8f96e49462ca69cfeffe406de1bfeca5918eba46"
+    },
+    "conflict_ledger": {
+      "path": "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9e_historical_number_conflict_ledger.csv",
+      "sha256": "acc1168b587bb30857ea6584346fcfb076935dab32c01b8398127962cf872ef4"
+    },
+    "source_snapshot": {
+      "path": "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9e_source_file_snapshot.csv",
+      "sha256": "dbb35e3ab22a988063f89442f48fc184e1b7bf1e119acfd834731719e7628113"
+    },
+    "report": {
+      "path": "analysis/disease_agnostic_environmental_framework/step09_negative_branch/STEP9E_FULL_PROVENANCE_NUMBER_AUDIT.md",
+      "sha256": "ad64abfd2e71d49a94c1fe0eac5ec4d787b9adad173b4f99e16a3fe7cde6bee8"
+    },
+    "script": {
+      "path": "analysis/disease_agnostic_environmental_framework/step09_negative_branch/run_step09e_full_provenance_number_audit.py",
+      "sha256": "c6f6ab2d94796e32dcd2942f290f7cfae226b4d605bf76a0be03f800885eec4c"
+    }
+  },
+  "legacy_provenance": {
+    "crc_legacy_cases": 123,
+    "crc_legacy_cancer_free_controls": 15784,
+    "crc_legacy_diagnosis_age_available_cases": 119,
+    "crc_old_provisional_fdr_positive_count": 2,
+    "crc_267_matrix_rows": 267,
+    "crc_267_enter_systematic_human_screen": 87,
+    "crc_267_retained_without_screen": 180,
+    "t2d_deprecated_strict_genecards_rows": 111
+  },
+  "source_files": [
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step01_environmental_universe/environmental_universe.csv",
+      "sha256": "ad0c1d65129ea78d17fd964f5a9e85908344cfd4a40e35b9628004d53c679dc1",
+      "rows": 2042,
+      "columns": 15,
+      "purpose": "Step 1 canonical disease-agnostic universe"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step01_environmental_universe/ctd_classification_ledger.csv",
+      "sha256": "e865ea4f5539b62a4ce9061ba32b70fabe51ca5382f1f87a48f6ef67c93729bf",
+      "rows": 179672,
+      "columns": 15,
+      "purpose": "Step 1 raw CTD classification rows"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step02_biomarker_mapping/chemical_biomarker_mapping.csv",
+      "sha256": "9114121e5d3e49d69739cec48c77f6709dce531e4c0a4d97b3c3e59fc63bb25d",
+      "rows": 2046,
+      "columns": 20,
+      "purpose": "Step 2 mapping ledger"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step03_actionability/actionability_ledger.csv",
+      "sha256": "c2480d968b4731ccf3676a54b9647b6c6cf67ca6f7eef9ec19e54a78ca3a9225",
+      "rows": 2046,
+      "columns": 16,
+      "purpose": "Step 3 actionability ledger"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step03_actionability/exclusion_ledger.csv",
+      "sha256": "51d7bc76bb9a2a25f2319b50319251bba3903497f83b59fb695ea96f6fb0eb45",
+      "rows": 1635,
+      "columns": 16,
+      "purpose": "Step 3 exclusions"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step04_testset_freeze/unique_biomarker_test_set.csv",
+      "sha256": "6b284b23d69f74991fc28978c85c1e39d10f096e2fd4d42290046df8224c3a9e",
+      "rows": 29,
+      "columns": 12,
+      "purpose": "Step 4 frozen test set"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/hypothesis_unit_audit/step4_test_chemical_membership.csv",
+      "sha256": "5b5d45db031b77a90e3c3b369d38df50fdc24811e18fcc87329299d852d25c0a",
+      "rows": 411,
+      "columns": 9,
+      "purpose": "Step 4 chemical membership"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/hypothesis_unit_audit/step4_test_hypothesis_mapping.csv",
+      "sha256": "0d49b306818f2ba8abcb80fe120d0086bf8f6798c1b409a495e909e86f0c923c",
+      "rows": 29,
+      "columns": 24,
+      "purpose": "Step 4 hypothesis-unit mapping audit"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step05_t2d_screen/t2d_primary_29_tests.csv",
+      "sha256": "a3764979386bfc903c19f2f382d02ebf93d9e1e67e77e5cefa642dc187c2f1a3",
+      "rows": 29,
+      "columns": 40,
+      "purpose": "Step 5 canonical T2D screen"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step06_t2d_robustness/t2d_robustness_results.csv",
+      "sha256": "3ae5786d0c9dc31bbd972ebf061499c382fbf1276f8c62a2d371fe767f92f88d",
+      "rows": 14,
+      "columns": 62,
+      "purpose": "Step 6 canonical T2D robustness"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step06_t2d_robustness/t2d_exposure_clusters.csv",
+      "sha256": "73d229a0c79b7d27bc93e335173f50cad998743218548e350e39d1d167c78c3b",
+      "rows": 14,
+      "columns": 4,
+      "purpose": "Step 6 T2D exposure clusters"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step07_genecard_convergence/t2d_genecards_primary_gene_audit.csv",
+      "sha256": "6f4c2526b7d0d79de9a39bd0b6c4e88768d853ccdd281a5a1dc965fc1e608289",
+      "rows": 20554,
+      "columns": 9,
+      "purpose": "Step 7 primary GeneCards input"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step07_genecard_convergence/t2d_cluster_enrichment_primary.csv",
+      "sha256": "b61542e0372706bd23b144c85d29b5cf7fe012ae5c1a11864953fce757a69172",
+      "rows": 11,
+      "columns": 12,
+      "purpose": "Step 7 cluster enrichment"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step07_genecard_convergence/t2d_step7_joint_prioritization.csv",
+      "sha256": "834a7ff1b745b3acb0c6c07abde5bd236a7886ee26dbb0b662f3059e514f18b7",
+      "rows": 11,
+      "columns": 13,
+      "purpose": "Step 7 joint prioritization"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step08_t2d_convergence/t2d_step8_pathway_ora_all.csv",
+      "sha256": "d6ab7c5db0586e559447e32098f6f44346698a3caf6ef18901ba31fc2a54b27c",
+      "rows": 31623,
+      "columns": 14,
+      "purpose": "Step 8 pathway tests"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step08_t2d_convergence/t2d_step8_pathway_ora_significant.csv",
+      "sha256": "f46d71aa057ad0d0c15eae2001def7782eada50a38d73481ac300a4c9ad0bc13",
+      "rows": 1647,
+      "columns": 14,
+      "purpose": "Step 8 significant pathway terms"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step08_t2d_convergence/t2d_step8_module_summary.csv",
+      "sha256": "824c899fc146a8109c7027a79e48b124f1a6dd6fa81932f9ed9078e2b77ddfb3",
+      "rows": 321,
+      "columns": 15,
+      "purpose": "Step 8 redundancy-reduced modules"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step08_t2d_convergence/t2d_step8_module_representatives.csv",
+      "sha256": "32b7d2fd2a8dd2091fcb7d73d0bdada2a2c5a70e776b261b195cfbbd477a56bf",
+      "rows": 32,
+      "columns": 15,
+      "purpose": "Step 8 pathway representatives"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step08_t2d_convergence/t2d_step8c_network_summary.csv",
+      "sha256": "a93652d18f0ce5c05ad36ccc0e0dc693debe0aeff31f5f560daad9677e2b9e63",
+      "rows": 4,
+      "columns": 17,
+      "purpose": "Step 8C network summary"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step08_t2d_convergence/t2d_step8c_network_modules.csv",
+      "sha256": "268596665a5c5fd17a14c0819dad52da76f6978f40b4ce42e8b4e059e6838ab7",
+      "rows": 97,
+      "columns": 8,
+      "purpose": "Step 8C network modules"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step08_t2d_convergence/t2d_step8e_final_classification.csv",
+      "sha256": "5155656f004375d3d57e5efcae242dda3ff998c33f9ae8a47fd09b5a3a828b32",
+      "rows": 4,
+      "columns": 7,
+      "purpose": "Step 8E integrated classifications"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step05_crc_screen_rebuilt/assay_specific_outcome_frame_qc.csv",
+      "sha256": "4ada2307c2910fcc62dfac28608d04eaa3d2aefc964128eb30cc3a650d5a385c",
+      "rows": 10,
+      "columns": 7,
+      "purpose": "Step 5 rebuilt CRC outcome QC"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step05_crc_screen_rebuilt/full_29_test_crc_screen_rebuilt.csv",
+      "sha256": "168a9dbbc9eabddda3fc69246f11e8a7d81f65ff186229273ef0ab573ec2c827",
+      "rows": 29,
+      "columns": 36,
+      "purpose": "Step 5 canonical assay-specific CRC screen"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9a_readiness_overview.csv",
+      "sha256": "622eb838875d5c2c8a865e4683d4d12ba359c82d07d643057539673a5d9e6e24",
+      "rows": 2,
+      "columns": 32,
+      "purpose": "Step 9A readiness overview"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9b_crc_failure_attribution_29_tests.csv",
+      "sha256": "a41d4a13a6bc93967b70fbb84b5e02f4cf99bf60b339b8caaf7f4a728dfcc9a5",
+      "rows": 29,
+      "columns": 48,
+      "purpose": "Step 9B CRC failure attribution"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step05_crc_screen/CRC_case_control_ledger.csv",
+      "sha256": "ceee7acb50adbba88aa0cf4f409ad03b11dda542bfdf0f25f1ad9dab0547206b",
+      "rows": 17382,
+      "columns": 16,
+      "purpose": "Legacy CRC diagnosis-age ledger"
+    },
+    {
+      "source_file": "analysis/disease_agnostic_environmental_framework/step05_crc_screen/full_29_test_crc_screen.csv",
+      "sha256": "415a383a1b0c365c9012c62b2ff6ac0d8e776c07b220387d90b12283f660a6a6",
+      "rows": 29,
+      "columns": 33,
+      "purpose": "Superseded provisional CRC screen"
+    },
+    {
+      "source_file": "outputs/environmental_crc_267_actionability_matrix_v2.csv",
+      "sha256": "32cf565641ee601f32c265003a2d1e175922e447f0ffd9763b22ab91d51fe3a8",
+      "rows": 267,
+      "columns": 85,
+      "purpose": "Superseded CRC-specific 267-row matrix"
+    }
+  ]
+}
