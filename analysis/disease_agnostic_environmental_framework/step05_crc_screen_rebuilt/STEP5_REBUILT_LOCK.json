@@ -1,0 +1,317 @@
+{
+  "lock_type": "STEP5_ASSAY_SPECIFIC_REBUILD",
+  "run_timestamp_utc": "2026-08-26T10:40:37.997958+00:00",
+  "frozen_test_count": 29,
+  "fdr_denominator": 29,
+  "test_set": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step04_testset_freeze\\unique_biomarker_test_set.csv",
+  "test_set_sha256": "6b284b23d69f74991fc28978c85c1e39d10f096e2fd4d42290046df8224c3a9e",
+  "registry": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\data_processed\\detectability_registry_outcome_blinded.csv",
+  "registry_sha256": "6db7f7c171bc912d054b56725d3412616197f087abd7446b0fd554c9ff125646",
+  "model_script": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\scripts\\mbzp_crc_phase2b.py",
+  "model_script_sha256": "df96541e3662c6a57b70d6f8e7adbe4ffefb6677e827b13bb1d7fc5382d54d9c",
+  "outcome_frame_definition": "cycle-matched MCQ/DEMO/BMX/SMQ/ALQ/DIQ/PAQ/ALB_CR; no exposure laboratory file used to construct outcome frame",
+  "exposure_definition": "test-specific registry local_xpt + variable + flag_variable + weight_variable; pooled weight divided by the test's included cycle count",
+  "model_specification": "CRC ~ log2(exposure) + age + sex + race + BMI + smoking + PIR; urine tests additionally + log2(creatinine)",
+  "old_provisional_step5_preserved": true,
+  "results": [
+    {
+      "variable": "LBXPFDE",
+      "N": 10773,
+      "CRC_N": 78,
+      "OR": 0.7709183651295605,
+      "P": 0.1854211943668421,
+      "BH_FDR": 0.645497976956436,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "LBXPFHS",
+      "N": 10773,
+      "CRC_N": 78,
+      "OR": 0.7646968363435038,
+      "P": 0.018457764499910535,
+      "BH_FDR": 0.2526699442418741,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "LBXPFNA",
+      "N": 10773,
+      "CRC_N": 78,
+      "OR": 0.8862498364873671,
+      "P": 0.3879983766870822,
+      "BH_FDR": 0.6835334232822524,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXBPH",
+      "N": 7025,
+      "CRC_N": 51,
+      "OR": 1.0334942078913252,
+      "P": 0.66828352012046,
+      "BH_FDR": 0.8292009173538025,
+      "FDR_supported": false,
+      "status": "converged_with_warning"
+    },
+    {
+      "variable": "URXCOP",
+      "N": 9936,
+      "CRC_N": 70,
+      "OR": 1.245506776277735,
+      "P": 0.0033113585227657213,
+      "BH_FDR": 0.09602939716020592,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXECP",
+      "N": 11224,
+      "CRC_N": 85,
+      "OR": 1.210931012364846,
+      "P": 0.06584419117265966,
+      "BH_FDR": 0.31824692400118837,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXMBP",
+      "N": 13779,
+      "CRC_N": 104,
+      "OR": 0.8954105062316063,
+      "P": 0.40344269354915124,
+      "BH_FDR": 0.6835334232822524,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXMEP",
+      "N": 13775,
+      "CRC_N": 104,
+      "OR": 0.9329209184301188,
+      "P": 0.22258550929532275,
+      "BH_FDR": 0.645497976956436,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXMHH",
+      "N": 12603,
+      "CRC_N": 97,
+      "OR": 1.1915472045896265,
+      "P": 0.04629793949150477,
+      "BH_FDR": 0.2685280490507277,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXMHP",
+      "N": 13779,
+      "CRC_N": 104,
+      "OR": 1.0929315586759332,
+      "P": 0.2895669423676373,
+      "BH_FDR": 0.6835334232822524,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXMIB",
+      "N": 12603,
+      "CRC_N": 97,
+      "OR": 0.9658530593451338,
+      "P": 0.6712276393083554,
+      "BH_FDR": 0.8292009173538025,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXMOH",
+      "N": 12603,
+      "CRC_N": 97,
+      "OR": 1.203680690724304,
+      "P": 0.026138270093986976,
+      "BH_FDR": 0.2526699442418741,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXMZP",
+      "N": 13779,
+      "CRC_N": 104,
+      "OR": 0.9545082278876245,
+      "P": 0.601791625784653,
+      "BH_FDR": 0.8292009173538025,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXP02",
+      "N": 11225,
+      "CRC_N": 92,
+      "OR": 0.9989739118613229,
+      "P": 0.9922606159374012,
+      "BH_FDR": 0.9922606159374012,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXP04",
+      "N": 12563,
+      "CRC_N": 100,
+      "OR": 1.0361879177660582,
+      "P": 0.7757147723774104,
+      "BH_FDR": 0.8998291359577961,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXP10",
+      "N": 12538,
+      "CRC_N": 100,
+      "OR": 1.1432347173715816,
+      "P": 0.29322050076736705,
+      "BH_FDR": 0.6835334232822524,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXP25",
+      "N": 4275,
+      "CRC_N": 30,
+      "OR": 1.1499136331785056,
+      "P": 0.645585248923222,
+      "BH_FDR": 0.8292009173538025,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXUBA",
+      "N": 13748,
+      "CRC_N": 100,
+      "OR": 0.8471428290993458,
+      "P": 0.09587724082987477,
+      "BH_FDR": 0.3972057120094812,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXUCD",
+      "N": 11482,
+      "CRC_N": 87,
+      "OR": 1.013145159664966,
+      "P": 0.9059612463205324,
+      "BH_FDR": 0.9730694867887201,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXUCO",
+      "N": 13865,
+      "CRC_N": 101,
+      "OR": 0.9955620567078951,
+      "P": 0.9708254431816907,
+      "BH_FDR": 0.9922606159374012,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXUCS",
+      "N": 13865,
+      "CRC_N": 101,
+      "OR": 0.9564411690305913,
+      "P": 0.8330610455297267,
+      "BH_FDR": 0.9291834738600797,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXUMO",
+      "N": 13775,
+      "CRC_N": 100,
+      "OR": 0.9204313988926829,
+      "P": 0.4242621247958808,
+      "BH_FDR": 0.6835334232822524,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXUPB",
+      "N": 13865,
+      "CRC_N": 101,
+      "OR": 0.9482764042641367,
+      "P": 0.6862352419479746,
+      "BH_FDR": 0.8292009173538025,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXUSB",
+      "N": 13780,
+      "CRC_N": 101,
+      "OR": 0.8066717762579192,
+      "P": 0.043487933643030705,
+      "BH_FDR": 0.2685280490507277,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXUSN",
+      "N": 5708,
+      "CRC_N": 40,
+      "OR": 1.104374287515189,
+      "P": 0.5300731874506442,
+      "BH_FDR": 0.8090590755825623,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXUSR",
+      "N": 4398,
+      "CRC_N": 31,
+      "OR": 0.8260520939351327,
+      "P": 0.3589131109689544,
+      "BH_FDR": 0.6835334232822524,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXUTL",
+      "N": 13830,
+      "CRC_N": 100,
+      "OR": 1.341179746589941,
+      "P": 0.2070203282398644,
+      "BH_FDR": 0.645497976956436,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXUTU",
+      "N": 13789,
+      "CRC_N": 101,
+      "OR": 1.0777911260523638,
+      "P": 0.3380670396377465,
+      "BH_FDR": 0.6835334232822524,
+      "FDR_supported": false,
+      "status": "ok"
+    },
+    {
+      "variable": "URXUUR",
+      "N": 11448,
+      "CRC_N": 85,
+      "OR": 0.8937657709738257,
+      "P": 0.37529765360924805,
+      "BH_FDR": 0.6835334232822524,
+      "FDR_supported": false,
+      "status": "ok"
+    }
+  ],
+  "output_hashes": {
+    "full_29_test_crc_screen_rebuilt.csv": "168a9dbbc9eabddda3fc69246f11e8a7d81f65ff186229273ef0ab573ec2c827",
+    "crc_bh_fdr_29_tests_rebuilt.csv": "96977c537e6405c3254004e036f15dbd0457d53795edb7157f94ce00f4c58ce1",
+    "sample_size_by_test_rebuilt.csv": "9b4685d73dda7bf9343d1477c728449eb64c46c9351c31e961467c05079fb867",
+    "assay_specific_outcome_frame_qc.csv": "4ada2307c2910fcc62dfac28608d04eaa3d2aefc964128eb30cc3a650d5a385c",
+    "assay_specific_merge_audit.csv": "acb6805cfe671dd48b76f506423caf96b558ff835e9e12f9f6d3c9b37c607e9d",
+    "assay_specific_source_manifest.csv": "360990a5f72f0ac1cb99c571cb29b550693f3aa5b7abd0a450d94cc2993f6d05",
+    "STEP5_REBUILT_REPORT.md": "e7e9cfa89ccf1e148cab5cae0441eb447f74d833c2fecc815b264e23b0d163f7"
+  }
+}
