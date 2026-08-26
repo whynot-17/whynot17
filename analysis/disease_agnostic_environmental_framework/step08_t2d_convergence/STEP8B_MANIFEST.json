@@ -1,0 +1,23 @@
+{
+  "status": "complete_redundancy_reduction",
+  "input": "t2d_step8_pathway_ora_all.csv filtered at global_bh_fdr < 0.05",
+  "n_significant_terms": 1647,
+  "effective_background_size": 6069,
+  "n_modules": 321,
+  "n_compact_representatives": 32,
+  "tier_a_axes": [
+    "cluster_11",
+    "cluster_5",
+    "cluster_6",
+    "cluster_8"
+  ],
+  "parameters": {
+    "max_bridge_fraction": 0.25,
+    "ancestor_jaccard_threshold": 0.35,
+    "min_common_ancestors": 2,
+    "max_selected_modules_per_axis": 8,
+    "representative_min_intersection": 3
+  },
+  "interpretation": "descriptive redundancy reduction; no new hypothesis test; no direction or causal inference",
+  "raw_cache": "local-only raw_gprofiler cache; not committed"
+}

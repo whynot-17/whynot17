@@ -61,3 +61,21 @@ value.
 Transcriptomic directionality and network context are separate follow-up
 stages. They require independent expression or interaction inputs and must not
 be inferred from this ORA alone.
+
+## Stage 2 — redundancy reduction and module summary
+
+The 1,647 terms passing the frozen global BH-FDR threshold are retained in
+full.  A separate descriptive layer assigns terms to modules using the
+captured g:Profiler parent/ancestor structure.  Terms covering more than 25%
+of the effective background are not allowed to bridge modules, and a guarded
+ancestor-set similarity threshold is used only when a direct significant
+parent is absent.  The module representative is selected deterministically
+from overlap size, global q value, and term specificity; it is not a new
+statistical test.
+
+For the compact axis summary, at most eight eligible representatives are
+retained per Tier A axis.  Representatives require at least three overlapping
+genes and a term size no greater than 25% of the effective background.  All
+other significant terms and all module assignments remain available for
+audit.  Cross-source similarity in the compact summary is lexical only and is
+not treated as semantic or mechanistic evidence.

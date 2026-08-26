@@ -479,5 +479,18 @@
     "t2d_step8_gprofiler_query_audit.json",
     "STEP8_T2D_PATHWAY_REPORT.md",
     "STEP8_MANIFEST.json"
-  ]
+  ],
+  "stage2_redundancy_reduction": {
+    "status": "complete_redundancy_reduction",
+    "manifest": "STEP8B_MANIFEST.json",
+    "report": "STEP8B_T2D_REDUNDANCY_REPORT.md",
+    "term_hierarchy": "t2d_step8_term_hierarchy.csv",
+    "module_term_assignments": "t2d_step8_pathway_modules.csv",
+    "module_summary": "t2d_step8_module_summary.csv",
+    "compact_representatives": "t2d_step8_module_representatives.csv",
+    "n_significant_terms": 1647,
+    "n_modules": 321,
+    "n_compact_representatives": 32,
+    "interpretation": "descriptive redundancy reduction; no new hypothesis test; no direction or causal inference"
+  }
 }
