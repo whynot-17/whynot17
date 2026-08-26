@@ -1,0 +1,36 @@
+{
+  "step": "9D",
+  "title": "Question-Specific Data Readiness Diagnostic",
+  "created_utc": "2026-08-26T19:11:19.755129+00:00",
+  "input_sha256": {
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9a_readiness_overview.csv": "622eb838875d5c2c8a865e4683d4d12ba359c82d07d643057539673a5d9e6e24",
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9a_per_test_readiness.csv": "89f55d420110bcf178e5cc1cfdc8378a866551a777c09cf24c10121b83db1b13",
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9b_crc_failure_attribution_summary.csv": "a21a630d8c32ce80d18ed20ba9a876a66be2c9736d385d47eca8cc0113881104",
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9c_counterfactual_summary.csv": "23956a6425868834c31646b29f479f9af75ccc5f8c1789e348774050f4ee5458",
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9c_data_improvement_priority_matrix.csv": "c3d7bde64008345401ad236a750ef1b436759124bec2b0e591832e4b4e802492",
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9c_structural_outcome_improvements.csv": "a24dd2135c98b5bc69f69aa58d206cc4ce9910449cfd71f43d4dba9be8d1fe06"
+  },
+  "outputs": [
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/run_step09d_negative_branch_synthesis.py",
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9d_negative_branch_synthesis.csv",
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9d_positive_negative_branch_symmetry.csv",
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/STEP9D_NEGATIVE_BRANCH_SYNTHESIS_REPORT.md"
+  ],
+  "scope_boundaries": {
+    "refit_models": false,
+    "new_p_values": false,
+    "new_fdr_values": false,
+    "change_frozen_29_test_family": false,
+    "new_gene_cards_or_ctd_search": false,
+    "new_candidate_selection": false,
+    "purpose": "integrate Steps 9A-9C into a formal negative-branch diagnostic"
+  },
+  "qc": {
+    "overview_rows": 2,
+    "per_test_crc_rows": 29,
+    "synthesis_rows": 8,
+    "symmetry_rows": 2,
+    "priority_rows_consumed": 7,
+    "structural_rows_consumed": 7
+  }
+}

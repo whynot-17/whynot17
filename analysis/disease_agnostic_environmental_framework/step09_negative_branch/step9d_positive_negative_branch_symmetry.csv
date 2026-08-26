@@ -1,0 +1,3 @@
+branch,outcome,role,terminal_output,interpretation_boundary
+positive,T2D,Outcome-firewalled environmental panel followed by disease-specific biological prioritization,"FDR-supported biomarkers/clusters with T2D pathway, network, and transcriptomic convergence",Biological prioritization is not causal proof.
+negative,CRC,Same outcome-firewalled environmental panel followed by question-specific failure diagnosis,Readiness profile → failure attribution → actionable data-improvement guidance,No FDR-supported CRC test does not prove absence of environmental relevance.
