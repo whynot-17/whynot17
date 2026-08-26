@@ -1,0 +1,116 @@
+{
+  "status": "complete_integrated_evidence_profiles",
+  "analysis": "Step 8E T2D integrated evidence synthesis and flagship selection",
+  "frozen_axes": [
+    "cluster_5",
+    "cluster_6",
+    "cluster_8",
+    "cluster_11"
+  ],
+  "upstream_chain": "29 frozen tests -> 14 FDR-positive -> 13 robust -> 11 clusters -> 5 GeneCards-enriched -> 4 Tier A -> pathway -> network -> transcriptomics -> integrated evidence",
+  "no_new_analysis": true,
+  "no_opaque_total_score": true,
+  "classification_rule": "evidence-profile classification using the locked Flagship/Supported/Exploratory criteria; no domain scores summed",
+  "classification": [
+    {
+      "cluster_id": "cluster_11",
+      "axis_label": "URXUUR",
+      "biomarkers": "URXUUR",
+      "final_classification": "Supported",
+      "pathway_concentration": "Moderate",
+      "transcriptomic_support": "Moderate, tissue-specific support",
+      "classification_rationale": "Strong epidemiology, robustness, GeneCards enrichment, and network structure; pathway results converge on transport/trafficking and protein-related themes but are not as focused as cluster_5. Transcriptomic support is clearly tissue-specific."
+    },
+    {
+      "cluster_id": "cluster_5",
+      "axis_label": "URXP02",
+      "biomarkers": "URXP02",
+      "final_classification": "Flagship",
+      "pathway_concentration": "High",
+      "transcriptomic_support": "Moderate, tissue-specific support",
+      "classification_rationale": "Most concentrated cross-layer profile: FDR-supported and robust epidemiology, strong GeneCards convergence, a focused xenobiotic/CYP pathway theme, strong network enrichment, and interpretable human tissue support. Cycle direction is less complete than the other axes and the gene set is comparatively small."
+    },
+    {
+      "cluster_id": "cluster_6",
+      "axis_label": "URXUBA + URXUSR",
+      "biomarkers": "URXUBA;URXUSR",
+      "final_classification": "Supported",
+      "pathway_concentration": "Moderate",
+      "transcriptomic_support": "Moderate, tissue-specific support",
+      "classification_rationale": "Strong epidemiology, robustness, GeneCards enrichment, and network structure; pathway themes center on miRNA/interleukin/IL-17/MAPK biology but remain broad, and transcriptomic direction differs by tissue. Retained as a two-biomarker axis."
+    },
+    {
+      "cluster_id": "cluster_8",
+      "axis_label": "URXUPB",
+      "biomarkers": "URXUPB",
+      "final_classification": "Exploratory",
+      "pathway_concentration": "Low",
+      "transcriptomic_support": "Limited and heterogeneous",
+      "classification_rationale": "Epidemiology, robustness, GeneCards enrichment, and network enrichment are present, but the very large input gene set, broad RNA/protein/cell-cycle themes, and mixed tissue directionality limit a focused biological interpretation."
+    }
+  ],
+  "inputs": {
+    "step5": {
+      "path": "/mnt/c/Users/21634/Documents/Codex/2026-08-22/non/work/whynot17/analysis/disease_agnostic_environmental_framework/step05_t2d_screen/t2d_primary_29_tests.csv",
+      "sha256": "a3764979386bfc903c19f2f382d02ebf93d9e1e67e77e5cefa642dc187c2f1a3"
+    },
+    "step6": {
+      "path": "/mnt/c/Users/21634/Documents/Codex/2026-08-22/non/work/whynot17/analysis/disease_agnostic_environmental_framework/step06_t2d_robustness/t2d_robustness_results.csv",
+      "sha256": "3ae5786d0c9dc31bbd972ebf061499c382fbf1276f8c62a2d371fe767f92f88d"
+    },
+    "step6_cycle": {
+      "path": "/mnt/c/Users/21634/Documents/Codex/2026-08-22/non/work/whynot17/analysis/disease_agnostic_environmental_framework/step06_t2d_robustness/t2d_cycle_heterogeneity.csv",
+      "sha256": "f26fefaae95a1f84ba977582a0c9d7b1419bbe5eb9d3fc8b213760094c4fed12"
+    },
+    "step7_joint": {
+      "path": "/mnt/c/Users/21634/Documents/Codex/2026-08-22/non/work/whynot17/analysis/disease_agnostic_environmental_framework/step07_genecard_convergence/t2d_step7_joint_prioritization.csv",
+      "sha256": "834a7ff1b745b3acb0c6c07abde5bd236a7886ee26dbb0b662f3059e514f18b7"
+    },
+    "step7_enrichment": {
+      "path": "/mnt/c/Users/21634/Documents/Codex/2026-08-22/non/work/whynot17/analysis/disease_agnostic_environmental_framework/step07_genecard_convergence/t2d_cluster_enrichment_primary.csv",
+      "sha256": "b61542e0372706bd23b144c85d29b5cf7fe012ae5c1a11864953fce757a69172"
+    },
+    "step8a_modules": {
+      "path": "/mnt/c/Users/21634/Documents/Codex/2026-08-22/non/work/whynot17/analysis/disease_agnostic_environmental_framework/step08_t2d_convergence/t2d_step8_module_summary.csv",
+      "sha256": "824c899fc146a8109c7027a79e48b124f1a6dd6fa81932f9ed9078e2b77ddfb3"
+    },
+    "step8b_representatives": {
+      "path": "/mnt/c/Users/21634/Documents/Codex/2026-08-22/non/work/whynot17/analysis/disease_agnostic_environmental_framework/step08_t2d_convergence/t2d_step8_module_representatives.csv",
+      "sha256": "32b7d2fd2a8dd2091fcb7d73d0bdada2a2c5a70e776b261b195cfbbd477a56bf"
+    },
+    "step8c_summary": {
+      "path": "/mnt/c/Users/21634/Documents/Codex/2026-08-22/non/work/whynot17/analysis/disease_agnostic_environmental_framework/step08_t2d_convergence/t2d_step8c_network_summary.csv",
+      "sha256": "a93652d18f0ce5c05ad36ccc0e0dc693debe0aeff31f5f560daad9677e2b9e63"
+    },
+    "step8c_nodes": {
+      "path": "/mnt/c/Users/21634/Documents/Codex/2026-08-22/non/work/whynot17/analysis/disease_agnostic_environmental_framework/step08_t2d_convergence/t2d_step8c_network_nodes.csv",
+      "sha256": "e5d47097cb8b831d173343491ae672c64321f741fff599d1d3f5804f25291c12"
+    },
+    "step8c_modules": {
+      "path": "/mnt/c/Users/21634/Documents/Codex/2026-08-22/non/work/whynot17/analysis/disease_agnostic_environmental_framework/step08_t2d_convergence/t2d_step8c_network_modules.csv",
+      "sha256": "268596665a5c5fd17a14c0819dad52da76f6978f40b4ce42e8b4e059e6838ab7"
+    },
+    "step8d_axis": {
+      "path": "/mnt/c/Users/21634/Documents/Codex/2026-08-22/non/work/whynot17/analysis/disease_agnostic_environmental_framework/step08_transcriptomic_convergence/t2d_step8d_axis_summary.csv",
+      "sha256": "92573e3c215a7620716a7ea92e2cfdf0d741bf1d993c7479cce10650399050f5"
+    },
+    "step8d_dataset_axis": {
+      "path": "/mnt/c/Users/21634/Documents/Codex/2026-08-22/non/work/whynot17/analysis/disease_agnostic_environmental_framework/step08_transcriptomic_convergence/t2d_step8d_dataset_axis_summary.csv",
+      "sha256": "23ff37bc5be37f6185aa5fcd789c22a6160dde12f06e90850f675e01dabfd71a"
+    },
+    "step8d_synthesis": {
+      "path": "/mnt/c/Users/21634/Documents/Codex/2026-08-22/non/work/whynot17/analysis/disease_agnostic_environmental_framework/step08_transcriptomic_convergence/t2d_step8d_module_cross_dataset_synthesis.csv",
+      "sha256": "4bb9378e52737447c07fc47cbaa40327001afa0859db944249844f5ce029c9cf"
+    }
+  },
+  "outputs": [
+    "t2d_step8e_axis_evidence_profiles.csv",
+    "t2d_step8e_final_classification.csv",
+    "t2d_step8e_interpretation_risks.csv",
+    "STEP8E_T2D_INTEGRATED_EVIDENCE_REPORT.md",
+    "STEP8E_MANIFEST.json",
+    "run_step08e_t2d_integrated_evidence.py"
+  ],
+  "interpretation_boundary": "No causal effect, mediation, pathway activation, exposure-induced expression, or universal T2D mechanism is claimed.",
+  "retrieved_utc": "2026-08-26T18:16:17.670596+00:00"
+}

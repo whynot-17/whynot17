@@ -1,6 +1,6 @@
 {
   "analysis": "Step 8 T2D pathway convergence",
-  "status": "complete_pathway_ora_redundancy_network_transcriptomic_directionality",
+  "status": "complete_integrated_evidence_profiles",
   "tier_a_clusters": [
     "cluster_11",
     "cluster_5",
@@ -535,5 +535,18 @@
     "contrast": "T2D minus comparator Welch two-sample t test within each dataset",
     "multiple_testing": "BH-FDR within each dataset across tested modules",
     "interpretation": "tissue-stratified descriptive directionality; no tissue pooling, exposure causality, pathway activation, mediation, or flagship selection"
+  },
+  "stage5_integrated_evidence": {
+    "status": "complete_integrated_evidence_profiles",
+    "manifest": "STEP8E_MANIFEST.json",
+    "report": "STEP8E_T2D_INTEGRATED_EVIDENCE_REPORT.md",
+    "input_rule": "four frozen Tier A axes; reads only Step 5–8D outputs",
+    "classification_rule": "evidence-profile classification; no opaque total score",
+    "final_classification": {
+      "flagship": ["cluster_5 / URXP02"],
+      "supported": ["cluster_6 / URXUBA + URXUSR", "cluster_11 / URXUUR"],
+      "exploratory": ["cluster_8 / URXUPB"]
+    },
+    "interpretation": "multi-layer biological convergence and tissue-specific transcriptomic support are descriptive; no causal mechanism, mediation, exposure-induced expression, or universal T2D mechanism"
   }
 }
