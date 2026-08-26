@@ -1,0 +1,46 @@
+{
+  "step": "9C",
+  "title": "Counterfactual data-improvement sensitivity analysis",
+  "created_utc": "2026-08-26T18:59:06.395903+00:00",
+  "input_sha256": {
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9b_crc_failure_attribution_29_tests.csv": "a41d4a13a6bc93967b70fbb84b5e02f4cf99bf60b339b8caaf7f4a728dfcc9a5"
+  },
+  "outputs": [
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/run_step09c_counterfactual_data_improvement.py",
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9c_event_expansion_simulation.csv",
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9c_retention_improvement_simulation.csv",
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9c_structural_outcome_improvements.csv",
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9c_data_improvement_priority_matrix.csv",
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/step9c_counterfactual_summary.csv",
+    "analysis/disease_agnostic_environmental_framework/step09_negative_branch/STEP9C_COUNTERFACTUAL_DATA_IMPROVEMENT_REPORT.md"
+  ],
+  "frozen_assumptions": {
+    "event_multipliers": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "event_se_scaling": "SE_new = SE_current / sqrt(case multiplier)",
+    "retention_targets": [
+      0.7,
+      0.85
+    ],
+    "retention_se_scaling": "SE_new = SE_current * sqrt(current cases / expected cases)",
+    "retention_missingness": "non-differential with respect to outcome",
+    "reference_effect_or": 1.2,
+    "mde": "two-sided alpha=0.05, 80% power, normal approximation",
+    "refit_models": false,
+    "new_p_values": false,
+    "new_fdr_values": false,
+    "structural_changes_get_no_fabricated_p_values": true
+  },
+  "qc": {
+    "input_tests": 29,
+    "event_rows": 116,
+    "retention_rows": 87,
+    "structural_rows": 7,
+    "priority_rows": 7,
+    "summary_rows": 8
+  }
+}
