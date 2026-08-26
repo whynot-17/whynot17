@@ -1,0 +1,27 @@
+unit_id,unit_kind,unit_label,member_test_count,member_biomarkers,parent_compound_if_recorded,chemical_mapping_count_sum,unique_chemical_id_count,primary_classes,basis,is_current_primary_fdr_unit,status
+biomarker::URXMBP,parent_unresolved,URXMBP,1,URXMBP,,1,1,phthalates,"direct urinary metabolite, but parent_compound was not recorded in the Step 1–4 ledger",False,secondary_operational_grouping_only
+biomarker::URXMEP,parent_unresolved,URXMEP,1,URXMEP,,1,1,phthalates,"direct urinary metabolite, but parent_compound was not recorded in the Step 1–4 ledger",False,secondary_operational_grouping_only
+biomarker::URXMIB,parent_unresolved,URXMIB,1,URXMIB,,1,1,phthalates,"direct urinary metabolite, but parent_compound was not recorded in the Step 1–4 ledger",False,secondary_operational_grouping_only
+direct::LBXPFDE,direct_analyte,LBXPFDE,1,LBXPFDE,,1,1,PFAS,single-chemical direct analyte,False,secondary_operational_grouping_only
+direct::LBXPFHS,direct_analyte,LBXPFHS,1,LBXPFHS,,1,1,PFAS,single-chemical direct analyte,False,secondary_operational_grouping_only
+direct::LBXPFNA,direct_analyte,LBXPFNA,1,LBXPFNA,,1,1,PFAS,single-chemical direct analyte,False,secondary_operational_grouping_only
+elemental_proxy::URXUBA,elemental_proxy,URXUBA,1,URXUBA,,8,8,metals,elemental urinary biomarker mapped to 8 metal/species entities,False,secondary_operational_grouping_only
+elemental_proxy::URXUCD,elemental_proxy,URXUCD,1,URXUCD,,7,7,metals,elemental urinary biomarker mapped to 7 metal/species entities,False,secondary_operational_grouping_only
+elemental_proxy::URXUCO,elemental_proxy,URXUCO,1,URXUCO,,50,50,metals,elemental urinary biomarker mapped to 50 metal/species entities,False,secondary_operational_grouping_only
+elemental_proxy::URXUCS,elemental_proxy,URXUCS,1,URXUCS,,22,22,metals,elemental urinary biomarker mapped to 22 metal/species entities,False,secondary_operational_grouping_only
+elemental_proxy::URXUMO,elemental_proxy,URXUMO,1,URXUMO,,18,18,metals,elemental urinary biomarker mapped to 18 metal/species entities,False,secondary_operational_grouping_only
+elemental_proxy::URXUPB,elemental_proxy,URXUPB,1,URXUPB,,29,29,metals,elemental urinary biomarker mapped to 29 metal/species entities,False,secondary_operational_grouping_only
+elemental_proxy::URXUSB,elemental_proxy,URXUSB,1,URXUSB,,22,22,metals,elemental urinary biomarker mapped to 22 metal/species entities,False,secondary_operational_grouping_only
+elemental_proxy::URXUSN,elemental_proxy,URXUSN,1,URXUSN,,18,18,metals,elemental urinary biomarker mapped to 18 metal/species entities,False,secondary_operational_grouping_only
+elemental_proxy::URXUSR,elemental_proxy,URXUSR,1,URXUSR,,16,16,metals,elemental urinary biomarker mapped to 16 metal/species entities,False,secondary_operational_grouping_only
+elemental_proxy::URXUTL,elemental_proxy,URXUTL,1,URXUTL,,9,9,metals,elemental urinary biomarker mapped to 9 metal/species entities,False,secondary_operational_grouping_only
+elemental_proxy::URXUTU,elemental_proxy,URXUTU,1,URXUTU,,12,12,metals,elemental urinary biomarker mapped to 12 metal/species entities,False,secondary_operational_grouping_only
+elemental_proxy::URXUUR,elemental_proxy,URXUUR,1,URXUUR,,13,13,metals,elemental urinary biomarker mapped to 13 metal/species entities,False,secondary_operational_grouping_only
+parent::BBzP,known_parent_linked,BBzP,1,URXMZP,BBzP,2,2,phthalates,parent_compound/metabolite_of recorded in the supplemental identity table,False,secondary_operational_grouping_only
+parent::DEHP,known_parent_linked,DEHP,4,URXECP;URXMHH;URXMHP;URXMOH,DEHP,6,4,phthalates,parent_compound/metabolite_of recorded in the supplemental identity table,False,secondary_operational_grouping_only
+parent::DINP,known_parent_linked,DINP,1,URXCOP,DINP,3,3,phthalates,parent_compound/metabolite_of recorded in the supplemental identity table,False,secondary_operational_grouping_only
+proxy::URXBPH,family_proxy,URXBPH,1,URXBPH,,34,34,bisphenols,one bisphenol assay mapped to 34 CTD entities; no single parent recorded,False,secondary_operational_grouping_only
+proxy::URXP02,family_proxy,URXP02,1,URXP02,,12,12,PAHs,urinary OH-PAH proxy mapped to 12 CTD entities; parent specificity limited,False,secondary_operational_grouping_only
+proxy::URXP04,family_proxy,URXP04,1,URXP04,,5,5,PAHs,urinary OH-PAH proxy mapped to 5 CTD entities; parent specificity limited,False,secondary_operational_grouping_only
+proxy::URXP10,family_proxy,URXP10,1,URXP10,,95,95,PAHs,urinary OH-PAH proxy mapped to 95 CTD entities; parent specificity limited,False,secondary_operational_grouping_only
+proxy::URXP25,family_proxy,URXP25,1,URXP25,,24,24,PAHs,urinary OH-PAH proxy mapped to 24 CTD entities; parent specificity limited,False,secondary_operational_grouping_only

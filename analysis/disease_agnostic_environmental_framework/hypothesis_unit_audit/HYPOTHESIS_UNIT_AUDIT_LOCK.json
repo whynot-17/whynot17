@@ -1,0 +1,66 @@
+{
+  "lock_type": "HYPOTHESIS_UNIT_AUDIT_LOCK",
+  "generated_utc": "2026-08-26T10:53:55.166867+00:00",
+  "git_commit_at_generation": "41ac56d58a0b83b53bfe033d00b2282b1f8f8bd0",
+  "outcome_free": true,
+  "sources": {
+    "step4_testset": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step04_testset_freeze\\unique_biomarker_test_set.csv",
+    "step4_testset_sha256": "6b284b23d69f74991fc28978c85c1e39d10f096e2fd4d42290046df8224c3a9e",
+    "step4_lock": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step04_testset_freeze\\PRE_DISEASE_TESTSET_LOCK.json",
+    "step4_lock_sha256": "bbb642a76f13622343aeb0891ea173c563bcf4cc30a3d982cfb3cf2f7bb08139",
+    "step2_mapping": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step02_biomarker_mapping\\chemical_biomarker_mapping.csv",
+    "step2_mapping_sha256": "9114121e5d3e49d69739cec48c77f6709dce531e4c0a4d97b3c3e59fc63bb25d",
+    "supplemental_parent_annotation": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\outputs\\environmental_crc_267_identity_table_v2.csv",
+    "supplemental_parent_annotation_sha256": "82d3d69464df4f20b30a03dc494272a55fb99c56640e76003546dc67958108d4"
+  },
+  "current_frozen_primary": {
+    "unit_definition": "unique NHANES biomarker test",
+    "test_count": 29,
+    "planned_fdr_denominator": 29,
+    "source_statement": "Step 4 collapse was performed only at the unique NHANES test level."
+  },
+  "mapping_counts": {
+    "actionable_chemical_biomarker_mappings": 411,
+    "unique_chemical_ids_across_tests": 409,
+    "mapping_rows_across_tests": 411,
+    "duplicate_chemical_memberships": "D004051: URXECP, URXMHH, URXMOH"
+  },
+  "descriptive_hierarchy": {
+    "unique_exposure_axis_labels": 7,
+    "exposure_axis_labels": [
+      "DEHP-related exposure axis",
+      "DINP-related exposure axis",
+      "PAH exposure axis",
+      "PFAS exposure axis",
+      "bisphenol exposure axis",
+      "metal exposure axis",
+      "phthalate exposure axis"
+    ],
+    "axis_memberships": 31,
+    "known_parent_annotated_test_count": 6,
+    "known_parent_annotated_tests": [
+      "URXCOP",
+      "URXECP",
+      "URXMHH",
+      "URXMHP",
+      "URXMOH",
+      "URXMZP"
+    ],
+    "known_parent_collapsed_operational_unit_count": 26,
+    "class_test_counts": {
+      "PAHs": 4,
+      "PFAS": 3,
+      "bisphenols": 1,
+      "metals": 12,
+      "phthalates": 9
+    },
+    "unit_kind_test_counts": {
+      "direct_analyte": 3,
+      "elemental_proxy": 12,
+      "family_proxy": 5,
+      "known_parent_linked": 6,
+      "parent_unresolved": 3
+    }
+  },
+  "interpretation_guardrail": "No denominator change is authorized by this audit. Any parent-level or hierarchical multiplicity analysis must be labeled secondary/post hoc unless frozen before CRC outcome access."
+}
