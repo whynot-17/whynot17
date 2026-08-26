@@ -2,6 +2,7 @@
   "lock_type": "CRC_SCREEN_LOCK",
   "lock_timestamp_utc": "2026-08-26T10:24:58.783215+00:00",
   "git_commit_of_frozen_step04_test_set": "f98e353",
+  "git_commit_of_step5_code_and_results": "75f9d78",
   "tests_input": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step04_testset_freeze\\unique_biomarker_test_set.csv",
   "tests_input_sha256": "6b284b23d69f74991fc28978c85c1e39d10f096e2fd4d42290046df8224c3a9e",
   "registry_input": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\data_processed\\detectability_registry_outcome_blinded.csv",
