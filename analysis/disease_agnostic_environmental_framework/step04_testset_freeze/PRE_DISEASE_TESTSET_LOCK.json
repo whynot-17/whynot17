@@ -1,8 +1,8 @@
 {
   "lock_type": "PRE_DISEASE_TESTSET_LOCK",
   "lock_timestamp_utc": "2026-08-26T10:12:40.216822+00:00",
-  "git_commit": "fc7ffbe8a5f90cc1d02bc4a38331b919a07af48a",
-  "git_commit_note": "Repository HEAD at the start of the pre-disease run; runner and all input hashes are recorded below.",
+  "git_commit": "e74253f",
+  "git_commit_note": "Commit containing the exact runner, protocol, inputs manifest, and generated Step 1–4 artifacts; this provenance field is finalized in the following lock-only commit.",
   "input_hashes": {
     "ctd_path": "D:\\mcop and CRC\\disease_agnostic_environmental_framework\\data_raw\\CTD_chemicals.tsv.gz",
     "ctd_sha256": "9e4b642c8716140d30a9376d6b2229acb81ee48a8b106a4f41ed06b29894ef6c",
