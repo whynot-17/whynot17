@@ -1,0 +1,116 @@
+{
+  "lock_type": "T2D_SCREEN_29_TESTS",
+  "run_timestamp_utc": "2026-08-26T11:28:57.658379+00:00",
+  "frozen_test_count": 29,
+  "fdr_denominator": 29,
+  "tests_input": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step04_testset_freeze\\unique_biomarker_test_set.csv",
+  "tests_input_sha256": "6b284b23d69f74991fc28978c85c1e39d10f096e2fd4d42290046df8224c3a9e",
+  "registry_input": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\data_processed\\detectability_registry_outcome_blinded.csv",
+  "registry_input_sha256": "6db7f7c171bc912d054b56725d3412616197f087abd7446b0fd554c9ff125646",
+  "survey_model_script": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\scripts\\mbzp_crc_phase2b.py",
+  "survey_model_script_sha256": "df96541e3662c6a57b70d6f8e7adbe4ffefb6677e827b13bb1d7fc5382d54d9c",
+  "exposure_reader_script": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step05_crc_screen\\run_step05_crc_screen.py",
+  "exposure_reader_script_sha256": "a55c6b6c60e4d420681045ec23278c94fe94d59e90a892b9decad44c8f337bc0",
+  "outcome_definition": "Adults >=20; diagnosed diabetes DIQ010=1 except likely early-onset insulin-dependent cases with DIQ050=1 and diagnosis age <20; probable undiagnosed diabetes if DIQ010=2 and available LBXGH >=6.5%; control if DIQ010=2 and available LBXGH <6.5%; all other ambiguous categories indeterminate.",
+  "objective_glycemia": "Official NHANES glycohemoglobin files; LBXGH >=6.5%; fasting glucose not used because it was not part of the local input package.",
+  "model_specification": "T2D ~ log2(exposure) + age + sex + race + BMI + smoking + PIR; urinary tests additionally + log2(creatinine)",
+  "weight_rule": "test-specific laboratory/subsample weight divided by included assay cycles; cycle-specific PSU and strata retained",
+  "n_tests": 29,
+  "n_finite_p": 29,
+  "n_nominal_p_lt_0_05": 14,
+  "n_suggestive_q_lt_0_10": 14,
+  "n_q_lt_0_05": 14,
+  "source_ghb_files": [
+    {
+      "cycle": "1999-2000",
+      "file": "LAB10.XPT",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB10.XPT",
+      "local_path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\nhanes_phase2a\\data\\1999-2000_LAB10.XPT",
+      "bytes": 109200,
+      "sha256": "af0f1ef9c342f085e9b699115f92745f70e9cee1a0142fbc968d806d7656a553"
+    },
+    {
+      "cycle": "2001-2002",
+      "file": "L10_B.XPT",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L10_B.XPT",
+      "local_path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\nhanes_phase2a\\data\\2001-2002_L10_B.XPT",
+      "bytes": 120160,
+      "sha256": "39ce5bbda8caed4246c89687b7e0f2853c8311274e301821593d631308108fd3"
+    },
+    {
+      "cycle": "2003-2004",
+      "file": "L10_C.XPT",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L10_C.XPT",
+      "local_path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\nhanes_phase2a\\data\\2003-2004_L10_C.XPT",
+      "bytes": 112880,
+      "sha256": "423d73cdd3d37e07b6bbd506bd3d2f39ce5700eebd495fc59e57337a07e122b3"
+    },
+    {
+      "cycle": "2005-2006",
+      "file": "GHB_D.XPT",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/GHB_D.XPT",
+      "local_path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\nhanes_phase2a\\data\\2005-2006_GHB_D.XPT",
+      "bytes": 112720,
+      "sha256": "5662b07e9c0ac2afa600604b4e0f224567ce9e1e07b8787aaf5ad98717701f29"
+    },
+    {
+      "cycle": "2007-2008",
+      "file": "GHB_E.XPT",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/GHB_E.XPT",
+      "local_path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\nhanes_phase2a\\data\\2007-2008_GHB_E.XPT",
+      "bytes": 111760,
+      "sha256": "4c0311851825e9e0352c58af193c58d8f7a3af613aa5f522893e3c8f83e53a53"
+    },
+    {
+      "cycle": "2009-2010",
+      "file": "GHB_F.XPT",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/GHB_F.XPT",
+      "local_path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\nhanes_phase2a\\data\\2009-2010_GHB_F.XPT",
+      "bytes": 118960,
+      "sha256": "98505d8aa707bd06b8b1d488d1ecdf13388bffea6ec1b89929726e7d2b32703b"
+    },
+    {
+      "cycle": "2011-2012",
+      "file": "GHB_G.XPT",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/GHB_G.XPT",
+      "local_path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\nhanes_phase2a\\data\\2011-2012_GHB_G.XPT",
+      "bytes": 105840,
+      "sha256": "8ff7cc95461fdfd47d2c9640b944a2bcd45926a3c0e64c98a09a4cef6c0f88d7"
+    },
+    {
+      "cycle": "2013-2014",
+      "file": "GHB_H.XPT",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/GHB_H.XPT",
+      "local_path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\nhanes_phase2a\\data\\2013-2014_GHB_H.XPT",
+      "bytes": 112720,
+      "sha256": "0695894ad55ac96f315a8415401977b0856c402d16762115b534bcd5dfeae89e"
+    },
+    {
+      "cycle": "2015-2016",
+      "file": "GHB_I.XPT",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/GHB_I.XPT",
+      "local_path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\nhanes_phase2a\\data\\2015-2016_GHB_I.XPT",
+      "bytes": 108960,
+      "sha256": "e4bc626cd12f6057c7806aef4f85874c9bf1407a7480d6621a4af142260addd2"
+    },
+    {
+      "cycle": "2017-2018",
+      "file": "GHB_J.XPT",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/GHB_J.XPT",
+      "local_path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\nhanes_phase2a\\data\\2017-2018_GHB_J.XPT",
+      "bytes": 103520,
+      "sha256": "35f07094573a0061a03ed609a5a363b34eb1b1c7065d1623b43d72e132a8a654"
+    }
+  ],
+  "output_files": [
+    "t2d_primary_29_tests.csv",
+    "t2d_primary_ranked.csv",
+    "t2d_outcome_qc.csv",
+    "t2d_merge_audit.csv",
+    "t2d_source_manifest.csv",
+    "t2d_screen_summary.md"
+  ],
+  "downstream_biology_run": false,
+  "robustness_run": false,
+  "gene_cards_or_ctd_disease_data_run": false
+}
