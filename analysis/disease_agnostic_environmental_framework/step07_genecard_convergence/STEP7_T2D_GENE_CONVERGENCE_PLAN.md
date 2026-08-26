@@ -10,9 +10,9 @@ Test all 11 exposure clusters carried forward from the frozen T2D Step 6 audit a
 - `step06_t2d_robustness/t2d_robustness_results.csv`
 - `hypothesis_unit_audit/step4_test_chemical_membership.csv`
 - CTD human chemical–gene interaction export, with unique `ChemicalID × GeneID` pairs
-- A user-supplied GeneCards export from the exact T2D `[Disorders]`-scoped query, retaining rank, symbol, and score fields
+- A captured GeneCards result from the exact T2D `[Disorders]`-scoped query, retaining rank, symbol, and score fields. The source may be the official public results table or the official export; the acquisition mode and checksum must be recorded.
 
-The CRC GeneCards export is explicitly prohibited as a substitute. If the T2D export is absent, the script runs a CTD-side preflight only and records the GeneCards analysis as blocked; it never fabricates a T2D gene set from web snippets or another disease.
+The CRC GeneCards export is explicitly prohibited as a substitute. If the T2D input is absent, the script runs a CTD-side preflight only and records the GeneCards analysis as blocked; it never fabricates a T2D gene set from web snippets or another disease.
 
 ## Exposure-unit rule
 
@@ -24,7 +24,7 @@ Restrict to `Organism == Homo sapiens`. Deduplicate interactions by `ChemicalID 
 
 ## GeneCards rule
 
-The primary gene set is the supplied T2D Disorders-scoped export at the prespecified rank cutoff (default K=1000 if the export contains at least K ranked genes). K=500 and K=2000 are sensitivity analyses when available. The query string, export timestamp, GeneCards build, and file checksum must be recorded in the manifest. No CRC-specific GeneCards set, CRC outcome, or T2D outcome P value is used to construct the gene set.
+The primary gene set is the captured T2D Disorders-scoped result at the prespecified rank cutoff (default K=1000 if at least K ranked genes are available). K=500 and K=2000 are sensitivity analyses when available. If the exact public result contains fewer than 2000 rows, the available row count is retained and the non-distinguishable cutoffs are explicitly reported rather than padded. The query string, acquisition mode, retrieval timestamp, GeneCards build when available, and file checksum must be recorded in the manifest. No CRC-specific GeneCards set, CRC outcome, or T2D outcome P value is used to construct the gene set.
 
 ## Enrichment and prioritization
 

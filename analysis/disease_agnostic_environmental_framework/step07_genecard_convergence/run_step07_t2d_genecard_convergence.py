@@ -325,7 +325,22 @@ def main() -> None:
     ]
     if args.genecards and not enrichment_table.empty:
         primary = enrichment_table[enrichment_table["gene_cards_k"].eq(1000)].sort_values(["bh_fdr", "hypergeom_p"])
-        report += ["## Primary T2D GeneCards enrichment (K=1000)", "", primary.to_markdown(index=False), ""]
+        n_cards = int(genecard_meta.get("n_ranked_rows", 0))
+        primary_heading = "## Primary T2D GeneCards enrichment (K=1000)"
+        if n_cards and n_cards < 1000:
+            primary_heading += f" — all {n_cards} available ranked genes"
+        primary_q_min = float(primary["bh_fdr"].min())
+        primary_summary = (
+            f"No cluster met BH-FDR < 0.05 in the primary 11-cluster family; "
+            f"minimum q = {primary_q_min:.4g}."
+        )
+        try:
+            primary_text = primary.to_markdown(index=False)
+        except ImportError:
+            # Keep the analysis runnable in minimal reproducibility environments;
+            # tabulate is only a report-formatting dependency, not an analysis one.
+            primary_text = "```csv\n" + primary.to_csv(index=False) + "```"
+        report += [primary_heading, "", primary_summary, "", primary_text, ""]
     else:
         report += ["## GeneCards dependency", "", "No T2D GeneCards export was supplied. The CTD-side preflight is complete; overlap/enrichment was intentionally not fabricated or substituted with the CRC GeneCards set.", ""]
     (args.output_dir / "t2d_step7_convergence_report.md").write_text("\n".join(report), encoding="utf-8")

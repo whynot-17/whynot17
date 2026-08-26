@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-08-26T11:55:03.146739+00:00",
+  "created_utc": "2026-08-26T12:15:14.210181+00:00",
   "analysis": "Step 7 T2D-specific CTD x GeneCards convergence",
   "n_step6_clusters": 11,
   "cluster_ids": [
@@ -19,11 +19,15 @@
   "n_ctd_interaction_pairs": 7551,
   "n_ctd_cluster_genes": 7379,
   "genecards": {
-    "status": "missing",
-    "query": ""
+    "status": "loaded",
+    "query": "[Disorders] \"type 2 diabetes mellitus\"",
+    "path": "analysis\\disease_agnostic_environmental_framework\\step07_genecard_convergence\\input\\t2d_genecards_public_disorders_results.csv",
+    "sha256": "f1be5698518eaa4b27a23c4e80b3666c48835cf98f26120d9335f2e1971cf743",
+    "n_ranked_rows": 111,
+    "max_rank": 111.0
   },
   "outcome_firewall": "T2D outcome is not used to construct the 29 frozen tests or 11 clusters; Step 7 is post-firewall biological prioritization.",
   "parent_mapping": "Inherited from Step 4; no parent relationships inferred from names.",
   "ctd_deduplication": "unique ChemicalID x GeneID among Homo sapiens interactions",
-  "status": "ctd_preflight_complete_genecards_input_missing"
+  "status": "complete_with_genecards"
 }

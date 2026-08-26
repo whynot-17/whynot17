@@ -1,0 +1,112 @@
+Rank,GeneSymbol,GeneName,GeneType,RelevanceScore,KnowledgeScore
+1,NIDDM4,"Diabetes Mellitus, Noninsulin-Dependent",Genetic Locus,20.6,24
+2,TBC1D4,TBC1 Domain Family Member 4,Protein Coding,19.7,85
+3,AKT2,AKT Serine/Threonine Kinase 2,Protein Coding,17.3,100
+4,GCK,Glucokinase,Protein Coding,17.3,100
+5,HNF1A,HNF1 Homeobox A,Protein Coding,16.8,99
+6,HNF4A,Hepatocyte Nuclear Factor 4 Alpha,Protein Coding,15.7,100
+7,INSR,Insulin Receptor,Protein Coding,15.7,100
+8,KCNJ11,Potassium Inwardly Rectifying Channel Subfamily J Member 11,Protein Coding,15.7,100
+9,PPARG,Peroxisome Proliferator Activated Receptor Gamma,Protein Coding,15.7,100
+10,RBPJ,Recombination Signal Binding Protein For Immunoglobulin Kappa J Region,Protein Coding,15.7,100
+11,SLC2A2,Solute Carrier Family 2 Member 2,Protein Coding,15.7,100
+12,TCF7L2,Transcription Factor 7 Like 2,Protein Coding,15.7,100
+13,WRN,WRN RecQ Like Helicase,Protein Coding,15.7,100
+14,ABCC8,ATP Binding Cassette Subfamily C Member 8,Protein Coding,15.7,99
+15,HNF1B,HNF1 Homeobox B,Protein Coding,15.7,97
+16,ENPP1,Ectonucleotide Pyrophosphatase/Phosphodiesterase 1,Protein Coding,15.7,96
+17,LIPC,"Lipase C, Hepatic Type",Protein Coding,15.7,95
+18,FTO,FTO Alpha-Ketoglutarate Dependent Dioxygenase,Protein Coding,15.7,94
+19,GCGR,Glucagon Receptor,Protein Coding,15.7,94
+20,WFS1,Wolframin ER Transmembrane Glycoprotein,Protein Coding,15.7,94
+21,IL6,Interleukin 6,Protein Coding,15.7,93
+22,IRS1,Insulin Receptor Substrate 1,Protein Coding,15.7,93
+23,SLC2A4,Solute Carrier Family 2 Member 4,Protein Coding,15.7,92
+24,IRS2,Insulin Receptor Substrate 2,Protein Coding,15.7,91
+25,PTPN1,Protein Tyrosine Phosphatase Non-Receptor Type 1,Protein Coding,15.7,91
+26,GREM1,"Gremlin 1, DAN Family BMP Antagonist",Protein Coding,15.7,89
+27,NEUROD1,Neuronal Differentiation 1,Protein Coding,15.7,89
+28,PDX1,Pancreatic And Duodenal Homeobox 1,Protein Coding,15.7,89
+29,PRMT7,Protein Arginine Methyltransferase 7,Protein Coding,15.7,89
+30,HMGA1,High Mobility Group AT-Hook 1,Protein Coding,15.7,85
+31,MTNR1B,Melatonin Receptor 1B,Protein Coding,15.7,85
+32,KLF11,KLF Transcription Factor 11,Protein Coding,15.7,83
+33,IGF2BP2,Insulin Like Growth Factor 2 MRNA Binding Protein 2,Protein Coding,15.7,82
+34,PAX4,Paired Box 4,Protein Coding,15.7,82
+35,CAMK1D,Calcium/Calmodulin Dependent Protein Kinase ID,Protein Coding,15.7,80
+36,GPD2,Glycerol-3-Phosphate Dehydrogenase 2,Protein Coding,15.7,80
+37,MAPK8IP1,Mitogen-Activated Protein Kinase 8 Interacting Protein 1,Protein Coding,15.7,79
+38,SLC30A8,Solute Carrier Family 30 Member 8,Protein Coding,15.7,79
+39,CDKAL1,CDKAL1 Threonylcarbamoyladenosine TRNA Methylthiotransferase,Protein Coding,15.7,78
+40,PPP1R3A,Protein Phosphatase 1 Regulatory Subunit 3A,Protein Coding,15.7,74
+41,MIR29A,MicroRNA 29a,RNA Gene,15.7,71
+42,RETN,Resistin,Protein Coding,15.7,69
+43,MIR29C,MicroRNA 29c,RNA Gene,15.7,68
+44,MEG3,Maternally Expressed 3,RNA Gene,15.7,67
+45,H19,H19 Imprinted Maternally Expressed Transcript,RNA Gene,15.7,66
+46,PVT1,Pvt1 Oncogene,RNA Gene,15.7,66
+47,RBPJL,Recombination Signal Binding Protein For Immunoglobulin Kappa J Region Like,Protein Coding,15.7,66
+48,MIR125A,MicroRNA 125a,RNA Gene,15.7,63
+49,MALAT1,Metastasis Associated Lung Adenocarcinoma Transcript 1,RNA Gene,15.7,60
+50,HOTAIR,HOX Transcript Antisense RNA,RNA Gene,15.7,59
+51,GAS5,Growth Arrest Specific 5,RNA Gene,15.7,58
+52,LOC110121471,VISTA Enhancer Hs1977,Functional Element,15.7,57
+53,CASC2,Cancer Susceptibility 2,RNA Gene,15.7,56
+54,LOC126862549,BRD4-Independent Group 4 Enhancer GRCh37_chr17:36093401-36094600,Functional Element,15.7,56
+55,CASC8,Cancer Susceptibility 8,RNA Gene,15.7,54
+56,TUG1,Taurine Up-Regulated 1,Protein Coding,15.7,52
+57,MT1P3,Metallothionein 1 Pseudogene 3,Pseudogene,15.7,50
+58,LINC01173,Long Intergenic Non-Protein Coding RNA 1173,RNA Gene,15.7,49
+59,LOC126807011,MED14-Independent Group 3 Enhancer GRCh37_chr4:26407341-26408540,Functional Element,15.7,49
+60,TP53COR1,Tumor Protein P53 Pathway Corepressor 1,RNA Gene,15.7,48
+61,NIDDM2,Non Insulin Dependent Diabetes Mellitus 2,Genetic Locus,11.9,29
+62,INS,Insulin,Protein Coding,7.8,100
+63,CAPN10,Calpain 10,Protein Coding,7.8,87
+64,INS-IGF2,INS-IGF2 Readthrough,Protein Coding,7.8,61
+65,BBS2,Bardet-Biedl Syndrome 2,Protein Coding,5.4,93
+66,TRIM32,Tripartite Motif Containing 32,Protein Coding,5.4,93
+67,BBS4,Bardet-Biedl Syndrome 4,Protein Coding,5.4,92
+68,BBS1,Bardet-Biedl Syndrome 1,Protein Coding,5.4,91
+69,IFT172,Intraflagellar Transport 172,Protein Coding,5.4,91
+70,ALMS1,ALMS1 Centrosome And Basal Body Associated Protein,Protein Coding,5.4,89
+71,BBS9,Bardet-Biedl Syndrome 9,Protein Coding,5.4,89
+72,CEP290,Centrosomal Protein 290,Protein Coding,5.4,89
+73,ARL6,ARF Like GTPase 6,Protein Coding,5.4,88
+74,BBS7,Bardet-Biedl Syndrome 7,Protein Coding,5.4,88
+75,MKS1,MKS Transition Zone Complex Subunit 1,Protein Coding,5.4,88
+76,TTC8,Tetratricopeptide Repeat Domain 8,Protein Coding,5.4,88
+77,PNPLA6,"Patatin Like Domain 6, Lysophospholipase",Protein Coding,5.4,86
+78,TMEM67,Transmembrane Protein 67,Protein Coding,5.4,86
+79,BBS5,Bardet-Biedl Syndrome 5,Protein Coding,5.4,85
+80,SDCCAG8,SHH Signaling And Ciliogenesis Regulator SDCCAG8,Protein Coding,5.4,85
+81,MKKS,MKKS Centrosomal Shuttling Protein,Protein Coding,5.4,82
+82,BBS10,Bardet-Biedl Syndrome 10,Protein Coding,5.4,80
+83,LZTFL1,Leucine Zipper Transcription Factor Like 1,Protein Coding,5.4,79
+84,WDPCP,WD Repeat Containing Planar Cell Polarity Effector,Protein Coding,5.4,79
+85,BBS12,Bardet-Biedl Syndrome 12,Protein Coding,5.4,77
+86,BBIP1,BBSome Interacting Protein 1,Protein Coding,5.4,72
+87,CFAP418,Cilia And Flagella Associated Protein 418,Protein Coding,5.4,66
+88,LOC126806252,BRD4-Independent Group 4 Enhancer GRCh37_chr2:73828496-73829695,Functional Element,5.4,60
+89,ALMS1-IT1,ALMS1 Intronic Transcript 1,RNA Gene,5.4,50
+90,LMNA,Lamin A/C,Protein Coding,3.8,100
+91,CEP19,Centrosomal Protein 19,Protein Coding,3.8,68
+92,SUMO4,Small Ubiquitin Like Modifier 4,Protein Coding,3.8,64
+93,LOC126805877,MED14-Independent Group 3 Enhancer GRCh37_chr1:156099693-156100892,Functional Element,3.8,59
+94,LOC129931597,ATAC-STARR-Seq Lymphoblastoid Silent Region 1421,Functional Element,3.8,57
+95,MRPL20-AS1,MRPL20 Antisense RNA 1,RNA Gene,3.8,51
+96,CELA2A,Chymotrypsin Like Elastase 2A,Protein Coding,1.6,68
+97,DST,Dystonin,Protein Coding,1.1,98
+98,LIPE,"Lipase E, Hormone Sensitive Type",Protein Coding,1.1,94
+99,CPE,Carboxypeptidase E,Protein Coding,1.1,90
+100,VPS33B,VPS33B Late Endosome And Lysosome Associated,Protein Coding,1.1,90
+101,DYRK1B,Dual Specificity Tyrosine Phosphorylation Regulated Kinase 1B,Protein Coding,1.1,88
+102,ADIPOQ,"Adiponectin, C1Q And Collagen Domain Containing",Protein Coding,1.1,85
+103,AHDC1,AT-Hook DNA Binding Motif Containing 1,Protein Coding,1.1,74
+104,C12orf43,Chromosome 12 Open Reading Frame 43,Protein Coding,1.1,65
+105,LIPE-AS1,LIPE Antisense RNA 1,RNA Gene,1.1,65
+106,LOC101930071,Uncharacterized LOC101930071,RNA Gene,1.1,58
+107,ADIPOQ-AS1,ADIPOQ Antisense RNA 1,RNA Gene,1.1,55
+108,LOC129996656,ATAC-STARR-Seq Lymphoblastoid Active Region 24702,Functional Element,1.1,52
+109,DST-AS1,DST Antisense RNA 1,RNA Gene,1.1,51
+110,LOC129389544,MPRA-Validated Peak5860 Silencer,Functional Element,1.1,51
+111,LOC106660625,Adiponectin Enhancer Region,Functional Element,1.1,48
