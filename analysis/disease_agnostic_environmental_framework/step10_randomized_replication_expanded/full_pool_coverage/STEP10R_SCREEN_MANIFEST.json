@@ -1,0 +1,25 @@
+{
+  "lock_type": "STEP10R_CROSS_DISEASE_SCREEN",
+  "generated_utc": "2026-08-27T17:03:54.710085+00:00",
+  "tests_path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step04_testset_freeze\\unique_biomarker_test_set.csv",
+  "tests_sha256": "6b284b23d69f74991fc28978c85c1e39d10f096e2fd4d42290046df8224c3a9e",
+  "registry_path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\data_processed\\detectability_registry_outcome_blinded.csv",
+  "registry_sha256": "6db7f7c171bc912d054b56725d3412616197f087abd7446b0fd554c9ff125646",
+  "panel_path": "analysis\\disease_agnostic_environmental_framework\\step10_randomized_replication_expanded\\full_pool_coverage\\step10r_randomized_disease_panel.csv",
+  "panel_sha256": "5ab82cfd51b58b5e197cd90ef27ce07e448012e0ac65f86bc4171c1644552a7a",
+  "randomization_lock_sha256": "9e2faa325fb374e4ba155a1814a78690bc1e90c7996b0dbf19bf17bfb94c021a",
+  "expanded_outcome_pool_n": 13,
+  "frozen_panel_n": 13,
+  "frozen_test_count": 29,
+  "fdr_denominator_per_disease": 29,
+  "model_specification": "disease ~ log2(exposure) + age + sex + race + BMI + smoking + PIR; urine tests additionally + log2(creatinine)",
+  "association_results_generated_after_randomization_lock": true,
+  "outcome_source_components": [
+    "BPQ",
+    "MCQ"
+  ],
+  "output_hashes": {
+    "step10r_cross_disease_replication_summary.csv": "29185a2d29c9b5068ec982cd451e6aa962068753f84d3a4ba6a16bf835645d75",
+    "STEP10R_CROSS_DISEASE_REPLICATION_REPORT.md": "e478ce5ca815a53ae788a22a3694b73fd57dce363fbdda216e0371ed0477be1b"
+  }
+}

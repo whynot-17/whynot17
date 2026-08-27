@@ -1,0 +1,28 @@
+{
+  "lock_type": "STEP10R_OUTCOME_BLINDED_EXPANDED_DISEASE_REGISTRY",
+  "generated_utc": "2026-08-27T16:41:06.253558+00:00",
+  "data_dir": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\nhanes_phase2a\\data",
+  "candidate_definitions": 13,
+  "eligible_pool_n": 13,
+  "candidate_components": [
+    "BPQ",
+    "MCQ"
+  ],
+  "eligibility_rules": {
+    "minimum_cycles": 3,
+    "minimum_pooled_adult_cases": 100,
+    "minimum_age": 20,
+    "binary_values": [
+      1,
+      2
+    ]
+  },
+  "outcome_information_used_for_exposure_selection": false,
+  "association_results_loaded": false,
+  "output_hashes": {
+    "step10r_disease_outcome_registry.csv": "4169c200d28bfd19839fe9fd81ddd63ae26a5ecf6b7d12b64b23afacd268bc3c",
+    "step10r_eligible_disease_pool.csv": "4169c200d28bfd19839fe9fd81ddd63ae26a5ecf6b7d12b64b23afacd268bc3c",
+    "step10r_disease_registry_cycle_audit.csv": "c7684a2daa4d9b19601d2b9a5db9d099e0489871623190d1e0c545e09ed558e5",
+    "STEP10R_POOL_AUDIT.md": "106f7a7f6a52bade284d705159a1fd9e1ef3f231e0ed9e4c6c91355efc67d476"
+  }
+}

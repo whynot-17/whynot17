@@ -1,0 +1,4 @@
+cycle,outcome_component,outcome_variable,source_file,outcome_source_rows,merged_core_rows,adult_rows,valid_binary_rows,case_rows,control_rows
+1999-2000,MCQ,MCQ160J,1999-2000_MCQ.XPT,9493,9493,4880,4876,1440,3436
+2001-2002,MCQ,MCQ160J,2001-2002_MCQ.XPT,10470,10470,5411,5407,1488,3919
+2003-2004,MCQ,MCQ160J,2003-2004_MCQ.XPT,9645,9645,5041,5036,1447,3589

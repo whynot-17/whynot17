@@ -1,0 +1,69 @@
+{
+  "analysis": "Step 8A-R T2D pathway enrichment robustness audit",
+  "status": "complete_matched_null_driver_audit",
+  "tier_a_axes": [
+    "cluster_11",
+    "cluster_5",
+    "cluster_6",
+    "cluster_8"
+  ],
+  "n_tier_a": 4,
+  "n_background_genes": 6076,
+  "n_permutations_per_axis_null": 1000,
+  "random_seed": 20260828,
+  "term_size_filter": {
+    "minimum": 5,
+    "maximum": 5000
+  },
+  "sources": {
+    "GO:BP": {
+      "n_records_before_filter": 8512,
+      "n_terms_after_filter": 2448
+    },
+    "REAC": {
+      "n_records_before_filter": 1839,
+      "n_terms_after_filter": 1420
+    },
+    "KEGG": {
+      "n_records_before_filter": 369,
+      "n_terms_after_filter": 345
+    }
+  },
+  "nulls": [
+    "gene_size_matched",
+    "annotation_burden_matched"
+  ],
+  "annotation_burden_definition": "sum of retained GOA, Reactome, and KEGG term memberships per background gene",
+  "multiple_testing": "BH within axis x source for observed/null ORA; empirical null P=(1+extreme count)/(B+1)",
+  "base_step8_outputs_modified": false,
+  "input_hashes": {
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step07_genecard_convergence\\t2d_cluster_ctd_gene_membership.csv": "c0642b9491a88fcb412c04e69b5c975a29e5d3802ef3fb26a337b80b15b8b527",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step07_genecard_convergence\\t2d_step7_joint_prioritization.csv": "834a7ff1b745b3acb0c6c07abde5bd236a7886ee26dbb0b662f3059e514f18b7",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\step08a_pathway_robustness\\annotation_cache\\goa_human.gaf.gz": "db472faff1785878521693af62646546cea6af4a386609dd01c72c0554a46a30",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\gene_sets\\c2.cp.reactome.v2026.1.Hs.symbols.gmt": "373763dce87b698513cf5a090e84236a3b0603669e56a7b43cd80eb1efaa80e1",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\step08a_pathway_robustness\\annotation_cache\\kegg_list_hsa.tsv": "ec3c5896ed611b526b681d40a95ac593b802954574a36e357bf1827e70db94e3",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\step08a_pathway_robustness\\annotation_cache\\kegg_link_pathway_hsa.tsv": "4ec2dd7effbddbe18ee477e403fa035e0e04b4c9cfd73714c0fe146fa41300bc",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\step08a_pathway_robustness\\annotation_cache\\kegg_list_pathway_hsa.tsv": "345290b203a665fa7604f36ba51d78095a712c6c02820fb09fde82a5a90c0a3a"
+  },
+  "canonical_outputs": [
+    "t2d_step8ar_observed_ora.csv",
+    "t2d_step8ar_observed_axis_metrics.csv",
+    "t2d_step8ar_null_permutation_summary.csv",
+    "t2d_step8ar_matched_null_comparison.csv",
+    "t2d_step8ar_driver_recurrence.csv",
+    "t2d_step8ar_leave_driver_out.csv",
+    "t2d_step8ar_database_concordance.csv",
+    "STEP8AR_T2D_PATHWAY_ROBUSTNESS_REPORT.md",
+    "STEP8AR_MANIFEST.json"
+  ],
+  "output_hashes": {
+    "t2d_step8ar_observed_ora.csv": "35f73ba7b1fc8953244fd50660057b7e5904ba4b126df19ec69c64810b693d86",
+    "t2d_step8ar_observed_axis_metrics.csv": "ee749430a81fc01dc7257370a03936d17d47b082c931f85bffb6c6406e75dc54",
+    "t2d_step8ar_null_permutation_summary.csv": "75f6fb1ef68269db206ea30f80be54e5811487fe1ea5ddf4e79e11cd87deec40",
+    "t2d_step8ar_matched_null_comparison.csv": "e7d69ea86699fc0b89df280f070526a69f68abd994f079adc2beb1a0520ab797",
+    "t2d_step8ar_driver_recurrence.csv": "46059a865aa3a6976cc90904e94859ac9b854cb53a1f29c05a040e5a43bdadf3",
+    "t2d_step8ar_leave_driver_out.csv": "5be992fb4aa74f181140d27306a54c2fe5b0dbe5f2fee8a792c5ab565258ad6d",
+    "t2d_step8ar_database_concordance.csv": "afb7f634f322f18be76c680fb948efb21efcc1f7756a8f33067743bc7e03e460",
+    "STEP8AR_T2D_PATHWAY_ROBUSTNESS_REPORT.md": "b46f58d1d0b0f4fe9230c9cbb02f7e226fd6b465088480a862ab1c27a1ae2472"
+  }
+}
