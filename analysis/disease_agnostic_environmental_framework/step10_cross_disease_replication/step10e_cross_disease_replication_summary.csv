@@ -1,0 +1,6 @@
+disease_id,disease_name,pooled_cases,n_cycles,median_analytic_n,median_analytic_cases,estimable_tests,technical_fit_ok_or_warning,nominal_positive_tests,fdr_positive_tests,branch,technical_warning_count,replacement_eligible
+NHANES_ANGINA,Physician-diagnosed angina or angina pectoris,1624,10,13716.0,361.0,29,29,6,0,Negative,0,False
+NHANES_CHRONIC_BRONCHITIS,Physician-diagnosed chronic bronchitis,3213,10,13743.0,791.0,29,29,5,3,Positive,0,False
+NHANES_CONGESTIVE_HEART_FAILURE,Physician-diagnosed congestive heart failure,1906,10,13724.0,407.0,29,29,10,6,Positive,0,False
+NHANES_HEART_ATTACK,Physician-diagnosed heart attack,2465,10,13745.0,589.0,29,29,14,10,Positive,0,False
+NHANES_LIVER_CONDITION,Physician-diagnosed liver condition,2065,10,13745.0,496.0,29,29,4,2,Positive,0,False

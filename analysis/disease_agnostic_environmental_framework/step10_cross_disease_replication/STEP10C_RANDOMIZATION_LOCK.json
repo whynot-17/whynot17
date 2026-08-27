@@ -1,0 +1,21 @@
+{
+  "lock_type": "STEP10C_RANDOMIZATION_LOCK",
+  "generated_utc": "2026-08-27T14:58:48.601301+00:00",
+  "random_seed": 20260827,
+  "requested_panel_size": 5,
+  "frozen_panel_size": 5,
+  "eligible_pool_n": 10,
+  "eligible_pool_sha256": "f0ef551923d8bb8024190c05fafc77fd0fc9ae83c069722d9b155c80bb90c4e3",
+  "selection_algorithm": "random.Random(seed).sample(sorted(eligible disease_id), k)",
+  "association_results_loaded_before_randomization": false,
+  "exposure_values_loaded_before_randomization": false,
+  "replacement_rule": "Only R1 outcome non-reconstructible, R2 <50% technically estimable tests, R3 no compatible survey design, or R4 invalid outcome definition; no result-driven replacement.",
+  "selected_disease_ids": [
+    "NHANES_LIVER_CONDITION",
+    "NHANES_CHRONIC_BRONCHITIS",
+    "NHANES_CONGESTIVE_HEART_FAILURE",
+    "NHANES_HEART_ATTACK",
+    "NHANES_ANGINA"
+  ],
+  "output_sha256": "e1a7a6e6bcd8c5df5d012a98bdcb5a590adb88cbcfe17d7f7767da2593b66dcb"
+}

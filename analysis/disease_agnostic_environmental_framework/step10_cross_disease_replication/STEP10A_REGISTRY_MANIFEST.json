@@ -1,0 +1,29 @@
+{
+  "lock_type": "STEP10A_OUTCOME_BLINDED_DISEASE_REGISTRY",
+  "generated_utc": "2026-08-27T14:58:30.043278+00:00",
+  "data_dir": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\nhanes_phase2a\\data",
+  "candidate_definitions": 10,
+  "eligible_pool_n": 10,
+  "eligibility_rules": {
+    "minimum_cycles": 3,
+    "minimum_pooled_adult_cases": 100,
+    "core_covariates": [
+      "age",
+      "sex",
+      "race",
+      "bmi",
+      "smoking",
+      "pir",
+      "SDMVPSU",
+      "SDMVSTRA"
+    ]
+  },
+  "outcome_information_used_for_exposure_selection": false,
+  "association_results_loaded": false,
+  "output_hashes": {
+    "disease_outcome_registry.csv": "f0ef551923d8bb8024190c05fafc77fd0fc9ae83c069722d9b155c80bb90c4e3",
+    "step10b_eligible_disease_pool.csv": "f0ef551923d8bb8024190c05fafc77fd0fc9ae83c069722d9b155c80bb90c4e3",
+    "disease_registry_cycle_audit.csv": "3667aa6a951419551362e9d554135c917c2be4b769e7ba05edcea1460221b36a",
+    "STEP10B_DISEASE_POOL_AUDIT.md": "5064ea9e035c2637fcf8e126da5bc0536ee5f591587675814b47c83187a107f2"
+  }
+}
