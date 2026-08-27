@@ -1,0 +1,33 @@
+{
+  "ctd": "9e4b642c8716140d30a9376d6b2229acb81ee48a8b106a4f41ed06b29894ef6c",
+  "rules": "f565cd741ee32ea0683d70e5cf36ea1d13062a2c92bd0b8c0a430f736c057ee6",
+  "drugcentral": "5b81423a2ec1e2766e9666ec4a172d5a5b47045ea2cc032d1ba06085956bc1fc",
+  "pah_formulas": "c9057cabc8c3cb740fcbf56e0224431be860bea450083a026d374715e41634eb",
+  "catalog": "d38569b0b0225b9da4848e32160e31af9667c8e0959743bd799bbca01b28a8f9",
+  "runner": "0710f2114f55497517218106b12af78923ddcc8fe62022bd7d26ab46ac51c1ca",
+  "disease_information_used": false,
+  "disease_fields_loaded": [],
+  "gene_disease_information_used": false,
+  "counts": {
+    "raw_ctd_rows": 179672,
+    "environmental_universe": 2042,
+    "registry_rows": 1646,
+    "mapped_mappings": 449,
+    "actionable_mappings": 411,
+    "unique_tests": 29
+  },
+  "all_comparison_key_sets_identical": true,
+  "all_comparison_field_values_identical": false,
+  "outputs": {
+    "clean_room_environmental_universe.csv": "34f129b1abe2c1a72c7b9dca6d76c388f28d2b4834efe4348b2c7b947b2bd8e9",
+    "clean_room_nhanes_registry.csv": "947cbba1033df22b8a2d10754588601ac60491478f101388f0bf8d9683d063e2",
+    "clean_room_chemical_biomarker_mapping.csv": "c4451816f9c0ea459b23f487e68e8393fe591ed833094b8747dff632a42d2c90",
+    "clean_room_actionability_ledger.csv": "4839acf0c336cc9a9d089f9822e95a0a51ac22baffb9902b1db09daaed6af8b9",
+    "clean_room_unique_test_set.csv": "6b284b23d69f74991fc28978c85c1e39d10f096e2fd4d42290046df8224c3a9e",
+    "clean_room_comparison.csv": "88a6874e0f9a32ddafcbd90afc75cfebd32765e33125d8e3c38d5fb071428e36",
+    "CLEAN_ROOM_RECONSTRUCTION_REPORT.md": "c50646414b4be9fba4d0cf21f17cc3da37bfdd376ea401d9fe9c4a5bedbd9009"
+  },
+  "local_only_outputs": {
+    "clean_room_classification_ledger.csv": "a5fb6527a94486b2761d4ae38d0ea4fa42c1036fd38d42247d7ab36b561ac070"
+  }
+}
