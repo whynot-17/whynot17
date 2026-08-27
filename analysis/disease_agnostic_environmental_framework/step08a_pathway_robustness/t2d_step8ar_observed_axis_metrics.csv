@@ -1,0 +1,13 @@
+axis,null_type,permutation,source,query_size,n_terms_tested,n_significant_q_lt_0_05,min_q,best_term,xenobiotic_cyp_significant_terms,lipid_metabolism_significant_terms,inflammatory_signaling_significant_terms,rna_protein_processing_significant_terms,transport_trafficking_significant_terms
+cluster_11,observed,-1,GO:BP,245,2448,1,0.0007851189989961633,GO:0021762 | Synaptogyrin-3,0,0,0,0,0
+cluster_11,observed,-1,REAC,245,1420,17,0.00022270875224079237,REACTOME_INFECTIOUS_DISEASE | INFECTIOUS DISEASE,0,0,0,2,3
+cluster_11,observed,-1,KEGG,245,345,3,0.0461682809240866,hsa04144 | Endocytosis,0,0,0,0,0
+cluster_5,observed,-1,GO:BP,65,2448,48,1.5829237716453557e-21,GO:0006805 | Aryl hydrocarbon receptor repressor,9,0,0,8,0
+cluster_5,observed,-1,REAC,65,1420,53,1.0288893841143624e-23,REACTOME_XENOBIOTICS | XENOBIOTICS,3,3,2,2,1
+cluster_5,observed,-1,KEGG,65,345,100,1.404198926441373e-17,hsa00980 | Metabolism of xenobiotics by cytochrome P450,3,2,4,1,0
+cluster_6,observed,-1,GO:BP,919,2448,113,1.290788128178902e-07,GO:0000122 | Transcription factor E2F8,0,0,5,30,3
+cluster_6,observed,-1,REAC,919,1420,114,1.0235073770664066e-16,REACTOME_CELLULAR_RESPONSES_TO_STIMULI | CELLULAR RESPONSES TO STIMULI,2,0,15,5,1
+cluster_6,observed,-1,KEGG,919,345,87,1.5551550270891932e-12,hsa05206 | MicroRNAs in cancer,0,2,5,2,0
+cluster_8,observed,-1,GO:BP,3016,2448,0,0.08388380922076069,GO:0002181 | Large ribosomal subunit protein uL10,0,0,0,0,0
+cluster_8,observed,-1,REAC,3016,1420,43,8.51291517452758e-07,REACTOME_METABOLISM_OF_RNA | METABOLISM OF RNA,0,0,0,17,3
+cluster_8,observed,-1,KEGG,3016,345,1,0.04554856591560403,hsa03010 | Ribosome,0,0,0,1,0
