@@ -140,6 +140,7 @@ def write_comparison(clean_dir: Path, clean_universe: pd.DataFrame, clean_s2: pd
         "expected_unique_entities": expected_universe["chemical_id"].nunique(), "clean_room_unique_entities": clean_universe["chemical_id"].nunique(),
         "key_set_equal": pairs(expected_universe, "chemical_id", "canonical_name") == pairs(clean_universe, "chemical_id", "canonical_name"),
         "field_values_equal": fields_equal(expected_universe, clean_universe, ["chemical_id"], ["canonical_name", "chemical_class", "eligible_as_environmental_exposure"]),
+        "decision_values_equal": fields_equal(expected_universe, clean_universe, ["chemical_id"], ["canonical_name", "chemical_class", "eligible_as_environmental_exposure"]),
         "expected_sha256": sha256(EXPECTED_DIR / "step01_environmental_universe" / "environmental_universe.csv"),
         "clean_room_sha256": sha256(clean_dir / "clean_room_environmental_universe.csv"),
     })
@@ -150,6 +151,7 @@ def write_comparison(clean_dir: Path, clean_universe: pd.DataFrame, clean_s2: pd
         "expected_unique_entities": expected_s2["chemical_id"].nunique(), "clean_room_unique_entities": clean_s2["chemical_id"].nunique(),
         "key_set_equal": expected_map == clean_map,
         "field_values_equal": fields_equal(expected_s2, clean_s2, ["chemical_id", "human_biomarker"], ["mapping_status", "mapping_confidence", "exposure_axis", "mapping_type", "mapped"]),
+        "decision_values_equal": fields_equal(expected_s2, clean_s2, ["chemical_id", "human_biomarker"], ["mapping_confidence", "exposure_axis", "mapping_type", "mapped"]),
         "expected_sha256": sha256(EXPECTED_DIR / "step02_biomarker_mapping" / "chemical_biomarker_mapping.csv"),
         "clean_room_sha256": sha256(clean_dir / "clean_room_chemical_biomarker_mapping.csv"),
     })
@@ -160,6 +162,7 @@ def write_comparison(clean_dir: Path, clean_universe: pd.DataFrame, clean_s2: pd
         "expected_unique_entities": expected_s3["chemical_id"].nunique(), "clean_room_unique_entities": clean_s3["chemical_id"].nunique(),
         "key_set_equal": expected_action == clean_action,
         "field_values_equal": fields_equal(expected_s3, clean_s3, ["chemical_id", "human_biomarker"], ["mapping_status", "identity_gate_A", "exposure_interpretability_gate_B", "NHANES_availability_gate_C", "detectability_D_tag", "cycle_coverage_E_tag", "survey_design_gate_F", "n_cycles_available", "cycle_list", "weight_variable", "actionable_mapping"]),
+        "decision_values_equal": fields_equal(expected_s3, clean_s3, ["chemical_id", "human_biomarker"], ["identity_gate_A", "exposure_interpretability_gate_B", "NHANES_availability_gate_C", "detectability_D_tag", "cycle_coverage_E_tag", "survey_design_gate_F", "n_cycles_available", "cycle_list", "weight_variable", "actionable_mapping"]),
         "expected_sha256": sha256(EXPECTED_DIR / "step03_actionability" / "actionability_ledger.csv"),
         "clean_room_sha256": sha256(clean_dir / "clean_room_actionability_ledger.csv"),
     })
@@ -170,6 +173,7 @@ def write_comparison(clean_dir: Path, clean_universe: pd.DataFrame, clean_s2: pd
         "expected_unique_entities": len(expected_tests_set), "clean_room_unique_entities": len(clean_tests_set),
         "key_set_equal": expected_tests_set == clean_tests_set,
         "field_values_equal": fields_equal(expected_tests, clean_tests, ["test_id"], ["biomarker", "variable", "matrix", "cycles", "weight", "mapping_count", "chemical_ids", "chemical_names", "exposure_axes", "n_cycles", "pooled_above_lod_pct"]),
+        "decision_values_equal": fields_equal(expected_tests, clean_tests, ["test_id"], ["biomarker", "variable", "matrix", "cycles", "weight", "mapping_count", "chemical_ids", "chemical_names", "exposure_axes", "n_cycles", "pooled_above_lod_pct"]),
         "expected_sha256": sha256(EXPECTED_DIR / "step04_testset_freeze" / "unique_biomarker_test_set.csv"),
         "clean_room_sha256": sha256(clean_dir / "clean_room_unique_test_set.csv"),
     })
@@ -190,6 +194,7 @@ def write_comparison(clean_dir: Path, clean_universe: pd.DataFrame, clean_s2: pd
         "expected_unique_entities": expected_registry_core["variable"].nunique(), "clean_room_unique_entities": clean_registry_core["variable"].nunique(),
         "key_set_equal": expected_registry_tuples == clean_registry_tuples,
         "field_values_equal": expected_registry_tuples == clean_registry_tuples,
+        "decision_values_equal": expected_registry_tuples == clean_registry_tuples,
         "expected_sha256": sha256(EXPECTED_DIR / "data_processed" / "detectability_registry_outcome_blinded.csv"),
         "clean_room_sha256": sha256(clean_dir / "clean_room_nhanes_registry.csv"),
     })
@@ -213,11 +218,11 @@ def write_report(outdir: Path, comparison: pd.DataFrame, source_meta: dict[str, 
         f"- Actionable chemical–biomarker mappings: **{actionable:,}**.",
         f"- Unique human-measurable tests: **{len(clean_tests):,}**.", "",
         "## Comparison against the locked outputs", "",
-        "| Stage | Expected rows/entities | Clean-room rows/entities | Key sets identical | Field values identical | Full-file hash identical |",
+        "| Stage | Expected rows/entities | Clean-room rows/entities | Key sets identical | Decision fields identical | Full-file hash identical |",
         "|---|---:|---:|---|---|---|",
     ]
     for row in comparison.itertuples(index=False):
-        lines.append(f"| {row.stage} | {row.expected_rows}/{row.expected_unique_entities} | {row.clean_room_rows}/{row.clean_room_unique_entities} | {bool(row.key_set_equal)} | {bool(row.field_values_equal)} | {bool(row.full_file_hash_equal)} |")
+        lines.append(f"| {row.stage} | {row.expected_rows}/{row.expected_unique_entities} | {row.clean_room_rows}/{row.clean_room_unique_entities} | {bool(row.key_set_equal)} | {bool(row.decision_values_equal)} | {bool(row.full_file_hash_equal)} |")
     lines += [
         "", "## Non-analytic provenance differences", "",
         "The clean-room outputs intentionally use neutral, compact schemas, so full-file hashes for the upstream universe/mapping/actionability tables are not expected to match legacy enriched tables. Their key sets and core universe fields do match.",
@@ -274,6 +279,11 @@ def main() -> None:
         "drugcentral": sha256(args.drugcentral) if args.drugcentral.exists() else None,
         "pah_formulas": sha256(args.pah_formulas) if args.pah_formulas.exists() else None,
         "catalog": sha256(args.catalog), "runner": sha256(Path(__file__)),
+        "runner_files": {name: sha256(Path(__file__).parent / name) for name in [
+            "build_environmental_universe.py", "build_nhanes_registry.py",
+            "map_chemical_to_biomarker.py", "freeze_test_family.py",
+            "run_clean_room_reconstruction.py",
+        ]},
         "disease_information_used": False, "disease_fields_loaded": [],
         "gene_disease_information_used": False,
     }
@@ -289,7 +299,8 @@ def main() -> None:
         "registry_rows": int(len(registry)), "mapped_mappings": int(s2["mapped"].sum()),
         "actionable_mappings": int(s3["actionable_mapping"].sum()), "unique_tests": int(len(tests)),
     }, "all_comparison_key_sets_identical": bool(comparison["key_set_equal"].all()),
-        "all_comparison_field_values_identical": bool(comparison["field_values_equal"].all())}
+        "all_comparison_field_values_identical": bool(comparison["field_values_equal"].all()),
+        "all_comparison_decision_values_identical": bool(comparison["decision_values_equal"].all())}
     write_report(args.outdir, comparison, report_meta, s2, s3, tests)
     report_meta["outputs"] = {name: sha256(args.outdir / name) for name in output_names}
     report_meta["local_only_outputs"] = {name: sha256(args.outdir / name) for name in local_only_names}

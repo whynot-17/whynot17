@@ -15,11 +15,11 @@ No disease outcome, case count, odds ratio, P value, FDR value, disease gene set
 
 ## Comparison against the locked outputs
 
-| Stage | Expected rows/entities | Clean-room rows/entities | Key sets identical | Field values identical | Full-file hash identical |
+| Stage | Expected rows/entities | Clean-room rows/entities | Key sets identical | Decision fields identical | Full-file hash identical |
 |---|---:|---:|---|---|---|
 | environmental universe | 2042/2042 | 2042/2042 | True | True | False |
-| mapped chemical-biomarker mappings | 449/2042 | 449/2042 | True | False | False |
-| actionable chemical-biomarker mappings | 411/2042 | 411/2042 | True | False | False |
+| mapped chemical-biomarker mappings | 449/2042 | 449/2042 | True | True | False |
+| actionable chemical-biomarker mappings | 411/2042 | 411/2042 | True | True | False |
 | unique human test family | 29/29 | 29/29 | True | True | True |
 | NHANES registry core rows used by locked outputs | 293/38 | 293/38 | True | True | False |
 
@@ -35,7 +35,7 @@ The full 179,672-row clean-room classification ledger is retained locally for au
 
 The clean-room reconstruction demonstrates reproducible execution under an outcome-free input contract. It does not establish that every mapping rule was historically invented before any disease project was seen; that historical-development claim remains intentionally unmade.
 
-Generated UTC: 2026-08-27T16:26:15.098264+00:00
+Generated UTC: 2026-08-27T16:27:47.287885+00:00
 
 ## Input hashes
 
@@ -44,4 +44,4 @@ Generated UTC: 2026-08-27T16:26:15.098264+00:00
 - drugcentral: `5b81423a2ec1e2766e9666ec4a172d5a5b47045ea2cc032d1ba06085956bc1fc`
 - pah_formulas: `c9057cabc8c3cb740fcbf56e0224431be860bea450083a026d374715e41634eb`
 - catalog: `d38569b0b0225b9da4848e32160e31af9667c8e0959743bd799bbca01b28a8f9`
-- runner: `0710f2114f55497517218106b12af78923ddcc8fe62022bd7d26ab46ac51c1ca`
+- runner: `97df349d58159b98f5eff965f2a31f44b7e6f3e723f097fb8f050f54424e1058`
