@@ -1,0 +1,16 @@
+domain,source_or_file_domain,cycles,public_documentation_status,analysis_readiness,required_next_action,outcome_firewall_status
+T2D self-reported diagnosis,household questionnaire / chronic conditions,C1-C6,present_in_public_documentation,not_locked,Define diagnosed diabetes and inspect type 1/type 2 fields in cycle dictionaries.,not_applicable_to_population_replacement_audit
+Glucose,blood; plasma/serum depending cycle,C1-C6,present_in_public_content_summary,definition_pending,"Confirm fasting/random status, units, derived variables, and eligible age by cycle.",not_applicable_to_population_replacement_audit
+HbA1c,blood,C1-C6,present_in_public_content_summary,definition_pending,"Confirm field names, assay metadata, and harmonized threshold rule.",not_applicable_to_population_replacement_audit
+Fasting insulin,blood; fasting subgroup,C1-C6,present_in_public_content_summary,secondary_only_until_confirmed,Subsample restriction; do not require it for the primary definition without a prespecified rule.,not_applicable_to_population_replacement_audit
+Age,master/MEC questionnaire,C1-C6,present_and_core,likely_available,Confirm exact age-at-MEC field and age restrictions after dictionary retrieval.,not_applicable_to_population_replacement_audit
+Sex/gender,master/household,C1-C6,present_and_core,likely_available,Use the CHMS-defined field; do not assume NHANES coding equivalence.,not_applicable_to_population_replacement_audit
+Anthropometry/BMI,MEC physical measures,C1-C6,present_and_core,likely_available,Confirm derived BMI field and valid measurement flags.,not_applicable_to_population_replacement_audit
+Smoking,household questionnaire,C1-C6,documented_domain,pending_dictionary,Confirm current/former/never coding and age eligibility.,not_applicable_to_population_replacement_audit
+Alcohol,household questionnaire,C1-C6,documented_domain,pending_dictionary,Confirm frequency/quantity variables and missingness.,not_applicable_to_population_replacement_audit
+Physical activity,household/MEC questionnaire,C1-C6,documented_domain,pending_dictionary,Confirm harmonized measure across cycles.,not_applicable_to_population_replacement_audit
+Education/household income/SES,household questionnaire,C1-C6,documented_domain,pending_dictionary,Confirm common SES representation and release-specific suppression rules.,not_applicable_to_population_replacement_audit
+Urine creatinine,urine laboratory component,C1-C6,present_in_public_documentation,pending_dictionary,Confirm co-release with each environmental urine file and exact units.,not_applicable_to_population_replacement_audit
+Complex-survey weights,full-sample and subsample weights,C1-C6,confirmed_methodology_level,not_ready_for_model,Use the environmental subsample weight for the exposure file; exact variable and cycle-combination instructions required.,not_applicable_to_population_replacement_audit
+Variance/design variables,strata/PSU or bootstrap replicate design,C1-C6,confirmed_methodology_level,not_ready_for_model,Retrieve cycle-specific design variables and combining/replicate-weight instructions.,not_applicable_to_population_replacement_audit
+Individual-level access,CHMS microdata,C1-C6,controlled_access,conditional,Public dashboards/content tables are insufficient for a joint exposure-T2D regression.,not_applicable_to_population_replacement_audit

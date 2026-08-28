@@ -1,0 +1,57 @@
+{
+  "lock_type": "STEP10B_P_CHMS_POPULATION_REPLACEMENT_AUDIT",
+  "generated_utc": "2026-08-28T10:03:21.801639+00:00",
+  "status": "high_priority_conditional_not_access_confirmed",
+  "audit_only": true,
+  "no_association_models_run": true,
+  "checks": {
+    "frozen_test_count": {
+      "observed": 29,
+      "expected": 29,
+      "pass": true
+    },
+    "crosswalk_row_count": {
+      "observed": 29,
+      "expected": 29,
+      "pass": true
+    },
+    "cycle_audit_row_count": {
+      "observed": 174,
+      "expected": 174,
+      "pass": true
+    },
+    "outcome_covariate_design_domains": {
+      "observed": 15,
+      "expected_min": 10,
+      "pass": true
+    },
+    "public_content_listed_test_cycle_rows": {
+      "observed": 76,
+      "expected_min": 1,
+      "pass": true
+    }
+  },
+  "coverage_summary": {
+    "exact_named_analyte_or_naming_variant": 23,
+    "near_exact_grouped_family": 4,
+    "not_confirmed_in_public_cycles_1_6_summary": 2,
+    "exact_or_near_exact_content_level": 27,
+    "exact_variable_level_confirmed": 0,
+    "same_person_joint_exposure_t2d_confirmed": 0
+  },
+  "frozen_gates": {
+    "exact_exposure_variables": "pending_cycle_specific_data_dictionaries",
+    "t2d_definition": "publicly supported but not yet variable-level locked",
+    "core_covariates": "domains appear available; harmonized fields pending",
+    "subsample_weights": "methodology confirmed; exact exposure-file weight fields pending",
+    "complex_design": "methodology confirmed; exact design/replicate fields pending",
+    "individual_access": "controlled_access_required"
+  },
+  "source_files": {
+    "frozen_testset": "analysis\\disease_agnostic_environmental_framework\\step04_testset_freeze\\unique_biomarker_test_set.csv",
+    "crosswalk": "chms_29_test_crosswalk.csv",
+    "cycle_readiness": "chms_cycle_readiness.csv",
+    "outcome_audit": "chms_outcome_covariate_design_audit.csv",
+    "source_snapshot": "CHMS_SOURCE_SNAPSHOT.json"
+  }
+}
