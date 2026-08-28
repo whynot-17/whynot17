@@ -1,0 +1,22 @@
+{
+  "url": "https://www.bindingdb.org/rwd/bind/chemsearch/marvin/Download.jsp",
+  "retrieved_utc": "2026-08-28T09:41:16.030302+00:00",
+  "status": "captured",
+  "status_code": 200,
+  "content_length": 31638,
+  "response_sha256": "55f5d3a8f5e9bfa2a750ef40f5d802f77f74cfb4fba83985217ed5728a9415ef",
+  "content_type": "text/html;charset=UTF-8",
+  "release_date_candidates": [
+    "updated 2025-03-26 with KNIME v 4.3.1).",
+    "updated 2025-03-26) ",
+    "updated 2025-03-27 )",
+    "updated 2026-05-01)",
+    "updated 2026-07-27) ",
+    "updated 2026-07-31 )",
+    "updated 2026-07-31 ) ",
+    "updated 2026-07-31 )  ",
+    "updated 2026-07-31)",
+    "updated 2026-08-27)",
+    "updated when new data are added, usually monthly"
+  ]
+}

@@ -1,0 +1,1972 @@
+{
+  "generated_utc": "2026-08-28T09:41:05.541223+00:00",
+  "calls": [
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/status.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/status.json",
+      "response_sha256": "29dc1fb09487a8d2962253a4d0d92c4ded0aa0d831effab42445d0c3483d4740"
+    },
+    {
+      "endpoint": "https://www.bindingdb.org/rwd/bind/chemsearch/marvin/Download.jsp",
+      "status_code": null,
+      "attempt": 3,
+      "url": "https://www.bindingdb.org/rwd/bind/chemsearch/marvin/Download.jsp",
+      "error": "JSONDecodeError: Expecting value: line 8 column 1 (char 15)"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23989/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23989/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "2d47461bd68f29af0b465e20761845bf6dba8debf40c85868ec6ba6415ac6b5d"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=JFALSRSLKYAFGM-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BU%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "afe712b8377dd00e2d2172d0ef31c5fa7d1de205b81466987bfb3afa01d9e56d"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23989/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23989/aids/JSON",
+      "response_sha256": "10b8087cc4442e4b2ac09bd3bc116b3a72b638c218763f44b7858acd6fcf817d"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/40957-85-5/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/40957-85-5/cids/JSON",
+      "response_sha256": "3736387820c28843f31ec3aa6a80caf9d38a34011e1d0977160a2399cd1414c3"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/170447/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/170447/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "2df158239009254a215418ec2cba0276d5305f56256cd04ee724a111753f5a00"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=JKFSBWLBCBCFFQ-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=O.%5BO-2%5D.%5BMo%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "333bb8c04ccc57a417538fe5346cc13b5d80655bf8cb332d5a28b17f2a2a97d9"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/170447/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/170447/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/14802/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/14802/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "56ef0c50804351e45ea36453740d759212df2e45be31d289a4f3a3a8e5ec85a2"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=JKQOBWVOAYFWKG-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=O%3D%5BMo%5D%28%3DO%29%3DO&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "832afee41c18862b6d537623c002b7d3d9322447dc041d6ca255eee8fa2746a8"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/14802/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/14802/aids/JSON",
+      "response_sha256": "64142d97c82a5feb80413892e070e6fbccbc96b04605ed3bc5138d7789ed0dfe"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchikey/CKHDFXHTVVOBGY-UHFFFAOYSA-N/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchikey/CKHDFXHTVVOBGY-UHFFFAOYSA-N/cids/JSON",
+      "response_sha256": "0925ec8c7ebd3a89673da2f1af61212ebd2a644b8420d640d0a49cdc04b81ccd"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/10219573/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/10219573/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "7ebe2804ea4a1cd516ef03f57808ac211c8d24e4c6505958a722a21ed5b28f0e"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=CKHDFXHTVVOBGY-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BS-2%5D.%5BS-2%5D.%5BMo%2B4%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "a45d5ff5d481cecda9d2227c11222bf0b8fa095055b581b5f3caf4f72a9ebe85"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/10219573/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/10219573/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/12058-20-7/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/12058-20-7/cids/JSON",
+      "response_sha256": "56efed2e303707e74563f43f8889f2d9f67f8a704ed76ed344c892322231e7a1"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/64728/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/64728/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "f044b56a2107f5426da5ae8f3ca2984511d68192aca9ec9f77087ddc2e1e730a"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=HITXEXPSQXNMAN-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BMo%5D%28%3D%5BTe%5D%29%3D%5BTe%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "2eeee6dcbfd363fa231a3d202d538e6a22dc0cca2b1a7f129e90f732d9d1c206"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/64728/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/64728/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/13939-06-5/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/13939-06-5/cids/JSON",
+      "response_sha256": "a7ad5c5e3570cd45da4a307f54e7829495ef90d9a1a0c5f181901ca68ae19ae3"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2724068/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2724068/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "d2de2ffa322e9e3e645d301ea98760c5b6cfe7b97384cfb75747586a879cac1e"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 2,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=KMKBZNSIJQWHJA-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BC-%5D%23%5BO%2B%5D.%5BC-%5D%23%5BO%2B%5D.%5BC-%5D%23%5BO%2B%5D.%5BC-%5D%23%5BO%2B%5D.%5BC-%5D%23%5BO%2B%5D.%5BC-%5D%23%5BO%2B%5D.%5BMo%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "c35f270112e4d7ce6fb0dcb82b80d7d801d7902c36910d2bd69797de441e28e1"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2724068/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2724068/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23932/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23932/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "12874b08f3d23aa515d3991de919580c854af8cda08074537b37b80660df3a57"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=ZOKXTWBITQBERF-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BMo%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "2ed2a038606028d900f37a803b9dbca475e6bd491b71c18af1a494bc775caa3c"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23932/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23932/aids/JSON",
+      "response_sha256": "92c0704f6c85c4a6399e21b4c4b711efd239134fa391e13abf2ecbc4e042550e"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/59372-48-4/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/59372-48-4/cids/JSON",
+      "response_sha256": "71962e4cdf343c5a2157eb3aad95835a2ea8d2d66f622f5f3a7d943c3985d11c"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/162167/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/162167/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "63c36a6540480017d2f155d238073723e396652241ad274dd658445997a04742"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=JVUIPFRSLYDCCX-UHFFFAOYSA-O&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BNH4%2B%5D.%5BO-2%5D.%5BO-2%5D.%5BO-2%5D.%5BO-2%5D.%5BO-2%5D.%5BSb%2B3%5D.%5BW%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "4867295a3c141b7817e78fd9be9117630014e8c877a67b49c53239c92b38289c"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/162167/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/162167/aids/JSON",
+      "response_sha256": "a75128561232fbaed47c2686b4ff48c980d30490db79b57e0893d4682461990c"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/14040-11-0/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/14040-11-0/cids/JSON",
+      "response_sha256": "2394970922b1ce999df99038855f13bbb35f0616d50f221016bfb224f11c6d52"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/98884/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/98884/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "328f7f3b279f9110065f52ccd961aed504962fb6f42c413ef131abb9c043aed4"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=FQNHWXHRAUXLFU-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 2,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BC-%5D%23%5BO%2B%5D.%5BC-%5D%23%5BO%2B%5D.%5BC-%5D%23%5BO%2B%5D.%5BC-%5D%23%5BO%2B%5D.%5BC-%5D%23%5BO%2B%5D.%5BC-%5D%23%5BO%2B%5D.%5BW%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "e76c62ef814d536653839d1c97f8d993a62f6a9b598acfcd07d526216a27ee21"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/98884/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/98884/aids/JSON",
+      "response_sha256": "45524d7a99a03a41dfaeac3f432acc40dbf46fdbb28fd9b547e981ca20a37e9a"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchikey/WFKWXMTUELFFGS-UHFFFAOYSA-N/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchikey/WFKWXMTUELFFGS-UHFFFAOYSA-N/cids/JSON",
+      "response_sha256": "a67675e73a00a2aa600f463f71cc82cd2f7355479fda3ea099b8b766f7902779"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23964/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23964/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "2eda9bb9d3b40b02d14a74cf9a1628e69271d58ce79e2f2142d319964e24b887"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=WFKWXMTUELFFGS-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BW%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "80a3936cf3b62215ee30e9c93a3eed0b658019bf221ac2a97b781bb101615349"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23964/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23964/aids/JSON",
+      "response_sha256": "6efa31f808bcb3e2a79491127e908c2b1f51bfe993cda8a9f61ae21f9bb0e9e4"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/24924/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/24924/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "564f6edefb3a21bf9fd58a7c820fbdadb1d4b00947d97f350938a21d71598e6f"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=RLJMLMKIBZAXJO-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BN%2B%5D%28%3DO%29%28%5BO-%5D%29%5BO-%5D.%5BN%2B%5D%28%3DO%29%28%5BO-%5D%29%5BO-%5D.%5BPb%2B2%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "b65d470df7eaa5bdd9b55c4d3f4b2a0930bbea91d5d116bcfa00528fad4d443e"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/24924/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/24924/aids/JSON",
+      "response_sha256": "06e69b7256616e98eab7c7f6ee7100aca6e6908f3a61bad91666af9e6e1c7c70"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/13463-30-4/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/13463-30-4/cids/JSON",
+      "response_sha256": "08420a73190c96763c5d525f9eb73dc09bdd683a7268fa1a1f599e8f23c665ff"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/123310/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/123310/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "c4d92f50263fec31acfc566e5cdfcd9f4ccf1547ace28f4bbeb5dd5236fb8939"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=PJYXVICYYHGLSW-UHFFFAOYSA-J&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 2,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=Cl%5BPb%5D%28Cl%29%28Cl%29Cl&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "3d3308bec724f13958b57968cc83ecf54d031ad2e31508d65b9e0e8279c8c9e3"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/123310/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/123310/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/1314-87-0/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/1314-87-0/cids/JSON",
+      "response_sha256": "9335d2aa1fc2ce5e4a742ca71b8b33cd5f5099507e958be35dd6d63540dd3659"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9794739/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9794739/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "f6897aa64b9f2ec25807effc8b57bf43a04df9dccfad6a2e82b1f75a18cfd834"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 2,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=FILXVLQXZYXBSJ-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BS-2%5D.%5BPb%2B2%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "6e68124cda8ad97c4ff7b533c6260eefceba63763e1eaab13bb3ef234296f32b"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9794739/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9794739/aids/JSON",
+      "response_sha256": "7f078836944010585d2b1a170c4a00a7aefc0201a7189548a04244fbc47b4ee7"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/1314-41-6/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/1314-41-6/cids/JSON",
+      "response_sha256": "67c5547256ab48174376ac10cfea030af86a7db807cefaeb06c2d9e317ad64b0"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/16685188/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/16685188/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "e8895843a035765067047b5126f4721bbcdcdf5c3515ab16b63a12926e5fa5c8"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=XMFOQHDPRMAJNU-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=O1%5BPb%5DO%5BPb%5D12O%5BPb%5DO2&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "cc3a280796b86348af416f9d97fc4d343880f621294a41b24d2c5a4d5e0ac332"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/16685188/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/16685188/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/24459/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/24459/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "0929f1be764431664044e4f4d3b726bf8d0ef9b30d98d14873a3d24c12c9f8e1"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=HWSZZLVAJGOAAY-UHFFFAOYSA-L&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=Cl%5BPb%5DCl&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "75af15823000b8e8fdef48056f0f2ba04bb46b96f53bda64ebbaf98b580f1300"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/24459/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/24459/aids/JSON",
+      "response_sha256": "4352bf1be338bfdeb0ffbe3b2679d0a8228974edd190adb81d5d8579afe057f5"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/24952-65-6/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/24952-65-6/cids/JSON",
+      "response_sha256": "a4dc8fb5e360a3df9677752b35b7072447e234753ca19213e48d0375c0702760"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/32747/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/32747/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "8eb24846b22307b06ca1bc32464fb5a23571dcde27601f7d24bda8d48c88e8e9"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=WLOMQVGEGHPYPQ-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=CC%5BPb%2B2%5DCC&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "690341202df9a1ddbd9199b8ba843e34896be2536072338e0542d0bf35194b3c"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/32747/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/32747/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/24460/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/24460/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "94fc3689707a5f8b767b1928f82237978947e1a189b93705be1da0367b4461be"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=MOUPNEIJQCETIW-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BO-%5D%5BCr%5D%28%3DO%29%28%3DO%29%5BO-%5D.%5BPb%2B2%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "f98c6db16f4c3523489ac6abd4528ac33ef9c32e67189a43afbc25ffe2118221"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/24460/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/24460/aids/JSON",
+      "response_sha256": "b9016181b1b482057ad10deab19da1968e5f1bd73b1c45e59afc15138dced89a"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/10031-22-8/cids/JSON",
+      "status_code": null,
+      "attempt": 2,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/10031-22-8/cids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No CID found\",\n    \"Details\": [\n      \"No CID found that matches the given name\"\n    ]\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/24008/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/24008/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "bf424dde57a9a7473a7b6da20b255879f6e5b47f1760411c46c4651a42f9d13b"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=KEQXNNJHMWSZHK-UHFFFAOYSA-L&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BO-%5DS%28%3DO%29%28%3DO%29%5BO-%5D.%5BPb%2B2%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "670d3510c479b5caaf920703e027874cc6de63a990321a33fc98607fa0fc622f"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/24008/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/24008/aids/JSON",
+      "response_sha256": "c8dab24f4cb9e0f18a8a9d6da88f33f047e4360e1a9bbe8b450ec208dbeebd2f"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/16040-38-3/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/16040-38-3/cids/JSON",
+      "response_sha256": "33c8acb1e3f19d58bf3978029e3728d5c3c8a8b020a1c2676afe18bde1b61521"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/167506/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/167506/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "3e27dc5350585af860edf5d700c9c7715435d82e167d2a500a7aab1722fbedb8"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=OSBMTDKPCRHBCE-UHFFFAOYSA-H&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BO-%5DP%28%3DO%29%28%5BO-%5D%29%5BO-%5D.%5BO-%5DP%28%3DO%29%28%5BO-%5D%29%5BO-%5D.%5BPb%2B2%5D.%5BPb%2B2%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "e510c0562b906a5f0950ef614c497c8a2ac7f1aab0ee9969a780c8948858f9c4"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/167506/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/167506/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/13424-46-9/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/13424-46-9/cids/JSON",
+      "response_sha256": "137b3050af026e3cb858f75fc8aef512d9bb623403889134845fd34e317ac96e"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/61600/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/61600/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "38853421bb717746ed045aa00b4bb44e59f844d319ad283a7c849d96bfbe4f5c"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=ISEQAARZRCDNJH-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BN-%5D%3D%5BN%2B%5D%3DN%5BPb%5DN%3D%5BN%2B%5D%3D%5BN-%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "7e379fb703e0b082e6152d0d69cb49f619506680cca02fd38463fb235652b84d"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/61600/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/61600/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/598-63-0/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/598-63-0/cids/JSON",
+      "response_sha256": "e868f4be3b3bb5e3fbaf11d0bd5d04eb7fb26d798e34bdfbf0c1dea33c94b3a6"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11727/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11727/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "25f2ac625d0330fe2d1320062f3c0e3d0a92ae67df7703b1c47299a19913bef8"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=MFEVGQHCNVXMER-UHFFFAOYSA-L&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=C%28%3DO%29%28%5BO-%5D%29%5BO-%5D.%5BPb%2B2%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "0d0ee9750fc43b96d330e727b5a2f1daf60bcde403c2ba73363170136cfb43cc"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11727/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11727/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/11120-22-2/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/11120-22-2/cids/JSON",
+      "response_sha256": "1345e75d1e9493473934aefa3a500df123fbba6076ddb991cdbb0f6ec81239b0"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/61535/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/61535/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "00f4f6a58fda2f60fa46533e7df6daaac4155fd217c1009a9be693ba7e47180c"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=AFPIWWDEGJLLCL-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BO-%5D%5BSi%5D%28%3DO%29%5BO-%5D.%5BPb%2B2%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "4fd933289c29bcfa40a10f90b2e01e3dfa05d3cf5c7f4b075c67ef98b12181cc"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/61535/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/61535/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/7645-25-2/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/7645-25-2/cids/JSON",
+      "response_sha256": "1a042307095fb283482b3dd3c84b5c0e6ff2206c8a8d74b4b9cc9dc57d3f7b12"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/24572/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/24572/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "35ab0751e5b39dc2b1cd2c22506fa54f0830271a9b4643d8eecaf0aff0f5a119"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=UWRBYRMOUPAKLM-UHFFFAOYSA-L&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=O%5BAs%5D%28%3DO%29%28%5BO-%5D%29%5BO-%5D.%5BPb%2B2%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "a8b2f5c5b7d7a9bbfc2a922ed960cc491e75e2e30f52e187bb74dbf553d8799f"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/24572/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/24572/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchikey/HTUMBQDCCIXGCV-UHFFFAOYSA-N/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchikey/HTUMBQDCCIXGCV-UHFFFAOYSA-N/cids/JSON",
+      "response_sha256": "42d56a2d81159757ae83ea7c0ffa0d74874d0f4831ec4e083fa58cbe2a5af7a4"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/159385/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/159385/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "ec469aadfdb31526842719d3829e8b07da2d4dbe71f583fcbe2c5c23f51fdc09"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=HTUMBQDCCIXGCV-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BO-2%5D.%5BPb%2B2%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "9e182b275e9d802caae5f5c2a7599b4ea0124260b0007563f517ce2c6b3d493b"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/159385/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/159385/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/12048-28-1/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/12048-28-1/cids/JSON",
+      "response_sha256": "673468123f1a9c517ecae618ec8256117cb763fa4f46ade11dd36f322b045143"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6336552/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6336552/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "aeb157281bc97fb28e86a02a9218b5270307324412512f2aba44d3090cd859dc"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=UDRRLPGVCZOTQW-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BPb%5D.%5BBi%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "ed1d096e56b4f7a76dd7fc5f507f913c53bc3a43683142cbdfd72dffd78611ed"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6336552/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6336552/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/130343-58-7/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/130343-58-7/cids/JSON",
+      "response_sha256": "3ff79e6717a762d83709f677140befb0cdccc3945b2a25f9d8517d04056b2384"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11980084/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11980084/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "7ee3ba41d8e3567d8ade3c89a81d75edfcb760fce9bd5d07fbe4a299c15499c6"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=NFHVBNDVYFOROW-UHFFFAOYSA-L&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=C1C2%3DCC3%3DC%28CNC%28%3DO%29C4%3DC%28C%28%3DC%28C%3DC4%29C%28%3DO%29NCC5%3DCC%28%3DCC%28%3DC5%29CNC%28%3DO%29C6%3DC%28C%28%3DC%28C%3DC6%29C%28%3DO%29N1%29%5BO-%5D%29%5BO-%5D%29CNC%28%3DO%29C7%3DC%28C%28%3DC%28C%3DC7%29C%28%3DO%29NC3%29%5BO-%5D%29%5BO-%5D%29%5BO-%5D%29%5BO-%5D%29C%3DC2.%5BNH4%2B%5D.%5BNH4%2B%5D.%5BNH4%2B%5D.%5BNH4%2B%5D.%5BPb%2B2%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "ac628f56724cbdeaa764e71b2c86448df49875ebeb952f2752f6609ad37e5a41"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11980084/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11980084/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/159452/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/159452/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "d24f81055a4a9f5e05cd821a84b055f993c4eec4afe9ec58ce92240ba16ea948"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=HFGPZNIAWCZYJU-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BO-2%5D.%5BO-2%5D.%5BO-2%5D.%5BO-2%5D.%5BO-2%5D.%5BTi%2B4%5D.%5BZr%2B4%5D.%5BPb%2B2%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "473c4d32961d50685ebbb4c488d3e59c2cebf667e57ffd8faf1600fac56d6a0c"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/159452/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/159452/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/53096-04-1/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/53096-04-1/cids/JSON",
+      "response_sha256": "456c693febbb4f62b5378d05d63e09e2b2fdf81d3f8552618d6f0d6287d3470b"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/124123/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/124123/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "755ba562c363441711a3af891fcb3c8ad14388377c6782fb7ce091a722f7e279"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=FPHIOHCCQGUGKU-UHFFFAOYSA-L&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 2,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BF-%5D.%5BF-%5D.%5BPb%2B2%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "61f697ab913f54c7c98a92ce94f8ffe9949b77325bcccb5f7271bd6bbdd150e8"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/124123/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/124123/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/12069-00-0/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/12069-00-0/cids/JSON",
+      "response_sha256": "d72f2c132ff562701a6e59562a87248620fbe3cfae3c3b7383a201d918e69d2e"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/61550/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/61550/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "dff4f7cf63cc092912c92fb03b60338f979de62f2758f3db5854cab0cdbcc693"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=GGYFMLJDMAMTAB-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BSe%5D%3D%5BPb%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "dc19ace5cea4d05597434c0b718340f49c8ed6334e7e9a73d6801ca403b06f2b"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/61550/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/61550/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/19783-14-3/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/19783-14-3/cids/JSON",
+      "response_sha256": "2ebe1e579630abb8a9c2eecbab59a98f83d288a710bcd5ee1a8540582f8e22b4"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9859601/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9859601/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "6f50ff30368e7ba8e8670f6c4cd71f7f1c249485437a68510f25f063d90ee9ae"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=VNZYIVBHUDKWEO-UHFFFAOYSA-L&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BOH-%5D.%5BOH-%5D.%5BPb%2B2%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "942a84fac56cfc878c9fd31ff33bb392111dee83b35903aadd84d8e3532a5265"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9859601/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9859601/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchikey/FOSOXHMVHOGFCF-UHFFFAOYSA-N/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchikey/FOSOXHMVHOGFCF-UHFFFAOYSA-N/cids/JSON",
+      "response_sha256": "c7a10cc199d48136a3275cd32d8c12ff47a40b7be26736a27da1c9fbc22f2648"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23927/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23927/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "91c0d4890fd68b62cfbb42601a57669d10375e92ad4812ad2d5a1fd172069b58"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=FOSOXHMVHOGFCF-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BPbH2%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "00cd71a84a83685630ed9878b098be8d17c6443294a482120f12b774d7021474"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23927/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23927/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/92272/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/92272/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "27cd1c4c34c555a47c993b379009375163d2be5f695458134037701b9626d34e"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=RZJSUWQGFCHNFS-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=CC%28C%29COC%28%3DO%29C1%3DCC%3DCC%3DC1C%28%3DO%29O&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "2ef5ff1b73b79dc178dceff1c0080f158434dc4087a6bc7c9fd282e3a91afbd6"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/92272/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/92272/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/513-77-9/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/513-77-9/cids/JSON",
+      "response_sha256": "e2cdf68dfe8daae2e59042d65be90c38fafa2719414012ba6fba8e0e2e8ab4c6"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/10563/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/10563/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "2971c747efc5408fadbfe7b310d7b0db87ffd79a91ed2a8272f4ec27f42bc0c7"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=AYJRCSIUFZENHW-UHFFFAOYSA-L&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=C%28%3DO%29%28%5BO-%5D%29%5BO-%5D.%5BBa%2B2%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "047138d106f5bfba5700eeb4df30c110483c8e72ae5771795759311e346d5159"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/10563/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/10563/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/107539-20-8/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/107539-20-8/cids/JSON",
+      "response_sha256": "07bc352e941a41b831fa57901fb861316cc0fbf50a932eb31a90b22af0732a7f"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6337927/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6337927/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "91d07a42b823dbdc814f97c731cf810688af994e93b439448c204d42d44f3eef"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=DRRYUYDUUMXTQQ-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=O.%5BCu%5D.%5BY%5D.%5BBa%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "085a02c7ca23f8eb177b7dd50c8a2db0c7958d3a208ff5bcdae608b2fc0dd882"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6337927/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6337927/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5355457/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5355457/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "5645c3dae6eb57dc34d3b9e9715a14a226d20c9e6420a1f2fb69e411221c580f"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=DSAJWYNOEDNPEQ-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "2fecb37855044e30cf6550d21decb1155aa6b004fd53351f6e798cebf314dbe2"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/activity.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL4297653&limit=1000&only=molecule_chembl_id%2Ctarget_chembl_id%2Ctarget_organism%2Ctarget_type%2Cassay_chembl_id%2Cpchembl_value%2Cstandard_type%2Cstandard_value%2Cstandard_units",
+      "response_sha256": "037003a7f3631e9dad89108fdea19fea07b7bdc2b8ba71c985fc55d69c999ba9"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BBa%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "54d6339e3ec5eb67c9832c70d9a2b3ab0b1c7987e67f3ee12a9525f1a76bc607"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5355457/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5355457/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/32241/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/32241/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "93f829ab8437d37b085bc1441e6eb1981e6fc0308f6abfcc6838b9adacf6104b"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=GWLLTEXUIOFAFE-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d38c2bd924a4ac07d41171a4d48d98a95bf1ac920d0046d120746a9c5b5425e6"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/activity.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL3182870&limit=1000&only=molecule_chembl_id%2Ctarget_chembl_id%2Ctarget_organism%2Ctarget_type%2Cassay_chembl_id%2Cpchembl_value%2Cstandard_type%2Cstandard_value%2Cstandard_units",
+      "response_sha256": "bf01dededb9bb2e1b1a51f02f3b0538eb1a52d5388102d83f82f4061c4fee7a9"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=CC%28C%29C1%3DCC2%3DC%28C%3DC1%29C%3DC%28C%3DC2%29C%28C%29C&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "cefedb3b31624d3dc3a86128f2640fb81145c5dd85cf676f553e427370de1df1"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/32241/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/32241/aids/JSON",
+      "response_sha256": "fc0f3c2d2ae9d30f39eeedc8d9d33fd4d33af4515e909f53413e2cf81234f526"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/7002/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/7002/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "0a71fd8a1a406e7a6bad05672caff3aed51e037488c1b6d0aabf611dded17557"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=QPUYECUOLPXSFR-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "b73089771881f7ddc0c493f02a4cf9c530381e120fc11c98252a2340fa9ee3a5"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/activity.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL383808&limit=1000&only=molecule_chembl_id%2Ctarget_chembl_id%2Ctarget_organism%2Ctarget_type%2Cassay_chembl_id%2Cpchembl_value%2Cstandard_type%2Cstandard_value%2Cstandard_units",
+      "response_sha256": "318afc4dd6ff71e45d38654a20007b51c5247e639f5f98aa3b60c0f6006cf57d"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=CC1%3DCC%3DCC2%3DCC%3DCC%3DC12&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "b007f2d964bf34df95ad461bcbdb8ff996e70d8c439e44e67a685d63e5e19d1e"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/7002/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/7002/aids/JSON",
+      "response_sha256": "bf85697edc6b7267fcab918cbded231388a11acb4e581efdbe6e211dfa2f2a70"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/7055/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/7055/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "8d31f7ba403241d6503e782f0a6345e2ea461e5f62219ac0ac18b8aef4088008"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=QIMMUPPBPVKWKM-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "939a6cdfc8546cde96931c1c89833826f10b8919943fcb011f045f5f1dcdfe5e"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/activity.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL195895&limit=1000&only=molecule_chembl_id%2Ctarget_chembl_id%2Ctarget_organism%2Ctarget_type%2Cassay_chembl_id%2Cpchembl_value%2Cstandard_type%2Cstandard_value%2Cstandard_units",
+      "response_sha256": "f133db0fcf5c8be3baac324a995f67c6910728d3296440f3138d901b95bbae2c"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=CC1%3DCC2%3DCC%3DCC%3DC2C%3DC1&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "6dacc9f1031713074330408bcea6abdc74e1146a69983fe0c6b9dbd201f657a1"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/7055/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/7055/aids/JSON",
+      "response_sha256": "6939432f0b7144e9f1b0eb5a86d6b7fa0d75944c53241818b0d65f2ace2dd8e8"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11387/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11387/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "c86fd29aed4a0984ea2b96d896ccf296f3830bcb547e1410084c8df9b3c63e15"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=YGYNBBAUIYTWBF-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "ea7eba0bb2769db3efce3c77dbaa7937f6f6e7c8687dc1890d1f8164707de60a"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/activity.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL194983&limit=1000&only=molecule_chembl_id%2Ctarget_chembl_id%2Ctarget_organism%2Ctarget_type%2Cassay_chembl_id%2Cpchembl_value%2Cstandard_type%2Cstandard_value%2Cstandard_units",
+      "response_sha256": "4577756d3d5993b7c48d9bf6467dddec25de2687d1c763b1ca5ad89d0752f9b0"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=CC1%3DCC2%3DC%28C%3DC1%29C%3DC%28C%3DC2%29C&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "30001f602b3c5ed14bc3bce8a012423db99a33293b9b0604f5bdadb2c7c4bba6"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11387/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11387/aids/JSON",
+      "response_sha256": "dc08a6dfd8cfd063c70b91d2f76f369b1378757bc024d1ad76aaf3901796cabc"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/931/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/931/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "1028190cba09635743bec34a7e48408814a8e77065224b6b903dbf936dea3d04"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=UFWIBTONFRDIAS-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "c8eb1e452ffb46ad2f095f280521e7983444eb3d894d4e06263d1a5e1d450971"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/activity.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL16293&limit=1000&only=molecule_chembl_id%2Ctarget_chembl_id%2Ctarget_organism%2Ctarget_type%2Cassay_chembl_id%2Cpchembl_value%2Cstandard_type%2Cstandard_value%2Cstandard_units",
+      "response_sha256": "09974e9218211926f49dd39052b9c21d3522131b22c4d8f49a1be07a25b31473"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 2,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=C1%3DCC%3DC2C%3DCC%3DCC2%3DC1&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "f990ad16bf16180fee326ea1aa615e80d06255be9d549dea610abb3e1f15d890"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/931/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/931/aids/JSON",
+      "response_sha256": "c7c91d260b281897d022cfc56dfcee85d3cb96d1b92b78dadf64a2d7971276c0"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11304/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11304/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "ae0e54f254f7d72e337722a3b021cfe583457f08fa5eca642792658ed127ed4c"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=APQSQLNWAIULLK-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "8e08cb7e33a17a6c535f797fa5f67d6e88ea6c1e5c449a592b25c511f77e8d6e"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/activity.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL362076&limit=1000&only=molecule_chembl_id%2Ctarget_chembl_id%2Ctarget_organism%2Ctarget_type%2Cassay_chembl_id%2Cpchembl_value%2Cstandard_type%2Cstandard_value%2Cstandard_units",
+      "response_sha256": "a7a9a57edab249a5782f591ecb8d678e32d5329445732f217dbf3f9fcf13daeb"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=CC1%3DCC%3DC%28C2%3DCC%3DCC%3DC12%29C&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "125318fa67f7e2ea09a5111a5e36a249ce3b1f6a21cf2aa00a762ed7247ac9b9"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11304/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11304/aids/JSON",
+      "response_sha256": "39ed5dec65929d131c7b20f4de2164ec00e3b53fcade93e5330cad08a12c6e2c"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6734/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6734/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "8c74f90a06b5f64377b5823413113b496d2fc76d7acebfae3f1109fa5491c7a9"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=CWRYPZZKDGJXCA-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "fe4e51294d37172db248a02ab8b7b8b5e1a5c2e1abed0a67bc812ec66e2e304e"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/activity.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL1797271&limit=1000&only=molecule_chembl_id%2Ctarget_chembl_id%2Ctarget_organism%2Ctarget_type%2Cassay_chembl_id%2Cpchembl_value%2Cstandard_type%2Cstandard_value%2Cstandard_units",
+      "response_sha256": "41ff3938b8b987d47536af86d75bc75d73b5f30a3cace897686aa791813400f5"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=C1CC2%3DCC%3DCC3%3DC2C1%3DCC%3DC3&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "0fc08cfd7ae8bebd10961260294bd6bbd97917ff8c1753e48cc9e2e722cbea1d"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6734/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6734/aids/JSON",
+      "response_sha256": "17b2ff58e7b70d6543d90c22392138c01cbcdc270fbb3977eb32e894fe89c953"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9161/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9161/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "7e8bfdb771dea6da84786d75308612063f69ad0d95ecafec8c712fcd8dcf0389"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=HXGDTGSAIMULJN-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "86d868b11059707f4940aa9df33ff88b944a598410cc545a38bc198dd5df1df7"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/activity.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL2132328&limit=1000&only=molecule_chembl_id%2Ctarget_chembl_id%2Ctarget_organism%2Ctarget_type%2Cassay_chembl_id%2Cpchembl_value%2Cstandard_type%2Cstandard_value%2Cstandard_units",
+      "response_sha256": "fda2f43d68b77d30da9aed99fd9e21a2090dd4de4638b63e6fc60dfb84937471"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=C1%3DCC2%3DC3C%28%3DC1%29C%3DCC3%3DCC%3DC2&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "f5535b9da34223944c7e619808abb56c1e82bdf79bece675e73de48d52954836"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9161/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9161/aids/JSON",
+      "response_sha256": "b15bc8e744ad320ef1b9c16806df37bd5ebe1e2228dc67709221b3fb6dbeca7a"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/115017/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/115017/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "ebb080c068266db6fb053aa5792fa1620d17744ca7584e1b843d707cbb30619c"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=IZXPFTLEVNQLGD-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "11adb1522e8131a0a1ec338978a6f6f6f6f979282ed5591b38ba2d9409498d34"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/activity.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL1743361&limit=1000&only=molecule_chembl_id%2Ctarget_chembl_id%2Ctarget_organism%2Ctarget_type%2Cassay_chembl_id%2Cpchembl_value%2Cstandard_type%2Cstandard_value%2Cstandard_units",
+      "response_sha256": "8e4b663a027d9ff3ab6828a310dc1dc01a86c01796cb70d44ade09a014d15802"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=C%23CC1%3DCC2%3DCC%3DCC%3DC2C%3DC1&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "b854c0208ffa5e999095eaa8684e497883ff2209ee7b31906c81efd40f79d8ac"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/115017/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/115017/aids/JSON",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='pubchem.ncbi.nlm.nih.gov', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11317/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11317/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "c7987456f1e7b1cf4eacea08634e2289ac6fb709df4b62e4527e1492b4627d64"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=QNLZIZAQLLYXTC-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "0f68dd01ed6014b3f58446cf0361e86ef071c7431eab78947afe955fda2fdca0"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/activity.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL382541&limit=1000&only=molecule_chembl_id%2Ctarget_chembl_id%2Ctarget_organism%2Ctarget_type%2Cassay_chembl_id%2Cpchembl_value%2Cstandard_type%2Cstandard_value%2Cstandard_units",
+      "response_sha256": "c53f87a3ae44b842c096f09327b5357e3f539689bde6d68994fbdbfa15fee5a3"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=CC1%3DC%28C2%3DCC%3DCC%3DC2C%3DC1%29C&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "7a7f7cd92462028e650b4f1a996e18df4f5f23fd75b74b20f6681dfb38b3e0e3"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11317/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11317/aids/JSON",
+      "response_sha256": "220781b3b00ae587974c3e5003795c4a7c4f0e56820b039791cd1fb77b178c94"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11328/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11328/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "d6fcb5b2c2b4b0b53b78186963117d0788fd02662ed4e3179aa0315a37d564bf"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=CBMXCNPQDUJNHT-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "bfb5502549319198990a2c3c706a56e6b265b30450fc05b2c66df077d27d398a"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/activity.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL363803&limit=1000&only=molecule_chembl_id%2Ctarget_chembl_id%2Ctarget_organism%2Ctarget_type%2Cassay_chembl_id%2Cpchembl_value%2Cstandard_type%2Cstandard_value%2Cstandard_units",
+      "response_sha256": "4a429c2e7aab60e063a7759e6420ed5121df21f1e35510086eeb439ad11441ca"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=CC1%3DCC2%3DCC%3DCC%28%3DC2C%3DC1%29C&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "b988363dba48d2057ce3ce736dddaf139110d8e74ca0783d39fc17b0c7f617d4"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11328/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11328/aids/JSON",
+      "response_sha256": "4714075eddcac19ba9c72297d3e2d2b23115b5a64d46188933a3f1e52b15ca25"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/7440-34-8/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/7440-34-8/cids/JSON",
+      "response_sha256": "89f2e1e2987d03ba80470ef7f7aa5c3019316fed30733290e2bfe4f991914f9a"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23965/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23965/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "f3e3c3b427b0cccf72f0c2c5d5f3785423a945af252f9231917310c4381f0133"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=QQINRWTZWGJFDB-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BAc%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "77aebd61d09ef3092f5315f0350c593e745862774c5ee9ffea46b2a7fe5b4c58"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23965/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23965/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/7440-13-3/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/7440-13-3/cids/JSON",
+      "response_sha256": "0681fa234e02f184348c1a05bc90a250a01b3aa98e866b94fa73fb6f09203683"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23945/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23945/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "a761cbd9b0d45afe72630de0a8b166696b2a668d111f325bede783ea50eb0476"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=XLROVYAPLOFLNU-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BPa%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "786f4e75f02b7efbb83173bce3a0c38fda5d490aaf6c6efef49af16b9385dc21"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23945/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23945/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchikey/ATJFFYVFTNAWJD-UHFFFAOYSA-N/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchikey/ATJFFYVFTNAWJD-UHFFFAOYSA-N/cids/JSON",
+      "response_sha256": "594beb20ab36b5ad933619404980e6d39c63b336851b6b85801383a838f80209"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5352426/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5352426/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "f4e777ed44843096c73c602a730f17ef6c357bcf733ffd5344ce6321f82ae3dc"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=ATJFFYVFTNAWJD-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BSn%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "f327e9337549aa8f7a4a247800cb42db79dedd6380261cb73ef60b5b682189fe"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5352426/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5352426/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchikey/BJQHLKABXJIVAM-UHFFFAOYSA-N/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchikey/BJQHLKABXJIVAM-UHFFFAOYSA-N/cids/JSON",
+      "response_sha256": "b03f2412aa6a80dcd1f095e81e132b8ad1bd42e0818f5949c40950542d237bf9"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/8343/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/8343/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "49a3606a2933eb12891675fb05d65f803d679c3d6433fa88362d24349bb5be00"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=BJQHLKABXJIVAM-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "4bfd556160e64fc459bd97ef51220d30cebccf33bd43b6719f55d883f44e378c"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/activity.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL1242017&limit=1000&only=molecule_chembl_id%2Ctarget_chembl_id%2Ctarget_organism%2Ctarget_type%2Cassay_chembl_id%2Cpchembl_value%2Cstandard_type%2Cstandard_value%2Cstandard_units",
+      "response_sha256": "c8c719a704252a0e39b0745c3809cc77709ae033e61c9db3382ddd5b24c07fb4"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": null,
+      "attempt": 3,
+      "url": "https://bindingdb.org/rest/getTargetByCompound",
+      "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/8343/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/8343/aids/JSON",
+      "response_sha256": "006c8c7319e3541a99d19be2a3099ff7c3c14be66cf2a9bb1a3d5ea603b2281c"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/28553-12-0/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/28553-12-0/cids/JSON",
+      "response_sha256": "5345e1bcf19bb3bc41ba473491a719ffba51665a1fd0d1a606d39dd997e0e39c"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/590836/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/590836/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "0f4b71d0a33fca8af2f8c6857616b745ee2b5975d1fe534ca1b9f3e241674181"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=HBGGXOJOCNVPFY-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "1013828f1996e837856bf387f319fe549a571838ff108331bcecedca6f17f68d"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/activity.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL1905899&limit=1000&only=molecule_chembl_id%2Ctarget_chembl_id%2Ctarget_organism%2Ctarget_type%2Cassay_chembl_id%2Cpchembl_value%2Cstandard_type%2Cstandard_value%2Cstandard_units",
+      "response_sha256": "b79cf8c582ab372698b4c305fd2a5ee82878c2d96137c4c72538e6957233ecfc"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": null,
+      "attempt": 3,
+      "url": "https://bindingdb.org/rest/getTargetByCompound",
+      "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/590836/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/590836/aids/JSON",
+      "response_sha256": "a85b4c922a453a53a00e586feed579246bc79ea2f383fbecc3aa05dbf922aeec"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6787/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6787/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "6f1c94b7b0a8eeaab94874f618092a4e922607aaaca7083f227bfbb66c3825bc"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=DROMNWUQASBTFM-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "015675ec3f3ee18c4eb7ffbcf9daf4733f5fbc534d5c85f08951e7b770f66fb0"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/activity.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL3186308&limit=1000&only=molecule_chembl_id%2Ctarget_chembl_id%2Ctarget_organism%2Ctarget_type%2Cassay_chembl_id%2Cpchembl_value%2Cstandard_type%2Cstandard_value%2Cstandard_units",
+      "response_sha256": "037003a7f3631e9dad89108fdea19fea07b7bdc2b8ba71c985fc55d69c999ba9"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 2,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=CCCCCCCCCOC%28%3DO%29C1%3DCC%3DCC%3DC1C%28%3DO%29OCCCCCCCCC&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "3b46929cb400dc64d9d949c9529c9dac4a54f595e4b9492f700c427831d7dffe"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6787/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6787/aids/JSON",
+      "response_sha256": "4c435333dded19f7497d80201e054f35d02eefc6e1ca9ecf5b0e946416b88fe6"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/119096/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/119096/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "5c22d9275f50d0c346938ca5fe7657c9801ffe55cc35c800f2f060a7592c0c3c"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=HCWNFKHKKHNSSL-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=CCC%28CCC%28%3DO%29C%29COC%28%3DO%29C1%3DCC%3DCC%3DC1C%28%3DO%29O&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "6cb85b819021786d4098089081341489efc75e60aace5bb01186751c7bfdff52"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/119096/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/119096/aids/JSON",
+      "response_sha256": "8e0af83562624ad42ae3e24d6d457bfa7e371c7bb785f20e0aa7740ffdbb175f"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/121232681/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/121232681/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "3b323104e58ee985fd8aebc75e0b1238a2d21d8362099a83ba8addf34d0dc0a1"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=JJZDVFQRUJRRSA-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=CC%28CCCC%28C%29C%28%3DO%29O%29COC%28%3DO%29C1%3DCC%3DCC%3DC1C%28%3DO%29O&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "144adf72c524c8ca2a1edfe212c94029d8d0cb0cd5630db84ca03fc22fbec5c5"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/121232681/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/121232681/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchikey/XFGRNAPKLGXDGF-UHFFFAOYSA-N/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchikey/XFGRNAPKLGXDGF-UHFFFAOYSA-N/cids/JSON",
+      "response_sha256": "4fb46fb23b58fa5807864563c839300a5ace54df77b9383294f456172b8534cf"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/148386/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/148386/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "14bd41234c35ef8b0b70ee808ade77afb0be25538b6f5c22d8e411c8260950a3"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=XFGRNAPKLGXDGF-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=CCC%28CCCC%28%3DO%29O%29COC%28%3DO%29C1%3DCC%3DCC%3DC1C%28%3DO%29O&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "f83d032b4fc3bf5e89157925541e52a636d09db8ea730088fceb96c18482142c"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/148386/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/148386/aids/JSON",
+      "response_sha256": "069cdd1fe429f9ac6979dc48fe7b98e1ff404d08b0bd216482cb3d7a9286b247"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/119144-77-3/cids/JSON",
+      "status_code": null,
+      "attempt": 2,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/119144-77-3/cids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No CID found\",\n    \"Details\": [\n      \"No CID found that matches the given name\"\n    ]\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchikey/QZHDEAJFRJCDMF-UHFFFAOYSA-N/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchikey/QZHDEAJFRJCDMF-UHFFFAOYSA-N/cids/JSON",
+      "response_sha256": "5cac88a5a1a73485899be3f71d59bc0f0e3200082d7cb0e7a901ef104762cd5a"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/67734/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/67734/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "c58d321e624f1684e944f22ca62d08285575c1871c39a711126e386a6eda7b68"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=QZHDEAJFRJCDMF-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "b3b75a316d30f86ca773a3d62a77dc231d4856b0ba11d801e35b58b54ec0ff55"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/activity.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL1906987&limit=1000&only=molecule_chembl_id%2Ctarget_chembl_id%2Ctarget_organism%2Ctarget_type%2Cassay_chembl_id%2Cpchembl_value%2Cstandard_type%2Cstandard_value%2Cstandard_units",
+      "response_sha256": "037003a7f3631e9dad89108fdea19fea07b7bdc2b8ba71c985fc55d69c999ba9"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=C%28C%28C%28C%28F%29%28F%29S%28%3DO%29%28%3DO%29O%29%28F%29F%29%28F%29F%29%28C%28C%28F%29%28F%29F%29%28F%29F%29%28F%29F&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "0a7b15da97f6928a98a555c4ed926798575730f1daafd64dc8b7c29081dc163f"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/67734/aids/JSON",
+      "status_code": null,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/67734/aids/JSON",
+      "error": "HTTP 404: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No AIDs found for the given CID(s)\"\n  }\n}\n"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchikey/BQCADISMDOOEFD-UHFFFAOYSA-N/cids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchikey/BQCADISMDOOEFD-UHFFFAOYSA-N/cids/JSON",
+      "response_sha256": "88642289b73a765141d4a624a9ac86516bb8f7bc7bf0ba818f656ec168aca062"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23954/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23954/property/InChIKey,CanonicalSMILES,IsomericSMILES/JSON",
+      "response_sha256": "5b0b0b6a83d8d6d2e7d15a2cde8b817ceb6928b7f4d476e7208afb4835d7629c"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_structures__standard_inchi_key=BQCADISMDOOEFD-UHFFFAOYSA-N&limit=100",
+      "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7"
+    },
+    {
+      "endpoint": "https://bindingdb.org/rest/getTargetByCompound",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://bindingdb.org/rest/getTargetByCompound?smiles=%5BAg%5D&cutoff=1.0&response=application%2Fjson",
+      "response_sha256": "5f2a3cd2d23401cd5c8f80ef472884414dae03d3136a55ae8897454e541499d2"
+    },
+    {
+      "endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23954/aids/JSON",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23954/aids/JSON",
+      "response_sha256": "22ace3bbf1a94fff69dfa488d9dc4cf9d4d7bab5b49ff33442c89eff71c47f1e"
+    }
+  ]
+}

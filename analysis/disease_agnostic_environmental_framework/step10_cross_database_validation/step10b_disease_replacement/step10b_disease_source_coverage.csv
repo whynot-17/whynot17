@@ -1,0 +1,4 @@
+source,gene_count_raw,gene_count_in_ctd_background,status
+GeneCards_primary,20554,4658,frozen_reference
+OpenTargets,9634,3491,complete
+GWAS_Catalog,957,289,complete_association_collection

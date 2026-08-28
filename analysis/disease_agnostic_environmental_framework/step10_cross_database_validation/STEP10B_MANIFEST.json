@@ -1,0 +1,109 @@
+{
+  "lock_type": "STEP10B_CROSS_DATABASE_REPLACEMENT_AUDIT",
+  "generated_utc": "2026-08-28T09:41:23.862675+00:00",
+  "status": "complete_with_explicit_source_boundaries",
+  "checks": {
+    "environmental_candidate_rows": {
+      "observed": 134,
+      "expected": 134,
+      "pass": true
+    },
+    "environmental_source_rows": {
+      "observed": 3,
+      "expected": 3,
+      "pass": true
+    },
+    "open_targets_rows": {
+      "observed": 9643,
+      "expected_min": 9000,
+      "pass": true
+    },
+    "gwas_author_reported_gene_rows": {
+      "observed": 957,
+      "expected_min": 1,
+      "pass": true
+    },
+    "disease_source_cluster_rows": {
+      "observed": 33,
+      "expected": 33,
+      "pass": true
+    },
+    "gwas_association_count_returned": {
+      "observed": 8848,
+      "expected_min": 1,
+      "pass": true
+    }
+  },
+  "errors": [],
+  "frozen_inputs": {
+    "source_set": "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\STEP10_FROZEN_SOURCE_SET.json",
+    "step7_cluster_gene_input": "analysis\\disease_agnostic_environmental_framework\\step07_genecard_convergence\\t2d_step7_cluster_ctd_genes.csv",
+    "genecards_reference": "analysis\\disease_agnostic_environmental_framework\\step07_genecard_convergence\\t2d_genecards_primary_gene_audit.csv"
+  },
+  "source_summary": {
+    "E1_ChEMBL": {
+      "candidate_count": 134,
+      "positive_human_activity_candidates": 13,
+      "release": {
+        "activities": 24527044,
+        "chembl_db_version": "ChEMBL_37",
+        "chembl_release_date": "2026-05-01",
+        "compound_records": 3824604,
+        "disinct_compounds": 2921148,
+        "publications": 101100,
+        "status": "UP",
+        "targets": 18552
+      }
+    },
+    "E2_BindingDB": {
+      "candidate_count": 134,
+      "positive_human_affinity_candidates": 0,
+      "release_basis": "official download-page snapshot and REST query metadata; date-stamped files are not collapsed into one database-wide release",
+      "absence_is_not_negative": true
+    },
+    "E3_PubChem_BioAssay": {
+      "candidate_count": 134,
+      "positive_cid_aid_candidates": 27,
+      "release_basis": "rolling PUG-REST retrieval snapshot",
+      "target_count_not_inferred": true
+    },
+    "D1_OpenTargets": {
+      "unique_approved_symbols": 9634,
+      "data_release": "26.06",
+      "api_version": "26.6.3"
+    },
+    "D2_GWAS_Catalog": {
+      "author_reported_gene_symbols": 957,
+      "association_count_returned": 8848,
+      "release_basis": "source-native trait association API snapshot; no file release tag was inferred",
+      "gene_rule": "authorReportedGenes with source-native Ensembl/Entrez IDs"
+    }
+  },
+  "output_hashes": {
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_environmental_replacement\\run_step10b_environmental_replacement.py": "66086014d8770c9f3ce8acb30e2b64d7fedb9f62a0888c96248772af34a9a5ec",
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_environmental_replacement\\capture_step10b_bindingdb_metadata.py": "49c5c408a1ff8d3aea612d380c9f3cd821f6cad439b250b3477d84f24aa841b0",
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_environmental_replacement\\step10b_environmental_candidate_crosswalk.csv": "555d1d04b92c77e69f5bd74f31e606d1841c8f79960da878f4683a05efd3cb7a",
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_environmental_replacement\\step10b_environmental_source_records.csv": "5c4b28175eeb7b6d7a169b9f9a8cc5071ccf401294ec4e1d3a406f0ab9b99e52",
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_environmental_replacement\\step10b_environmental_source_summary.csv": "89c690239ec6f48467bb97a52419ca9e113ee4c096a3dc7f02a651d54f903d2c",
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_environmental_replacement\\step10b_environmental_fixed_topk_retention.csv": "1254adb6d1c9a141d1a5a684e0449556991a4a96df66f0e1cc496519203cc58a",
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_environmental_replacement\\step10b_environmental_source_dropout.csv": "dec3e757459abb3794e32018a3498712e1083bde9f56156198fb39e0a3d73110",
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_environmental_replacement\\step10b_environmental_rank_concordance.csv": "32d332d9e190c9c2ad0faa5c89417c5c168cc4336dc28fac2da19b1afaa064bf",
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_environmental_replacement\\STEP10B_E_SOURCE_SNAPSHOT.json": "584e2994d3f8192ab065a11bb8110367d49dbb6fdc31c06e8b6bfac99f301458",
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_environmental_replacement\\STEP10B_E_API_CALL_MANIFEST.json": "36e0957bff1e8cec0d9777da333eb78e49bb9f0aa410c9a9f0ec922fe838d715",
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_environmental_replacement\\STEP10B_E_BINDINGDB_METADATA.json": "56fc653f2e52bcbf6bbbf4b527110c58486048365a81460f4a29b7872141907d",
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_environmental_replacement\\bindingdb_download_page_snapshot.html": "55f5d3a8f5e9bfa2a750ef40f5d802f77f74cfb4fba83985217ed5728a9415ef",
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_disease_replacement\\run_step10b_disease_replacement.py": "3bb3a783c8c309447a1625b97a1d3c35d87abc0d7b625e10ef4996cad3db2c7b",
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_disease_replacement\\step10b_open_targets_t2d_targets.csv": "5f66a0f495330e77b4b4fa49267b2b4b73132a3e8dd01be7d659b080fca8232b",
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_disease_replacement\\step10b_gwas_catalog_t2d_genes.csv": "b938a60df0557971d2e0c9875fd532b6473a76c19612741a5bf821b22cbb83b7",
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_disease_replacement\\step10b_gwas_catalog_query_snapshot.json": "2573cc365943f3fec342e649c691496a96630a9d3ea1c0c3849321934d0d1a99",
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_disease_replacement\\step10b_disease_source_coverage.csv": "eb33c7af063d84b89a17c3bf6a08fa00729ba71b45e4e640c000060bf81c5755",
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_disease_replacement\\step10b_disease_source_cluster_convergence.csv": "d1227138a4b125a06c3eaf08aac1cbaa22db48562c5d28e902f6fba2594f59fa",
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_disease_replacement\\step10b_disease_source_rank_stability.csv": "572d6f76a073509be0d84d05e3339381785313eee751f23fdbe393ec345cbf88",
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_disease_replacement\\STEP10B_D_SOURCE_SNAPSHOT.json": "fd4fbe8f0e1d5868ee05db784241bb2b6608f46ed161d7a3e50476f6c9628517",
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_disease_replacement\\STEP10B_D_API_CALL_MANIFEST.json": "2f9da7297c87bd7e59d51819105eb2b1c0e9dbd9c5813aeda268e0959d355d09",
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\STEP10_FROZEN_SOURCE_SET.json": "0150216b271607c5e565deb6efffdb69d5ca2dbc456ec2ed7b7062d402f81712",
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\STEP10_SOURCE_REPLACEMENT_REGISTRY.csv": "1ea77f34a6649be49743f8e70dc4c46d1b9b656e0de7774ca4424b1940156678",
+    "analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\build_step10b_qc_manifest.py": "5f51047697667bcbfc95161ff599f019b5e9f1a33d459595aa92c0014fe92655"
+  },
+  "boundary": "Environmental sources remain semantically separate; disease sources remain separate; replacement results do not change the frozen 29-test family, 11 clusters, or any Tier assignment."
+}

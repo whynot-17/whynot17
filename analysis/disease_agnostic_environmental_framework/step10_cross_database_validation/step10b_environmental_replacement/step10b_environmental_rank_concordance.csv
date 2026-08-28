@@ -1,0 +1,10 @@
+source_1,source_2,score_1,score_2,spearman_rho,n_candidates,interpretation
+E1_ChEMBL,E2_BindingDB,chembl_human_activity_count,bindingdb_human_affinity_row_count,,134,descriptive count concordance; source semantics remain non-equivalent
+E1_ChEMBL,E3_PubChem_BioAssay,chembl_human_activity_count,pubchem_aid_count,0.6663837795369808,134,descriptive count concordance; source semantics remain non-equivalent
+E2_BindingDB,E3_PubChem_BioAssay,bindingdb_human_affinity_row_count,pubchem_aid_count,,134,descriptive count concordance; source semantics remain non-equivalent
+E1_ChEMBL,CTD_human_chemical_gene_pair_count,chembl_human_activity_count,n_unique_chemical_gene_pairs,-0.18885306443083075,31,descriptive source-record versus CTD annotation-burden concordance; not causal and not used for promotion
+E1_ChEMBL,CTD_unique_PMID_count,chembl_human_activity_count,n_unique_pmids,-0.16667455145813112,31,descriptive source-record versus CTD annotation-burden concordance; not causal and not used for promotion
+E2_BindingDB,CTD_human_chemical_gene_pair_count,bindingdb_human_affinity_row_count,n_unique_chemical_gene_pairs,,31,descriptive source-record versus CTD annotation-burden concordance; not causal and not used for promotion
+E2_BindingDB,CTD_unique_PMID_count,bindingdb_human_affinity_row_count,n_unique_pmids,,31,descriptive source-record versus CTD annotation-burden concordance; not causal and not used for promotion
+E3_PubChem_BioAssay,CTD_human_chemical_gene_pair_count,pubchem_aid_count,n_unique_chemical_gene_pairs,-0.15696332764215182,31,descriptive source-record versus CTD annotation-burden concordance; not causal and not used for promotion
+E3_PubChem_BioAssay,CTD_unique_PMID_count,pubchem_aid_count,n_unique_pmids,-0.21398403513343908,31,descriptive source-record versus CTD annotation-burden concordance; not causal and not used for promotion

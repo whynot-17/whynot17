@@ -1,0 +1,166 @@
+{
+  "generated_utc": "2026-08-28T09:24:42.803808+00:00",
+  "calls": [
+    {
+      "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "2ee20992c024644c7870f6a34fa1b1044ec1d050432c70b6d545f58d961aacb1"
+    },
+    {
+      "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "604c315bb8cb5efa42e5a499bbc990d248206789603cba4b4632b43b9e0043ef"
+    },
+    {
+      "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "ef615de8bb1b86e5b84fde548d1156824c16b996bf08e78b739a11983a2d48c5"
+    },
+    {
+      "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "ca84ef16dc214f244fb4da5754b4c7d6401467d5032f7aedd0edf381ba02c21c"
+    },
+    {
+      "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "4f3811161e75da279cdaaaad3d5e27b69b706a7f38c56a2f3461d9a56a6b9306"
+    },
+    {
+      "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "2c7aab00a0a2870167297e006941b5e747ac8a0f3760b3335794e717e21ce7d8"
+    },
+    {
+      "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "4b9b3c29fbda29e85850d245d5ffbd34b627b4dcd2e2b1b4aa60d902895a54b3"
+    },
+    {
+      "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "2e60a24629ebae37db28ebf160fa80f841b3e9f2fab75dc0961093f90f3e5dcf"
+    },
+    {
+      "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "85552ba1ea22c4dde5019ebf329d05d1ae2dbc4b9d3c3e01068b28f473f57734"
+    },
+    {
+      "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "5f62ecc8624be857e1606f7742576973a98d918d11806c4b92dbbdd1d1fb85dc"
+    },
+    {
+      "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "63505174c50474dbf657cdcee03e030a37977de879c0d9d1a5cdf1ab08770f6d"
+    },
+    {
+      "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "e96c4713ed8bc1756e216b82cac0cc30a713cc5eaf154b5fe03afb6b17608f3f"
+    },
+    {
+      "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "185f4cd7f405bbcf254a79871163dfd4c1fd1ead313935171875d2b526dc37d1"
+    },
+    {
+      "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "90aa95248ccb4ef30a99b76eb1c1385be1de5405a5e9e890a38b603ebebeadba"
+    },
+    {
+      "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "411717278e357501d05098a9fa85a01420951970c87d9153fbd85fb6a0c70497"
+    },
+    {
+      "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "158e721af2451b663e3e8ab08d46b8b943105c2a85213a6b87c37e2e06e321ff"
+    },
+    {
+      "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "6e7e709e37e4e5cad89425b34f0662143f2f1f2bf7ba498e0ff7341a73aadf8c"
+    },
+    {
+      "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "cd0531d20d14a937f2a3eebff2d58b9d67b8091695bc21018dcbf4bc43b34c78"
+    },
+    {
+      "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "dcdb80ccbfa186a1ff73331bd27f281d820b5fc5f1c28c6657e8e9ff0c723ef9"
+    },
+    {
+      "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "46a8d19de7b70fabf4444444949246c8c138bc15bf2a7c5ff706ad9ad66914c3"
+    },
+    {
+      "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "98d33112d3aca91502dc22d4a5c71f8a313af9a9380576c4230e704d00969adb"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/gwas/rest/api/efoTraits/MONDO_0005148",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/gwas/rest/api/efoTraits/MONDO_0005148",
+      "response_sha256": "1a31a9583403afe9ea4f43a82a65b3c90d76ef427006bdc9bbfcb24dc6f653fd"
+    },
+    {
+      "endpoint": "https://www.ebi.ac.uk/gwas/rest/api/efoTraits/MONDO_0005148/associations?page=0&size=100",
+      "status_code": 200,
+      "attempt": 1,
+      "url": "https://www.ebi.ac.uk/gwas/rest/api/efoTraits/MONDO_0005148/associations?page=0&size=100",
+      "response_sha256": "d2d347fb17a67d6934fef2ef2d298daf00caea8a98d66deacc50820a5ace791e"
+    }
+  ]
+}

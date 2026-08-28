@@ -1,0 +1,135 @@
+chemical_id,chemical_name,step7_cluster_ids,n_sources_with_observed_evidence,observed_evidence_sources,chembl_human_activity_count,bindingdb_human_affinity_row_count,pubchem_aid_count
+C000615170,Uranium-226,cluster_11,0,,0,0,0
+C000615171,Uranium-228,cluster_11,0,,0,0,0
+C000615172,Uranium-230,cluster_11,0,,0,0,0
+C000615173,Uranium-232,cluster_11,0,,0,0,0
+C000615174,Uranium-233,cluster_11,0,,0,0,0
+C000615175,Uranium-234,cluster_11,0,,0,0,0
+C000615176,Uranium-235,cluster_11,0,,0,0,0
+C000615177,Uranium-236,cluster_11,0,,0,0,0
+C000615178,Uranium-237,cluster_11,0,,0,0,0
+C000615179,Uranium-238,cluster_11,0,,0,0,0
+C000615180,Uranium-240,cluster_11,0,,0,0,0
+C510902,dioxouranium(VI),cluster_11,0,,0,0,0
+D014501,Uranium,cluster_11,1,E3_PubChem_BioAssay,0,0,1
+C000615510,Molybdenum-94,cluster_7,0,,0,0,0
+C000615511,Molybdenum-95,cluster_7,0,,0,0,0
+C000615512,Molybdenum-96,cluster_7,0,,0,0,0
+C000615513,Molybdenum-97,cluster_7,0,,0,0,0
+C000615514,Molybdenum-100,cluster_7,0,,0,0,0
+C000615515,Molybdenum-99,cluster_7,0,,0,0,0
+C000723919,molybdenum oxide,cluster_7,0,,0,0,0
+C017541,molybdenum blue,cluster_7,0,,0,0,0
+C082290,molybdenum trioxide,cluster_7,1,E3_PubChem_BioAssay,0,0,270
+C082964,molybdenum disulfide,cluster_7,0,,0,0,0
+C085192,molybdenum chloride,cluster_7,0,,0,0,0
+C088876,molybdenum telluride,cluster_7,0,,0,0,0
+C434645,hexacarbonylmolybdenum,cluster_7,0,,0,0,0
+C532628,phosphoantimonylmolybdenum blue,cluster_7,0,,0,0,0
+C539565,molybdenum dioxide,cluster_7,0,,0,0,0
+C574181,molybdenum carbide,cluster_7,0,,0,0,0
+C582810,molybdenum boride,cluster_7,0,,0,0,0
+D008982,Molybdenum,cluster_7,1,E3_PubChem_BioAssay,0,0,1
+C000615069,Tungsten-182,cluster_10,0,,0,0,0
+C000615070,Tungsten-183,cluster_10,0,,0,0,0
+C000615071,Tungsten-186,cluster_10,0,,0,0,0
+C000615072,Tungsten-178,cluster_10,0,,0,0,0
+C000615073,Tungsten-181,cluster_10,0,,0,0,0
+C000615074,Tungsten-185,cluster_10,0,,0,0,0
+C000615075,Tungsten-187,cluster_10,0,,0,0,0
+C000615076,Tungsten-188,cluster_10,0,,0,0,0
+C009613,ammonium tungsten antimonate hydroxide oxide,cluster_10,1,E3_PubChem_BioAssay,0,0,1
+C434643,hexacarbonyltungsten,cluster_10,1,E3_PubChem_BioAssay,0,0,1
+C511604,tungsten oxide,cluster_10,0,,0,0,0
+D014414,Tungsten,cluster_10,1,E3_PubChem_BioAssay,0,0,1
+C000615127,Lead-204,cluster_8,0,,0,0,0
+C000615128,Lead-206,cluster_8,0,,0,0,0
+C000615129,Lead-207,cluster_8,0,,0,0,0
+C017461,lead nitrate,cluster_8,1,E3_PubChem_BioAssay,0,0,1
+C017462,lead tetrachloride,cluster_8,0,,0,0,0
+C018391,lead sulfide,cluster_8,1,E3_PubChem_BioAssay,0,0,2
+C028356,lead tetroxide,cluster_8,0,,0,0,0
+C029891,lead chloride,cluster_8,1,E3_PubChem_BioAssay,0,0,2
+C031330,diethyllead,cluster_8,0,,0,0,0
+C031895,lead chromate,cluster_8,1,E3_PubChem_BioAssay,0,0,3
+C032721,lead bromide,cluster_8,0,,0,0,0
+C032722,lead sulfate,cluster_8,1,E3_PubChem_BioAssay,0,0,2
+C036682,lead phosphate,cluster_8,0,,0,0,0
+C037372,lead azide,cluster_8,0,,0,0,0
+C043262,lead carbonate,cluster_8,0,,0,0,0
+C044795,lead silicate,cluster_8,0,,0,0,0
+C045846,lead arsenate,cluster_8,0,,0,0,0
+C047365,lead oxide,cluster_8,0,,0,0,0
+C060248,bismuth lead,cluster_8,0,,0,0,0
+C065267,tricatechol hexalactam-lead(II) complex,cluster_8,0,,0,0,0
+C065321,vinyl lead,cluster_8,0,,0,0,0
+C065536,lead titanate zirconate,cluster_8,0,,0,0,0
+C077765,lead fluoride,cluster_8,0,,0,0,0
+C088065,lead selenide,cluster_8,0,,0,0,0
+C404734,lead magnesium niobate,cluster_8,0,,0,0,0
+C432863,lead hydroxide,cluster_8,0,,0,0,0
+C474493,lead zinc niobate titanate,cluster_8,0,,0,0,0
+C481719,lead titanate,cluster_8,0,,0,0,0
+D007854,Lead,cluster_8,0,,0,0,0
+C575690,mono-isobutyl phthalate,cluster_4,0,,0,0,0
+C000614996,Barium-135,cluster_6,0,,0,0,0
+C000614997,Barium-136,cluster_6,0,,0,0,0
+C000614998,Barium-137,cluster_6,0,,0,0,0
+C006685,barium carbonate,cluster_6,0,,0,0,0
+C070629,barium copper yttrium oxide,cluster_6,0,,0,0,0
+C516499,barium metagermanate,cluster_6,0,,0,0,0
+C520730,barium gallogermanate glass,cluster_6,0,,0,0,0
+D001464,Barium,cluster_6,0,,0,0,0
+C018520,"2,6-diisopropylnaphthalene",cluster_5,2,E1_ChEMBL;E3_PubChem_BioAssay,1,0,294
+C025968,1-methylnaphthalene,cluster_5,2,E1_ChEMBL;E3_PubChem_BioAssay,8,0,536
+C027384,2-methylnaphthalene,cluster_5,2,E1_ChEMBL;E3_PubChem_BioAssay,4,0,427
+C028519,"2,6-dimethylnaphthalene",cluster_5,2,E1_ChEMBL;E3_PubChem_BioAssay,3,0,266
+C031721,naphthalene,cluster_5,2,E1_ChEMBL;E3_PubChem_BioAssay,10,0,979
+C031969,"1,4-dimethylnaphthalene",cluster_5,2,E1_ChEMBL;E3_PubChem_BioAssay,1,0,299
+C042552,acenaphthene,cluster_5,2,E1_ChEMBL;E3_PubChem_BioAssay,2,0,329
+C042553,acenaphthylene,cluster_5,2,E1_ChEMBL;E3_PubChem_BioAssay,1,0,291
+C065012,2-ethynylnaphthalene,cluster_5,1,E1_ChEMBL,7,0,0
+C117619,"1,2-dimethylnaphthalene",cluster_5,2,E1_ChEMBL;E3_PubChem_BioAssay,7,0,414
+C466921,"1,6-dimethylnaphthalene",cluster_5,2,E1_ChEMBL;E3_PubChem_BioAssay,7,0,748
+C523241,octafluoronaphthalene,cluster_5,0,,0,0,0
+C000615155,Actinium-225,cluster_9,0,,0,0,0
+C000615156,Actinium-228,cluster_9,0,,0,0,0
+C000615167,Protactinium-230,cluster_9,0,,0,0,0
+C000615168,Protactinium-231,cluster_9,0,,0,0,0
+C000615169,Protactinium-233,cluster_9,0,,0,0,0
+C000615561,Tin-112,cluster_9,0,,0,0,0
+C000615562,Tin-116,cluster_9,0,,0,0,0
+C000615563,Tin-117,cluster_9,0,,0,0,0
+C000615564,Tin-118,cluster_9,0,,0,0,0
+C000615565,Tin-119,cluster_9,0,,0,0,0
+C000617035,Actinium-227,cluster_9,0,,0,0,0
+C050718,dentinol,cluster_9,0,,0,0,0
+C088922,magnetoferritin,cluster_9,0,,0,0,0
+C419565,2-ethylhexanoic acid tin(II) salt,cluster_9,0,,0,0,0
+C481499,(188)Rhenium tin-colloid,cluster_9,0,,0,0,0
+D000186,Actinium,cluster_9,0,,0,0,0
+D011478,Protactinium,cluster_9,0,,0,0,0
+D014001,Tin,cluster_9,0,,0,0,0
+D004051,Diethylhexyl Phthalate,cluster_3,2,E1_ChEMBL;E3_PubChem_BioAssay,13,0,951
+C012125,diisononyl phthalate,cluster_2,2,E1_ChEMBL;E3_PubChem_BioAssay,2,0,300
+C019174,dinonylphthalate,cluster_2,1,E3_PubChem_BioAssay,0,0,259
+C080276,mono(2-ethyl-5-oxohexyl)phthalate,cluster_3,1,E3_PubChem_BioAssay,0,0,1
+C573544,mono(carboxy-isooctyl)phthalate,cluster_2,0,,0,0,0
+C000212,ammoniacal silver,cluster_6,0,,0,0,0
+C000615533,Silver-109,cluster_6,0,,0,0,0
+C000615534,Silver-94,cluster_6,0,,0,0,0
+C000615535,Silver-105,cluster_6,0,,0,0,0
+C000615536,Silver-108,cluster_6,0,,0,0,0
+C000615537,Silver-110m,cluster_6,0,,0,0,0
+C000617011,Silver-110,cluster_6,0,,0,0,0
+C000617013,Silver-111,cluster_6,0,,0,0,0
+C000719392,silver graphene,cluster_6,0,,0,0,0
+C026160,silver-allantoin-heparin,cluster_6,0,,0,0,0
+C031342,Henis' silver paste,cluster_6,0,,0,0,0
+C036936,Silver-Percha,cluster_6,0,,0,0,0
+C051450,2-ethyl-5-carboxypentyl phthalate,cluster_3,1,E3_PubChem_BioAssay,0,0,1
+C054102,silver kaolin,cluster_6,0,,0,0,0
+C471071,perfluorohexanesulfonic acid,cluster_1,0,,0,0,0
+C500574,silverlon,cluster_6,0,,0,0,0
+C586932,colloidal silver,cluster_6,0,,0,0,0
+D012834,Silver,cluster_6,1,E3_PubChem_BioAssay,0,0,3

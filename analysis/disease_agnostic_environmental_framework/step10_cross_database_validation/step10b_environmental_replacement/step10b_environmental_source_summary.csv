@@ -1,0 +1,4 @@
+source_id,candidate_count,positive_record_count,positive_record_fraction,record_count_field,target_filter_status,absence_interpretation
+E1_ChEMBL,134,13,0.09701492537313433,chembl_human_activity_count,human applied,not biological negative
+E2_BindingDB,134,0,0.0,bindingdb_human_affinity_row_count,human applied,not biological negative
+E3_PubChem_BioAssay,134,27,0.20149253731343283,pubchem_aid_count,not inferable from CID_AID membership,not biological negative

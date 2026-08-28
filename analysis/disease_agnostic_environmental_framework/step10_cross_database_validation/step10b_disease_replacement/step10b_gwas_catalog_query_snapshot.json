@@ -1,0 +1,7 @@
+{
+  "status": "complete_association_collection",
+  "association_count_returned": 8848,
+  "extracted_gene_count": 957,
+  "response_sha256": "1a31a9583403afe9ea4f43a82a65b3c90d76ef427006bdc9bbfcb24dc6f653fd",
+  "endpoint_family": "GWAS Catalog REST efoTraits/{MONDO_ID}/associations"
+}

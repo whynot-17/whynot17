@@ -1,0 +1,10 @@
+source_id,top_k,positive_candidates,observed_top_k,chemical_ids,interpretation
+E1_ChEMBL,5,13,5,D004051;C031721;C025968;C065012;C117619,within-source descriptive rank; not cross-source potency ranking
+E1_ChEMBL,10,13,10,D004051;C031721;C025968;C065012;C117619;C466921;C027384;C028519;C012125;C042552,within-source descriptive rank; not cross-source potency ranking
+E1_ChEMBL,15,13,13,D004051;C031721;C025968;C065012;C117619;C466921;C027384;C028519;C012125;C042552;C018520;C031969;C042553,within-source descriptive rank; not cross-source potency ranking
+E2_BindingDB,5,0,0,,within-source descriptive rank; not cross-source potency ranking
+E2_BindingDB,10,0,0,,within-source descriptive rank; not cross-source potency ranking
+E2_BindingDB,15,0,0,,within-source descriptive rank; not cross-source potency ranking
+E3_PubChem_BioAssay,5,27,5,C031721;D004051;C466921;C025968;C027384,within-source descriptive rank; not cross-source potency ranking
+E3_PubChem_BioAssay,10,27,10,C031721;D004051;C466921;C025968;C027384;C117619;C042552;C012125;C031969;C018520,within-source descriptive rank; not cross-source potency ranking
+E3_PubChem_BioAssay,15,27,15,C031721;D004051;C466921;C025968;C027384;C117619;C042552;C012125;C031969;C018520;C042553;C082290;C028519;C019174;C031895,within-source descriptive rank; not cross-source potency ranking

@@ -1,0 +1,75 @@
+{
+  "generated_utc": "2026-08-28T09:41:23.863796+00:00",
+  "status": "complete_with_explicit_source_boundaries",
+  "checks": {
+    "environmental_candidate_rows": {
+      "observed": 134,
+      "expected": 134,
+      "pass": true
+    },
+    "environmental_source_rows": {
+      "observed": 3,
+      "expected": 3,
+      "pass": true
+    },
+    "open_targets_rows": {
+      "observed": 9643,
+      "expected_min": 9000,
+      "pass": true
+    },
+    "gwas_author_reported_gene_rows": {
+      "observed": 957,
+      "expected_min": 1,
+      "pass": true
+    },
+    "disease_source_cluster_rows": {
+      "observed": 33,
+      "expected": 33,
+      "pass": true
+    },
+    "gwas_association_count_returned": {
+      "observed": 8848,
+      "expected_min": 1,
+      "pass": true
+    }
+  },
+  "source_summary": {
+    "E1_ChEMBL": {
+      "candidate_count": 134,
+      "positive_human_activity_candidates": 13,
+      "release": {
+        "activities": 24527044,
+        "chembl_db_version": "ChEMBL_37",
+        "chembl_release_date": "2026-05-01",
+        "compound_records": 3824604,
+        "disinct_compounds": 2921148,
+        "publications": 101100,
+        "status": "UP",
+        "targets": 18552
+      }
+    },
+    "E2_BindingDB": {
+      "candidate_count": 134,
+      "positive_human_affinity_candidates": 0,
+      "release_basis": "official download-page snapshot and REST query metadata; date-stamped files are not collapsed into one database-wide release",
+      "absence_is_not_negative": true
+    },
+    "E3_PubChem_BioAssay": {
+      "candidate_count": 134,
+      "positive_cid_aid_candidates": 27,
+      "release_basis": "rolling PUG-REST retrieval snapshot",
+      "target_count_not_inferred": true
+    },
+    "D1_OpenTargets": {
+      "unique_approved_symbols": 9634,
+      "data_release": "26.06",
+      "api_version": "26.6.3"
+    },
+    "D2_GWAS_Catalog": {
+      "author_reported_gene_symbols": 957,
+      "association_count_returned": 8848,
+      "release_basis": "source-native trait association API snapshot; no file release tag was inferred",
+      "gene_rule": "authorReportedGenes with source-native Ensembl/Entrez IDs"
+    }
+  }
+}
