@@ -1,0 +1,4 @@
+freeze_order,outcome_id,outcome_label,outcome_class,feasibility_score,freeze_reason,association_results_consulted,p_values_consulted,published_effect_estimates_consulted,frozen_before_association,requires_raw_file_confirmation,exposure_overlap_used_for_selection
+1,hypertension,Hypertension,clinical disease outcome,12,Top three eligible disease/clinical-outcome candidates under predeclared feasibility rubric,false,false,false,true,true,false
+2,diabetes,Diabetes / glycemic disease outcome,clinical disease outcome,11,Top three eligible disease/clinical-outcome candidates under predeclared feasibility rubric,false,false,false,true,true,false
+3,dyslipidemia,Dyslipidemia / hypercholesterolemia,clinical phenotype outcome,11,Top three eligible disease/clinical-outcome candidates under predeclared feasibility rubric,false,false,false,true,true,false

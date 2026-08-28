@@ -1,0 +1,60 @@
+{
+  "generated_utc": "2026-08-28T12:47:13Z",
+  "script": "run_knhanes_outcome_feasibility_census.py",
+  "method": "preassociation feasibility-only outcome census",
+  "outcome_firewall": {
+    "association_models_run": false,
+    "association_results_consulted": false,
+    "p_values_consulted": false,
+    "published_effect_estimates_imported": false,
+    "selection_by_association": false
+  },
+  "frozen_input": "analysis/disease_agnostic_environmental_framework/step04_testset_freeze/unique_biomarker_test_set.csv",
+  "prior_exposure_audit": "KNHANES_QC_SUMMARY.json",
+  "candidate_outcomes": [
+    "hypertension",
+    "diabetes",
+    "dyslipidemia",
+    "metabolic_syndrome",
+    "ckd",
+    "obesity",
+    "liver_disease"
+  ],
+  "provisional_primary_freeze": [
+    "hypertension",
+    "diabetes",
+    "dyslipidemia"
+  ],
+  "outputs": [
+    {
+      "path": "PLAN_OUTCOME_CENSUS.md",
+      "bytes": 3134,
+      "sha256": "9e57c6d4d3fbd79296c306f6586d6187767ccb515e125f6862548bb812d9a11f"
+    },
+    {
+      "path": "run_knhanes_outcome_feasibility_census.py",
+      "bytes": 22237,
+      "sha256": "4f5535632e3855eb894384b25287dcb5d52ef276a050002bfcf0a0a35a9ddbdd"
+    },
+    {
+      "path": "knhanes_outcome_candidate_census.csv",
+      "bytes": 7881,
+      "sha256": "a1dc65e77b3b2783f14dbea72bbdddad66432c3e73b01d2d72f6df16619f4200"
+    },
+    {
+      "path": "knhanes_outcome_freeze_matrix.csv",
+      "bytes": 857,
+      "sha256": "1cfdd8ee396f540d5eece809ce981d9883109ce214c2bc812181852580db2979"
+    },
+    {
+      "path": "KNHANES_OUTCOME_CENSUS_QC_SUMMARY.json",
+      "bytes": 1825,
+      "sha256": "e888059d39a42227ae5d8fbe05ce342eb296fa24584044fe81c446790b2b4f23"
+    },
+    {
+      "path": "STEP10B_P3_OUTCOME_CENSUS_REPORT.md",
+      "bytes": 5078,
+      "sha256": "4ad4a6f238a93146f7f3077bf5ad56b7c2a0421ac84127b754ba75812a5323f3"
+    }
+  ]
+}

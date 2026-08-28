@@ -1,0 +1,34 @@
+{
+  "generated_utc": "2026-08-28T12:47:13Z",
+  "status": "preassociation_outcome_feasibility_census_complete_provisional_freeze",
+  "scope": "KNHANES independent population replacement feasibility; no exposure-outcome models",
+  "candidate_outcome_count": 7,
+  "provisional_primary_freeze": [
+    "hypertension",
+    "diabetes",
+    "dyslipidemia"
+  ],
+  "provisional_primary_freeze_count": 3,
+  "frozen_test_count": 29,
+  "frozen_exposure_exact_match_count": 0,
+  "frozen_exposure_nearest_matrix_mismatch_count": 2,
+  "raw_catalog_record_count": 105,
+  "raw_catalog_total_count_from_prior_audit": 105,
+  "case_counts_calculable_now": false,
+  "association_models_run": false,
+  "association_results_consulted": false,
+  "p_values_consulted": false,
+  "published_effect_estimates_imported": false,
+  "selection_by_association": false,
+  "microdata_downloaded": false,
+  "user_registration_attempted": false,
+  "final_replication_readiness": "conditional_pending_authorized_raw_file_and_codebook_confirmation",
+  "primary_freeze_rule": "Top three eligible directly defined disease/clinical-outcome candidates by feasibility-only score; derived multicomponent and non-disease phenotypes remain reserve/contrast",
+  "important_boundary": "Exact frozen exposure overlap is recorded for every outcome but is not used to rank or select outcomes; prior audit found 0/29 exact public KNHANES matches.",
+  "input_sha256": {
+    "frozen_test_set": "6b284b23d69f74991fc28978c85c1e39d10f096e2fd4d42290046df8224c3a9e",
+    "knhanes_crosswalk": "d0e1a4a92cc5e1574f8dc8080d23d42992c9fae165ad20084bf33148ad237c7c",
+    "prior_knhanes_qc": "ead240ddb7c18822206f7794555768f61332b320f63aaa6841606c597c37dad1",
+    "knhanes_raw_catalog": "169a212ad5bc62929ace95fce7e685013cee7ceb29867aa8dc1fccb21c7f79eb"
+  }
+}
