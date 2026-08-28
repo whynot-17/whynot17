@@ -1,0 +1,49 @@
+{
+  "generated_utc": "2026-08-28T07:59:49.305838+00:00",
+  "scope": "descriptive CTD annotation-burden audit; no candidate reranking",
+  "ctd_interaction_scope": "human-only (OrganismID=9606 or Organism=Homo sapiens), unique chemical-gene pairs; raw rows and PMIDs retained separately",
+  "actionability_universe_n": 2042,
+  "actionable_chemical_n": 409,
+  "t2d_candidate_n": 134,
+  "actionable_t2d_candidate_n": 134,
+  "actionable_gene_annotation_q90": 56.0,
+  "actionable_pmid_q90": 11.199999999999989,
+  "candidate_high_gene_burden_n": 10,
+  "candidate_high_pmid_burden_n": 12,
+  "candidate_medians": {
+    "n_raw_human_interaction_rows": 0.0,
+    "n_unique_human_gene_pairs": 0.0,
+    "n_unique_human_genes": 0.0,
+    "n_unique_pmids": 0.0
+  },
+  "actionable_background_medians": {
+    "n_raw_human_interaction_rows": 0.0,
+    "n_unique_human_gene_pairs": 0.0,
+    "n_unique_human_genes": 0.0,
+    "n_unique_pmids": 0.0
+  },
+  "source_files": {
+    "ctd_interactions": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\environmental_toxicology_crc_phase1\\data\\CTD_chem_gene_ixns.tsv.gz",
+    "ctd_chemicals": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\environmental_toxicology_crc_phase1\\data\\CTD_chemicals.tsv.gz",
+    "actionability_ledger": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step03_actionability\\actionability_ledger.csv",
+    "classification_ledger": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\clean_room_reconstruction\\outputs\\clean_room_classification_ledger.csv",
+    "t2d_candidate_chemicals": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\01_candidate_master\\unique_candidate_chemicals.csv"
+  },
+  "source_sha256": {
+    "ctd_interactions": "05e1b0d2d93bb33f72659e6ed2d590304cdb58da9538c787ad51fc6624d0e055",
+    "ctd_chemicals": "9e4b642c8716140d30a9376d6b2229acb81ee48a8b106a4f41ed06b29894ef6c",
+    "actionability_ledger": "c2480d968b4731ccf3676a54b9647b6c6cf67ca6f7eef9ec19e54a78ca3a9225",
+    "classification_ledger": "a5fb6527a94486b2761d4ae38d0ea4fa42c1036fd38d42247d7ab36b561ac070",
+    "t2d_candidate_chemicals": "1d63252e6a21cbeaf646c110e14d8b1584b2face2c2506337f96c6da353985c4"
+  },
+  "descriptive_tests": {
+    "candidate_vs_actionable_noncandidate_n_raw_human_interaction_rows_mann_whitney_p": 0.026309526480651293,
+    "candidate_vs_actionable_noncandidate_n_unique_human_gene_pairs_mann_whitney_p": 0.029943747390377164,
+    "candidate_vs_actionable_noncandidate_n_unique_human_genes_mann_whitney_p": 0.029943747390377164,
+    "candidate_vs_actionable_noncandidate_n_unique_pmids_mann_whitney_p": 0.044783452152567155,
+    "candidate_enrichment_in_actionable_top_decile_gene_burden_OR": 0.6123991935483871,
+    "candidate_enrichment_in_actionable_top_decile_gene_burden_p": 0.9335418132213764,
+    "all_chemical_gene_degree_vs_pmid_spearman_rho": 0.9992222883749877,
+    "all_chemical_gene_degree_vs_pmid_spearman_p": 0.0
+  }
+}

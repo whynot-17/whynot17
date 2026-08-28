@@ -1,0 +1,36 @@
+{
+  "audit": "CTD annotation burden audit",
+  "generated_utc": "2026-08-28T07:59:49.305838+00:00",
+  "script": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\compute_ctd_annotation_burden_audit.py",
+  "inputs": {
+    "ctd_interactions": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\environmental_toxicology_crc_phase1\\data\\CTD_chem_gene_ixns.tsv.gz",
+    "ctd_chemicals": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\environmental_toxicology_crc_phase1\\data\\CTD_chemicals.tsv.gz",
+    "actionability_ledger": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\step03_actionability\\actionability_ledger.csv",
+    "classification_ledger": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\clean_room_reconstruction\\outputs\\clean_room_classification_ledger.csv",
+    "t2d_candidate_chemicals": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\01_candidate_master\\unique_candidate_chemicals.csv"
+  },
+  "input_sha256": {
+    "ctd_interactions": "05e1b0d2d93bb33f72659e6ed2d590304cdb58da9538c787ad51fc6624d0e055",
+    "ctd_chemicals": "9e4b642c8716140d30a9376d6b2229acb81ee48a8b106a4f41ed06b29894ef6c",
+    "actionability_ledger": "c2480d968b4731ccf3676a54b9647b6c6cf67ca6f7eef9ec19e54a78ca3a9225",
+    "classification_ledger": "a5fb6527a94486b2761d4ae38d0ea4fa42c1036fd38d42247d7ab36b561ac070",
+    "t2d_candidate_chemicals": "1d63252e6a21cbeaf646c110e14d8b1584b2face2c2506337f96c6da353985c4"
+  },
+  "outputs": {
+    "ctd_annotation_burden_by_chemical.csv": "4d547ac7cc0078b619d01ce1b618ee817e4162ff19fc7ae7e2e3dff725b7c946",
+    "ctd_annotation_burden_candidate_summary.csv": "cf64503e933e9c57b1c56d2edfcdf97c87d5b11a0c72b71abdd7a95345deb0cd",
+    "CTD_ANNOTATION_BURDEN_AUDIT_SUMMARY.json": "e9243e470aca5e7c76e7f0d4028931bc52b8c0a88dd46c36aaadd5296945bd0e"
+  },
+  "rules": [
+    "Human CTD interactions only: OrganismID=9606 or Homo sapiens.",
+    "Interaction evidence is deduplicated at chemical ID x GeneID (GeneSymbol fallback only if GeneID is absent).",
+    "Raw interaction rows, unique PMIDs, actions, and terms are descriptive audit fields, not weights in enrichment.",
+    "Reference population is the formal 2042-chemical actionability ledger; actionable status is summarized at chemical level.",
+    "T2D candidate flag is post-selection metadata and cannot change any frozen screen, FDR, tier, or rank."
+  ],
+  "counts": {
+    "actionability_universe_n": 2042,
+    "actionable_chemical_n": 409,
+    "t2d_candidate_n": 134
+  }
+}
