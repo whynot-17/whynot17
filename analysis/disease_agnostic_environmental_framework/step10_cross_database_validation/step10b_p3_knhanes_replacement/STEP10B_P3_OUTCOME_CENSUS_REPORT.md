@@ -54,4 +54,3 @@ The three frozen outcomes may enter an external population-replacement analysis 
 5. a prespecified outcome definition and exclusions.
 
 Until then, the correct status is **provisional feasibility freeze, access/codebook confirmation pending**.
-    
