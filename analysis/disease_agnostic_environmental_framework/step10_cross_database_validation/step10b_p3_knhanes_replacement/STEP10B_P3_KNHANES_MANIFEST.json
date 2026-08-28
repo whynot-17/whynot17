@@ -1,0 +1,64 @@
+{
+  "generated_utc": "2026-08-28T12:29:08Z",
+  "script": "run_step10b_p3_knhanes_audit.py",
+  "frozen_input": "analysis/disease_agnostic_environmental_framework/step04_testset_freeze/unique_biomarker_test_set.csv",
+  "frozen_test_count": 29,
+  "outcome_free": true,
+  "association_models_run": false,
+  "published_effect_estimates_imported": false,
+  "microdata_downloaded": false,
+  "user_registration_attempted": false,
+  "official_catalog_api": "https://knhanes.kdca.go.kr/knhanes/rawDataDwnld/findRawdtaList.json",
+  "outputs": [
+    {
+      "path": "PLAN.md",
+      "bytes": 2726,
+      "sha256": "2b6121298928622abf9b358676b26231224a89ca618a8248800d88de90258a94"
+    },
+    {
+      "path": "run_step10b_p3_knhanes_audit.py",
+      "bytes": 29054,
+      "sha256": "386dbb9fc1fe6539259d56eebe928fba89e6b477d59b6029b21124960bd033f1"
+    },
+    {
+      "path": "knhanes_29_test_crosswalk.csv",
+      "bytes": 10159,
+      "sha256": "d0e1a4a92cc5e1574f8dc8080d23d42992c9fae165ad20084bf33148ad237c7c"
+    },
+    {
+      "path": "knhanes_year_readiness.csv",
+      "bytes": 54604,
+      "sha256": "fa060f6685ddeacd9cdb8c2d95bda9a78e35bfb0ec87be4982ce3d44ced7b60e"
+    },
+    {
+      "path": "knhanes_outcome_covariate_design_audit.csv",
+      "bytes": 6037,
+      "sha256": "16c9d7446b489319314f492ca41afe238e288cdd20db7cf2b924c86b8b76828d"
+    },
+    {
+      "path": "knhanes_raw_data_catalog.csv",
+      "bytes": 8353,
+      "sha256": "169a212ad5bc62929ace95fce7e685013cee7ceb29867aa8dc1fccb21c7f79eb"
+    },
+    {
+      "path": "KNHANES_ACCESS_PROBE.json",
+      "bytes": 571,
+      "sha256": "fc62d8879434c548bc9e6fbcd3a04c79bc050ef5edae17678328733e4806199e"
+    },
+    {
+      "path": "KNHANES_SOURCE_SNAPSHOT.json",
+      "bytes": 3482,
+      "sha256": "09a214c030d747646ed792f758510063c0e6b3a03713ba3f94b6955b4e980332"
+    },
+    {
+      "path": "KNHANES_QC_SUMMARY.json",
+      "bytes": 1539,
+      "sha256": "ead240ddb7c18822206f7794555768f61332b320f63aaa6841606c597c37dad1"
+    },
+    {
+      "path": "STEP10B_P3_KNHANES_AUDIT_REPORT.md",
+      "bytes": 3798,
+      "sha256": "598da6e8cd53837694e6e8289f484800e9427ae03f0260bd74a67469a6247d06"
+    }
+  ]
+}

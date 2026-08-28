@@ -1,0 +1,29 @@
+{
+  "generated_utc": "2026-08-28T12:29:08Z",
+  "status": "catalog_access_confirmed_exact_29_test_crosswalk_not_confirmed",
+  "decision": "not_currently_actionable_for_frozen_29_exact_replication",
+  "outcome_free_crosswalk": true,
+  "association_models_run": false,
+  "published_effect_estimates_imported": false,
+  "microdata_downloaded": false,
+  "user_registration_attempted": false,
+  "frozen_test_count_expected": 29,
+  "frozen_test_count_observed": 29,
+  "exact_public_match_count": 0,
+  "family_public_matrix_mismatch_count": 2,
+  "not_confirmed_public_count": 27,
+  "exact_match_fraction": 0.0,
+  "raw_catalog_record_count": 105,
+  "raw_catalog_api_status": "success",
+  "raw_catalog_total_count": 105,
+  "raw_catalog_page_count": 11,
+  "diabetes_outcome_feasibility": "documented_by_official_scope_and_published_precedent_exact_t2d_coding_pending",
+  "survey_design_feasibility": "documented_by_published_precedent_exact_weight_strata_psu_names_pending",
+  "access_status": "public_registration_path_confirmed_file_download_not_completed",
+  "limitations": [
+    "The two related metal precedents are blood-matrix evidence and do not satisfy frozen urine tests.",
+    "No exact frozen biomarker/matrix match was confirmed in the audited KNHANES sources.",
+    "The raw-data catalogue is accessible as metadata, but the file download requires the official user-information/consent workflow.",
+    "A published diabetes analysis is feasibility precedent, not this project's external replication."
+  ]
+}

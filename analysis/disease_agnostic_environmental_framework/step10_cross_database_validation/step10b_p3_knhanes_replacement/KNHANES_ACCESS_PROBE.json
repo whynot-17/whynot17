@@ -1,0 +1,13 @@
+{
+  "catalog_api_url": "https://knhanes.kdca.go.kr/knhanes/rawDataDwnld/findRawdtaList.json",
+  "raw_page_url": "https://knhanes.kdca.go.kr/knhanes/rawDataDwnld/rawDataDwnld.do",
+  "official_portal_url": "https://www.data.go.kr/tcs/dss/selectFileDataDetailView.do?publicDataPk=15076556",
+  "api_method": "POST",
+  "metadata_only": true,
+  "microdata_downloaded": false,
+  "user_registration_attempted": false,
+  "file_download_status": "registration_required_and_not_completed_in_audit",
+  "api_status": "success",
+  "total_count": 105,
+  "page_count": 11
+}

@@ -1,0 +1,80 @@
+{
+  "retrieved_utc": "2026-08-28T12:29:08Z",
+  "sources": {
+    "KDCA_OFFICIAL_EN": {
+      "title": "KDCA National Health and Nutrition Survey overview",
+      "url": "https://knhanes.kdca.go.kr/knhanes/eng/main.do",
+      "source_type": "official_program_page",
+      "method": "GET",
+      "retrieval_status": "ok",
+      "http_status": 200,
+      "content_bytes_captured": 34957,
+      "sha256_captured": "17b9d6fc0508ab44d186554a54a8d9b1bce57f6be33d5e65d9c15da7f29f5d3b",
+      "content_type": "text/html;charset=UTF-8"
+    },
+    "KDCA_OFFICIAL_KO": {
+      "title": "KNHANES official portal",
+      "url": "https://knhanes.kdca.go.kr/knhanes/main.do",
+      "source_type": "official_data_portal",
+      "method": "GET",
+      "retrieval_status": "ok",
+      "http_status": 200,
+      "content_bytes_captured": 58233,
+      "sha256_captured": "5d6175d589243bbb3362783b6cc5665330df8d99dd551758e776ba95cbe95230",
+      "content_type": "text/html;charset=UTF-8"
+    },
+    "RAW_DATA_CATALOGUE": {
+      "title": "KNHANES raw-data catalogue page",
+      "url": "https://knhanes.kdca.go.kr/knhanes/rawDataDwnld/rawDataDwnld.do",
+      "source_type": "official_raw_data_catalogue",
+      "method": "GET",
+      "retrieval_status": "ok",
+      "http_status": 200,
+      "content_bytes_captured": 67,
+      "sha256_captured": "3e2ca4ee713169a1e6b5f99352b6a60a99a4e422ea632dcaf9edce3e84db9011",
+      "content_type": "application/json;charset=UTF-8"
+    },
+    "DATA_GO_KR": {
+      "title": "KDCA raw-data user guide record on Korea public data portal",
+      "url": "https://www.data.go.kr/tcs/dss/selectFileDataDetailView.do?publicDataPk=15076556",
+      "source_type": "official_public_data_record",
+      "method": "GET",
+      "retrieval_status": "ok",
+      "http_status": 200,
+      "content_bytes_captured": 166945,
+      "sha256_captured": "5dbf1ad64e1a8c6f76f9ef665b3d7fa1a6255fcda4a83cf83be26e1d68e454e0",
+      "content_type": "text/html;charset=UTF-8"
+    },
+    "ARSENIC_DIABETES": {
+      "title": "KNHANES 2008–2009 urinary arsenic and diabetes feasibility precedent",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3678002/",
+      "source_type": "peer_reviewed_feasibility_precedent",
+      "method": "GET",
+      "retrieval_status": "ok",
+      "http_status": 200,
+      "content_bytes_captured": 162408,
+      "sha256_captured": "a26da6e3fbd3d617fc61a15498249e88dceb758bd789fb54ec4bf91712b68b6f",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "BLOOD_METALS": {
+      "title": "KNHANES blood lead, cadmium and mercury exposure precedent",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5743444/",
+      "source_type": "peer_reviewed_exposure_precedent",
+      "method": "GET",
+      "retrieval_status": "ok",
+      "http_status": 200,
+      "content_bytes_captured": 272986,
+      "sha256_captured": "89909d9f4c4c433c108008a5037820f61e30cebc6d3723977e379f9c207e8094",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "DIABETES_TRENDS": {
+      "title": "KNHANES diabetes definition and trend precedent",
+      "url": "https://diabetesjournals.org/care/article/32/11/2016/25967/Prevalence-and-Management-of-Diabetes-in-Korean",
+      "source_type": "peer_reviewed_outcome_precedent",
+      "method": "GET",
+      "retrieval_status": "failed_best_effort",
+      "error_type": "HTTPError",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  }
+}
