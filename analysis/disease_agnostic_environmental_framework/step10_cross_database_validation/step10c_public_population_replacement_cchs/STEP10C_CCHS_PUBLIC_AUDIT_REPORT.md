@@ -20,7 +20,7 @@ This is a source-native exposure demonstration, not an exact replication of the 
 - Master and bootstrap row counts match: **True**
 - The official bootstrap layout card contains `BSW1–BSW1000`.
 - Person-level survey weight: `WTS_M`
-- Variance plan: use the package bootstrap replicate weights; the replicate scaling/multiplier must be confirmed from the CCHS 2022 user guide before modeling.
+- Variance plan: use the package bootstrap replicate weights with empirical variance `1/(B-1) * sum((beta_b - mean(beta_b))^2)`; the CCHS guide recommends bootstrap weights for exact regression precision, and no CCHS-specific Fay multiplier is applied.
 
 ## Variable feasibility
 

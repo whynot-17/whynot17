@@ -16,7 +16,7 @@ Identify a population-replacement demonstration that uses only an individual-lev
 
 `SMKDVSTY` current smoking status → `CCC_80` self-reported high blood pressure among adults (`DHHGAGE` groups 2–5).
 
-Core covariates: sex, adult BMI classification, education, household income. Survey weight: `WTS_M`; variance: package bootstrap replicates `BSW1–BSW1000`, with scaling to be confirmed before modeling.
+Core covariates: sex, adult BMI classification, education, household income. Survey weight: `WTS_M`; variance: package bootstrap replicates `BSW1–BSW1000`, with empirical replicate variance `1/(B-1) * sum((beta_b - mean(beta_b))^2)` and no CCHS-specific Fay multiplier.
 
 ## Explicit non-goals
 

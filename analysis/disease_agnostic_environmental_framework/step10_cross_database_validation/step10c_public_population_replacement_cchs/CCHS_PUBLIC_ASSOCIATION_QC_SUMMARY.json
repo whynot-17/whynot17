@@ -1,0 +1,17 @@
+{
+  "analysis_id": "CCHS2022_CURRENT_SMOKING_HYPERTENSION_PRIMARY",
+  "master_rows": 67079,
+  "master_bad_width_rows": 0,
+  "bootstrap_rows": 67079,
+  "bootstrap_bad_width_rows": 0,
+  "analytic_n": 55186,
+  "unweighted_cases": 14955,
+  "unweighted_exposed": 5905,
+  "point_fit_converged": true,
+  "bootstrap_requested": 1000,
+  "bootstrap_converged": 1000,
+  "bootstrap_failed": 0,
+  "bootstrap_se_ddof": 1,
+  "archive_sha256": "a116a01fb35cc3204a8b14e36dda70cf6722e75380f88b6d822e492765ac8c41",
+  "association_was_used_for_selection": false
+}

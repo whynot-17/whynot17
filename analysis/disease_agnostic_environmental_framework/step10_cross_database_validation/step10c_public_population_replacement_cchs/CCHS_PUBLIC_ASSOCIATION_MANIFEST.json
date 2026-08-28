@@ -1,0 +1,16 @@
+{
+  "analysis_id": "CCHS2022_CURRENT_SMOKING_HYPERTENSION_PRIMARY",
+  "status": "complete_frozen_demonstration",
+  "files": [
+    "run_cchs_public_association.py",
+    "cchs_2022_smoking_hypertension_primary_result.csv",
+    "cchs_2022_smoking_hypertension_bootstrap_estimates.csv",
+    "CCHS_PUBLIC_ASSOCIATION_QC_SUMMARY.json",
+    "CCHS_PUBLIC_ASSOCIATION_MANIFEST.json",
+    "STEP10C_CCHS_PUBLIC_ASSOCIATION_REPORT.md"
+  ],
+  "raw_archive_excluded_from_git": true,
+  "archive_sha256": "a116a01fb35cc3204a8b14e36dda70cf6722e75380f88b6d822e492765ac8c41",
+  "candidate_freeze_source": "CCHS_PUBLIC_AUDIT_QC_SUMMARY.json",
+  "association_was_used_for_selection": false
+}

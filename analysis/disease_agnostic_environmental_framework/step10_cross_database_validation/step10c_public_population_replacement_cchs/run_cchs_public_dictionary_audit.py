@@ -244,7 +244,7 @@ def main() -> None:
         "adult_definition": "DHHGAGE in {2,3,4,5}, corresponding to 18 years and older",
         "core_covariates": CORE,
         "survey_weight": "WTS_M",
-        "variance_method": "1000 bootstrap replicate weights BSW1-BSW1000 from bsw.txt; final scaling/multiplier to be confirmed against the 2022 user guide before association modeling",
+        "variance_method": "1000 bootstrap replicate weights BSW1-BSW1000 from bsw.txt; empirical replicate variance uses 1/(B-1) sum of squared deviations around the replicate mean; no CCHS Fay multiplier is applied",
         "direct_download_confirmed": True,
         "registration_or_application_required_for_package": False,
         "individual_microdata": True,
@@ -327,7 +327,7 @@ This is a source-native exposure demonstration, not an exact replication of the 
 - Master and bootstrap row counts match: **{data_n == bsw_n}**
 - The official bootstrap layout card contains `BSW1–BSW1000`.
 - Person-level survey weight: `WTS_M`
-- Variance plan: use the package bootstrap replicate weights; the replicate scaling/multiplier must be confirmed from the CCHS 2022 user guide before modeling.
+- Variance plan: use the package bootstrap replicate weights with empirical variance `1/(B-1) * sum((beta_b - mean(beta_b))^2)`; the CCHS guide recommends bootstrap weights for exact regression precision, and no CCHS-specific Fay multiplier is applied.
 
 ## Variable feasibility
 
