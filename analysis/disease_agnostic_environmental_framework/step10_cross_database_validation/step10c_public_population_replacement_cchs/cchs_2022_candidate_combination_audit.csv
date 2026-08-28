@@ -1,0 +1,5 @@
+candidate_id,exposure_variable,outcome_variable,adult_definition,adults_n,exposure_valid_n,outcome_valid_n,joint_exposure_outcome_valid_n,outcome_positive_n_for_feasibility_only,complete_core_n,exposure_positive_definition,selection_used_association_results,association_models_run
+cchs_2022_current_smoking_to_hypertension,SMKDVSTY,CCC_80,"DHHGAGE in {2,3,4,5} (18 years and older)",63318,61256,62827,60792,16431,55186,"SMKDVSTY in {01,02}",False,False
+cchs_2022_current_smoking_to_diabetes,SMKDVSTY,CCC_05,"DHHGAGE in {2,3,4,5} (18 years and older)",63318,61256,62498,60471,5759,54907,"SMKDVSTY in {01,02}",False,False
+cchs_2022_alcohol_to_hypertension,ALC_10,CCC_80,"DHHGAGE in {2,3,4,5} (18 years and older)",63318,59138,62827,58696,15964,53336,valid source code set,False,False
+cchs_2022_physical_activity_to_hypertension,PAADVWHO,CCC_80,"DHHGAGE in {2,3,4,5} (18 years and older)",63318,1792,62827,1785,388,1623,valid source code set,False,False

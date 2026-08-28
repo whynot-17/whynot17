@@ -1,0 +1,74 @@
+{
+  "audit_id": "STEP10C_CCHS_PUBLIC_DICTIONARY_AUDIT",
+  "status": "complete_feasibility_freeze_no_association",
+  "dataset": "CCHS 2022 PUMF TXT package",
+  "archive_path": "D:\\whynot17\\public_sources\\cchs_2022\\2022_TXT.zip",
+  "download_url": "https://www150.statcan.gc.ca/n1/pub/82m0013x/2024001/2022_TXT.zip",
+  "official_pumf_page": "https://www150.statcan.gc.ca/n1/pub/82m0013x/82m0013x2024001-eng.htm",
+  "questionnaire_url": "https://www23.statcan.gc.ca/imdb/p3Instr.pl?Function=assembleInstr&Item_Id=1390243&lang=en",
+  "methodology_url": "https://www.statcan.gc.ca/en/statistical-programs/document/3226_D56_T9_V1",
+  "archive_sha256": "a116a01fb35cc3204a8b14e36dda70cf6722e75380f88b6d822e492765ac8c41",
+  "data_member": "TXT/Data_Données/PUMF_MASTER_CCHS.txt",
+  "data_rows": 67079,
+  "data_record_width": 385,
+  "data_bad_width_rows": 0,
+  "bootstrap_member": "TXT/Data_Données/bsw.txt",
+  "bootstrap_rows": 67079,
+  "bootstrap_record_width": 8029,
+  "bootstrap_bad_width_rows": 0,
+  "bootstrap_layout_confirms_1000_replicates": true,
+  "bootstrap_data_rows_match_master": true,
+  "selected_member_hashes": [
+    {
+      "member": "TXT/Data_Données/Layout_Cards/SPSS/PUMF_MASTER_cchs_i.sps",
+      "sha256": "786b3a14d86f6899d6510696cfae60e875670c51175bd554cef15303724b4efc"
+    },
+    {
+      "member": "TXT/Data_Données/Layout_Cards/SPSS/PUMF_MASTER_cchs_vare.sps",
+      "sha256": "e753653ef5e0ae6c5799f44b420d46fad3e108dc54ef887810c710fd28543c03"
+    },
+    {
+      "member": "TXT/Data_Données/Layout_Cards/SPSS/PUMF_MASTER_cchs_vale.sps",
+      "sha256": "a26a5bf66466761ebaecd1f7a412ef05a779dd14b60211676514c3fc80556209"
+    },
+    {
+      "member": "TXT/Data_Données/Layout_Cards/SPSS/PUMF_MASTER_cchs_miss.sps",
+      "sha256": "5238370447ce537c9ba3f4c2ff0d26d1695e5bbc6a28a4c5897fa01dd4e3ef64"
+    },
+    {
+      "member": "TXT/Data_Données/Layout_Cards/bsw_i.sas",
+      "sha256": "9f9b2298c0b828902d42571a8ed7fac724da15ae0483ae9d31b908feb2f3993c"
+    }
+  ],
+  "public_pumf_has_secondhand_smoke_label_hit": false,
+  "primary_freeze": {
+    "freeze_status": "primary_feasibility_freeze",
+    "candidate_id": "cchs_2022_current_smoking_to_hypertension",
+    "exposure_family": "tobacco smoke exposure represented by current smoking status",
+    "exposure_variable": "SMKDVSTY",
+    "exposure_definition": "current daily or occasional smoker (01/02) versus not currently smoking (03-06); codes 96-99 treated as missing",
+    "outcome": "self-reported high blood pressure/hypertension",
+    "outcome_variable": "CCC_80",
+    "outcome_definition": "yes (1) versus no (2); codes 6-9 treated as missing",
+    "adult_definition": "DHHGAGE in {2,3,4,5}, corresponding to 18 years and older",
+    "core_covariates": [
+      "DHH_SEX",
+      "HWTDGBCC",
+      "EDDVH3",
+      "INCDGHH"
+    ],
+    "survey_weight": "WTS_M",
+    "variance_method": "1000 bootstrap replicate weights BSW1-BSW1000 from bsw.txt; final scaling/multiplier to be confirmed against the 2022 user guide before association modeling",
+    "direct_download_confirmed": true,
+    "registration_or_application_required_for_package": false,
+    "individual_microdata": true,
+    "exact_29_frozen_biomarker_replication": false,
+    "association_models_run": false,
+    "selection_used_exposure_outcome_association": false,
+    "selection_basis": "exact public variables, broad adult coverage, valid outcome support, complete core-variable coverage, and directly available survey weight/replicates only",
+    "secondhand_smoke_status": "not frozen: official questionnaire concept exists, but no corresponding second-hand-smoke variable was found in the public PUMF English label card; do not infer an exact PUMF exposure"
+  },
+  "candidate_count_audited": 4,
+  "association_models_run": false,
+  "outcome_firewall": "No exposure-outcome regression, P value, effect estimate, or FDR was used for candidate selection."
+}

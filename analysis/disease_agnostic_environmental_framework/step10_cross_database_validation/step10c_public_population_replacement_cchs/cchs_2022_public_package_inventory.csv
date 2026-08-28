@@ -1,0 +1,45 @@
+member,compressed_bytes,uncompressed_bytes,is_raw_data,version_control_policy
+TXT/,0,0,False,inventory_only
+TXT/Documentation/,0,0,False,inventory_only
+TXT/Documentation/CCHS 2022 PUMF Complement User Guide.pdf,200183,240317,False,inventory_only
+TXT/Documentation/CCHS_2022_DataDictionary_Freqs.pdf,1248335,1868384,False,inventory_only
+TXT/Documentation/CCHS_2022_Income_Master File.pdf,385064,389291,False,inventory_only
+TXT/Documentation/CCHS_2022_PUMF_Grouped_Variables.pdf,316929,349879,False,inventory_only
+TXT/Documentation/CCHS_2022_User_Guide.pdf,897383,1062206,False,inventory_only
+TXT/Documentation/ESCC 2022 FMGD Complément au guide utilisateur.pdf,208760,266182,False,inventory_only
+TXT/Documentation/ESCC_2022_DictionnaireDonnées_Fréq.pdf,1263751,1884767,False,inventory_only
+TXT/Documentation/ESCC_2022_FMGD_Variables_groupées.pdf,401963,438438,False,inventory_only
+TXT/Documentation/ESCC_2022_Guide_Utilisateur.pdf,1219621,1638304,False,inventory_only
+TXT/Documentation/ESCC_2022_Revenu_Fichier Maître.pdf,384284,388619,False,inventory_only
+TXT/Documentation/CCHS_2022_CV_Tables_PUMF.pdf,1910185,2526281,False,inventory_only
+TXT/Documentation/ESCC_2022_Tableaux_CV_FMGD.pdf,2632212,3229310,False,inventory_only
+TXT/Data_Données/,0,0,False,inventory_only
+TXT/Data_Données/PUMF_MASTER_CCHS.txt,3039383,25959573,True,exclude_raw_archive
+TXT/Data_Données/bsw.txt,179106409,538711449,True,exclude_raw_archive
+TXT/Data_Données/Layout_Cards/,0,0,False,inventory_only
+TXT/Data_Données/Layout_Cards/bsw_i.sas,106,132,False,inventory_only
+TXT/Data_Données/Layout_Cards/bsw_i.sps,98,228,False,inventory_only
+TXT/Data_Données/Layout_Cards/SPSS/,0,0,False,inventory_only
+TXT/Data_Données/Layout_Cards/SPSS/PUMF_MASTER_cchs_i.sps,2340,14171,False,inventory_only
+TXT/Data_Données/Layout_Cards/SPSS/PUMF_MASTER_cchs_miss.sps,1099,13155,False,inventory_only
+TXT/Data_Données/Layout_Cards/SPSS/PUMF_MASTER_cchs_vare.sps,4468,17164,False,inventory_only
+TXT/Data_Données/Layout_Cards/SPSS/PUMF_MASTER_cchs_varf.sps,4829,18408,False,inventory_only
+TXT/Data_Données/Layout_Cards/SPSS/PUMF_MASTER_cchs_vale.sps,5416,31800,False,inventory_only
+TXT/Data_Données/Layout_Cards/SPSS/PUMF_MASTER_cchs_valf.sps,5682,33198,False,inventory_only
+TXT/Data_Données/Layout_Cards/STATA/,0,0,False,inventory_only
+TXT/Data_Données/Layout_Cards/STATA/PUMF_MASTER_cchs.dct,2182,7799,False,inventory_only
+TXT/Data_Données/Layout_Cards/STATA/PUMF_MASTER_cchs_infmt.do,955,5860,False,inventory_only
+TXT/Data_Données/Layout_Cards/STATA/PUMF_MASTER_cchs_lbe.do,4457,18667,False,inventory_only
+TXT/Data_Données/Layout_Cards/STATA/PUMF_MASTER_cchs_lbf.do,4807,19911,False,inventory_only
+TXT/Data_Données/Layout_Cards/STATA/PUMF_MASTER_cchs_fmt.do,1260,9004,False,inventory_only
+TXT/Data_Données/Layout_Cards/STATA/PUMF_MASTER_cchs_vale.do,5445,53153,False,inventory_only
+TXT/Data_Données/Layout_Cards/STATA/PUMF_MASTER_cchs_valf.do,5744,56389,False,inventory_only
+TXT/Data_Données/Layout_Cards/SAS/,0,0,False,inventory_only
+TXT/Data_Données/Layout_Cards/SAS/PUMF_MASTER_cchs_i.SAS,3308,21991,False,inventory_only
+TXT/Data_Données/Layout_Cards/SAS/PUMF_MASTER_cchs_o.SAS,3302,21987,False,inventory_only
+TXT/Data_Données/Layout_Cards/SAS/PUMF_MASTER_cchs_frq.SAS,3302,21991,False,inventory_only
+TXT/Data_Données/Layout_Cards/SAS/PUMF_MASTER_cchs_lbe.SAS,4462,17154,False,inventory_only
+TXT/Data_Données/Layout_Cards/SAS/PUMF_MASTER_cchs_lbf.SAS,4816,18398,False,inventory_only
+TXT/Data_Données/Layout_Cards/SAS/PUMF_MASTER_cchs_fmt.SAS,1240,10055,False,inventory_only
+TXT/Data_Données/Layout_Cards/SAS/PUMF_MASTER_cchs_pfe.SAS,4627,31858,False,inventory_only
+TXT/Data_Données/Layout_Cards/SAS/PUMF_MASTER_cchs_pff.SAS,4899,33256,False,inventory_only

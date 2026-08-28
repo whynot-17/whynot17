@@ -1,0 +1,43 @@
+{
+  "audit_id": "STEP10C_CCHS_PUBLIC_DICTIONARY_AUDIT",
+  "status": "complete_feasibility_freeze_no_association",
+  "files": [
+    "PLAN_CCHS_PUBLIC_AUDIT.md",
+    "run_cchs_public_dictionary_audit.py",
+    "cchs_2022_public_package_inventory.csv",
+    "cchs_2022_variable_dictionary_audit.csv",
+    "cchs_2022_candidate_combination_audit.csv",
+    "CCHS_PUBLIC_AUDIT_QC_SUMMARY.json",
+    "STEP10C_CCHS_PUBLIC_AUDIT_REPORT.md",
+    "CCHS_PUBLIC_AUDIT_MANIFEST.json"
+  ],
+  "raw_archive_excluded_from_git": true,
+  "archive_sha256": "a116a01fb35cc3204a8b14e36dda70cf6722e75380f88b6d822e492765ac8c41",
+  "primary_candidate": {
+    "freeze_status": "primary_feasibility_freeze",
+    "candidate_id": "cchs_2022_current_smoking_to_hypertension",
+    "exposure_family": "tobacco smoke exposure represented by current smoking status",
+    "exposure_variable": "SMKDVSTY",
+    "exposure_definition": "current daily or occasional smoker (01/02) versus not currently smoking (03-06); codes 96-99 treated as missing",
+    "outcome": "self-reported high blood pressure/hypertension",
+    "outcome_variable": "CCC_80",
+    "outcome_definition": "yes (1) versus no (2); codes 6-9 treated as missing",
+    "adult_definition": "DHHGAGE in {2,3,4,5}, corresponding to 18 years and older",
+    "core_covariates": [
+      "DHH_SEX",
+      "HWTDGBCC",
+      "EDDVH3",
+      "INCDGHH"
+    ],
+    "survey_weight": "WTS_M",
+    "variance_method": "1000 bootstrap replicate weights BSW1-BSW1000 from bsw.txt; final scaling/multiplier to be confirmed against the 2022 user guide before association modeling",
+    "direct_download_confirmed": true,
+    "registration_or_application_required_for_package": false,
+    "individual_microdata": true,
+    "exact_29_frozen_biomarker_replication": false,
+    "association_models_run": false,
+    "selection_used_exposure_outcome_association": false,
+    "selection_basis": "exact public variables, broad adult coverage, valid outcome support, complete core-variable coverage, and directly available survey weight/replicates only",
+    "secondhand_smoke_status": "not frozen: official questionnaire concept exists, but no corresponding second-hand-smoke variable was found in the public PUMF English label card; do not infer an exact PUMF exposure"
+  }
+}
