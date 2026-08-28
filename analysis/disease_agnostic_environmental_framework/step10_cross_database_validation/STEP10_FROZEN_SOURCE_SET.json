@@ -1,0 +1,50 @@
+{
+  "lock_type": "STEP10A_SOURCE_REPLACEMENT_SET",
+  "generated_utc": "2026-08-28T08:30:39.334764+00:00",
+  "selection_rule": "source feasibility and evidence semantics only; no MCOP, T2D, CRC, candidate rank, association result, or pathway result inspected",
+  "primary_environmental_replacements": [
+    "E1",
+    "E2",
+    "E3"
+  ],
+  "primary_disease_replacements": [
+    "D1",
+    "D2"
+  ],
+  "primary_epidemiologic_replacements": [],
+  "conditional_environmental_sources": [
+    "E4",
+    "E5",
+    "E6"
+  ],
+  "conditional_disease_sources": [
+    "D3",
+    "D4",
+    "D5"
+  ],
+  "conditional_epidemiologic_sources": [
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+  ],
+  "reference_only_sources": [
+    "P0"
+  ],
+  "supplementary_only_sources": [
+    "C1"
+  ],
+  "why_no_primary_epidemiology_source": "No candidate-independent Step 10A audit established the joint availability of a harmonizable exposure, T2D outcome, core covariates, design weights, and usable individual-level access. Conditional sources remain queued.",
+  "entity_resolution_rules": {
+    "chemical": "Prefer stable structure/CAS/PubChem/DTXSID/ChEMBL/BindingDB crosswalks; retain unresolved and ambiguous records explicitly.",
+    "gene": "Resolve to stable human GeneID/Ensembl/UniProt with a versioned mapping table; do not merge source-specific evidence before resolution.",
+    "disease": "Use source-native ontology identifiers and a frozen T2D concept mapping; retain direct versus descendant trait matches separately.",
+    "participant": "Require source-native participant ID, exposure, outcome, core covariates, and design variables in the same approved extract."
+  },
+  "success_criteria": {
+    "environmental": "At least two primary replacement sources yield versioned, human-compatible, entity-resolved records on the same chemical unit; report coverage, overlap, rank/edge concordance, and missingness.",
+    "disease": "Both primary disease replacements yield a predeclared T2D gene set with versioned ontology mapping and source-specific evidence fields.",
+    "epidemiology": "A source is promoted from conditional only after exposure, T2D outcome, core covariates, design variables, access, and chemical harmonization are verified without inspecting association results.",
+    "overall": "No candidate is promoted or demoted from the frozen set solely because a replacement source agrees or disagrees with an observed association."
+  }
+}

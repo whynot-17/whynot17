@@ -1,0 +1,23 @@
+{
+  "lock_type": "STEP10A_SOURCE_REGISTRY_MANIFEST",
+  "generated_utc": "2026-08-28T08:30:39.334764+00:00",
+  "registry_rows": 17,
+  "by_layer": {
+    "disease": 5,
+    "disease_context": 1,
+    "environmental": 6,
+    "epidemiology": 5
+  },
+  "by_status": {
+    "conditional": 10,
+    "pass": 5,
+    "reference_only": 1,
+    "supplementary_only": 1
+  },
+  "outcome_information_used_for_source_selection": false,
+  "candidate_results_loaded": false,
+  "outputs": {
+    "STEP10_SOURCE_REPLACEMENT_REGISTRY.csv": "1ea77f34a6649be49743f8e70dc4c46d1b9b656e0de7774ca4424b1940156678",
+    "STEP10_FROZEN_SOURCE_SET.json": "0150216b271607c5e565deb6efffdb69d5ca2dbc456ec2ed7b7062d402f81712"
+  }
+}
