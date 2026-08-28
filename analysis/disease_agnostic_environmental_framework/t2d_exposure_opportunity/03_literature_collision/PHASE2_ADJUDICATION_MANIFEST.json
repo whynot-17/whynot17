@@ -1,0 +1,54 @@
+{
+  "material_id": "T2D-EXPOSURE-OPPORTUNITY-PHASE2-ADJUDICATION",
+  "script_version": "phase2_candidate_adjudication_v1.0",
+  "status": "complete_first_pass_candidate_adjudication_provisional_top5",
+  "audit_date_utc": "2026-08-28T04:51:05.220235+00:00",
+  "input": {
+    "phase1_candidate_path": "analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\01_candidate_master\\unique_candidate_chemicals.csv",
+    "phase1_candidate_sha256": "1d63252e6a21cbeaf646c110e14d8b1584b2face2c2506337f96c6da353985c4",
+    "literature_counts_path": "analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\03_literature_collision\\literature_counts.csv",
+    "literature_counts_sha256": "6f2ce6233c608a9fa2b705cc3b48c0dd78d032fbc0378b47e7e149093afcbe90",
+    "top_pubmed_records_path": "analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\03_literature_collision\\top_pubmed_records.csv",
+    "top_pubmed_records_sha256": "bedd8fe12dd76ef28d6928cc223be31e93157404f8d3e42549b59530cb23f6f0"
+  },
+  "candidate_chemical_count": 15,
+  "search_group_count": 14,
+  "provisional_top5_group_count": 5,
+  "provisional_top5_search_groups": [
+    "mcop",
+    "dinp_parent",
+    "mecpp",
+    "tin",
+    "mibp"
+  ],
+  "provisional_top5_chemical_ids": [
+    "C573544",
+    "C012125;C019174",
+    "C051450",
+    "D014001",
+    "C575690"
+  ],
+  "outputs": {
+    "analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\03_literature_collision\\candidate_evidence_adjudication.csv": {
+      "sha256": "2cb4a26eb0be4ffeb7069ab096c9420b4575ae89b8d117086fee4176e538e55c",
+      "bytes": 13452
+    },
+    "analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\03_literature_collision\\PHASE2_PROVISIONAL_TOP5_OPPORTUNITIES.csv": {
+      "sha256": "8949b4b979e5350796e64d95ee62dbe1140f06d49a9b3235ddd245856a77bc64",
+      "bytes": 2921
+    },
+    "analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\03_literature_collision\\PHASE2_CANDIDATE_ADJUDICATION_REPORT.md": {
+      "sha256": "28b4993f8e62be769771f65bdd2a89f1aa8cd217781dec3fa5d74e0e47b15a9d",
+      "bytes": 3968
+    }
+  },
+  "not_performed": [
+    "full_text_systematic_review",
+    "formal_eligible_study_count",
+    "causal_inference",
+    "docking",
+    "new_target_discovery",
+    "experimental_feasibility"
+  ],
+  "manual_adjudication_dictionary_version": "embedded_in_script_v1.0"
+}
