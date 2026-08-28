@@ -1,0 +1,61 @@
+{
+  "retrieved_utc": "2026-08-28T11:51:55Z",
+  "sources": {
+    "K4_EXPOSURE_STATUS": {
+      "title": "KoNEHS cycle 4 environmental chemical exposure status (2018–2020)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11597996/",
+      "source_type": "peer_reviewed_primary_overview",
+      "retrieval_status": "ok",
+      "http_status": 200,
+      "content_bytes_captured": 354746,
+      "sha256_captured": "99d001692ab88c98a3083d09e371249e1c8519fc910da8be397095521f55cd56",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "K4_PHTHALATE_DIABETES": {
+      "title": "KoNEHS cycle 4 phthalate metabolites and diabetes analysis",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S143846392400066X",
+      "source_type": "peer_reviewed_feasibility_precedent",
+      "retrieval_status": "failed_best_effort",
+      "error_type": "HTTPError",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "K2_PAH_DIABETES": {
+      "title": "KoNEHS cycle 2 urinary PAHs and diabetes analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7602886/",
+      "source_type": "peer_reviewed_feasibility_precedent",
+      "retrieval_status": "ok",
+      "http_status": 200,
+      "content_bytes_captured": 221685,
+      "sha256_captured": "ca26c908c9f8da4ea460c3734b615da6f40aad5de9786df5ec7c7978c78c9f69",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "K3_MCOP": {
+      "title": "KoNEHS cycle 3 urinary phthalate metabolite measurement",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10011409/",
+      "source_type": "peer_reviewed_exposure_precedent",
+      "retrieval_status": "ok",
+      "http_status": 200,
+      "content_bytes_captured": 336902,
+      "sha256_captured": "049c0cf9fc6a61c8168f43661d44b19b9da5a9491ddc6a9a588e726a696f8ffe",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "NIER_OFFICIAL": {
+      "title": "National Institute of Environmental Research environmental health research division",
+      "url": "https://www.nier.go.kr/front/kor/cmm/nier_res04.do?menuNo=12004",
+      "source_type": "official_program_page",
+      "retrieval_status": "ok",
+      "http_status": 200,
+      "content_bytes_captured": 216429,
+      "sha256_captured": "f6427993e27024a10792c2447d5794a4f0f4f667dd9f2ea3ee3a6380869e9b3f",
+      "content_type": "text/html;charset=UTF-8"
+    },
+    "DATA_ACCESS_NOTE": {
+      "title": "KoNEHS PFAS–diabetes paper data-availability statement",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S143846392400066X",
+      "source_type": "data_access_statement",
+      "retrieval_status": "failed_best_effort",
+      "error_type": "HTTPError",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "generated_utc": "2026-08-28T11:51:55Z",
+  "status": "analysis_feasible_by_precedent_but_access_controlled",
+  "association_models_run": false,
+  "published_effect_estimates_imported": false,
+  "outcome_free_crosswalk": true,
+  "frozen_test_count_expected": 29,
+  "frozen_test_count_observed": 29,
+  "crosswalk_rows": 29,
+  "cycle_rows": 116,
+  "outcome_covariate_design_rows": 16,
+  "public_exact_match_count": 12,
+  "public_family_match_count": 5,
+  "public_content_match_count": 17,
+  "public_content_match_fraction": 0.586207,
+  "cycle_rows_with_public_exposure_evidence": 17,
+  "exact_variable_confirmed_count": 0,
+  "same_person_joint_exposure_t2d_confirmed_count": 0,
+  "weight_and_design_variable_confirmed_count": 0,
+  "controlled_data_boundary": true,
+  "decision": "high_priority_conditional_not_access_confirmed",
+  "limitations": [
+    "Public papers/overviews support a feasibility floor, not exact variable-level coverage.",
+    "Published diabetes definitions are not automatically equivalent to reproducible T2D coding.",
+    "Exact survey weight/stratum/PSU names require the current data dictionary or authorized extract.",
+    "No KoNEHS association results were run or adopted in this audit."
+  ]
+}

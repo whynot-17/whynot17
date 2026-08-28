@@ -1,0 +1,59 @@
+{
+  "generated_utc": "2026-08-28T11:51:55Z",
+  "script": "run_step10b_p_konehs_audit.py",
+  "frozen_input": "analysis/disease_agnostic_environmental_framework/step04_testset_freeze/unique_biomarker_test_set.csv",
+  "frozen_test_count": 29,
+  "models_run": false,
+  "published_effect_estimates_imported": false,
+  "controlled_microdata_downloaded": false,
+  "source_ids": [
+    "K4_EXPOSURE_STATUS",
+    "K4_PHTHALATE_DIABETES",
+    "K2_PAH_DIABETES",
+    "K3_MCOP",
+    "NIER_OFFICIAL",
+    "DATA_ACCESS_NOTE"
+  ],
+  "outputs": [
+    {
+      "path": "PLAN.md",
+      "bytes": 2636,
+      "sha256": "5e3e53575989ac485adac20014537de3546b880a86a11a9a1623f63376173381"
+    },
+    {
+      "path": "run_step10b_p_konehs_audit.py",
+      "bytes": 24996,
+      "sha256": "b59902a732867dc7dd4b27587b1e7e98c88d577fb84f377c1343a260aee2710c"
+    },
+    {
+      "path": "konehs_29_test_crosswalk.csv",
+      "bytes": 13523,
+      "sha256": "6c8d28f88905c066ee3dda0244a635309e3c3bc6b2bb47fc162b6685f4ec854c"
+    },
+    {
+      "path": "konehs_cycle_readiness.csv",
+      "bytes": 17622,
+      "sha256": "bdae2358a05aab926a0024f8950076dc10a547b471db42d5e551e2c4a0a903ca"
+    },
+    {
+      "path": "konehs_outcome_covariate_design_audit.csv",
+      "bytes": 5430,
+      "sha256": "312e4b671f55802b53f7b4b1dc25bc52421a00592e4cd305db94d8dd52a4d7ef"
+    },
+    {
+      "path": "KONEHS_SOURCE_SNAPSHOT.json",
+      "bytes": 2787,
+      "sha256": "4bf1e471f3fea3cfd5cfdbc2e52569f74014601dcb0d56399b3c8842eb089857"
+    },
+    {
+      "path": "KONEHS_QC_SUMMARY.json",
+      "bytes": 1252,
+      "sha256": "042eaf7387edff12067bffe6e465b3d1380bf1d305d1e031ec0b869cc4890ecb"
+    },
+    {
+      "path": "STEP10B_P_KONEHS_AUDIT_REPORT.md",
+      "bytes": 3948,
+      "sha256": "4b0294c1086f0a445645fcbab1c219c31153ec371dff246e0a03dca4f98c4dc6"
+    }
+  ]
+}
