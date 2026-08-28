@@ -1,0 +1,32 @@
+{
+  "script": "retrieve_top_pubmed_records.py",
+  "status": "complete_top_record_retrieval",
+  "retrieval_date_utc": "2026-08-28",
+  "input": {
+    "path": "analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\03_literature_collision\\pubmed_collision_counts.csv",
+    "sha256": "1f034d7a4ca9b4bed43d17eb27688080ac26b8067efe7084c9aa287c11093e0d"
+  },
+  "batch_count": 68,
+  "records_requested": 322,
+  "records_with_summaries": 322,
+  "retrieval_error_count": 0,
+  "outputs": {
+    "analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\03_literature_collision\\top_pubmed_records.csv": {
+      "sha256": "bedd8fe12dd76ef28d6928cc223be31e93157404f8d3e42549b59530cb23f6f0",
+      "bytes": 229564
+    },
+    "analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\03_literature_collision\\top_pubmed_retrieval_errors.csv": {
+      "sha256": "def4690122696418ef3d0a2a63d2782cc45d6df28255a01a57877cd84dee856b",
+      "bytes": 32
+    },
+    "analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\03_literature_collision\\TOP_PUBMED_RECORDS_REPORT.md": {
+      "sha256": "51662cbad3270d46068d8efebc8e36bdb6f3e871bcaf4984744791bc6c5bacea",
+      "bytes": 484
+    }
+  },
+  "not_performed": [
+    "title_abstract_adjudication",
+    "full_text_screening",
+    "final_novelty_grade"
+  ]
+}

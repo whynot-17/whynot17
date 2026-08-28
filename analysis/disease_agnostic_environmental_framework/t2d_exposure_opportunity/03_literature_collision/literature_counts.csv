@@ -1,0 +1,16 @@
+﻿chemical_id,chemical_name,chemical_class,search_group,positive_biomarkers,mapping_grades,mapping_gate_disposition,diabetes_total_pubmed_hits,human_epidemiology_pubmed_hits,prospective_pubmed_hits,mechanism_pubmed_hits,animal_cell_pubmed_hits,target_pubmed_hits,network_bioinformatics_pubmed_hits,screening_epidemiology_level,crowding_screen_flag,manual_title_abstract_screen_required,search_date
+D014501,Uranium,heavy_metals,uranium,URXUUR,A,advance_to_literature_audit,51,31,14,8,5,4,20,4_multiple_prospective_screening_hits,crowded_screening_signal,True,2026-08-28
+D008982,Molybdenum,heavy_metals,molybdenum,URXUMO,A,advance_to_literature_audit,152,68,25,33,54,14,70,4_multiple_prospective_screening_hits,crowded_screening_signal,True,2026-08-28
+D014414,Tungsten,heavy_metals,tungsten,URXUTU,A,advance_to_literature_audit,119,45,15,43,62,18,23,4_multiple_prospective_screening_hits,crowded_screening_signal,True,2026-08-28
+D007854,Lead,heavy_metals,lead,URXUPB,A,advance_to_literature_audit,321,180,55,43,49,26,86,4_multiple_prospective_screening_hits,crowded_screening_signal,True,2026-08-28
+D001464,Barium,heavy_metals,barium,URXUBA,A,advance_to_literature_audit,207,65,50,45,71,13,17,4_multiple_prospective_screening_hits,crowded_screening_signal,True,2026-08-28
+D014001,Tin,heavy_metals,tin,URXUSN,A,advance_to_literature_audit,47,11,4,18,29,16,64,4_multiple_prospective_screening_hits,intermediate_screening_signal,True,2026-08-28
+D012834,Silver,heavy_metals,silver,URXUSR,A,advance_to_literature_audit,490,102,27,73,264,44,325,4_multiple_prospective_screening_hits,crowded_screening_signal,True,2026-08-28
+C575690,mono-isobutyl phthalate,phthalates,mibp,URXMIB,B,advance_with_parent_specificity_review,33,28,11,6,2,3,6,4_multiple_prospective_screening_hits,intermediate_screening_signal,True,2026-08-28
+D004051,Diethylhexyl Phthalate,phthalates,dehp,URXECP;URXMHH;URXMOH,B,advance_to_literature_audit,169,94,19,69,73,49,204,4_multiple_prospective_screening_hits,crowded_screening_signal,True,2026-08-28
+C012125,diisononyl phthalate,phthalates,dinp_parent,URXCOP,B,advance_to_literature_audit,11,8,3,1,3,2,12,4_multiple_prospective_screening_hits,intermediate_screening_signal,True,2026-08-28
+C019174,dinonylphthalate,phthalates,dinp_parent,URXCOP,B,advance_to_literature_audit,11,8,3,1,3,2,12,4_multiple_prospective_screening_hits,intermediate_screening_signal,True,2026-08-28
+C080276,mono(2-ethyl-5-oxohexyl)phthalate,phthalates,meohp,URXMOH,B,advance_with_parent_specificity_review,38,28,10,5,2,3,10,4_multiple_prospective_screening_hits,intermediate_screening_signal,True,2026-08-28
+C573544,mono(carboxy-isooctyl)phthalate,phthalates,mcop,URXCOP,B,advance_with_parent_specificity_review,4,2,0,1,0,0,0,2_human_hit_no_prospective_hit,sparse_screening_signal,True,2026-08-28
+C051450,2-ethyl-5-carboxypentyl phthalate,phthalates,mecpp,URXECP,B,advance_to_literature_audit,21,16,3,4,1,2,16,4_multiple_prospective_screening_hits,intermediate_screening_signal,True,2026-08-28
+C471071,perfluorohexanesulfonic acid,pfas_perfluoro,pfhxs,LBXPFHS,A,advance_to_literature_audit,86,65,27,21,14,11,33,4_multiple_prospective_screening_hits,crowded_screening_signal,True,2026-08-28
