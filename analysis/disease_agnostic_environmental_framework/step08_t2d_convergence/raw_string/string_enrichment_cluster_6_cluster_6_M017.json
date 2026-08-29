@@ -1,0 +1,1 @@
+[{"category": "NetworkNeighborAL", "term": "CL:13134", "number_of_genes": 2, "number_of_genes_in_background": 51, "ncbiTaxonId": 9606, "inputGenes": ["STXBP6", "STX3"], "preferredNames": ["STXBP6", "STX3"], "p_value": 7.1e-06, "fdr": 0.0325, "description": "SNARE complex"}]

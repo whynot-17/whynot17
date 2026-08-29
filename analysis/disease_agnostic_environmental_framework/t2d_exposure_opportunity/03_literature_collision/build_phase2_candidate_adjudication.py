@@ -21,7 +21,7 @@ from pathlib import Path
 from typing import Dict, Iterable, List, Mapping, Sequence
 
 
-SCRIPT_VERSION = "phase2_candidate_adjudication_v1.0"
+SCRIPT_VERSION = "phase2_candidate_adjudication_v1.1_internal_collision"
 
 # These labels are a first-pass title/abstract screen of the retrieved records.
 # They are deliberately qualitative and each row carries a concrete gap.  The
@@ -211,6 +211,107 @@ ADJUDICATION = {
     },
 }
 
+# Internal-collision reference: the existing project is the DINP-related
+# exposure axis measured with urinary MCOP/URXCOP and developed around a
+# phthalate/PPAR-style mechanism. This is a design constraint for a new T2D
+# paper, not a new biological result. Penalties are prioritization aids, not
+# inferential statistics.
+INTERNAL_COLLISION = {
+    "mcop": {
+        "internal_exposure_overlap": "exact_DINP_related_axis",
+        "internal_biomarker_overlap": "exact_URXCOP_MCOP",
+        "internal_mechanism_overlap": "high_shared_phthalate_PPAR_architecture",
+        "internal_collision_grade": "high_exact_reuse",
+        "internal_collision_penalty": 6.0,
+        "self_overlap_reason": "Same DINP-related exposure axis and same urinary MCOP/URXCOP biomarker as the existing CRC project; the downstream phthalate/PPAR framing would also substantially overlap.",
+        "new_paper_position": "holdout_or_secondary_only",
+    },
+    "dinp_parent": {
+        "internal_exposure_overlap": "exact_DINP_related_axis",
+        "internal_biomarker_overlap": "exact_URXCOP_MCOP_axis",
+        "internal_mechanism_overlap": "high_shared_phthalate_PPAR_architecture",
+        "internal_collision_grade": "high_exact_axis_reuse",
+        "internal_collision_penalty": 6.0,
+        "self_overlap_reason": "Same parent exposure axis and URXCOP/MCOP biomarker family as the existing CRC project, with closely related phthalate mechanism framing.",
+        "new_paper_position": "holdout_or_secondary_only",
+    },
+    "mecpp": {
+        "internal_exposure_overlap": "related_phthalate_class",
+        "internal_biomarker_overlap": "different_URXECP_biomarker",
+        "internal_mechanism_overlap": "moderate_shared_phthalate_PPAR_architecture",
+        "internal_collision_grade": "moderate_related_class",
+        "internal_collision_penalty": 2.5,
+        "self_overlap_reason": "Different metabolite, but still a phthalate exposure and likely to reuse the same broad PPAR/obesogen mechanistic language.",
+        "new_paper_position": "eligible_with_explicit_differentiation",
+    },
+    "meohp": {
+        "internal_exposure_overlap": "related_DEHP_phthalate_class",
+        "internal_biomarker_overlap": "different_URXMOH_biomarker",
+        "internal_mechanism_overlap": "moderate_shared_phthalate_PPAR_architecture",
+        "internal_collision_grade": "moderate_related_class",
+        "internal_collision_penalty": 2.5,
+        "self_overlap_reason": "Different metabolite but same broader phthalate/PPAR narrative space; DEHP-family collision is already substantial.",
+        "new_paper_position": "eligible_with_explicit_differentiation",
+    },
+    "mibp": {
+        "internal_exposure_overlap": "related_phthalate_class",
+        "internal_biomarker_overlap": "different_URXMIB_biomarker",
+        "internal_mechanism_overlap": "moderate_shared_phthalate_PPAR_architecture",
+        "internal_collision_grade": "moderate_related_class",
+        "internal_collision_penalty": 2.0,
+        "self_overlap_reason": "Different phthalate parent/metabolite and biomarker, but family-level exposure and receptor biology overlap with the prior project.",
+        "new_paper_position": "eligible_with_explicit_differentiation",
+    },
+    "dehp": {
+        "internal_exposure_overlap": "related_phthalate_class",
+        "internal_biomarker_overlap": "related_DEHP_metabolite_panel",
+        "internal_mechanism_overlap": "high_shared_phthalate_PPAR_architecture",
+        "internal_collision_grade": "high_related_class_and_crowded",
+        "internal_collision_penalty": 4.0,
+        "self_overlap_reason": "Same phthalate family and overlapping metabolite/PPAR architecture, with an already crowded external literature.",
+        "new_paper_position": "not_suitable_for_novelty_led_paper",
+    },
+    "pfhxs": {
+        "internal_exposure_overlap": "distinct_PFAS_exposure",
+        "internal_biomarker_overlap": "distinct_LBXPFHS_biomarker",
+        "internal_mechanism_overlap": "low_partial_PPAR_overlap_only",
+        "internal_collision_grade": "low_distinct_exposure",
+        "internal_collision_penalty": 0.5,
+        "self_overlap_reason": "Different chemical class and biomarker; only a limited conceptual overlap exists because PPAR signaling appears in some PFHxS toxicology records.",
+        "new_paper_position": "eligible_distinct_axis",
+    },
+}
+
+# External-opportunity baseline used only to make the re-ranking reproducible.
+# It encodes the first-pass audit's qualitative novelty/actionability judgment,
+# not a p-value or a biological score.
+EXTERNAL_OPPORTUNITY_SCORE = {
+    "mcop": 10.0,
+    "dinp_parent": 9.0,
+    "mecpp": 8.0,
+    "tin": 7.5,
+    "mibp": 7.0,
+    "meohp": 6.0,
+    "pfhxs": 6.5,
+    "uranium": 5.5,
+    "barium": 4.5,
+    "molybdenum": 4.0,
+    "tungsten": 4.0,
+    "lead": 2.0,
+    "silver": 1.0,
+    "dehp": 2.0,
+}
+
+DEFAULT_INTERNAL_COLLISION = {
+    "internal_exposure_overlap": "distinct_exposure",
+    "internal_biomarker_overlap": "distinct_biomarker",
+    "internal_mechanism_overlap": "distinct_or_not_comparable",
+    "internal_collision_grade": "none_distinct_axis",
+    "internal_collision_penalty": 0.0,
+    "self_overlap_reason": "No material exposure, biomarker, or mechanism-architecture overlap with the existing DINP/MCOP–CRC project was identified in this first-pass design audit.",
+    "new_paper_position": "eligible_distinct_axis",
+}
+
 
 def read_csv(path: Path) -> List[Dict[str, str]]:
     with path.open("r", encoding="utf-8-sig", newline="") as handle:
@@ -247,7 +348,6 @@ def main() -> int:
         raise RuntimeError("Adjudication dictionary and literature search groups do not match exactly")
 
     rows: List[Dict[str, object]] = []
-    top5_groups = {group for group, values in ADJUDICATION.items() if values["opportunity_bucket"].startswith("Top5_")}
     for candidate in candidates:
         if not str(candidate.get("mapping_gate_disposition", "")).startswith("advance"):
             continue
@@ -255,9 +355,11 @@ def main() -> int:
         count = counts[chemical_id]
         group = count["search_group"]
         manual = ADJUDICATION[group]
+        internal = INTERNAL_COLLISION.get(group, DEFAULT_INTERNAL_COLLISION)
+        external_score = EXTERNAL_OPPORTUNITY_SCORE[group]
+        adjusted_score = external_score - float(internal["internal_collision_penalty"])
         rows.append(
             {
-                "provisional_rank": "" if group not in top5_groups else manual["opportunity_bucket"].split("_")[1],
                 "chemical_id": chemical_id,
                 "chemical_name": candidate["chemical_name"],
                 "chemical_class": candidate["chemical_class"],
@@ -280,6 +382,15 @@ def main() -> int:
                 "network_toxicology_status": manual["network_toxicology_status"],
                 "novelty_grade": manual["novelty_grade"],
                 "opportunity_bucket": manual["opportunity_bucket"],
+                "external_opportunity_score": f"{external_score:.1f}",
+                "internal_exposure_overlap": internal["internal_exposure_overlap"],
+                "internal_biomarker_overlap": internal["internal_biomarker_overlap"],
+                "internal_mechanism_overlap": internal["internal_mechanism_overlap"],
+                "internal_collision_grade": internal["internal_collision_grade"],
+                "internal_collision_penalty": f"{float(internal['internal_collision_penalty']):.1f}",
+                "revised_opportunity_score": f"{adjusted_score:.1f}",
+                "new_paper_position": internal["new_paper_position"],
+                "self_overlap_reason": internal["self_overlap_reason"],
                 "representative_pmids": manual["representative_pmids"],
                 "largest_gap": manual["largest_gap"],
                 "decision_reason": manual["decision_reason"],
@@ -287,21 +398,29 @@ def main() -> int:
             }
         )
 
-    rows.sort(key=lambda row: (0 if row["provisional_rank"] else 1, row["provisional_rank"] or "99", row["chemical_id"]))
+    ranked_groups = sorted(
+        ADJUDICATION,
+        key=lambda group: (-float(next(row["revised_opportunity_score"] for row in rows if row["search_group"] == group)), group),
+    )
+    revised_top5_groups = ranked_groups[:5]
+    group_rank = {group: str(rank) for rank, group in enumerate(revised_top5_groups, start=1)}
+    for row in rows:
+        row["revised_opportunity_rank"] = group_rank.get(str(row["search_group"]), "")
+    rows.sort(key=lambda row: (0 if row["revised_opportunity_rank"] else 1, row["revised_opportunity_rank"] or "99", row["chemical_id"]))
     fields = list(rows[0].keys()) if rows else []
     adjudication_path = lit_dir / "candidate_evidence_adjudication.csv"
     write_csv(adjudication_path, fields, rows)
 
-    top5_chemical_rows = [row for row in rows if row["provisional_rank"]]
+    top5_chemical_rows = [row for row in rows if row["search_group"] in revised_top5_groups]
     grouped_rows: Dict[str, List[Dict[str, object]]] = {}
     for row in top5_chemical_rows:
         grouped_rows.setdefault(str(row["search_group"]), []).append(row)
     top5 = []
-    for group, group_rows in sorted(grouped_rows.items(), key=lambda item: int(str(item[1][0]["provisional_rank"]))):
+    for group, group_rows in sorted(grouped_rows.items(), key=lambda item: int(str(item[1][0]["revised_opportunity_rank"]))):
         first = group_rows[0]
         top5.append(
             {
-                "provisional_rank": first["provisional_rank"],
+                "revised_opportunity_rank": first["revised_opportunity_rank"],
                 "chemical_ids": ";".join(str(row["chemical_id"]) for row in group_rows),
                 "chemical_names": "; ".join(str(row["chemical_name"]) for row in group_rows),
                 "positive_biomarkers": ";".join(sorted({str(row["positive_biomarkers"]) for row in group_rows})),
@@ -314,19 +433,42 @@ def main() -> int:
                 "mechanism_maturity": first["mechanism_maturity"],
                 "novelty_grade": first["novelty_grade"],
                 "opportunity_bucket": first["opportunity_bucket"],
+                "external_opportunity_score": first["external_opportunity_score"],
+                "internal_exposure_overlap": first["internal_exposure_overlap"],
+                "internal_biomarker_overlap": first["internal_biomarker_overlap"],
+                "internal_mechanism_overlap": first["internal_mechanism_overlap"],
+                "internal_collision_grade": first["internal_collision_grade"],
+                "internal_collision_penalty": first["internal_collision_penalty"],
+                "revised_opportunity_score": first["revised_opportunity_score"],
+                "revised_opportunity_rank": first["revised_opportunity_rank"],
+                "new_paper_position": first["new_paper_position"],
+                "self_overlap_reason": first["self_overlap_reason"],
                 "representative_pmids": first["representative_pmids"],
                 "largest_gap": first["largest_gap"],
                 "decision_reason": first["decision_reason"],
             }
         )
     top5_fields = [
-        "provisional_rank", "chemical_ids", "chemical_names", "positive_biomarkers", "exposure_axes",
+        "revised_opportunity_rank", "chemical_ids", "chemical_names", "positive_biomarkers", "exposure_axes",
         "search_group", "mapping_grades", "diabetes_total_pubmed_hits", "human_epidemiology_pubmed_hits",
         "prospective_pubmed_hits", "mechanism_maturity", "novelty_grade", "opportunity_bucket",
+        "external_opportunity_score", "internal_exposure_overlap", "internal_biomarker_overlap",
+        "internal_mechanism_overlap", "internal_collision_grade", "internal_collision_penalty",
+        "revised_opportunity_score", "new_paper_position", "self_overlap_reason",
         "representative_pmids", "largest_gap", "decision_reason",
     ]
     shortlist_path = lit_dir / "PHASE2_PROVISIONAL_TOP5_OPPORTUNITIES.csv"
     write_csv(shortlist_path, top5_fields, top5)
+
+    internal_fields = [
+        "revised_opportunity_rank", "chemical_id", "chemical_name", "chemical_class", "positive_biomarkers",
+        "exposure_axes", "search_group", "mapping_grades", "external_opportunity_score",
+        "internal_exposure_overlap", "internal_biomarker_overlap", "internal_mechanism_overlap",
+        "internal_collision_grade", "internal_collision_penalty", "revised_opportunity_score",
+        "new_paper_position", "self_overlap_reason",
+    ]
+    internal_audit_path = lit_dir / "PHASE2_INTERNAL_COLLISION_AUDIT.csv"
+    write_csv(internal_audit_path, internal_fields, rows)
 
     search_date = max(row.get("search_date", "") for row in counts.values())
     report_lines = [
@@ -334,7 +476,7 @@ def main() -> int:
         "",
         "## Status",
         "",
-        "- **Status:** `complete_first_pass_candidate_adjudication_provisional_top5`",
+        "- **Status:** `complete_first_pass_internal_collision_reranking`",
         f"- **Audit date (UTC):** `{datetime.now(timezone.utc).date().isoformat()}`",
         f"- **PubMed search date:** `{search_date}`",
         "- **Scope:** all 15 chemical IDs in the Phase 1 advance pool, represented by 14 search groups because the two DINP parent IDs share one parent-specific vocabulary.",
@@ -344,16 +486,22 @@ def main() -> int:
         "",
         "The category counts are collision-screening signals, not eligible-study counts. The first-pass adjudication checks whether retrieved titles support candidate identity, human/T2D relevance, prospective design, mechanism maturity, target status, and network-toxicology collision. It is not a full-text systematic review and does not establish causality.",
         "",
-        "## Provisional Top 5 opportunity pool",
+        "## Internal project-collision audit",
         "",
-        "The Top 5 is an opportunity shortlist, not a claim that these candidates have the strongest causal evidence. It prioritizes a combination of mapping actionability, literature headroom, and an explicit unresolved gap. Ranking may change after full-text eligibility review.",
+        "The existing DINP/MCOP–CRC project is treated as an internal-collision reference. Each candidate is annotated for overlap in exposure axis, urinary biomarker, and mechanism architecture. Exact reuse receives the largest penalty; related phthalate/PPAR framing receives an intermediate penalty; distinct chemical classes receive zero or minimal penalty. This is a transparent paper-design constraint, not a biological or inferential statistic.",
         "",
-        "| Rank | Exposure opportunity | Mapping | Search-group diabetes hits | Human hits | Prospective hits | Novelty/opportunity rationale |",
+        "The external-opportunity baseline and internal-collision penalty are embedded in `build_phase2_candidate_adjudication.py`; they are ordinal prioritization aids and must not be interpreted as effect sizes, probabilities, or evidence scores.",
+        "",
+        "## Revised Top 5 opportunity pool",
+        "",
+        "The revised Top 5 is an opportunity shortlist after applying the internal-collision constraint. It prioritizes a combination of mapping actionability, external literature headroom, and low self-overlap. It is not a claim that these candidates have the strongest causal evidence, and ranking may change after full-text eligibility review.",
+        "",
+        "| Rank | Exposure opportunity | Mapping | External score | Self-overlap penalty | Revised score | Position |",
         "|---:|---|---|---:|---:|---:|---|",
     ]
     for row in top5:
         report_lines.append(
-            f"| {row['provisional_rank']} | {row['chemical_names']} ({row['positive_biomarkers']}) | {row['mapping_grades']} | {row['diabetes_total_pubmed_hits']} | {row['human_epidemiology_pubmed_hits']} | {row['prospective_pubmed_hits']} | {row['novelty_grade']}; {row['decision_reason']} |"
+            f"| {row['revised_opportunity_rank']} | {row['chemical_names']} ({row['positive_biomarkers']}) | {row['mapping_grades']} | {row['external_opportunity_score']} | {row['internal_collision_penalty']} | {row['revised_opportunity_score']} | {row['new_paper_position']} |"
         )
     report_lines.extend(
         [
@@ -361,29 +509,31 @@ def main() -> int:
             "## Candidate-level disposition",
             "",
             "- `candidate_evidence_adjudication.csv` contains one row per Phase 1 advance-pool chemical ID, including all 15 IDs and the shared DINP parent search group.",
-            "- `PHASE2_PROVISIONAL_TOP5_OPPORTUNITIES.csv` is the compact shortlist for the next full-text collision pass.",
+            "- `PHASE2_PROVISIONAL_TOP5_OPPORTUNITIES.csv` is the compact self-overlap-adjusted shortlist for the next full-text collision pass.",
+            "- `PHASE2_INTERNAL_COLLISION_AUDIT.csv` exposes the overlap dimensions, penalty, revised score, and new-paper position for all 15 candidate IDs.",
+            "- `candidate_evidence_adjudication.csv` contains the same internal overlap fields for every candidate ID; MCOP/DINP are retained as explicit high-overlap holdouts rather than silently deleted.",
             "- All non-Top-5 candidates remain in the adjudication table with an explicit reason for monitoring or exclusion from the novelty-led shortlist.",
             "",
             "## Main opportunity gaps",
             "",
-            "1. Sparse candidates such as MCOP require parent-specific full-text review and independent human/prospective evidence before mechanistic interpretation.",
-            "2. DINP and several phthalate metabolites require strict separation of parent-specific, metabolite-specific, replacement, mixture, and family-level evidence.",
+            "1. MCOP and DINP remain externally sparse but are intentionally downranked because they overlap with the existing exposure, biomarker, and mechanistic architecture.",
+            "2. Several phthalate metabolites remain related-class opportunities only if the new paper explicitly differentiates exposure, biomarker, and mechanism from the existing project.",
             "3. Tin requires chemical-speciation resolution: elemental urinary tin cannot be treated as interchangeable with organotin studies.",
-            "4. Candidates with high collision counts (lead, DEHP, silver nanoparticle literature, and established metal/PFAS axes) are useful comparators but are not prioritized as novelty opportunities.",
+            "4. Candidates with high external collision counts (lead, DEHP, silver nanoparticle literature, and established metal/PFAS axes) are useful comparators but are not prioritized as novelty opportunities.",
             "",
             "## Next required step",
             "",
-            "Perform title/abstract adjudication followed by targeted full-text retrieval for the Top 5 and any candidate whose mapping identity or exposure form is ambiguous. Freeze eligibility criteria before reviewing outcome-specific details; do not run docking or expand target discovery in this phase.",
+            "Perform title/abstract adjudication followed by targeted full-text retrieval for the revised Top 5 and any candidate whose mapping identity or exposure form is ambiguous. Freeze eligibility criteria before reviewing outcome-specific details; do not run docking or expand target discovery in this phase.",
         ]
     )
     report_path = lit_dir / "PHASE2_CANDIDATE_ADJUDICATION_REPORT.md"
     report_path.write_text("\n".join(report_lines) + "\n", encoding="utf-8")
 
-    generated = [adjudication_path, shortlist_path, report_path]
+    generated = [adjudication_path, shortlist_path, internal_audit_path, report_path]
     manifest = {
         "material_id": "T2D-EXPOSURE-OPPORTUNITY-PHASE2-ADJUDICATION",
         "script_version": SCRIPT_VERSION,
-        "status": "complete_first_pass_candidate_adjudication_provisional_top5",
+        "status": "complete_first_pass_internal_collision_reranking",
         "audit_date_utc": datetime.now(timezone.utc).isoformat(),
         "input": {
             "phase1_candidate_path": str((root / "01_candidate_master" / "unique_candidate_chemicals.csv").relative_to(repo)),
@@ -395,9 +545,11 @@ def main() -> int:
         },
         "candidate_chemical_count": len(rows),
         "search_group_count": len(ADJUDICATION),
-        "provisional_top5_group_count": len(top5),
-        "provisional_top5_search_groups": [row["search_group"] for row in top5],
-        "provisional_top5_chemical_ids": [row["chemical_ids"] for row in top5],
+        "revised_top5_group_count": len(top5),
+        "revised_top5_search_groups": [row["search_group"] for row in top5],
+        "revised_top5_chemical_ids": [row["chemical_ids"] for row in top5],
+        "internal_collision_reference": "existing DINP/MCOP–CRC project: DINP-related exposure axis, urinary MCOP/URXCOP, phthalate/PPAR-style mechanism framing",
+        "scoring_guardrail": "External baseline minus internal-collision penalty is ordinal prioritization only; it is not an inferential statistic.",
         "outputs": {str(path.relative_to(repo)): {"sha256": sha256_file(path), "bytes": path.stat().st_size} for path in generated},
         "not_performed": ["full_text_systematic_review", "formal_eligible_study_count", "causal_inference", "docking", "new_target_discovery", "experimental_feasibility"],
         "manual_adjudication_dictionary_version": "embedded_in_script_v1.0",
@@ -409,7 +561,7 @@ def main() -> int:
         "status": manifest["status"],
         "candidate_chemical_count": len(rows),
         "search_group_count": len(ADJUDICATION),
-        "provisional_top5_group_count": len(top5_groups),
+        "revised_top5_group_count": len(top5),
         "output_dir": str(lit_dir),
     }, indent=2))
     return 0

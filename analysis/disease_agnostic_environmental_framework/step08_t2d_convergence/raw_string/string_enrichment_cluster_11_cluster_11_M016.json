@@ -1,0 +1,1 @@
+[{"category": "TISSUES", "term": "BTO:0001133", "number_of_genes": 2, "number_of_genes_in_background": 11, "ncbiTaxonId": 9606, "inputGenes": ["GTF2H2", "NAIP"], "preferredNames": ["GTF2H2", "NAIP"], "p_value": 4.02e-07, "fdr": 0.00098, "description": "pre-B-lymphocyte"}]

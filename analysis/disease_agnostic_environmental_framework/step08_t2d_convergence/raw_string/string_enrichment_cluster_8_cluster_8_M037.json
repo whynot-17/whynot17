@@ -1,0 +1,1 @@
+[{"category": "NetworkNeighborAL", "term": "CL:28971", "number_of_genes": 2, "number_of_genes_in_background": 6, "ncbiTaxonId": 9606, "inputGenes": ["BMP3", "NDRG4"], "preferredNames": ["BMP3", "NDRG4"], "p_value": 1.44e-07, "fdr": 0.00066, "description": "Mixed, incl. Bone morphogenetic protein 3/3B, and Tissue factor pathway inhibitor-like"}]

@@ -1,0 +1,1 @@
+[{"category": "NetworkNeighborAL", "term": "CL:32867", "number_of_genes": 2, "number_of_genes_in_background": 6, "ncbiTaxonId": 9606, "inputGenes": ["RABL6", "TBRG1"], "preferredNames": ["RABL6", "TBRG1"], "p_value": 1.44e-07, "fdr": 0.00066, "description": "Mixed, incl. Essential tremor 5, and Stiff skin syndrome"}]

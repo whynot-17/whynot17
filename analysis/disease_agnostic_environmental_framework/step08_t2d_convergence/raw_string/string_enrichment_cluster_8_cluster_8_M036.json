@@ -1,0 +1,1 @@
+[{"category": "NetworkNeighborAL", "term": "CL:32838", "number_of_genes": 2, "number_of_genes_in_background": 8, "ncbiTaxonId": 9606, "inputGenes": ["MINDY3", "TMEM9"], "preferredNames": ["MINDY3", "TMEM9"], "p_value": 2.32e-07, "fdr": 0.0011, "description": "Mixed, incl. PRA1 family protein, and Snail allergy"}]

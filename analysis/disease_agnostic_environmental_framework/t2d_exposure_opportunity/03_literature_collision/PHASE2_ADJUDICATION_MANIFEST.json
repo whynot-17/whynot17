@@ -1,8 +1,8 @@
 {
   "material_id": "T2D-EXPOSURE-OPPORTUNITY-PHASE2-ADJUDICATION",
-  "script_version": "phase2_candidate_adjudication_v1.0",
-  "status": "complete_first_pass_candidate_adjudication_provisional_top5",
-  "audit_date_utc": "2026-08-28T04:51:05.220235+00:00",
+  "script_version": "phase2_candidate_adjudication_v1.1_internal_collision",
+  "status": "complete_first_pass_internal_collision_reranking",
+  "audit_date_utc": "2026-08-28T05:33:59.463176+00:00",
   "input": {
     "phase1_candidate_path": "analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\01_candidate_master\\unique_candidate_chemicals.csv",
     "phase1_candidate_sha256": "1d63252e6a21cbeaf646c110e14d8b1584b2face2c2506337f96c6da353985c4",
@@ -13,33 +13,39 @@
   },
   "candidate_chemical_count": 15,
   "search_group_count": 14,
-  "provisional_top5_group_count": 5,
-  "provisional_top5_search_groups": [
-    "mcop",
-    "dinp_parent",
-    "mecpp",
+  "revised_top5_group_count": 5,
+  "revised_top5_search_groups": [
     "tin",
+    "pfhxs",
+    "mecpp",
+    "uranium",
     "mibp"
   ],
-  "provisional_top5_chemical_ids": [
-    "C573544",
-    "C012125;C019174",
-    "C051450",
+  "revised_top5_chemical_ids": [
     "D014001",
+    "C471071",
+    "C051450",
+    "D014501",
     "C575690"
   ],
+  "internal_collision_reference": "existing DINP/MCOP–CRC project: DINP-related exposure axis, urinary MCOP/URXCOP, phthalate/PPAR-style mechanism framing",
+  "scoring_guardrail": "External baseline minus internal-collision penalty is ordinal prioritization only; it is not an inferential statistic.",
   "outputs": {
     "analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\03_literature_collision\\candidate_evidence_adjudication.csv": {
-      "sha256": "2cb4a26eb0be4ffeb7069ab096c9420b4575ae89b8d117086fee4176e538e55c",
-      "bytes": 13452
+      "sha256": "840a6ecba3ea3b625590d5d785b23a7393ce1ddb68b80cc06846b215ddf84f1e",
+      "bytes": 17965
     },
     "analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\03_literature_collision\\PHASE2_PROVISIONAL_TOP5_OPPORTUNITIES.csv": {
-      "sha256": "8949b4b979e5350796e64d95ee62dbe1140f06d49a9b3235ddd245856a77bc64",
-      "bytes": 2921
+      "sha256": "c4aaba5aa77057eb243a05894d3b85aa2f437a9b56a713ec2e781dbad074a66d",
+      "bytes": 4485
+    },
+    "analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\03_literature_collision\\PHASE2_INTERNAL_COLLISION_AUDIT.csv": {
+      "sha256": "a5167fa971830b2e97873a170a3db488b218e2e1c2dce793f4f400ef79197532",
+      "bytes": 5838
     },
     "analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\03_literature_collision\\PHASE2_CANDIDATE_ADJUDICATION_REPORT.md": {
-      "sha256": "28b4993f8e62be769771f65bdd2a89f1aa8cd217781dec3fa5d74e0e47b15a9d",
-      "bytes": 3968
+      "sha256": "b740f10391cca172ee43a62e3f42d724dc1dfd293c527250f3414f2a3704036f",
+      "bytes": 4513
     }
   },
   "not_performed": [

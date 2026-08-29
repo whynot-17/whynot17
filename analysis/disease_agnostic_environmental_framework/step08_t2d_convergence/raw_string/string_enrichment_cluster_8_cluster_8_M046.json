@@ -1,0 +1,1 @@
+[{"category": "NetworkNeighborAL", "term": "CL:33545", "number_of_genes": 2, "number_of_genes_in_background": 5, "ncbiTaxonId": 9606, "inputGenes": ["TTC9B", "HP1BP3"], "preferredNames": ["TTC9B", "HP1BP3"], "p_value": 1.08e-07, "fdr": 0.0005, "description": "Mixed, incl. Tetratricopeptide repeat, and GPCR-associated sorting protein 1-3"}]

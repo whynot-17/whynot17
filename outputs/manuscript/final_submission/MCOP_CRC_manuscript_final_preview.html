@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>MCOP_CRC_manuscript_final</title>
+  <style>
+
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style type="text/css">@page { size: A4; margin: 16mm 16mm 18mm 16mm; }
+html { font-family: Arial, Helvetica, sans-serif; color: #222; font-size: 10.2pt; line-height: 1.42; }
+body { max-width: 180mm; margin: 0 auto; }
+h1 { color: #2166AC; font-size: 17pt; margin: 1.1em 0 0.35em; page-break-after: avoid; }
+h2 { color: #287D8E; font-size: 13pt; margin: 0.9em 0 0.3em; page-break-after: avoid; }
+h3 { color: #222; font-size: 11pt; page-break-after: avoid; }
+p { text-align: justify; margin: 0 0 0.55em; orphans: 3; widows: 3; }
+table { width: 100%; border-collapse: collapse; margin: 0.7em 0 1em; font-size: 8.7pt; page-break-inside: avoid; }
+th { background: #DCE8ED; font-weight: 700; }
+th, td { border: 0.5pt solid #AAB6BC; padding: 5px 6px; vertical-align: top; }
+img { max-width: 100%; height: auto; display: block; margin: 8px auto 12px; page-break-inside: avoid; }
+ul { margin-top: 0.2em; }
+li { margin-bottom: 0.25em; }
+a { color: #2166AC; text-decoration: none; }
+hr { border: 0; border-top: 0.5pt solid #CCD4D8; }
+</style>
+</head>
+<body>
+<p><strong>A data-first environmental screening framework identifies
+urinary MCOP as a robust biomarker signal associated with prevalent
+colorectal cancer</strong></p>
+<p>Abstract</p>
+<p><strong>Background:</strong> Environmental epidemiology often begins
+with a preselected exposure, making it difficult to separate biological
+plausibility from candidate-selection effects. We developed an
+outcome-blinded, data-first framework that moved from broad
+toxicogenomic nomination to human biomarker testing and independent
+colorectal cancer (CRC) disease-state transcriptomics.</p>
+<p><strong>Methods:</strong> We evaluated 267 environmental chemicals
+using human chemical-gene associations and CRC-related genes. Before
+candidate-specific CRC results were inspected, chemicals were filtered
+using prespecified rules for chemical identity, exposure
+interpretability, human biomarker availability, analytical
+detectability, NHANES coverage, and survey-model testability. Eligible
+chemical-biomarker mappings were reduced to unique NHANES biomarker
+tests before multiplicity-controlled CRC screening. FDR-supported tests
+underwent the same robustness audit. Independent CRC transcriptomic
+datasets were then used to assess whether the nominated biological axis
+was also altered in the CRC epithelial disease state.</p>
+<p><strong>Results:</strong> Prespecified actionability filtering
+reduced 267 candidates to 87 human-testable chemical-biomarker mappings,
+representing 15 unique NHANES biomarker tests. Two tests passed BH-FDR
+&lt;0.05: urinary MCOP and serum PFHS. MCOP was the only biomarker
+meeting the prespecified highest robustness tier. In 9,936 NHANES
+participants, including 70 prevalent CRC cases, each doubling of urinary
+MCOP was associated with higher odds of prevalent CRC (OR 1.25, 95% CI
+1.08-1.44; P=0.003). Leave-one-cycle-out estimates remained positive
+with confidence intervals excluding 1, although cycle-specific effects
+were heterogeneous. Independent CRC epithelial analyses showed
+reproducible PPAR/nuclear-receptor remodeling across multiple
+definitions, with lower activity in enterocyte-like tumor epithelium but
+modestly higher activity in secretory-like tumor epithelium.</p>
+<p><strong>Conclusions:</strong> An outcome-blinded data-first screen
+identified urinary MCOP as the only biomarker reaching the highest
+prespecified robustness tier for association with prevalent CRC. The
+association is cross-sectional and does not establish a
+parent-compound-specific or causal relationship. CRC transcriptomics
+independently implicate a state-specific PPAR/nuclear-receptor axis,
+providing biological convergence but not evidence of mediation.</p>
+<p><strong>Keywords:</strong> <em>colorectal cancer; MCOP; DINP; NHANES;
+environmental exposure; toxicogenomics; PPAR; biomarker
+screening</em></p>
+<p>Introduction</p>
+<p>Colorectal cancer (CRC) arises through interactions among inherited
+susceptibility, aging, lifestyle, metabolic factors, and environmental
+exposures [1,2]. Environmental chemicals are plausible contributors
+because many are ubiquitous, measurable in human biomonitoring programs,
+and capable of altering receptor, transcriptional, or metabolic biology.
+However, human evidence for individual chemicals remains uneven, and the
+literature is often organized around exposures selected in advance
+rather than around a transparent comparison with alternative candidates
+[3-7].</p>
+<p>This creates a candidate-selection problem. In a conventional
+exposure-first study, the disease association is evaluated only after
+one chemical or chemical class has already been chosen from a much
+larger universe. A data-first strategy can separate these steps by
+requiring candidate nomination and human testability to be defined
+before candidate-specific disease results are inspected [29,30]. Such
+separation is especially important when multiple chemicals map to the
+same measured biomarker, because biomarker availability does not imply
+chemical equivalence or parent-specific attribution.</p>
+<p>A second gap lies between toxicogenomic relevance and human
+measurability. A chemical can appear biologically relevant yet be poorly
+detectable, sparsely measured, or represented only through a
+non-specific biomarker. Conversely, a measurable biomarker may not
+itself be the molecular entity implicated by toxicogenomic databases.
+Translating from molecular nomination to a population-level test
+therefore requires an explicit actionability layer that evaluates
+identity, exposure interpretation, measurement performance, and survey
+feasibility independently of the disease outcome.</p>
+<p>We developed an outcome-blinded multistage framework to address these
+problems. The framework first screened a broad environmental chemical
+universe for CRC-related toxicogenomic relevance, then applied human
+actionability rules without using candidate-specific CRC statistics, and
+only afterward tested the resulting unique NHANES biomarker models.
+FDR-supported signals were evaluated under a common robustness audit.
+Finally, independent CRC transcriptomic data were used to ask whether
+the biological axis implicated by the nominated exposure signal was also
+remodeled in the human CRC disease state. In this study, &quot;convergence&quot;
+denotes independent implication of the same broad biological pathway or
+regulatory axis across toxicologic nomination and CRC disease-state
+analyses; it does not require concordant direction and does not imply
+mediation or causal linkage.</p>
+<p>Methods</p>
+<p>Study design</p>
+<p>The analysis comprised five stages: toxicogenomic discovery,
+outcome-blinded actionability prioritization, systematic NHANES
+biomarker screening, robustness assessment of supported signals, and
+independent CRC transcriptomic disease-state analysis. The analytical
+unit changed across stages from chemical entity, to chemical-biomarker
+mapping, to unique human biomarker test. These objects were not treated
+as interchangeable.</p>
+<p>Outcome firewall and analysis freeze</p>
+<p>The principal design safeguard was an outcome firewall. Before
+candidate-specific CRC results were inspected, candidate eligibility and
+biomarker selection were based only on chemical identity, interpretable
+human exposure mapping, biomarker availability, biomarker detectability,
+NHANES cycle coverage, and predefined survey-model testability. No
+CRC-derived statistic was permitted to alter candidate eligibility,
+biomarker selection, or the number of biomarker tests entering
+multiplicity correction.</p>
+<p>After the outcome firewall was opened, odds ratios, confidence
+intervals, P values, BH-FDR values, cycle-specific effects, and
+robustness results were evaluated. The analysis set and
+manuscript-facing results were subsequently frozen before manuscript
+construction. We use &quot;outcome-blinded&quot; for the pre-outcome actionability
+stage and &quot;frozen before manuscript construction&quot; for later analyses; we
+do not describe the study as prospectively preregistered.</p>
+<p>Toxicogenomic discovery</p>
+<p>Human chemical-gene associations were obtained from the Comparative
+Toxicogenomics Database (CTD) [8], and CRC-related genes were obtained
+from GeneCards [9]. CTD records were interpreted as database
+associations rather than validated causal targets. Chemical-level
+enrichment was evaluated using Fisher/hypergeometric testing with
+multiple-testing correction, with degree-matched permutation used as a
+sensitivity analysis to reduce the influence of highly connected genes.
+This stage nominated molecular candidates but did not determine human
+testability.</p>
+<p>Outcome-blinded human actionability</p>
+<p>Each of the 267 starting chemicals was evaluated for valid chemical
+identity, interpretable exposure mapping, availability of a human
+biomarker, analytical detectability, NHANES cycle coverage, and
+feasibility of a survey-weighted CRC model. Detectability, coverage, and
+model-testability thresholds were defined before candidate-specific CRC
+effects were used. Full gate definitions and candidate-level audit
+fields are provided in the Supplementary Methods and Supplementary Table
+S8.</p>
+<p>When several chemicals mapped to the same measured biomarker, the
+chemical-biomarker mappings were retained for audit but collapsed to one
+biomarker test for human screening. Thus, 87 eligible chemical-biomarker
+mappings represented 15 unique NHANES biomarker tests. Shared biomarker
+mapping was not interpreted as biological equivalence among parent
+chemicals.</p>
+<p>Systematic NHANES biomarker screen</p>
+<p>All 15 unique biomarker tests entered the same systematic CRC screen.
+Survey-weighted logistic regression modeled prevalent CRC as a function
+of log2-transformed exposure, age, sex, race/ethnicity, body mass index,
+smoking, and poverty-income ratio; urinary biomarkers additionally
+included log2 urinary creatinine [11,12,31,32]. BH-FDR was controlled
+across all 15 tests [10]. FDR-supported tests, rather than a single
+&quot;leading&quot; result, proceeded to the same robustness audit.</p>
+<p>Primary MCOP analysis</p>
+<p>The frozen MCOP analysis used NHANES 2005-2006 through 2017-2018.
+Adults aged ≥20 years were included, with prevalent CRC cases compared
+with cancer-free controls. The complete-case sample contained 9,936
+participants and 70 CRC cases. The exposure was log2-transformed urinary
+MCOP (URXCOP), interpreted as the odds ratio per doubling.
+Complex-survey inference used cycle-specific phthalate subsample weights
+divided by seven and cycle-unique strata and primary sampling unit
+identifiers. R survey::svyglm was the manuscript estimator; an
+independent Taylor-sandwich implementation was used as numerical quality
+control.</p>
+<p>Robustness audit</p>
+<p>FDR-supported signals were evaluated under a common robustness
+framework covering statistical support, leave-one-cycle-out stability,
+cycle-level behavior, measurement adequacy, exposure robustness,
+sensitivity to alternative specifications, and analytic reproducibility.
+The full scoring rubric and fingerprints are reported only in the
+Supplementary Materials.</p>
+<p>For MCOP, frozen sensitivity analyses included restriction to age ≥40
+years, exclusion of recent CRC diagnoses, exclusion of the upper
+exposure tail, alternative creatinine handling, pairwise co-exposure
+adjustment, sex-specific analyses with formal interaction testing, and
+exposure-shape analyses. Leave-one-cycle-out analysis assessed
+dependence on any single NHANES cycle, whereas the exposure-by-cycle
+interaction assessed equality of cycle-specific effects; these were
+treated as distinct statistical questions.</p>
+<p>CRC transcriptomic disease-state analysis</p>
+<p>Independent CRC transcriptomic analyses were used to evaluate
+disease-state remodeling of the PPAR/nuclear-receptor axis. These
+datasets did not contain DINP or MCOP perturbation and therefore could
+not test exposure-to-state causality. Main inference used paired patient
+or donor comparisons rather than treating individual cells as
+independent replicates. The frozen seven-gene PPAR/nuclear-receptor core
+was tested alongside independent receptor, pathway, metabolic, and
+regulon definitions.</p>
+<p>Within-state analyses were restricted to source-supported epithelial
+annotations with adequate paired cell counts. Donor-level delta
+correlations were used to assess relationships between
+PPAR/nuclear-receptor remodeling and differentiation, inflammatory,
+stress, and regulatory programs. These analyses were interpreted as
+disease-state correspondence rather than mediation.</p>
+<p>Results</p>
+<p>Outcome-blinded prioritization yielded 15 unique human biomarker
+tests</p>
+<p>Prespecified actionability filtering reduced the 267 candidate
+chemicals to 87 eligible chemical-biomarker mappings, representing 15
+unique NHANES biomarker tests (Fig. 2). The largest attrition occurred
+during exposure interpretation and human-testability assessment; full
+stage-specific counts are shown in Fig. 2 and Supplementary Tables S1
+and S8.</p>
+<p>Within the DINP-related set, MiNP remained a molecular nominee but
+had insufficient direct urinary detectability for primary human testing
+in the updated audit. MCOP (URXCOP), a distinct urinary biomarker
+commonly used to index DINP exposure [13-16], met the measurement and
+coverage requirements and therefore entered the systematic human screen.
+This transition reflected biomarker actionability, not chemical
+equivalence among MiNP, MCOP, and the DINP parent.</p>
+<p>Two biomarker tests passed FDR control, but only MCOP reached the
+highest robustness tier</p>
+<p>Two of the 15 biomarker tests passed BH-FDR &lt;0.05: urinary MCOP
+showed a positive association with prevalent CRC, whereas serum PFHS
+showed an inverse association (Fig. 3). The remaining 13 tests did not
+pass the 15-test FDR threshold.</p>
+<p>Both FDR-supported signals underwent the same prespecified robustness
+audit. MCOP was the only biomarker meeting the highest robustness tier.
+PFHS remained a supported Tier B signal because its analyzable CRC event
+count was substantially smaller (approximately 32 cases) and its audit
+retained a persistent technical/fit warning, preventing it from
+satisfying the highest-tier analytic criterion [18-21]. The complete
+rubric and signal-level audit are provided in Supplementary Table
+S4.</p>
+<p>Urinary MCOP was positively associated with prevalent CRC</p>
+<p>In the frozen primary survey-weighted model, each doubling of urinary
+MCOP was associated with higher odds of prevalent CRC (OR 1.25, 95% CI
+1.08-1.44; P=0.003) among 9,936 participants, including 70 CRC cases
+(Fig. 3). An independent Taylor-sandwich implementation reproduced the
+estimate to numerical precision. Because CRC was prevalent and MCOP was
+measured at examination, the analysis estimates a cross-sectional
+biomarker-disease association rather than prospective risk.</p>
+<p>MCOP was stable to cycle omission despite significant temporal
+heterogeneity</p>
+<p>All seven leave-one-cycle-out pooled estimates remained above 1 and
+their 95% confidence intervals excluded 1, indicating that the pooled
+association was not dependent on a single NHANES cycle (Fig. 4).
+Prespecified age, diagnosis-timing, upper-tail, creatinine-handling, and
+co-exposure analyses also retained the positive direction.</p>
+<p>Cycle-specific effects were nevertheless heterogeneous: the
+MCOP-by-cycle interaction was significant (P approximately 0.006), with
+2011-2012 the major discordant cycle. Leave-one-cycle-out stability and
+effect homogeneity address different questions; the former supports
+robustness of the pooled estimate to cycle omission, whereas the latter
+shows that effect magnitude was not constant across calendar periods.
+The source of the heterogeneity cannot be resolved with the present data
+and may reflect temporal exposure differences, residual population
+differences, measurement variation, or chance.</p>
+<p>Secondary categorical and spline analyses did not provide evidence
+sufficient to replace the prespecified continuous log2 model and are
+therefore presented as secondary characterization in the Supplementary
+Materials.</p>
+<p>CRC showed epithelial-state-specific PPAR/nuclear-receptor
+remodeling</p>
+<p>Independent CRC epithelial analyses demonstrated robust remodeling of
+the PPAR/nuclear-receptor axis (Fig. 5). The frozen seven-gene core was
+lower in tumor-derived epithelium (median tumor-normal delta −0.419; FDR
+approximately 9.3 × 10⁻⁷), and most independent receptor, KEGG,
+Reactome, metabolic, and regulon definitions showed concordant
+down-remodeling at the aggregate epithelial level.</p>
+<p>The effect was not adequately described as global PPAR suppression
+(Supplementary Fig. S4). Within enterocyte-like epithelium, the
+PPAR/nuclear-receptor score was lower in tumor samples (n=24 paired
+donors; median delta −0.191; FDR 5.3 × 10⁻⁴), whereas secretory-like
+epithelium showed a modest increase (n=27; median delta +0.068;
+FDR=0.018). Together with epithelial compositional redistribution, these
+findings support state-specific regulatory remodeling rather than a
+uniform pan-epithelial effect [27,28,36-38].</p>
+<p>Donor-level analyses did not support a simple PPAR-low to
+RELA/STAT3-high mediation model. Toxicologic evidence and CRC
+transcriptomics therefore intersect at a broad nuclear-receptor/PPAR
+biological axis, but the exposure-to-epithelial-state link remains
+untested.</p>
+<p>Discussion</p>
+<p>This study asked whether an outcome-blinded, data-first framework
+could move from a broad environmental chemical universe to a human
+biomarker signal associated with CRC while keeping candidate selection
+auditable. The framework reduced 267 candidates to 15 unique NHANES
+biomarker tests, identified two FDR-supported signals, and classified
+urinary MCOP as the only biomarker meeting the highest prespecified
+robustness tier. The principal contribution is therefore not a claim
+that DINP causes CRC, but a transparent discovery architecture that
+separates chemical nomination, human measurability, population
+association, and downstream biological interpretation.</p>
+<p>Within NHANES, the MCOP association was credible on several internal
+dimensions. It survived multiplicity correction in the 15-test screen,
+remained positive under a common robustness audit, was reproduced
+numerically across independent survey implementations, and was not
+eliminated by omission of any single cycle. At the same time, the
+significant exposure-by-cycle interaction shows that robustness to cycle
+omission is not equivalent to effect homogeneity. The pooled association
+is therefore best viewed as internally robust but temporally
+heterogeneous, rather than as seven homogeneous replications.</p>
+<p>The epidemiologic result does not establish temporal or causal risk.
+CRC was prevalent, urinary MCOP was measured at examination, and only 70
+complete-case CRC cases contributed to the primary model. Reverse
+causation, survivor effects, short-term variability in a spot urinary
+biomarker [33-35], residual confounding, and calendar-period
+heterogeneity remain plausible limitations. These constraints are
+central to interpretation but do not invalidate the narrower conclusion
+that a systematic screen identified a reproducible cross-sectional
+MCOP-CRC signal within the available NHANES data.</p>
+<p>The transcriptomic analyses add an independent disease-state layer.
+PPAR/nuclear-receptor remodeling was reproducible across multiple
+pathway and regulon definitions, but the within-state audit changed the
+biological interpretation (Supplementary Fig. S4): enterocyte-like
+epithelium showed suppression, whereas secretory-like epithelium showed
+modest elevation. Thus, the CRC phenotype is more accurately described
+as state-specific PPAR/nuclear-receptor remodeling than as global
+pathway suppression. This distinction is important because it prevents a
+complex epithelial state transition from being reduced to a single
+pathway-direction claim.</p>
+<p>Previous studies have reported conflicting roles and expression
+patterns for PPARs in colorectal cancer, with both the direction and
+functional interpretation varying across PPAR isoforms, experimental
+models, and disease contexts [22-26]. Our epithelial-state-resolved
+analysis offers a potential explanation for part of this apparent
+inconsistency: the PPAR/nuclear-receptor axis was not uniformly
+suppressed across CRC epithelium, but instead differed between
+enterocyte-like and secretory-like states. Accordingly, bulk or
+aggregate measurements may obscure opposing state-specific patterns.
+These findings may help reconcile part of the previously discordant PPAR
+literature in CRC, while not implying that epithelial state composition
+explains all historical discrepancies.</p>
+<p>The toxicologic and transcriptomic layers show a biologically
+plausible but untested intersection. MiNP contributed to nomination of a
+DINP-related molecular axis, while MCOP provided the viable human
+biomarker test; these entities remain chemically distinct. Independent
+CRC transcriptomics implicate the same broad nuclear-receptor/PPAR
+biology, but the present data do not demonstrate that DINP or MCOP
+induces the observed epithelial state or that PPAR remodeling mediates
+the epidemiologic association. Direct intestinal epithelial or organoid
+perturbation experiments are required to test that bridge.</p>
+<p>The study&#39;s principal strength is design transparency rather than
+causal depth. Candidate-selection rules were separated from CRC outcome
+statistics, the multiplicity denominator was defined at the unique
+biomarker-test level, competing FDR-supported signals were subjected to
+the same robustness audit, and disease-state transcriptomics were
+interpreted independently of the exposure association. The next decisive
+steps are prospective or prediagnostic replication of the MCOP-CRC
+association and controlled intestinal epithelial experiments that test
+whether DINP-related exposure can reproduce the state-specific
+nuclear-receptor remodeling observed in CRC.</p>
+<p>Conclusion</p>
+<p>The data-first screen identified urinary MCOP as the only biomarker
+meeting the prespecified highest robustness tier for association with
+prevalent CRC. MCOP is commonly used to index DINP exposure, but the
+present study does not establish a parent-compound-specific or causal
+relationship. Independent CRC transcriptomics demonstrate
+epithelial-state-specific PPAR/nuclear-receptor remodeling, providing
+biological convergence while leaving the environmental-to-epithelial
+causal bridge open for direct testing.</p>
+<p>Figure Legends</p>
+<p><strong>Figure 1.</strong> Study framework: data-first discovery,
+outcome firewall, human screening, robustness audit, and independent
+disease-state analysis.</p>
+<p><strong>Figure 2.</strong> Outcome-blinded actionability defines the
+human screening universe. (A) Prespecified gates reduced 267 core
+environmental chemicals to 87 human-testable chemical–biomarker
+mappings. CRC outcome statistics remained behind the outcome firewall
+until the biomarker-test universe was frozen; 27 mappings met the strict
+D2/C2/T2 rule. (B) The 87 eligible mappings represented 15 unique NHANES
+biomarker tests, which formed the denominator for BH-FDR correction.
+Point area reflects the number of eligible chemical mappings and color
+denotes biological matrix. (C) MiNP, parent DINP and urinary MCOP
+retained distinct roles. MiNP was a molecular nominee but failed the
+direct-detectability gate, parent DINP was not a significant Phase 1
+hit, and MCOP entered the human screen as a measurable biomarker for a
+DINP-related exposure axis. Biomarker translation does not imply
+chemical equivalence or a direct MCOP molecular hit.</p>
+<p><strong>Figure 3.</strong> Complete 15-test systematic human screen,
+FDR-supported signals (MCOP and PFHS), and the primary MCOP
+estimate.</p>
+<p><strong>Figure 4.</strong> MCOP robustness evaluation:
+leave-one-cycle-out stability, sensitivity analyses, cycle
+heterogeneity, and secondary exposure-shape characterization.</p>
+<p><strong>Figure 5.</strong> CRC disease-state convergence across
+platforms and cell compartments. (A) Paired tumor–normal analyses show
+lower PPAR/nuclear-receptor scores in TCGA bulk and two epithelial
+datasets. (B) Donor-level epithelial changes show concurrent PPAR/NR
+decrease and RELA/STAT3 increase without implying mediation. (C)
+Compartment analysis shows an epithelial decrease, no material
+endothelial change and an opposite myeloid increase. Within-epithelial
+state-specific analyses are reported in Supplementary Fig. S4. These
+disease-state data do not establish an environmental causal bridge.</p>
+<p>References</p>
+<p>1. Bray F, Laversanne M, Sung H, Ferlay J, Siegel RL, Soerjomataram
+I, Jemal A. Global cancer statistics 2022: GLOBOCAN estimates of
+incidence and mortality worldwide for 36 cancers in 185 countries. CA
+Cancer J Clin. 2024;74(3):229-263. doi:10.3322/caac.21834.</p>
+<p>2. Keum N, Giovannucci E. Global burden of colorectal cancer:
+emerging trends, risk factors and prevention strategies. Nat Rev
+Gastroenterol Hepatol. 2019;16(12):713-732.
+doi:10.1038/s41575-019-0189-8.</p>
+<p>3. Wild CP. Complementing the genome with an &quot;exposome&quot;: the
+outstanding challenge of environmental exposure measurement in molecular
+epidemiology. Cancer Epidemiol Biomarkers Prev. 2005;14(8):1847-1850.
+doi:10.1158/1055-9965.EPI-05-0456.</p>
+<p>4. Wild CP, Scalbert A, Herceg Z. Measuring the exposome: a powerful
+basis for evaluating environmental exposures and cancer risk. Environ
+Mol Mutagen. 2013;54(7):480-499. doi:10.1002/em.21777.</p>
+<p>5. Vineis P, Barouki R. The exposome as the science of
+social-to-biological transitions. Environ Int. 2022;165:107312.
+doi:10.1016/j.envint.2022.107312.</p>
+<p>6. Juarez PD, Matthews-Juarez P. Applying an Exposome-Wide (ExWAS)
+Approach to Cancer Research. Front Oncol. 2018;8:313.
+doi:10.3389/fonc.2018.00313.</p>
+<p>7. Young AS, Mullins CE, Sehgal N, et al. The need for a cancer
+exposome atlas: a scoping review. JNCI Cancer Spectr. 2025;9(1):pkae122.
+doi:10.1093/jncics/pkae122.</p>
+<p>8. Davis AP, Wiegers TC, Johnson RJ, Sciaky D, Wiegers J, Mattingly
+CJ. Comparative Toxicogenomics Database (CTD): update 2023. Nucleic
+Acids Res. 2023;51(D1):D1257-D1262. doi:10.1093/nar/gkac833.</p>
+<p>9. Stelzer G, Rosen N, Plaschkes I, et al. The GeneCards Suite: From
+Gene Data Mining to Disease Genome Sequence Analyses. Curr Protoc
+Bioinformatics. 2016;54:1.30.1-1.30.33. doi:10.1002/cpbi.5.</p>
+<p>10. Benjamini Y, Hochberg Y. Controlling the False Discovery Rate: A
+Practical and Powerful Approach to Multiple Testing. J R Stat Soc Series
+B. 1995;57(1):289-300.</p>
+<p>11. Lumley T. Analysis of Complex Survey Samples. J Stat Softw.
+2004;9(8):1-19. doi:10.18637/jss.v009.i08.</p>
+<p>12. National Center for Health Statistics. National Health and
+Nutrition Examination Survey: Analytic Guidelines, 2011-2014 and
+2015-2016. Centers for Disease Control and Prevention.</p>
+<p>13. Silva MJ, Reidy JA, Preau JL Jr, Needham LL, Calafat AM.
+Oxidative metabolites of diisononyl phthalate as biomarkers for human
+exposure assessment. Environ Health Perspect. 2006;114(8):1158-1161.
+doi:10.1289/ehp.8865.</p>
+<p>14. Calafat AM, Wong LY, Silva MJ, Samandar E, Preau JL Jr, Jia LT,
+Needham LL. Selecting adequate exposure biomarkers of diisononyl and
+diisodecyl phthalates: data from the 2005-2006 National Health and
+Nutrition Examination Survey. Environ Health Perspect.
+2011;119(1):50-55. doi:10.1289/ehp.1002316.</p>
+<p>15. Koch HM, Angerer J. Di-iso-nonylphthalate (DINP) metabolites in
+human urine after a single oral dose of deuterium-labelled DINP. Int J
+Hyg Environ Health. 2007;210(1):9-19.
+doi:10.1016/j.ijheh.2006.11.008.</p>
+<p>16. Saravanabhavan G, Murray J. Human biological monitoring of
+diisononyl phthalate and diisodecyl phthalate: a review. J Environ
+Public Health. 2012;2012:810501. doi:10.1155/2012/810501.</p>
+<p>17. Buckley JP, Kim H, Wong E, Rebholz CM. Ultra-processed food
+consumption and exposure to phthalates and bisphenols in the US National
+Health and Nutrition Examination Survey, 2013-2014. Environ Int.
+2019;131:105057. doi:10.1016/j.envint.2019.105057.</p>
+<p>18. Steenland K, Winquist A. PFAS and cancer, a scoping review of the
+epidemiologic evidence. Environ Res. 2021;194:110690.
+doi:10.1016/j.envres.2020.110690.</p>
+<p>19. Kee KH, Seo JI, Kim SM, Shiea J, Yoo HH. Per- and polyfluoroalkyl
+substances (PFAS): Trends in mass spectrometric analysis for human
+biomonitoring and exposure patterns from recent global cohort studies.
+Environ Int. 2024;193:109117. doi:10.1016/j.envint.2024.109117.</p>
+<p>20. Cook Botelho J, et al. Per- and polyfluoroalkyl substances (PFAS)
+exposure in the U.S. population: NHANES 1999-March 2020. Environ Res.
+2025. doi:10.1016/j.envres.2025.120916.</p>
+<p>21. Paudel D, Li H, Holzhausen EA, et al. A scoping review on per-
+and poly-fluoroalkyl substances (PFAS) and colorectal cancer: Evidence
+from in vitro, animal, and epidemiological studies. Environ Int.
+2025;203:109778. doi:10.1016/j.envint.2025.109778.</p>
+<p>22. Park JI, Kwak JY. The role of peroxisome proliferator-activated
+receptors in colorectal cancer. PPAR Res. 2012;2012:876418.
+doi:10.1155/2012/876418.</p>
+<p>23. Voutsadakis IA. Peroxisome proliferator-activated receptor gamma
+(PPARgamma) and colorectal carcinogenesis. J Cancer Res Clin Oncol.
+2007;133(12):917-928. doi:10.1007/s00432-007-0277-y.</p>
+<p>24. Dai Y, Wang WH. Peroxisome proliferator-activated receptor gamma
+and colorectal cancer. World J Gastrointest Oncol. 2010;2(3):159-164.
+doi:10.4251/wjgo.v2.i3.159.</p>
+<p>25. Ogino S, Shima K, Baba Y, et al. Colorectal cancer expression of
+PPARG (peroxisome proliferator-activated receptor-gamma) is associated
+with good prognosis. Gastroenterology. 2009;136(4):1242-1250.
+doi:10.1053/j.gastro.2008.12.048.</p>
+<p>26. Manickasamy MK, Jayaprakash S, Girisa S, et al. Delineating the
+role of nuclear receptors in colorectal cancer, a focused review. Discov
+Oncol. 2024;15(1):41. doi:10.1007/s12672-023-00808-x.</p>
+<p>27. Joanito I, Wirapati P, Zhao N, et al. Single-cell and bulk
+transcriptome sequencing identifies two epithelial tumor cell states and
+refines the consensus molecular classification of colorectal cancer. Nat
+Genet. 2022;54(7):963-975. doi:10.1038/s41588-022-01100-4.</p>
+<p>28. Becker WR, Nevins SA, Chen DC, et al. Single-cell analyses define
+a continuum of cell state and composition changes in the malignant
+transformation of polyps to colorectal cancer. Nat Genet.
+2022;54(7):985-995. doi:10.1038/s41588-022-01088-x.</p>
+<p>29. Patel CJ, Bhattacharya J, Butte AJ. An Environment-Wide
+Association Study (EWAS) on type 2 diabetes mellitus. PLoS One.
+2010;5(5):e10746. doi:10.1371/journal.pone.0010746.</p>
+<p>30. Zheng Y, Chen Z, Pearson T, Zhao J, Hu H, Prosperi M. Design and
+methodology challenges of environment-wide association studies: A
+systematic review. Environ Res. 2020;183:109275.
+doi:10.1016/j.envres.2020.109275.</p>
+<p>31. Johnson CL, Paulose-Ram R, Ogden CL, et al. National health and
+nutrition examination survey: analytic guidelines, 1999-2010. Vital
+Health Stat 2. 2013;(161):1-24.</p>
+<p>32. Chen TC, Clark J, Riddles MK, Mohadjer LK, Fakhouri THI. National
+Health and Nutrition Examination Survey, 2015-2018: Sample Design and
+Estimation Procedures. Vital Health Stat 2. 2020;(184):1-35.</p>
+<p>33. Frederiksen H, Kranich SK, Jørgensen N, et al. Temporal
+variability in urinary phthalate metabolite excretion based on spot,
+morning, and 24-h urine samples: considerations for epidemiological
+studies. Environ Sci Technol. 2013;47(2):958-967.
+doi:10.1021/es303640b.</p>
+<p>34. Bastiaensen M, Malarvannan G, Gys C, et al. Between- and
+within-individual variability of urinary phthalate and alternative
+plasticizer metabolites in spot, morning void and 24-h pooled urine
+samples. Environ Res. 2020;191:110248.
+doi:10.1016/j.envres.2020.110248.</p>
+<p>35. Fromme H, Bolte G, Koch HM, et al. Occurrence and daily variation
+of phthalate metabolites in the urine of an adult population. Int J Hyg
+Environ Health. 2007;210(1):21-33. doi:10.1016/j.ijheh.2006.09.005.</p>
+<p>36. Khaliq AM, Erdogan C, Kurt Z, et al. Refining colorectal cancer
+classification and clinical stratification through a single-cell atlas.
+Genome Biol. 2022;23(1):113. doi:10.1186/s13059-022-02677-z.</p>
+<p>37. Sell T, Klotz C, Fischer MM, et al. Oncogenic signaling is
+coupled to colorectal cancer cell differentiation state. J Cell Biol.
+2023;222(6):e202204001. doi:10.1083/jcb.202204001.</p>
+<p>38. Zowada MK, Tirier SM, Dieter SM, et al. Functional States in
+Tumor-Initiating Cell Differentiation in Human Colorectal Cancer.
+Cancers (Basel). 2021;13(5):1097. doi:10.3390/cancers13051097.</p>
+</body>
+</html>

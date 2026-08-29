@@ -1,0 +1,1 @@
+[{"category": "NetworkNeighborAL", "term": "CL:10807", "number_of_genes": 2, "number_of_genes_in_background": 17, "ncbiTaxonId": 9606, "inputGenes": ["PALM2AKAP2", "AKAP1"], "preferredNames": ["PALM2AKAP2", "AKAP1"], "p_value": 8.81e-07, "fdr": 0.004, "description": "cAMP-dependent protein kinase complex, and Protein kinase A regulatory subunit binding"}]

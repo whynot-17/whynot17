@@ -1,0 +1,1 @@
+[{"category": "NetworkNeighborAL", "term": "CL:31558", "number_of_genes": 2, "number_of_genes_in_background": 5, "ncbiTaxonId": 9606, "inputGenes": ["SIPA1L3", "LZTS3"], "preferredNames": ["SIPA1L3", "LZTS3"], "p_value": 1.08e-07, "fdr": 0.0005, "description": "Leucine zipper putative tumor suppressor, and C-terminal domain of SPAR protein"}]

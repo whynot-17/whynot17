@@ -1,0 +1,1 @@
+[{"category": "NetworkNeighborAL", "term": "CL:36854", "number_of_genes": 2, "number_of_genes_in_background": 5, "ncbiTaxonId": 9606, "inputGenes": ["TMEM184C", "PRMT9"], "preferredNames": ["TMEM184C", "PRMT9"], "p_value": 1.08e-07, "fdr": 0.0005, "description": "Mixed, incl. Protein FAM133, and Organic solute transporter Ostalpha"}]

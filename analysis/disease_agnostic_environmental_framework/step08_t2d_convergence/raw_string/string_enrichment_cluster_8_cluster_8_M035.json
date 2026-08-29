@@ -1,0 +1,1 @@
+[{"category": "NetworkNeighborAL", "term": "CL:35632", "number_of_genes": 2, "number_of_genes_in_background": 7, "ncbiTaxonId": 9606, "inputGenes": ["WRAP73", "ZBTB40"], "preferredNames": ["WRAP73", "ZBTB40"], "p_value": 1.86e-07, "fdr": 0.00085, "description": "Mixed, incl. Tumor protein p63-regulated gene 1-like, and Intraciliary transport involved in cilium assembly"}]

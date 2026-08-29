@@ -1,0 +1,1 @@
+[{"category": "NetworkNeighborAL", "term": "CL:25928", "number_of_genes": 2, "number_of_genes_in_background": 18, "ncbiTaxonId": 9606, "inputGenes": ["STK36", "KIF27"], "preferredNames": ["STK36", "KIF27"], "p_value": 9.79e-07, "fdr": 0.0045, "description": "Hedgehog signaling pathway, and Ligand-receptor interactions"}]
