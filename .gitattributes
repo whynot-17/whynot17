@@ -2,7 +2,7 @@
 /work/**/raw/** filter=lfs diff=lfs merge=lfs -text
 /work/**/data/** filter=lfs diff=lfs merge=lfs -text
 /work/**/environmental_xpt/** filter=lfs diff=lfs merge=lfs -text
-/work/**/census_staged_cache/** filter=lfs diff=lfs merge=lfs -text
+/work/**/census_staged_cache/**/*.csv.gz filter=lfs diff=lfs merge=lfs -text
 /analysis/**/raw_geo/** filter=lfs diff=lfs merge=lfs -text
 /analysis/**/raw_gprofiler/** filter=lfs diff=lfs merge=lfs -text
 /outputs/mcop_phase2f_singlecell_observation_metadata_audit.csv filter=lfs diff=lfs merge=lfs -text
