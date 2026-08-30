@@ -1,0 +1,4 @@
+branch_class,status,query_n_genes,retrieved_n_terms,significant_n_terms,sources,background_n_genes,background_definition,domain_scope,multiple_testing,user_threshold,accessed_at_utc,endpoint
+thyroid-specific,OK,30,1871,0,GO:BP;REAC;KEGG,828,all 828 M1b expanded-universe gene symbols,custom,g:SCS,0.05,2026-08-30T07:50:33.686118+00:00,https://biit.cs.ut.ee/gprofiler/api/gost/profile/
+hypertension-specific,OK,251,6508,0,GO:BP;REAC;KEGG,828,all 828 M1b expanded-universe gene symbols,custom,g:SCS,0.05,2026-08-30T07:50:38.568871+00:00,https://biit.cs.ut.ee/gprofiler/api/gost/profile/
+shared,OK,189,6952,148,GO:BP;REAC;KEGG,828,all 828 M1b expanded-universe gene symbols,custom,g:SCS,0.05,2026-08-30T07:50:46.637800+00:00,https://biit.cs.ut.ee/gprofiler/api/gost/profile/

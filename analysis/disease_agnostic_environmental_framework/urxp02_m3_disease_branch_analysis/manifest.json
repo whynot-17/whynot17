@@ -1,0 +1,256 @@
+{
+  "analysis": "URXP02 M3 disease-branch enrichment and PPI/module analysis",
+  "generated_at_utc": "2026-08-30T07:51:15.206537+00:00",
+  "inputs": {
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\urxp02_m2_disease_branch\\03_branch_gene_classification.csv": "0f8beee123de6a1ba6106450d82d3f6f3bad24983004071c99f4fa831c4ab6bb",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\urxp02_m2_disease_branch\\04_branch_evidence_summary.csv": "9655f1964cf77b06dd7a6a80bc2d8bc9f4c4ded2eef64b5bd723c242933af858"
+  },
+  "enrichment_branch_counts": {
+    "thyroid-specific": 30,
+    "hypertension-specific": 251,
+    "shared": 189
+  },
+  "network_branch_counts": {
+    "thyroid-branch": 219,
+    "hypertension-branch": 440,
+    "shared-core": 189
+  },
+  "intersection_counts": {
+    "thyroid_branch_total": 219,
+    "hypertension_branch_total": 440,
+    "shared": 189
+  },
+  "evidence_composition": {
+    "thyroid-specific": {
+      "n_genes": 30,
+      "exact_2NAP_human": 0,
+      "exact_2NAP_experimental": 0,
+      "parent_naphthalene": 30,
+      "multi_source_ge2": 0,
+      "CTD": 20,
+      "toxicogenomic": 10,
+      "bioassay_target": 10
+    },
+    "hypertension-specific": {
+      "n_genes": 251,
+      "exact_2NAP_human": 26,
+      "exact_2NAP_experimental": 4,
+      "parent_naphthalene": 244,
+      "multi_source_ge2": 11,
+      "CTD": 166,
+      "toxicogenomic": 95,
+      "bioassay_target": 95
+    },
+    "shared": {
+      "n_genes": 189,
+      "exact_2NAP_human": 34,
+      "exact_2NAP_experimental": 2,
+      "parent_naphthalene": 185,
+      "multi_source_ge2": 17,
+      "CTD": 117,
+      "toxicogenomic": 89,
+      "bioassay_target": 88
+    }
+  },
+  "enrichment": {
+    "service": "g:Profiler g:GOSt",
+    "endpoint": "https://biit.cs.ut.ee/gprofiler/api/gost/profile/",
+    "organism": "hsapiens",
+    "sources": [
+      "GO:BP",
+      "REAC",
+      "KEGG"
+    ],
+    "background": "all 828 M1b expanded-universe gene symbols",
+    "domain_scope": "custom",
+    "user_threshold": 0.05,
+    "multiple_testing": "g:SCS",
+    "all_results": true,
+    "no_evidences": true,
+    "audit": [
+      {
+        "branch_class": "thyroid-specific",
+        "status": "OK",
+        "query_n_genes": 30,
+        "retrieved_n_terms": 1871,
+        "significant_n_terms": 0,
+        "sources": "GO:BP;REAC;KEGG",
+        "background_n_genes": 828,
+        "background_definition": "all 828 M1b expanded-universe gene symbols",
+        "domain_scope": "custom",
+        "multiple_testing": "g:SCS",
+        "user_threshold": 0.05,
+        "accessed_at_utc": "2026-08-30T07:50:33.686118+00:00",
+        "endpoint": "https://biit.cs.ut.ee/gprofiler/api/gost/profile/"
+      },
+      {
+        "branch_class": "hypertension-specific",
+        "status": "OK",
+        "query_n_genes": 251,
+        "retrieved_n_terms": 6508,
+        "significant_n_terms": 0,
+        "sources": "GO:BP;REAC;KEGG",
+        "background_n_genes": 828,
+        "background_definition": "all 828 M1b expanded-universe gene symbols",
+        "domain_scope": "custom",
+        "multiple_testing": "g:SCS",
+        "user_threshold": 0.05,
+        "accessed_at_utc": "2026-08-30T07:50:38.568871+00:00",
+        "endpoint": "https://biit.cs.ut.ee/gprofiler/api/gost/profile/"
+      },
+      {
+        "branch_class": "shared",
+        "status": "OK",
+        "query_n_genes": 189,
+        "retrieved_n_terms": 6952,
+        "significant_n_terms": 148,
+        "sources": "GO:BP;REAC;KEGG",
+        "background_n_genes": 828,
+        "background_definition": "all 828 M1b expanded-universe gene symbols",
+        "domain_scope": "custom",
+        "multiple_testing": "g:SCS",
+        "user_threshold": 0.05,
+        "accessed_at_utc": "2026-08-30T07:50:46.637800+00:00",
+        "endpoint": "https://biit.cs.ut.ee/gprofiler/api/gost/profile/"
+      }
+    ]
+  },
+  "ppi": {
+    "database": "STRING",
+    "base": "https://string-db.org/api/json",
+    "species": 9606,
+    "required_score": 700,
+    "network_type": "functional",
+    "add_nodes": 0,
+    "module_algorithm": "NetworkX greedy_modularity_communities(weight=score)",
+    "centrality_rule": "top 10% by degree, betweenness, or PageRank",
+    "metrics": [
+      {
+        "branch_class": "thyroid-branch",
+        "input_n_genes": 219,
+        "string_mapped_n_genes": 219,
+        "network_n_nodes": 219,
+        "network_n_edges": 1058,
+        "network_n_components": 33,
+        "largest_component_n": 186,
+        "network_density": 0.04432156172761929,
+        "average_node_degree": 9.662100456621005,
+        "average_clustering_weighted": 0.32087395425993837,
+        "module_n": 39,
+        "module_largest_n": 47,
+        "ppi_enrichment_n_nodes": 219,
+        "ppi_enrichment_n_edges": 1058,
+        "ppi_enrichment_average_node_degree": 9.66,
+        "ppi_enrichment_expected_edges": 364,
+        "ppi_enrichment_p_value": 0.0,
+        "branch_exact_2NAP_human_n": 34,
+        "branch_exact_2NAP_experimental_n": 2,
+        "branch_parent_naphthalene_n": 215,
+        "branch_multi_source_ge2_n": 17,
+        "required_score": 700,
+        "network_type": "functional",
+        "species": 9606,
+        "accessed_at_utc": "2026-08-30T07:50:54.272243+00:00",
+        "source_database": "STRING"
+      },
+      {
+        "branch_class": "hypertension-branch",
+        "input_n_genes": 440,
+        "string_mapped_n_genes": 437,
+        "network_n_nodes": 440,
+        "network_n_edges": 2360,
+        "network_n_components": 52,
+        "largest_component_n": 387,
+        "network_density": 0.024435700973286394,
+        "average_node_degree": 10.727272727272727,
+        "average_clustering_weighted": 0.3348308473357532,
+        "module_n": 61,
+        "module_largest_n": 152,
+        "ppi_enrichment_n_nodes": 437,
+        "ppi_enrichment_n_edges": 2360,
+        "ppi_enrichment_average_node_degree": 10.8,
+        "ppi_enrichment_expected_edges": 955,
+        "ppi_enrichment_p_value": 0.0,
+        "branch_exact_2NAP_human_n": 60,
+        "branch_exact_2NAP_experimental_n": 6,
+        "branch_parent_naphthalene_n": 429,
+        "branch_multi_source_ge2_n": 28,
+        "required_score": 700,
+        "network_type": "functional",
+        "species": 9606,
+        "accessed_at_utc": "2026-08-30T07:51:00.550986+00:00",
+        "source_database": "STRING"
+      },
+      {
+        "branch_class": "shared-core",
+        "input_n_genes": 189,
+        "string_mapped_n_genes": 189,
+        "network_n_nodes": 189,
+        "network_n_edges": 978,
+        "network_n_components": 23,
+        "largest_component_n": 166,
+        "network_density": 0.05504896994258696,
+        "average_node_degree": 10.34920634920635,
+        "average_clustering_weighted": 0.34913001805308896,
+        "module_n": 29,
+        "module_largest_n": 60,
+        "ppi_enrichment_n_nodes": 189,
+        "ppi_enrichment_n_edges": 978,
+        "ppi_enrichment_average_node_degree": 10.35,
+        "ppi_enrichment_expected_edges": 310,
+        "ppi_enrichment_p_value": 0.0,
+        "branch_exact_2NAP_human_n": 34,
+        "branch_exact_2NAP_experimental_n": 2,
+        "branch_parent_naphthalene_n": 185,
+        "branch_multi_source_ge2_n": 17,
+        "required_score": 700,
+        "network_type": "functional",
+        "species": 9606,
+        "accessed_at_utc": "2026-08-30T07:51:09.311524+00:00",
+        "source_database": "STRING"
+      }
+    ]
+  },
+  "constraints": [
+    "No figures",
+    "No NHANES rerun",
+    "No single-cell/tissue analysis",
+    "No sex-specific molecular claim",
+    "No pathway-to-disease causality claim",
+    "No composite hub score"
+  ],
+  "files": {
+    "01_enrichment_results.csv": {
+      "sha256": "a768efc4d0cade57d0c1e13a4519b3b59feae73963f50395d0feb0b24dd6a799",
+      "bytes": 6656715
+    },
+    "02_enrichment_audit.csv": {
+      "sha256": "3e671e371d514215001ec977c913389be6903b525be7a56a2942ba26b7a2f4ab",
+      "bytes": 776
+    },
+    "03_ppi_edges.csv": {
+      "sha256": "b6ccb2e8a901323e5cf612050af068981fd36188551c56c3f9ecd375b63cbe5d",
+      "bytes": 650940
+    },
+    "04_ppi_node_centrality.csv": {
+      "sha256": "613573953057d743374cd909e3590610731d398560a28747b3beaf6633ef33b0",
+      "bytes": 182778
+    },
+    "05_ppi_modules.csv": {
+      "sha256": "734dfd3f45622aca70996aac9b4eb12c69da8397e0351de36fbeb8029a33f735",
+      "bytes": 417575
+    },
+    "06_ppi_network_metrics.csv": {
+      "sha256": "fdc8157273c9adb19896ed39dea76d7b795ed179fb469b41bbd93ae1a09ec27e",
+      "bytes": 1125
+    },
+    "07_shared_hub_candidates.csv": {
+      "sha256": "14ed4f89d25ff5123e10e5bdbe3219e5510c4c2af2163bfd29522189ddbaca7d",
+      "bytes": 49784
+    },
+    "URXP02_M3_DISEASE_BRANCH_REPORT.md": {
+      "sha256": "500baabd003b23cc20043c5939468558530475767ca01158c3e52b6c2a32240c",
+      "bytes": 2856
+    }
+  }
+}
