@@ -1,0 +1,5 @@
+branch_class,n_genes,n_exact_2NAP_human,n_exact_2NAP_experimental,n_parent_naphthalene_support,n_multi_source_ge2,n_human_any,n_bioassay_target_support,n_toxicogenomic_support,n_CTD_support
+thyroid-specific,30,0,0,30,0,0,10,10,20
+hypertension-specific,251,26,4,244,11,26,95,95,166
+shared,189,34,2,185,17,34,88,89,117
+neither,358,19,30,325,6,19,132,178,185

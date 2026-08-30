@@ -1,0 +1,56 @@
+{
+  "analysis": "URXP02 M2 disease branching",
+  "generated_at_utc": "2026-08-30T07:34:46.940811+00:00",
+  "inputs": {
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\urxp02_expanded_molecular_universe\\05_gene_evidence_summary.csv": "06c4ee237e97f51512017f0dd4e768c9dc8311f091edf285aa20070a0baf125e",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\urxp02_mechanism_gene_discovery\\02_thyroid_disease_genes.csv": "6259d2fe293b5a6f398ec5a45de76cfcd877436b54cee0e05a13269f5f3ead64",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\urxp02_mechanism_gene_discovery\\03_hypertension_disease_genes.csv": "9f33647476b28452a32fcc27b84aff379eb26631aa8f1b5fe9a79f61efc1af6b"
+  },
+  "disease_sources": {
+    "thyroid": "Open Targets direct associations inherited from M1",
+    "hypertension": "Open Targets direct associations inherited from M1"
+  },
+  "counts": {
+    "expanded_universe": 828,
+    "thyroid_intersection": 219,
+    "hypertension_intersection": 440,
+    "thyroid_specific": 30,
+    "hypertension_specific": 251,
+    "shared": 189,
+    "neither": 358
+  },
+  "evidence_layers": [
+    "exact_2NAP_human_support",
+    "exact_2NAP_experimental_support",
+    "number_of_sources >= 2"
+  ],
+  "constraints": [
+    "No pathway enrichment",
+    "No PPI/module/hub analysis",
+    "No tissue/cell analysis",
+    "No NHANES model",
+    "No sex-specific molecular claim"
+  ],
+  "files": {
+    "01_828_thyroid_intersection.csv": {
+      "sha256": "ce5238b7c37fe611bb6920d0ccd242e124949bad097a2ddec80078a21d6122e2",
+      "bytes": 76612
+    },
+    "02_828_hypertension_intersection.csv": {
+      "sha256": "e7db6d3989a5a22fc265d48c5c2afbc11dc3f514136c1fba075f3f212423f3e0",
+      "bytes": 149747
+    },
+    "03_branch_gene_classification.csv": {
+      "sha256": "0f8beee123de6a1ba6106450d82d3f6f3bad24983004071c99f4fa831c4ab6bb",
+      "bytes": 262313
+    },
+    "04_branch_evidence_summary.csv": {
+      "sha256": "9655f1964cf77b06dd7a6a80bc2d8bc9f4c4ded2eef64b5bd723c242933af858",
+      "bytes": 361
+    },
+    "URXP02_M2_DISEASE_BRANCH_REPORT.md": {
+      "sha256": "8776aca810f5311835f3b901e3412660cabac154b8f4905d50a2173e39044079",
+      "bytes": 944
+    }
+  }
+}
