@@ -1,0 +1,32 @@
+{
+  "analysis": "RECIPROCAL_EFFECT_EXISTENCE_SCREEN",
+  "run_timestamp_utc": "2026-08-30T06:16:54.112332+00:00",
+  "source_scope": "Frozen primary coefficients plus prior directional_fork_pair_scan strict rows only",
+  "models_refit": false,
+  "robustness_read": false,
+  "external_data_accessed": false,
+  "figures_generated": false,
+  "quartiles_or_splines_created": false,
+  "literature_or_mechanism_analysis": false,
+  "new_fdr_calculated": false,
+  "fixed_bh_denominator": 406,
+  "input_hashes": {
+    "sex_divergence_primary_406.csv": "f21c5c535921026e3afbdb2dffe7844103caab06c9400d31cd0468ec9ff42ca2",
+    "directional_fork_pair_scan.csv": "ff4094007c982ef59c3dbb97c015f8bb3b7830896d398e0e0f0e17076a27eb1d"
+  },
+  "input_interaction_supported_pairs": 80,
+  "z_cutoff": 1.96,
+  "endpoint_rules": {
+    "male_A": "male_beta > 0 and female_beta <= 0 and male_beta/male_se >= 1.96",
+    "female_B": "female_beta > 0 and male_beta <= 0 and female_beta/female_se >= 1.96",
+    "interaction_direction": "A beta_interaction < 0; B beta_interaction > 0"
+  },
+  "observed_passing_pairs": 2,
+  "observed_passing_exposures": 2,
+  "outputs": [
+    "reciprocal_exemplar_pairs.csv",
+    "reciprocal_existence_scan_summary.csv",
+    "RECIPROCAL_EXISTENCE_SCAN_REPORT.md",
+    "reciprocal_existence_scan_manifest.json"
+  ]
+}

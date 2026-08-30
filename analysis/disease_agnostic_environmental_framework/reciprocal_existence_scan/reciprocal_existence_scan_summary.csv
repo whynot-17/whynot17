@@ -1,0 +1,11 @@
+metric,value
+frozen_primary_rows,406
+frozen_exposures,29
+frozen_outcomes,14
+interaction_supported_input_pairs,80
+male_endpoint_z_pass_pair_occurrences,16
+female_endpoint_z_pass_pair_occurrences,12
+both_endpoint_z_pass_pairs,2
+exposures_with_both_endpoint_z_pass_pairs,2
+fixed406_q_recalculated,False
+robustness_read,False
