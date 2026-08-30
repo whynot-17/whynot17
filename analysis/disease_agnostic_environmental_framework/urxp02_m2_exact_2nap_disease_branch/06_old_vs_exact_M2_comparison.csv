@@ -1,0 +1,9 @@
+comparison,old_category,old_n,exact_category,exact_n,overlap_n,removed_n,survival_percent,removed_percent,old_shared_parent_only_n,notes
+overall universe,old expanded universe,828,exact 2-NAP universe,110,110,718,13.285,86.715,0,Exact universe is a hard identity filter over M1b; parent-only genes are excluded.
+thyroid intersection,old 828 ∩ thyroid,219,exact 110 ∩ thyroid,34,34,185,15.5251,84.4749,0,Survival of the old thyroid disease intersection under exact restriction.
+hypertension intersection,old 828 ∩ hypertension,440,exact 110 ∩ hypertension,63,63,377,14.3182,85.6818,0,Survival of the old hypertension disease intersection under exact restriction.
+thyroid-specific branch,old thyroid-specific,30,exact thyroid-specific,0,0,30,0.0,100.0,0,No exact 2-NAP gene remains thyroid-specific under the frozen disease definitions.
+hypertension-specific branch,old hypertension-specific,251,exact hypertension-specific,29,29,222,11.5538,88.4462,0,Exact restriction retains a small hypertension-specific branch.
+shared core,old shared,189,exact shared,34,34,155,17.9894,82.0106,155,The old shared core is reduced to 34 genes; 155/189 are not exact 2-NAP genes and are parent-expanded removals.
+neither branch,old neither,358,exact neither,47,47,311,13.1285,86.8715,0,Exact genes outside both frozen disease lists.
+exact partition identity,not applicable,110,thyroid-specific + hypertension-specific + shared + neither,110,110,0,100.0,0.0,0,0 + 29 + 34 + 47 = 110; mandatory identity check passed.

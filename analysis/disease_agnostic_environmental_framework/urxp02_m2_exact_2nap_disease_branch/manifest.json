@@ -1,0 +1,78 @@
+{
+  "analysis": "URXP02 M2-RESET exact 2-NAP disease branching",
+  "generated_at_utc": "2026-08-30T13:35:38.192492+00:00",
+  "primary_universe": {
+    "chemical": "2-naphthol",
+    "ctd_id": "C028405",
+    "pubchem_cid": 8663,
+    "chembl_id": "CHEMBL14126",
+    "exact_identity": "CTD:C028405; PubChem CID:8663; ChEMBL:CHEMBL14126",
+    "evidence_rows": 524,
+    "unique_gene_symbols": 110,
+    "parent_naphthalene_only_included": false
+  },
+  "disease_definitions": {
+    "thyroid": {
+      "id": "MONDO_0003240",
+      "source": "Open Targets direct associations",
+      "enableIndirect": false
+    },
+    "hypertension": {
+      "id": "HP_0000822",
+      "source": "Open Targets direct associations",
+      "enableIndirect": false
+    }
+  },
+  "counts": {
+    "exact_universe": 110,
+    "thyroid_specific": 0,
+    "hypertension_specific": 29,
+    "shared": 34,
+    "neither": 47
+  },
+  "mandatory_identity_check": "0 + 29 + 34 + 47 = 110",
+  "old_m2_counts": {
+    "neither": 358,
+    "hypertension_specific": 251,
+    "shared": 189,
+    "thyroid_specific": 30
+  },
+  "inputs_sha256": {
+    "analysis\\disease_agnostic_environmental_framework\\urxp02_expanded_molecular_universe\\04_unified_gene_evidence_long.csv": "7cbd8434a20d7420eb066036f2f16139403581e6b5fc2c01e8602020335e147b",
+    "analysis\\disease_agnostic_environmental_framework\\urxp02_expanded_molecular_universe\\05_gene_evidence_summary.csv": "06c4ee237e97f51512017f0dd4e768c9dc8311f091edf285aa20070a0baf125e",
+    "analysis\\disease_agnostic_environmental_framework\\urxp02_mechanism_gene_discovery\\02_thyroid_disease_genes.csv": "6259d2fe293b5a6f398ec5a45de76cfcd877436b54cee0e05a13269f5f3ead64",
+    "analysis\\disease_agnostic_environmental_framework\\urxp02_mechanism_gene_discovery\\03_hypertension_disease_genes.csv": "9f33647476b28452a32fcc27b84aff379eb26631aa8f1b5fe9a79f61efc1af6b",
+    "analysis\\disease_agnostic_environmental_framework\\urxp02_m2_disease_branch\\03_branch_gene_classification.csv": "0f8beee123de6a1ba6106450d82d3f6f3bad24983004071c99f4fa831c4ab6bb",
+    "analysis\\disease_agnostic_environmental_framework\\urxp02_m2_disease_branch\\manifest.json": "6e0fcc41c1e06be55137a4b3685346d5765872e574a4cb1daaecccc5b8c9c23b"
+  },
+  "outputs_sha256": {
+    "01_exact_2NAP_110_gene_universe.csv": "0e3006af45c3a38eedf23eec4cb5859be80e2c2a8379f5d3508c8c96a05ffab6",
+    "02_exact_2NAP_thyroid_intersection.csv": "49a5962d9d80a44dfddf45984f62cf3fa7dc6a7cb3c905fc5776301314ea7f7b",
+    "03_exact_2NAP_hypertension_intersection.csv": "88957bc8ec9a006891ae02bb19121fb3ad2ee51152af1b5d42c6e893cc997a56",
+    "04_exact_2NAP_branch_classification.csv": "f827cbb7d526c943ad388d405bc79447fa2684450b4db57d49146b2c0774b2c8",
+    "05_exact_2NAP_branch_evidence_summary.csv": "a1a90a454973b56ef3694e1bb1a0142c5c42eb016c408c8426445fb83872f4d7",
+    "06_old_vs_exact_M2_comparison.csv": "26ba52dca43c02f4974f6552b21c3f8076e8391f939d8c51e6497650dc4ac774",
+    "M2_EXACT_2NAP_DISEASE_BRANCH_REPORT.md": "0f00ac4c3543dbb32ed31ad411c65e4d1ae26190e14b1e1d7e56a0863a063925"
+  },
+  "constraints": [
+    "Parent naphthalene-only evidence excluded from primary universe",
+    "No disease broadening",
+    "No enrichment",
+    "No PPI/STRING/modules",
+    "No GTEx or sex-DE",
+    "No single-cell analysis",
+    "No figures",
+    "No new NHANES analysis",
+    "No causal interpretation"
+  ],
+  "output_files": [
+    "01_exact_2NAP_110_gene_universe.csv",
+    "02_exact_2NAP_thyroid_intersection.csv",
+    "03_exact_2NAP_hypertension_intersection.csv",
+    "04_exact_2NAP_branch_classification.csv",
+    "05_exact_2NAP_branch_evidence_summary.csv",
+    "06_old_vs_exact_M2_comparison.csv",
+    "M2_EXACT_2NAP_DISEASE_BRANCH_REPORT.md",
+    "manifest.json"
+  ]
+}
