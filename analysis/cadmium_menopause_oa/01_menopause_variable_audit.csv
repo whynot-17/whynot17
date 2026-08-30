@@ -1,0 +1,9 @@
+cycle,rhq_file,menstrual_variable,reason_variable,post_reason_codes,rhq_rows,rhq_female_rows,rhq_pre_n,rhq_post_n,rhq_unclassified_n,source_url,urine_oa_female_n,urine_oa_pre_n,urine_oa_post_n,urine_oa_pre_cases,urine_oa_post_cases
+2003-2004,2003-2004_RHQ_C.xpt,RHQ031,RHD042,7,3564,3564,1981,1140,443,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/RHQ_C.XPT,675,287,304,4,96
+2005-2006,2005-2006_RHQ_D.xpt,RHQ031,RHD042,7,3597,3597,2188,960,449,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/RHQ_D.XPT,668,373,205,7,48
+2007-2008,2007-2008_RHQ_E.xpt,RHQ031,RHD042,7,3484,3484,1681,1395,408,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/RHQ_E.XPT,734,353,293,10,91
+2009-2010,2009-2010_RHQ_F.xpt,RHQ031,RHD042,7,3745,3745,1811,1327,607,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/RHQ_F.XPT,863,405,312,19,71
+2011-2012,2011-2012_RHQ_G.xpt,RHQ031,RHD042,7,3298,3298,1608,1202,488,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/RHQ_G.XPT,737,323,277,9,106
+2013-2014,2013-2014_RHQ_H.xpt,RHQ031,RHD043,3;7,3618,3618,1823,1310,485,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/RHQ_H.XPT,814,376,330,15,111
+2015-2016,2015-2016_RHQ_I.xpt,RHQ031,RHD043,3;7,3471,3471,1699,1268,504,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/RHQ_I.XPT,806,371,303,21,105
+2017-2018,2017-2018_RHQ_J.xpt,RHQ031,RHD043,3;7,3286,3286,1552,1316,418,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/RHQ_J.XPT,727,299,335,5,124

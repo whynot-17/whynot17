@@ -1,0 +1,93 @@
+{
+  "analysis": "Female pre/post-menopause urinary Cd x OA audit",
+  "cycles": [
+    "2003-2004",
+    "2005-2006",
+    "2007-2008",
+    "2009-2010",
+    "2011-2012",
+    "2013-2014",
+    "2015-2016",
+    "2017-2018"
+  ],
+  "exposure": {
+    "test_id": "NHANES_URXUCD",
+    "variable": "URXUCD",
+    "log_transform": "log2",
+    "weight": "WTSA2YR"
+  },
+  "menopause_mapping": {
+    "pre": "RHQ031=1",
+    "post": "RHQ031=2 and reason code 7 (2003-2012) or codes 3/7 (2013-2018)",
+    "reason_variables": {
+      "2003-2012": "RHD042",
+      "2013-2018": "RHD043"
+    }
+  },
+  "formal_model": "female-only OA ~ log2(URXUCD) + post_menopause + log2(URXUCD):post_menopause + log2(URXUCR) + log2(URXUCR):post_menopause + age + age^2 + race + PIR + smoking + cycle FE",
+  "no_new_fdr": true,
+  "inputs": {
+    "old_subtype_script": "35ad206ef9f02e70fadf87428a95f19ede38a278f3c3bed59960cdd578cebe08",
+    "comparison_script": "29c3a7ec2722fbf096fabb259db4451641adf216c198f7b2bc227f5726b7141e",
+    "sensitivity_fit_script": "65889223e88debaf8c9c170a428a226f398cfd691d78f4080d182b5e1ec5dca7",
+    "tests": "6b284b23d69f74991fc28978c85c1e39d10f096e2fd4d42290046df8224c3a9e",
+    "registry": "6db7f7c171bc912d054b56725d3412616197f087abd7446b0fd554c9ff125646",
+    "2003-2004_ALB_CR.XPT": "577f7ca1af1b146c9eba640b8a5a2b33de731d97cb40de91d07b49df9b1545b4",
+    "2005-2006_ALB_CR.XPT": "694c4d9bd6e966b8973f31c64fb89f8577896717f7049551f8fa044c7c366a7b",
+    "2007-2008_ALB_CR.XPT": "6bf8018a465499043d5aeb89ac6d38ab4bc25a126ec663979bbbeffe0afdc2d8",
+    "2009-2010_ALB_CR.XPT": "f902e8892db69054e8898022dc1ced19770cc2fa613bf2655455f6a4f1cfbb67",
+    "2011-2012_ALB_CR.XPT": "46c5733d0bdb1d4bbe841614a3e6ef6b9dab8501f455af4f841cc43a312e579d",
+    "2013-2014_ALB_CR.XPT": "65adbd6c87541464e69fa2da54fb2c5e9e0c198fa322943a21ccbcacd8c40670",
+    "2015-2016_ALB_CR.XPT": "af61c16db8d9e96549bf0fb446049ff0631ae1ccf7e2dcd017d28edba84dbe3d",
+    "2017-2018_ALB_CR.XPT": "0017a7b8d87d29009923e22300b4ec393b06c9bbf6147eb6b2d777aca605bcbf",
+    "2003-2004_RHQ_C.xpt": "6325269eaf3ab31029657318178394c510d6979a3e08ad50d2dd516ac2c89325",
+    "2003-2004_DEMO.XPT": "2a2fdb88263337bfa06f0516bfb419631595f0a0ee88fb96069bed13d1857c6f",
+    "2003-2004_MCQ.XPT": "42487737067c5dbdf533bb91b5f752d1fff1dfa9eed91c7ae54ab5e49b65b019",
+    "2003-2004_SMQ.XPT": "fbfe1e4b286ab43fdc3fd84c3830bb241b8b5ca84b3ab5902b8808e4136efc2c",
+    "2005-2006_RHQ_D.xpt": "28b22a215bc17ccfa56cf7325e2180cbb947ee24b5c411f27dd7fd4422ee9659",
+    "2005-2006_DEMO.XPT": "bf9cc79cce501b2fbe5aa8d5b403b618548d02d4aefeb528335cdd9f4c40a3af",
+    "2005-2006_MCQ.XPT": "12bf5f557c97284e096a8cd8aefbc8e3ab9f12a410c2f50474c4dfddd2ebf6f4",
+    "2005-2006_SMQ.XPT": "ef82433aca1a36ba2310a624ccdbaf195e2a258a88af0f284ef2a58d36be3011",
+    "2007-2008_RHQ_E.xpt": "62f3a3d58da43c895625edbbb1277473babac12a323b6fdc6f7a05c55153c1ec",
+    "2007-2008_DEMO.XPT": "02b8e97703d04bc99769c751881bece51ac9ba68cf18a2992a45d3bdfb856147",
+    "2007-2008_MCQ.XPT": "dfbe11c6b036ec4e79aeba7805833fc4951c74662a9510066c3a93932f6990e6",
+    "2007-2008_SMQ.XPT": "881865ee05f4b2be0c03c761f00ad8e355f2cc5e7d3be41666edef6f3dca5862",
+    "2009-2010_RHQ_F.xpt": "0f0d739529624064d703357174e308fda3b7dfdaf00068e900fa65518a194642",
+    "2009-2010_DEMO.XPT": "78c4d4a6e5eafa9da3bbb24a90d140fef5d8c0cda932a7ff8ee609288d4fae07",
+    "2009-2010_MCQ.XPT": "c2f0f9223c6a9e38e5bf6d26501c4b11d3cfd97b82db46e1c9c266f24761c457",
+    "2009-2010_SMQ.XPT": "ee85c82ea55046eb7bf491088b5bb9efecbea8aaf66ae8c89123bad23a5f1901",
+    "2011-2012_RHQ_G.xpt": "2433723ab21c589d51a41811bde25723726c9e928f312505c4ffb06fa81281e0",
+    "2011-2012_DEMO.XPT": "eaf0525d1952626885af3e935415a1f66ad62c18698080e7354789c125af252d",
+    "2011-2012_MCQ.XPT": "7538eb86c72b81fd5e76b56120fcb068ed38149d44650e9e750670ad58658d52",
+    "2011-2012_SMQ.XPT": "69f2375f036a815082b1e97110e79c505b91e0985c61696f8eaacf94828115dc",
+    "2013-2014_RHQ_H.xpt": "d8f2f2a8bacf3e8d260094ed5a4f974af05cd51865c2fffa1275d325ad46063d",
+    "2013-2014_DEMO.XPT": "f8f0cbb3085a323d4cde22349b164878fea1e64dbc404e65b5815c7816b547d7",
+    "2013-2014_MCQ.XPT": "5c83210e6e1fe929282621322ed0f94d95cdb0a37ccaff36f703ab0b2e7b9dc6",
+    "2013-2014_SMQ.XPT": "86d74bb8842ce6d60350944417cbd3e9ee39dd5a9fa1bda33426f276b673861f",
+    "2015-2016_RHQ_I.xpt": "471c93fc2d27f8e9aad1a5a2ed235f43b02973cbc88fd2d0b058b2ee40ee317c",
+    "2015-2016_DEMO.XPT": "c9297c6c37ae8f78f29be9568fa2a03cf3b112616a39afee04030fc775a66a0d",
+    "2015-2016_MCQ.XPT": "8b2bd62f5bcd5820d6aac380e4bad233d22ecab42fcf4a3a9a023ffc6b9f4002",
+    "2015-2016_SMQ.XPT": "529ce1c407e99dce937ca75d14c8c630e0c9c30a4a9a851760cd2884bbb28fe0",
+    "2017-2018_RHQ_J.xpt": "c919896216154ea207470dd84e428f5fdd65ced39735148c78fb6032e0b77a7b",
+    "2017-2018_DEMO.XPT": "c0b46e0345ea19404928656277c8b0d10b0cca348a9b2fe4fc3c67e8b7ee73ec",
+    "2017-2018_MCQ.XPT": "79c50c805a377fcd61d44fae8b86a16af0a5741f8b1aeebda918d7d743c68f98",
+    "2017-2018_SMQ.XPT": "73c3708e540cbf520a566508aa629c3e4ba53cad77dae9388ca36384646455f4"
+  },
+  "outputs": [
+    "01_menopause_variable_audit.csv",
+    "02_menopause_sample_counts.csv",
+    "03_menopause_models.csv",
+    "CD_MENOPAUSE_OA_REPORT.md",
+    "manifest.json"
+  ],
+  "prohibited_not_run": [
+    "new outcomes",
+    "new biomarker comparison",
+    "new FDR",
+    "mechanism",
+    "literature",
+    "figures",
+    "external cohort modeling"
+  ],
+  "run_timestamp_utc": "2026-08-30T15:01:20.009303+00:00"
+}
