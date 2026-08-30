@@ -1,0 +1,42 @@
+{
+  "analysis": "RECIPROCAL_EXEMPLAR_FOCUSED_ROBUSTNESS",
+  "run_timestamp_utc": "2026-08-30T06:22:15.152874+00:00",
+  "scope": "URXP02 thyroid disease -> hypertension and URXUSN any cancer history -> asthma",
+  "source_scope": "Existing frozen primary, uniform robustness, and cycle heterogeneity CSVs only",
+  "models_refit": false,
+  "new_sensitivity_added": false,
+  "new_fdr_calculated": false,
+  "external_data_accessed": false,
+  "figures_generated": false,
+  "input_hashes": {
+    "sex_divergence_primary_406.csv": "f21c5c535921026e3afbdb2dffe7844103caab06c9400d31cd0468ec9ff42ca2",
+    "primary_robustness_uniform_results.csv": "ffe6d9926547894f8294e4144aa7554780dd48f680025529e7400b21ee47fbdc",
+    "primary_robustness_cycle_heterogeneity.csv": "3bf734c45382ea7ab7a841c5119940a620300b399c4abec896e613561e971b17",
+    "directional_fork_pair_scan.csv": "ff4094007c982ef59c3dbb97c015f8bb3b7830896d398e0e0f0e17076a27eb1d"
+  },
+  "targets": [
+    {
+      "test_id": "NHANES_URXP02",
+      "male_endpoint": "thyroid_disease",
+      "female_endpoint": "hypertension"
+    },
+    {
+      "test_id": "NHANES_URXUSN",
+      "male_endpoint": "any_cancer_history",
+      "female_endpoint": "asthma"
+    }
+  ],
+  "diagnostics": [
+    "urinary_creatinine_sex_specific",
+    "LOCO",
+    "winsorize_cycle_1_99pct",
+    "delete_cycle_upper_1pct",
+    "above_LOD_only",
+    "cycle_heterogeneity"
+  ],
+  "outputs": [
+    "reciprocal_exemplar_robustness.csv",
+    "RECIPROCAL_EXEMPLAR_ROBUSTNESS_REPORT.md",
+    "reciprocal_exemplar_robustness_manifest.json"
+  ]
+}
