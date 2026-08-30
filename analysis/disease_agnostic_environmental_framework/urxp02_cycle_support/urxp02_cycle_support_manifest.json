@@ -1,0 +1,50 @@
+{
+  "analysis": "URXP02_CYCLE_SUPPORT_AUDIT",
+  "run_timestamp_utc": "2026-08-30T06:36:23.948505+00:00",
+  "scope": "URXP02 thyroid disease and hypertension across exposure-supported cycles",
+  "inputs": {
+    "sex_divergence_primary_406.csv": "f21c5c535921026e3afbdb2dffe7844103caab06c9400d31cd0468ec9ff42ca2",
+    "primary_robustness_uniform_results.csv": "ffe6d9926547894f8294e4144aa7554780dd48f680025529e7400b21ee47fbdc",
+    "outcome_cycle_sex_audit.csv": "a54a2809fcebb635ced34fedd5bd8c682595a0715d18f36c7648eb146d4fbb4b"
+  },
+  "models_refit": false,
+  "robustness_recomputed": false,
+  "external_data_accessed": false,
+  "cycles": [
+    "2001-2002",
+    "2003-2004",
+    "2005-2006",
+    "2007-2008",
+    "2009-2010",
+    "2011-2012",
+    "2013-2014",
+    "2015-2016"
+  ],
+  "cycle_count": 8,
+  "common_outcome_definable_cycles": [
+    "2003-2004",
+    "2005-2006",
+    "2007-2008",
+    "2009-2010",
+    "2011-2012",
+    "2013-2014",
+    "2015-2016"
+  ],
+  "common_outcome_definable_cycle_count": 7,
+  "thyroid_no_op_loco_cycles": [
+    "2001-2002"
+  ],
+  "outcomes": [
+    "thyroid_disease",
+    "hypertension"
+  ],
+  "all_exposure_cycles_both_outcomes_available": false,
+  "common_cycles_both_outcomes_available": true,
+  "common_cycles_both_endpoints_have_both_sex_cases": true,
+  "common_cycles_both_endpoints_effective_in_model": true,
+  "outputs": [
+    "urxp02_cycle_support_audit.csv",
+    "URXP02_CYCLE_SUPPORT_REPORT.md",
+    "urxp02_cycle_support_manifest.json"
+  ]
+}
