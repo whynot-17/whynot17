@@ -1,0 +1,108 @@
+{
+  "analysis": "URXP02 / 2-naphthol gene-level mechanism discovery",
+  "generated_at_utc": "2026-08-30T07:01:45.269904+00:00",
+  "chemical_identity": {
+    "chemical_name": "2-naphthol",
+    "chemical_id": "C028405",
+    "casrn": "135-19-3",
+    "pubchem_cid": "",
+    "mesh_synonyms": "2-hydroxynaphthalene|2-naphthol, (1+)|2-naphthol, 1,4,5,8-(14)C4-labeled|2-naphthol, 7-(14)C-labeled|2-naphthol, 8-(14)C-labeled|2-naphthol, bismuth salt|2-naphthol, magnesium salt|2-naphthol, potassium salt|2-naphthol, sodium salt|2-naphthol, titanium(4+) salt|beta-naphthol",
+    "ctd_curated_synonyms": "2-hydroxy-naphthalene|2-NAP|2NAP|2-OHNa|2-OH-Naph|2OH-Naph",
+    "matched_exact_aliases": "2-naphthol;2-hydroxynaphthalene;2-NAP;2NAP;2-hydroxy-naphthalene",
+    "excluded_near_matches": "1-naphthol;2-naphthyl sulfate;parent naphthalene;unrelated naphthol derivatives"
+  },
+  "ctd_source_file": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\environmental_toxicology_crc_phase1\\data\\CTD_chem_gene_ixns.tsv.gz",
+  "ctd_source_sha256": "05e1b0d2d93bb33f72659e6ed2d590304cdb58da9538c787ad51fc6624d0e055",
+  "disease_gene_source": "Open Targets Platform GraphQL direct target-disease associations (enableIndirect=false)",
+  "graphql_endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+  "disease_queries": {
+    "thyroid": {
+      "id": "MONDO_0003240",
+      "name": "thyroid gland disorder",
+      "direct_gene_count": 2079
+    },
+    "hypertension": {
+      "id": "HP_0000822",
+      "name": "Hypertension",
+      "direct_gene_count": 4979
+    }
+  },
+  "ctd_human_gene_count": 9,
+  "intersection_counts": {
+    "thyroid": 3,
+    "hypertension": 7,
+    "thyroid_specific": 0,
+    "hypertension_specific": 4,
+    "shared": 3
+  },
+  "enrichment": {
+    "service": "g:Profiler g:GOSt",
+    "endpoint": "https://biit.cs.ut.ee/gprofiler/api/gost/profile/",
+    "sources": [
+      "GO:BP",
+      "KEGG",
+      "REAC"
+    ],
+    "background": "all 2-NAP CTD human genes",
+    "domain_scope": "custom",
+    "multiple_testing": "g:SCS",
+    "interpretation": "descriptive; no pathway forced"
+  },
+  "constraints": [
+    "No NHANES model rerun",
+    "No other exposure analyzed",
+    "No figures",
+    "No sex-specific gene claim",
+    "CTD links are not treated as causality"
+  ],
+  "files": {
+    "01_2NAP_CTD_human_genes.csv": {
+      "sha256": "185cb8154111b98633e4b2bcdcd9a89396c671e7141df0fae81fd0513912ced9",
+      "bytes": 2592
+    },
+    "02_thyroid_disease_genes.csv": {
+      "sha256": "6259d2fe293b5a6f398ec5a45de76cfcd877436b54cee0e05a13269f5f3ead64",
+      "bytes": 366756
+    },
+    "03_hypertension_disease_genes.csv": {
+      "sha256": "9f33647476b28452a32fcc27b84aff379eb26631aa8f1b5fe9a79f61efc1af6b",
+      "bytes": 821343
+    },
+    "04_2NAP_thyroid_intersection.csv": {
+      "sha256": "ab6c17b144d117f017803a8ccd5922c0bacd4764369f5bbd32de02b202717a34",
+      "bytes": 1297
+    },
+    "05_2NAP_hypertension_intersection.csv": {
+      "sha256": "a84a3f0099df40239c8c54c50527084ca4998b94745aed865268426aea68899c",
+      "bytes": 2713
+    },
+    "06_branch_gene_classification.csv": {
+      "sha256": "2d1664e24df2c78b8705ff7c2519612edc94766ea646ac3a5498650e08e6e37d",
+      "bytes": 359
+    },
+    "07_candidate_gene_evidence_matrix.csv": {
+      "sha256": "41acef8ad7c53773a6c8c364aaf9d827dbc41911afc0ff26271f56488e1e240d",
+      "bytes": 2139
+    },
+    "08_thyroid_branch_enrichment.csv": {
+      "sha256": "40d6eb0f1875da8b361deafe34221b84a8ec63ea19e8d9b3c2db2f263928c933",
+      "bytes": 73
+    },
+    "09_hypertension_branch_enrichment.csv": {
+      "sha256": "49bb2ebc9c4bcff635582f872b3d9fefd0c39eefc53bebe6772c42116f835940",
+      "bytes": 112
+    },
+    "10_shared_branch_enrichment.csv": {
+      "sha256": "7573085c330d9bf4e6e43b256b645e0f3855df1f009c9ce8318f24d337f08973",
+      "bytes": 90
+    },
+    "11_cell_mapping_candidate_genes.csv": {
+      "sha256": "1d7062ef43c3f8f08796435bc066db370dc30310d423dd86a4eecd278681a135",
+      "bytes": 1511
+    },
+    "URXP02_MECHANISM_GENE_REPORT.md": {
+      "sha256": "81a7385f63f93b94c0115d5f164c1ba111f35c5bf6c9fb28eb9a9ef5a0fbf085",
+      "bytes": 2646
+    }
+  }
+}

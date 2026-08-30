@@ -1,0 +1,8 @@
+gene_symbol,in_2nap_ctd,in_thyroid_disease_set,in_hypertension_disease_set,branch_class
+CES1,True,False,True,hypertension-specific
+CYP1A1,True,True,True,shared
+CYP1A2,True,False,True,hypertension-specific
+CYP2B6,True,True,True,shared
+CYP2E1,True,False,True,hypertension-specific
+CYP3A4,True,False,True,hypertension-specific
+THRB,True,True,True,shared

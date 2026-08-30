@@ -1,0 +1,8 @@
+gene_symbol,candidate_branch,priority_tier,exposure_supported,disease_supported,pathway_supported_at_set_level,ctd_raw_rows,ctd_unique_reference_count,thyroid_disease_relevance_score,thyroid_disease_rank,hypertension_disease_relevance_score,hypertension_disease_rank,candidate_selection_note
+CYP3A4,hypertension-specific,Priority 2,True,True,False,1,1,,,0.050329021583208004,331,Exposure+disease evidence; pathway flag is set-level only. No sex-specific claim.
+CYP1A2,hypertension-specific,Priority 2,True,True,False,3,3,,,0.03398876205184365,543,Exposure+disease evidence; pathway flag is set-level only. No sex-specific claim.
+CES1,hypertension-specific,Priority 2,True,True,False,1,1,,,0.010040252718934398,1814,Exposure+disease evidence; pathway flag is set-level only. No sex-specific claim.
+CYP2E1,hypertension-specific,Priority 2,True,True,False,1,1,,,0.009359882418787676,1922,Exposure+disease evidence; pathway flag is set-level only. No sex-specific claim.
+CYP1A1,shared,Priority 2,True,True,False,1,1,0.0037573951892944687,1311,0.032721047162329854,572,Exposure+disease evidence; pathway flag is set-level only. No sex-specific claim.
+THRB,shared,Priority 2,True,True,False,1,1,0.011997595746015055,746,0.0036957985468470188,3372,Exposure+disease evidence; pathway flag is set-level only. No sex-specific claim.
+CYP2B6,shared,Priority 2,True,True,False,1,1,0.0022174791281082107,1723,0.011071665456953976,1664,Exposure+disease evidence; pathway flag is set-level only. No sex-specific claim.
