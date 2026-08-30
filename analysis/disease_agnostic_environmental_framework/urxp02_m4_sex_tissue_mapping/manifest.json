@@ -1,0 +1,204 @@
+{
+  "analysis": "URXP02 M4 sex-biased tissue mapping",
+  "generated_at_utc": "2026-08-30T08:15:51.395992+00:00",
+  "inputs": {
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\urxp02_m2_disease_branch\\03_branch_gene_classification.csv": "0f8beee123de6a1ba6106450d82d3f6f3bad24983004071c99f4fa831c4ab6bb",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\urxp02_m3_disease_branch_analysis\\07_shared_hub_candidates.csv": "14ed4f89d25ff5123e10e5bdbe3219e5510c4c2af2163bfd29522189ddbaca7d",
+    "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\urxp02_m3_disease_branch_analysis\\04_ppi_node_centrality.csv": "613573953057d743374cd909e3590610731d398560a28747b3beaf6633ef33b0"
+  },
+  "data_source": {
+    "release": "GTEx V11",
+    "annotation": "GENCODE v47 / GRCh38",
+    "expression_unit": "GTEx RNASeQCv2.4.3 gene TPM",
+    "preprocessing": "log2(TPM + 1)",
+    "download_records": [
+      {
+        "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\urxp02_m4_gtex_cache\\GTEx_Analysis_v11_Annotations_SampleAttributesDS.txt",
+        "url": "https://storage.googleapis.com/adult-gtex/annotations/v11/metadata-files/GTEx_Analysis_v11_Annotations_SampleAttributesDS.txt",
+        "expected_bytes": 38497961,
+        "downloaded_bytes": 38497961,
+        "status": "cached"
+      },
+      {
+        "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\urxp02_m4_gtex_cache\\GTEx_Analysis_v11_Annotations_SubjectPhenotypesDS.txt",
+        "url": "https://storage.googleapis.com/adult-gtex/annotations/v11/metadata-files/GTEx_Analysis_v11_Annotations_SubjectPhenotypesDS.txt",
+        "expected_bytes": 20292,
+        "downloaded_bytes": 20292,
+        "status": "cached"
+      },
+      {
+        "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\urxp02_m4_gtex_cache\\gene_tpm_adult_gtex_v11_adrenal_gland.gct.gz",
+        "url": "https://storage.googleapis.com/adult-gtex/bulk-gex/v11/rna-seq/tpms-by-tissue/gene_tpm_adult_gtex_v11_adrenal_gland.gct.gz",
+        "expected_bytes": 41103905,
+        "downloaded_bytes": 41103905,
+        "status": "cached"
+      },
+      {
+        "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\urxp02_m4_gtex_cache\\gene_tpm_adult_gtex_v11_artery_aorta.gct.gz",
+        "url": "https://storage.googleapis.com/adult-gtex/bulk-gex/v11/rna-seq/tpms-by-tissue/gene_tpm_adult_gtex_v11_artery_aorta.gct.gz",
+        "expected_bytes": 65015914,
+        "downloaded_bytes": 65015914,
+        "status": "cached"
+      },
+      {
+        "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\urxp02_m4_gtex_cache\\gene_tpm_adult_gtex_v11_artery_coronary.gct.gz",
+        "url": "https://storage.googleapis.com/adult-gtex/bulk-gex/v11/rna-seq/tpms-by-tissue/gene_tpm_adult_gtex_v11_artery_coronary.gct.gz",
+        "expected_bytes": 38421930,
+        "downloaded_bytes": 38421930,
+        "status": "cached"
+      },
+      {
+        "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\urxp02_m4_gtex_cache\\gene_tpm_adult_gtex_v11_artery_tibial.gct.gz",
+        "url": "https://storage.googleapis.com/adult-gtex/bulk-gex/v11/rna-seq/tpms-by-tissue/gene_tpm_adult_gtex_v11_artery_tibial.gct.gz",
+        "expected_bytes": 91486177,
+        "downloaded_bytes": 91486177,
+        "status": "cached"
+      },
+      {
+        "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\urxp02_m4_gtex_cache\\gene_tpm_adult_gtex_v11_heart_atrial_appendage.gct.gz",
+        "url": "https://storage.googleapis.com/adult-gtex/bulk-gex/v11/rna-seq/tpms-by-tissue/gene_tpm_adult_gtex_v11_heart_atrial_appendage.gct.gz",
+        "expected_bytes": 62725376,
+        "downloaded_bytes": 62725376,
+        "status": "cached"
+      },
+      {
+        "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\urxp02_m4_gtex_cache\\gene_tpm_adult_gtex_v11_heart_left_ventricle.gct.gz",
+        "url": "https://storage.googleapis.com/adult-gtex/bulk-gex/v11/rna-seq/tpms-by-tissue/gene_tpm_adult_gtex_v11_heart_left_ventricle.gct.gz",
+        "expected_bytes": 57103443,
+        "downloaded_bytes": 57103443,
+        "status": "cached"
+      },
+      {
+        "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\urxp02_m4_gtex_cache\\gene_tpm_adult_gtex_v11_kidney_cortex.gct.gz",
+        "url": "https://storage.googleapis.com/adult-gtex/bulk-gex/v11/rna-seq/tpms-by-tissue/gene_tpm_adult_gtex_v11_kidney_cortex.gct.gz",
+        "expected_bytes": 15673209,
+        "downloaded_bytes": 15673209,
+        "status": "cached"
+      },
+      {
+        "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\urxp02_m4_gtex_cache\\gene_tpm_adult_gtex_v11_liver.gct.gz",
+        "url": "https://storage.googleapis.com/adult-gtex/bulk-gex/v11/rna-seq/tpms-by-tissue/gene_tpm_adult_gtex_v11_liver.gct.gz",
+        "expected_bytes": 34581723,
+        "downloaded_bytes": 34581723,
+        "status": "cached"
+      },
+      {
+        "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\urxp02_m4_gtex_cache\\gene_tpm_adult_gtex_v11_thyroid.gct.gz",
+        "url": "https://storage.googleapis.com/adult-gtex/bulk-gex/v11/rna-seq/tpms-by-tissue/gene_tpm_adult_gtex_v11_thyroid.gct.gz",
+        "expected_bytes": 100006375,
+        "downloaded_bytes": 100006375,
+        "status": "cached"
+      }
+    ]
+  },
+  "tissue_panel": {
+    "Thyroid": {
+      "role": "thyroid disease-relevant tissue",
+      "file": "gene_tpm_adult_gtex_v11_thyroid.gct.gz",
+      "bytes": 100006375
+    },
+    "Artery - Aorta": {
+      "role": "hypertension/cardiovascular tissue",
+      "file": "gene_tpm_adult_gtex_v11_artery_aorta.gct.gz",
+      "bytes": 65015914
+    },
+    "Artery - Tibial": {
+      "role": "hypertension/cardiovascular tissue",
+      "file": "gene_tpm_adult_gtex_v11_artery_tibial.gct.gz",
+      "bytes": 91486177
+    },
+    "Artery - Coronary": {
+      "role": "hypertension/cardiovascular tissue",
+      "file": "gene_tpm_adult_gtex_v11_artery_coronary.gct.gz",
+      "bytes": 38421930
+    },
+    "Heart - Left Ventricle": {
+      "role": "hypertension/cardiovascular tissue",
+      "file": "gene_tpm_adult_gtex_v11_heart_left_ventricle.gct.gz",
+      "bytes": 57103443
+    },
+    "Heart - Atrial Appendage": {
+      "role": "hypertension/cardiovascular tissue",
+      "file": "gene_tpm_adult_gtex_v11_heart_atrial_appendage.gct.gz",
+      "bytes": 62725376
+    },
+    "Kidney - Cortex": {
+      "role": "hypertension/renal tissue",
+      "file": "gene_tpm_adult_gtex_v11_kidney_cortex.gct.gz",
+      "bytes": 15673209
+    },
+    "Adrenal Gland": {
+      "role": "hypertension/endocrine tissue",
+      "file": "gene_tpm_adult_gtex_v11_adrenal_gland.gct.gz",
+      "bytes": 41103905
+    },
+    "Liver": {
+      "role": "optional toxicokinetic/metabolism reference only",
+      "file": "gene_tpm_adult_gtex_v11_liver.gct.gz",
+      "bytes": 34581723
+    }
+  },
+  "model": {
+    "formula": "log2(TPM+1) ~ female + age_midpoint + RIN + ischemic_time + sequencing_center + RNA_extraction_protocol",
+    "sex_contrast": "female - male",
+    "meaningful_effect_threshold_abs_log2_tpm1": 0.25,
+    "fine_batch_handling": "SMGEBTCH audited but omitted from the primary model due high cardinality across small tissues"
+  },
+  "multiple_testing": {
+    "shared": 1701,
+    "thyroid_branch": 1971,
+    "hypertension_branch": 3960,
+    "method": "Benjamini-Hochberg; p=1 for failed planned tests"
+  },
+  "gene_set_shift": {
+    "method": "two-sided Mann-Whitney rank shift of adjusted female-minus-male gene effects versus remaining frozen 828 universe",
+    "family": 45,
+    "method_fdr": "Benjamini-Hochberg"
+  },
+  "constraints": [
+    "No figures",
+    "No single-cell analysis",
+    "No new NHANES models",
+    "No causal claims",
+    "No sex-specific molecular claim without GTEx support",
+    "No pathway/PPI rerun"
+  ],
+  "files": {
+    "01_gtex_tissue_sample_audit.csv": {
+      "sha256": "6ef5176d5ceddf6f757d7dcbf104c9249f7494ac9520c31d67e2fd5525c7ac0d",
+      "bytes": 5107
+    },
+    "02_shared_core_sex_expression_by_tissue.csv": {
+      "sha256": "3028d0da70255f9f0fbfb15d16111214530da0413f35ee6ac8b18f6da78a4070",
+      "bytes": 1363873
+    },
+    "03_thyroid_branch_sex_expression_by_tissue.csv": {
+      "sha256": "abd1f23cb5bdcd41b4c8cc05d13006d5209a8eab5e4256fa80f83f3a61d0b7b1",
+      "bytes": 1587812
+    },
+    "04_hypertension_branch_sex_expression_by_tissue.csv": {
+      "sha256": "1679ffd1d224dee7fb4dcfe562a7b22350f34c16cb2d66621576dfb73fc78a1d",
+      "bytes": 3163582
+    },
+    "05_priority_hub_sex_tissue_audit.csv": {
+      "sha256": "4c8fd88b49f17907782f37d4cb8a84cac56baa2a567d996e3ca821c770f33624",
+      "bytes": 61253
+    },
+    "06_gene_set_sex_bias_summary.csv": {
+      "sha256": "be7bc675e5e596b4e8dcbba34003109ab31e45aac13005b3ce5a742abd584041",
+      "bytes": 20065
+    },
+    "07_branch_sex_bias_comparison.csv": {
+      "sha256": "95fd12843b7764473b906d885959ed3657e8305d0dcbdf5a8c86a0b0cf794838",
+      "bytes": 4443
+    },
+    "08_m5_single_cell_candidate_genes.csv": {
+      "sha256": "edefb92904c616f9a6c6196c7ec111472bfbca797a3da7c215f6e9f27634ab8c",
+      "bytes": 40402
+    },
+    "URXP02_M4_SEX_TISSUE_MAPPING_REPORT.md": {
+      "sha256": "1d0572acc2e7b7ffcef7fce7dc7fe72042ad471e56a8941f5f5f3db8e5c10aea",
+      "bytes": 3305
+    }
+  }
+}
