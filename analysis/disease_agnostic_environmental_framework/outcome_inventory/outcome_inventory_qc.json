@@ -1,0 +1,31 @@
+{
+  "audit_type": "OUTCOME_ONLY_SEX_SPECIFIC_FEASIBILITY_AUDIT",
+  "generated_utc": "2026-08-30T01:32:23.401276+00:00",
+  "data_dir": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\nhanes_phase2a\\data",
+  "candidate_count": 18,
+  "cycle_count": 10,
+  "input_allowlist": [
+    "*_DEMO.XPT",
+    "*_MCQ.XPT",
+    "*_BPQ.XPT",
+    "*_DIQ.XPT",
+    "cycle-specific HbA1c XPT",
+    "*_BMX.XPT"
+  ],
+  "explicitly_not_read": [
+    "exposure laboratory results",
+    "Step5 exposure associations",
+    "CRC/T2D association results",
+    "candidate chemical results"
+  ],
+  "screen_rule": "PASS: both pooled sex-specific cases >=100 and >=4 cycles; AMBER: either sex 50-99 (with >=4 cycles); FAIL: either sex <50 or <4 cycles.",
+  "status_counts": {
+    "PASS": 14,
+    "FAIL": 4
+  },
+  "output_hashes": {
+    "outcome_cycle_sex_audit.csv": "a54a2809fcebb635ced34fedd5bd8c682595a0715d18f36c7648eb146d4fbb4b",
+    "outcome_pooled_sex_audit.csv": "483eb1b07f678279d658e29cf262cab0f0b4717010545cefc32edb0526bf308e",
+    "frozen_outcome_set_v1.csv": "3d2ac6f399ee02e9954300e1bbbc20d62a1afb265ca531a13399322194c89786"
+  }
+}
