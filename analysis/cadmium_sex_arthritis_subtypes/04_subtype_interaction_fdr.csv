@@ -1,0 +1,7 @@
+endpoint_id,outcome_name,endpoint_class,interaction_p,subtype_family_bh_q,interaction_fdr_rank,fdr_denominator,interaction_beta,interaction_se,interaction_fdr_supported,interpretation_class,directional_pattern,fit_status
+any_arthritis,Any arthritis,reference,0.0001989133321804864,0.0011934799930829183,1,6,0.18947193062555825,0.049409132450937164,True,No convincing sex heterogeneity,female_enhanced_relative_slope_both_inverse,ok
+gout,Gout,primary_related_endpoint,0.022020408022913312,0.044040816045826624,3,6,0.3118185871131377,0.13390479282223822,True,No convincing sex heterogeneity,female_enhanced_relative_slope_both_inverse,ok
+osteoarthritis,Osteoarthritis (OA),primary_subtype,0.020975265146707906,0.044040816045826624,2,6,0.1747376820021667,0.07473017806919476,True,No convincing sex heterogeneity,female_enhanced_relative_slope_both_inverse,ok
+other_arthritis,Other arthritis,primary_subtype,0.5012104046666225,0.5012104046666225,6,6,0.09736970424114745,0.14434527933591668,False,No convincing sex heterogeneity,no_fdr_supported_directional_difference,ok
+psoriatic_arthritis,Psoriatic arthritis (PsA),exploratory,0.17713496627950442,0.2125619595354053,5,6,0.8549212760742488,0.6277196788529179,False,Unstable / non-estimable,no_fdr_supported_directional_difference,ok
+rheumatoid_arthritis,Rheumatoid arthritis (RA),primary_subtype,0.09721627921997714,0.14582441882996572,4,6,0.17486349200566828,0.10463733867447075,False,No convincing sex heterogeneity,no_fdr_supported_directional_difference,ok

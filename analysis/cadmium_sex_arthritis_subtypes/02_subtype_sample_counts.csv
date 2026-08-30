@@ -1,0 +1,7 @@
+endpoint_id,outcome_name,endpoint_class,analytic_n,total_cases,total_controls,male_n,female_n,male_cases,female_cases,male_controls,female_controls,n_contributing_cycles,contributing_cycles,male_cases_lt50,female_cases_lt50,total_cases_lt100,fit_status,fit_reason
+any_arthritis,Any arthritis,reference,12719,3422,9297,6233,6486,1451,1971,4782,4515,8,2003-2004;2005-2006;2007-2008;2009-2010;2011-2012;2013-2014;2015-2016;2017-2018,False,False,False,ok,
+gout,Gout,primary_related_endpoint,9829,491,9338,4836,4993,350,141,4486,4852,6,2007-2008;2009-2010;2011-2012;2013-2014;2015-2016;2017-2018,False,False,False,ok,
+osteoarthritis,Osteoarthritis (OA),primary_subtype,10606,1309,9297,5276,5330,494,815,4782,4515,8,2003-2004;2005-2006;2007-2008;2009-2010;2011-2012;2013-2014;2015-2016;2017-2018,False,False,False,ok,
+other_arthritis,Other arthritis,primary_subtype,9692,395,9297,4956,4736,174,221,4782,4515,8,2003-2004;2005-2006;2007-2008;2009-2010;2011-2012;2013-2014;2015-2016;2017-2018,False,False,False,ok,
+psoriatic_arthritis,Psoriatic arthritis (PsA),exploratory,5989,22,5967,3102,2887,15,7,3087,2880,5,2009-2010;2011-2012;2013-2014;2015-2016;2017-2018,True,True,True,ok,
+rheumatoid_arthritis,Rheumatoid arthritis (RA),primary_subtype,9950,653,9297,5069,4881,287,366,4782,4515,8,2003-2004;2005-2006;2007-2008;2009-2010;2011-2012;2013-2014;2015-2016;2017-2018,False,False,False,ok,

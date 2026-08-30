@@ -1,0 +1,261 @@
+{
+  "analysis": "Focused URXUCD x sex arthritis subtype analysis",
+  "run_timestamp_utc": "2026-08-30T14:19:53.090295+00:00",
+  "exposure": {
+    "test_id": "NHANES_URXUCD",
+    "variable": "URXUCD",
+    "matrix": "urine",
+    "log_transform": "log2",
+    "cycles": [
+      "2003-2004",
+      "2005-2006",
+      "2007-2008",
+      "2009-2010",
+      "2011-2012",
+      "2013-2014",
+      "2015-2016",
+      "2017-2018"
+    ],
+    "source_rows": [
+      {
+        "cycle": "2003-2004",
+        "data_file": "L06HM_C.xpt",
+        "variable": "URXUCD",
+        "weight_variable": "WTSA2YR",
+        "weight_multiplier": 1.0,
+        "local_xpt": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\nhanes_phase2a\\environmental_xpt\\2003-2004_L06HM_C.xpt"
+      },
+      {
+        "cycle": "2005-2006",
+        "data_file": "UHM_D.xpt",
+        "variable": "URXUCD",
+        "weight_variable": "WTSA2YR",
+        "weight_multiplier": 1.0,
+        "local_xpt": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\nhanes_phase2a\\environmental_xpt\\2005-2006_UHM_D.xpt"
+      },
+      {
+        "cycle": "2007-2008",
+        "data_file": "UHM_E.xpt",
+        "variable": "URXUCD",
+        "weight_variable": "WTSA2YR",
+        "weight_multiplier": 1.0,
+        "local_xpt": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\nhanes_phase2a\\environmental_xpt\\2007-2008_UHM_E.xpt"
+      },
+      {
+        "cycle": "2009-2010",
+        "data_file": "UHM_F.xpt",
+        "variable": "URXUCD",
+        "weight_variable": "WTSA2YR",
+        "weight_multiplier": 1.0,
+        "local_xpt": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\nhanes_phase2a\\environmental_xpt\\2009-2010_UHM_F.xpt"
+      },
+      {
+        "cycle": "2011-2012",
+        "data_file": "UHM_G.xpt",
+        "variable": "URXUCD",
+        "weight_variable": "WTSA2YR",
+        "weight_multiplier": 1.0,
+        "local_xpt": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\nhanes_phase2a\\environmental_xpt\\2011-2012_UHM_G.xpt"
+      },
+      {
+        "cycle": "2013-2014",
+        "data_file": "UM_H.xpt",
+        "variable": "URXUCD",
+        "weight_variable": "WTSA2YR",
+        "weight_multiplier": 1.0,
+        "local_xpt": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\nhanes_phase2a\\environmental_xpt\\2013-2014_UM_H.xpt"
+      },
+      {
+        "cycle": "2015-2016",
+        "data_file": "UM_I.xpt",
+        "variable": "URXUCD",
+        "weight_variable": "WTSA2YR",
+        "weight_multiplier": 1.0,
+        "local_xpt": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\nhanes_phase2a\\environmental_xpt\\2015-2016_UM_I.xpt"
+      },
+      {
+        "cycle": "2017-2018",
+        "data_file": "UM_J.xpt",
+        "variable": "URXUCD",
+        "weight_variable": "WTSA2YR",
+        "weight_multiplier": 1.0,
+        "local_xpt": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\nhanes_phase2a\\environmental_xpt\\2017-2018_UM_J.xpt"
+      }
+    ]
+  },
+  "outcomes": [
+    {
+      "endpoint_id": "any_arthritis",
+      "outcome_name": "Any arthritis",
+      "definition": "MCQ160A=1 (case) versus MCQ160A=2 (control); adults >=20.",
+      "endpoint_class": "reference"
+    },
+    {
+      "endpoint_id": "osteoarthritis",
+      "outcome_name": "Osteoarthritis (OA)",
+      "definition": "MCQ160A=1 and cycle-mapped arthritis subtype=OA versus MCQ160A=2; other arthritis subtypes excluded.",
+      "endpoint_class": "primary_subtype"
+    },
+    {
+      "endpoint_id": "rheumatoid_arthritis",
+      "outcome_name": "Rheumatoid arthritis (RA)",
+      "definition": "MCQ160A=1 and cycle-mapped arthritis subtype=RA versus MCQ160A=2; other arthritis subtypes excluded.",
+      "endpoint_class": "primary_subtype"
+    },
+    {
+      "endpoint_id": "psoriatic_arthritis",
+      "outcome_name": "Psoriatic arthritis (PsA)",
+      "definition": "MCQ160A=1 and cycle-mapped arthritis subtype=PsA versus MCQ160A=2; endpoint is exploratory.",
+      "endpoint_class": "exploratory"
+    },
+    {
+      "endpoint_id": "other_arthritis",
+      "outcome_name": "Other arthritis",
+      "definition": "MCQ160A=1 and cycle-mapped arthritis subtype=Other versus MCQ160A=2; refused/don't know/missing excluded.",
+      "endpoint_class": "primary_subtype"
+    },
+    {
+      "endpoint_id": "gout",
+      "outcome_name": "Gout",
+      "definition": "MCQ160N=1 (case) versus MCQ160N=2 (control); adults >=20.",
+      "endpoint_class": "primary_related_endpoint"
+    }
+  ],
+  "variable_mapping": {
+    "any_or_subtype_gate": "MCQ160A",
+    "subtype": {
+      "1999-2008": "MCQ190",
+      "2009-2010": "MCQ191",
+      "2011-2018": "MCQ195"
+    },
+    "gout": "MCQ160N from 2007-2008 onward",
+    "codebook_urls": {
+      "1999-2000": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/MCQ.htm",
+      "2001-2002": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/MCQ_B.htm",
+      "2003-2004": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/MCQ_C.htm",
+      "2005-2006": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/MCQ_D.htm",
+      "2007-2008": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/MCQ_E.htm",
+      "2009-2010": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/MCQ_F.htm",
+      "2011-2012": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MCQ_G.htm",
+      "2013-2014": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MCQ_H.htm",
+      "2015-2016": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/MCQ_I.htm",
+      "2017-2018": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/MCQ_J.htm"
+    }
+  },
+  "model": "survey-weighted logistic: outcome ~ log2(URXUCD) + female + interaction + log2(URXUCR) + female*log2(URXUCR) + age + age^2 + race + PIR + smoking + cycle FE",
+  "urinary_creatinine_adjustment": "sex-specific: log2(URXUCR) + female x log2(URXUCR)",
+  "variance": "Taylor-style stratified PSU sandwich; t reference with PSU minus strata degrees of freedom",
+  "fdr": {
+    "family": "six Cd x sex endpoint interactions",
+    "method": "BH",
+    "fixed_denominator": 6,
+    "nonestimable_p_treated_as_one": true
+  },
+  "loco_rule": {
+    "min_total_cases": 100,
+    "min_cases_each_sex": 50,
+    "not_performed_message": "LOCO not performed because of inadequate subtype case counts"
+  },
+  "historical_reference": {
+    "file": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\analysis\\disease_agnostic_environmental_framework\\sex_divergence_primary\\sex_divergence_primary_406.csv",
+    "test_id": "NHANES_URXUCD",
+    "outcome_id": "arthritis",
+    "fixed406_q_retained": 0.0147905710618275
+  },
+  "input_sha256": {
+    "tests": "6b284b23d69f74991fc28978c85c1e39d10f096e2fd4d42290046df8224c3a9e",
+    "registry": "6db7f7c171bc912d054b56725d3412616197f087abd7446b0fd554c9ff125646",
+    "primary_results": "f21c5c535921026e3afbdb2dffe7844103caab06c9400d31cd0468ec9ff42ca2",
+    "robustness_results": "ffe6d9926547894f8294e4144aa7554780dd48f680025529e7400b21ee47fbdc",
+    "model_script": "df96541e3662c6a57b70d6f8e7adbe4ffefb6677e827b13bb1d7fc5382d54d9c",
+    "2003-2004_ALB_CR.XPT": "577f7ca1af1b146c9eba640b8a5a2b33de731d97cb40de91d07b49df9b1545b4",
+    "2005-2006_ALB_CR.XPT": "694c4d9bd6e966b8973f31c64fb89f8577896717f7049551f8fa044c7c366a7b",
+    "2007-2008_ALB_CR.XPT": "6bf8018a465499043d5aeb89ac6d38ab4bc25a126ec663979bbbeffe0afdc2d8",
+    "2009-2010_ALB_CR.XPT": "f902e8892db69054e8898022dc1ced19770cc2fa613bf2655455f6a4f1cfbb67",
+    "2011-2012_ALB_CR.XPT": "46c5733d0bdb1d4bbe841614a3e6ef6b9dab8501f455af4f841cc43a312e579d",
+    "2013-2014_ALB_CR.XPT": "65adbd6c87541464e69fa2da54fb2c5e9e0c198fa322943a21ccbcacd8c40670",
+    "2015-2016_ALB_CR.XPT": "af61c16db8d9e96549bf0fb446049ff0631ae1ccf7e2dcd017d28edba84dbe3d",
+    "2017-2018_ALB_CR.XPT": "0017a7b8d87d29009923e22300b4ec393b06c9bbf6147eb6b2d777aca605bcbf",
+    "2003-2004_L06HM_C.xpt": "afea3e39ee899b75387af2955c7ac0d9af57ea128feb543372bdb05699bf528c",
+    "2005-2006_UHM_D.xpt": "0b8597cc67e6fbcf537037ea995904400bd2342cb9822a2054323497e1eb4443",
+    "2007-2008_UHM_E.xpt": "389ee7281ff04646aa6ef2c5ef7c1fbd6dcb832ae5dc1e75d378b860a1f98776",
+    "2009-2010_UHM_F.xpt": "8d0102ad93569739fffe5ea7e6f36adc4058b45b251b2ad263721e2f25d69ee5",
+    "2011-2012_UHM_G.xpt": "7fcb755b18a6d995b0e3cc93a06b7831432549676b64d079cb1453b034dc14f1",
+    "2013-2014_UM_H.xpt": "7c6be66dea703f9e0e1dc53be773b4dd81abc48529519e4fa765458c263db23c",
+    "2015-2016_UM_I.xpt": "85d69ac5a06e239ae1d579fe8be62dd6d67e7ca8b19a3a7afa27b49423f1f90c",
+    "2017-2018_UM_J.xpt": "97f6164657e381a627619b7179d9424684cf8f8af8288636a7aab002187297c1",
+    "1999-2000_DEMO.XPT": "a17bd1ebfd6007b8dc93f16259cb090678eb6c467a39363b7e932bba15febf89",
+    "1999-2000_MCQ.XPT": "3bf45a296282a80baa23b4651c655cf422a235a08a142aa2ab5dd7ca963a2e5a",
+    "1999-2000_SMQ.XPT": "fb1505ea08e310a5cb703ccae0e220aede3da812674e9e53f832fe76e31c2ce3",
+    "2001-2002_DEMO.XPT": "6458dc2307cee244ab6ba26f70ec78c7b842ffc68e668bc43f0ab6b9737937d9",
+    "2001-2002_MCQ.XPT": "6e31c8d78e1ab0d1aaa8f012411641d6b51bc9601c2237d999d0acdddd04de01",
+    "2001-2002_SMQ.XPT": "179d7ad46de9478824d475de0e6425f474b34dd4798066a552acd31b89f07fde",
+    "2003-2004_DEMO.XPT": "2a2fdb88263337bfa06f0516bfb419631595f0a0ee88fb96069bed13d1857c6f",
+    "2003-2004_MCQ.XPT": "42487737067c5dbdf533bb91b5f752d1fff1dfa9eed91c7ae54ab5e49b65b019",
+    "2003-2004_SMQ.XPT": "fbfe1e4b286ab43fdc3fd84c3830bb241b8b5ca84b3ab5902b8808e4136efc2c",
+    "2005-2006_DEMO.XPT": "bf9cc79cce501b2fbe5aa8d5b403b618548d02d4aefeb528335cdd9f4c40a3af",
+    "2005-2006_MCQ.XPT": "12bf5f557c97284e096a8cd8aefbc8e3ab9f12a410c2f50474c4dfddd2ebf6f4",
+    "2005-2006_SMQ.XPT": "ef82433aca1a36ba2310a624ccdbaf195e2a258a88af0f284ef2a58d36be3011",
+    "2007-2008_DEMO.XPT": "02b8e97703d04bc99769c751881bece51ac9ba68cf18a2992a45d3bdfb856147",
+    "2007-2008_MCQ.XPT": "dfbe11c6b036ec4e79aeba7805833fc4951c74662a9510066c3a93932f6990e6",
+    "2007-2008_SMQ.XPT": "881865ee05f4b2be0c03c761f00ad8e355f2cc5e7d3be41666edef6f3dca5862",
+    "2009-2010_DEMO.XPT": "78c4d4a6e5eafa9da3bbb24a90d140fef5d8c0cda932a7ff8ee609288d4fae07",
+    "2009-2010_MCQ.XPT": "c2f0f9223c6a9e38e5bf6d26501c4b11d3cfd97b82db46e1c9c266f24761c457",
+    "2009-2010_SMQ.XPT": "ee85c82ea55046eb7bf491088b5bb9efecbea8aaf66ae8c89123bad23a5f1901",
+    "2011-2012_DEMO.XPT": "eaf0525d1952626885af3e935415a1f66ad62c18698080e7354789c125af252d",
+    "2011-2012_MCQ.XPT": "7538eb86c72b81fd5e76b56120fcb068ed38149d44650e9e750670ad58658d52",
+    "2011-2012_SMQ.XPT": "69f2375f036a815082b1e97110e79c505b91e0985c61696f8eaacf94828115dc",
+    "2013-2014_DEMO.XPT": "f8f0cbb3085a323d4cde22349b164878fea1e64dbc404e65b5815c7816b547d7",
+    "2013-2014_MCQ.XPT": "5c83210e6e1fe929282621322ed0f94d95cdb0a37ccaff36f703ab0b2e7b9dc6",
+    "2013-2014_SMQ.XPT": "86d74bb8842ce6d60350944417cbd3e9ee39dd5a9fa1bda33426f276b673861f",
+    "2015-2016_DEMO.XPT": "c9297c6c37ae8f78f29be9568fa2a03cf3b112616a39afee04030fc775a66a0d",
+    "2015-2016_MCQ.XPT": "8b2bd62f5bcd5820d6aac380e4bad233d22ecab42fcf4a3a9a023ffc6b9f4002",
+    "2015-2016_SMQ.XPT": "529ce1c407e99dce937ca75d14c8c630e0c9c30a4a9a851760cd2884bbb28fe0",
+    "2017-2018_DEMO.XPT": "c0b46e0345ea19404928656277c8b0d10b0cca348a9b2fe4fc3c67e8b7ee73ec",
+    "2017-2018_MCQ.XPT": "79c50c805a377fcd61d44fae8b86a16af0a5741f8b1aeebda918d7d743c68f98",
+    "2017-2018_SMQ.XPT": "73c3708e540cbf520a566508aa629c3e4ba53cad77dae9388ca36384646455f4"
+  },
+  "counts": {
+    "n_endpoints": 6,
+    "n_variable_audit_rows": 60,
+    "n_model_rows": 6,
+    "n_cycle_rows": 43,
+    "n_loco_rows": 39,
+    "interpretation_class_counts": {
+      "No convincing sex heterogeneity": 5,
+      "Unstable / non-estimable": 1
+    }
+  },
+  "prohibited_not_run": [
+    "CTD",
+    "GeneCards",
+    "enrichment",
+    "PPI",
+    "GTEx",
+    "transcriptomics",
+    "single-cell",
+    "immune infiltration",
+    "mediation",
+    "hormone analysis",
+    "figures",
+    "literature collision search"
+  ],
+  "outputs": [
+    "01_arthritis_subtype_variable_audit.csv",
+    "02_subtype_sample_counts.csv",
+    "03_cd_sex_subtype_models.csv",
+    "04_subtype_interaction_fdr.csv",
+    "05_cycle_consistency.csv",
+    "06_loco_results.csv",
+    "CD_SEX_ARTHRITIS_SUBTYPE_REPORT.md"
+  ],
+  "output_sha256": {
+    "01_arthritis_subtype_variable_audit.csv": "439ee532a4623034a71277a6e049844acd83f7fe23d4267573721221b59d41c5",
+    "02_subtype_sample_counts.csv": "6424bb34a09d48e0018c4e59b0a0a9364d39a7af193abe95709f14103d7015a9",
+    "03_cd_sex_subtype_models.csv": "3e139503429f8deca30b290d0c257ad85524655a81b1c9e26a1ef1b93a079ec5",
+    "04_subtype_interaction_fdr.csv": "6cd72fd824d685d1a334add78232a8c7fbd6c1e7149361be0de444fc8bd05a2c",
+    "05_cycle_consistency.csv": "5954bd1f8a9f68b8d9660650c2730c9ca9fc362e406ec5d3a2001b026921dec2",
+    "06_loco_results.csv": "2a5d70999600a8e9756092e9fce9c6bc3b4b9009b92179576189bd14bdc85753",
+    "CD_SEX_ARTHRITIS_SUBTYPE_REPORT.md": "8dbee615ac44c061f797c568cb02181cf9b7701c6776fd4041c98c36087f6a95"
+  }
+}
