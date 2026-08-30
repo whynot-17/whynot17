@@ -1,0 +1,14 @@
+summary_level,focus_group,focus_relevant,tissue,tissue_role,n_planned_tests,n_modelled,n_expressed,n_male,n_female,n_fdr_hits,n_female_biased_fdr,n_male_biased_fdr,n_meaningful_abs_effect_ge_0_25,median_beta_all_modelled,median_beta_fdr_hits,interpretation
+tissue,thyroid_context,False,Thyroid,thyroid disease-relevant tissue,440,439,406,459,225,55,10,45,14,-0.0234754333927819,-0.1042889125868346,context-only tissue in same fixed family
+tissue,artery,True,Artery - Aorta,hypertension/cardiovascular tissue,440,439,397,308,164,20,9,11,16,-0.0020962137384741,-0.12418504329092644,primary hypertension-related tissue
+tissue,artery,True,Artery - Tibial,hypertension/cardiovascular tissue,440,439,389,471,220,27,10,17,18,-0.0095559983109518,-0.1532187409015772,primary hypertension-related tissue
+tissue,artery,True,Artery - Coronary,hypertension/cardiovascular tissue,440,439,399,168,100,3,0,3,27,-0.0187137594254219,-0.5594159391972511,primary hypertension-related tissue
+tissue,heart,True,Heart - Left Ventricle,hypertension/cardiovascular tissue,440,439,370,308,143,6,1,5,7,-0.0021281781578818,-0.1887402865389241,primary hypertension-related tissue
+tissue,heart,True,Heart - Atrial Appendage,hypertension/cardiovascular tissue,440,439,383,318,143,6,2,4,14,-0.0321799431293529,-0.2250854048118166,primary hypertension-related tissue
+tissue,kidney,True,Kidney - Cortex,hypertension/renal tissue,440,439,401,80,24,0,0,0,127,0.1648236675921387,NA,primary hypertension-related tissue
+tissue,adrenal,True,Adrenal Gland,hypertension/endocrine tissue,440,439,391,184,111,3,2,1,16,0.006139735310648,0.496336773565286,primary hypertension-related tissue
+tissue,liver_context,False,Liver,optional toxicokinetic/metabolism reference only,440,439,397,184,78,19,18,1,38,0.0653352654264301,0.1826128568822526,context-only tissue in same fixed family
+organ_group,artery,True,Artery - Aorta; Artery - Tibial; Artery - Coronary,aggregated descriptive readout; not a new test,1320,1317,1185,168; 308; 471,100; 164; 220,50,19,31,61,-0.0083015110559381,-0.15717736117796272,descriptive aggregation of fixed tissue-level tests; not a new FDR family
+organ_group,heart,True,Heart - Left Ventricle; Heart - Atrial Appendage,aggregated descriptive readout; not a new test,880,878,753,308; 318,143,12,3,9,21,-0.01378775313894045,-0.1887402865389241,descriptive aggregation of fixed tissue-level tests; not a new FDR family
+organ_group,kidney,True,Kidney - Cortex,aggregated descriptive readout; not a new test,440,439,401,80,24,0,0,0,127,0.1648236675921387,NA,descriptive aggregation of fixed tissue-level tests; not a new FDR family
+organ_group,adrenal,True,Adrenal Gland,aggregated descriptive readout; not a new test,440,439,391,184,111,3,2,1,16,0.006139735310648,0.496336773565286,descriptive aggregation of fixed tissue-level tests; not a new FDR family

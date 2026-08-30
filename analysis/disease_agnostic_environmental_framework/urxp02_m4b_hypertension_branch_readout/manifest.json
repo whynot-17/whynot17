@@ -1,0 +1,47 @@
+{
+  "analysis": "URXP02 M4b hypertension-branch tissue readout",
+  "scope": "read-only reorganization of frozen M4 outputs; no refit, no new correction, no single-cell analysis",
+  "generated_at_utc": "2026-08-30T13:05:28.125562+00:00",
+  "fixed_family": {
+    "genes": 440,
+    "tissues": 9,
+    "tests": 3960,
+    "fdr_method": "inherited fixed BH FDR from M4"
+  },
+  "focus_tissues": [
+    "Artery - Aorta",
+    "Artery - Tibial",
+    "Artery - Coronary",
+    "Heart - Left Ventricle",
+    "Heart - Atrial Appendage",
+    "Kidney - Cortex",
+    "Adrenal Gland"
+  ],
+  "inputs_sha256": {
+    "analysis\\disease_agnostic_environmental_framework\\urxp02_m4_sex_tissue_mapping\\04_hypertension_branch_sex_expression_by_tissue.csv": "1679ffd1d224dee7fb4dcfe562a7b22350f34c16cb2d66621576dfb73fc78a1d",
+    "analysis\\disease_agnostic_environmental_framework\\urxp02_m4_sex_tissue_mapping\\manifest.json": "5b54c51d62c6349aaef57381d33f963c9e1d75b363001248cc38d9d7b19a70fa",
+    "analysis\\disease_agnostic_environmental_framework\\urxp02_m3_disease_branch_analysis\\05_ppi_modules.csv": "734dfd3f45622aca70996aac9b4eb12c69da8397e0351de36fbeb8029a33f735"
+  },
+  "outputs_sha256": {
+    "01_hypertension_branch_fdr_hits.csv": "26ac717d3d55677a61eed07f8b3b212def302112e2a466911e15e157c3730aa4",
+    "02_hypertension_branch_tissue_summary.csv": "a9464f3dd74e2a0f977e930e4ab5d5e2cc15794be3af965247f79097b64c7187",
+    "03_hypertension_branch_gene_recurrence.csv": "d33b8c5aaf2f9cf5248428e997a08ae620cb670f0fb92b8a9a323530043ceb54",
+    "04_hypertension_branch_module_context.csv": "98147fb8689abd5e597574c951b199cb2a0ce1e7be386b09afda95af4daa0027",
+    "M4B_HYPERTENSION_BRANCH_READOUT_REPORT.md": "6523b353347c10636832456cf473e1c2ee66e8bd4304f6dff7fbaa302f7684db"
+  },
+  "outputs": [
+    "01_hypertension_branch_fdr_hits.csv",
+    "02_hypertension_branch_tissue_summary.csv",
+    "03_hypertension_branch_gene_recurrence.csv",
+    "04_hypertension_branch_module_context.csv",
+    "M4B_HYPERTENSION_BRANCH_READOUT_REPORT.md",
+    "manifest.json"
+  ],
+  "constraints": [
+    "No model refitting",
+    "No new FDR or scoring",
+    "No single-cell analysis",
+    "No figures",
+    "No causal or mechanism claims"
+  ]
+}

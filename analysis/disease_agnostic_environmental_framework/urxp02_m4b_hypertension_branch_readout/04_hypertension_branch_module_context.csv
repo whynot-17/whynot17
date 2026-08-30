@@ -1,0 +1,62 @@
+module_id,module_size,module_internal_edges,module_density,n_fdr_hit_tests_relevant,n_unique_fdr_hit_genes_relevant,n_tissues_with_fdr_hits,female_biased_fdr_hits,male_biased_fdr_hits,hit_tissues,hit_genes,descriptive_module_status
+HYP_M001,152,968,0.0843499477169745,21,17,5,7,14,Adrenal Gland; Artery - Aorta; Artery - Tibial; Heart - Atrial Appendage; Heart - Left Ventricle,BCL2; CCND1; CDK2; EGFR; ESR2; KRT19; LMNA; PKM; PTPN5; SFN; SNCA; SYP; TGM2; TNFRSF10B; TUBB4A; TUBB6; UCHL1,observed_fdr_hits
+HYP_M003,59,452,0.2641729982466393,16,11,6,6,10,Adrenal Gland; Artery - Aorta; Artery - Coronary; Artery - Tibial; Heart - Atrial Appendage; Heart - Left Ventricle,ADA; ALDH1A1; CES1; CYP19A1; GPX3; GSS; GSTM3; GSTM5; GSTO2; NQO1; PLA2G5,observed_fdr_hits
+HYP_M002,89,385,0.098314606741573,10,9,4,1,9,Artery - Aorta; Artery - Coronary; Artery - Tibial; Heart - Atrial Appendage,APOD; CHI3L1; COL1A2; IGF1; IL1B; PGF; SAA2; SERPINE1; TNFAIP6,observed_fdr_hits
+HYP_M004,43,83,0.0919158361018826,7,5,3,4,3,Artery - Aorta; Artery - Coronary; Artery - Tibial,CHRM1; DRD1; DRD2; HTR2A; PTH1R,observed_fdr_hits
+HYP_M009,2,1,1.0,2,1,2,2,0,Artery - Aorta; Artery - Tibial,CLCNKB,observed_fdr_hits
+HYP_M005,17,22,0.1617647058823529,1,1,1,1,0,Artery - Tibial,MCOLN1,observed_fdr_hits
+HYP_M006,12,18,0.2727272727272727,1,1,1,0,1,Heart - Atrial Appendage,PTK2B,observed_fdr_hits
+HYP_M017,1,0,0.0,1,1,1,0,1,Artery - Aorta,ADRA2C,observed_fdr_hits
+HYP_M026,1,0,0.0,1,1,1,0,1,Artery - Aorta,DES,observed_fdr_hits
+HYP_M028,1,0,0.0,1,1,1,1,0,Artery - Aorta,FETUB,observed_fdr_hits
+HYP_M036,1,0,0.0,1,1,1,0,1,Artery - Aorta,KCNK3,observed_fdr_hits
+HYP_M043,1,0,0.0,1,1,1,1,0,Artery - Tibial,NFIC,observed_fdr_hits
+HYP_M053,1,0,0.0,1,1,1,1,0,Artery - Aorta,SLPI,observed_fdr_hits
+HYP_M060,1,0,0.0,1,1,1,0,1,Artery - Tibial,TRIM54,observed_fdr_hits
+HYP_M007,6,6,0.4,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M008,5,9,0.9,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M010,2,1,1.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M011,2,1,1.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M012,2,1,1.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M013,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M014,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M015,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M016,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M018,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M019,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M020,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M021,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M022,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M023,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M024,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M025,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M027,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M029,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M030,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M031,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M032,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M033,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M034,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M035,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M037,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M038,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M039,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M040,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M041,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M042,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M044,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M045,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M046,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M047,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M048,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M049,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M050,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M051,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M052,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M054,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M055,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M056,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M057,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M058,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M059,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
+HYP_M061,1,0,0.0,0,0,0,0,0,,,no_relevant_fdr_hits
