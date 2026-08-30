@@ -1,0 +1,12 @@
+gene_symbol,candidate_role,exact_2NAP_human_support,exact_2NAP_experimental_support,m3_network_hub,m4_tissue_bias_observed,m5_expression_contexts_tested,m5_expression_fdr_hits,m5_composition_tests,m5_cell_type_localization_status,priority_flag,selection_rule
+JUN,primary,True,False,True,True,21,0,33,descriptive-only,no validated M5 sex effect,retain dimensions separately; no weighted composite score; follow-up only when multiple independent dimensions agree
+TP53,primary,True,False,True,True,21,0,33,descriptive-only,no validated M5 sex effect,retain dimensions separately; no weighted composite score; follow-up only when multiple independent dimensions agree
+AHR,primary,True,True,False,True,21,0,33,descriptive-only,no validated M5 sex effect,retain dimensions separately; no weighted composite score; follow-up only when multiple independent dimensions agree
+CYP19A1,primary,True,False,False,True,21,0,33,descriptive-only,no validated M5 sex effect,retain dimensions separately; no weighted composite score; follow-up only when multiple independent dimensions agree
+NFE2L2,primary,True,False,False,True,21,0,33,descriptive-only,no validated M5 sex effect,retain dimensions separately; no weighted composite score; follow-up only when multiple independent dimensions agree
+NFKB1,primary,True,False,False,True,21,0,33,descriptive-only,no validated M5 sex effect,retain dimensions separately; no weighted composite score; follow-up only when multiple independent dimensions agree
+ESR1,secondary_audit,True,False,True,False,21,0,33,descriptive-only,no validated M5 sex effect,retain dimensions separately; no weighted composite score; follow-up only when multiple independent dimensions agree
+ESR2,secondary_audit,True,False,False,True,21,0,33,descriptive-only,no validated M5 sex effect,retain dimensions separately; no weighted composite score; follow-up only when multiple independent dimensions agree
+AR,secondary_audit,True,True,False,False,21,0,33,descriptive-only,no validated M5 sex effect,retain dimensions separately; no weighted composite score; follow-up only when multiple independent dimensions agree
+THRB,secondary_audit,True,False,False,False,21,0,33,descriptive-only,no validated M5 sex effect,retain dimensions separately; no weighted composite score; follow-up only when multiple independent dimensions agree
+CASP3,secondary_audit,True,False,True,False,21,0,33,descriptive-only,no validated M5 sex effect,retain dimensions separately; no weighted composite score; follow-up only when multiple independent dimensions agree

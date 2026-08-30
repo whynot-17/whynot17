@@ -1,0 +1,12 @@
+gene_symbol,thyroid_male_biased_raw_contexts,thyroid_female_biased_raw_contexts,vascular_kidney_female_biased_raw_contexts,vascular_kidney_male_biased_raw_contexts,thyroid_male_biased_fdr_contexts,vascular_kidney_female_biased_fdr_contexts,directional_classification,interpretation
+JUN,0,0,8,12,0,0,unsupported_or_non_estimable,descriptive donor-supported direction counts; no pattern was forced and no composite score was created
+TP53,0,0,11,7,0,0,unsupported_or_non_estimable,descriptive donor-supported direction counts; no pattern was forced and no composite score was created
+AHR,0,0,13,7,0,0,unsupported_or_non_estimable,descriptive donor-supported direction counts; no pattern was forced and no composite score was created
+CYP19A1,0,0,0,0,0,0,unsupported_or_non_estimable,descriptive donor-supported direction counts; no pattern was forced and no composite score was created
+NFE2L2,0,0,12,9,0,0,unsupported_or_non_estimable,descriptive donor-supported direction counts; no pattern was forced and no composite score was created
+NFKB1,0,0,6,15,0,0,unsupported_or_non_estimable,descriptive donor-supported direction counts; no pattern was forced and no composite score was created
+ESR1,0,0,6,9,0,0,unsupported_or_non_estimable,descriptive donor-supported direction counts; no pattern was forced and no composite score was created
+ESR2,0,0,12,4,0,0,unsupported_or_non_estimable,descriptive donor-supported direction counts; no pattern was forced and no composite score was created
+AR,0,0,6,9,0,0,unsupported_or_non_estimable,descriptive donor-supported direction counts; no pattern was forced and no composite score was created
+THRB,0,0,8,8,0,0,unsupported_or_non_estimable,descriptive donor-supported direction counts; no pattern was forced and no composite score was created
+CASP3,0,0,9,10,0,0,unsupported_or_non_estimable,descriptive donor-supported direction counts; no pattern was forced and no composite score was created
