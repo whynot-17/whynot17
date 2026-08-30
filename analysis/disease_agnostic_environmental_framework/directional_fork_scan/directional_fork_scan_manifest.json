@@ -1,0 +1,45 @@
+{
+  "analysis": "FROZEN_PRIMARY_DIRECTIONAL_FORK_SCAN",
+  "run_timestamp_utc": "2026-08-30T06:02:03.739086+00:00",
+  "source_scope": "Frozen sex_divergence_primary_406.csv only",
+  "models_refit": false,
+  "robustness_read": false,
+  "external_data_accessed": false,
+  "figures_generated": false,
+  "quartiles_or_splines_created": false,
+  "literature_or_mechanism_analysis": false,
+  "new_fdr_calculated": false,
+  "fixed_bh_denominator": 406,
+  "grid": {
+    "exposures": 29,
+    "outcomes": 14,
+    "primary_rows": 406
+  },
+  "directional_rule": {
+    "male_enhanced_endpoint_A": "male_beta > 0 and female_beta <= 0",
+    "female_enhanced_endpoint_B": "female_beta > 0 and male_beta <= 0",
+    "interaction_direction_A": "beta_interaction < 0",
+    "interaction_direction_B": "beta_interaction > 0",
+    "pairing": "all A x B combinations within exposure; final directional pair requires both interaction-direction checks"
+  },
+  "observed": {
+    "sign_compatible_pairs": 88,
+    "interaction_supported_pairs": 80,
+    "exposures_with_sign_compatible_pairs": 16,
+    "exposures_with_interaction_supported_pairs": 15,
+    "exposures_without_sign_compatible_pairs": 13,
+    "exposures_without_interaction_supported_pairs": 14,
+    "interaction_direction_fail_pairs": 8,
+    "pairs_both_fixed406_q_lt_0_05": 0,
+    "pairs_at_least_one_fixed406_q_lt_0_05": 4
+  },
+  "input_hashes": {
+    "sex_divergence_primary_406.csv": "f21c5c535921026e3afbdb2dffe7844103caab06c9400d31cd0468ec9ff42ca2"
+  },
+  "outputs": [
+    "directional_fork_pair_scan.csv",
+    "directional_fork_exposure_summary.csv",
+    "DIRECTIONAL_FORK_SCAN_REPORT.md",
+    "directional_fork_scan_manifest.json"
+  ]
+}

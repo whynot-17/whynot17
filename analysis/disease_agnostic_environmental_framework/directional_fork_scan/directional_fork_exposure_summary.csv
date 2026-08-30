@@ -1,0 +1,30 @@
+test_id,biomarker,matrix,exposure_axis,outcomes_total,male_only_positive_count,female_only_positive_count,sign_compatible_pair_count,interaction_supported_pair_count,interaction_direction_fail_count,pairs_both_fixed406_q_lt_0_05,pairs_at_least_one_fixed406_q_lt_0_05,strongest_male_only_outcome_id,strongest_male_only_beta,strongest_female_only_outcome_id,strongest_female_only_beta
+NHANES_LBXPFDE,LBXPFDE,serum_or_blood,PFAS exposure axis,14,2,1,2,2,0,0,0,stroke,0.1321425037644573,any_cancer_history,0.0629596948213681
+NHANES_LBXPFHS,LBXPFHS,serum_or_blood,PFAS exposure axis,14,2,2,4,4,0,0,0,thyroid_disease,0.0349304576898087,emphysema,0.0958455161108762
+NHANES_LBXPFNA,LBXPFNA,serum_or_blood,PFAS exposure axis,14,6,2,12,12,0,0,2,myocardial_infarction,0.1859232044978858,any_cancer_history,0.0404749346586444
+NHANES_URXBPH,URXBPH,urine,bisphenol exposure axis,14,1,3,3,3,0,0,0,liver_disease,0.0400901308544764,emphysema,0.1053633693484461
+NHANES_URXCOP,URXCOP,urine,DINP-related exposure axis,14,1,7,7,7,0,0,1,emphysema,0.0002784841994671,T2D,0.1523371119612364
+NHANES_URXECP,URXECP,urine,DEHP-related exposure axis;phthalate exposure axis,14,0,3,0,0,0,0,0,,,chronic_bronchitis,0.0955293803038158
+NHANES_URXMBP,URXMBP,urine,phthalate exposure axis,14,3,3,9,6,3,0,0,liver_disease,0.0510061652717087,coronary_heart_disease,0.1122615400314986
+NHANES_URXMEP,URXMEP,urine,phthalate exposure axis,14,0,6,0,0,0,0,0,,,hypertension,0.0598491856502385
+NHANES_URXMHH,URXMHH,urine,DEHP-related exposure axis,14,0,2,0,0,0,0,0,,,coronary_heart_disease,0.1079726907412113
+NHANES_URXMHP,URXMHP,urine,DEHP-related exposure axis,14,2,4,8,8,0,0,0,chronic_bronchitis,0.0096969310566403,emphysema,0.0256077728082609
+NHANES_URXMIB,URXMIB,urine,phthalate exposure axis,14,0,5,0,0,0,0,0,,,coronary_heart_disease,0.1973369605133767
+NHANES_URXMOH,URXMOH,urine,DEHP-related exposure axis;phthalate exposure axis,14,0,1,0,0,0,0,0,,,hypertension,0.0836012847110593
+NHANES_URXMZP,URXMZP,urine,phthalate exposure axis,14,0,7,0,0,0,0,0,,,T2D,0.1233095928691451
+NHANES_URXP02,URXP02,urine,PAH exposure axis,14,1,4,4,4,0,0,0,thyroid_disease,0.1224017348781144,hypertension,0.1045174098998425
+NHANES_URXP04,URXP04,urine,PAH exposure axis,14,1,3,3,3,0,0,0,thyroid_disease,0.0144378029131745,coronary_heart_disease,0.1368885546478662
+NHANES_URXP10,URXP10,urine,PAH exposure axis,14,1,6,6,5,1,0,0,liver_disease,0.0645470192550426,coronary_heart_disease,0.1877711003501325
+NHANES_URXP25,URXP25,urine,PAH exposure axis,14,0,5,0,0,0,0,0,,,myocardial_infarction,0.2988902689416287
+NHANES_URXUBA,URXUBA,urine,metal exposure axis,14,0,4,0,0,0,0,0,,,congestive_heart_failure,0.0889998550141698
+NHANES_URXUCD,URXUCD,urine,metal exposure axis,14,1,2,2,2,0,0,1,thyroid_disease,0.0085150876332355,chronic_bronchitis,0.0958223367889774
+NHANES_URXUCO,URXUCO,urine,metal exposure axis,14,0,2,0,0,0,0,0,,,coronary_heart_disease,0.2280937970265835
+NHANES_URXUCS,URXUCS,urine,metal exposure axis,14,1,8,8,8,0,0,0,any_cancer_history,0.1537193953359966,coronary_heart_disease,0.1379521410530302
+NHANES_URXUMO,URXUMO,urine,metal exposure axis,14,2,5,10,10,0,0,0,thyroid_disease,0.0711014151893499,congestive_heart_failure,0.110480168294488
+NHANES_URXUPB,URXUPB,urine,metal exposure axis,14,1,4,4,0,4,0,0,arthritis,0.0036736129817894,coronary_heart_disease,0.0765287319047036
+NHANES_URXUSB,URXUSB,urine,metal exposure axis,14,0,6,0,0,0,0,0,,,congestive_heart_failure,0.1923087764093404
+NHANES_URXUSN,URXUSN,urine,metal exposure axis,14,1,2,2,2,0,0,0,any_cancer_history,0.1303050552351295,asthma,0.0905752284148231
+NHANES_URXUSR,URXUSR,urine,metal exposure axis,14,1,4,4,4,0,0,0,asthma,0.0622223129380934,congestive_heart_failure,0.0914006433787252
+NHANES_URXUTL,URXUTL,urine,metal exposure axis,14,0,5,0,0,0,0,0,,,congestive_heart_failure,0.1192646203878895
+NHANES_URXUTU,URXUTU,urine,metal exposure axis,14,0,0,0,0,0,0,0,,,,
+NHANES_URXUUR,URXUUR,urine,metal exposure axis,14,0,0,0,0,0,0,0,,,,
