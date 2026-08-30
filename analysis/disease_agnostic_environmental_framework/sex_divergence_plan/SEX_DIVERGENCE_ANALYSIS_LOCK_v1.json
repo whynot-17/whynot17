@@ -1,0 +1,14 @@
+{
+  "lock_type": "PRE_ASSOCIATION_SEX_DIVERGENCE_ANALYSIS_PLAN",
+  "version": "1.0",
+  "primary_grid": {"exposures": 29, "outcomes": 14, "sex_interaction_tests": 406},
+  "outcome_ontology": {"systems": 7, "mapping_file": "frozen_outcome_organ_system_ontology_v1.csv"},
+  "frozen_input_hashes": {
+    "exposure_test_set_sha256": "6b284b23d69f74991fc28978c85c1e39d10f096e2fd4d42290046df8224c3a9e",
+    "outcome_set_sha256": "3d2ac6f399ee02e9954300e1bbbc20d62a1afb265ca531a13399322194c89786"
+  },
+  "primary_heterogeneity_test": "survey-weighted exposure-by-female interaction in pooled-sex logistic model",
+  "multiple_testing": {"method": "Benjamini-Hochberg", "fixed_denominator": 406, "nonestimable_pair_p_value": 1},
+  "association_results_read_before_lock": false,
+  "forbidden_before_primary_results": ["exposure-outcome associations", "CRC/T2D association results", "candidate chemical results"]
+}

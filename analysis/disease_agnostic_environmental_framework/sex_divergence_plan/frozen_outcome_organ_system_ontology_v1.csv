@@ -1,0 +1,15 @@
+ontology_version,outcome_id,outcome_name,organ_system_id,organ_system_name,within_system_weight,rationale
+1.0,T2D,Type 2 diabetes,metabolic,Metabolic,0.5,Metabolic disease outcome
+1.0,obesity,Obesity,metabolic,Metabolic,0.5,Metabolic disease outcome
+1.0,hypertension,Hypertension,cardiovascular,Cardiovascular,0.2,Cardiovascular disease outcome
+1.0,congestive_heart_failure,Congestive heart failure,cardiovascular,Cardiovascular,0.2,Cardiovascular disease outcome
+1.0,coronary_heart_disease,Coronary heart disease,cardiovascular,Cardiovascular,0.2,Cardiovascular disease outcome
+1.0,myocardial_infarction,Myocardial infarction,cardiovascular,Cardiovascular,0.2,Cardiovascular disease outcome
+1.0,stroke,Stroke,cardiovascular,Cardiovascular,0.2,Cardiovascular disease outcome
+1.0,asthma,Asthma,respiratory,Respiratory,0.3333333333,Respiratory disease outcome
+1.0,chronic_bronchitis,Chronic bronchitis,respiratory,Respiratory,0.3333333333,Respiratory disease outcome
+1.0,emphysema,Emphysema,respiratory,Respiratory,0.3333333333,Respiratory disease outcome
+1.0,liver_disease,Liver disease,hepatic,Hepatic,1.0,Hepatic disease outcome
+1.0,thyroid_disease,Thyroid disease,endocrine,Endocrine,1.0,Endocrine disease outcome
+1.0,arthritis,Arthritis,musculoskeletal_immune,Musculoskeletal/immune-related,1.0,Musculoskeletal/immune-related disease outcome
+1.0,any_cancer_history,Any cancer history,cancer,Cancer,1.0,Cancer history outcome
