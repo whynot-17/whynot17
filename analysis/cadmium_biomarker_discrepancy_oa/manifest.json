@@ -1,0 +1,80 @@
+{
+  "analysis": "Same-cycle blood versus urinary cadmium sex interaction for osteoarthritis",
+  "cycles": [
+    "2003-2004",
+    "2005-2006",
+    "2007-2008",
+    "2009-2010",
+    "2011-2012",
+    "2013-2014",
+    "2015-2016",
+    "2017-2018"
+  ],
+  "outcome": "Osteoarthritis: MCQ160A=1 plus cycle-mapped OA subtype versus MCQ160A=2 controls; adults >=20",
+  "models": [
+    {
+      "biomarker": "urinary_cadmium",
+      "variable": "URXUCD",
+      "log_transform": "log2",
+      "weight": "WTSA2YR",
+      "dilution_terms": "log2(URXUCR) + log2(URXUCR):female"
+    },
+    {
+      "biomarker": "blood_cadmium",
+      "variable": "LBXBCD",
+      "log_transform": "log2",
+      "weight": "WTMEC2YR",
+      "dilution_terms": "none"
+    }
+  ],
+  "no_new_fdr": true,
+  "same_cycle_not_same_complete_case_set": true,
+  "source_urls": {
+    "2003-2004": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06BMT_C.xpt",
+    "2005-2006": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PBCD_D.xpt",
+    "2007-2008": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PBCD_E.xpt",
+    "2009-2010": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PBCD_F.xpt",
+    "2011-2012": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PBCD_G.xpt",
+    "2013-2014": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PBCD_H.xpt",
+    "2015-2016": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PBCD_I.xpt",
+    "2017-2018": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PBCD_J.xpt"
+  },
+  "input_sha256": {
+    "old_subtype_script": "35ad206ef9f02e70fadf87428a95f19ede38a278f3c3bed59960cdd578cebe08",
+    "sensitivity_fit_script": "65889223e88debaf8c9c170a428a226f398cfd691d78f4080d182b5e1ec5dca7",
+    "tests": "6b284b23d69f74991fc28978c85c1e39d10f096e2fd4d42290046df8224c3a9e",
+    "registry": "6db7f7c171bc912d054b56725d3412616197f087abd7446b0fd554c9ff125646",
+    "2003-2004_ALB_CR.XPT": "577f7ca1af1b146c9eba640b8a5a2b33de731d97cb40de91d07b49df9b1545b4",
+    "2005-2006_ALB_CR.XPT": "694c4d9bd6e966b8973f31c64fb89f8577896717f7049551f8fa044c7c366a7b",
+    "2007-2008_ALB_CR.XPT": "6bf8018a465499043d5aeb89ac6d38ab4bc25a126ec663979bbbeffe0afdc2d8",
+    "2009-2010_ALB_CR.XPT": "f902e8892db69054e8898022dc1ced19770cc2fa613bf2655455f6a4f1cfbb67",
+    "2011-2012_ALB_CR.XPT": "46c5733d0bdb1d4bbe841614a3e6ef6b9dab8501f455af4f841cc43a312e579d",
+    "2013-2014_ALB_CR.XPT": "65adbd6c87541464e69fa2da54fb2c5e9e0c198fa322943a21ccbcacd8c40670",
+    "2015-2016_ALB_CR.XPT": "af61c16db8d9e96549bf0fb446049ff0631ae1ccf7e2dcd017d28edba84dbe3d",
+    "2017-2018_ALB_CR.XPT": "0017a7b8d87d29009923e22300b4ec393b06c9bbf6147eb6b2d777aca605bcbf",
+    "2003-2004_L06BMT_C.xpt": "0c57f6a5e800a0f2a72191596f5725ee452365a194d49b689af6c66dfab1bf29",
+    "2005-2006_PBCD_D.xpt": "595dbf32fa1e5d652333d65c8f4aafdd95f9d8fc4b13e77b8249eff45e76a078",
+    "2007-2008_PBCD_E.xpt": "b16c6f4153ed3e08bc48f7ee3228834f853acc23b7590dc72c7793b7448bd125",
+    "2009-2010_PBCD_F.xpt": "932c90e58f7b0b969a91bb69ff61a72e82bddfc4c22ea5dc73c094b291a7264a",
+    "2011-2012_PBCD_G.xpt": "996cc3daaae69bf043785b274b02d4921dd2e49ec819c528707752d675ebd191",
+    "2013-2014_PBCD_H.xpt": "fd354c927ba6344256bdef540ce32821ed35a85f18a4014a94be337f148afd26",
+    "2015-2016_PBCD_I.xpt": "7556d180dbe580ebf439b22201b02db408ee995640e29946e7e60f43f583aa9d",
+    "2017-2018_PBCD_J.xpt": "66859650ceda3969f2b20da86eaca22197cfc93544598bd7a738329515e8c895"
+  },
+  "outputs": [
+    "01_blood_vs_urine_cd_oa_models.csv",
+    "02_biomarker_cycle_availability.csv",
+    "BLOOD_VS_URINE_CD_OA_REPORT.md",
+    "manifest.json"
+  ],
+  "prohibited_not_run": [
+    "new phenome screen",
+    "new subtype screen",
+    "mechanism",
+    "pathway",
+    "figures",
+    "new multiplicity adjustment",
+    "external cohort modeling"
+  ],
+  "run_timestamp_utc": "2026-08-30T14:46:21.230934+00:00"
+}

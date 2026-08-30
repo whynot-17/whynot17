@@ -1,0 +1,9 @@
+cycle,urine_oa_eligible_n,blood_oa_eligible_n,adult_oa_eligible_seqn_overlap_n,adult_oa_eligible_seqn_union_n,urine_oa_cd_nonmissing_n,blood_oa_cd_nonmissing_n,both_cd_nonmissing_overlap_n,blood_file,blood_file_seqn_n,blood_file_cd_nonmissing_n,blood_url
+2003-2004,1315,3864,1315,3864,1248,3673,1209,2003-2004_L06BMT_C.xpt,9179,8372,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06BMT_C.xpt
+2005-2006,1313,3925,1313,3925,1252,3709,1204,2005-2006_PBCD_D.xpt,9440,8407,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PBCD_D.xpt
+2007-2008,1505,4515,1505,4515,1462,4252,1391,2007-2008_PBCD_E.xpt,9307,8266,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PBCD_E.xpt
+2009-2010,1689,4902,1689,4902,1646,4672,1591,2009-2010_PBCD_F.xpt,9835,8793,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PBCD_F.xpt
+2011-2012,1512,4558,1512,4558,1465,4316,1393,2011-2012_PBCD_G.xpt,8956,7920,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PBCD_G.xpt
+2013-2014,1614,2416,1614,2416,1575,2325,1523,2013-2014_PBCD_H.xpt,5932,5215,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PBCD_H.xpt
+2015-2016,1586,2349,1586,2349,1536,2225,1464,2015-2016_PBCD_I.xpt,5815,4988,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PBCD_I.xpt
+2017-2018,1441,4317,1441,4317,1402,4102,1353,2017-2018_PBCD_J.xpt,8366,7513,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PBCD_J.xpt
