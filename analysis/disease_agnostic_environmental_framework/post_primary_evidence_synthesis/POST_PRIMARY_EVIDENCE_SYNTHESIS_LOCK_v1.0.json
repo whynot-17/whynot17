@@ -1,0 +1,11 @@
+{
+  "lock_type": "POST_PRIMARY_EVIDENCE_SYNTHESIS",
+  "version": "1.0",
+  "pair_grid": 406,
+  "primary_inference": "fixed 406-family BH q retained without revision",
+  "labels": ["primary_only", "cycle_sensitive", "robust_exemplar", "primary_fdr_positive_other_robustness_pattern"],
+  "forbidden": ["composite score", "candidate ranking", "new FDR", "CTD", "literature search", "mechanistic interpretation"],
+  "primary_commit": "6a7eff6c9d00446e8795ccc528c01c1c874959c4",
+  "robustness_commit": "855751a1dd0afd727bf8702c7cc5e7b59f57aa86",
+  "frozen_before_evidence_table_generation": true
+}
