@@ -1,0 +1,104 @@
+{
+  "analysis": "URXP02 / 2-NAP expanded molecular universe (M1b)",
+  "generated_at_utc": "2026-08-30T07:21:33.163469+00:00",
+  "chemical_identities": {
+    "exact_2NAP": {
+      "chemical": "2-naphthol",
+      "chemical_identity": "CTD:C028405; PubChem CID:8663; ChEMBL:CHEMBL14126",
+      "ctd_id": "C028405",
+      "pubchem_cid": 8663,
+      "chembl_id": "CHEMBL14126"
+    },
+    "parent_naphthalene": {
+      "chemical": "naphthalene",
+      "chemical_identity": "CTD:C031721; PubChem CID:931; ChEMBL:CHEMBL16293",
+      "ctd_id": "C031721",
+      "pubchem_cid": 931,
+      "chembl_id": "CHEMBL16293"
+    }
+  },
+  "evidence_tiers": {
+    "Tier A": "exact 2-naphthol human",
+    "Tier B": "exact 2-naphthol experimental/non-human",
+    "Tier C": "parent naphthalene; not exact 2-NAP"
+  },
+  "source_files": {
+    "ctd_chem_gene_ixns": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\environmental_toxicology_crc_phase1\\data\\CTD_chem_gene_ixns.tsv.gz",
+      "sha256": "05e1b0d2d93bb33f72659e6ed2d590304cdb58da9538c787ad51fc6624d0e055"
+    },
+    "ctd_chemicals": {
+      "path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-22\\non\\work\\whynot17\\work\\environmental_toxicology_crc_phase1\\data\\CTD_chemicals.tsv.gz",
+      "sha256": "9e4b642c8716140d30a9376d6b2229acb81ee48a8b106a4f41ed06b29894ef6c"
+    }
+  },
+  "external_endpoints": {
+    "pubchem_assaysummary": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/{cid}/assaysummary/JSON",
+    "ncbi_gene_esummary": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gene&id={ids}&retmode=json",
+    "chembl_activity": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id={}&limit=1000",
+    "chembl_target": "https://www.ebi.ac.uk/chembl/api/data/target/{}.json",
+    "geo_search": "NCBI E-utilities gds esearch",
+    "biostudies_search": "EMBL-EBI BioStudies API"
+  },
+  "resource_audit": {
+    "GEO": {
+      "2-naphthol": 0,
+      "2-hydroxynaphthalene": 0,
+      "2-NAP": 0
+    },
+    "BioStudies": {
+      "2-naphthol": 241,
+      "2-hydroxynaphthalene": 22,
+      "2-NAP": 12
+    },
+    "Tox21_ToxCast": "No separate bulk source ingested; PubChem BioAssay records retained as the assay-level proxy and source-labelled PubChem rows.",
+    "LINCS": "No exact 2-naphthol perturbation dataset ingested."
+  },
+  "row_counts": {
+    "exact_ctd": 21,
+    "exact_perturbation": 503,
+    "parent": 1641,
+    "unified": 2165,
+    "unique_genes": 828
+  },
+  "constraints": [
+    "No figures",
+    "No disease intersection",
+    "No pathway enrichment",
+    "No tissue/cell analysis",
+    "No new NHANES model",
+    "Parent naphthalene is Tier C and is not exact 2-NAP",
+    "No causal inference",
+    "No sex-specific gene claim"
+  ],
+  "files": {
+    "01_exact_2NAP_evidence.csv": {
+      "sha256": "f30a40b688d9a80b6733885bfe15df971b57a0d8666e9ff592894ca0d5613ab1",
+      "bytes": 5102
+    },
+    "02_2NAP_perturbation_evidence.csv": {
+      "sha256": "e9319aca42ec1a8aeecf210969d7bae728a011b0a222beb66957e8e9fee2e982",
+      "bytes": 181564
+    },
+    "03_parent_naphthalene_evidence.csv": {
+      "sha256": "a1e3368e1833d8be6205006f6dc6439e63f76257945d0e5d746cf595139ea2f5",
+      "bytes": 515016
+    },
+    "04_unified_gene_evidence_long.csv": {
+      "sha256": "7cbd8434a20d7420eb066036f2f16139403581e6b5fc2c01e8602020335e147b",
+      "bytes": 701302
+    },
+    "05_gene_evidence_summary.csv": {
+      "sha256": "06c4ee237e97f51512017f0dd4e768c9dc8311f091edf285aa20070a0baf125e",
+      "bytes": 81518
+    },
+    "06_molecular_universe_audit.csv": {
+      "sha256": "2c5c5cfea5b25e5ac5ecc2e03cc15228eda8989aa70e21deecedc84d2e103b00",
+      "bytes": 1569
+    },
+    "URXP02_EXPANDED_MOLECULAR_UNIVERSE_REPORT.md": {
+      "sha256": "2fe04bbba34cbe0db7d908faac7b594a2a2a3b65def8ffff182037ab42e72c51",
+      "bytes": 2047
+    }
+  }
+}

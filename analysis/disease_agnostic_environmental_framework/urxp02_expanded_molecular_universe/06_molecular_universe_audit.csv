@@ -1,0 +1,14 @@
+metric,value,definition
+total_unique_genes,828,Unique gene_symbol values across all retained tiers
+genes_with_exact_2NAP_evidence,110,Genes with exact 2-naphthol CTD/PubChem/ChEMBL evidence
+genes_with_parent_naphthalene_only_support,718,Genes present for naphthalene but absent from exact 2-naphthol evidence
+genes_supported_by_at_least_2_sources,34,Gene symbols with >=2 source_database values
+genes_supported_in_human_data,316,Gene symbols with at least one Homo sapiens row
+genes_supported_by_perturbation_response,372,Gene symbols with PubChem BioAssay/ChEMBL or transcriptomic evidence
+number_of_datasets_or_references,827,Unique dataset_or_reference values
+number_of_species,48,Distinct species values excluding Unknown
+number_of_tissue_or_cell_contexts,0,Distinct non-empty tissue_or_cell values
+exposure_metabolism_flagged_genes,56,"Rows mentioning metabolism, sulfation, glucuronidation, or abundance"
+direct_target_binding_flagged_genes,385,"Rows mentioning binding, activity, IC50, or inhibition"
+transcriptomic_response_flagged_genes,0,Rows explicitly labelled transcriptomic response
+exact_resource_audit,"{""GEO"": {""2-naphthol"": 0, ""2-hydroxynaphthalene"": 0, ""2-NAP"": 0}, ""BioStudies"": {""2-naphthol"": 241, ""2-hydroxynaphthalene"": 22, ""2-NAP"": 12}, ""Tox21_ToxCast"": ""No separate bulk source ingested; PubChem BioAssay records retained as the assay-level proxy and source-labelled PubChem rows."", ""LINCS"": ""No exact 2-naphthol perturbation dataset ingested.""}",Search audit for exact terms; not treated as evidence rows
