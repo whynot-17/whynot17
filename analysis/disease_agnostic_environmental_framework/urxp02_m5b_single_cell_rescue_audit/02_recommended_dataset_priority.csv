@@ -1,0 +1,8 @@
+priority_rank,dataset_id,recommended_use,usable_subset,male_donors,female_donors,cells,preferred_criterion,priority_reason
+1,GSE202109,primary kidney sex-DE and composition,all 19 healthy living donors,9,10,27677,PASS,Only purpose-built healthy sex-balanced kidney cohort in the audit; donor sex and age available.
+2,GSE183276,secondary kidney scRNA validation,Normal Reference subset,7,13,21650,PASS,Healthy subset has 20 donors and both sexes; retain disease atlas samples separately.
+3,GSE183277,secondary kidney snRNA validation,Normal Reference subset,8,10,88460,PASS,Large healthy reference subset with balanced donor sex; retain disease atlas samples separately.
+4,GSE207784,exploratory vascular backup,7 non-aneurysm controls,3,4,39346,PASS but low power,Control subset meets >=3 per sex but has only 3 male donors; do not mix aneurysm samples.
+5,GSE182416,not eligible for sex-DE; descriptive thyroid cell-type reference only,all 7 samples,0,7,54726,FAIL,All samples female and pathology is PTC/follicular adenoma despite normal-adjacent thyroid label.
+6,GSE165824,descriptive vascular cell-type reference; not powered for sex-DE,3 paired normal donors,1,2,54092,FAIL,"Processed h5ad contains donor sex, but only 1 male and 2 female donors; below the preferred minimum."
+7,GSE189795,not eligible for sex-DE,4 normal controls,4,0,not reported,FAIL,All healthy controls are male.

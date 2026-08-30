@@ -1,0 +1,42 @@
+{
+  "analysis": "M5b_single_cell_rescue_audit",
+  "scope": "dataset audit only; no expression or candidate-gene analysis",
+  "generated_utc": "2026-08-30T12:48:54.372505+00:00",
+  "preferred_minimum": {
+    "male_donors": 3,
+    "female_donors": 3
+  },
+  "source_urls": {
+    "GSE182416": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE182416",
+    "GSE202109": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE202109",
+    "GSE183276": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE183276",
+    "GSE183277": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE183277",
+    "GSE207784": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE207784",
+    "GSE207784_PMC": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9613617/",
+    "GSE189795": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE189795",
+    "GSE165824": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165824",
+    "SCP1265": "https://singlecell.broadinstitute.org/single_cell/study/SCP1265/deep-learning-enables-genetic-analysis-of-the-human-thoracic-aorta",
+    "KIDNEY_ATLAS": "https://www.nature.com/articles/s41586-023-05769-3"
+  },
+  "input_files_sha256": {
+    "work\\urxp02_m5b_audit_cache\\GSE182416_family.soft.gz": "34361dfa8cc3312a6a2d10ec8a9c8d536db4625f91b390c92b221c8363bdb9cf",
+    "work\\urxp02_m5b_audit_cache\\GSE202109_family.soft.gz": "205dec6216025a131552185291b43ea202fd2c82aff381e5e906a98e7fde5243",
+    "work\\urxp02_m5b_audit_cache\\GSE207784_family.soft.gz": "79b8635bcb9734b8ed72c144b3fa466908c2802d3a3dc34bcacab3f23cc43045",
+    "work\\urxp02_m5b_audit_cache\\GSE189795_family.soft.gz": "5333b7c45803723834dde33f47814ce5cfda0fc03cbe69e6052a401935b967e0",
+    "work\\urxp02_m5b_audit_cache\\GSE165824_family.soft.gz": "4504acbc4b71b34ba3f411af261f63fd212c1a9e0f49bb5f4c3683e4fd628c13",
+    "work\\urxp02_m5b_audit_cache\\GSE165824_ascending_descending_human_aorta_v1.h5ad": "3ba447978e3be438b1eca4dd981ec74d43d8a06c54d3d426c20781c39dc9bfe3",
+    "work\\urxp02_m5b_audit_cache\\GSE183276_metadata.txt.gz": "7f90d8d00b0ebe4b52bcb01d1d87b0f291777706d4ef166f8903bf430b9592fe",
+    "work\\urxp02_m5b_audit_cache\\GSE183277_metadata.txt.gz": "dbf2ed1a793d9fe2f1894f490b44ca71c527c8155def378c984fbb00e520d44c"
+  },
+  "output_files": [
+    "01_single_cell_rescue_dataset_audit.csv",
+    "02_recommended_dataset_priority.csv",
+    "M5B_SINGLE_CELL_RESCUE_AUDIT_REPORT.md",
+    "manifest.json"
+  ],
+  "notes": [
+    "GSE165824 is the GEO accession for SCP1265 Deep learning enables genetic analysis of the human thoracic aorta.",
+    "GSE207784 and GSE165824 are distinct studies.",
+    "No donor sex was inferred when the source metadata did not provide it."
+  ]
+}
