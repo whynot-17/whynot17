@@ -1,0 +1,19 @@
+{
+  "lock_type": "POST_PRIMARY_UNIFORM_ROBUSTNESS_PLAN",
+  "version": "1.0",
+  "frozen_before_robustness_fit_read_or_interpretation": true,
+  "pair_grid": {"exposures": 29, "outcomes": 14, "pairs": 406},
+  "primary_inference_unchanged": {"interaction_family": 406, "bh_denominator": 406},
+  "uniform_sensitivities": [
+    "urine_matrix: add log2(URXUCR) and female x log2(URXUCR)",
+    "all_pairs: leave one contributing cycle out",
+    "all_pairs with >=3 cycles: exposure x female x cycle heterogeneity Wald test",
+    "all_pairs: cycle-specific 1st/99th percentile winsorization",
+    "all_pairs: cycle-specific upper 1 percent deletion",
+    "pairs with usable frozen LOD flag: restrict to above LOD"
+  ],
+  "not_permitted": ["new FDR family", "robustness composite score", "candidate selection", "CTD", "literature search", "mechanistic interpretation"],
+  "primary_manifest_sha256": "3fe762bacacb99d8b72fabe1bc47f41f9c4ef7ae8c7f3fe898cd1bc7c10fa727",
+  "primary_results_sha256": "f21c5c535921026e3afbdb2dffe7844103caab06c9400d31cd0468ec9ff42ca2",
+  "sap_v1_1_sha256": "7b16ead2e4c0abdb5bddc066093d02fc8f22437ed813a4986f51f80cd3ee340e"
+}
