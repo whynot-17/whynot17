@@ -1,0 +1,14 @@
+{
+  "run_timestamp_utc": "2026-08-30T04:55:41.953218+00:00",
+  "inputs": {
+    "sex_divergence_primary_406.csv": "f21c5c535921026e3afbdb2dffe7844103caab06c9400d31cd0468ec9ff42ca2",
+    "sex_divergence_exposure_summary.csv": "4acebeaca0d5bec34e2aa173b90e22acc20a716bc41c8bce7c36387aca0f3783",
+    "sex_divergence_system_summary.csv": "066af73e2b20bf27c35f6edef12d16568dc3331a032e5f1efa23e451f1bfe2ca",
+    "primary_robustness_uniform_results.csv": "ffe6d9926547894f8294e4144aa7554780dd48f680025529e7400b21ee47fbdc",
+    "primary_robustness_cycle_heterogeneity.csv": "3bf734c45382ea7ab7a841c5119940a620300b399c4abec896e613561e971b17"
+  },
+  "script_sha256": "a5b7c5a5f4516c830b33ee8e559fe8840c70ddce3c6c05b3f71fd0fba7d5b90f",
+  "external_data_accessed": false,
+  "primary_or_robustness_models_refit": false,
+  "pair_grid": 406
+}
