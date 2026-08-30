@@ -1,6 +1,6 @@
 {
   "analysis": "Focused URXUCD x sex arthritis subtype analysis",
-  "run_timestamp_utc": "2026-08-30T14:19:53.090295+00:00",
+  "run_timestamp_utc": "2026-08-30T14:26:32.136864+00:00",
   "exposure": {
     "test_id": "NHANES_URXUCD",
     "variable": "URXUCD",
@@ -222,7 +222,8 @@
     "n_cycle_rows": 43,
     "n_loco_rows": 39,
     "interpretation_class_counts": {
-      "No convincing sex heterogeneity": 5,
+      "FDR-supported sex heterogeneity, but not a positive female-susceptibility pattern": 3,
+      "No convincing sex heterogeneity": 2,
       "Unstable / non-estimable": 1
     }
   },
@@ -252,10 +253,10 @@
   "output_sha256": {
     "01_arthritis_subtype_variable_audit.csv": "439ee532a4623034a71277a6e049844acd83f7fe23d4267573721221b59d41c5",
     "02_subtype_sample_counts.csv": "6424bb34a09d48e0018c4e59b0a0a9364d39a7af193abe95709f14103d7015a9",
-    "03_cd_sex_subtype_models.csv": "3e139503429f8deca30b290d0c257ad85524655a81b1c9e26a1ef1b93a079ec5",
-    "04_subtype_interaction_fdr.csv": "6cd72fd824d685d1a334add78232a8c7fbd6c1e7149361be0de444fc8bd05a2c",
+    "03_cd_sex_subtype_models.csv": "33e81d2b06d251c552d40f03ee04a47ce6a0d32db90ca256208aca3bc7c4af4d",
+    "04_subtype_interaction_fdr.csv": "6b5751a730654ec6da768493b1d8e422f12c6172edbb94952b56bee86a595ad5",
     "05_cycle_consistency.csv": "5954bd1f8a9f68b8d9660650c2730c9ca9fc362e406ec5d3a2001b026921dec2",
     "06_loco_results.csv": "2a5d70999600a8e9756092e9fce9c6bc3b4b9009b92179576189bd14bdc85753",
-    "CD_SEX_ARTHRITIS_SUBTYPE_REPORT.md": "8dbee615ac44c061f797c568cb02181cf9b7701c6776fd4041c98c36087f6a95"
+    "CD_SEX_ARTHRITIS_SUBTYPE_REPORT.md": "1482f921e4a5dda5474bec18903e99a209478243d52cb5369268ea6f43fc5e56"
   }
 }
