@@ -1,0 +1,9 @@
+{
+  "analysis": "PRIMARY_ROBUSTNESS_V1",
+  "run_timestamp_utc": "2026-08-30T02:24:50.098768+00:00",
+  "pairs": 406,
+  "uniform_rows": 5026,
+  "heterogeneity_rows": 406,
+  "primary_results_used": "sex_divergence_primary_406.csv",
+  "interpretation_not_run": true
+}
