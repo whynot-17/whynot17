@@ -22,6 +22,8 @@ unknown,ambiguous.
 from __future__ import annotations
 
 import argparse
+import csv
+import gzip
 import json
 import math
 import re
@@ -175,7 +177,79 @@ def apply_overrides(meta: pd.DataFrame, cohort: str, overrides: pd.DataFrame) ->
     return x
 
 
+def local_series_matrix(accession: str) -> Path | None:
+    candidates = [
+        DATA / f"{accession}_series_matrix.clean.txt.gz",
+        DATA / f"{accession}_series_matrix.txt.gz",
+        GEO_CACHE / f"{accession}_series_matrix.txt.gz",
+    ]
+    return next((p for p in candidates if p.exists()), None)
+
+
+def parse_series_matrix_metadata(path: Path) -> list[dict[str, str]]:
+    samples: list[dict[str, str]] = []
+    with gzip.open(path, "rt", newline="", errors="replace") as handle:
+        for line in handle:
+            if line.startswith("!series_matrix_table_begin"):
+                break
+            if not line.startswith("!Sample_"):
+                continue
+            fields = next(csv.reader([line.rstrip("\n\r")], delimiter="\t"))
+            key = fields[0][len("!Sample_"):]
+            while len(samples) < len(fields) - 1:
+                samples.append({})
+            for i, value in enumerate(fields[1:]):
+                out_key = key
+                suffix = 2
+                while out_key in samples[i]:
+                    out_key = f"{key}_{suffix}"
+                    suffix += 1
+                samples[i][out_key] = value
+    return samples
+
+
+def load_geo_matrix(accession: str, path: Path, overrides: pd.DataFrame):
+    sample_rows = parse_series_matrix_metadata(path)
+    sample_ids = [row.get("geo_accession", "") for row in sample_rows]
+    if not sample_rows or not all(sample_ids):
+        raise ValueError(f"{accession}: series matrix has no complete sample accession metadata")
+    expr_probe = pd.read_csv(path, sep="\t", compression="gzip", comment="!", index_col=0, low_memory=False)
+    expr_probe.columns = expr_probe.columns.astype(str)
+    platform_ids = sorted({row.get("platform_id", "") for row in sample_rows if row.get("platform_id", "")})
+    pieces = []
+    for gpl_id in platform_ids:
+        annotation_path = DATA / f"{gpl_id}.annot.gz"
+        if not annotation_path.exists():
+            raise FileNotFoundError(f"{accession}: missing local platform annotation {annotation_path}")
+        gpl = GEOparse.get_GEO(filepath=str(annotation_path), geotype="GPL", silent=True)
+        ids = [sid for sid, row in zip(sample_ids, sample_rows, strict=False) if row.get("platform_id", "") == gpl_id]
+        ids = [sid for sid in ids if sid in expr_probe.columns]
+        if ids:
+            pieces.append(collapse_to_targets(expr_probe.loc[:, ids], gpl.table))
+    if not pieces:
+        raise ValueError(f"{accession}: no usable expression matrix/platform annotation")
+    expr = pd.concat(pieces, axis=0)
+    expr = expr[~expr.index.duplicated(keep="first")]
+    rows = []
+    for sid, row in zip(sample_ids, sample_rows, strict=False):
+        core = sample_level_text(row)
+        side, match = classify_side(core)
+        rows.append({"sample_id": sid, "cohort": accession, "side": side, "side_auto": side, "side_match": match,
+                     "override_reason": "", "is_tumor_like": is_tumor_sample(core), "sample_level_text": core,
+                     "raw_metadata_text": all_metadata_text(row), "platform_id": row.get("platform_id", "")})
+    meta = pd.DataFrame(rows).set_index("sample_id")
+    meta = apply_overrides(meta, accession, overrides)
+    common = expr.index.intersection(meta.index)
+    expr = expr.loc[common]
+    meta = meta.loc[common]
+    return expr, meta, {"source": str(path), "platforms": platform_ids, "n": len(expr),
+                        "side_counts": meta.side.value_counts().to_dict()}
+
+
 def load_geo(accession: str, cache: Path, overrides: pd.DataFrame):
+    matrix_path = local_series_matrix(accession)
+    if matrix_path is not None:
+        return load_geo_matrix(accession, matrix_path, overrides)
     cache.mkdir(parents=True, exist_ok=True)
     gse = GEOparse.get_GEO(geo=accession, destdir=str(cache), silent=True)
     pieces = []
@@ -224,7 +298,11 @@ def load_tcga(overrides: pd.DataFrame):
     path = next((p for p in TCGA_EXPR_CANDIDATES if p.exists()), None)
     if path is None: raise FileNotFoundError("No TCGA expression cache found")
     expr = parse_tcga_expression(path); expr.index = expr.index.astype(str)
-    cases = json.loads(TCGA_CASES.read_text(encoding="utf-8")); cases = cases.get("data", cases) if isinstance(cases, dict) else cases
+    cases = json.loads(TCGA_CASES.read_text(encoding="utf-8"))
+    if isinstance(cases, dict):
+        cases = cases.get("data", cases)
+        if isinstance(cases, dict):
+            cases = cases.get("hits", cases.get("data", []))
     rows = []
     for case in cases:
         sid = str(case.get("case_id") or case.get("submitter_id") or "")
@@ -274,7 +352,21 @@ def random_effects_meta(stats: pd.DataFrame, metric: str) -> dict[str, object]:
     wr=1/(v+tau); pooled=np.sum(wr*y)/np.sum(wr); se=math.sqrt(1/np.sum(wr)); z=pooled/se
     return {"metric":metric,"k":len(d),"estimable":True,"pooled_hedges_g":pooled,"se":se,"ci_low":pooled-1.96*se,
             "ci_high":pooled+1.96*se,"p":2*norm.sf(abs(z)),"tau2":tau,"i2_percent":max(0,(q-df)/q)*100 if q>0 else 0,
-            "right_higher_cohorts":int(np.sum(y>0)),"right_lower_cohorts":int(np.sum(y<0))}
+             "right_higher_cohorts":int(np.sum(y>0)),"right_lower_cohorts":int(np.sum(y<0))}
+
+
+def markdown_table(frame: pd.DataFrame) -> str:
+    columns = [str(c) for c in frame.columns]
+    rows = []
+    for values in frame.itertuples(index=False, name=None):
+        row = []
+        for value in values:
+            row.append("" if pd.isna(value) else str(value).replace("|", "\\|"))
+        rows.append(row)
+    lines = ["| " + " | ".join(columns) + " |",
+             "| " + " | ".join("---" for _ in columns) + " |"]
+    lines.extend("| " + " | ".join(row) + " |" for row in rows)
+    return "\n".join(lines)
 
 
 def main() -> None:
@@ -301,8 +393,8 @@ def main() -> None:
               "minimum_genes":{"pufa":"2/3","buffer":"4/5"},"override_file":str(OVERRIDE_FILE),"provenance":provenance}
     Path(str(prefix)+"_manifest.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2,default=str),encoding="utf-8")
     lines=["# Frozen CRC sidedness antioxidant-buffering validation","","Cohorts: "+", ".join(FROZEN_COHORTS),"",
-           "Primary metrics are transcriptional states, not direct biochemical measurements.","","## Cohort results","",stats.to_markdown(index=False),"",
-           "## Random-effects meta-analysis","",meta.to_markdown(index=False),"","## Audit","",
+           "Primary metrics are transcriptional states, not direct biochemical measurements.","","## Cohort results","",markdown_table(stats),"",
+           "## Random-effects meta-analysis","",markdown_table(meta),"","## Audit","",
            "Review `_side_audit.csv`; ambiguous/unknown samples are excluded unless manually overridden in work/data/frozen_crc_sidedness_manual_overrides.csv."]
     Path(str(prefix)+"_report.md").write_text("\n".join(lines)+"\n",encoding="utf-8")
     print(json.dumps({"stats":stats.to_dict("records"),"meta":meta.to_dict("records"),"override_file":str(OVERRIDE_FILE)},ensure_ascii=False,indent=2,default=str))

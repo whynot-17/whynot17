@@ -1,0 +1,99 @@
+{
+  "frozen_cohorts": [
+    "GSE39582",
+    "GSE41258",
+    "GSE4554",
+    "GSE75316",
+    "TCGA-COAD"
+  ],
+  "metrics": [
+    "pufa_incorporation_score",
+    "antioxidant_buffering_score",
+    "SLC7A11",
+    "GCH1"
+  ],
+  "pufa_genes": [
+    "ACSL4",
+    "LPCAT3",
+    "AGPAT3"
+  ],
+  "buffer_genes": [
+    "SLC7A11",
+    "GPX4",
+    "AIFM2",
+    "GCH1",
+    "DHODH"
+  ],
+  "minimum_genes": {
+    "pufa": "2/3",
+    "buffer": "4/5"
+  },
+  "override_file": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\data\\frozen_crc_sidedness_manual_overrides.csv",
+  "provenance": {
+    "GSE39582": {
+      "source": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\data\\GSE39582_series_matrix.clean.txt.gz",
+      "platforms": [
+        "GPL570"
+      ],
+      "n": 585,
+      "side_counts": {
+        "left": 351,
+        "right": 232,
+        "unknown": 2
+      }
+    },
+    "GSE41258": {
+      "source": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\data\\GSE41258_series_matrix.txt.gz",
+      "platforms": [
+        "GPL96"
+      ],
+      "n": 390,
+      "side_counts": {
+        "unknown": 138,
+        "left": 132,
+        "right": 105,
+        "exclude_rectum": 15
+      }
+    },
+    "GSE4554": {
+      "source": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\data\\GSE4554_series_matrix.txt.gz",
+      "platforms": [
+        "GPL570"
+      ],
+      "n": 84,
+      "side_counts": {
+        "unknown": 84
+      }
+    },
+    "GSE75316": {
+      "source": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\data\\GSE75316_series_matrix.txt.gz",
+      "platforms": [
+        "GPL570"
+      ],
+      "n": 59,
+      "side_counts": {
+        "unknown": 59
+      }
+    },
+    "TCGA-COAD": {
+      "expression_path": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\data\\tcga_ferroptosis_three_layer_expression_uqfpkm.tsv",
+      "n": 458,
+      "side_counts": {
+        "right": 218,
+        "left": 140,
+        "unknown": 95,
+        "ambiguous": 3,
+        "exclude_rectum": 2
+      },
+      "available_genes": [
+        "AGPAT3",
+        "AIFM2",
+        "DHODH",
+        "GCH1",
+        "GPX4",
+        "LPCAT3",
+        "SLC7A11"
+      ]
+    }
+  }
+}
