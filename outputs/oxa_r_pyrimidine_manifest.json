@@ -1,0 +1,169 @@
+{
+  "datasets": {
+    "GSE42387": {
+      "dataset": "GSE42387",
+      "n_samples": 27,
+      "n_probes": 15,
+      "genes_present": [
+        "CAD",
+        "CMPK1",
+        "CTPS2",
+        "DCTD",
+        "DHFR",
+        "DHODH",
+        "DUT",
+        "PAICS",
+        "PPAT",
+        "RRM1",
+        "RRM2",
+        "TK1",
+        "TYMS",
+        "UCK2",
+        "UMPS"
+      ],
+      "target_genes": [
+        "CAD",
+        "DHODH",
+        "UMPS",
+        "CTPS1",
+        "CTPS2",
+        "PPAT",
+        "PAICS",
+        "RRM1",
+        "RRM2",
+        "DCTD",
+        "TYMS",
+        "DHFR",
+        "TK1",
+        "DUT",
+        "CMPK1",
+        "UCK2"
+      ],
+      "module_genes_present": {
+        "de_novo_pyrimidine_core": [
+          "CAD",
+          "DHODH",
+          "UMPS"
+        ],
+        "pyrimidine_nucleotide_supply": [
+          "CAD",
+          "DHODH",
+          "UMPS",
+          "CTPS2",
+          "PPAT",
+          "PAICS",
+          "RRM1",
+          "RRM2",
+          "DCTD",
+          "TYMS",
+          "DHFR",
+          "TK1",
+          "DUT",
+          "CMPK1",
+          "UCK2"
+        ]
+      },
+      "n_selected_samples": 18
+    },
+    "GSE76092": {
+      "dataset": "GSE76092",
+      "n_samples": 18,
+      "n_probes": 16,
+      "genes_present": [
+        "CAD",
+        "CMPK1",
+        "CTPS1",
+        "CTPS2",
+        "DCTD",
+        "DHFR",
+        "DHODH",
+        "DUT",
+        "PAICS",
+        "PPAT",
+        "RRM1",
+        "RRM2",
+        "TK1",
+        "TYMS",
+        "UCK2",
+        "UMPS"
+      ],
+      "target_genes": [
+        "CAD",
+        "DHODH",
+        "UMPS",
+        "CTPS1",
+        "CTPS2",
+        "PPAT",
+        "PAICS",
+        "RRM1",
+        "RRM2",
+        "DCTD",
+        "TYMS",
+        "DHFR",
+        "TK1",
+        "DUT",
+        "CMPK1",
+        "UCK2"
+      ],
+      "module_genes_present": {
+        "de_novo_pyrimidine_core": [
+          "CAD",
+          "DHODH",
+          "UMPS"
+        ],
+        "pyrimidine_nucleotide_supply": [
+          "CAD",
+          "DHODH",
+          "UMPS",
+          "CTPS1",
+          "CTPS2",
+          "PPAT",
+          "PAICS",
+          "RRM1",
+          "RRM2",
+          "DCTD",
+          "TYMS",
+          "DHFR",
+          "TK1",
+          "DUT",
+          "CMPK1",
+          "UCK2"
+        ]
+      },
+      "n_selected_samples": 6
+    }
+  },
+  "modules": {
+    "de_novo_pyrimidine_core": [
+      "CAD",
+      "DHODH",
+      "UMPS"
+    ],
+    "pyrimidine_nucleotide_supply": [
+      "CAD",
+      "DHODH",
+      "UMPS",
+      "CTPS1",
+      "CTPS2",
+      "PPAT",
+      "PAICS",
+      "RRM1",
+      "RRM2",
+      "DCTD",
+      "TYMS",
+      "DHFR",
+      "TK1",
+      "DUT",
+      "CMPK1",
+      "UCK2"
+    ]
+  },
+  "focal_genes": [
+    "DHODH",
+    "RRM2",
+    "DCTD",
+    "CAD",
+    "UMPS",
+    "TYMS"
+  ]
+}

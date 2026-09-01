@@ -1,0 +1,23 @@
+{
+  "gene": "DHODH",
+  "model_file": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\depmap_Model.csv",
+  "expression_file": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\depmap_expression_24Q4.csv",
+  "dependency_file": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\data\\CRISPRGeneEffect_26Q1.csv",
+  "expression_column": "DHODH (1723)",
+  "dependency_column": "DHODH (1723)",
+  "disease_filter": "OncotreePrimaryDisease == Colorectal Adenocarcinoma",
+  "sex_filter": [
+    "Male",
+    "Female"
+  ],
+  "n_model_metadata": 86,
+  "n_expression": 1480,
+  "n_dependency": 1208,
+  "n_matched": 45,
+  "sex_counts": {
+    "Male": 27,
+    "Female": 18
+  },
+  "dependency_release": "DepMap 26Q1 CRISPRGeneEffect / Chronos gene effect",
+  "expression_release": "DepMap 24Q4 expression"
+}

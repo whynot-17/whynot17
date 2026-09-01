@@ -1,0 +1,61 @@
+{
+  "analysis": "GCH1 malignant epithelial patient-level pseudobulk validation",
+  "access_date": "2026-09-01",
+  "gene": "GCH1",
+  "aa_proxy": [
+    "PLA2G4A",
+    "PTGS2",
+    "PTGES"
+  ],
+  "aa_proxy_definition": "mean within-cohort z-score of PLA2G4A, PTGS2 and PTGES",
+  "statistical_unit": "patient",
+  "cohorts": {
+    "GSE200997": {
+      "cohort": "GSE200997",
+      "n_patients": 16,
+      "side_counts": {
+        "Left": 8,
+        "Right": 8
+      },
+      "n_cells": 6681,
+      "target_genes": [
+        "GCH1",
+        "PLA2G4A",
+        "PTGS2",
+        "PTGES"
+      ],
+      "annotation_cells": 49859,
+      "selected_cells": 6681,
+      "matrix_gene_rows": 23828,
+      "selection_rule": "Previously generated marker-defined malignant_epithelial flag, restricted to tumor cells; see gse200997 tumor_marker_scores.csv."
+    },
+    "GSE132465": {
+      "cohort": "GSE132465",
+      "n_patients": 23,
+      "side_counts": {
+        "Left": 12,
+        "Right": 11
+      },
+      "n_cells": 17469,
+      "target_genes": [
+        "GCH1",
+        "PLA2G4A",
+        "PTGS2",
+        "PTGES"
+      ],
+      "annotation_cells": 63689,
+      "selected_cells": 17469,
+      "matrix_gene_rows": 33694,
+      "selection_rule": "Official annotation: Class=Tumor and Cell_type=Epithelial cells; malignancy inferred from tumor sample origin.",
+      "side_mapping": "cecum/ascending/hepatic flexure/transverse=Right; splenic flexure/descending/sigmoid/rectosigmoid/rectum=Left."
+    }
+  },
+  "outputs": {
+    "pseudobulk": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\outputs\\gch1_sc_patient_pseudobulk.csv",
+    "sidedness": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\outputs\\gch1_sc_sidedness.csv",
+    "coupling": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\outputs\\gch1_sc_coupling.csv",
+    "high_low": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\outputs\\gch1_sc_high_low.csv",
+    "figure": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\outputs\\gch1_malignant_epithelial_pseudobulk.png",
+    "report": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\outputs\\gch1_malignant_epithelial_pseudobulk_report.md"
+  }
+}

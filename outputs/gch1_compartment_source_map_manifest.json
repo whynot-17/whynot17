@@ -1,0 +1,45 @@
+{
+  "analysis": "GCH1 compartment source map",
+  "access_date": "2026-09-01",
+  "gene": "GCH1",
+  "aa_proxy": [
+    "PLA2G4A",
+    "PTGS2",
+    "PTGES"
+  ],
+  "statistical_unit": "patient",
+  "cohorts": {
+    "GSE200997": {
+      "cohort": "GSE200997",
+      "annotation_cells": 49859,
+      "matrix_gene_rows": 23828,
+      "compartment_cell_counts": {
+        "malignant_epithelial_like": 6681,
+        "immune_like": 23261,
+        "stromal_like": 976
+      },
+      "selection": "malignant_epithelial_like from existing marker rule; immune_like/stromal_like assigned by dominant lineage marker score."
+    },
+    "GSE132465": {
+      "cohort": "GSE132465",
+      "annotation_cells": 63689,
+      "matrix_gene_rows": 33694,
+      "compartment_cell_counts": {
+        "tumor_epithelial": 17469,
+        "T_cells": 16739,
+        "B_cells": 3938,
+        "myeloid": 6400,
+        "stromal": 2736,
+        "mast": 3
+      },
+      "selection": "Official GEO annotation: Class=Tumor and Cell_type-specific compartment."
+    }
+  },
+  "outputs": {
+    "pseudobulk": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\outputs\\gch1_compartment_source_map_patient_pseudobulk.csv",
+    "sidedness": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\outputs\\gch1_compartment_source_map_sidedness.csv",
+    "coupling": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\outputs\\gch1_compartment_source_map_coupling.csv",
+    "figure": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\outputs\\gch1_compartment_source_map.png",
+    "report": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\outputs\\gch1_compartment_source_map_report.md"
+  }
+}

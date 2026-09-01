@@ -1,0 +1,53 @@
+{
+  "analysis": "single-cell malignant/tumor epithelial validation of SLC7A11, MBOAT2 and MBOAT1",
+  "access_date": "2026-09-01",
+  "candidates": [
+    "SLC7A11",
+    "MBOAT2",
+    "MBOAT1"
+  ],
+  "aa_proxy_core": [
+    "PLA2G4A",
+    "PTGS2",
+    "PTGES"
+  ],
+  "aa_proxy_expanded": [
+    "PLA2G4A",
+    "PTGS2",
+    "PTGES",
+    "ALOX5",
+    "ALOX5AP"
+  ],
+  "statistical_unit": "patient",
+  "cohorts": {
+    "GSE200997": {
+      "cohort": "GSE200997",
+      "annotation_cells": 49859,
+      "selected_cells": 6681,
+      "matrix_gene_rows": 23828,
+      "side_counts": {
+        "Left": 8,
+        "Right": 8
+      },
+      "selection_rule": "Existing marker-defined malignant_epithelial flag restricted to tumor cells."
+    },
+    "GSE132465": {
+      "cohort": "GSE132465",
+      "annotation_cells": 63689,
+      "selected_cells": 17469,
+      "matrix_gene_rows": 33694,
+      "side_counts": {
+        "Left": 12,
+        "Right": 11
+      },
+      "selection_rule": "Official annotation: Class=Tumor and Cell_type=Epithelial cells."
+    }
+  },
+  "outputs": {
+    "pseudobulk": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\outputs\\sc_membrane_defense_candidate_patient_pseudobulk.csv",
+    "sidedness": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\outputs\\sc_membrane_defense_candidate_sidedness.csv",
+    "coupling": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\outputs\\sc_membrane_defense_candidate_coupling.csv",
+    "figure": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\outputs\\sc_membrane_defense_candidate_pseudobulk.png",
+    "report": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\outputs\\sc_membrane_defense_candidate_report.md"
+  }
+}
