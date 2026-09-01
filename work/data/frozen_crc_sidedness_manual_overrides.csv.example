@@ -1,0 +1,4 @@
+cohort,sample_id,side,reason
+GSE41258,GSMXXXXXXX,right,manual review: primary tumor in ascending colon
+GSE4554,GSMXXXXXXX,left,manual review: distal colon primary
+GSE75316,GSMXXXXXXX,left,manual review: primary site explicitly left-sided colon
