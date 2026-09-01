@@ -1,0 +1,248 @@
+{
+  "target_gene": "SLC7A11",
+  "analysis_set": "DepMap OncotreeCode=COAD",
+  "primary_side_comparison": {
+    "n_total": 17,
+    "n_right": 12,
+    "n_left": 5,
+    "right_mean_gene_effect": 0.10049788928824104,
+    "left_mean_gene_effect": 0.14628157355646282,
+    "right_median_gene_effect": 0.0908666152438764,
+    "left_median_gene_effect": 0.1462362173773599,
+    "right_minus_left_gene_effect": -0.04578368426822178,
+    "right_more_negative_exact_p": 0.3015026660203587,
+    "exact_test_method": "exact_6188_partitions",
+    "right_more_negative_mann_whitney_p": 0.19133807369101485,
+    "cliffs_delta_right_vs_left": -0.3,
+    "right_fraction_effect_le_minus_0_5": 0.0,
+    "left_fraction_effect_le_minus_0_5": 0.0
+  },
+  "sensitivity_side_comparison": {
+    "n_total": 20,
+    "n_right": 13,
+    "n_left": 7,
+    "right_mean_gene_effect": 0.10237550461003561,
+    "left_mean_gene_effect": 0.13727305894854241,
+    "right_median_gene_effect": 0.0916563136463433,
+    "left_median_gene_effect": 0.1462362173773599,
+    "right_minus_left_gene_effect": -0.0348975543385068,
+    "right_more_negative_exact_p": 0.3138891397169799,
+    "exact_test_method": "exact_77520_partitions",
+    "right_more_negative_mann_whitney_p": 0.2188983488132095,
+    "cliffs_delta_right_vs_left": -0.23076923076923078,
+    "right_fraction_effect_le_minus_0_5": 0.0,
+    "left_fraction_effect_le_minus_0_5": 0.0
+  },
+  "primary_pressure_interaction": {
+    "state": "PUFA-pressure",
+    "n": 13,
+    "n_right": 9,
+    "n_left": 4,
+    "estimable": true,
+    "side_main_effect_right_minus_left": -0.15478598536497543,
+    "side_main_effect_p_hc3": 0.12230800243597643,
+    "left_specific_slope": -0.15138793387635102,
+    "left_specific_slope_p_linear_contrast": 0.40367596871298284,
+    "right_specific_slope": -0.005098159331579949,
+    "right_specific_slope_p_linear_contrast": 0.9852369936915752,
+    "right_minus_left_slope_beta_interaction": 0.14628977454477107,
+    "right_minus_left_slope_p_interaction": 0.6511624944161923,
+    "r_squared": 0.2558675489489419
+  },
+  "sensitivity_pressure_interaction": {
+    "state": "PUFA-pressure",
+    "n": 16,
+    "n_right": 10,
+    "n_left": 6,
+    "estimable": true,
+    "side_main_effect_right_minus_left": -0.09650355874945249,
+    "side_main_effect_p_hc3": 0.3310308268344173,
+    "left_specific_slope": 0.05649274695054382,
+    "left_specific_slope_p_linear_contrast": 0.8579257787347568,
+    "right_specific_slope": -0.001370202329976311,
+    "right_specific_slope_p_linear_contrast": 0.9956811186508676,
+    "right_minus_left_slope_beta_interaction": -0.05786294928052013,
+    "right_minus_left_slope_p_interaction": 0.8853552774198579,
+    "r_squared": 0.14245573459549332
+  },
+  "primary_aa_routing_interaction": {
+    "state": "AA-routing",
+    "n": 13,
+    "n_right": 9,
+    "n_left": 4,
+    "estimable": true,
+    "side_main_effect_right_minus_left": -0.16432524507974672,
+    "side_main_effect_p_hc3": 0.06866337421226687,
+    "left_specific_slope": -0.20536184975291266,
+    "left_specific_slope_p_linear_contrast": 0.13176960903629384,
+    "right_specific_slope": -0.11875655775478966,
+    "right_specific_slope_p_linear_contrast": 0.31630379099101774,
+    "right_minus_left_slope_beta_interaction": 0.086605291998123,
+    "right_minus_left_slope_p_interaction": 0.6233194105059274,
+    "r_squared": 0.45290286790771606
+  },
+  "sensitivity_aa_routing_interaction": {
+    "state": "AA-routing",
+    "n": 16,
+    "n_right": 10,
+    "n_left": 6,
+    "estimable": true,
+    "side_main_effect_right_minus_left": -0.08679877795494914,
+    "side_main_effect_p_hc3": 0.3342200456364671,
+    "left_specific_slope": -0.028073879962085102,
+    "left_specific_slope_p_linear_contrast": 0.8478314872158216,
+    "right_specific_slope": -0.10613767378864933,
+    "right_specific_slope_p_linear_contrast": 0.3593868548677551,
+    "right_minus_left_slope_beta_interaction": -0.07806379382656423,
+    "right_minus_left_slope_p_interaction": 0.6711595591611972,
+    "r_squared": 0.19257701652278414
+  },
+  "pressure_cells_primary": {
+    "state": "PUFA-pressure",
+    "global_cutoff": 0.022494726400589648,
+    "n_labeled_models": 13,
+    "cells": {
+      "Right_High": {
+        "n": 3,
+        "mean_gene_effect": 0.0337392266287174,
+        "median_gene_effect": -0.0249022581408537
+      },
+      "Right_Low": {
+        "n": 6,
+        "mean_gene_effect": 0.13442033260213646,
+        "median_gene_effect": 0.10029495411358724
+      },
+      "Left_High": {
+        "n": 3,
+        "mean_gene_effect": 0.21769882892869744,
+        "median_gene_effect": 0.1462362173773599
+      },
+      "Left_Low": {
+        "n": 1,
+        "mean_gene_effect": 0.3177897978656301,
+        "median_gene_effect": 0.3177897978656301
+      }
+    }
+  },
+  "pressure_cells_sensitivity": {
+    "state": "PUFA-pressure",
+    "global_cutoff": 0.022494726400589648,
+    "n_labeled_models": 16,
+    "cells": {
+      "Right_High": {
+        "n": 4,
+        "mean_gene_effect": 0.05653114208943065,
+        "median_gene_effect": 0.05000231516535835
+      },
+      "Right_Low": {
+        "n": 6,
+        "mean_gene_effect": 0.13442033260213646,
+        "median_gene_effect": 0.10029495411358724
+      },
+      "Left_High": {
+        "n": 4,
+        "mean_gene_effect": 0.20990809006621386,
+        "median_gene_effect": 0.16638604542806154
+      },
+      "Left_Low": {
+        "n": 2,
+        "mean_gene_effect": 0.1803787346221748,
+        "median_gene_effect": 0.1803787346221748
+      }
+    }
+  },
+  "aa_routing_cells_primary": {
+    "state": "AA-routing",
+    "global_cutoff": -0.0365327907484172,
+    "n_labeled_models": 13,
+    "cells": {
+      "Right_High": {
+        "n": 5,
+        "mean_gene_effect": 0.08398029989409603,
+        "median_gene_effect": 0.0262771542827845
+      },
+      "Right_Low": {
+        "n": 4,
+        "mean_gene_effect": 0.12195954400712271,
+        "median_gene_effect": 0.10029495411358724
+      },
+      "Left_High": {
+        "n": 3,
+        "mean_gene_effect": 0.21769882892869744,
+        "median_gene_effect": 0.1462362173773599
+      },
+      "Left_Low": {
+        "n": 1,
+        "mean_gene_effect": 0.3177897978656301,
+        "median_gene_effect": 0.3177897978656301
+      }
+    }
+  },
+  "aa_routing_cells_sensitivity": {
+    "state": "AA-routing",
+    "global_cutoff": -0.0365327907484172,
+    "n_labeled_models": 16,
+    "cells": {
+      "Right_High": {
+        "n": 6,
+        "mean_gene_effect": 0.09080139799034176,
+        "median_gene_effect": 0.07559202137717745
+      },
+      "Right_Low": {
+        "n": 4,
+        "mean_gene_effect": 0.12195954400712271,
+        "median_gene_effect": 0.10029495411358724
+      },
+      "Left_High": {
+        "n": 3,
+        "mean_gene_effect": 0.21769882892869744,
+        "median_gene_effect": 0.1462362173773599
+      },
+      "Left_Low": {
+        "n": 3,
+        "mean_gene_effect": 0.1824311142410376,
+        "median_gene_effect": 0.1865358734787632
+      }
+    }
+  },
+  "n_coad_models": 74,
+  "n_matched_dependency_models": 48,
+  "side_counts": {
+    "Unknown": 26,
+    "Right": 13,
+    "Left": 7,
+    "Rectum": 1,
+    "Exclude": 1
+  },
+  "confidence_counts": {
+    "none": 26,
+    "high": 19,
+    "medium": 3
+  },
+  "provenance": {
+    "model_file": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\depmap_Model.csv",
+    "dependency_file": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\data\\CRISPRGeneEffect_26Q1.csv",
+    "expression_file": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\depmap_expression_24Q4.csv",
+    "dependency_column": "SLC7A11 (23657)",
+    "pressure_expression_columns": {
+      "ACSL4": "ACSL4 (2182)",
+      "LPCAT3": "LPCAT3 (10162)",
+      "ALOX5": "ALOX5 (240)",
+      "ALOX12": "ALOX12 (239)",
+      "ALOX15": "ALOX15 (246)"
+    },
+    "aa_routing_expression_columns": {
+      "PLA2G4A": "PLA2G4A (5321)",
+      "PTGS2": "PTGS2 (5743)",
+      "ALOX5": "ALOX5 (240)",
+      "ALOX5AP": "ALOX5AP (241)"
+    },
+    "pufa_min_available_genes": 4,
+    "aa_routing_min_available_genes": 3,
+    "dependency_release": "DepMap Public 26Q1 CRISPRGeneEffect / Chronos gene effect",
+    "expression_release": "DepMap 24Q4 expression",
+    "manual_curation_entries": 22,
+    "seed": 20260901,
+    "no_external_download": true
+  }
+}

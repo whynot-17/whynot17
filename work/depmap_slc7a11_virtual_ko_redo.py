@@ -376,6 +376,17 @@ def finite_or_none(value: object) -> float | int | None:
     return converted if np.isfinite(converted) else None
 
 
+def format_p(value: object) -> str:
+    """Compact plot annotation for a p-value or missing value."""
+    if value is None:
+        return "NA"
+    try:
+        converted = float(value)
+    except (TypeError, ValueError):
+        return "NA"
+    return f"{converted:.3g}" if np.isfinite(converted) else "NA"
+
+
 def side_stats(panel: pd.DataFrame, confidence: set[str], seed: int) -> dict[str, object]:
     data = panel[
         panel["side"].isin(["Right", "Left"])
@@ -520,7 +531,10 @@ def make_figure(panel: pd.DataFrame, summary: dict[str, object], out_dir: Path) 
     axes[0].set_xticks([1, 2], ["Right", "Left"])
     axes[0].set_ylabel("SLC7A11 Chronos gene effect\nmore negative = stronger dependency")
     primary_p = summary["primary_side_comparison"].get("right_more_negative_exact_p")
-    axes[0].set_title(f"Manual sidedness (high confidence)\nexact one-sided p={primary_p if primary_p is not None else 'NA'}")
+    axes[0].set_title(
+        f"Manual sidedness (high confidence)\nexact one-sided p={format_p(primary_p)}",
+        fontsize=10,
+    )
     axes[0].axhline(-0.5, color="gray", linestyle="--", linewidth=0.8)
     axes[0].legend(frameon=False, fontsize=8)
 
@@ -550,8 +564,8 @@ def make_figure(panel: pd.DataFrame, summary: dict[str, object], out_dir: Path) 
         axis.set_ylabel("SLC7A11 Chronos gene effect")
         axis.set_title(
             f"{x_label.split(chr(10))[0]} × sidedness\n"
-            f"slope-difference p={interaction_p if interaction_p is not None else 'NA'}; "
-            f"Right-slope p={right_p if right_p is not None else 'NA'}"
+            f"Δslope p={format_p(interaction_p)}; Right-slope p={format_p(right_p)}",
+            fontsize=10,
         )
         axis.axhline(-0.5, color="gray", linestyle="--", linewidth=0.8)
         axis.legend(frameon=False)

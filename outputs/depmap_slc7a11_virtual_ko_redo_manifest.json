@@ -1,0 +1,26 @@
+{
+  "model_file": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\depmap_Model.csv",
+  "dependency_file": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\data\\CRISPRGeneEffect_26Q1.csv",
+  "expression_file": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\depmap_expression_24Q4.csv",
+  "dependency_column": "SLC7A11 (23657)",
+  "pressure_expression_columns": {
+    "ACSL4": "ACSL4 (2182)",
+    "LPCAT3": "LPCAT3 (10162)",
+    "ALOX5": "ALOX5 (240)",
+    "ALOX12": "ALOX12 (239)",
+    "ALOX15": "ALOX15 (246)"
+  },
+  "aa_routing_expression_columns": {
+    "PLA2G4A": "PLA2G4A (5321)",
+    "PTGS2": "PTGS2 (5743)",
+    "ALOX5": "ALOX5 (240)",
+    "ALOX5AP": "ALOX5AP (241)"
+  },
+  "pufa_min_available_genes": 4,
+  "aa_routing_min_available_genes": 3,
+  "dependency_release": "DepMap Public 26Q1 CRISPRGeneEffect / Chronos gene effect",
+  "expression_release": "DepMap 24Q4 expression",
+  "manual_curation_entries": 22,
+  "seed": 20260901,
+  "no_external_download": true
+}
