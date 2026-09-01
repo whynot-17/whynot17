@@ -1,0 +1,213 @@
+{
+  "GSE200997": {
+    "source": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\gse200997\\GSE200997_GEO_processed_CRC_10X_raw_UMI_count_matrix.csv.gz",
+    "n_patients": 16,
+    "n_genes": 23828,
+    "normalization": "summed raw UMI / summed selected-cell UMI * 1e6; log2(CPM+1)",
+    "selection": "existing marker-defined malignant epithelial cells",
+    "n_selected_cells": 6681
+  },
+  "GSE132465": {
+    "source": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\gse132465\\GSE132465_GEO_processed_CRC_10X_raw_UMI_count_matrix.txt.gz",
+    "n_patients": 23,
+    "n_genes": 33693,
+    "normalization": "summed raw UMI / summed selected-cell UMI * 1e6; log2(CPM+1)",
+    "selection": "official GEO tumor epithelial annotation; malignancy inferred from tumor origin",
+    "n_selected_cells": 17469,
+    "side_map": [
+      {
+        "sample": "SMC01-T",
+        "side": "exclude_rectum",
+        "side_match": "\\brectum\\b",
+        "sample_level_text": "title: SMC01-T | source_name_ch1: SMC01_Colorectal cancer | characteristics_ch1: patient_id: SMC01 | tumor stage: 2 | tissue type: Colorectal cancer | region: rectum | pathologic: Well differentiated"
+      },
+      {
+        "sample": "SMC02-T",
+        "side": "exclude_rectum",
+        "side_match": "\\brectum\\b",
+        "sample_level_text": "title: SMC02-T | source_name_ch1: SMC02_Colorectal cancer | characteristics_ch1: patient_id: SMC02 | tumor stage: 3 | tissue type: Colorectal cancer | region: rectum | pathologic: Well differentiated"
+      },
+      {
+        "sample": "SMC03-T",
+        "side": "right",
+        "side_match": "hepatic\\s+flexure",
+        "sample_level_text": "title: SMC03-T | source_name_ch1: SMC03_Colorectal cancer | characteristics_ch1: patient_id: SMC03 | tumor stage: 3 | tissue type: Colorectal cancer | region: hepatic flexure | pathologic: Poorly differntiated"
+      },
+      {
+        "sample": "SMC04-T",
+        "side": "left",
+        "side_match": "\\bsigmoid\\b",
+        "sample_level_text": "title: SMC04-T | source_name_ch1: SMC04_Colorectal cancer | characteristics_ch1: patient_id: SMC04 | tumor stage: 3 | tissue type: Colorectal cancer | region: sigmoid | pathologic: Moderately differenttiated"
+      },
+      {
+        "sample": "SMC05-T",
+        "side": "right",
+        "side_match": "\\bascending\\b",
+        "sample_level_text": "title: SMC05-T | source_name_ch1: SMC05_Colorectal cancer | characteristics_ch1: patient_id: SMC05 | tumor stage: 2 | tissue type: Colorectal cancer | region: ascending | pathologic: Well differentiated with mucin production (<10%)"
+      },
+      {
+        "sample": "SMC06-T",
+        "side": "right",
+        "side_match": "hepatic\\s+flexure",
+        "sample_level_text": "title: SMC06-T | source_name_ch1: SMC06_Colorectal cancer | characteristics_ch1: patient_id: SMC06 | tumor stage: 3 | tissue type: Colorectal cancer | region: hepatic flexure | pathologic: Well differentiated"
+      },
+      {
+        "sample": "SMC07-T",
+        "side": "right",
+        "side_match": "\\bascending\\b",
+        "sample_level_text": "title: SMC07-T | source_name_ch1: SMC07_Colorectal cancer | characteristics_ch1: patient_id: SMC07 | tumor stage: 1 | tissue type: Colorectal cancer | region: ascending | pathologic: Well differentiated"
+      },
+      {
+        "sample": "SMC08-T",
+        "side": "left",
+        "side_match": "\\bsigmoid\\b",
+        "sample_level_text": "title: SMC08-T | source_name_ch1: SMC08_Colorectal cancer | characteristics_ch1: patient_id: SMC08 | tumor stage: 3 | tissue type: Colorectal cancer | region: sigmoid | pathologic: Moderately differenttiated"
+      },
+      {
+        "sample": "SMC09-T",
+        "side": "left",
+        "side_match": "\\bsigmoid\\b",
+        "sample_level_text": "title: SMC09-T | source_name_ch1: SMC09_Colorectal cancer | characteristics_ch1: patient_id: SMC09 | tumor stage: 2 | tissue type: Colorectal cancer | region: sigmoid | pathologic: Well differentiated"
+      },
+      {
+        "sample": "SMC10-T",
+        "side": "right",
+        "side_match": "\\bascending\\b",
+        "sample_level_text": "title: SMC10-T | source_name_ch1: SMC10_Colorectal cancer | characteristics_ch1: patient_id: SMC10 | tumor stage: 2 | tissue type: Colorectal cancer | region: ascending | pathologic: Moderately differenttiated"
+      },
+      {
+        "sample": "SMC11-T",
+        "side": "left",
+        "side_match": "\\bsigmoid\\b",
+        "sample_level_text": "title: SMC11-T | source_name_ch1: SMC11_Colorectal cancer | characteristics_ch1: patient_id: SMC11 | tumor stage: 3 | tissue type: Colorectal cancer | region: sigmoid | pathologic: Well differentiated"
+      },
+      {
+        "sample": "SMC14-T",
+        "side": "left",
+        "side_match": "\\brectosigmoid\\b",
+        "sample_level_text": "title: SMC14-T | source_name_ch1: SMC14_Colorectal cancer | characteristics_ch1: patient_id: SMC14 | tumor stage: 3 | tissue type: Colorectal cancer | region: rectosigmoid | pathologic: Moderately differenttiated"
+      },
+      {
+        "sample": "SMC15-T",
+        "side": "left",
+        "side_match": "\\bsigmoid\\b",
+        "sample_level_text": "title: SMC15-T | source_name_ch1: SMC15_Colorectal cancer | characteristics_ch1: patient_id: SMC15 | tumor stage: 2 | tissue type: Colorectal cancer | region: sigmoid | pathologic: Well differentiated"
+      },
+      {
+        "sample": "SMC16-T",
+        "side": "right",
+        "side_match": "\\bascending\\b",
+        "sample_level_text": "title: SMC16-T | source_name_ch1: SMC16_Colorectal cancer | characteristics_ch1: patient_id: SMC16 | tumor stage: 3 | tissue type: Colorectal cancer | region: ascending | pathologic: Moderately differenttiated"
+      },
+      {
+        "sample": "SMC17-T",
+        "side": "right",
+        "side_match": "hepatic\\s+flexure",
+        "sample_level_text": "title: SMC17-T | source_name_ch1: SMC17_Colorectal cancer | characteristics_ch1: patient_id: SMC17 | tumor stage: 3 | tissue type: Colorectal cancer | region: hepatic flexure | pathologic: Mucinous adenocarcinoma"
+      },
+      {
+        "sample": "SMC18-T",
+        "side": "left",
+        "side_match": "\\bsigmoid\\b",
+        "sample_level_text": "title: SMC18-T | source_name_ch1: SMC18_Colorectal cancer | characteristics_ch1: patient_id: SMC18 | tumor stage: 2 | tissue type: Colorectal cancer | region: sigmoid | pathologic: Moderately differenttiated"
+      },
+      {
+        "sample": "SMC19-T",
+        "side": "right",
+        "side_match": "\\bascending\\b",
+        "sample_level_text": "title: SMC19-T | source_name_ch1: SMC19_Colorectal cancer | characteristics_ch1: patient_id: SMC19 | tumor stage: 3 | tissue type: Colorectal cancer | region: ascending | pathologic: Moderately differenttiated"
+      },
+      {
+        "sample": "SMC20-T",
+        "side": "right",
+        "side_match": "\\bascending\\b",
+        "sample_level_text": "title: SMC20-T | source_name_ch1: SMC20_Colorectal cancer | characteristics_ch1: patient_id: SMC20 | tumor stage: 3 | tissue type: Colorectal cancer | region: ascending | pathologic: Mucinous adenocarcinoma"
+      },
+      {
+        "sample": "SMC21-T",
+        "side": "exclude_rectum",
+        "side_match": "\\brectum\\b",
+        "sample_level_text": "title: SMC21-T | source_name_ch1: SMC21_Colorectal cancer | characteristics_ch1: patient_id: SMC21 | tumor stage: 4 | tissue type: Colorectal cancer | region: rectum | pathologic: Moderately differenttiated"
+      },
+      {
+        "sample": "SMC22-T",
+        "side": "left",
+        "side_match": "\\bsigmoid\\b",
+        "sample_level_text": "title: SMC22-T | source_name_ch1: SMC22_Colorectal cancer | characteristics_ch1: patient_id: SMC22 | tumor stage: 3 | tissue type: Colorectal cancer | region: sigmoid | pathologic: Moderately differenttiated"
+      },
+      {
+        "sample": "SMC23-T",
+        "side": "right",
+        "side_match": "\\bascending\\b",
+        "sample_level_text": "title: SMC23-T | source_name_ch1: SMC23_Colorectal cancer | characteristics_ch1: patient_id: SMC23 | tumor stage: 3 | tissue type: Colorectal cancer | region: ascending | pathologic: Moderately differenttiated"
+      },
+      {
+        "sample": "SMC24-T",
+        "side": "right",
+        "side_match": "\\bascending\\b",
+        "sample_level_text": "title: SMC24-T | source_name_ch1: SMC24_Colorectal cancer | characteristics_ch1: patient_id: SMC24 | tumor stage: 1 | tissue type: Colorectal cancer | region: ascending | pathologic: Well differentiated with mucin production (10%)"
+      },
+      {
+        "sample": "SMC25-T",
+        "side": "left",
+        "side_match": "\\bsigmoid\\b",
+        "sample_level_text": "title: SMC25-T | source_name_ch1: SMC25_Colorectal cancer | characteristics_ch1: patient_id: SMC25 | tumor stage: 4 | tissue type: Colorectal cancer | region: sigmoid | pathologic: Moderately differenttiated"
+      }
+    ]
+  },
+  "GSE144735": {
+    "source": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\data\\GSE144735_processed_KUL3_CRC_10X_raw_UMI_count_matrix.txt.gz",
+    "n_patients": 6,
+    "n_genes": 33693,
+    "normalization": "summed raw UMI / summed selected-cell UMI * 1e6; log2(CPM+1)",
+    "selection": "official GEO tumor epithelial annotation; malignancy inferred from tumor origin",
+    "n_selected_cells": 2212,
+    "side_map": [
+      {
+        "sample": "KUL01-T",
+        "side": "right",
+        "side_match": "\\bcaecum\\b",
+        "sample_level_text": "title: KUL01-T | source_name_ch1: KUL01_Core region | characteristics_ch1: patient_id: KUL01 | tumor stage: IIB | tissue type: Core region | region: caecum | pathologic: Global moderately differentiated adenocarcinoma with mixed glandulair, mucinous growth patern, moderate budding"
+      },
+      {
+        "sample": "KUL19-T",
+        "side": "left",
+        "side_match": "\\brectosigmoid\\b",
+        "sample_level_text": "title: KUL19-T | source_name_ch1: KUL19_Core region | characteristics_ch1: patient_id: KUL19 | tumor stage: IIIB | tissue type: Core region | region: rectosigmoid | pathologic: Moderately differentiated adenocarcinoma NST"
+      },
+      {
+        "sample": "KUL21-T",
+        "side": "left",
+        "side_match": "\\bsigmoid\\b",
+        "sample_level_text": "title: KUL21-T | source_name_ch1: KUL21_Core region | characteristics_ch1: patient_id: KUL21 | tumor stage: IVA | tissue type: Core region | region: sigmoid | pathologic: Moderately differentiated adenocarcinoma"
+      },
+      {
+        "sample": "KUL28-T",
+        "side": "left",
+        "side_match": "\\bsigmoid\\b",
+        "sample_level_text": "title: KUL28-T | source_name_ch1: KUL28_Core region | characteristics_ch1: patient_id: KUL28 | tumor stage: IIA | tissue type: Core region | region: sigmoid | pathologic: Moderately differentiated adenocarcinoma"
+      },
+      {
+        "sample": "KUL30-T",
+        "side": "right",
+        "side_match": "\\bascending\\b",
+        "sample_level_text": "title: KUL30-T | source_name_ch1: KUL30_Core region | characteristics_ch1: patient_id: KUL30 | tumor stage: IIA | tissue type: Core region | region: ascending | pathologic: Moderately differentiated adenocarcinoma"
+      },
+      {
+        "sample": "KUL31-T",
+        "side": "left",
+        "side_match": "\\bsigmoid\\b",
+        "sample_level_text": "title: KUL31-T | source_name_ch1: KUL31_Core region | characteristics_ch1: patient_id: KUL31 | tumor stage: I | tissue type: Core region | region: sigmoid | pathologic: Well differentiated adenocarcinoma NST"
+      }
+    ]
+  },
+  "GSE188711": {
+    "source": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\data\\GSE188711_RAW",
+    "n_patients": 6,
+    "n_genes": 33659,
+    "n_selected_cells": 2370,
+    "selection": "existing primary putative malignant epithelial Leiden cluster 4",
+    "sensitivity_warning": "3 left and 3 right patients; directional sensitivity only",
+    "normalization": "summed raw UMI / summed selected-cell UMI * 1e6; log2(CPM+1)"
+  }
+}

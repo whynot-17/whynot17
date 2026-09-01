@@ -1,0 +1,94 @@
+{
+  "bulk_summary": [
+    {
+      "cohort": "GSE39582",
+      "n_right": 232,
+      "n_left": 351,
+      "n_genes": 21750,
+      "source": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\data\\GSE39582_series_matrix.clean.txt.gz",
+      "platform": "GPL570"
+    },
+    {
+      "cohort": "GSE103479",
+      "n_right": 56,
+      "n_left": 59,
+      "n_genes": 25382,
+      "source": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\data\\GSE103479_log2_RMA_annotated.txt.gz",
+      "platform": "Almac Xcel annotated"
+    },
+    {
+      "cohort": "GSE41258",
+      "n_right": 105,
+      "n_left": 132,
+      "n_genes": 13100,
+      "source": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\data\\GSE41258_series_matrix.txt.gz",
+      "platform": "GPL96"
+    },
+    {
+      "cohort": "TCGA-COAD",
+      "n_right": 171,
+      "n_left": 99,
+      "n_genes": 20530,
+      "source": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\data\\TCGA_COAD_HiSeqV2.gz",
+      "platform": "GDC/HiSeqV2"
+    }
+  ],
+  "sc_summary": [
+    {
+      "cohort": "GSE200997",
+      "n_right": 8,
+      "n_left": 8,
+      "n_selected_cells": 6681,
+      "n_genes": 23828,
+      "selection": "existing marker-defined malignant epithelial cells",
+      "sensitivity_warning": ""
+    },
+    {
+      "cohort": "GSE132465",
+      "n_right": 11,
+      "n_left": 9,
+      "n_selected_cells": 17469,
+      "n_genes": 33693,
+      "selection": "official GEO tumor epithelial annotation; malignancy inferred from tumor origin",
+      "sensitivity_warning": ""
+    },
+    {
+      "cohort": "GSE144735",
+      "n_right": 2,
+      "n_left": 4,
+      "n_selected_cells": 2212,
+      "n_genes": 33693,
+      "selection": "official GEO tumor epithelial annotation; malignancy inferred from tumor origin",
+      "sensitivity_warning": ""
+    },
+    {
+      "cohort": "GSE188711",
+      "n_right": 3,
+      "n_left": 3,
+      "n_selected_cells": 2370,
+      "n_genes": 33659,
+      "selection": "existing primary putative malignant epithelial Leiden cluster 4",
+      "sensitivity_warning": "3 left and 3 right patients; directional sensitivity only"
+    }
+  ],
+  "sc_cohorts": [
+    "GSE200997",
+    "GSE132465",
+    "GSE144735",
+    "GSE188711"
+  ],
+  "inputs": {
+    "bulk": [
+      "GSE39582",
+      "GSE103479",
+      "GSE41258",
+      "TCGA-COAD"
+    ],
+    "single_cell": [
+      "GSE200997",
+      "GSE132465",
+      "GSE144735",
+      "GSE188711"
+    ]
+  }
+}
