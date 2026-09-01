@@ -1,0 +1,15 @@
+cohort,layer,metric,n,estimable,covariates,right_beta,right_p_hc3,r_squared
+GSE39582,transcript_ferroptosis,ferroptosis_driver_score,515,True,right+stage+mmr_high,0.016190394463787443,0.5789527464630824,0.009611323973911956
+GSE39582,transcript_ferroptosis,ferroptosis_defense_score,515,True,right+stage+mmr_high,-0.0834299847168494,0.038556146465668066,0.09202358390164123
+GSE39582,transcript_ferroptosis,ferroptosis_net_propensity,515,True,right+stage+mmr_high,0.09962037918063678,0.03889714271596675,0.04538477959021636
+GSE39582,lipid_peroxidation,pufa_incorporation_score,515,True,right+stage+mmr_high,0.0913508855296348,0.07850430602565565,0.03280095191312471
+GSE39582,lipid_peroxidation,peroxide_generation_score,515,True,right+stage+mmr_high,-0.02679007855610225,0.6310199890682999,0.002108144559853864
+GSE39582,lipid_peroxidation,antioxidant_buffering_score,515,True,right+stage+mmr_high,-0.015119878309432821,0.746438031962695,0.16789645762826733
+GSE39582,lipid_peroxidation,lipid_peroxidation_liability,515,True,right+stage+mmr_high,0.04740028179619903,0.426175061330351,0.08210587421085724
+TCGA-COAD,transcript_ferroptosis,ferroptosis_driver_score,0,False,,,,
+TCGA-COAD,transcript_ferroptosis,ferroptosis_defense_score,327,True,right+stage,-0.010056622157779738,0.7852157331082759,0.007216306324657973
+TCGA-COAD,transcript_ferroptosis,ferroptosis_net_propensity,0,False,,,,
+TCGA-COAD,lipid_peroxidation,pufa_incorporation_score,0,False,,,,
+TCGA-COAD,lipid_peroxidation,peroxide_generation_score,327,True,right+stage,-0.05032920295430765,0.41680508342041345,0.08138148422948543
+TCGA-COAD,lipid_peroxidation,antioxidant_buffering_score,327,True,right+stage,0.0828275100468782,0.07896393320359374,0.015696279492512955
+TCGA-COAD,lipid_peroxidation,lipid_peroxidation_liability,0,False,,,,

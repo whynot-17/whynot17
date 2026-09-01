@@ -388,11 +388,39 @@ def depmap_layer() -> tuple[pd.DataFrame, pd.DataFrame, dict[str, object]]:
     return panel, stats, info
 
 
+def markdown_table(frame: pd.DataFrame) -> str:
+    """Render a compact Markdown table without requiring the tabulate package."""
+    if frame.empty:
+        return "_No rows._"
+
+    def format_cell(value: object) -> str:
+        if value is None:
+            return ""
+        if isinstance(value, (float, np.floating)):
+            if not np.isfinite(value):
+                return ""
+            return f"{value:.4g}"
+        text = str(value)
+        if text.lower() in {"nan", "nat", "none"}:
+            return ""
+        return text.replace("|", "\\|").replace("\n", " ")
+
+    headers = [str(column) for column in frame.columns]
+    lines = [
+        "| " + " | ".join(headers) + " |",
+        "| " + " | ".join("---" for _ in headers) + " |",
+    ]
+    for row in frame.itertuples(index=False, name=None):
+        lines.append("| " + " | ".join(format_cell(value) for value in row) + " |")
+    return "\n".join(lines)
+
+
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
 
     gse_expr, gse_meta, gse_info = load_gse()
     tcga_expr, tcga_meta, tcga_info = load_tcga()
+    tcga_missing_genes = sorted(set(ALL_TRANSCRIPT_GENES) - set(tcga_expr.columns))
     gse = build_scores(gse_expr, gse_meta, "GSE39582")
     tcga = build_scores(tcga_expr, tcga_meta, "TCGA-COAD")
     samples = pd.concat([gse, tcga], axis=0, ignore_index=False, sort=False)
@@ -436,7 +464,11 @@ def main() -> None:
             "chronos_direction": "more negative = larger fitness loss after knockout",
             "composite_direction": "larger composite index = stronger ferroptosis-defense dependency",
         },
-        "cohorts": {"GSE39582": gse_info, "TCGA-COAD": tcga_info, "DepMap": dep_info},
+        "cohorts": {
+            "GSE39582": gse_info,
+            "TCGA-COAD": {**tcga_info, "missing_target_genes": tcga_missing_genes},
+            "DepMap": dep_info,
+        },
         "guardrail": "No transcriptomic or dependency score is a direct ferroptotic-death measurement.",
     }
     (OUT / "crc_sidedness_ferroptosis_three_layer_manifest.json").write_text(json.dumps(manifest, indent=2, default=str), encoding="utf-8")
@@ -447,25 +479,32 @@ def main() -> None:
         "## Question",
         "Which side shows the stronger ferroptosis-related state/liability before any SLC7A11 mechanism is assumed?",
         "",
+        "## Data availability note",
+        (
+            "The TCGA targeted-expression cache lacks the following requested genes: "
+            f"{', '.join(tcga_missing_genes) if tcga_missing_genes else 'none'}. "
+            "Accordingly, TCGA metrics whose minimum gene-availability rule is not met are not estimable and must not be interpreted as null sidedness results."
+        ),
+        "",
         "## Layer 1 — transcriptomic ferroptosis state",
         "Positive Right−Left for `ferroptosis_net_propensity` supports a more ferroptosis-prone right-sided transcriptional state; defense and driver components are reported separately.",
         "",
-        stats[stats.layer.eq("transcript_ferroptosis")].to_markdown(index=False),
+        markdown_table(stats[stats.layer.eq("transcript_ferroptosis")]),
         "",
         "## Layer 2 — lipid-peroxidation liability",
         "Positive Right−Left for `lipid_peroxidation_liability` supports greater right-sided PUFA/peroxide liability after subtracting antioxidant buffering.",
         "",
-        stats[stats.layer.eq("lipid_peroxidation")].to_markdown(index=False),
+        markdown_table(stats[stats.layer.eq("lipid_peroxidation")]),
         "",
         "## Adjusted sensitivity models",
         "HC3 OLS uses sidedness plus stage and/or MMR/MSI only when those covariates are sufficiently available in the cohort.",
         "",
-        adjusted.to_markdown(index=False),
+        markdown_table(adjusted),
         "",
         "## Layer 3 — DepMap functional dependency",
         "For individual defense genes, a negative Right−Left Chronos effect means stronger right-sided dependency. For the composite index, positive Right−Left means stronger right-sided collective dependency.",
         "",
-        dep_stats.to_markdown(index=False),
+        markdown_table(dep_stats),
         "",
         "## Decision rule",
         "Do not label either side as having 'stronger ferroptosis' from one score. A sidedness conclusion requires directional agreement across the net transcriptomic propensity, lipid-peroxidation liability, and functional dependency layers. Discordant layers are biologically informative and should be reported as such.",
