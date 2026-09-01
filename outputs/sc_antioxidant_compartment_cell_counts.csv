@@ -1,0 +1,11 @@
+cohort,lineage,n_cells
+GSE132465,T_B,32261
+GSE132465,malignant_epithelial,18539
+GSE132465,myeloid,6769
+GSE132465,stromal,5933
+GSE132465,unresolved,187
+GSE200997,T_B,13490
+GSE200997,malignant_epithelial,6681
+GSE200997,myeloid,3555
+GSE200997,stromal,976
+GSE200997,unresolved,25157

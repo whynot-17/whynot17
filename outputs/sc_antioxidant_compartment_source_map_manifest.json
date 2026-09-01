@@ -1,0 +1,171 @@
+{
+  "analysis": "SLC7A11/GCH1/antioxidant-buffering compartment source map",
+  "access_date": "2026-09-02",
+  "cohorts": {
+    "GSE200997": {
+      "cohort": "GSE200997",
+      "annotation_cells": 49859,
+      "matrix_gene_rows": 23828,
+      "compartment_info": {
+        "malignant_epithelial": {
+          "cohort": "GSE200997",
+          "compartment": "malignant_epithelial",
+          "n_patients": 16,
+          "n_cells": 6681,
+          "side_counts": {
+            "Left": 8,
+            "Right": 8
+          }
+        },
+        "myeloid": {
+          "cohort": "GSE200997",
+          "compartment": "myeloid",
+          "n_patients": 16,
+          "n_cells": 3555,
+          "side_counts": {
+            "Left": 8,
+            "Right": 8
+          }
+        },
+        "T_B": {
+          "cohort": "GSE200997",
+          "compartment": "T_B",
+          "n_patients": 16,
+          "n_cells": 13490,
+          "side_counts": {
+            "Left": 8,
+            "Right": 8
+          }
+        },
+        "stromal": {
+          "cohort": "GSE200997",
+          "compartment": "stromal",
+          "n_patients": 14,
+          "n_cells": 976,
+          "side_counts": {
+            "Left": 7,
+            "Right": 7
+          }
+        }
+      },
+      "lineage_cell_counts": {
+        "unresolved": 25157,
+        "T_B": 13490,
+        "malignant_epithelial": 6681,
+        "myeloid": 3555,
+        "stromal": 976
+      },
+      "marker_genes_available": {
+        "myeloid": [
+          "LST1",
+          "TYROBP",
+          "FCER1G",
+          "CTSS",
+          "LILRB1",
+          "AIF1",
+          "CSTA",
+          "LGALS3",
+          "S100A8",
+          "S100A9",
+          "FCGR3A"
+        ],
+        "T_B": [
+          "CD3D",
+          "CD3E",
+          "CD3G",
+          "TRAC",
+          "TRBC1",
+          "TRBC2",
+          "CD79A",
+          "MS4A1",
+          "CD37",
+          "CD74",
+          "HLA-DRA",
+          "CD52",
+          "LTB",
+          "IL7R"
+        ]
+      },
+      "selection": "Existing marker-defined malignant epithelial/immune/stromal calls; immune-like cells split by dominant raw-UMI myeloid versus T/B marker score."
+    },
+    "GSE132465": {
+      "cohort": "GSE132465",
+      "annotation_cells": 63689,
+      "matrix_gene_rows": 33694,
+      "compartment_info": {
+        "malignant_epithelial": {
+          "cohort": "GSE132465",
+          "compartment": "malignant_epithelial",
+          "n_patients": 23,
+          "n_cells": 17469,
+          "side_counts": {
+            "Left": 12,
+            "Right": 11
+          }
+        },
+        "myeloid": {
+          "cohort": "GSE132465",
+          "compartment": "myeloid",
+          "n_patients": 23,
+          "n_cells": 6400,
+          "side_counts": {
+            "Left": 12,
+            "Right": 11
+          }
+        },
+        "T_B": {
+          "cohort": "GSE132465",
+          "compartment": "T_B",
+          "n_patients": 23,
+          "n_cells": 20677,
+          "side_counts": {
+            "Left": 12,
+            "Right": 11
+          }
+        },
+        "stromal": {
+          "cohort": "GSE132465",
+          "compartment": "stromal",
+          "n_patients": 23,
+          "n_cells": 2736,
+          "side_counts": {
+            "Left": 12,
+            "Right": 11
+          }
+        }
+      },
+      "lineage_cell_counts": {
+        "T_B": 32261,
+        "malignant_epithelial": 18539,
+        "myeloid": 6769,
+        "stromal": 5933,
+        "unresolved": 187
+      },
+      "selection": "Official GEO annotation: Class=Tumor; Epithelial cells, Myeloids, T cells/B cells and Stromal cells mapped to the four compartments.",
+      "side_mapping": "Existing GSE132465 GEO region map: cecum/ascending/hepatic flexure/transverse=Right; splenic flexure/descending/sigmoid/rectosigmoid/rectum=Left."
+    }
+  },
+  "compartments": [
+    "malignant_epithelial",
+    "myeloid",
+    "T_B",
+    "stromal"
+  ],
+  "buffer_genes": [
+    "SLC7A11",
+    "GPX4",
+    "AIFM2",
+    "GCH1",
+    "DHODH"
+  ],
+  "statistical_unit": "patient within compartment",
+  "outputs": {
+    "pseudobulk": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\outputs\\sc_antioxidant_compartment_patient_pseudobulk.csv",
+    "cell_lineage_audit": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\outputs\\sc_antioxidant_compartment_cell_lineage_audit.csv",
+    "sidedness": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\outputs\\sc_antioxidant_compartment_sidedness.csv",
+    "cell_counts": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\outputs\\sc_antioxidant_compartment_cell_counts.csv",
+    "patient_counts": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\outputs\\sc_antioxidant_compartment_patient_counts.csv",
+    "figure": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\outputs\\sc_antioxidant_compartment_source_map.png",
+    "report": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\outputs\\sc_antioxidant_compartment_source_map_report.md"
+  }
+}

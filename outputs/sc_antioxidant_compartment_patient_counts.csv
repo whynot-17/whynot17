@@ -1,0 +1,9 @@
+cohort,compartment,n_patient_rows,n_patients,n_right,n_left
+GSE132465,T_B,23,23,11,12
+GSE132465,malignant_epithelial,23,23,11,12
+GSE132465,myeloid,23,23,11,12
+GSE132465,stromal,23,23,11,12
+GSE200997,T_B,16,16,8,8
+GSE200997,malignant_epithelial,16,16,8,8
+GSE200997,myeloid,16,16,8,8
+GSE200997,stromal,14,14,7,7
