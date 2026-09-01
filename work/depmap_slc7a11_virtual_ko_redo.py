@@ -6,9 +6,9 @@ does not run until invoked explicitly by the user.
 Question
 --------
 Does SLC7A11 CRISPR/Chronos gene effect differ between manually curated
-right- and left-sided colorectal adenocarcinoma (COAD) models?  A secondary
-analysis asks whether a transcriptional PUFA-pressure proxy is associated with
-SLC7A11 dependency differently by side.
+right- and left-sided colorectal adenocarcinoma (COAD) models?  Secondary
+analyses ask whether transcriptional PUFA-pressure and AA-routing proxies are
+associated with SLC7A11 dependency differently by side.
 
 Interpretation of the dependency score
 ---------------------------------------
@@ -53,6 +53,9 @@ DEFAULT_OUT_DIR = ROOT / "outputs"
 
 GENE = "SLC7A11"
 PRESSURE_GENES = ("ACSL4", "LPCAT3", "ALOX5", "ALOX12", "ALOX15")
+AA_ROUTING_GENES = ("PLA2G4A", "PTGS2", "ALOX5", "ALOX5AP")
+PUFA_MIN_AVAILABLE = 4
+AA_ROUTING_MIN_AVAILABLE = 3
 SEED = 20260901
 
 
@@ -302,17 +305,27 @@ def add_manual_sidedness(models: pd.DataFrame) -> pd.DataFrame:
     return pd.concat([models.reset_index(drop=True), pd.DataFrame(annotations)], axis=1)
 
 
-def build_pressure_score(expression_file: Path, coad_ids: pd.Series) -> tuple[pd.DataFrame, dict[str, str]]:
+def build_expression_state_score(
+    expression_file: Path,
+    coad_ids: pd.Series,
+    genes: tuple[str, ...],
+    score_name: str,
+    complete_name: str,
+    min_available: int,
+) -> tuple[pd.DataFrame, dict[str, str]]:
+    """Build a within-COAD z-score state with an explicit completeness gate."""
     score = pd.DataFrame({"ModelID": coad_ids.astype(str)})
     columns: dict[str, str] = {}
-    for gene in PRESSURE_GENES:
+    for gene in genes:
         values, column = load_gene_column(expression_file, gene, f"{gene}_expression")
         columns[gene] = column
         score = score.merge(values, on="ModelID", how="left")
         score[f"{gene}_z"] = zscore(score[f"{gene}_expression"])
-    z_columns = [f"{gene}_z" for gene in PRESSURE_GENES]
-    score["PUFA_pressure_score"] = score[z_columns].mean(axis=1, skipna=True)
-    score["pressure_complete_genes"] = score[z_columns].notna().sum(axis=1)
+    z_columns = [f"{gene}_z" for gene in genes]
+    raw_score = score[z_columns].mean(axis=1, skipna=True)
+    score[complete_name] = score[z_columns].notna().sum(axis=1)
+    score[f"{score_name}_raw"] = raw_score
+    score[score_name] = raw_score.where(score[complete_name] >= min_available)
     return score, columns
 
 
@@ -346,10 +359,11 @@ def exact_directional_p(values: np.ndarray, groups: np.ndarray, seed: int) -> tu
 
 
 def cliffs_delta(right: np.ndarray, left: np.ndarray) -> float:
+    """Standard Cliff's delta: P(Right > Left) - P(Right < Left)."""
     if len(right) == 0 or len(left) == 0:
         return float("nan")
     pairwise = right[:, None] - left[None, :]
-    return float((np.sum(pairwise < 0) - np.sum(pairwise > 0)) / pairwise.size)
+    return float((np.sum(pairwise > 0) - np.sum(pairwise < 0)) / pairwise.size)
 
 
 def finite_or_none(value: object) -> float | int | None:
@@ -401,48 +415,76 @@ def side_stats(panel: pd.DataFrame, confidence: set[str], seed: int) -> dict[str
     }
 
 
-def fit_pressure_interaction(panel: pd.DataFrame, confidence: set[str]) -> dict[str, object]:
+def fit_state_interaction(
+    panel: pd.DataFrame,
+    confidence: set[str],
+    state_column: str,
+    state_name: str,
+) -> dict[str, object]:
+    """Fit KO effect ~ side + state + side:state with HC3 contrasts."""
     data = panel[
         panel["side"].isin(["Right", "Left"])
         & panel["side_confidence"].isin(confidence)
-    ].dropna(subset=["PUFA_pressure_score", "SLC7A11_gene_effect"]).copy()
+    ].dropna(subset=[state_column, "SLC7A11_gene_effect"]).copy()
     if len(data) < 8 or data["side"].nunique() < 2:
-        return {"n": int(len(data)), "estimable": False}
+        return {"state": state_name, "n": int(len(data)), "estimable": False}
     data["right_indicator"] = data["side"].eq("Right").astype(float)
-    data["pressure_centered"] = data["PUFA_pressure_score"] - data["PUFA_pressure_score"].mean()
-    data["side_x_pressure"] = data["right_indicator"] * data["pressure_centered"]
-    design = sm.add_constant(data[["right_indicator", "pressure_centered", "side_x_pressure"]])
+    data["state_centered"] = data[state_column] - data[state_column].mean()
+    data["side_x_state"] = data["right_indicator"] * data["state_centered"]
+    design = sm.add_constant(data[["right_indicator", "state_centered", "side_x_state"]])
     try:
         fit = sm.OLS(data["SLC7A11_gene_effect"], design).fit(cov_type="HC3")
     except (np.linalg.LinAlgError, ValueError):
-        return {"n": int(len(data)), "estimable": False}
+        return {"state": state_name, "n": int(len(data)), "estimable": False}
+    if fit.df_resid <= 0:
+        return {"state": state_name, "n": int(len(data)), "estimable": False}
+
+    params = fit.params.to_numpy(float)
+    covariance = np.asarray(fit.cov_params(), dtype=float)
+    right_contrast = np.array([0.0, 0.0, 1.0, 1.0])
+    right_variance = float(right_contrast @ covariance @ right_contrast)
+    right_se = math.sqrt(right_variance) if right_variance > 0 else float("nan")
+    right_slope = float(right_contrast @ params)
+    right_t = right_slope / right_se if np.isfinite(right_se) and right_se > 0 else float("nan")
+    right_p = float(2 * t.sf(abs(right_t), fit.df_resid)) if np.isfinite(right_t) else float("nan")
     return {
+        "state": state_name,
         "n": int(len(data)),
         "n_right": int(data["right_indicator"].sum()),
         "n_left": int((1 - data["right_indicator"]).sum()),
         "estimable": True,
         "side_main_effect_right_minus_left": finite_or_none(fit.params.get("right_indicator")),
         "side_main_effect_p_hc3": finite_or_none(fit.pvalues.get("right_indicator")),
-        "pressure_slope_left": finite_or_none(fit.params.get("pressure_centered")),
-        "pressure_slope_left_p_hc3": finite_or_none(fit.pvalues.get("pressure_centered")),
-        "side_x_pressure_beta_right_minus_left_slope": finite_or_none(fit.params.get("side_x_pressure")),
-        "side_x_pressure_p_hc3": finite_or_none(fit.pvalues.get("side_x_pressure")),
+        "left_specific_slope": finite_or_none(fit.params.get("state_centered")),
+        "left_specific_slope_p_linear_contrast": finite_or_none(fit.pvalues.get("state_centered")),
+        "right_specific_slope": finite_or_none(right_slope),
+        "right_specific_slope_p_linear_contrast": finite_or_none(right_p),
+        "right_minus_left_slope_beta_interaction": finite_or_none(fit.params.get("side_x_state")),
+        "right_minus_left_slope_p_interaction": finite_or_none(fit.pvalues.get("side_x_state")),
         "r_squared": finite_or_none(fit.rsquared),
     }
 
 
-def pressure_cells(panel: pd.DataFrame, confidence: set[str]) -> dict[str, object]:
+def state_cells(
+    panel: pd.DataFrame,
+    confidence: set[str],
+    state_column: str,
+    state_name: str,
+) -> dict[str, object]:
     data = panel[
         panel["side"].isin(["Right", "Left"])
         & panel["side_confidence"].isin(confidence)
-    ].dropna(subset=["PUFA_pressure_score", "SLC7A11_gene_effect"]).copy()
-    cutoff = float(panel["PUFA_pressure_score"].dropna().median())
-    data["pressure_group"] = np.where(data["PUFA_pressure_score"] >= cutoff, "High", "Low")
+    ].dropna(subset=[state_column, "SLC7A11_gene_effect"]).copy()
+    available = panel[state_column].dropna()
+    if available.empty:
+        return {"state": state_name, "global_cutoff": None, "n_labeled_models": 0, "cells": {}}
+    cutoff = float(available.median())
+    data["state_group"] = np.where(data[state_column] >= cutoff, "High", "Low")
     cells: dict[str, object] = {}
     for side in ["Right", "Left"]:
         for group in ["High", "Low"]:
             values = data.loc[
-                data["side"].eq(side) & data["pressure_group"].eq(group),
+                data["side"].eq(side) & data["state_group"].eq(group),
                 "SLC7A11_gene_effect",
             ]
             cells[f"{side}_{group}"] = {
@@ -450,7 +492,7 @@ def pressure_cells(panel: pd.DataFrame, confidence: set[str]) -> dict[str, objec
                 "mean_gene_effect": finite_or_none(values.mean()),
                 "median_gene_effect": finite_or_none(values.median()),
             }
-    return {"global_pressure_cutoff": cutoff, "n_labeled_models": int(len(data)), "cells": cells}
+    return {"state": state_name, "global_cutoff": cutoff, "n_labeled_models": int(len(data)), "cells": cells}
 
 
 def make_figure(panel: pd.DataFrame, summary: dict[str, object], out_dir: Path) -> None:
@@ -458,12 +500,8 @@ def make_figure(panel: pd.DataFrame, summary: dict[str, object], out_dir: Path) 
         panel["side"].isin(["Right", "Left"])
         & panel["side_confidence"].eq("high")
     ].dropna(subset=["SLC7A11_gene_effect"])
-    sensitivity = panel[
-        panel["side"].isin(["Right", "Left"])
-        & panel["side_confidence"].isin(["high", "medium"])
-    ].dropna(subset=["PUFA_pressure_score", "SLC7A11_gene_effect"])
     colors = {"Right": "#d95f5f", "Left": "#4c78a8"}
-    fig, axes = plt.subplots(1, 2, figsize=(10.5, 4.6), dpi=220)
+    fig, axes = plt.subplots(1, 3, figsize=(15.0, 4.6), dpi=220)
 
     for index, side in enumerate(["Right", "Left"]):
         values = primary.loc[primary["side"].eq(side), "SLC7A11_gene_effect"].to_numpy(float)
@@ -486,27 +524,50 @@ def make_figure(panel: pd.DataFrame, summary: dict[str, object], out_dir: Path) 
     axes[0].axhline(-0.5, color="gray", linestyle="--", linewidth=0.8)
     axes[0].legend(frameon=False, fontsize=8)
 
-    for side in ["Right", "Left"]:
-        data = sensitivity[sensitivity["side"].eq(side)]
-        axes[1].scatter(
-            data["PUFA_pressure_score"],
-            data["SLC7A11_gene_effect"],
-            color=colors[side],
-            edgecolor="white",
-            linewidth=0.5,
-            s=58,
-            label=side,
+    def plot_state(axis: plt.Axes, state_column: str, x_label: str, summary_key: str) -> None:
+        data = panel[
+            panel["side"].isin(["Right", "Left"])
+            & panel["side_confidence"].isin(["high", "medium"])
+        ].dropna(subset=[state_column, "SLC7A11_gene_effect"])
+        for side in ["Right", "Left"]:
+            side_data = data[data["side"].eq(side)]
+            axis.scatter(
+                side_data[state_column],
+                side_data["SLC7A11_gene_effect"],
+                color=colors[side],
+                edgecolor="white",
+                linewidth=0.5,
+                s=58,
+                label=side,
+            )
+            if len(side_data) >= 3:
+                beta = np.polyfit(side_data[state_column], side_data["SLC7A11_gene_effect"], 1)
+                xx = np.linspace(side_data[state_column].min(), side_data[state_column].max(), 50)
+                axis.plot(xx, beta[0] * xx + beta[1], color=colors[side], linewidth=1.8)
+        interaction_p = summary[summary_key].get("right_minus_left_slope_p_interaction")
+        right_p = summary[summary_key].get("right_specific_slope_p_linear_contrast")
+        axis.set_xlabel(x_label)
+        axis.set_ylabel("SLC7A11 Chronos gene effect")
+        axis.set_title(
+            f"{x_label.split(chr(10))[0]} × sidedness\n"
+            f"slope-difference p={interaction_p if interaction_p is not None else 'NA'}; "
+            f"Right-slope p={right_p if right_p is not None else 'NA'}"
         )
-        if len(data) >= 3:
-            beta = np.polyfit(data["PUFA_pressure_score"], data["SLC7A11_gene_effect"], 1)
-            xx = np.linspace(data["PUFA_pressure_score"].min(), data["PUFA_pressure_score"].max(), 50)
-            axes[1].plot(xx, beta[0] * xx + beta[1], color=colors[side], linewidth=1.8)
-    interaction_p = summary["primary_pressure_interaction"].get("side_x_pressure_p_hc3")
-    axes[1].set_xlabel("PUFA-pressure proxy\nwithin-COAD z-score mean")
-    axes[1].set_ylabel("SLC7A11 Chronos gene effect")
-    axes[1].set_title(f"Pressure × sidedness\ninteraction HC3 p={interaction_p if interaction_p is not None else 'NA'}")
-    axes[1].axhline(-0.5, color="gray", linestyle="--", linewidth=0.8)
-    axes[1].legend(frameon=False)
+        axis.axhline(-0.5, color="gray", linestyle="--", linewidth=0.8)
+        axis.legend(frameon=False)
+
+    plot_state(
+        axes[1],
+        "PUFA_pressure_score",
+        "PUFA-pressure proxy\n≥4/5 genes available",
+        "primary_pressure_interaction",
+    )
+    plot_state(
+        axes[2],
+        "AA_routing_score",
+        "AA-routing proxy\n≥3/4 genes available",
+        "primary_aa_routing_interaction",
+    )
     for axis in axes:
         axis.spines[["top", "right"]].set_visible(False)
         axis.grid(alpha=0.18)
@@ -518,7 +579,8 @@ def make_figure(panel: pd.DataFrame, summary: dict[str, object], out_dir: Path) 
 def write_report(summary: dict[str, object], out_dir: Path) -> None:
     primary = summary["primary_side_comparison"]
     sensitivity = summary["sensitivity_side_comparison"]
-    interaction = summary["primary_pressure_interaction"]
+    pressure_interaction = summary["primary_pressure_interaction"]
+    routing_interaction = summary["primary_aa_routing_interaction"]
     lines = [
         "# SLC7A11 virtual knockout redo",
         "",
@@ -532,7 +594,7 @@ def write_report(summary: dict[str, object], out_dir: Path) -> None:
         "- Primary sidedness analysis: explicit high-confidence anatomical primary-site labels only.",
         "- Sensitivity analysis: high-confidence plus three medium-confidence published assignments.",
         "- Rectal and problematic/misclassified ovarian-site records are not included in the Right-versus-Left comparison.",
-        "- A secondary model tests `SLC7A11_gene_effect ~ side + PUFA_pressure + side:PUFA_pressure`; the interaction is exploratory and does not establish causality.",
+        "- Secondary models test `SLC7A11_gene_effect ~ side + state + side:state` for both PUFA-pressure and AA-routing states; all state-by-side terms are exploratory and do not establish causality.",
         "",
         "## Primary result",
         "",
@@ -551,8 +613,15 @@ def write_report(summary: dict[str, object], out_dir: Path) -> None:
         "",
         "## Pressure interaction",
         "",
-        f"- Matched labeled models={interaction.get('n')}; side × pressure beta={interaction.get('side_x_pressure_beta_right_minus_left_slope')}; HC3 p={interaction.get('side_x_pressure_p_hc3')}",
-        "- The PUFA-pressure proxy is the mean within-COAD z-score of the supplied DepMap expression values for ACSL4, LPCAT3, ALOX5, ALOX12 and ALOX15. It is not a measurement of AA concentration or flux.",
+        f"- Matched labeled models={pressure_interaction.get('n')}; Right-specific slope={pressure_interaction.get('right_specific_slope')}; linear-contrast P={pressure_interaction.get('right_specific_slope_p_linear_contrast')}",
+        f"- Right-minus-Left slope interaction beta={pressure_interaction.get('right_minus_left_slope_beta_interaction')}; interaction P={pressure_interaction.get('right_minus_left_slope_p_interaction')}",
+        "- The PUFA-pressure proxy is the mean within-COAD z-score of the supplied DepMap expression values for ACSL4, LPCAT3, ALOX5, ALOX12 and ALOX15, retained only when at least 4/5 genes are available. It is not a measurement of AA concentration or flux.",
+        "",
+        "## AA-routing interaction",
+        "",
+        f"- Matched labeled models={routing_interaction.get('n')}; Right-specific slope={routing_interaction.get('right_specific_slope')}; linear-contrast P={routing_interaction.get('right_specific_slope_p_linear_contrast')}",
+        f"- Right-minus-Left slope interaction beta={routing_interaction.get('right_minus_left_slope_beta_interaction')}; interaction P={routing_interaction.get('right_minus_left_slope_p_interaction')}",
+        "- The AA-routing proxy is the mean within-COAD z-score of PLA2G4A, PTGS2, ALOX5 and ALOX5AP, retained when at least 3/4 genes are available. It is a transcriptional proxy, not a direct eicosanoid or AA-flux measurement.",
         "",
         "## Interpretation guardrails",
         "",
@@ -593,8 +662,24 @@ def main() -> None:
 
     effects, effect_column = load_gene_column(args.effect_file, GENE, "SLC7A11_gene_effect")
     panel = coad.merge(effects, on="ModelID", how="inner")
-    pressure, pressure_columns = build_pressure_score(args.expression_file, panel["ModelID"])
+    pressure, pressure_columns = build_expression_state_score(
+        args.expression_file,
+        panel["ModelID"],
+        PRESSURE_GENES,
+        "PUFA_pressure_score",
+        "pressure_complete_genes",
+        PUFA_MIN_AVAILABLE,
+    )
     panel = panel.merge(pressure, on="ModelID", how="left")
+    routing, routing_columns = build_expression_state_score(
+        args.expression_file,
+        panel["ModelID"],
+        AA_ROUTING_GENES,
+        "AA_routing_score",
+        "aa_routing_complete_genes",
+        AA_ROUTING_MIN_AVAILABLE,
+    )
+    panel = panel.merge(routing, on="ModelID", how="left")
     panel["pressure_group_global_median"] = np.where(
         panel["PUFA_pressure_score"].notna(),
         np.where(
@@ -607,8 +692,18 @@ def main() -> None:
 
     primary = side_stats(panel, {"high"}, args.seed)
     sensitivity = side_stats(panel, {"high", "medium"}, args.seed)
-    primary_interaction = fit_pressure_interaction(panel, {"high"})
-    sensitivity_interaction = fit_pressure_interaction(panel, {"high", "medium"})
+    primary_interaction = fit_state_interaction(
+        panel, {"high"}, "PUFA_pressure_score", "PUFA-pressure"
+    )
+    sensitivity_interaction = fit_state_interaction(
+        panel, {"high", "medium"}, "PUFA_pressure_score", "PUFA-pressure"
+    )
+    primary_aa_routing_interaction = fit_state_interaction(
+        panel, {"high"}, "AA_routing_score", "AA-routing"
+    )
+    sensitivity_aa_routing_interaction = fit_state_interaction(
+        panel, {"high", "medium"}, "AA_routing_score", "AA-routing"
+    )
     summary: dict[str, object] = {
         "target_gene": GENE,
         "analysis_set": "DepMap OncotreeCode=COAD",
@@ -616,8 +711,18 @@ def main() -> None:
         "sensitivity_side_comparison": sensitivity,
         "primary_pressure_interaction": primary_interaction,
         "sensitivity_pressure_interaction": sensitivity_interaction,
-        "pressure_cells_primary": pressure_cells(panel, {"high"}),
-        "pressure_cells_sensitivity": pressure_cells(panel, {"high", "medium"}),
+        "primary_aa_routing_interaction": primary_aa_routing_interaction,
+        "sensitivity_aa_routing_interaction": sensitivity_aa_routing_interaction,
+        "pressure_cells_primary": state_cells(panel, {"high"}, "PUFA_pressure_score", "PUFA-pressure"),
+        "pressure_cells_sensitivity": state_cells(
+            panel, {"high", "medium"}, "PUFA_pressure_score", "PUFA-pressure"
+        ),
+        "aa_routing_cells_primary": state_cells(
+            panel, {"high"}, "AA_routing_score", "AA-routing"
+        ),
+        "aa_routing_cells_sensitivity": state_cells(
+            panel, {"high", "medium"}, "AA_routing_score", "AA-routing"
+        ),
         "n_coad_models": int(len(coad)),
         "n_matched_dependency_models": int(len(panel)),
         "side_counts": panel["side"].value_counts(dropna=False).to_dict(),
@@ -628,6 +733,9 @@ def main() -> None:
             "expression_file": str(args.expression_file),
             "dependency_column": effect_column,
             "pressure_expression_columns": pressure_columns,
+            "aa_routing_expression_columns": routing_columns,
+            "pufa_min_available_genes": PUFA_MIN_AVAILABLE,
+            "aa_routing_min_available_genes": AA_ROUTING_MIN_AVAILABLE,
             "dependency_release": "DepMap Public 26Q1 CRISPRGeneEffect / Chronos gene effect",
             "expression_release": "DepMap 24Q4 expression",
             "manual_curation_entries": len(SIDE_CURATION),
@@ -646,6 +754,9 @@ def main() -> None:
             "curated_primary_site",
             "SLC7A11_gene_effect",
             "PUFA_pressure_score",
+            "pressure_complete_genes",
+            "AA_routing_score",
+            "aa_routing_complete_genes",
             "pressure_group_global_median",
         ]
     ].to_csv(args.out_dir / "depmap_slc7a11_virtual_ko_redo_sidedness.csv", index=False)
