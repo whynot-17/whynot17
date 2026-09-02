@@ -1,0 +1,5 @@
+_gender,tumor_type,n
+Female,COAD,130
+Female,READ,42
+Male,COAD,156
+Male,READ,49
