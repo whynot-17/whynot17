@@ -1,0 +1,1795 @@
+{
+  "concepts": {
+    "left_rectosigmoid_sensitivity": {
+      "association_request_meta": [
+        {
+          "attempt": 1,
+          "content_length": 4381,
+          "method": "POST",
+          "response_sha256": "dfb73fe313c3f00c6a3f125fb60abc3482a93c75ad62cb8c2013430c6ee9c1f1",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        }
+      ],
+      "config": {
+        "expected_id": "MONDO_0002424",
+        "expected_name": "rectosigmoid carcinoma",
+        "search_term": "rectosigmoid carcinoma",
+        "side": "left_anchor_sensitivity"
+      },
+      "rows": [
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.20258111742745252
+            }
+          ],
+          "score": 0.024631060059744934,
+          "target": {
+            "approvedSymbol": "KRAS",
+            "id": "ENSG00000133703"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.13374477547455663
+            }
+          ],
+          "score": 0.01626151360612688,
+          "target": {
+            "approvedSymbol": "MMP7",
+            "id": "ENSG00000137673"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.13374477547455663
+            }
+          ],
+          "score": 0.01626151360612688,
+          "target": {
+            "approvedSymbol": "CCND1",
+            "id": "ENSG00000110092"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.13374477547455663
+            }
+          ],
+          "score": 0.01626151360612688,
+          "target": {
+            "approvedSymbol": "MKI67",
+            "id": "ENSG00000148773"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.115506851546208
+            }
+          ],
+          "score": 0.01404403447801867,
+          "target": {
+            "approvedSymbol": "VEGFA",
+            "id": "ENSG00000112715"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.07903100368951074
+            }
+          ],
+          "score": 0.009609076221802246,
+          "target": {
+            "approvedSymbol": "CDH1",
+            "id": "ENSG00000039068"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.07903100368951074
+            }
+          ],
+          "score": 0.009609076221802246,
+          "target": {
+            "approvedSymbol": "CTNNB1",
+            "id": "ENSG00000168036"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.051674117796987794
+            }
+          ],
+          "score": 0.006282857529639931,
+          "target": {
+            "approvedSymbol": "POLE",
+            "id": "ENSG00000177084"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.030396539880581056
+            }
+          ],
+          "score": 0.0036957985468470188,
+          "target": {
+            "approvedSymbol": "TRPM1",
+            "id": "ENSG00000134160"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.030396539880581056
+            }
+          ],
+          "score": 0.0036957985468470188,
+          "target": {
+            "approvedSymbol": "COL3A1",
+            "id": "ENSG00000168542"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.024148362238461615
+            }
+          ],
+          "score": 0.0029361066233284643,
+          "target": {
+            "approvedSymbol": "CEACAM5",
+            "id": "ENSG00000105388"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.02279740491043579
+            }
+          ],
+          "score": 0.002771848910135263,
+          "target": {
+            "approvedSymbol": "MUC5AC",
+            "id": "ENSG00000215182"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.01823792392834863
+            }
+          ],
+          "score": 0.0022174791281082107,
+          "target": {
+            "approvedSymbol": "MLH1",
+            "id": "ENSG00000076242"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.01823792392834863
+            }
+          ],
+          "score": 0.0022174791281082107,
+          "target": {
+            "approvedSymbol": "TNF",
+            "id": "ENSG00000232810"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.01823792392834863
+            }
+          ],
+          "score": 0.0022174791281082107,
+          "target": {
+            "approvedSymbol": "MSH6",
+            "id": "ENSG00000116062"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.01823792392834863
+            }
+          ],
+          "score": 0.0022174791281082107,
+          "target": {
+            "approvedSymbol": "PMS2",
+            "id": "ENSG00000122512"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.01823792392834863
+            }
+          ],
+          "score": 0.0022174791281082107,
+          "target": {
+            "approvedSymbol": "PLAT",
+            "id": "ENSG00000104368"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.01823792392834863
+            }
+          ],
+          "score": 0.0022174791281082107,
+          "target": {
+            "approvedSymbol": "MSH2",
+            "id": "ENSG00000095002"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "VIRMA",
+            "id": "ENSG00000164944"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "EPCAM",
+            "id": "ENSG00000119888"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "BRAF",
+            "id": "ENSG00000157764"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "YTHDF3",
+            "id": "ENSG00000185728"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "PIK3CA",
+            "id": "ENSG00000121879"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "METTL3",
+            "id": "ENSG00000165819"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "ALKBH5",
+            "id": "ENSG00000091542"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "GML",
+            "id": "ENSG00000104499"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "PTEN",
+            "id": "ENSG00000171862"
+          }
+        }
+      ],
+      "search": {
+        "chosen": {
+          "entity": "disease",
+          "id": "MONDO_0002424",
+          "name": "rectosigmoid carcinoma",
+          "score": 4229.3047
+        },
+        "hits": [
+          {
+            "entity": "disease",
+            "id": "MONDO_0002424",
+            "name": "rectosigmoid carcinoma",
+            "score": 4229.3047
+          },
+          {
+            "entity": "disease",
+            "id": "MONDO_0002423",
+            "name": "rectosigmoid junction neoplasm",
+            "score": 738.454
+          },
+          {
+            "entity": "disease",
+            "id": "MONDO_0002425",
+            "name": "rectosigmoid junction cancer",
+            "score": 542.0596
+          },
+          {
+            "entity": "disease",
+            "id": "EFO_1001966",
+            "name": "rectosigmoid adenocarcinoma",
+            "score": 504.46024
+          },
+          {
+            "entity": "disease",
+            "id": "MONDO_0021736",
+            "name": "proctosigmoiditis",
+            "score": 137.87872
+          }
+        ],
+        "request": {
+          "query": "query Search($queryString: String!, $entityNames: [String!], $page: Pagination!) {\n      search(queryString: $queryString, entityNames: $entityNames, page: $page) {\n        total hits { id entity name score }\n      }\n    }",
+          "variables": {
+            "entityNames": [
+              "disease"
+            ],
+            "page": {
+              "index": 0,
+              "size": 50
+            },
+            "queryString": "rectosigmoid carcinoma"
+          }
+        },
+        "response": {
+          "data": {
+            "search": {
+              "hits": [
+                {
+                  "entity": "disease",
+                  "id": "MONDO_0002424",
+                  "name": "rectosigmoid carcinoma",
+                  "score": 4229.3047
+                },
+                {
+                  "entity": "disease",
+                  "id": "MONDO_0002423",
+                  "name": "rectosigmoid junction neoplasm",
+                  "score": 738.454
+                },
+                {
+                  "entity": "disease",
+                  "id": "MONDO_0002425",
+                  "name": "rectosigmoid junction cancer",
+                  "score": 542.0596
+                },
+                {
+                  "entity": "disease",
+                  "id": "EFO_1001966",
+                  "name": "rectosigmoid adenocarcinoma",
+                  "score": 504.46024
+                },
+                {
+                  "entity": "disease",
+                  "id": "MONDO_0021736",
+                  "name": "proctosigmoiditis",
+                  "score": 137.87872
+                }
+              ],
+              "total": 5
+            }
+          }
+        }
+      },
+      "search_meta": {
+        "attempt": 1,
+        "content_length": 509,
+        "method": "POST",
+        "response_sha256": "91a34b040caefe2e100e7f047ac065ee08e9a712f844cb50fe738dd49b609633",
+        "status_code": 200,
+        "url": "https://api.platform.opentargets.org/api/v4/graphql"
+      }
+    },
+    "left_sigmoid_strict": {
+      "association_request_meta": [
+        {
+          "attempt": 1,
+          "content_length": 10357,
+          "method": "POST",
+          "response_sha256": "b422e30e5bfb10494aa315b135373585ede0fcca2e990598c2358be236aeebe9",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        }
+      ],
+      "config": {
+        "expected_id": "MONDO_0001464",
+        "expected_name": "sigmoid colon cancer",
+        "search_term": "sigmoid colon cancer",
+        "side": "left_anchor_strict"
+      },
+      "rows": [
+        {
+          "datasourceScores": [
+            {
+              "id": "eva",
+              "score": 0.547137717850459
+            },
+            {
+              "id": "gene_burden",
+              "score": 0.486770786160718
+            },
+            {
+              "id": "europepmc",
+              "score": 0.03495602086266821
+            }
+          ],
+          "score": 0.40707484821284234,
+          "target": {
+            "approvedSymbol": "MSH2",
+            "id": "ENSG00000095002"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "eva",
+              "score": 0.18237923928348632
+            },
+            {
+              "id": "europepmc",
+              "score": 0.04255515583281348
+            }
+          ],
+          "score": 0.11216748589680699,
+          "target": {
+            "approvedSymbol": "APC",
+            "id": "ENSG00000134982"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.2129726798084198
+            }
+          ],
+          "score": 0.02589453022108341,
+          "target": {
+            "approvedSymbol": "KRAS",
+            "id": "ENSG00000133703"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.1347326556390954
+            }
+          ],
+          "score": 0.01638162616140143,
+          "target": {
+            "approvedSymbol": "CEACAM5",
+            "id": "ENSG00000105388"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.13374477547455663
+            }
+          ],
+          "score": 0.01626151360612688,
+          "target": {
+            "approvedSymbol": "MKI67",
+            "id": "ENSG00000148773"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.13374477547455663
+            }
+          ],
+          "score": 0.01626151360612688,
+          "target": {
+            "approvedSymbol": "MMP7",
+            "id": "ENSG00000137673"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.13374477547455663
+            }
+          ],
+          "score": 0.01626151360612688,
+          "target": {
+            "approvedSymbol": "CCND1",
+            "id": "ENSG00000110092"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.115506851546208
+            }
+          ],
+          "score": 0.01404403447801867,
+          "target": {
+            "approvedSymbol": "VEGFA",
+            "id": "ENSG00000112715"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.07903100368951074
+            }
+          ],
+          "score": 0.009609076221802246,
+          "target": {
+            "approvedSymbol": "CTNNB1",
+            "id": "ENSG00000168036"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.07903100368951074
+            }
+          ],
+          "score": 0.009609076221802246,
+          "target": {
+            "approvedSymbol": "CDH1",
+            "id": "ENSG00000039068"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.06737899673528801
+            }
+          ],
+          "score": 0.00819235344551089,
+          "target": {
+            "approvedSymbol": "MLH1",
+            "id": "ENSG00000076242"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.06079307976116211
+            }
+          ],
+          "score": 0.0073915970936940375,
+          "target": {
+            "approvedSymbol": "TYMS",
+            "id": "ENSG00000176890"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.06079307976116211
+            }
+          ],
+          "score": 0.0073915970936940375,
+          "target": {
+            "approvedSymbol": "CRP",
+            "id": "ENSG00000132693"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.051674117796987794
+            }
+          ],
+          "score": 0.006282857529639931,
+          "target": {
+            "approvedSymbol": "POLE",
+            "id": "ENSG00000177084"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.045268891365485356
+            }
+          ],
+          "score": 0.005504070646962668,
+          "target": {
+            "approvedSymbol": "KRT7",
+            "id": "ENSG00000135480"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.03647584785669726
+            }
+          ],
+          "score": 0.0044349582562164215,
+          "target": {
+            "approvedSymbol": "TTR",
+            "id": "ENSG00000118271"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.03630697819069404
+            }
+          ],
+          "score": 0.0044144260420672715,
+          "target": {
+            "approvedSymbol": "NRAS",
+            "id": "ENSG00000213281"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.030396539880581056
+            }
+          ],
+          "score": 0.0036957985468470188,
+          "target": {
+            "approvedSymbol": "NTRK1",
+            "id": "ENSG00000198400"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.030396539880581056
+            }
+          ],
+          "score": 0.0036957985468470188,
+          "target": {
+            "approvedSymbol": "FAP",
+            "id": "ENSG00000078098"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.030396539880581056
+            }
+          ],
+          "score": 0.0036957985468470188,
+          "target": {
+            "approvedSymbol": "GSTM1",
+            "id": "ENSG00000134184"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.030396539880581056
+            }
+          ],
+          "score": 0.0036957985468470188,
+          "target": {
+            "approvedSymbol": "BMPR1A",
+            "id": "ENSG00000107779"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.030396539880581056
+            }
+          ],
+          "score": 0.0036957985468470188,
+          "target": {
+            "approvedSymbol": "MRC1",
+            "id": "ENSG00000260314"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.030396539880581056
+            }
+          ],
+          "score": 0.0036957985468470188,
+          "target": {
+            "approvedSymbol": "FANCI",
+            "id": "ENSG00000140525"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.030396539880581056
+            }
+          ],
+          "score": 0.0036957985468470188,
+          "target": {
+            "approvedSymbol": "HMGCS2",
+            "id": "ENSG00000134240"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.030396539880581056
+            }
+          ],
+          "score": 0.0036957985468470188,
+          "target": {
+            "approvedSymbol": "TERT",
+            "id": "ENSG00000164362"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.030396539880581056
+            }
+          ],
+          "score": 0.0036957985468470188,
+          "target": {
+            "approvedSymbol": "GH1",
+            "id": "ENSG00000259384"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.030396539880581056
+            }
+          ],
+          "score": 0.0036957985468470188,
+          "target": {
+            "approvedSymbol": "CHEK2",
+            "id": "ENSG00000183765"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.030396539880581056
+            }
+          ],
+          "score": 0.0036957985468470188,
+          "target": {
+            "approvedSymbol": "TPM3",
+            "id": "ENSG00000143549"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.030396539880581056
+            }
+          ],
+          "score": 0.0036957985468470188,
+          "target": {
+            "approvedSymbol": "TRPM1",
+            "id": "ENSG00000134160"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.030396539880581056
+            }
+          ],
+          "score": 0.0036957985468470188,
+          "target": {
+            "approvedSymbol": "COL3A1",
+            "id": "ENSG00000168542"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.030396539880581056
+            }
+          ],
+          "score": 0.0036957985468470188,
+          "target": {
+            "approvedSymbol": "ALB",
+            "id": "ENSG00000163631"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.030396539880581056
+            }
+          ],
+          "score": 0.0036957985468470188,
+          "target": {
+            "approvedSymbol": "CLMP",
+            "id": "ENSG00000166250"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.024823840902474525
+            }
+          ],
+          "score": 0.0030182354799250647,
+          "target": {
+            "approvedSymbol": "MUC5AC",
+            "id": "ENSG00000215182"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.024823840902474525
+            }
+          ],
+          "score": 0.0030182354799250647,
+          "target": {
+            "approvedSymbol": "KRT20",
+            "id": "ENSG00000171431"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.024823840902474525
+            }
+          ],
+          "score": 0.0030182354799250647,
+          "target": {
+            "approvedSymbol": "EGFR",
+            "id": "ENSG00000146648"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.024317231904464845
+            }
+          ],
+          "score": 0.0029566388374776143,
+          "target": {
+            "approvedSymbol": "FOLH1",
+            "id": "ENSG00000086205"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.021277577916406734
+            }
+          ],
+          "score": 0.0025870589827929123,
+          "target": {
+            "approvedSymbol": "CDX2",
+            "id": "ENSG00000165556"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.01823792392834863
+            }
+          ],
+          "score": 0.0022174791281082107,
+          "target": {
+            "approvedSymbol": "EPHA1",
+            "id": "ENSG00000146904"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.01823792392834863
+            }
+          ],
+          "score": 0.0022174791281082107,
+          "target": {
+            "approvedSymbol": "PMS2",
+            "id": "ENSG00000122512"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.01823792392834863
+            }
+          ],
+          "score": 0.0022174791281082107,
+          "target": {
+            "approvedSymbol": "TNF",
+            "id": "ENSG00000232810"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.01823792392834863
+            }
+          ],
+          "score": 0.0022174791281082107,
+          "target": {
+            "approvedSymbol": "PLAT",
+            "id": "ENSG00000104368"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.01823792392834863
+            }
+          ],
+          "score": 0.0022174791281082107,
+          "target": {
+            "approvedSymbol": "TTF1",
+            "id": "ENSG00000125482"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.01823792392834863
+            },
+            {
+              "id": "eva",
+              "score": 0
+            }
+          ],
+          "score": 0.0022174791281082107,
+          "target": {
+            "approvedSymbol": "MSH6",
+            "id": "ENSG00000116062"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.01823792392834863
+            }
+          ],
+          "score": 0.0022174791281082107,
+          "target": {
+            "approvedSymbol": "TP53",
+            "id": "ENSG00000141510"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.01823792392834863
+            }
+          ],
+          "score": 0.0022174791281082107,
+          "target": {
+            "approvedSymbol": "INS",
+            "id": "ENSG00000254647"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.01823792392834863
+            }
+          ],
+          "score": 0.0022174791281082107,
+          "target": {
+            "approvedSymbol": "PGR",
+            "id": "ENSG00000082175"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "TTLL7",
+            "id": "ENSG00000137941"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "PIK3CA",
+            "id": "ENSG00000121879"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "MUC19",
+            "id": "ENSG00000205592"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "RET",
+            "id": "ENSG00000165731"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "YAP1",
+            "id": "ENSG00000137693"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "METTL3",
+            "id": "ENSG00000165819"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "YTHDF3",
+            "id": "ENSG00000185728"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "BRAF",
+            "id": "ENSG00000157764"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "ALKBH5",
+            "id": "ENSG00000091542"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "SLC6A6",
+            "id": "ENSG00000131389"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "GML",
+            "id": "ENSG00000104499"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "EPCAM",
+            "id": "ENSG00000119888"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "SNHG20",
+            "id": "ENSG00000234912"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "PTEN",
+            "id": "ENSG00000171862"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "TGFB1",
+            "id": "ENSG00000105329"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "BST2",
+            "id": "ENSG00000130303"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.012158615952232422
+            }
+          ],
+          "score": 0.0014783194187388072,
+          "target": {
+            "approvedSymbol": "VIRMA",
+            "id": "ENSG00000164944"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "eva",
+              "score": 0
+            }
+          ],
+          "score": 0,
+          "target": {
+            "approvedSymbol": "FBXO11",
+            "id": "ENSG00000138081"
+          }
+        }
+      ],
+      "search": {
+        "chosen": {
+          "entity": "disease",
+          "id": "MONDO_0001464",
+          "name": "sigmoid colon cancer",
+          "score": 4638.725
+        },
+        "hits": [
+          {
+            "entity": "disease",
+            "id": "MONDO_0001464",
+            "name": "sigmoid colon cancer",
+            "score": 4638.725
+          },
+          {
+            "entity": "disease",
+            "id": "MONDO_0006971",
+            "name": "sigmoid neoplasm",
+            "score": 1002.5114
+          }
+        ],
+        "request": {
+          "query": "query Search($queryString: String!, $entityNames: [String!], $page: Pagination!) {\n      search(queryString: $queryString, entityNames: $entityNames, page: $page) {\n        total hits { id entity name score }\n      }\n    }",
+          "variables": {
+            "entityNames": [
+              "disease"
+            ],
+            "page": {
+              "index": 0,
+              "size": 50
+            },
+            "queryString": "sigmoid colon cancer"
+          }
+        },
+        "response": {
+          "data": {
+            "search": {
+              "hits": [
+                {
+                  "entity": "disease",
+                  "id": "MONDO_0001464",
+                  "name": "sigmoid colon cancer",
+                  "score": 4638.725
+                },
+                {
+                  "entity": "disease",
+                  "id": "MONDO_0006971",
+                  "name": "sigmoid neoplasm",
+                  "score": 1002.5114
+                }
+              ],
+              "total": 2
+            }
+          }
+        }
+      },
+      "search_meta": {
+        "attempt": 1,
+        "content_length": 215,
+        "method": "POST",
+        "response_sha256": "76451be23ffd0ee0faf4732e3b1fe7e06b400ee377bbe3d67dbb1877f3d56e95",
+        "status_code": 200,
+        "url": "https://api.platform.opentargets.org/api/v4/graphql"
+      }
+    },
+    "right_ascending": {
+      "association_request_meta": [
+        {
+          "attempt": 1,
+          "content_length": 3774,
+          "method": "POST",
+          "response_sha256": "46cd13130c343874742da6bb4879399155f608303b76ff78432a2170436017aa",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        }
+      ],
+      "config": {
+        "expected_id": "MONDO_0002238",
+        "expected_name": "ascending colon cancer",
+        "search_term": "ascending colon cancer",
+        "side": "right_anchor"
+      },
+      "rows": [
+        {
+          "datasourceScores": [
+            {
+              "id": "eva",
+              "score": 0.547137717850459
+            }
+          ],
+          "score": 0.3326218692162316,
+          "target": {
+            "approvedSymbol": "MSH2",
+            "id": "ENSG00000095002"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "eva",
+              "score": 0.18237923928348632
+            },
+            {
+              "id": "europepmc",
+              "score": 0.030396539880581056
+            }
+          ],
+          "score": 0.11179790604212228,
+          "target": {
+            "approvedSymbol": "APC",
+            "id": "ENSG00000134982"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.15806200737902149
+            }
+          ],
+          "score": 0.019218152443604492,
+          "target": {
+            "approvedSymbol": "TRIM33",
+            "id": "ENSG00000197323"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.09726892761785938
+            }
+          ],
+          "score": 0.011826555349910457,
+          "target": {
+            "approvedSymbol": "CSF3",
+            "id": "ENSG00000108342"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.09617534144610135
+            }
+          ],
+          "score": 0.011693590407179679,
+          "target": {
+            "approvedSymbol": "BRAF",
+            "id": "ENSG00000157764"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.0547137717850459
+            }
+          ],
+          "score": 0.006652437384324632,
+          "target": {
+            "approvedSymbol": "EML4",
+            "id": "ENSG00000143924"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.04610141881888126
+            }
+          ],
+          "score": 0.005605294462717976,
+          "target": {
+            "approvedSymbol": "KRAS",
+            "id": "ENSG00000133703"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.03647584785669726
+            }
+          ],
+          "score": 0.0044349582562164215,
+          "target": {
+            "approvedSymbol": "ALK",
+            "id": "ENSG00000171094"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.03647584785669726
+            }
+          ],
+          "score": 0.0044349582562164215,
+          "target": {
+            "approvedSymbol": "MRC1",
+            "id": "ENSG00000260314"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.03630697819069404
+            }
+          ],
+          "score": 0.0044144260420672715,
+          "target": {
+            "approvedSymbol": "EGFR",
+            "id": "ENSG00000146648"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.030396539880581056
+            }
+          ],
+          "score": 0.0036957985468470188,
+          "target": {
+            "approvedSymbol": "BMPR1A",
+            "id": "ENSG00000107779"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.030396539880581056
+            }
+          ],
+          "score": 0.0036957985468470188,
+          "target": {
+            "approvedSymbol": "FANCI",
+            "id": "ENSG00000140525"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.030396539880581056
+            }
+          ],
+          "score": 0.0036957985468470188,
+          "target": {
+            "approvedSymbol": "FAP",
+            "id": "ENSG00000078098"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.030396539880581056
+            }
+          ],
+          "score": 0.0036957985468470188,
+          "target": {
+            "approvedSymbol": "CHEK2",
+            "id": "ENSG00000183765"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.024317231904464845
+            }
+          ],
+          "score": 0.0029566388374776143,
+          "target": {
+            "approvedSymbol": "KRT7",
+            "id": "ENSG00000135480"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.024317231904464845
+            }
+          ],
+          "score": 0.0029566388374776143,
+          "target": {
+            "approvedSymbol": "KRT20",
+            "id": "ENSG00000171431"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.024317231904464845
+            }
+          ],
+          "score": 0.0029566388374776143,
+          "target": {
+            "approvedSymbol": "CDX2",
+            "id": "ENSG00000165556"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.021277577916406734
+            }
+          ],
+          "score": 0.0025870589827929123,
+          "target": {
+            "approvedSymbol": "MUC5AC",
+            "id": "ENSG00000215182"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.01823792392834863
+            }
+          ],
+          "score": 0.0022174791281082107,
+          "target": {
+            "approvedSymbol": "TP53",
+            "id": "ENSG00000141510"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.01823792392834863
+            }
+          ],
+          "score": 0.0022174791281082107,
+          "target": {
+            "approvedSymbol": "CEACAM5",
+            "id": "ENSG00000105388"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.01823792392834863
+            }
+          ],
+          "score": 0.0022174791281082107,
+          "target": {
+            "approvedSymbol": "SLCO1B3",
+            "id": "ENSG00000111700"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.01823792392834863
+            }
+          ],
+          "score": 0.0022174791281082107,
+          "target": {
+            "approvedSymbol": "MUTYH",
+            "id": "ENSG00000132781"
+          }
+        },
+        {
+          "datasourceScores": [
+            {
+              "id": "europepmc",
+              "score": 0.01823792392834863
+            }
+          ],
+          "score": 0.0022174791281082107,
+          "target": {
+            "approvedSymbol": "NRAS",
+            "id": "ENSG00000213281"
+          }
+        }
+      ],
+      "search": {
+        "chosen": {
+          "entity": "disease",
+          "id": "MONDO_0002238",
+          "name": "ascending colon cancer",
+          "score": 4633.152
+        },
+        "hits": [
+          {
+            "entity": "disease",
+            "id": "MONDO_0002238",
+            "name": "ascending colon cancer",
+            "score": 4633.152
+          },
+          {
+            "entity": "disease",
+            "id": "EFO_1001816",
+            "name": "neutropenic enterocolitis",
+            "score": 303.6941
+          }
+        ],
+        "request": {
+          "query": "query Search($queryString: String!, $entityNames: [String!], $page: Pagination!) {\n      search(queryString: $queryString, entityNames: $entityNames, page: $page) {\n        total hits { id entity name score }\n      }\n    }",
+          "variables": {
+            "entityNames": [
+              "disease"
+            ],
+            "page": {
+              "index": 0,
+              "size": 50
+            },
+            "queryString": "ascending colon cancer"
+          }
+        },
+        "response": {
+          "data": {
+            "search": {
+              "hits": [
+                {
+                  "entity": "disease",
+                  "id": "MONDO_0002238",
+                  "name": "ascending colon cancer",
+                  "score": 4633.152
+                },
+                {
+                  "entity": "disease",
+                  "id": "EFO_1001816",
+                  "name": "neutropenic enterocolitis",
+                  "score": 303.6941
+                }
+              ],
+              "total": 2
+            }
+          }
+        }
+      },
+      "search_meta": {
+        "attempt": 1,
+        "content_length": 223,
+        "method": "POST",
+        "response_sha256": "3b5bacd649e3e3b3ff7353edd5b86441ee18478284934de7853a13c72d0243d3",
+        "status_code": 200,
+        "url": "https://api.platform.opentargets.org/api/v4/graphql"
+      }
+    }
+  },
+  "generated_at": "2026-09-02T16:36:55.738038+00:00"
+}

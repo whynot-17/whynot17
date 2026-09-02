@@ -1,0 +1,4 @@
+comparison,background_crc_union_n,dinp_crc_intersection_n,subtype_target_n_in_background,intersection_genes_in_subtype,intersection_genes_not_in_subtype,subtype_genes_not_in_intersection,background_genes_neither,fisher_greater_odds_ratio,fisher_greater_p,BH_FDR_3_subtype_comparisons
+right_ascending,15885,81,23,0,81,23,15781,0.0,1.0,1.0
+left_sigmoid_strict,15885,81,64,2,79,62,15742,6.42792976725194,0.04223884870297843,0.06335827305446765
+left_expanded_sigmoid_or_rectosigmoid,15885,81,64,2,79,62,15742,6.42792976725194,0.04223884870297843,0.06335827305446765

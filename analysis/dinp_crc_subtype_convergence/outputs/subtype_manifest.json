@@ -1,0 +1,202 @@
+{
+  "analysis": {
+    "concepts": {
+      "left_rectosigmoid_sensitivity": {
+        "association_request_meta": [
+          {
+            "attempt": 1,
+            "content_length": 4381,
+            "method": "POST",
+            "response_sha256": "dfb73fe313c3f00c6a3f125fb60abc3482a93c75ad62cb8c2013430c6ee9c1f1",
+            "status_code": 200,
+            "url": "https://api.platform.opentargets.org/api/v4/graphql"
+          }
+        ],
+        "exact_expected_concept": true,
+        "expected_id": "MONDO_0002424",
+        "expected_name": "rectosigmoid carcinoma",
+        "reported_target_count": 27,
+        "resolved_id": "MONDO_0002424",
+        "resolved_name": "rectosigmoid carcinoma",
+        "returned_target_rows": 27,
+        "search_request": {
+          "query": "query Search($queryString: String!, $entityNames: [String!], $page: Pagination!) {\n      search(queryString: $queryString, entityNames: $entityNames, page: $page) {\n        total hits { id entity name score }\n      }\n    }",
+          "variables": {
+            "entityNames": [
+              "disease"
+            ],
+            "page": {
+              "index": 0,
+              "size": 50
+            },
+            "queryString": "rectosigmoid carcinoma"
+          }
+        },
+        "search_request_meta": {
+          "attempt": 1,
+          "content_length": 509,
+          "method": "POST",
+          "response_sha256": "91a34b040caefe2e100e7f047ac065ee08e9a712f844cb50fe738dd49b609633",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        "search_term": "rectosigmoid carcinoma",
+        "side": "left_anchor_sensitivity",
+        "unique_approved_symbols": 27
+      },
+      "left_sigmoid_strict": {
+        "association_request_meta": [
+          {
+            "attempt": 1,
+            "content_length": 10357,
+            "method": "POST",
+            "response_sha256": "b422e30e5bfb10494aa315b135373585ede0fcca2e990598c2358be236aeebe9",
+            "status_code": 200,
+            "url": "https://api.platform.opentargets.org/api/v4/graphql"
+          }
+        ],
+        "exact_expected_concept": true,
+        "expected_id": "MONDO_0001464",
+        "expected_name": "sigmoid colon cancer",
+        "reported_target_count": 64,
+        "resolved_id": "MONDO_0001464",
+        "resolved_name": "sigmoid colon cancer",
+        "returned_target_rows": 64,
+        "search_request": {
+          "query": "query Search($queryString: String!, $entityNames: [String!], $page: Pagination!) {\n      search(queryString: $queryString, entityNames: $entityNames, page: $page) {\n        total hits { id entity name score }\n      }\n    }",
+          "variables": {
+            "entityNames": [
+              "disease"
+            ],
+            "page": {
+              "index": 0,
+              "size": 50
+            },
+            "queryString": "sigmoid colon cancer"
+          }
+        },
+        "search_request_meta": {
+          "attempt": 1,
+          "content_length": 215,
+          "method": "POST",
+          "response_sha256": "76451be23ffd0ee0faf4732e3b1fe7e06b400ee377bbe3d67dbb1877f3d56e95",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        "search_term": "sigmoid colon cancer",
+        "side": "left_anchor_strict",
+        "unique_approved_symbols": 64
+      },
+      "right_ascending": {
+        "association_request_meta": [
+          {
+            "attempt": 1,
+            "content_length": 3774,
+            "method": "POST",
+            "response_sha256": "46cd13130c343874742da6bb4879399155f608303b76ff78432a2170436017aa",
+            "status_code": 200,
+            "url": "https://api.platform.opentargets.org/api/v4/graphql"
+          }
+        ],
+        "exact_expected_concept": true,
+        "expected_id": "MONDO_0002238",
+        "expected_name": "ascending colon cancer",
+        "reported_target_count": 23,
+        "resolved_id": "MONDO_0002238",
+        "resolved_name": "ascending colon cancer",
+        "returned_target_rows": 23,
+        "search_request": {
+          "query": "query Search($queryString: String!, $entityNames: [String!], $page: Pagination!) {\n      search(queryString: $queryString, entityNames: $entityNames, page: $page) {\n        total hits { id entity name score }\n      }\n    }",
+          "variables": {
+            "entityNames": [
+              "disease"
+            ],
+            "page": {
+              "index": 0,
+              "size": 50
+            },
+            "queryString": "ascending colon cancer"
+          }
+        },
+        "search_request_meta": {
+          "attempt": 1,
+          "content_length": 223,
+          "method": "POST",
+          "response_sha256": "3b5bacd649e3e3b3ff7353edd5b86441ee18478284934de7853a13c72d0243d3",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        "search_term": "ascending colon cancer",
+        "side": "right_anchor",
+        "unique_approved_symbols": 23
+      }
+    },
+    "generated_at": "2026-09-02T16:37:00.052666+00:00",
+    "input": {
+      "dinp_crc_intersection_n": 81,
+      "dinp_exposure_union_n": 86,
+      "general_crc_union_n": 15885,
+      "upstream_intersection_sha256": "305265981b0239b2d83265c08716403ca0598c3c2a340d5449c29ff66a092dec"
+    },
+    "limitations": [
+      "Open Targets has no single exact right-sided-versus-left-sided CRC concept in this run.",
+      "Ascending colon cancer is used as a right-sided anatomical anchor; sigmoid colon cancer is the strict left anchor; rectosigmoid carcinoma is an expanded left sensitivity anchor.",
+      "This is not patient-level sidedness, expression, survival, or epidemiologic effect modification.",
+      "The Fisher tests are exploratory knowledge-base localization tests against the frozen general CRC union; they do not establish DINP causality or subtype-specific exposure effects."
+    ],
+    "pattern_counts": {
+      "left_only": 2,
+      "neither": 79
+    }
+  },
+  "http_call_log": [
+    {
+      "attempt": 1,
+      "content_length": 223,
+      "method": "POST",
+      "response_sha256": "3b5bacd649e3e3b3ff7353edd5b86441ee18478284934de7853a13c72d0243d3",
+      "status_code": 200,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql"
+    },
+    {
+      "attempt": 1,
+      "content_length": 3774,
+      "method": "POST",
+      "response_sha256": "46cd13130c343874742da6bb4879399155f608303b76ff78432a2170436017aa",
+      "status_code": 200,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql"
+    },
+    {
+      "attempt": 1,
+      "content_length": 215,
+      "method": "POST",
+      "response_sha256": "76451be23ffd0ee0faf4732e3b1fe7e06b400ee377bbe3d67dbb1877f3d56e95",
+      "status_code": 200,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql"
+    },
+    {
+      "attempt": 1,
+      "content_length": 10357,
+      "method": "POST",
+      "response_sha256": "b422e30e5bfb10494aa315b135373585ede0fcca2e990598c2358be236aeebe9",
+      "status_code": 200,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql"
+    },
+    {
+      "attempt": 1,
+      "content_length": 509,
+      "method": "POST",
+      "response_sha256": "91a34b040caefe2e100e7f047ac065ee08e9a712f844cb50fe738dd49b609633",
+      "status_code": 200,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql"
+    },
+    {
+      "attempt": 1,
+      "content_length": 4381,
+      "method": "POST",
+      "response_sha256": "dfb73fe313c3f00c6a3f125fb60abc3482a93c75ad62cb8c2013430c6ee9c1f1",
+      "status_code": 200,
+      "url": "https://api.platform.opentargets.org/api/v4/graphql"
+    }
+  ]
+}
