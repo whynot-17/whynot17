@@ -1,0 +1,112 @@
+{
+  "dataset": "GSE280315",
+  "sample": "P2CRC",
+  "stage": "III-B",
+  "technology": "Visium HD 8um bins",
+  "n_bins_h5_raw": 545913,
+  "n_bins_analyzed": 545850,
+  "annotation_overlap": 545913,
+  "coordinate_overlap": 545913,
+  "n_neural_containing": 66,
+  "neural_containing_fraction": 0.00012091233855454796,
+  "region_counts": {
+    "tumor_core": 310402,
+    "connective_tissue": 107327,
+    "adjacent_non_tumor": 65064,
+    "muscularis_smooth_muscle": 51234,
+    "vascular": 7385,
+    "invasive_front_proxy": 4437,
+    "outside": 1
+  },
+  "stage_comparison": "not_estimable; one CRC section, stage III-B",
+  "h5_source": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\data\\gse280315\\GSM8594568_P2CRC_filtered_feature_bc_matrix.h5",
+  "metadata_source": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\data\\gse280315\\GSM8594568_P2CRC_Metadata.parquet.gz",
+  "position_source": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\data\\gse280315\\GSM8594568_P2CRC_tissue_positions.parquet.gz",
+  "annotation_source": "C:\\Users\\21634\\Documents\\Codex\\2026-08-31\\1-janssen-kp-et-al-extrinsic\\work\\data\\gse280315\\8um_squares_annotation.csv",
+  "gene_sets": {
+    "pufa_incorporation": [
+      "ACSL4",
+      "LPCAT3",
+      "AGPAT3"
+    ],
+    "aa_routing": [
+      "PLA2G4A",
+      "PTGS2",
+      "PTGES",
+      "ALOX5",
+      "ALOX15"
+    ],
+    "neuronal": [
+      "TUBB3",
+      "ELAVL3",
+      "ELAVL4",
+      "SNAP25",
+      "UCHL1",
+      "SYP",
+      "PHOX2B"
+    ],
+    "ferroptosis_stress": [
+      "TFRC",
+      "ACSL4",
+      "LPCAT3",
+      "ALOX15",
+      "POR",
+      "CYB5R1"
+    ],
+    "ferroptosis_defense": [
+      "SLC7A11",
+      "GPX4",
+      "AIFM2",
+      "GCH1"
+    ],
+    "ferroptosis_stress_nonoverlap": [
+      "TFRC",
+      "POR",
+      "CYB5R1"
+    ]
+  },
+  "present_genes": {
+    "pufa_incorporation": [
+      "ACSL4",
+      "LPCAT3",
+      "AGPAT3"
+    ],
+    "aa_routing": [
+      "PLA2G4A",
+      "PTGS2",
+      "PTGES",
+      "ALOX5",
+      "ALOX15"
+    ],
+    "neuronal": [
+      "ELAVL3",
+      "ELAVL4",
+      "SNAP25",
+      "UCHL1",
+      "SYP",
+      "PHOX2B"
+    ],
+    "ferroptosis_stress": [
+      "TFRC",
+      "ACSL4",
+      "LPCAT3",
+      "ALOX15",
+      "POR",
+      "CYB5R1"
+    ],
+    "ferroptosis_defense": [
+      "SLC7A11",
+      "GPX4",
+      "AIFM2",
+      "GCH1"
+    ],
+    "ferroptosis_stress_nonoverlap": [
+      "TFRC",
+      "POR",
+      "CYB5R1"
+    ]
+  },
+  "normalization": "targeted raw UMI extraction; log1p(CPM per 10,000); within-section gene z-score; arithmetic mean module scores",
+  "region_definition": "pathologist Neoplasm bins touching any non-Neoplasm 8-neighbor bin are invasive_front_proxy; remaining Neoplasm bins are tumor_core",
+  "neural_definition": "at least two neuronal genes detected"
+}

@@ -1,0 +1,5 @@
+analysis,subset,n,spearman_rho,p_value
+PUFA/AA pressure vs neuronal score,all tissue bins,545850,0.01010171250205494,8.426256715049397e-14
+PUFA/AA pressure vs neuronal score,neural-containing bins,66,0.2727858530191092,0.026692136905220765
+PUFA/AA pressure vs ferroptosis stress,neural-containing bins,66,0.5929510710523952,1.5555970812692116e-07
+PUFA/AA pressure vs ferroptosis stress (non-overlap sensitivity),neural-containing bins,66,-0.04619796056792512,0.712619889908566
