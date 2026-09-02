@@ -1,0 +1,1036 @@
+[
+  {
+    "attempt": 1,
+    "content_length": 204798,
+    "method": "GET",
+    "response_sha256": "dc1106a4e0c436e0b35ee39655c0a8680cbbdec87b5979ac02eb90585f931c58",
+    "status_code": 200,
+    "url": "https://www.ebi.ac.uk/chembl/api/data/molecule/search.json?q=diisononyl+phthalate&limit=100"
+  },
+  {
+    "attempt": 1,
+    "content_length": 109,
+    "method": "GET",
+    "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7",
+    "status_code": 200,
+    "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?pref_name__iexact=diisononyl+phthalate&limit=100"
+  },
+  {
+    "attempt": 1,
+    "content_length": 109,
+    "method": "GET",
+    "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7",
+    "status_code": 200,
+    "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_synonyms__synonyms__iexact=diisononyl+phthalate&limit=100"
+  },
+  {
+    "attempt": 1,
+    "content_length": 109,
+    "method": "GET",
+    "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7",
+    "status_code": 200,
+    "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_synonyms__synonyms__iexact=DINP&limit=100"
+  },
+  {
+    "attempt": 1,
+    "content_length": 109,
+    "method": "GET",
+    "response_sha256": "d5af42f88f5dce181c1333a3bc113566adcb0e9a544d96a48345c91fa28c80b7",
+    "status_code": 200,
+    "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_synonyms__synonyms__iexact=28553-12-0&limit=100"
+  },
+  {
+    "attempt": 1,
+    "content_length": 164,
+    "error": "HTTP 401: {\"title\":\"API Header Not Found\",\"detail\":\"Every API call should pass assigned API key through custom http header or query parameter. Request is missing x-api-key.\"}",
+    "method": "GET",
+    "response_sha256": "57225b17f9403aabe666fe555334f332456e02ab8646ddcc57f1586805aceae4",
+    "status_code": 401,
+    "url": "https://comptox.epa.gov/ctx-api/bioactivity/data/summary/search/by-dtxsid/DTXSID4022521"
+  },
+  {
+    "attempt": 1,
+    "content_length": 0,
+    "method": "HEAD",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "status_code": 200,
+    "url": "https://gaftp.epa.gov/Comptox/High_Throughput_Screening_Data/InVitroDB_V3.2/Summary_Files/INVITRODB_V3_2_SUMMARY.zip"
+  },
+  {
+    "attempt": 1,
+    "content_length": 160,
+    "error": "HTTP 401: {\"status\":\"BAD_REQUEST\",\"payload\":{\"details\":\"UNAUTHORIZED\",\"message\":\"Missing or invalid API Key\",\"timestamp\":\"Wed Sep 02 15:59:17 UTC 2026\"},\"httpStatus\":400}",
+    "method": "GET",
+    "response_sha256": "0ee1181643bd25d647fbea07b57369f580961dd2c92c76e32b6df5ac5b2e2135",
+    "status_code": 401,
+    "url": "https://api.disgenet.com/api/v1/gda/disease/umls/C0346647"
+  },
+  {
+    "attempt": 1,
+    "content_length": 2091,
+    "method": "POST",
+    "response_sha256": "c2ba852477453ffbba291a39b16c12333eaeb92daf60858f99809958a31c2aa9",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 137881,
+    "method": "POST",
+    "response_sha256": "2545f8725034801cca71448732d55a6990b7299f04b4660b290d9ca34af2bb10",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 117432,
+    "method": "POST",
+    "response_sha256": "658853b0d0e8121ec57cd13c742ea420b0a5e4d70501870662c907866c388181",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 109190,
+    "method": "POST",
+    "response_sha256": "407b30f040a2e154add49ee475c5f1dd8687d1fb61c0f3dac9989e5c2c804fe9",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 97612,
+    "method": "POST",
+    "response_sha256": "f69a58b6b3843c1586f43a43e27366549224b7fc2ac7b605e98101522334a5de",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 92872,
+    "method": "POST",
+    "response_sha256": "6ff6e1bb0d0ee2bd09456582790193394c9ea5554bbf6bbb06c12d57d256c901",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 92504,
+    "method": "POST",
+    "response_sha256": "e1d7367a1473ed744992b424db1871a171c3ac9d28f898c8a342bd91de497634",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 90681,
+    "method": "POST",
+    "response_sha256": "a1d43d9e7a2125769a08fe523ad712817404fd0a1942151a1d24fe1caf2db10e",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 89247,
+    "method": "POST",
+    "response_sha256": "12564229c8bee7f38da7c81e25bff28284a5469b27fdb4696416b885ec0a2156",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 87174,
+    "method": "POST",
+    "response_sha256": "b2003894dd3bfeca1fb3b090f8c5c4fea47f6a961a42ac58fa22dba6570fac87",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 94669,
+    "method": "POST",
+    "response_sha256": "0b87033bdb7e087af762e7dfc1a4eda319682d16f375abb82d20c2c0b462fd23",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 92894,
+    "method": "POST",
+    "response_sha256": "7f770c729346e4ac930145062fec02bdd7205c584b23aceea8d25bf5d0267414",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 94151,
+    "method": "POST",
+    "response_sha256": "6f139e855471b40fc5d667b04175673b2d05c131df6b94f901b8ccf2b9c67b4e",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 93282,
+    "method": "POST",
+    "response_sha256": "c001e43ec9954d19583410504b3a801e34d817864e118a3600adc6a900c7ec7d",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 91527,
+    "method": "POST",
+    "response_sha256": "aaa8049e60a6f48b318ab860b1b09de95cb5fc6d57393ec65f6f6b7ec2bfea74",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 91290,
+    "method": "POST",
+    "response_sha256": "41e255ff86d8927ebf9c996a14b983d3894745be43eda09d24b5fc4f9367bb35",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 90016,
+    "method": "POST",
+    "response_sha256": "613f51500dfd4855e48be352740c254b6ce7f292a5de20099df8958b529d7fe5",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 90765,
+    "method": "POST",
+    "response_sha256": "c1f6d03de34abf156ff8e0f8a8609aef177cf34e2aade1d26f102e5c78da355f",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 90005,
+    "method": "POST",
+    "response_sha256": "e0f0e618c6dfeae13214e14327bd19c5d474ca0250cbebb5573eec2a61eba277",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 88543,
+    "method": "POST",
+    "response_sha256": "7d7eb948f785756408da9a51f89a862be8ee0a06877965ed4749ab89144fbdaa",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 88086,
+    "method": "POST",
+    "response_sha256": "63132dc5db7c9ea187ab2be9894eca0e6d2970d1909d1b816ba53d52f8524ea7",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 86466,
+    "method": "POST",
+    "response_sha256": "f48d377f1aab93092e9fcd72d5501581abcc81887f0874d3d6dc7a2d0068c251",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 85445,
+    "method": "POST",
+    "response_sha256": "0339756c59e243293e952954a944f008daa389e64bf92daf0e4b6216e78ad2a3",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 85714,
+    "method": "POST",
+    "response_sha256": "8188194dae46b300daf91be42b14ec18b259b60aca2165cf7ba915b4934e5c73",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 87062,
+    "method": "POST",
+    "response_sha256": "828be57c50703d5cf499f992035958e487d67c8d210548d9dfd6db7b7b25f1b9",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 84846,
+    "method": "POST",
+    "response_sha256": "73c0b7088c1af538688688a73dc1baf5e73be5cc1790d42bb8fe69696d3e7aa0",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 85315,
+    "method": "POST",
+    "response_sha256": "0f37728a7f9534e918d274387b2fefbb42e708f7560ef86a93ff35994f7246d2",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 83075,
+    "method": "POST",
+    "response_sha256": "fb9e565e2fe538af2eb73a52c3611ec4488271e4127428acc2a8c021d6dd8115",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 84969,
+    "method": "POST",
+    "response_sha256": "de49c45d12eda68b3f7543bcdeddc5ed071b0f3d3287d5390617c6970531edd9",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 83578,
+    "method": "POST",
+    "response_sha256": "66f98333f49cf2070a9bc42f679db1e13fc6ce65e78e3d3100910a800778255d",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 83326,
+    "method": "POST",
+    "response_sha256": "8b011f665b9e6da6caa750556c7b75b5f8b87f73344fe58b9834912a16cae4bd",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 66695,
+    "method": "POST",
+    "response_sha256": "e7355039e931e499c8f2562ee9120843c519fdb66e28e5fadf7534a34f211b1d",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 57928,
+    "method": "POST",
+    "response_sha256": "20828840ac34cb603ecc963057d3c85ebe75c053207b7bea5fc45bb78dc84c4f",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 34690,
+    "method": "POST",
+    "response_sha256": "df4618333eaa51d29d5c333d53adc154f55563ed8e5be875b9b78dbb83ebb704",
+    "status_code": 200,
+    "url": "https://api.platform.opentargets.org/api/v4/graphql"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1596,
+    "method": "GET",
+    "response_sha256": "7473e0ea267bc27b7c0bc9e192d184f56e0dab390d189029666f02bee81f335f",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/ABCC4"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1238,
+    "method": "GET",
+    "response_sha256": "3befaca484913d2b1517b15a4105eafca823d19538bfd531414ed9fbdeb5f6ab",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/ADAMTS1"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1025,
+    "method": "GET",
+    "response_sha256": "ee10f4dcb18145099218197e14c7bc8e8c906e1e7ff068af5af63ec44602dc4f",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/AHSG"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1375,
+    "method": "GET",
+    "response_sha256": "6b88e3be799b64df64b375fc17fce65a9126535bdeebf7900b1e5eeb3461f9d0",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/AKR1C1"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1437,
+    "method": "GET",
+    "response_sha256": "47f3f42d025c7ac9043a0b670b332c8ab9a7f11adb5488bf699189d46ab7b8d1",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/AKR1C3"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1139,
+    "method": "GET",
+    "response_sha256": "e45b7319c777c29d23243fe2eea8952cadcf379762809e2632c266f5725dd4d7",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/ATF4"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1206,
+    "method": "GET",
+    "response_sha256": "428cf911f78cab0b92df8ca800f2521505c7b8acb8825ba3b30c90a25e6e6547",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/ATG5"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1204,
+    "method": "GET",
+    "response_sha256": "cfdebe5cd7859c1fcfc513611e9b1eee270e21c8a9e06d4640ef6af1f634a30e",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/BECN1"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1150,
+    "method": "GET",
+    "response_sha256": "306fb0cb6105789f7b1a26ca7f32726955469c7738e7b25a63282f603cfaa8c4",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/C4BPA"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1039,
+    "method": "GET",
+    "response_sha256": "6a524c3586bc9a85c1dcbe178b2d892696c43016d5f3e5d0bbd85d8c38550ee6",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/CA5B"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1060,
+    "method": "GET",
+    "response_sha256": "fabbc7fc30f800076abdb0adabb102e4a5b08377043687d81aea5f25837f4b52",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/CA9"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1246,
+    "method": "GET",
+    "response_sha256": "4c0d1723270dab34196e6822ad5fefd11c7f8ad1d6f5ceb78f93cefe29fd618a",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/CADM3"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1189,
+    "method": "GET",
+    "response_sha256": "8ee3d7d324149d4ac149e20be21f820571c2f0bde9545ea8d0e59566a6e49ae3",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/CASP14"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1184,
+    "method": "GET",
+    "response_sha256": "69786e3bb6069b81f974b3403a7264b7ce75dd6fa033a3966b847edcd4415a48",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/CCL20"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1260,
+    "method": "GET",
+    "response_sha256": "d03ec67da25f0e804be11beeef03e349954d5ef700d993fd2b22a503ea6317ce",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/CGA"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1354,
+    "method": "GET",
+    "response_sha256": "a1518944a897c2cc39425b9e71f99e2fedc126b1174ea8fba2a9fb23ced66dff",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/CPS1"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1066,
+    "method": "GET",
+    "response_sha256": "3e9d42224f823f80c285fbdb5cfe339928c22ede54e66b2be0abcbb30f4d0ba3",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/CRP"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1259,
+    "method": "GET",
+    "response_sha256": "e831ae7885ef320a2fd0847d3d49adaca9e0bf31c04231a3680f7c6bc98518ac",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/CXCL13"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1488,
+    "method": "GET",
+    "response_sha256": "ac6465a8fa9868002e813053c90bc1c6e69c566642a46801b68d3a42dc7c4128",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/CXCR4"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1310,
+    "method": "GET",
+    "response_sha256": "6b4fa2fb0edc03adafccb32a00ae6bc124b554f515c451bd8685cc7b316c1685",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/CYP11A1"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1329,
+    "method": "GET",
+    "response_sha256": "8eacc7ec3977e76da28df6514d4ed7c827b2a6e63d0c5d2f407657d8b65fe14b",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/CYP2A6"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1011,
+    "method": "GET",
+    "response_sha256": "94c3472ba85ee1ea79c694ed229c9493573796e33488cfece7727695312b964c",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/DDIT4"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1116,
+    "method": "GET",
+    "response_sha256": "58e2ab9a61cfce2b292ee848a7ab7bd45676eeecbbe1fc500de5b52f058486df",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/DKK1"
+  },
+  {
+    "attempt": 1,
+    "content_length": 790,
+    "method": "GET",
+    "response_sha256": "c994d048b557560b6906d69d11094fc7b6aa9cdabb996452849bb60857a1d18f",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/DPT"
+  },
+  {
+    "attempt": 1,
+    "content_length": 941,
+    "method": "GET",
+    "response_sha256": "f43d635cc78fb055086cb07b313f41e23a93848719bb7b206bb7d1b03101542e",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/DUSP1"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1242,
+    "method": "GET",
+    "response_sha256": "d820cc77cdbe8b79d40ee4265ffd7a12db7bff6bf32fae1715f739d469536cb2",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/ESR1"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1004,
+    "method": "GET",
+    "response_sha256": "58f467133d91a40a7d695035a2d1ae9da0329e6b91f6512b506a3152c224b318",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/FLG"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1049,
+    "method": "GET",
+    "response_sha256": "b67683c014fc2be3ac6257266a7ad28e013015eacfeaae474811950ed10dbd7b",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/GSTA2"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1281,
+    "method": "GET",
+    "response_sha256": "21f24afe99578e9a9ae66cfe0d913e8f295e0f9029be2d21dd0cbe035e0c9f64",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/HPGD"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1231,
+    "method": "GET",
+    "response_sha256": "8ee73483185d48d3a6e62506478a5db6a71dbf1136c79283e82b62bd7335eec6",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/HSD3B2"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1092,
+    "method": "GET",
+    "response_sha256": "419f5e3de35c4dbaf099d7080f5ec024eede02f5073ce1f8d2251d191ef9f5b2",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/HSPA1A"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1124,
+    "method": "GET",
+    "response_sha256": "4d8501f590966b14ac16b556c96c45b113a03cc53c168c2d7194fa17e1dec3e0",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/HSPA1L"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1336,
+    "method": "GET",
+    "response_sha256": "058b32aa205b56b2f879bf3690427c5c0d8b23012efbbb00ec1ebae8659c2bc2",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/IGFBP1"
+  },
+  {
+    "attempt": 1,
+    "content_length": 949,
+    "method": "GET",
+    "response_sha256": "400bf4cf138eb1282461e7d311b13e5f8e7c6d3a744428d74c73bdf9720d555b",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/LUM"
+  },
+  {
+    "attempt": 1,
+    "content_length": 942,
+    "method": "GET",
+    "response_sha256": "d3b54eaf2cdeb34711c4e4177ccc75b28e9b611ffe46d339bbd0ed61d599912b",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/MAP1LC3B"
+  },
+  {
+    "attempt": 1,
+    "content_length": 850,
+    "method": "GET",
+    "response_sha256": "785d58fef37b8b9254de3fa084e880c0bd769823e07b84b0e0d4e643796a0081",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/MIR675"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1187,
+    "method": "GET",
+    "response_sha256": "90037d3d07e89d4905a0b344d39be19893f85246faece84b37b2654f9f818879",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/MMP2"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1143,
+    "method": "GET",
+    "response_sha256": "11835c4df92f71fc7f55434d9586eaae24c1641c1a363437986648eda6f28d25",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/MMP9"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1426,
+    "method": "GET",
+    "response_sha256": "3dcc495650bc4554201afd06d6bf275be2863f40cc95149c0909293ccd38d61b",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/NEAT1"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1214,
+    "method": "GET",
+    "response_sha256": "308b520065d7adf13c3bb414ac201e81871ab6dcaf89228d8ab8ca7b289599ba",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/NR1I2"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1322,
+    "method": "GET",
+    "response_sha256": "15d2436837b710e4e1029edab01eeacbe5171c0ade7a9c4f30ef027259364efb",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/NR1I3"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1230,
+    "method": "GET",
+    "response_sha256": "a727559af79845f33dfcd86857c06c56b7e34e3e597977ce1a1b53f0dff928c9",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/NR3C1"
+  },
+  {
+    "attempt": 1,
+    "content_length": 930,
+    "method": "GET",
+    "response_sha256": "f5641e54386dc743bdbd1680f8c99a96077d17dbe2034182f7b42b6b61048266",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/OMD"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1012,
+    "method": "GET",
+    "response_sha256": "f1a526f519a78f0ab9d5d803f5163155451f25324aa26954fc5a4556326f26eb",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/PARP10"
+  },
+  {
+    "attempt": 1,
+    "content_length": 929,
+    "method": "GET",
+    "response_sha256": "6ad82fccd2dffe4752c4c2d9e0f29c8a9654204a175273ccac7dd1348c62b1cf",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/PGR"
+  },
+  {
+    "attempt": 2,
+    "content_length": 1238,
+    "method": "GET",
+    "response_sha256": "2657bfce4c432179a318e11684123677630448c447a2f0edcf78c8a183dc354a",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/PLA2G4A"
+  },
+  {
+    "attempt": 1,
+    "content_length": 986,
+    "method": "GET",
+    "response_sha256": "a8a4dad1d69e1db9743ab67e66658d0ac7c78e3bc9864f640ff1c6a96b6508ff",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/PLAC8"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1178,
+    "method": "GET",
+    "response_sha256": "0e3544a7be1079d9e6fda79f7d34ca08c2d0cd255b61bad9ab3234f6d76bf40a",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/PPARA"
+  },
+  {
+    "attempt": 1,
+    "content_length": 109,
+    "method": "GET",
+    "response_sha256": "8894f25b148443f06dc41b57572bb08c4070b607c54d603f593a22bbb56e4140",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/PPARB"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1243,
+    "method": "GET",
+    "response_sha256": "aa5d446b5d38cd027cc68b493208379e2258c9184a3aa83bfc42b2a52e2e7f86",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/alias_symbol/PPARB"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1239,
+    "method": "GET",
+    "response_sha256": "323e98bcedc3fb5cd981ad84450246ee921fd468949be8b3a02604e91919bdab",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/PPARG"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1048,
+    "method": "GET",
+    "response_sha256": "35e3a29026f3dc379e0f644e150d59e7a94aae3f00885afe61b77f88d0289e14",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/PTGER1"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1084,
+    "method": "GET",
+    "response_sha256": "33e4f25159cd024ba8f491cd61aa6f0aafd8823c71d7f03a769af197c84e5228",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/PTGER2"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1078,
+    "method": "GET",
+    "response_sha256": "ed94f41c5ee525c9ff0f8deffb2bc065768cc9b3502768b194873fe18ed1925d",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/PTGER3"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1017,
+    "method": "GET",
+    "response_sha256": "05dda5f1a6c7034fd39d13e8d6341e4a3a1bf2950febeb8934dfe15b0e270bd2",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/PTGER4"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1258,
+    "method": "GET",
+    "response_sha256": "2b178e3838a56858cecec40d85807ab5ca2f30593a9f181675f427bda9733562",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/PTGES"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1144,
+    "method": "GET",
+    "response_sha256": "2ad763fd4f7eb5f59cbacca2bf9d93187a39b4b21137c70e9af7660ee72c937c",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/PTGES2"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1093,
+    "method": "GET",
+    "response_sha256": "39468605991b2c847a1f81173073d6aa326add63485c46c421feca77350a161d",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/PTGES3"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1052,
+    "method": "GET",
+    "response_sha256": "4adc788a6902b600bcb243f6f5f0968e6fb096a28343bd45b54bb61271766aca",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/PTGFR"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1324,
+    "method": "GET",
+    "response_sha256": "c88343a04c48e097e107cc5ab7bc1dfd065804af3017374fad67597b44a63fbf",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/PTGS1"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1194,
+    "method": "GET",
+    "response_sha256": "444fea655ad633224857859fa7b211d0931051dc890c8b29deacca6eb760a1e1",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/PTGS2"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1261,
+    "method": "GET",
+    "response_sha256": "7a6cbe85ab067cd39e5f6abe2abb46a4cda9bd67ce75041fe47733fdb1c17bef",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/PTX3"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1226,
+    "method": "GET",
+    "response_sha256": "789245286416d7a8dd4d492b97c65bf56cea380ab36d94cf02416dad5e9b8065",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/RELA"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1194,
+    "method": "GET",
+    "response_sha256": "b73e60b2b69f6c109059ff33a2cc9cbd9c63b052579bb71ae9359e8fbd89ebbf",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/RGS2"
+  },
+  {
+    "attempt": 1,
+    "content_length": 950,
+    "method": "GET",
+    "response_sha256": "056393c6b62f27fae1e97920567c2fc06634eed03a435c9dca139392dff9fbff",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/RPS2"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1154,
+    "method": "GET",
+    "response_sha256": "bf7a1f507b0b5955863316bd8bb1e0b37671c859a90196d648f5b4d9b7da9430",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/RXRA"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1107,
+    "method": "GET",
+    "response_sha256": "394cd29c016f73aa199d6fa25a60cfd82c02bfd6ef86bb34a41ea8f518600423",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/RXRB"
+  },
+  {
+    "attempt": 1,
+    "content_length": 999,
+    "method": "GET",
+    "response_sha256": "5ca98c6890a908c40598b6d47a94c0874436bd1057a1deee3152558aec0f588c",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/SCGN"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1221,
+    "method": "GET",
+    "response_sha256": "326235f5deb0774dafb5b72d5dc57da44d4c1ece5a1060b7cd2013226c900524",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/SIRT1"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1170,
+    "method": "GET",
+    "response_sha256": "4f9c84d078fbc06b85a70bab6f25c23627b756ba183ede6cb950ad4822bb3b6e",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/SIRT2"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1195,
+    "method": "GET",
+    "response_sha256": "d1e9d148451845a2ed5ac3e46df214fca9a322c8f24d804820f0261e984a123c",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/SIRT3"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1148,
+    "method": "GET",
+    "response_sha256": "d96dff3f4898a9ec96e1e0a6dbfc666b5d28ebac03065f018b8809f76065f21e",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/SIRT5"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1447,
+    "method": "GET",
+    "response_sha256": "3bf69d3b65756dadcd5633a6b53b3cefeeb9b7e6fb22dbd39e52aedc5219e1f7",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/SLCO2A1"
+  },
+  {
+    "attempt": 1,
+    "content_length": 715,
+    "method": "GET",
+    "response_sha256": "2d4a99486f85a52f4cff97a1f6c9655cda44aeec8dba11c5e475e6a8e4dd8835",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/SNHG25"
+  },
+  {
+    "attempt": 1,
+    "content_length": 808,
+    "method": "GET",
+    "response_sha256": "7b4bb6239072d408175e6b01d33a5465c4ecb918b16aa2b9592f5a3dcadda9a5",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/SNORA13"
+  },
+  {
+    "attempt": 1,
+    "content_length": 996,
+    "method": "GET",
+    "response_sha256": "e195f369e919c8f78fce1cccf37bbed3c541b2a41c8826736c2a111955955b5c",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/SNORA50C"
+  },
+  {
+    "attempt": 1,
+    "content_length": 974,
+    "method": "GET",
+    "response_sha256": "632590b85031917789c811d37648a0fe47d402888d68572db7fa7586f6c55bc9",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/SNORA64"
+  },
+  {
+    "attempt": 1,
+    "content_length": 956,
+    "method": "GET",
+    "response_sha256": "cfeb30f1977fc1b426c28e91ca6b594bac9c4db7c5c19c5d9410a81fe5d54c67",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/SNORA65"
+  },
+  {
+    "attempt": 1,
+    "content_length": 938,
+    "method": "GET",
+    "response_sha256": "5355d765989eedd14bc76f06f9666a2befaa00f33d1ffe8d1113da8217ae5e78",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/SNORA72"
+  },
+  {
+    "attempt": 1,
+    "content_length": 957,
+    "method": "GET",
+    "response_sha256": "63459e91572ba0dff2ad90d37ae5522fa88154a54f72bd8fd4d6893a6a7a1cad",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/SPP2"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1163,
+    "method": "GET",
+    "response_sha256": "6be711eb400a6129fa6c75f995e28f96a616bef84edce75f7ccf000a72d21c6f",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/SQSTM1"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1322,
+    "method": "GET",
+    "response_sha256": "d25fed9fc4f8ef0800c0dd63b8ee3ff62523754fe1170b79a5f13acdae3ba858",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/STAR"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1499,
+    "method": "GET",
+    "response_sha256": "19c8ab5adbc9cbf9c5236479b2e3ffb101717d0f4b004ea3bdc9bdc95d444bd9",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/STAT3"
+  },
+  {
+    "attempt": 1,
+    "content_length": 921,
+    "method": "GET",
+    "response_sha256": "9d53ddcacba01bbb90961049582925c74a121f372e61893e047db28e48cc9bb7",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/SUSD2"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1199,
+    "method": "GET",
+    "response_sha256": "f91d36a120379b5bffaac59f248018c9c2f8eb6d393b8b73f5cee2e15be4ea48",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/TIMP1"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1038,
+    "method": "GET",
+    "response_sha256": "56ec8575a74dc09895e26b735d802d5fcd45be7848708ba9d40ea04daa5472ad",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/TIMP2"
+  },
+  {
+    "attempt": 1,
+    "content_length": 1165,
+    "method": "GET",
+    "response_sha256": "e1f5fdbe729445de967d526c7e033a822932e5448ad6d3870a7334a5fd44a32d",
+    "status_code": 200,
+    "url": "https://rest.genenames.org/fetch/symbol/TNC"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "disease_id": "C0346647",
+  "request": {
+    "attempt": 1,
+    "content_length": 160,
+    "error": "HTTP 401: {\"status\":\"BAD_REQUEST\",\"payload\":{\"details\":\"UNAUTHORIZED\",\"message\":\"Missing or invalid API Key\",\"timestamp\":\"Wed Sep 02 15:59:17 UTC 2026\"},\"httpStatus\":400}",
+    "method": "GET",
+    "response_sha256": "0ee1181643bd25d647fbea07b57369f580961dd2c92c76e32b6df5ac5b2e2135",
+    "status_code": 401,
+    "url": "https://api.disgenet.com/api/v1/gda/disease/umls/C0346647"
+  },
+  "response": null
+}

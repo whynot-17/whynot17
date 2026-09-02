@@ -1,0 +1,23 @@
+{
+  "api_request": {
+    "attempt": 1,
+    "content_length": 164,
+    "error": "HTTP 401: {\"title\":\"API Header Not Found\",\"detail\":\"Every API call should pass assigned API key through custom http header or query parameter. Request is missing x-api-key.\"}",
+    "method": "GET",
+    "response_sha256": "57225b17f9403aabe666fe555334f332456e02ab8646ddcc57f1586805aceae4",
+    "status_code": 401,
+    "url": "https://comptox.epa.gov/ctx-api/bioactivity/data/summary/search/by-dtxsid/DTXSID4022521"
+  },
+  "api_response": null,
+  "public_bulk_release": {
+    "request": {
+      "attempt": 1,
+      "content_length": 0,
+      "method": "HEAD",
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status_code": 200,
+      "url": "https://gaftp.epa.gov/Comptox/High_Throughput_Screening_Data/InVitroDB_V3.2/Summary_Files/INVITRODB_V3_2_SUMMARY.zip"
+    },
+    "url": "https://gaftp.epa.gov/Comptox/High_Throughput_Screening_Data/InVitroDB_V3.2/Summary_Files/INVITRODB_V3_2_SUMMARY.zip"
+  }
+}

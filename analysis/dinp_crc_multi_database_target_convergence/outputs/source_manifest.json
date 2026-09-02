@@ -1,0 +1,525 @@
+{
+  "dinp": {
+    "casrn": "28553-12-0",
+    "ctd_id": "C012125",
+    "dtxsid": "DTXSID4022521"
+  },
+  "generated_at": "2026-09-02T16:00:36.208946+00:00",
+  "sources": {
+    "CTD": {
+      "casrn": "28553-12-0",
+      "chemical_id_used": "C012125",
+      "co_treatment_rows": 109,
+      "dtxsid": "DTXSID4022521",
+      "human_raw_rows": 166,
+      "normalized_gene_symbol_count": 86,
+      "raw_to_normalized_symbol_changes": 1,
+      "record_definition": "Homo sapiens rows for exact CTD parent DINP C012125; co-treatment retained and flagged",
+      "single_chemical_genes": 32,
+      "single_chemical_rows": 57,
+      "source": "CTD",
+      "source_file": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\work\\environmental_toxicology_crc_phase1\\data\\CTD_chem_gene_ixns.tsv.gz",
+      "source_file_sha256": "05e1b0d2d93bb33f72659e6ed2d590304cdb58da9538c787ad51fc6624d0e055",
+      "status": "complete",
+      "unique_human_gene_ids": 86,
+      "unique_human_genes": 86
+    },
+    "ChEMBL": {
+      "activity_query_performed": false,
+      "exact_filter_queries": [
+        {
+          "limit": 100,
+          "pref_name__iexact": "diisononyl phthalate"
+        },
+        {
+          "limit": 100,
+          "molecule_synonyms__synonyms__iexact": "diisononyl phthalate"
+        },
+        {
+          "limit": 100,
+          "molecule_synonyms__synonyms__iexact": "DINP"
+        },
+        {
+          "limit": 100,
+          "molecule_synonyms__synonyms__iexact": "28553-12-0"
+        }
+      ],
+      "exact_parent_matches": [],
+      "human_direct_target_rows": 0,
+      "query": "diisononyl phthalate",
+      "request": {
+        "attempt": 1,
+        "content_length": 204798,
+        "method": "GET",
+        "response_sha256": "dc1106a4e0c436e0b35ee39655c0a8680cbbdec87b5979ac02eb90585f931c58",
+        "status_code": 200,
+        "url": "https://www.ebi.ac.uk/chembl/api/data/molecule/search.json?q=diisononyl+phthalate&limit=100"
+      },
+      "returned_molecule_rows": 43,
+      "source": "ChEMBL",
+      "status": "complete_no_reliable_parent_match",
+      "substitution_rule": "no related phthalate substitution"
+    },
+    "DisGeNET": {
+      "absence_interpretation": "not a biological negative; API access was not authorized",
+      "disease_concept": "UMLS:C0346647",
+      "request": {
+        "attempt": 1,
+        "content_length": 160,
+        "error": "HTTP 401: {\"status\":\"BAD_REQUEST\",\"payload\":{\"details\":\"UNAUTHORIZED\",\"message\":\"Missing or invalid API Key\",\"timestamp\":\"Wed Sep 02 15:59:17 UTC 2026\"},\"httpStatus\":400}",
+        "method": "GET",
+        "response_sha256": "0ee1181643bd25d647fbea07b57369f580961dd2c92c76e32b6df5ac5b2e2135",
+        "status_code": 401,
+        "url": "https://api.disgenet.com/api/v1/gda/disease/umls/C0346647"
+      },
+      "source": "DisGeNET",
+      "status": "unavailable_without_api_key",
+      "unique_human_genes_returned": 0
+    },
+    "GeneCards": {
+      "note": "The historical strict scoped file is not used; no substitution for the ordinary top-2000 CRC reference.",
+      "query_scope": "ordinary CRC search top-2000 export",
+      "raw_rows": 2000,
+      "source": "GeneCards",
+      "source_file": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\work\\environmental_toxicology_crc_phase1\\data\\genecards_anywhere_crc_top2000.csv",
+      "source_file_sha256": "f09e8951a7790c460f93dae6c40fc35070c9092f72908a91bccae3292e86b7e9",
+      "status": "frozen_reference",
+      "unique_symbols_used": 2000
+    },
+    "HGNC": {
+      "approved_status_count": 86,
+      "audited_symbol_count": 86,
+      "endpoint": "https://rest.genenames.org/fetch/symbol/{symbol}",
+      "exact_approved_symbol_match_count": 85,
+      "scope": "DINP exposure union and DINP–CRC intersection symbols; Open Targets disease rows retain source-native approvedSymbol",
+      "source": "HGNC REST symbol audit",
+      "status": "complete",
+      "status_counts": {
+        "Approved": 86
+      }
+    },
+    "OpenTargets": {
+      "association_pages": [
+        {
+          "attempt": 1,
+          "content_length": 137881,
+          "method": "POST",
+          "response_sha256": "2545f8725034801cca71448732d55a6990b7299f04b4660b290d9ca34af2bb10",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 117432,
+          "method": "POST",
+          "response_sha256": "658853b0d0e8121ec57cd13c742ea420b0a5e4d70501870662c907866c388181",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 109190,
+          "method": "POST",
+          "response_sha256": "407b30f040a2e154add49ee475c5f1dd8687d1fb61c0f3dac9989e5c2c804fe9",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 97612,
+          "method": "POST",
+          "response_sha256": "f69a58b6b3843c1586f43a43e27366549224b7fc2ac7b605e98101522334a5de",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 92872,
+          "method": "POST",
+          "response_sha256": "6ff6e1bb0d0ee2bd09456582790193394c9ea5554bbf6bbb06c12d57d256c901",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 92504,
+          "method": "POST",
+          "response_sha256": "e1d7367a1473ed744992b424db1871a171c3ac9d28f898c8a342bd91de497634",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 90681,
+          "method": "POST",
+          "response_sha256": "a1d43d9e7a2125769a08fe523ad712817404fd0a1942151a1d24fe1caf2db10e",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 89247,
+          "method": "POST",
+          "response_sha256": "12564229c8bee7f38da7c81e25bff28284a5469b27fdb4696416b885ec0a2156",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 87174,
+          "method": "POST",
+          "response_sha256": "b2003894dd3bfeca1fb3b090f8c5c4fea47f6a961a42ac58fa22dba6570fac87",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 94669,
+          "method": "POST",
+          "response_sha256": "0b87033bdb7e087af762e7dfc1a4eda319682d16f375abb82d20c2c0b462fd23",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 92894,
+          "method": "POST",
+          "response_sha256": "7f770c729346e4ac930145062fec02bdd7205c584b23aceea8d25bf5d0267414",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 94151,
+          "method": "POST",
+          "response_sha256": "6f139e855471b40fc5d667b04175673b2d05c131df6b94f901b8ccf2b9c67b4e",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 93282,
+          "method": "POST",
+          "response_sha256": "c001e43ec9954d19583410504b3a801e34d817864e118a3600adc6a900c7ec7d",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 91527,
+          "method": "POST",
+          "response_sha256": "aaa8049e60a6f48b318ab860b1b09de95cb5fc6d57393ec65f6f6b7ec2bfea74",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 91290,
+          "method": "POST",
+          "response_sha256": "41e255ff86d8927ebf9c996a14b983d3894745be43eda09d24b5fc4f9367bb35",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 90016,
+          "method": "POST",
+          "response_sha256": "613f51500dfd4855e48be352740c254b6ce7f292a5de20099df8958b529d7fe5",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 90765,
+          "method": "POST",
+          "response_sha256": "c1f6d03de34abf156ff8e0f8a8609aef177cf34e2aade1d26f102e5c78da355f",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 90005,
+          "method": "POST",
+          "response_sha256": "e0f0e618c6dfeae13214e14327bd19c5d474ca0250cbebb5573eec2a61eba277",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 88543,
+          "method": "POST",
+          "response_sha256": "7d7eb948f785756408da9a51f89a862be8ee0a06877965ed4749ab89144fbdaa",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 88086,
+          "method": "POST",
+          "response_sha256": "63132dc5db7c9ea187ab2be9894eca0e6d2970d1909d1b816ba53d52f8524ea7",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 86466,
+          "method": "POST",
+          "response_sha256": "f48d377f1aab93092e9fcd72d5501581abcc81887f0874d3d6dc7a2d0068c251",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 85445,
+          "method": "POST",
+          "response_sha256": "0339756c59e243293e952954a944f008daa389e64bf92daf0e4b6216e78ad2a3",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 85714,
+          "method": "POST",
+          "response_sha256": "8188194dae46b300daf91be42b14ec18b259b60aca2165cf7ba915b4934e5c73",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 87062,
+          "method": "POST",
+          "response_sha256": "828be57c50703d5cf499f992035958e487d67c8d210548d9dfd6db7b7b25f1b9",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 84846,
+          "method": "POST",
+          "response_sha256": "73c0b7088c1af538688688a73dc1baf5e73be5cc1790d42bb8fe69696d3e7aa0",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 85315,
+          "method": "POST",
+          "response_sha256": "0f37728a7f9534e918d274387b2fefbb42e708f7560ef86a93ff35994f7246d2",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 83075,
+          "method": "POST",
+          "response_sha256": "fb9e565e2fe538af2eb73a52c3611ec4488271e4127428acc2a8c021d6dd8115",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 84969,
+          "method": "POST",
+          "response_sha256": "de49c45d12eda68b3f7543bcdeddc5ed071b0f3d3287d5390617c6970531edd9",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 83578,
+          "method": "POST",
+          "response_sha256": "66f98333f49cf2070a9bc42f679db1e13fc6ce65e78e3d3100910a800778255d",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 83326,
+          "method": "POST",
+          "response_sha256": "8b011f665b9e6da6caa750556c7b75b5f8b87f73344fe58b9834912a16cae4bd",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 66695,
+          "method": "POST",
+          "response_sha256": "e7355039e931e499c8f2562ee9120843c519fdb66e28e5fadf7534a34f211b1d",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 57928,
+          "method": "POST",
+          "response_sha256": "20828840ac34cb603ecc963057d3c85ebe75c053207b7bea5fc45bb78dc84c4f",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        },
+        {
+          "attempt": 1,
+          "content_length": 34690,
+          "method": "POST",
+          "response_sha256": "df4618333eaa51d29d5c333d53adc154f55563ed8e5be875b9b78dbb83ebb704",
+          "status_code": 200,
+          "url": "https://api.platform.opentargets.org/api/v4/graphql"
+        }
+      ],
+      "disease_id": "MONDO_0005575",
+      "disease_name": "colorectal cancer",
+      "reported_target_count": 16299,
+      "returned_target_rows": 16299,
+      "search_hits": [
+        {
+          "entity": "disease",
+          "id": "MONDO_0005575",
+          "name": "colorectal cancer",
+          "score": 5757.823
+        },
+        {
+          "entity": "disease",
+          "id": "MONDO_0024331",
+          "name": "colorectal carcinoma",
+          "score": 3879.1929
+        },
+        {
+          "entity": "disease",
+          "id": "MONDO_0023113",
+          "name": "familial colorectal cancer",
+          "score": 826.7078
+        },
+        {
+          "entity": "disease",
+          "id": "MONDO_0012132",
+          "name": "colorectal cancer, susceptibility to, 1",
+          "score": 812.61774
+        },
+        {
+          "entity": "disease",
+          "id": "MONDO_0100287",
+          "name": "POLE-related polyposis and colorectal cancer syndrome",
+          "score": 759.5391
+        },
+        {
+          "entity": "disease",
+          "id": "MONDO_0018630",
+          "name": "hereditary nonpolyposis colon cancer",
+          "score": 739.1285
+        },
+        {
+          "entity": "disease",
+          "id": "MONDO_0014038",
+          "name": "colorectal cancer, susceptibility to, 12",
+          "score": 678.05194
+        },
+        {
+          "entity": "disease",
+          "id": "EFO_1001480",
+          "name": "metastatic colorectal cancer",
+          "score": 670.83014
+        },
+        {
+          "entity": "disease",
+          "id": "MONDO_0012953",
+          "name": "colorectal cancer, susceptibility to, 10",
+          "score": 667.03326
+        },
+        {
+          "entity": "disease",
+          "id": "MONDO_0018604",
+          "name": "familial colorectal cancer type X",
+          "score": 657.74365
+        },
+        {
+          "entity": "disease",
+          "id": "MONDO_0012820",
+          "name": "colorectal cancer, susceptibility to, 3",
+          "score": 653.8575
+        },
+        {
+          "entity": "disease",
+          "id": "MONDO_0005335",
+          "name": "colorectal neoplasm",
+          "score": 621.17413
+        },
+        {
+          "entity": "disease",
+          "id": "MONDO_0006165",
+          "name": "colorectal squamous cell carcinoma",
+          "score": 518.98413
+        },
+        {
+          "entity": "disease",
+          "id": "MONDO_0005008",
+          "name": "colorectal adenocarcinoma",
+          "score": 518.8949
+        },
+        {
+          "entity": "disease",
+          "id": "MONDO_0013695",
+          "name": "colorectal cancer, hereditary nonpolyposis, type 6",
+          "score": 510.85892
+        },
+        {
+          "entity": "disease",
+          "id": "MONDO_0010159",
+          "name": "mismatch repair cancer syndrome 1",
+          "score": 447.08585
+        },
+        {
+          "entity": "disease",
+          "id": "MONDO_0016249",
+          "name": "hereditary site-specific ovarian cancer syndrome",
+          "score": 446.46097
+        },
+        {
+          "entity": "disease",
+          "id": "MONDO_0020794",
+          "name": "colorectal medullary carcinoma",
+          "score": 436.9054
+        },
+        {
+          "entity": "disease",
+          "id": "MONDO_0031219",
+          "name": "mismatch repair cancer syndrome",
+          "score": 433.9354
+        },
+        {
+          "entity": "disease",
+          "id": "MONDO_0005484",
+          "name": "colorectal adenoma",
+          "score": 430.77655
+        }
+      ],
+      "source": "Open Targets",
+      "status": "complete",
+      "unique_human_approved_symbols": 15611
+    },
+    "ToxCast": {
+      "absence_interpretation": "not a biological negative; live CTX API requires an x-api-key and no substitute source was silently used",
+      "api_endpoint": "https://comptox.epa.gov/ctx-api/bioactivity/data/summary/search/by-dtxsid/DTXSID4022521",
+      "api_request": {
+        "attempt": 1,
+        "content_length": 164,
+        "error": "HTTP 401: {\"title\":\"API Header Not Found\",\"detail\":\"Every API call should pass assigned API key through custom http header or query parameter. Request is missing x-api-key.\"}",
+        "method": "GET",
+        "response_sha256": "57225b17f9403aabe666fe555334f332456e02ab8646ddcc57f1586805aceae4",
+        "status_code": 401,
+        "url": "https://comptox.epa.gov/ctx-api/bioactivity/data/summary/search/by-dtxsid/DTXSID4022521"
+      },
+      "dtxsid": "DTXSID4022521",
+      "human_target_genes_returned": 0,
+      "public_bulk_release_request": {
+        "attempt": 1,
+        "content_length": 0,
+        "method": "HEAD",
+        "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "status_code": 200,
+        "url": "https://gaftp.epa.gov/Comptox/High_Throughput_Screening_Data/InVitroDB_V3.2/Summary_Files/INVITRODB_V3_2_SUMMARY.zip"
+      },
+      "public_bulk_release_url": "https://gaftp.epa.gov/Comptox/High_Throughput_Screening_Data/InVitroDB_V3.2/Summary_Files/INVITRODB_V3_2_SUMMARY.zip",
+      "source": "EPA CompTox/ToxCast",
+      "status": "unavailable_without_api_key"
+    }
+  }
+}
