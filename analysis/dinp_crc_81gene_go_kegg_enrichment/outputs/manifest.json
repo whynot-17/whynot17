@@ -1,0 +1,104 @@
+{
+  "analysis": "81-gene DINP-CRC intersection GO and KEGG over-representation analysis",
+  "method": "ORA; hypergeometric enrichment with custom background",
+  "run_utc": "2026-09-02T17:29:28.627465+00:00",
+  "endpoint": "https://biit.cs.ut.ee/gprofiler/api/gost/profile/",
+  "organism": "hsapiens",
+  "input_gene_count": 81,
+  "input_gene_sha256": "3b104a7a29b3498b2ccb9e5ee3a2741be5fbdc3cbe13763c10b614a65eabb85c",
+  "sources": [
+    "GO:BP",
+    "GO:MF",
+    "GO:CC",
+    "KEGG"
+  ],
+  "multiple_testing": {
+    "api_method": "Benjamini-Hochberg FDR via g:Profiler significance_threshold_method=fdr",
+    "reported_primary_columns": "BH_FDR_all_GO_KEGG and BH_FDR_within_source",
+    "custom_family_sizes": "g:Profiler result_metadata number_of_terms; no-overlap terms retained in denominator"
+  },
+  "analyses": {
+    "primary_combined_exposure_crc": {
+      "background_gene_count": 15890,
+      "background_gene_sha256": "d505bd4fd756c756519ec967ddf4fa6ce729c3da5d85e37a32f623f54678fa23",
+      "query_mapped_failed": [],
+      "query_duplicates": [],
+      "response_sha256": "e7334dea338d1b2dae514611c6ddde7e7a1d6f3d22e7087bcf66bb03cf3c39a1",
+      "request_payload_file": "request_payload_primary_combined_exposure_crc.json",
+      "gprofiler_version": "e114_eg62_p19_27110d83",
+      "gprofiler_timestamp": "2026-09-02T17:29:30.881489+00:00",
+      "result_metadata": {
+        "GO:MF": {
+          "domain_size": 20208,
+          "number_of_terms": 10123,
+          "threshold": null
+        },
+        "GO:CC": {
+          "domain_size": 22155,
+          "number_of_terms": 4069,
+          "threshold": null
+        },
+        "GO:BP": {
+          "domain_size": 20972,
+          "number_of_terms": 24546,
+          "threshold": null
+        },
+        "KEGG": {
+          "domain_size": 8716,
+          "number_of_terms": 586,
+          "threshold": null
+        }
+      },
+      "returned_term_count": 4064,
+      "returned_by_source": {
+        "GO:BP": 3036,
+        "GO:MF": 539,
+        "GO:CC": 289,
+        "KEGG": 200
+      },
+      "significant_global_count": 534,
+      "significant_within_source_count": 562
+    },
+    "sensitivity_crc_union": {
+      "background_gene_count": 15885,
+      "background_gene_sha256": "c9f0948b7421184a6be350a38c75fae1a932241fd0fe66fe893356b6170aba2d",
+      "query_mapped_failed": [],
+      "query_duplicates": [],
+      "response_sha256": "da0df9c8f9b9e3cc86071e082bb5daaedeec123acda2c421c0e973a11afe13dc",
+      "request_payload_file": "request_payload_sensitivity_crc_union.json",
+      "gprofiler_version": "e114_eg62_p19_27110d83",
+      "gprofiler_timestamp": "2026-09-02T17:29:36.510607+00:00",
+      "result_metadata": {
+        "GO:MF": {
+          "domain_size": 20208,
+          "number_of_terms": 10123,
+          "threshold": null
+        },
+        "GO:CC": {
+          "domain_size": 22155,
+          "number_of_terms": 4069,
+          "threshold": null
+        },
+        "GO:BP": {
+          "domain_size": 20972,
+          "number_of_terms": 24546,
+          "threshold": null
+        },
+        "KEGG": {
+          "domain_size": 8716,
+          "number_of_terms": 586,
+          "threshold": null
+        }
+      },
+      "returned_term_count": 4064,
+      "returned_by_source": {
+        "GO:BP": 3036,
+        "GO:MF": 539,
+        "GO:CC": 289,
+        "KEGG": 200
+      },
+      "significant_global_count": 534,
+      "significant_within_source_count": 562
+    }
+  }
+}
