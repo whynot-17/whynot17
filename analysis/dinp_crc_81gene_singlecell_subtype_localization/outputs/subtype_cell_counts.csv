@@ -1,0 +1,12 @@
+subtype,compartment,group,disease_label,n_cells,n_donors
+dendritic,myeloid,normal,normal,798,34
+dendritic,myeloid,tumor,colon adenocarcinoma,4751,62
+granulocyte,myeloid,normal,normal,4,3
+granulocyte,myeloid,tumor,colon adenocarcinoma,2039,55
+macrophage,myeloid,normal,normal,1304,35
+macrophage,myeloid,tumor,colon adenocarcinoma,18976,62
+monocyte,myeloid,normal,normal,841,33
+monocyte,myeloid,tumor,colon adenocarcinoma,13401,62
+normal_epithelial,epithelial,normal,normal,55079,36
+other_tumor_epithelial,epithelial,tumor,colon adenocarcinoma,5085,60
+source_tumor_labeled_epithelial,epithelial,tumor,colon adenocarcinoma,108131,62

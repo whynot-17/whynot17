@@ -1,0 +1,505 @@
+donor_id,group,disease_label,compartment,subtype,within_compartment_program_score,sd_cell_score,n_cells
+C103,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.08632026,0.12476493,28
+C103,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.014368235,0.15737824,4580
+C103,tumor,colon adenocarcinoma,myeloid,dendritic,-0.05115045,0.13136122,80
+C103,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.17494872,0.058530793,5
+C103,tumor,colon adenocarcinoma,myeloid,macrophage,-0.056920823,0.11018442,194
+C103,tumor,colon adenocarcinoma,myeloid,monocyte,-0.054849762,0.11226572,43
+C104,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.113071896,0.11841918,189
+C104,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.08928993,0.14371195,1694
+C104,tumor,colon adenocarcinoma,myeloid,dendritic,-0.12330866,0.11625228,37
+C104,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.16619462,0.17901249,2
+C104,tumor,colon adenocarcinoma,myeloid,macrophage,-0.16441613,0.11537973,83
+C104,tumor,colon adenocarcinoma,myeloid,monocyte,-0.09541674,0.10247287,40
+C105,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.10473138,0.1090591,24
+C105,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.05596915,0.1340671,1388
+C105,tumor,colon adenocarcinoma,myeloid,dendritic,-0.11657032,0.10594414,41
+C105,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.06137796,0.29640326,31
+C105,tumor,colon adenocarcinoma,myeloid,macrophage,-0.13715908,0.1128154,80
+C105,tumor,colon adenocarcinoma,myeloid,monocyte,-0.05866509,0.107636996,51
+C106,normal,normal,epithelial,normal_epithelial,-0.014166784,0.21663797,1062
+C106,normal,normal,myeloid,dendritic,-0.091746934,0.19367763,11
+C106,normal,normal,myeloid,macrophage,-0.18634127,0.106437765,39
+C106,normal,normal,myeloid,monocyte,0.0052886456,0.16402332,18
+C106,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.026433587,0.17480838,10
+C106,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.024651358,0.14039645,1113
+C106,tumor,colon adenocarcinoma,myeloid,dendritic,0.0011322313,0.13593346,50
+C106,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.15990645,0.05975025,9
+C106,tumor,colon adenocarcinoma,myeloid,macrophage,-0.08226045,0.1241605,46
+C106,tumor,colon adenocarcinoma,myeloid,monocyte,-0.009742287,0.11294229,53
+C107,normal,normal,epithelial,normal_epithelial,-0.08037606,0.1577438,1156
+C107,normal,normal,myeloid,dendritic,-0.07403182,0.0686305,4
+C107,normal,normal,myeloid,macrophage,-0.08763184,0.20004337,2
+C107,normal,normal,myeloid,monocyte,-0.030133102,0.014869544,2
+C107,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.02186429,0.16443576,103
+C107,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.055571828,0.13579883,2156
+C107,tumor,colon adenocarcinoma,myeloid,dendritic,0.043236643,0.12715776,185
+C107,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.14348349,0.08788792,11
+C107,tumor,colon adenocarcinoma,myeloid,macrophage,-0.020013634,0.13186693,331
+C107,tumor,colon adenocarcinoma,myeloid,monocyte,0.022281442,0.10935821,272
+C109,normal,normal,epithelial,normal_epithelial,-0.028539734,0.14280726,1555
+C109,normal,normal,myeloid,granulocyte,-0.23128498,,1
+C109,normal,normal,myeloid,macrophage,-0.2691117,,1
+C109,normal,normal,myeloid,monocyte,-0.04356205,0.062975995,7
+C109,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.18496081,0.062453166,10
+C109,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.0630444,0.12635976,1511
+C109,tumor,colon adenocarcinoma,myeloid,dendritic,-0.058816817,0.1676078,9
+C109,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.121744834,0.077617936,93
+C109,tumor,colon adenocarcinoma,myeloid,macrophage,-0.05910153,0.11157648,80
+C109,tumor,colon adenocarcinoma,myeloid,monocyte,-0.018579258,0.14073136,175
+C110,normal,normal,epithelial,normal_epithelial,-0.05186811,0.12475117,631
+C110,normal,normal,myeloid,dendritic,-0.15862799,0.09608535,24
+C110,normal,normal,myeloid,macrophage,-0.19969809,0.07550384,38
+C110,normal,normal,myeloid,monocyte,-0.109739386,0.13681859,4
+C110,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,0.05271361,,1
+C110,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.043239713,0.15071617,790
+C110,tumor,colon adenocarcinoma,myeloid,dendritic,-0.019113002,0.1118597,61
+C110,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.09102776,0.09167733,49
+C110,tumor,colon adenocarcinoma,myeloid,macrophage,-0.0061613424,0.16424191,426
+C110,tumor,colon adenocarcinoma,myeloid,monocyte,-0.0029724636,0.11146772,514
+C111,normal,normal,epithelial,normal_epithelial,0.009419824,0.14313541,746
+C111,normal,normal,myeloid,dendritic,-0.1182363,0.12661082,80
+C111,normal,normal,myeloid,granulocyte,-0.16594191,0.11768631,2
+C111,normal,normal,myeloid,macrophage,-0.15916657,0.1315818,34
+C111,normal,normal,myeloid,monocyte,-0.010434643,0.12672168,139
+C111,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.019323848,0.10294044,3
+C111,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.041747183,0.15757155,650
+C111,tumor,colon adenocarcinoma,myeloid,dendritic,-0.03381625,0.12310168,38
+C111,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.11284785,0.07771785,40
+C111,tumor,colon adenocarcinoma,myeloid,macrophage,-0.008192085,0.1302911,364
+C111,tumor,colon adenocarcinoma,myeloid,monocyte,0.009530624,0.11693339,334
+C112,normal,normal,epithelial,normal_epithelial,0.0047234967,0.18451609,743
+C112,normal,normal,myeloid,dendritic,-0.018171676,0.097512595,16
+C112,normal,normal,myeloid,macrophage,-0.07019681,0.26139453,88
+C112,normal,normal,myeloid,monocyte,-0.07648307,0.11424722,12
+C112,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.068972535,0.16978046,16
+C112,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.044210892,0.162233,1760
+C112,tumor,colon adenocarcinoma,myeloid,dendritic,-0.015693698,0.12590303,158
+C112,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.06593795,0.1583444,8
+C112,tumor,colon adenocarcinoma,myeloid,macrophage,-0.0014526065,0.14249672,825
+C112,tumor,colon adenocarcinoma,myeloid,monocyte,-0.0071044182,0.10788231,292
+C113,normal,normal,epithelial,normal_epithelial,-0.08012347,0.1345948,371
+C113,normal,normal,myeloid,dendritic,-0.17851526,0.09985336,8
+C113,normal,normal,myeloid,macrophage,-0.20064351,0.07651168,13
+C113,normal,normal,myeloid,monocyte,-0.03604876,0.11343547,7
+C113,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.008090162,0.14398035,198
+C113,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.016510135,0.16198733,2728
+C113,tumor,colon adenocarcinoma,myeloid,dendritic,-0.05036607,0.11569317,43
+C113,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.016068215,0.142666,3
+C113,tumor,colon adenocarcinoma,myeloid,macrophage,-0.12500508,0.13712354,100
+C113,tumor,colon adenocarcinoma,myeloid,monocyte,-0.0065826806,0.1236066,63
+C114,normal,normal,epithelial,normal_epithelial,-0.023637675,0.13522641,497
+C114,normal,normal,myeloid,dendritic,-0.1219609,0.111666694,21
+C114,normal,normal,myeloid,macrophage,-0.15606199,0.124601915,41
+C114,normal,normal,myeloid,monocyte,-0.008324287,0.12354503,20
+C114,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.039196495,0.16201009,44
+C114,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.00050030864,0.13549267,1479
+C114,tumor,colon adenocarcinoma,myeloid,dendritic,-0.054401726,0.12563255,32
+C114,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.11201112,0.06925804,4
+C114,tumor,colon adenocarcinoma,myeloid,macrophage,-0.090239,0.1257054,97
+C114,tumor,colon adenocarcinoma,myeloid,monocyte,-0.032201454,0.10489581,55
+C115,normal,normal,epithelial,normal_epithelial,-0.052042183,0.1383809,308
+C115,normal,normal,myeloid,dendritic,-0.08430338,0.14181776,7
+C115,normal,normal,myeloid,macrophage,-0.108081445,0.09595047,27
+C115,normal,normal,myeloid,monocyte,-0.03128341,0.14528257,13
+C115,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.035627674,0.16749336,6
+C115,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.015805807,0.14166851,556
+C115,tumor,colon adenocarcinoma,myeloid,dendritic,0.04348221,0.113810085,23
+C115,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.12235512,0.09392399,89
+C115,tumor,colon adenocarcinoma,myeloid,macrophage,-0.024933165,0.118189424,55
+C115,tumor,colon adenocarcinoma,myeloid,monocyte,0.014212048,0.129533,137
+C116,normal,normal,epithelial,normal_epithelial,-0.036614984,0.13979897,1225
+C116,normal,normal,myeloid,dendritic,-0.054971438,0.14060655,7
+C116,normal,normal,myeloid,granulocyte,-0.15253703,,1
+C116,normal,normal,myeloid,macrophage,-0.053927176,0.10880921,13
+C116,normal,normal,myeloid,monocyte,-0.0060192007,0.09660144,11
+C116,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.07952314,0.12477244,54
+C116,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.03977635,0.122419074,867
+C116,tumor,colon adenocarcinoma,myeloid,dendritic,-0.06518963,0.10795833,55
+C116,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.13665186,,1
+C116,tumor,colon adenocarcinoma,myeloid,macrophage,-0.06382244,0.10930855,276
+C116,tumor,colon adenocarcinoma,myeloid,monocyte,-0.038225032,0.09473984,95
+C118,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.10469394,0.14419901,8
+C118,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.013355146,0.13646273,1192
+C118,tumor,colon adenocarcinoma,myeloid,dendritic,-0.034907337,0.13108186,48
+C118,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.1027295,0.06753578,5
+C118,tumor,colon adenocarcinoma,myeloid,macrophage,-0.027155362,0.15760751,413
+C118,tumor,colon adenocarcinoma,myeloid,monocyte,-0.02210506,0.20149758,83
+C119,normal,normal,epithelial,normal_epithelial,0.013579482,0.1630658,22
+C119,normal,normal,myeloid,macrophage,-0.20042382,,1
+C119,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.00528584,0.10528647,7
+C119,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.010485586,0.13114583,1027
+C119,tumor,colon adenocarcinoma,myeloid,dendritic,-0.042146742,0.06163474,4
+C119,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.08636363,0.054920815,2
+C119,tumor,colon adenocarcinoma,myeloid,macrophage,-0.038110383,0.122879766,16
+C119,tumor,colon adenocarcinoma,myeloid,monocyte,-0.037685126,0.12111806,19
+C122,normal,normal,epithelial,normal_epithelial,-0.049851853,0.15032786,2561
+C122,normal,normal,myeloid,dendritic,-0.089038044,0.123913236,18
+C122,normal,normal,myeloid,macrophage,-0.15736458,0.10722355,57
+C122,normal,normal,myeloid,monocyte,-0.08121939,0.10780277,39
+C122,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.01089855,0.14708704,176
+C122,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.004969076,0.15103371,1943
+C122,tumor,colon adenocarcinoma,myeloid,dendritic,-0.05859651,0.12297989,21
+C122,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.060964335,0.11640535,12
+C122,tumor,colon adenocarcinoma,myeloid,macrophage,-0.07170691,0.16029322,93
+C122,tumor,colon adenocarcinoma,myeloid,monocyte,-0.011858143,0.13772784,137
+C123,normal,normal,epithelial,normal_epithelial,-0.06951062,0.13109502,2337
+C123,normal,normal,myeloid,dendritic,-0.0076050055,0.42027238,26
+C123,normal,normal,myeloid,macrophage,-0.15641414,0.102525085,98
+C123,normal,normal,myeloid,monocyte,-0.16755873,0.11835975,8
+C123,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,0.0036618947,0.23557858,88
+C123,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.0032221205,0.14708559,4031
+C123,tumor,colon adenocarcinoma,myeloid,dendritic,-0.022780363,0.13175431,255
+C123,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.18897,,1
+C123,tumor,colon adenocarcinoma,myeloid,macrophage,-0.039724838,0.12858692,742
+C123,tumor,colon adenocarcinoma,myeloid,monocyte,-0.025886651,0.1278594,331
+C124,normal,normal,epithelial,normal_epithelial,0.0067297723,0.13927704,7812
+C124,normal,normal,myeloid,dendritic,0.048653264,0.16880542,21
+C124,normal,normal,myeloid,macrophage,0.056345172,0.39233652,51
+C124,normal,normal,myeloid,monocyte,0.035461638,0.18539692,68
+C124,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.028508892,0.16677082,229
+C124,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.0103031965,0.14654577,793
+C124,tumor,colon adenocarcinoma,myeloid,dendritic,-0.041371424,0.10543623,84
+C124,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.20577015,0.06263235,15
+C124,tumor,colon adenocarcinoma,myeloid,macrophage,-0.018671595,0.13672388,1090
+C124,tumor,colon adenocarcinoma,myeloid,monocyte,-0.010854619,0.10695702,826
+C125,normal,normal,epithelial,normal_epithelial,-0.06347065,0.11818634,3957
+C125,normal,normal,myeloid,dendritic,-0.03917562,0.13742569,35
+C125,normal,normal,myeloid,macrophage,-0.06687516,0.09429245,79
+C125,normal,normal,myeloid,monocyte,-0.032457296,0.080345854,12
+C125,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.0501885,0.124965854,85
+C125,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.008129084,0.14425397,2029
+C125,tumor,colon adenocarcinoma,myeloid,dendritic,-0.019360574,0.12062367,273
+C125,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.24773432,,1
+C125,tumor,colon adenocarcinoma,myeloid,macrophage,-0.012387513,0.111570925,716
+C125,tumor,colon adenocarcinoma,myeloid,monocyte,-0.032382492,0.09648351,306
+C126,normal,normal,epithelial,normal_epithelial,-0.026690574,0.15421776,4054
+C126,normal,normal,myeloid,dendritic,-0.039888076,0.11949495,39
+C126,normal,normal,myeloid,macrophage,-0.07408453,0.21683078,89
+C126,normal,normal,myeloid,monocyte,-0.0045973887,0.14035192,42
+C126,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.06475274,0.13341337,28
+C126,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.03310375,0.17701851,928
+C126,tumor,colon adenocarcinoma,myeloid,dendritic,-0.019782571,0.13648242,120
+C126,tumor,colon adenocarcinoma,myeloid,granulocyte,0.10014744,0.21725728,7
+C126,tumor,colon adenocarcinoma,myeloid,macrophage,-0.021526486,0.15319933,601
+C126,tumor,colon adenocarcinoma,myeloid,monocyte,-0.023800036,0.11330045,333
+C129,normal,normal,epithelial,normal_epithelial,-0.10381506,0.12812077,1006
+C129,normal,normal,myeloid,dendritic,-0.12907025,0.14202562,12
+C129,normal,normal,myeloid,macrophage,-0.120165415,0.114559144,41
+C129,normal,normal,myeloid,monocyte,-0.098663226,0.13352697,13
+C129,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.02023332,0.14402112,355
+C129,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.004347721,0.14024375,2770
+C129,tumor,colon adenocarcinoma,myeloid,dendritic,-0.023671992,0.11758715,171
+C129,tumor,colon adenocarcinoma,myeloid,macrophage,-0.011313599,0.1051867,229
+C129,tumor,colon adenocarcinoma,myeloid,monocyte,-0.04081027,0.12343104,177
+C130,normal,normal,epithelial,normal_epithelial,-0.069059856,0.1166746,2065
+C130,normal,normal,myeloid,dendritic,0.013313875,0.14435859,40
+C130,normal,normal,myeloid,macrophage,-0.07029092,0.1292909,61
+C130,normal,normal,myeloid,monocyte,-0.0058153006,0.10390445,13
+C130,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.09270949,0.12276621,38
+C130,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.022292383,0.15036495,3191
+C130,tumor,colon adenocarcinoma,myeloid,dendritic,-0.029199332,0.13816148,72
+C130,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.11919135,0.08195854,10
+C130,tumor,colon adenocarcinoma,myeloid,macrophage,-0.03414194,0.12136423,399
+C130,tumor,colon adenocarcinoma,myeloid,monocyte,-0.008093776,0.11365652,302
+C132,normal,normal,epithelial,normal_epithelial,-0.13360433,0.13395414,975
+C132,normal,normal,myeloid,dendritic,-0.12093976,0.18670355,4
+C132,normal,normal,myeloid,macrophage,-0.2549883,0.024680771,4
+C132,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,0.09788645,0.28113964,5
+C132,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.07501585,0.16133228,1362
+C132,tumor,colon adenocarcinoma,myeloid,dendritic,0.10611372,0.13998893,98
+C132,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.08239089,0.15508594,10
+C132,tumor,colon adenocarcinoma,myeloid,macrophage,0.05256992,0.1625135,296
+C132,tumor,colon adenocarcinoma,myeloid,monocyte,0.040994022,0.16349384,118
+C133,normal,normal,epithelial,normal_epithelial,0.015241492,0.17334564,608
+C133,normal,normal,myeloid,dendritic,0.25497857,0.13024509,2
+C133,normal,normal,myeloid,macrophage,0.10060113,0.08407364,3
+C133,normal,normal,myeloid,monocyte,0.041889943,0.09941224,11
+C133,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.022622453,0.18662038,29
+C133,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.13237979,0.18166196,976
+C133,tumor,colon adenocarcinoma,myeloid,dendritic,0.049472302,0.119668774,66
+C133,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.064863294,,1
+C133,tumor,colon adenocarcinoma,myeloid,macrophage,0.047793653,0.121097855,403
+C133,tumor,colon adenocarcinoma,myeloid,monocyte,0.0023468372,0.1313199,66
+C134,normal,normal,epithelial,normal_epithelial,0.038414065,0.123005725,1601
+C134,normal,normal,myeloid,dendritic,-0.032276172,0.11595797,74
+C134,normal,normal,myeloid,macrophage,-0.06175051,0.10179023,136
+C134,normal,normal,myeloid,monocyte,-0.022895463,0.09083285,89
+C134,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.0019488663,0.113082744,5
+C134,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.024884302,0.17335935,1227
+C134,tumor,colon adenocarcinoma,myeloid,dendritic,-0.033020202,0.17599246,26
+C134,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.14973699,0.1424471,20
+C134,tumor,colon adenocarcinoma,myeloid,macrophage,-0.045027733,0.14555123,188
+C134,tumor,colon adenocarcinoma,myeloid,monocyte,-0.005011439,0.12444539,505
+C135,normal,normal,epithelial,normal_epithelial,-0.059267502,0.18108891,672
+C135,normal,normal,myeloid,dendritic,0.11306336,0.3377308,2
+C135,normal,normal,myeloid,macrophage,-0.078743815,0.08229871,8
+C135,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.13135496,0.12042111,17
+C135,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.050097764,0.15442374,1052
+C135,tumor,colon adenocarcinoma,myeloid,dendritic,-0.02032488,0.2330184,223
+C135,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.1962944,0.06255107,4
+C135,tumor,colon adenocarcinoma,myeloid,macrophage,-0.04937878,0.12207459,266
+C135,tumor,colon adenocarcinoma,myeloid,monocyte,-0.03816945,0.12323295,598
+C136,normal,normal,epithelial,normal_epithelial,-0.06856829,0.12401839,2393
+C136,normal,normal,myeloid,dendritic,-0.06459164,0.10513528,7
+C136,normal,normal,myeloid,macrophage,-0.023097292,0.09487643,21
+C136,normal,normal,myeloid,monocyte,-0.031075764,0.055813137,4
+C136,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.20753588,0.025102241,2
+C136,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.007607751,0.12199801,1429
+C136,tumor,colon adenocarcinoma,myeloid,dendritic,-0.01032786,0.100046545,44
+C136,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.18782435,0.073215514,4
+C136,tumor,colon adenocarcinoma,myeloid,macrophage,0.004430716,0.12737702,243
+C136,tumor,colon adenocarcinoma,myeloid,monocyte,-0.020149635,0.13985032,48
+C137,normal,normal,epithelial,normal_epithelial,-0.03709581,0.16224344,829
+C137,normal,normal,myeloid,dendritic,-0.079863764,0.09372471,43
+C137,normal,normal,myeloid,macrophage,-0.079585694,0.104456134,37
+C137,normal,normal,myeloid,monocyte,-0.05067623,0.1160147,32
+C137,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.27154556,,1
+C137,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.006005373,0.12176539,731
+C137,tumor,colon adenocarcinoma,myeloid,dendritic,-0.04782594,0.09664384,84
+C137,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.0627059,0.0510079,7
+C137,tumor,colon adenocarcinoma,myeloid,macrophage,-0.01929509,0.11248415,148
+C137,tumor,colon adenocarcinoma,myeloid,monocyte,-0.008080922,0.103434734,511
+C138,normal,normal,epithelial,normal_epithelial,-0.019357694,0.1596082,624
+C138,normal,normal,myeloid,dendritic,-0.074085504,0.14476341,11
+C138,normal,normal,myeloid,macrophage,-0.10108532,0.10588688,5
+C138,normal,normal,myeloid,monocyte,-0.07512154,0.10450185,102
+C138,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.03636963,0.15247373,8
+C138,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.04877757,0.14340632,460
+C138,tumor,colon adenocarcinoma,myeloid,dendritic,-0.0006088457,0.10994317,80
+C138,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.12555465,0.099790476,5
+C138,tumor,colon adenocarcinoma,myeloid,macrophage,-0.017473446,0.11255537,48
+C138,tumor,colon adenocarcinoma,myeloid,monocyte,-0.056841727,0.11079829,287
+C139,normal,normal,epithelial,normal_epithelial,-0.05872717,0.12091378,1454
+C139,normal,normal,myeloid,dendritic,-0.09380656,0.081675366,36
+C139,normal,normal,myeloid,macrophage,-0.09105057,0.10942464,30
+C139,normal,normal,myeloid,monocyte,-0.066775024,0.08240683,17
+C139,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.016189003,0.16225429,194
+C139,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.040542416,0.17568573,2931
+C139,tumor,colon adenocarcinoma,myeloid,dendritic,-0.06495663,0.09930682,94
+C139,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.15654719,,1
+C139,tumor,colon adenocarcinoma,myeloid,macrophage,-0.08829157,0.11660115,243
+C139,tumor,colon adenocarcinoma,myeloid,monocyte,-0.037040956,0.13303845,186
+C140,normal,normal,epithelial,normal_epithelial,-0.11902069,0.12977229,1162
+C140,normal,normal,myeloid,dendritic,-0.19369861,0.088265374,10
+C140,normal,normal,myeloid,macrophage,-0.16768186,0.100184016,3
+C140,normal,normal,myeloid,monocyte,-0.05192778,,1
+C140,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.06622163,0.11476617,25
+C140,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.031901684,0.12529972,2372
+C140,tumor,colon adenocarcinoma,myeloid,dendritic,-0.014610734,0.105340205,122
+C140,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.10631884,0.1468186,2
+C140,tumor,colon adenocarcinoma,myeloid,macrophage,-0.03344681,0.12662555,331
+C140,tumor,colon adenocarcinoma,myeloid,monocyte,-0.010994152,0.10489187,160
+C142,normal,normal,epithelial,normal_epithelial,-0.049959943,0.15663348,1393
+C142,normal,normal,myeloid,dendritic,-0.18759836,0.10594384,4
+C142,normal,normal,myeloid,macrophage,-0.1490282,0.09258859,6
+C142,normal,normal,myeloid,monocyte,-0.09580194,0.16071622,3
+C142,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,0.03577342,0.1578607,133
+C142,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.0098399,0.14164695,1250
+C142,tumor,colon adenocarcinoma,myeloid,dendritic,-0.049619667,0.16933395,37
+C142,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.14724818,,1
+C142,tumor,colon adenocarcinoma,myeloid,macrophage,-0.1041915,0.09703678,88
+C142,tumor,colon adenocarcinoma,myeloid,monocyte,-0.037746236,0.09393417,97
+C143,normal,normal,epithelial,normal_epithelial,-0.07161527,0.13468717,2104
+C143,normal,normal,myeloid,dendritic,-0.1561885,0.09303479,12
+C143,normal,normal,myeloid,macrophage,-0.103775084,0.17172402,3
+C143,normal,normal,myeloid,monocyte,-0.099408366,0.089133695,8
+C143,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.16665995,0.111688524,34
+C143,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.044506267,0.13298264,1244
+C143,tumor,colon adenocarcinoma,myeloid,dendritic,-0.02736518,0.13825281,154
+C143,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.15317547,0.07194049,6
+C143,tumor,colon adenocarcinoma,myeloid,macrophage,-0.043778215,0.11347855,157
+C143,tumor,colon adenocarcinoma,myeloid,monocyte,-0.041034196,0.10478872,247
+C144,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.03557888,0.15364534,68
+C144,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.0038682353,0.16384347,854
+C144,tumor,colon adenocarcinoma,myeloid,dendritic,-0.09331903,0.10941174,29
+C144,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.068690516,0.17676046,45
+C144,tumor,colon adenocarcinoma,myeloid,macrophage,-0.10861236,0.14424409,172
+C144,tumor,colon adenocarcinoma,myeloid,monocyte,-0.04661802,0.09425722,196
+C145,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.03605449,0.20089091,8
+C145,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.049094636,0.10285358,2134
+C145,tumor,colon adenocarcinoma,myeloid,dendritic,-0.09116838,0.11877117,87
+C145,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.118137,0.06118676,7
+C145,tumor,colon adenocarcinoma,myeloid,macrophage,-0.046420157,0.10698116,202
+C145,tumor,colon adenocarcinoma,myeloid,monocyte,-0.028056288,0.17885727,157
+C146,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,0.026885008,0.16009685,17
+C146,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.025546724,0.12722674,1872
+C146,tumor,colon adenocarcinoma,myeloid,dendritic,-0.029407853,0.10519651,102
+C146,tumor,colon adenocarcinoma,myeloid,macrophage,-0.023467721,0.12060899,225
+C146,tumor,colon adenocarcinoma,myeloid,monocyte,-0.038552806,0.096290074,244
+C147,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,0.05388651,0.17234948,9
+C147,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.048799176,0.16707803,2087
+C147,tumor,colon adenocarcinoma,myeloid,dendritic,-0.06279636,0.09828004,19
+C147,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.17954528,0.037314802,4
+C147,tumor,colon adenocarcinoma,myeloid,macrophage,-0.0357877,0.12092479,501
+C147,tumor,colon adenocarcinoma,myeloid,monocyte,-0.022436053,0.11484174,201
+C149,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.040942527,0.11016427,222
+C149,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.06288309,0.12684411,1080
+C149,tumor,colon adenocarcinoma,myeloid,dendritic,-0.025528848,0.1129832,115
+C149,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.090194486,0.027091864,3
+C149,tumor,colon adenocarcinoma,myeloid,macrophage,-0.038849853,0.12257398,157
+C149,tumor,colon adenocarcinoma,myeloid,monocyte,-0.023807783,0.085783005,89
+C150,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.10742887,0.12924239,8
+C150,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.050753262,0.112028114,1767
+C150,tumor,colon adenocarcinoma,myeloid,dendritic,0.008446219,0.12673947,23
+C150,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.08014034,0.18042997,9
+C150,tumor,colon adenocarcinoma,myeloid,macrophage,-0.0041966066,0.10635556,99
+C150,tumor,colon adenocarcinoma,myeloid,monocyte,-0.021070667,0.112569295,66
+C151,normal,normal,epithelial,normal_epithelial,0.013620489,0.1501057,2616
+C151,normal,normal,myeloid,dendritic,-0.0814855,0.07179994,13
+C151,normal,normal,myeloid,macrophage,0.0065058954,0.31535256,16
+C151,normal,normal,myeloid,monocyte,-0.03426106,0.07591071,32
+C151,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.008811027,,1
+C151,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.053287134,0.14468992,328
+C151,tumor,colon adenocarcinoma,myeloid,dendritic,-0.10397777,,1
+C151,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.1338023,0.07873745,8
+C151,tumor,colon adenocarcinoma,myeloid,macrophage,-0.07039153,0.08429636,8
+C151,tumor,colon adenocarcinoma,myeloid,monocyte,0.041806158,0.14656335,27
+C152,normal,normal,epithelial,normal_epithelial,-0.03330226,0.16443567,1226
+C152,normal,normal,myeloid,dendritic,0.5232939,,1
+C152,normal,normal,myeloid,monocyte,0.05365659,0.05935412,2
+C152,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.03957942,0.13511759,164
+C152,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.008463406,0.11791026,913
+C152,tumor,colon adenocarcinoma,myeloid,dendritic,-0.009009326,0.09111571,18
+C152,tumor,colon adenocarcinoma,myeloid,macrophage,-0.045573983,0.09463498,76
+C152,tumor,colon adenocarcinoma,myeloid,monocyte,-0.06445408,0.084884025,50
+C153,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.10198978,0.13466625,24
+C153,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,-0.04759899,0.1506626,2590
+C153,tumor,colon adenocarcinoma,myeloid,dendritic,-0.056580044,0.118855275,143
+C153,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.1111567,0.15775013,2
+C153,tumor,colon adenocarcinoma,myeloid,macrophage,-0.040154986,0.11739265,459
+C153,tumor,colon adenocarcinoma,myeloid,monocyte,-0.05247319,0.110435314,192
+C154,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,0.017526923,0.13307644,41
+C154,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.033133566,0.12988767,1870
+C154,tumor,colon adenocarcinoma,myeloid,dendritic,0.04816386,0.11568189,49
+C154,tumor,colon adenocarcinoma,myeloid,macrophage,0.07224016,0.09217993,67
+C154,tumor,colon adenocarcinoma,myeloid,monocyte,0.104869634,0.123032965,63
+C155,normal,normal,epithelial,normal_epithelial,0.008772043,0.21793109,1719
+C155,normal,normal,myeloid,dendritic,0.15245102,0.7709369,11
+C155,normal,normal,myeloid,macrophage,-0.03604614,0.08845087,8
+C155,normal,normal,myeloid,monocyte,0.12594114,0.36402923,14
+C155,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,0.062107787,0.19518003,103
+C155,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.036609877,0.1537851,1351
+C155,tumor,colon adenocarcinoma,myeloid,dendritic,0.029791595,0.120273374,46
+C155,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.02258146,0.1091033,40
+C155,tumor,colon adenocarcinoma,myeloid,macrophage,0.1304661,0.14643332,178
+C155,tumor,colon adenocarcinoma,myeloid,monocyte,0.10760286,0.09820153,92
+C156,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,0.015699366,0.17259759,72
+C156,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.04686626,0.15090528,568
+C156,tumor,colon adenocarcinoma,myeloid,dendritic,0.025131887,0.13887182,94
+C156,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.14857684,0.047792457,3
+C156,tumor,colon adenocarcinoma,myeloid,macrophage,-0.033791028,0.16716291,185
+C156,tumor,colon adenocarcinoma,myeloid,monocyte,0.047115512,0.16138609,71
+C157,normal,normal,epithelial,normal_epithelial,0.07705815,0.18377201,2024
+C157,normal,normal,myeloid,dendritic,0.028493192,0.12673214,29
+C157,normal,normal,myeloid,macrophage,0.064291544,0.31836078,74
+C157,normal,normal,myeloid,monocyte,0.07948853,0.069046006,12
+C157,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,0.09864359,0.17686577,545
+C157,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.0649026,0.1789668,1985
+C157,tumor,colon adenocarcinoma,myeloid,dendritic,0.084950574,0.10686692,55
+C157,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.025199413,0.12947707,6
+C157,tumor,colon adenocarcinoma,myeloid,macrophage,0.17709506,0.17276315,632
+C157,tumor,colon adenocarcinoma,myeloid,monocyte,0.18068004,0.149433,82
+C158,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,0.01916106,0.14521576,2
+C158,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.1008813,0.146611,813
+C158,tumor,colon adenocarcinoma,myeloid,dendritic,0.01911081,0.12140506,85
+C158,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.03806011,0.09762798,131
+C158,tumor,colon adenocarcinoma,myeloid,macrophage,0.11848425,0.12913819,505
+C158,tumor,colon adenocarcinoma,myeloid,monocyte,0.09703521,0.11798305,414
+C159,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,0.09984338,0.15730274,17
+C159,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.07456046,0.1407132,967
+C159,tumor,colon adenocarcinoma,myeloid,dendritic,0.045699194,0.1075028,48
+C159,tumor,colon adenocarcinoma,myeloid,granulocyte,0.11817819,0.30060476,19
+C159,tumor,colon adenocarcinoma,myeloid,macrophage,0.11138274,0.15426864,243
+C159,tumor,colon adenocarcinoma,myeloid,monocyte,0.09904624,0.10694997,115
+C160,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,0.11071376,0.1433984,82
+C160,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.14998093,0.16133931,2191
+C160,tumor,colon adenocarcinoma,myeloid,dendritic,0.048182122,0.075592324,37
+C160,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.0876656,0.08398189,5
+C160,tumor,colon adenocarcinoma,myeloid,macrophage,0.102254234,0.16896904,326
+C160,tumor,colon adenocarcinoma,myeloid,monocyte,0.11191999,0.12834743,168
+C161,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,0.14784348,0.13599351,64
+C161,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.05726756,0.118026026,2360
+C161,tumor,colon adenocarcinoma,myeloid,dendritic,0.029854275,0.10068047,94
+C161,tumor,colon adenocarcinoma,myeloid,macrophage,0.108071186,0.20460972,176
+C161,tumor,colon adenocarcinoma,myeloid,monocyte,0.083065294,0.09516868,123
+C162,normal,normal,epithelial,normal_epithelial,-0.027672712,0.13197732,973
+C162,normal,normal,myeloid,dendritic,-0.04141332,0.13963708,115
+C162,normal,normal,myeloid,macrophage,-0.0387276,0.15630952,128
+C162,normal,normal,myeloid,monocyte,-0.01717733,0.10612978,30
+C162,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.016204301,0.14693521,1004
+C162,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.019282823,0.11292816,7402
+C162,tumor,colon adenocarcinoma,myeloid,dendritic,0.008545992,0.13061948,219
+C162,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.11138748,0.1048433,7
+C162,tumor,colon adenocarcinoma,myeloid,macrophage,0.038416844,0.14141017,1531
+C162,tumor,colon adenocarcinoma,myeloid,monocyte,0.028847903,0.12376142,691
+C163,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,0.070225224,0.17916748,197
+C163,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.061704718,0.13437463,2019
+C163,tumor,colon adenocarcinoma,myeloid,dendritic,0.020395864,0.11172688,55
+C163,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.10472492,0.08699106,3
+C163,tumor,colon adenocarcinoma,myeloid,macrophage,0.07208263,0.16285288,86
+C163,tumor,colon adenocarcinoma,myeloid,monocyte,0.08520611,0.108127676,47
+C164,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,0.20260516,0.25625336,90
+C164,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.16421644,0.24152704,1483
+C164,tumor,colon adenocarcinoma,myeloid,dendritic,0.062381506,0.09550241,18
+C164,tumor,colon adenocarcinoma,myeloid,macrophage,0.06276704,0.16507095,110
+C164,tumor,colon adenocarcinoma,myeloid,monocyte,0.15220776,0.12939127,103
+C165,normal,normal,epithelial,normal_epithelial,0.008921708,0.16901302,390
+C165,normal,normal,myeloid,dendritic,-0.081353344,0.15040796,42
+C165,normal,normal,myeloid,macrophage,-0.05599085,0.11887732,33
+C165,normal,normal,myeloid,monocyte,0.0069787693,0.1720502,41
+C165,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,0.05191718,0.08901397,8
+C165,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.06830672,0.08409966,1092
+C165,tumor,colon adenocarcinoma,myeloid,dendritic,0.016562965,0.0951883,29
+C165,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.0744371,0.08475972,80
+C165,tumor,colon adenocarcinoma,myeloid,macrophage,0.04569328,0.13535194,692
+C165,tumor,colon adenocarcinoma,myeloid,monocyte,0.024650713,0.11455905,719
+C166,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,0.036348935,0.13936563,31
+C166,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.07403485,0.11504357,4699
+C166,tumor,colon adenocarcinoma,myeloid,dendritic,0.042201474,0.08890353,18
+C166,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.13494949,,1
+C166,tumor,colon adenocarcinoma,myeloid,macrophage,0.10070787,0.1270365,114
+C166,tumor,colon adenocarcinoma,myeloid,monocyte,0.0784085,0.12394134,148
+C167,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.06311479,0.19528991,286
+C167,tumor,colon adenocarcinoma,myeloid,dendritic,0.005169303,0.17753534,30
+C167,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.027401926,0.23169662,30
+C167,tumor,colon adenocarcinoma,myeloid,macrophage,-0.07376724,0.17369334,155
+C167,tumor,colon adenocarcinoma,myeloid,monocyte,0.06750904,0.13588013,77
+C168,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.054103382,0.13074842,766
+C168,tumor,colon adenocarcinoma,myeloid,dendritic,0.02605942,0.08809954,37
+C168,tumor,colon adenocarcinoma,myeloid,macrophage,0.11185812,0.09648642,421
+C168,tumor,colon adenocarcinoma,myeloid,monocyte,0.12697476,0.11823139,238
+C169,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.050181687,0.19511576,6
+C169,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.030526679,0.17522372,631
+C169,tumor,colon adenocarcinoma,myeloid,dendritic,-0.0066773104,0.105882056,27
+C169,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.027124291,0.09791611,21
+C169,tumor,colon adenocarcinoma,myeloid,macrophage,0.014786121,0.1566536,139
+C169,tumor,colon adenocarcinoma,myeloid,monocyte,0.087896995,0.13424611,279
+C170,normal,normal,epithelial,normal_epithelial,-0.04448721,0.11560883,208
+C170,normal,normal,myeloid,dendritic,-0.07566354,0.10713715,13
+C170,normal,normal,myeloid,macrophage,-0.05510831,0.13646244,16
+C170,normal,normal,myeloid,monocyte,-0.016833775,0.081533596,15
+C170,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.11269366,0.10408069,11
+C170,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.010917109,0.14413175,3713
+C170,tumor,colon adenocarcinoma,myeloid,dendritic,-0.0023990767,0.10456833,153
+C170,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.08242399,0.1067961,1099
+C170,tumor,colon adenocarcinoma,myeloid,macrophage,0.06871545,0.12335642,1048
+C170,tumor,colon adenocarcinoma,myeloid,monocyte,0.08586754,0.12818132,894
+C171,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,0.017937224,0.15226328,126
+C171,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.03248643,0.11359126,4739
+C171,tumor,colon adenocarcinoma,myeloid,dendritic,-0.0060344418,0.13163099,176
+C171,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.121966064,0.13295287,2
+C171,tumor,colon adenocarcinoma,myeloid,macrophage,0.051855125,0.13813616,318
+C171,tumor,colon adenocarcinoma,myeloid,monocyte,0.087815285,0.1375892,126
+C172,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,0.16070713,0.15107046,9
+C172,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.21878877,0.1688446,365
+C172,tumor,colon adenocarcinoma,myeloid,dendritic,0.062337376,0.113041684,31
+C172,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.061822403,0.10296712,21
+C172,tumor,colon adenocarcinoma,myeloid,macrophage,0.024247838,0.117503375,290
+C172,tumor,colon adenocarcinoma,myeloid,monocyte,0.07421641,0.12093475,112
+C173,tumor,colon adenocarcinoma,epithelial,other_tumor_epithelial,-0.1032089,0.056449015,3
+C173,tumor,colon adenocarcinoma,epithelial,source_tumor_labeled_epithelial,0.00068468426,0.13446116,996
+C173,tumor,colon adenocarcinoma,myeloid,dendritic,-0.016554197,0.1192822,25
+C173,tumor,colon adenocarcinoma,myeloid,granulocyte,-0.040031094,0.19958882,34
+C173,tumor,colon adenocarcinoma,myeloid,macrophage,0.032373786,0.106114864,194
+C173,tumor,colon adenocarcinoma,myeloid,monocyte,0.08047944,0.20580791,156

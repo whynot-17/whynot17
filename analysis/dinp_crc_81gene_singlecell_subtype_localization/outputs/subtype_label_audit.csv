@@ -1,0 +1,16 @@
+audit,disease,source_tumor_label,n_cells,subtype
+epithelial_disease_by_source_tumor_label,colon adenocarcinoma,False,5085,
+epithelial_disease_by_source_tumor_label,colon adenocarcinoma,True,108131,
+epithelial_disease_by_source_tumor_label,normal,False,55079,
+epithelial_disease_by_source_tumor_label,normal,True,0,
+subtype_by_disease,colon adenocarcinoma,,108131,source_tumor_labeled_epithelial
+subtype_by_disease,colon adenocarcinoma,,5085,other_tumor_epithelial
+subtype_by_disease,normal,,55079,normal_epithelial
+subtype_by_disease,colon adenocarcinoma,,18976,macrophage
+subtype_by_disease,normal,,1304,macrophage
+subtype_by_disease,colon adenocarcinoma,,13401,monocyte
+subtype_by_disease,normal,,841,monocyte
+subtype_by_disease,colon adenocarcinoma,,4751,dendritic
+subtype_by_disease,normal,,798,dendritic
+subtype_by_disease,colon adenocarcinoma,,2039,granulocyte
+subtype_by_disease,normal,,4,granulocyte

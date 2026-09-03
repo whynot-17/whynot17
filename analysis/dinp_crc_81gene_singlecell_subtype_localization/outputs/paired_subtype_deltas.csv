@@ -1,0 +1,178 @@
+contrast,subtype,lineage,donor_id,tumor_score,normal_score,tumor_minus_normal
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C106,-0.053725227095437436,-0.045422200788118525,-0.008303026307318911
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C107,0.018759501743895957,-0.1053745067024648,0.12413400844636076
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C109,-0.09226114376654972,-0.05792081846255117,-0.034340325303998546
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C110,-0.010154434434958138,-0.07757084044193514,0.067416406006977
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C111,0.0013945577155586497,-0.02226026020520809,0.02365481792076674
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C112,-0.07184406232275536,-0.02391454782130428,-0.04792951450145108
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C113,-0.04800891484687019,-0.1033163387666849,0.05530742391981471
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C114,-0.042941269476317906,-0.04999973040257089,0.0070584609262529865
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C115,-0.04919782490588975,-0.07381123983225306,0.024613414926363306
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C116,-0.06570278021700669,-0.06276233364387213,-0.002940446573134567
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C119,-0.037510354478407566,-0.019044234498283706,-0.01846611998012386
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C122,-0.039379907512111414,-0.07573750384208944,0.03635759632997802
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C123,-0.04395131247615867,-0.09157681823092487,0.0476255057547662
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C124,-0.05294950521636389,-0.028158923274510098,-0.024790581941853795
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C125,-0.024405190545944026,-0.0902938218684251,0.06588863132248107
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C126,-0.000978797935255109,-0.051250506411928964,0.05027170847667386
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C129,-0.04191893226786411,-0.12740380980402427,0.08548487753616016
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C130,-0.018242208043521613,-0.09298645317901656,0.07474424513549495
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C132,0.03510571510473842,-0.15382794324628488,0.1889336583510233
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C133,0.060856728491257936,-0.022430570751110553,0.0832872992423685
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C134,-0.05296549004623037,0.0014313320858172643,-0.054396822132047634
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C135,-0.07031941048036366,-0.08857239900301536,0.018252988522651697
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C136,-0.033349597822454585,-0.09345386875988562,0.06010427093743104
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C137,-0.030114105422197834,-0.06575913645279734,0.0356450310305995
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C138,-0.08005357000483589,-0.046940410522343295,-0.03311315948249259
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C139,0.006656578198560048,-0.08011533878778501,0.08677191698634507
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C140,-0.05685294271356898,-0.14566479304941832,0.08881185033584935
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C142,-0.03921110823660401,-0.07093785107589234,0.031726742839288335
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C143,-0.07075243270950474,-0.09432426015299135,0.023571827443486612
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C151,0.023568607345116396,-0.019156236092295834,0.04272484343741223
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C152,-0.039046710808529166,-0.0697405371035096,0.03069382629498043
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C155,-0.013636760435693304,-0.038198686889186484,0.02456192645349318
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C157,0.0072692732600600635,0.02717687707405621,-0.019907603813996148
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C162,-0.021481536715541923,-0.06343607053182095,0.04195453381627902
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C165,0.015506937207892686,-0.02537220995150233,0.040879147159395016
+source tumor-labeled epithelial vs normal epithelial,source_tumor_labeled_epithelial,epithelial,C170,-0.029546797672645154,-0.07121673305023365,0.0416699353775885
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C106,-0.048888051318425586,-0.045422200788118525,-0.0034658505303070616
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C107,-0.05949439263673771,-0.1053745067024648,0.04588011406572709
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C109,-0.20331962828831007,-0.05792081846255117,-0.1453988098257589
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C110,-0.019470788358946823,-0.07757084044193514,0.058100052082988324
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C111,-0.045583573325785,-0.02226026020520809,-0.023323313120576908
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C112,-0.0862287906079956,-0.02391454782130428,-0.062314242786691315
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C113,-0.03902667852889767,-0.1033163387666849,0.06428966023778723
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C114,-0.07148879594762982,-0.04999973040257089,-0.021489065545058923
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C115,-0.06700470956759794,-0.07381123983225306,0.006806530264655122
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C116,-0.10040095034896707,-0.06276233364387213,-0.03763861670509494
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C119,-0.02027301484001063,-0.019044234498283706,-0.0012287803417269233
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C122,-0.043298855981957825,-0.07573750384208944,0.03243864786013161
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C123,-0.05142312970772495,-0.09157681823092487,0.040153688523199914
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C124,-0.07257380199627851,-0.028158923274510098,-0.044414878721768414
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C125,-0.08170131508391987,-0.0902938218684251,0.008592506784505238
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C126,-0.0946253210145753,-0.051250506411928964,-0.04337481460264633
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C129,-0.054199079766544284,-0.12740380980402427,0.07320473003747999
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C130,-0.12307587071096555,-0.09298645317901656,-0.030089417531948992
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C132,0.047607959672839296,-0.15382794324628488,0.20143590291912417
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C133,-0.06493506159302558,-0.022430570751110553,-0.04250449084191502
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C134,-0.02330044781945028,0.0014313320858172643,-0.024731779905267544
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C135,-0.14224107741640948,-0.08857239900301536,-0.05366867841339412
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C136,-0.22780710296432516,-0.09345386875988562,-0.13435323420443954
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C137,-0.2796122249769392,-0.06575913645279734,-0.21385308852414187
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C138,-0.07581826338666235,-0.046940410522343295,-0.028877852864319056
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C139,-0.04895235086980754,-0.08011533878778501,0.031162987917977475
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C140,-0.09954644706279239,-0.14566479304941832,0.046118345986625925
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C142,0.0015609929349509751,-0.07093785107589234,0.07249884401084332
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C143,-0.18253728271418262,-0.09432426015299135,-0.08821302256119128
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C151,-0.033232093903205834,-0.019156236092295834,-0.01407585781091
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C152,-0.06864689653384853,-0.0697405371035096,0.0010936405696610613
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C155,0.0014388332001000214,-0.038198686889186484,0.039637520089286504
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C157,0.031029638353040522,0.02717687707405621,0.003852761278984311
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C162,-0.0601368695116731,-0.06343607053182095,0.0032992010201478433
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C165,-0.005010255745206908,-0.02537220995150233,0.020361954206295423
+other tumor epithelial vs normal epithelial,other_tumor_epithelial,epithelial,C170,-0.12730788218248065,-0.07121673305023365,-0.056091149132247
+macrophage tumor vs normal,macrophage,myeloid,C106,-0.049783638008126754,-0.17888803258250535,0.1291043945743786
+macrophage tumor vs normal,macrophage,myeloid,C107,0.03456080154267877,-0.0689570116314007,0.10351781317407946
+macrophage tumor vs normal,macrophage,myeloid,C109,-0.00047437724308794355,-0.2646518353542252,0.26417745811113724
+macrophage tumor vs normal,macrophage,myeloid,C110,0.059368786509469335,-0.1917348696979294,0.2511036562073987
+macrophage tumor vs normal,macrophage,myeloid,C111,0.04893941389769897,-0.13070804908812708,0.17964746298582607
+macrophage tumor vs normal,macrophage,myeloid,C112,0.0447424233577929,-0.026055256581337352,0.07079767993913025
+macrophage tumor vs normal,macrophage,myeloid,C113,-0.09980769415044458,-0.196714431368995,0.09690673721855042
+macrophage tumor vs normal,macrophage,myeloid,C114,-0.054830770921558504,-0.1304981496256272,0.0756673787040687
+macrophage tumor vs normal,macrophage,myeloid,C115,0.028095783651210442,-0.07828517195590455,0.106380955607115
+macrophage tumor vs normal,macrophage,myeloid,C116,-0.018321110932575047,-0.029985101191168054,0.011663990258593007
+macrophage tumor vs normal,macrophage,myeloid,C119,0.01632238106237807,-0.16478809273809567,0.18111047380047374
+macrophage tumor vs normal,macrophage,myeloid,C122,-0.04387739237882352,-0.14090722695264016,0.09702983457381664
+macrophage tumor vs normal,macrophage,myeloid,C123,0.015186428317105732,-0.14254130920275895,0.15772773751986469
+macrophage tumor vs normal,macrophage,myeloid,C124,0.030463412117351298,0.11477008308975237,-0.08430667097240108
+macrophage tumor vs normal,macrophage,myeloid,C125,0.0446179346515115,-0.0235339234598824,0.0681518581113939
+macrophage tumor vs normal,macrophage,myeloid,C126,0.03563233619396257,-0.06300871716605196,0.09864105336001452
+macrophage tumor vs normal,macrophage,myeloid,C129,0.037734203692949726,-0.08553316691704398,0.12326737060999371
+macrophage tumor vs normal,macrophage,myeloid,C130,0.019540887330797257,-0.03349617457347786,0.053037061904275117
+macrophage tumor vs normal,macrophage,myeloid,C132,0.1406569906141634,-0.25844539655931176,0.3991023871734751
+macrophage tumor vs normal,macrophage,myeloid,C133,0.09796357226334322,0.1613765047716175,-0.06341293250827428
+macrophage tumor vs normal,macrophage,myeloid,C134,-0.010867702998316648,-0.008277581495676404,-0.0025901215026402444
+macrophage tumor vs normal,macrophage,myeloid,C135,-0.0017525419964932573,-0.042443974988602785,0.040691432992109526
+macrophage tumor vs normal,macrophage,myeloid,C136,0.06964010523487996,0.01898270123596796,0.050657403998912
+macrophage tumor vs normal,macrophage,myeloid,C137,0.04584578003831493,-0.03993043456502339,0.08577621460333831
+macrophage tumor vs normal,macrophage,myeloid,C138,0.03750368542361799,-0.07543612464717611,0.1129398100707941
+macrophage tumor vs normal,macrophage,myeloid,C139,-0.053197447805504575,-0.06410930998584084,0.010911862180336268
+macrophage tumor vs normal,macrophage,myeloid,C140,0.021095770188399112,-0.10248081448428344,0.12357658467268255
+macrophage tumor vs normal,macrophage,myeloid,C142,-0.06596364090930189,-0.121033731804304,0.055070090895002116
+macrophage tumor vs normal,macrophage,myeloid,C143,0.006342011828910616,-0.13575743667967918,0.1420994485085898
+macrophage tumor vs normal,macrophage,myeloid,C151,-0.03748095217074456,-0.07828916366780493,0.04080821149706037
+macrophage tumor vs normal,macrophage,myeloid,C155,0.1915803285079976,0.0102449153962228,0.1813354131117748
+macrophage tumor vs normal,macrophage,myeloid,C157,0.2296915238730898,0.09247665517205743,0.1372148687010324
+macrophage tumor vs normal,macrophage,myeloid,C162,0.10028620298928449,-0.0009623190369470049,0.1012485220262315
+macrophage tumor vs normal,macrophage,myeloid,C165,0.10089323538652897,-0.02081682052733259,0.12171005591386157
+macrophage tumor vs normal,macrophage,myeloid,C170,0.15192218717322797,0.010605159764925518,0.14131702740830246
+monocyte tumor vs normal,monocyte,myeloid,C106,0.04133087451324261,0.03739585371965096,0.003935020793591655
+monocyte tumor vs normal,monocyte,myeloid,C107,0.09301420606024297,0.0203437959917875,0.07267041006845547
+monocyte tumor vs normal,monocyte,myeloid,C109,0.03560303768697195,-0.009089973447668752,0.0446930111346407
+monocyte tumor vs normal,monocyte,myeloid,C110,0.07513738573322995,-0.06065770718109775,0.1357950929143277
+monocyte tumor vs normal,monocyte,myeloid,C111,0.0786655064698461,0.05397439467690694,0.02469111179293916
+monocyte tumor vs normal,monocyte,myeloid,C112,0.050790397542836416,-0.05227900926058188,0.10306940680341829
+monocyte tumor vs normal,monocyte,myeloid,C113,0.043269302584170305,-0.007241167986752151,0.05051047057092246
+monocyte tumor vs normal,monocyte,myeloid,C114,0.02060628232628594,0.0601871725996864,-0.03958089027340046
+monocyte tumor vs normal,monocyte,myeloid,C115,0.08332971072005134,0.013972088313843419,0.06935762240620792
+monocyte tumor vs normal,monocyte,myeloid,C116,0.014126903820656588,0.05293524833218208,-0.03880834451152549
+monocyte tumor vs normal,monocyte,myeloid,C122,0.039443425483160495,-0.04296871799436648,0.08241214347752698
+monocyte tumor vs normal,monocyte,myeloid,C123,0.02660135182796487,-0.14643486694063831,0.17303621876860317
+monocyte tumor vs normal,monocyte,myeloid,C124,0.05101699368098444,0.08000933328357863,-0.028992339602594196
+monocyte tumor vs normal,monocyte,myeloid,C125,0.02251243586977491,0.02748228955112855,-0.00496985368135364
+monocyte tumor vs normal,monocyte,myeloid,C126,0.03773617275434289,0.061121161382015544,-0.023384988627672652
+monocyte tumor vs normal,monocyte,myeloid,C129,0.006736699640098058,-0.047522896556917216,0.05425959619701527
+monocyte tumor vs normal,monocyte,myeloid,C130,0.052594079246176345,0.06513143507450912,-0.012537355828332777
+monocyte tumor vs normal,monocyte,myeloid,C133,0.05298623547327376,0.12026741705312106,-0.0672811815798473
+monocyte tumor vs normal,monocyte,myeloid,C134,0.07316015045672555,0.040950261698847766,0.03220988875787779
+monocyte tumor vs normal,monocyte,myeloid,C136,0.04306222646466732,0.018797775230867893,0.024264451233799427
+monocyte tumor vs normal,monocyte,myeloid,C137,0.07970424718889092,0.001155930253108891,0.07854831693578203
+monocyte tumor vs normal,monocyte,myeloid,C138,-0.0019389143463287794,-0.0411306920706596,0.03919177772433082
+monocyte tumor vs normal,monocyte,myeloid,C139,0.010701886192060937,-0.028510705812476306,0.03921259200453724
+monocyte tumor vs normal,monocyte,myeloid,C140,0.044343575247922276,0.0022174499348560648,0.04212612531306621
+monocyte tumor vs normal,monocyte,myeloid,C142,0.015027563385580353,-0.06684911520938348,0.08187667859496384
+monocyte tumor vs normal,monocyte,myeloid,C143,0.017871907916382636,-0.09503330166420627,0.11290520958058892
+monocyte tumor vs normal,monocyte,myeloid,C151,0.0874462446422454,-0.006762776644137466,0.09420902128638287
+monocyte tumor vs normal,monocyte,myeloid,C152,-0.027855744934679284,0.0987084667605991,-0.1265642116952784
+monocyte tumor vs normal,monocyte,myeloid,C155,0.1991153707247477,0.08656778028764808,0.11254759043709961
+monocyte tumor vs normal,monocyte,myeloid,C157,0.21511875052715568,0.13312636027738392,0.08199239024977176
+monocyte tumor vs normal,monocyte,myeloid,C162,0.09482312656982401,0.04025331847855639,0.05456980809126762
+monocyte tumor vs normal,monocyte,myeloid,C165,0.10552903303984895,0.06805498868503111,0.03747404435481784
+monocyte tumor vs normal,monocyte,myeloid,C170,0.1959442951699316,0.04939310041146182,0.14655119475846978
+dendritic tumor vs normal,dendritic,myeloid,C106,0.04504613226476807,-0.09634610283596752,0.1413922351007356
+dendritic tumor vs normal,dendritic,myeloid,C107,0.09576890841842324,-0.03694820572470969,0.13271711414313292
+dendritic tumor vs normal,dendritic,myeloid,C110,0.028997780541761553,-0.13742713085685662,0.16642491139861817
+dendritic tumor vs normal,dendritic,myeloid,C111,0.011435286332927029,-0.09290393943691093,0.10433922576983795
+dendritic tumor vs normal,dendritic,myeloid,C112,0.011552350360423597,0.03158325313520615,-0.020030902774782554
+dendritic tumor vs normal,dendritic,myeloid,C113,-0.018172466106174744,-0.17921830249741044,0.1610458363912357
+dendritic tumor vs normal,dendritic,myeloid,C114,-0.013739837405651403,-0.0950628414801147,0.08132300407446329
+dendritic tumor vs normal,dendritic,myeloid,C115,0.07824312505871435,-0.049169437279904714,0.12741256233861906
+dendritic tumor vs normal,dendritic,myeloid,C116,-0.0353224046370598,-0.024417717941440677,-0.010904686695619125
+dendritic tumor vs normal,dendritic,myeloid,C122,-0.02081090306386848,-0.054975352282833984,0.034164449218965505
+dendritic tumor vs normal,dendritic,myeloid,C123,0.01072300236805555,-0.03228324363538225,0.043006246003437804
+dendritic tumor vs normal,dendritic,myeloid,C124,0.0011490270346783368,0.05675222565676469,-0.055603198622086354
+dendritic tumor vs normal,dendritic,myeloid,C125,0.01578248774795184,-0.025394321467431938,0.041176809215383775
+dendritic tumor vs normal,dendritic,myeloid,C126,0.011888377049463909,-0.011906532012810044,0.023794909062273953
+dendritic tumor vs normal,dendritic,myeloid,C129,0.007863495988975963,-0.10236057371618401,0.11022406970515998
+dendritic tumor vs normal,dendritic,myeloid,C130,0.0073184404842175305,0.060157923422108794,-0.052839482937891265
+dendritic tumor vs normal,dendritic,myeloid,C132,0.19456185205337115,-0.11322172605317657,0.3077835781065477
+dendritic tumor vs normal,dendritic,myeloid,C133,0.08349734313756549,0.13497930565139066,-0.05148196251382517
+dendritic tumor vs normal,dendritic,myeloid,C134,-0.023528118676326516,0.012200060227733454,-0.03572817890405997
+dendritic tumor vs normal,dendritic,myeloid,C135,0.009503554070535528,0.1361870147015763,-0.12668346063104077
+dendritic tumor vs normal,dendritic,myeloid,C136,0.019226526375360996,-0.009952968897823994,0.029179495273184988
+dendritic tumor vs normal,dendritic,myeloid,C137,-0.005543461191641043,-0.04510253875895763,0.03955907756731659
+dendritic tumor vs normal,dendritic,myeloid,C138,0.05076795258067771,-0.039217052221241326,0.08998500480191904
+dendritic tumor vs normal,dendritic,myeloid,C139,-0.03961947201970732,-0.07325555110389194,0.03363607908418462
+dendritic tumor vs normal,dendritic,myeloid,C140,0.021083252910401643,-0.18564114419364872,0.20672439710405036
+dendritic tumor vs normal,dendritic,myeloid,C142,-0.041371697489457376,-0.18117250932253826,0.13980081183308088
+dendritic tumor vs normal,dendritic,myeloid,C143,0.006082741689160994,-0.1442260164399558,0.1503087581291168
+dendritic tumor vs normal,dendritic,myeloid,C151,-0.09076958729306905,-0.06406610732782206,-0.026703479965246996
+dendritic tumor vs normal,dendritic,myeloid,C152,0.045925027520020284,0.5781851709236036,-0.5322601434035833
+dendritic tumor vs normal,dendritic,myeloid,C155,0.07125484946276606,0.03925141185878382,0.032003437603982235
+dendritic tumor vs normal,dendritic,myeloid,C157,0.12416639411183712,0.07880298841027915,0.045363405701557974
+dendritic tumor vs normal,dendritic,myeloid,C162,0.04896426770290397,-0.010077701826101038,0.059041969529005006
+dendritic tumor vs normal,dendritic,myeloid,C165,0.05753818914109315,-0.051210195365984236,0.10874838450707738
+dendritic tumor vs normal,dendritic,myeloid,C170,0.05079949648630892,-0.034785661873177894,0.08558515835948682
+granulocyte tumor vs normal,granulocyte,myeloid,C109,-0.07387772286476077,-0.22922748646224922,0.15534976359748845
+granulocyte tumor vs normal,granulocyte,myeloid,C111,-0.04487858242716759,-0.09889118148102778,0.05401259905386019
+granulocyte tumor vs normal,granulocyte,myeloid,C116,-0.0972658031883027,-0.10125834428868684,0.003992541100384134
