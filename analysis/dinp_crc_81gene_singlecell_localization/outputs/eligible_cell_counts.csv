@@ -1,0 +1,9 @@
+group,compartment,n_cells
+colon adenocarcinoma,endothelial,4912
+colon adenocarcinoma,epithelial,113216
+colon adenocarcinoma,fibroblast,3031
+colon adenocarcinoma,myeloid,39167
+normal,endothelial,2608
+normal,epithelial,55079
+normal,fibroblast,2200
+normal,myeloid,2947
