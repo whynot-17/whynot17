@@ -1,0 +1,8 @@
+"gene_symbol","present_in_gpl570","forced_into_wgcna_input","selected_probe"
+"NEAT1",FALSE,FALSE,
+"MMP9",TRUE,TRUE,"203936_s_at"
+"TIMP1",TRUE,TRUE,"201666_at"
+"STAT3",TRUE,TRUE,"225289_at"
+"PTGER4",TRUE,TRUE,"204897_at"
+"PTGES3",TRUE,TRUE,"200627_at"
+"CXCR4",TRUE,TRUE,"217028_at"

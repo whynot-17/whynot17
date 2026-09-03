@@ -1,0 +1,11 @@
+"analysis","module","module_gene_n","target_gene_n_in_input","target_gene_n_in_module","target_enrichment_OR","target_enrichment_p","target_enrichment_fdr","driver_gene_n_in_input","driver_gene_n_in_module","driver_enrichment_p","driver_enrichment_fdr"
+"tumor_only","grey",981,75,39,4.57866898779089,2.87698800807112e-10,NA,6,1,0.72035424403218,NA
+"tumor_only","turquoise",872,75,19,1.61947611236066,0.0530364698491124,0.477328228642012,6,1,0.680730600769306,1
+"tumor_only","green",478,75,5,0.672350304525586,0.857181497043114,1,6,1,0.454863603275098,1
+"tumor_only","black",385,75,3,0.495594236443716,0.936148489532027,1,6,0,1,1
+"tumor_only","yellow",489,75,4,0.515807430493306,0.94452697969281,1,6,2,0.111738027549454,1
+"tumor_only","red",435,75,2,0.28426666701263,0.991502005746297,1,6,0,1,1
+"tumor_only","brown",636,75,2,0.185462525323563,0.999586418377682,1,6,0,1,1
+"tumor_only","blue",645,75,1,0.0898500956970257,0.999970807067983,1,6,1,0.568973460781474,1
+"tumor_only","magenta",38,75,0,0,1,1,6,0,1,1
+"tumor_only","pink",41,75,0,0,1,1,6,0,1,1

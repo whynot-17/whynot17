@@ -1,0 +1,11 @@
+"analysis","module","module_gene_n","target_gene_n_in_input","target_gene_n_in_module","target_enrichment_OR","target_enrichment_p","target_enrichment_fdr","driver_gene_n_in_input","driver_gene_n_in_module","driver_enrichment_p","driver_enrichment_fdr"
+"all_samples","grey",954,75,39,4.74566165063579,1.19634504266901e-10,NA,6,1,0.708793122528377,NA
+"all_samples","turquoise",875,75,19,1.6126131508374,0.0546266728633257,0.491640055769931,6,2,0.28094942475872,1
+"all_samples","brown",556,75,7,0.820580326447575,0.743721085797097,1,6,1,0.508341539263337,1
+"all_samples","yellow",454,75,4,0.560302241264465,0.919523890754751,1,6,0,1,1
+"all_samples","red",427,75,2,0.290132914230563,0.990470742712784,1,6,1,0.418655279712409,1
+"all_samples","green",452,75,2,0.272493393536984,0.993348535598952,1,6,0,1,1
+"all_samples","blue",781,75,2,0.145842971670139,0.999959937646645,1,6,1,0.644321235429435,1
+"all_samples","black",416,75,0,0,1,1,6,0,1,1
+"all_samples","magenta",36,75,0,0,1,1,6,0,1,1
+"all_samples","pink",49,75,0,0,1,1,6,0,1,1
