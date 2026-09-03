@@ -1,0 +1,14 @@
+{
+  "species": 9606,
+  "string_required_score": 400,
+  "ligand_name": "diisononyl phthalate",
+  "vina_exhaustiveness": 32,
+  "vina_num_modes": 20,
+  "md_ns": 100,
+  "temperature_k": 310,
+  "pressure_bar": 1.0,
+  "water_model": "tip3p",
+  "force_field": "amber99sb-ildn",
+  "docking_boxes": {},
+  "manual_pdb": {}
+}

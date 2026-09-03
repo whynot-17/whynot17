@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 590836,
+        "SMILES": "CC(C)CCCCCCOC(=O)C1=CC=CC=C1C(=O)OCCCCCCC(C)C",
+        "ConnectivitySMILES": "CC(C)CCCCCCOC(=O)C1=CC=CC=C1C(=O)OCCCCCCC(C)C",
+        "InChIKey": "HBGGXOJOCNVPFY-UHFFFAOYSA-N",
+        "IUPACName": "bis(7-methyloctyl) benzene-1,2-dicarboxylate",
+        "Title": "Diisononyl phthalate"
+      }
+    ]
+  }
+}

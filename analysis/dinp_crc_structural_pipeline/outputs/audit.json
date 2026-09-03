@@ -1,0 +1,94 @@
+[
+  {
+    "step": "STRING_PPI",
+    "status": "PASS",
+    "detail": "Retrieved 10 STRING rows; 10 unique candidate-set edges"
+  },
+  {
+    "step": "RCSB_SEARCH",
+    "status": "PASS",
+    "detail": "MMP9: 29 candidate PDB entries"
+  },
+  {
+    "step": "RCSB_SEARCH",
+    "status": "PASS",
+    "detail": "TIMP1: 13 candidate PDB entries"
+  },
+  {
+    "step": "RCSB_SEARCH",
+    "status": "PASS",
+    "detail": "STAT3: 6 candidate PDB entries"
+  },
+  {
+    "step": "RCSB_SEARCH",
+    "status": "PASS",
+    "detail": "PTGER4: 10 candidate PDB entries"
+  },
+  {
+    "step": "RCSB_SEARCH",
+    "status": "PASS",
+    "detail": "PTGES3: 5 candidate PDB entries"
+  },
+  {
+    "step": "RCSB_SEARCH",
+    "status": "PASS",
+    "detail": "CXCR4: 33 candidate PDB entries"
+  },
+  {
+    "step": "PDB_DOWNLOAD",
+    "status": "PASS",
+    "detail": "MMP9: 6ESM",
+    "sha256": "a1d0a85c8d0e0cdf60538490c72a0077cdc696606a31cb86448395f44c44d6b7"
+  },
+  {
+    "step": "PDB_DOWNLOAD",
+    "status": "PASS",
+    "detail": "TIMP1: 3V96",
+    "sha256": "02f10de15ffd034a69df656777d56a5581e722f5baf9c74bfcea2627402ed9e1"
+  },
+  {
+    "step": "PDB_DOWNLOAD",
+    "status": "PASS",
+    "detail": "STAT3: 6NJS",
+    "sha256": "e3d75a0b44c383662483aee7aa920ba80ee36d019c0240be339a24077b737bfc"
+  },
+  {
+    "step": "MMCIF_DOWNLOAD",
+    "status": "PASS",
+    "detail": "PTGER4: 9JQZ (mmCIF fallback after PDB unavailable: curl GET failed (exit=22): curl: (22) The requested URL returned error: 404)",
+    "sha256": "e24e107735e3b66235068309d05846162b05e67e45dc00b348adc7a7e1db5e98"
+  },
+  {
+    "step": "PDB_DOWNLOAD",
+    "status": "PASS",
+    "detail": "PTGES3: 1EJF",
+    "sha256": "fb7d16210fa8e7e0cc50dd22d6da3c6e8ad4c3aca6203132ec84a388c6ef4c8a"
+  },
+  {
+    "step": "PDB_DOWNLOAD",
+    "status": "PASS",
+    "detail": "CXCR4: 3ODU",
+    "sha256": "398ddce7a1f7dbe35df064f1b38e70686ba74e30c663bc718fad4cfae24f78f1"
+  },
+  {
+    "step": "PUBCHEM_DINP_2D",
+    "status": "PASS",
+    "detail": "Retrieved 2-D fallback for CID 590836",
+    "sha256": "f8dfd1bb38a80d1f3ba0d5797e84d9a67ba554723fc62ebffc22522d21d8a48f"
+  },
+  {
+    "step": "PUBCHEM_DINP_3D",
+    "status": "UNAVAILABLE",
+    "detail": "No PubChem 3-D conformer for CID 590836: curl GET failed (exit=22): curl: (22) The requested URL returned error: 404"
+  },
+  {
+    "step": "DOCKING",
+    "status": "SKIPPED",
+    "detail": "--skip-docking requested; no docking box or docking result was generated"
+  },
+  {
+    "step": "MD_TEMPLATE",
+    "status": "PASS",
+    "detail": "Generated MD protocol templates for 6 selected structures"
+  }
+]

@@ -1,0 +1,97 @@
+gene,uniprot,pdb_id,title,method,resolution_angstrom,release_date
+CXCR4,P61073,3ODU,The 2.5 A structure of the CXCR4 chemokine receptor in complex with small molecule antagonist IT1t,X-RAY DIFFRACTION,2.5,2010-10-27T00:00:00.000+00:00
+CXCR4,P61073,9UPV,Cryo-EM structure of CXCR4 complexed with agonist SDVX1,ELECTRON MICROSCOPY,2.7,2026-04-29T00:00:00.000+00:00
+CXCR4,P61073,8U4N,Structure of Apo CXCR4/Gi complex,ELECTRON MICROSCOPY,2.72,2024-03-13T00:00:00.000+00:00
+CXCR4,P61073,9UPU,Cryo-EM strucutre of CXCR4 complexed with agonist SDV1a,ELECTRON MICROSCOPY,2.8,2026-04-29T00:00:00.000+00:00
+CXCR4,P61073,8K3Z,Cryo-EM structure of CXCR4 in complex with CXCL12,ELECTRON MICROSCOPY,2.81,2024-07-17T00:00:00.000+00:00
+CXCR4,P61073,3OE0,Crystal structure of the CXCR4 chemokine receptor in complex with a cyclic peptide antagonist CVX15,X-RAY DIFFRACTION,2.9,2010-10-27T00:00:00.000+00:00
+CXCR4,P61073,9MDU,Human CXCR4 tetramer,ELECTRON MICROSCOPY,2.9,2025-09-10T00:00:00.000+00:00
+CXCR4,P61073,8YU7,Cryo-EM structure of CXCR4 tetramer,ELECTRON MICROSCOPY,3.01,2025-03-05T00:00:00.000+00:00
+CXCR4,P61073,8ZPL,Cryo-EM strucutre of CXCR4 complexed with antagonist HF51116,ELECTRON MICROSCOPY,3.01,2025-02-26T00:00:00.000+00:00
+CXCR4,P61073,3OE8,Crystal structure of the CXCR4 chemokine receptor in complex with a small molecule antagonist IT1t in P1 spacegroup,X-RAY DIFFRACTION,3.1,2010-10-27T00:00:00.000+00:00
+CXCR4,P61073,3OE9,Crystal structure of the chemokine CXCR4 receptor in complex with a small molecule antagonist IT1t in P1 spacegroup,X-RAY DIFFRACTION,3.1,2010-10-27T00:00:00.000+00:00
+CXCR4,P61073,4RWS,Crystal structure of CXCR4 and viral chemokine antagonist vMIP-II complex (PSI Community Target),X-RAY DIFFRACTION,3.1,2015-02-11T00:00:00.000+00:00
+CXCR4,P61073,8U4R,Structure of REGN7663-Fab bound CXCR4,ELECTRON MICROSCOPY,3.1,2024-03-13T00:00:00.000+00:00
+CXCR4,P61073,8U4P,Structure of AMD3100-bound CXCR4/Gi complex,ELECTRON MICROSCOPY,3.15,2024-03-13T00:00:00.000+00:00
+CXCR4,P61073,3OE6,Crystal structure of the CXCR4 chemokine receptor in complex with a small molecule antagonist IT1t in I222 spacegroup,X-RAY DIFFRACTION,3.2,2010-10-27T00:00:00.000+00:00
+CXCR4,P61073,8ZPM,Cryo-EM strucutre of CXCR4 complexed with antagonist AMD070,ELECTRON MICROSCOPY,3.2,2025-02-26T00:00:00.000+00:00
+CXCR4,P61073,22XC,Structure of CXCR4 in complex with a de-novo designed mini-protein antagonist,ELECTRON MICROSCOPY,3.28,2026-04-22T00:00:00.000+00:00
+CXCR4,P61073,8U4O,Structure of CXCL12-bound CXCR4/Gi complex,ELECTRON MICROSCOPY,3.29,2024-03-13T00:00:00.000+00:00
+CXCR4,P61073,8ZPN,Cryo-EM strucutre of CXCR4 complexed with antagonist AMD3100,ELECTRON MICROSCOPY,3.31,2025-02-26T00:00:00.000+00:00
+CXCR4,P61073,8U4S,Structure of trimeric CXCR4 in complex with REGN7663 Fab,ELECTRON MICROSCOPY,3.35,2024-03-13T00:00:00.000+00:00
+CXCR4,P61073,8U4Q,Structure of REGN7663 Fab-bound CXCR4/Gi complex,ELECTRON MICROSCOPY,3.36,2024-03-13T00:00:00.000+00:00
+CXCR4,P61073,9ME1,hCXCR4-CXCL12 complex with 1:1 stoichiometry,ELECTRON MICROSCOPY,3.37,2025-09-10T00:00:00.000+00:00
+CXCR4,P61073,8U4T,Structure of tetrameric CXCR4 in complex with REGN7663 Fab,ELECTRON MICROSCOPY,3.38,2024-03-13T00:00:00.000+00:00
+CXCR4,P61073,9MEU,CXCR4 tetramer bound to 4 CXCL12 dimers,ELECTRON MICROSCOPY,3.46,2025-09-10T00:00:00.000+00:00
+CXCR4,P61073,9MEN,CryoEM structure of hCXCR4 tetramer bound to HIV-2/gp120/V3 loop,ELECTRON MICROSCOPY,3.57,2025-09-10T00:00:00.000+00:00
+CXCR4,P61073,9MEJ,Global structure of hCXCR4 and HIV-2 gp120,ELECTRON MICROSCOPY,3.99,2025-09-10T00:00:00.000+00:00
+CXCR4,P61073,8I0Q,"Structure of beta-arrestin1 in complex with a phosphopeptide corresponding to the human C-X-C chemokine receptor type 4, CXCR4 (Local refine)",ELECTRON MICROSCOPY,4.45,2023-05-17T00:00:00.000+00:00
+CXCR4,P61073,8GP3,"Structure of beta-arrestin1 in complex with a phosphopeptide corresponding to the human C-X-C chemokine receptor type 4, CXCR4",ELECTRON MICROSCOPY,4.8,2023-05-17T00:00:00.000+00:00
+CXCR4,P61073,9MET,CXCR4-HIV-2/gp120-CD4,ELECTRON MICROSCOPY,5.65,2025-09-10T00:00:00.000+00:00
+CXCR4,P61073,2K03,Structure of SDF1 in complex with the CXCR4 N-terminus containing a sulfotyrosine at postition 21,SOLUTION NMR,,2008-10-28T00:00:00.000+00:00
+CXCR4,P61073,2K04,Structure of SDF1 in complex with the CXCR4 N-terminus containing no sulfotyrosines,SOLUTION NMR,,2008-10-28T00:00:00.000+00:00
+CXCR4,P61073,2K05,"Structure of SDF1 in complex with the CXCR4 N-terminus containing sulfotyrosines at postitions 7, 12 and 21",SOLUTION NMR,,2008-10-28T00:00:00.000+00:00
+CXCR4,P61073,2N55,Structure of constitutively monomeric CXCL12 in complex with the CXCR4 N-terminus,SOLUTION NMR,,2016-04-27T00:00:00.000+00:00
+MMP9,P14780,6ESM,Crystal structure of MMP9 in complex with inhibitor BE4.,X-RAY DIFFRACTION,1.104,2018-05-16T00:00:00.000+00:00
+MMP9,P14780,4XCT,Crystal structure of a hydroxamate based inhibitor ARP101 (EN73) in complex with the MMP-9 catalytic domain.,X-RAY DIFFRACTION,1.3,2015-04-22T00:00:00.000+00:00
+MMP9,P14780,8K5Y,Crystal structure of human proMMP-9 catalytic domain in complex with inhibitor,X-RAY DIFFRACTION,1.52,2023-12-06T00:00:00.000+00:00
+MMP9,P14780,4H1Q,Crystal structure of mutant MMP-9 catalytic domain in complex with a twin inhibitor.,X-RAY DIFFRACTION,1.59,2013-04-24T00:00:00.000+00:00
+MMP9,P14780,5I12,Crystal structure of the catalytic domain of MMP-9 in complex with a selective sugar-conjugated arylsulfonamide carboxylate water-soluble inhibitor (DC27).,X-RAY DIFFRACTION,1.59,2016-07-06T00:00:00.000+00:00
+MMP9,P14780,5UE3,proMMP-9desFnII,X-RAY DIFFRACTION,1.599,2017-09-13T00:00:00.000+00:00
+MMP9,P14780,4WZV,Crystal structure of a hydroxamate based inhibitor EN140 in complex with the MMP-9 catalytic domain,X-RAY DIFFRACTION,1.65,2015-08-26T00:00:00.000+00:00
+MMP9,P14780,4JIJ,Crystal structure of an inactive mutant of MMP-9 catalytic domain in complex with a fluorogenic synthetic peptidic substrate,X-RAY DIFFRACTION,1.698,2014-03-12T00:00:00.000+00:00
+MMP9,P14780,5TH6,"Structure determination of a potent, selective antibody inhibitor of human MMP9 (apo MMP9)",X-RAY DIFFRACTION,1.7,2017-03-01T00:00:00.000+00:00
+MMP9,P14780,8K5V,Crystal structure of human proMMP-9 catalytic domain in complex with inhibitor,X-RAY DIFFRACTION,1.7,2023-12-06T00:00:00.000+00:00
+MMP9,P14780,4H3X,Crystal structure of an MMP broad spectrum hydroxamate based inhibitor CC27 in complex with the MMP-9 catalytic domain,X-RAY DIFFRACTION,1.764,2013-04-24T00:00:00.000+00:00
+MMP9,P14780,5UE4,proMMP-9desFnII complexed to JNJ0966 INHIBITOR,X-RAY DIFFRACTION,1.8,2017-09-13T00:00:00.000+00:00
+MMP9,P14780,5CUH,Crystal structure MMP-9 complexes with a constrained hydroxamate based inhibitor LT4,X-RAY DIFFRACTION,1.83,2016-02-10T00:00:00.000+00:00
+MMP9,P14780,4JQG,Crystal structure of an inactive mutant of MMP-9 catalytic domain in complex with a fluorogenic synthetic peptidic substrate with a fluorine atom.,X-RAY DIFFRACTION,1.849,2014-03-12T00:00:00.000+00:00
+MMP9,P14780,4H82,Crystal structure of mutant MMP-9 catalytic domain in complex with a twin inhibitor.,X-RAY DIFFRACTION,1.9,2013-05-01T00:00:00.000+00:00
+MMP9,P14780,8K5X,Crystal structure of human proMMP-9 catalytic domain in complex with inhibitor,X-RAY DIFFRACTION,1.9,2023-12-06T00:00:00.000+00:00
+MMP9,P14780,4HMA,Crystal structure of an MMP twin carboxylate based inhibitor LC20 in complex with the MMP-9 catalytic domain,X-RAY DIFFRACTION,1.94,2013-04-24T00:00:00.000+00:00
+MMP9,P14780,1ITV,Dimeric form of the haemopexin domain of MMP9,X-RAY DIFFRACTION,1.95,2002-09-04T00:00:00.000+00:00
+MMP9,P14780,2OVX,MMP-9 active site mutant with barbiturate inhibitor,X-RAY DIFFRACTION,2.0,2007-06-19T00:00:00.000+00:00
+MMP9,P14780,2OVZ,MMP-9 active site mutant with phosphinate inhibitor,X-RAY DIFFRACTION,2.0,2007-06-19T00:00:00.000+00:00
+MMP9,P14780,2OW0,MMP-9 active site mutant with iodine-labeled carboxylate inhibitor,X-RAY DIFFRACTION,2.0,2007-06-19T00:00:00.000+00:00
+MMP9,P14780,8K5W,Crystal structure of human proMMP-9 catalytic domain in complex with inhibitor,X-RAY DIFFRACTION,2.0,2023-12-06T00:00:00.000+00:00
+MMP9,P14780,1GKD,MMP9 active site mutant-inhibitor complex,X-RAY DIFFRACTION,2.1,2002-05-16T00:00:00.000+00:00
+MMP9,P14780,2OW1,MMP-9 active site mutant with trifluoromethyl hydroxamate inhibitor,X-RAY DIFFRACTION,2.2,2007-06-19T00:00:00.000+00:00
+MMP9,P14780,1GKC,MMP9-inhibitor complex,X-RAY DIFFRACTION,2.3,2002-05-16T00:00:00.000+00:00
+MMP9,P14780,1L6J,Crystal structure of human matrix metalloproteinase MMP9 (gelatinase B).,X-RAY DIFFRACTION,2.5,2002-07-03T00:00:00.000+00:00
+MMP9,P14780,2OW2,MMP-9 active site mutant with difluoro butanoic acid inhibitor,X-RAY DIFFRACTION,2.9,2007-06-19T00:00:00.000+00:00
+MMP9,P14780,4H2E,Crystal structure of an MMP twin inhibitor complexing two MMP-9 catalytic domains,X-RAY DIFFRACTION,2.902,2013-04-24T00:00:00.000+00:00
+MMP9,P14780,5TH9,"Structure determination of a potent, selective antibody inhibitor of human MMP9 (GS-5745 bound to MMP-9)",X-RAY DIFFRACTION,2.999,2017-03-15T00:00:00.000+00:00
+PTGER4,P35408,9JQZ,Structural Insights into Selective Antagonism Grapiprant and EP4 Prostaglandin Receptor,ELECTRON MICROSCOPY,2.65,2025-10-22T00:00:00.000+00:00
+PTGER4,P35408,9JQY,Structural Insights into Selective Antagonism of TG6-129 and EP4 Prostaglandin Receptor,ELECTRON MICROSCOPY,2.92,2025-10-22T00:00:00.000+00:00
+PTGER4,P35408,8GCP,Cryo-EM Structure of the Prostaglandin E2 Receptor 4 Coupled to G Protein,ELECTRON MICROSCOPY,3.1,2024-01-03T00:00:00.000+00:00
+PTGER4,P35408,8GDB,Cryo-EM Structure of the Prostaglandin E2 Receptor 4 Coupled to G Protein,ELECTRON MICROSCOPY,3.1,2024-01-10T00:00:00.000+00:00
+PTGER4,P35408,5YWY,Crystal structure of the human prostaglandin E receptor EP4 in complex with Fab and ONO-AE3-208,X-RAY DIFFRACTION,3.2,2018-12-05T00:00:00.000+00:00
+PTGER4,P35408,8GD9,Cryo-EM Structure of the Prostaglandin E2 Receptor 4 Coupled to G Protein,ELECTRON MICROSCOPY,3.2,2024-01-10T00:00:00.000+00:00
+PTGER4,P35408,7D7M,Cryo-EM Structure of the Prostaglandin E Receptor EP4 Coupled to G Protein,ELECTRON MICROSCOPY,3.3,2020-11-18T00:00:00.000+00:00
+PTGER4,P35408,8GDA,Cryo-EM Structure of the Prostaglandin E2 Receptor 4 Coupled to G Protein,ELECTRON MICROSCOPY,3.3,2024-01-10T00:00:00.000+00:00
+PTGER4,P35408,8GCM,Cryo-EM Structure of the Prostaglandin E Receptor EP4 Coupled to G Protein,ELECTRON MICROSCOPY,3.5,2024-01-03T00:00:00.000+00:00
+PTGER4,P35408,5YHL,Crystal structure of the human prostaglandin E receptor EP4 in complex with Fab and an antagonist Br-derivative,X-RAY DIFFRACTION,4.2,2018-12-05T00:00:00.000+00:00
+PTGES3,Q15185,1EJF,CRYSTAL STRUCTURE OF THE HUMAN CO-CHAPERONE P23,X-RAY DIFFRACTION,2.49,2000-06-19T00:00:00.000+00:00
+PTGES3,Q15185,7KRJ,The GR-Maturation Complex: Glucocorticoid Receptor in complex with Hsp90 and co-chaperone p23,ELECTRON MICROSCOPY,2.56,2022-01-12T00:00:00.000+00:00
+PTGES3,Q15185,9W5I,AGO maturation complex (AMC): AGO2-miRNA duplex in complex with Hsp90 beta and co-chaperone p23,ELECTRON MICROSCOPY,2.63,2026-04-22T00:00:00.000+00:00
+PTGES3,Q15185,7L7J,Cryo-EM structure of Hsp90:p23 closed-state complex,ELECTRON MICROSCOPY,3.1,2021-08-25T00:00:00.000+00:00
+PTGES3,Q15185,7L7I,Cryo-EM structure of Hsp90:FKBP51:p23 closed-state complex,ELECTRON MICROSCOPY,3.3,2021-08-25T00:00:00.000+00:00
+STAT3,P40763,6NJS,Stat3 Core in complex with compound SD36,X-RAY DIFFRACTION,2.7,2019-12-04T00:00:00.000+00:00
+STAT3,P40763,6QHD,Lysine acetylated and tyrosine phosphorylated STAT3 in a complex with DNA,X-RAY DIFFRACTION,2.85,2019-06-19T00:00:00.000+00:00
+STAT3,P40763,6TLC,Unphosphorylated human STAT3 in complex with MS3-6 monobody,X-RAY DIFFRACTION,2.9,2020-07-22T00:00:00.000+00:00
+STAT3,P40763,5AX3,Crystal structure of ERK2 complexed with allosteric and ATP-competitive inhibitors.,X-RAY DIFFRACTION,2.984,2016-02-10T00:00:00.000+00:00
+STAT3,P40763,6NUQ,Stat3 Core in complex with compound SI109,X-RAY DIFFRACTION,3.15,2019-12-04T00:00:00.000+00:00
+STAT3,P40763,5U5S,Solution structures of Brd2 second bromodomain in complex with stat3 peptide,SOLUTION NMR,,2017-03-22T00:00:00.000+00:00
+TIMP1,P01033,3V96,Complex of matrix metalloproteinase-10 catalytic domain (MMP-10cd) with tissue inhibitor of metalloproteinases-1 (TIMP-1),X-RAY DIFFRACTION,1.9,2012-03-28T00:00:00.000+00:00
+TIMP1,P01033,9SOP,Tissue inhibitor of metalloproteinase-1 (TIMP-1),X-RAY DIFFRACTION,1.95,2025-09-15T00:00:00.000+00:00
+TIMP1,P01033,9SOS,Tissue Inhibitor of Matrix Metalloproteinase-1 (TIMP-1),X-RAY DIFFRACTION,2.0,2025-09-24T00:00:00.000+00:00
+TIMP1,P01033,3MA2,Complex membrane type-1 matrix metalloproteinase (MT1-MMP) with tissue inhibitor of metalloproteinase-1 (TIMP-1),X-RAY DIFFRACTION,2.05,2010-06-30T00:00:00.000+00:00
+TIMP1,P01033,9SOQ,Tissue inhibitor of Metalloproteinase 1 (TIMP-1),X-RAY DIFFRACTION,2.3,2025-09-24T00:00:00.000+00:00
+TIMP1,P01033,7S7L,Complex of tissue inhibitor of metalloproteinases-1 (TIMP-1) mutant (L34G/M66S/E67Y/L133N/S155L) with matrix metalloproteinase-3 catalytic domain (MMP-3cd),X-RAY DIFFRACTION,2.34,2022-03-16T00:00:00.000+00:00
+TIMP1,P01033,6MAV,Complex of tissue inhibitor of metalloproteinase-1 (TIMP-1) mutant L34G with matrix metalloproteinase-3 catalytic domain (MMP-3cd),X-RAY DIFFRACTION,2.37,2019-05-15T00:00:00.000+00:00
+TIMP1,P01033,2J0T,Crystal Structure of the Catalytic Domain of MMP-1 in Complex with the Inhibitory Domain of TIMP-1,X-RAY DIFFRACTION,2.54,2006-10-18T00:00:00.000+00:00
+TIMP1,P01033,6N9D,Complex of tissue inhibitor of metalloproteinases-1 (TIMP-1) mutant (L34G/L133P/L151C/G154A) with matrix metalloproteinase-3 catalytic domain (MMP-3cd),X-RAY DIFFRACTION,2.67,2019-05-15T00:00:00.000+00:00
+TIMP1,P01033,1UEA,MMP-3/TIMP-1 COMPLEX,X-RAY DIFFRACTION,2.8,1998-10-14T00:00:00.000+00:00
+TIMP1,P01033,7S7M,Complex of tissue inhibitor of metalloproteinases-1 (TIMP-1) mutant (L34G/M66D/T98G/P131S/Q153N) with matrix metalloproteinase-3 catalytic domain (MMP-3cd),X-RAY DIFFRACTION,3.0,2022-03-16T00:00:00.000+00:00
+TIMP1,P01033,1D2B,"THE MMP-INHIBITORY, N-TERMINAL DOMAIN OF HUMAN TISSUE INHIBITOR OF METALLOPROTEINASES-1 (N-TIMP-1), SOLUTION NMR, 29 STRUCTURES",SOLUTION NMR,,1999-12-22T00:00:00.000+00:00
+TIMP1,P01033,1OO9,Orientation in Solution of MMP-3 Catalytic Domain and N-TIMP-1 from Residual Dipolar Couplings,SOLUTION NMR,,2003-07-29T00:00:00.000+00:00
