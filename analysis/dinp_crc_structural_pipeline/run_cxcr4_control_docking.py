@@ -146,28 +146,59 @@ def ligand_center_and_box_from_pdb(pdb_path: Path, padding: float = 12.0, min_si
 
 
 def prepare_ligand_pdbqt(input_ligand: Path, out_pdbqt: Path) -> Tuple[bool, str, str]:
-    """Prefer Meeko; fall back to OpenBabel."""
+    """Prepare a ligand while preserving crystallographic coordinates."""
     out_pdbqt.parent.mkdir(parents=True, exist_ok=True)
 
-    meeko = which_any(["mk_prepare_ligand.py", "mk_prepare_ligand"])
+    # Meeko accepts SDF/MOL2/MOL but not PDB.  The crystallographic control
+    # ligand is extracted as PDB HETATM records, so convert it with RDKit
+    # before preparation.  RDKit infers the ligand graph from the PDB atom
+    # records and retains the original 3-D conformer used for redocking/RMSD.
+    prep_input = input_ligand
+    if input_ligand.suffix.lower() == ".pdb":
+        converted = input_ligand.with_name(input_ligand.stem + ".converted.sdf")
+        try:
+            mol = Chem.MolFromPDBFile(str(input_ligand), removeHs=False, sanitize=False)
+            if mol is None or mol.GetNumAtoms() == 0:
+                raise ValueError("RDKit could not parse crystallographic ligand PDB")
+            Chem.SanitizeMol(mol)
+            # Meeko requires explicit hydrogens for ligand preparation.  Add
+            # them with coordinates while retaining the crystallographic
+            # heavy-atom conformer used for the redocking RMSD comparison.
+            mol = Chem.AddHs(mol, addCoords=True)
+            mol.SetProp("_Name", input_ligand.stem)
+            writer = Chem.SDWriter(str(converted))
+            writer.write(mol)
+            writer.close()
+            if not converted.exists() or converted.stat().st_size == 0:
+                raise ValueError("RDKit produced an empty SDF")
+            prep_input = converted
+        except Exception as exc:
+            prep_input = input_ligand
+            conversion_note = f"RDKit PDB-to-SDF conversion failed: {exc}"
+        else:
+            conversion_note = f"RDKit PDB-to-SDF conversion: {converted.name}"
+    else:
+        conversion_note = "No PDB-to-SDF conversion required"
+
+    meeko = which_any(["mk_prepare_ligand.exe", "mk_prepare_ligand.py", "mk_prepare_ligand"])
     if meeko:
-        cp = run([meeko, "-i", str(input_ligand), "-o", str(out_pdbqt)], check=False)
+        cp = run([meeko, "-i", str(prep_input), "-o", str(out_pdbqt)], check=False)
         if cp.returncode == 0 and out_pdbqt.exists() and out_pdbqt.stat().st_size > 0:
-            return True, "Meeko", cp.stdout + "\n" + cp.stderr
+            return True, f"Meeko ({conversion_note})", cp.stdout + "\n" + cp.stderr
 
     obabel = which_any(["obabel", "babel"])
     if obabel:
         cp = run([
             obabel,
-            str(input_ligand),
+            str(prep_input),
             "-O", str(out_pdbqt),
             "-xh",
             "--partialcharge", "gasteiger",
         ], check=False)
         if cp.returncode == 0 and out_pdbqt.exists() and out_pdbqt.stat().st_size > 0:
-            return True, "OpenBabel", cp.stdout + "\n" + cp.stderr
+            return True, f"OpenBabel ({conversion_note})", cp.stdout + "\n" + cp.stderr
 
-    return False, "none", "No working ligand-preparation backend"
+    return False, "none", f"No working ligand-preparation backend; {conversion_note}"
 
 
 def run_vina(
@@ -228,6 +259,98 @@ def convert_pdb_to_sdf(pdb: Path, sdf: Path) -> bool:
         return False
     cp = run([obabel, str(pdb), "-O", str(sdf)], check=False)
     return cp.returncode == 0 and sdf.exists() and sdf.stat().st_size > 0
+
+
+def compute_pdbqt_pose_rmsd(crystal_pdb: Path, docked_pdbqt: Path) -> Dict:
+    """Compute heavy-atom RMSD directly from a Vina PDBQT pose.
+
+    Vina/Meeko writes a ``REMARK SMILES IDX`` mapping that connects the
+    canonical SMILES atom indices to PDBQT atom serials.  Using that mapping
+    avoids an optional OpenBabel dependency while retaining the crystal ligand
+    graph and comparing only heavy-atom coordinates.  The first MODEL is the
+    best Vina pose and is the one used for QC.
+    """
+    crystal = Chem.MolFromPDBFile(str(crystal_pdb), removeHs=False, sanitize=False)
+    if crystal is None or crystal.GetNumAtoms() == 0:
+        return {"rmsd_available": False, "reason": "RDKit could not parse crystal ligand PDB"}
+    try:
+        Chem.SanitizeMol(crystal)
+    except Exception as exc:
+        return {"rmsd_available": False, "reason": f"Crystal ligand sanitization failed: {exc}"}
+
+    smiles = None
+    smiles_to_pdb: Dict[int, int] = {}
+    coordinates: Dict[int, Tuple[float, float, float]] = {}
+    saw_model = False
+    model_finished = False
+    for line in docked_pdbqt.read_text(encoding="utf-8", errors="ignore").splitlines():
+        if line.startswith("REMARK SMILES IDX"):
+            fields = line.split()[3:]
+            if len(fields) % 2 == 0:
+                for i in range(0, len(fields), 2):
+                    smiles_to_pdb[int(fields[i])] = int(fields[i + 1])
+            continue
+        if line.startswith("REMARK SMILES ") and not line.startswith("REMARK SMILES IDX"):
+            smiles = line.split("REMARK SMILES ", 1)[1].strip()
+            continue
+        if line.startswith("MODEL"):
+            if saw_model:
+                break
+            saw_model = True
+            continue
+        if saw_model and line.startswith("ENDMDL"):
+            model_finished = True
+            break
+        if saw_model and line.startswith(("ATOM", "HETATM")):
+            try:
+                serial = int(line[6:11])
+                atom_type = line[76:78].strip() if len(line) >= 78 else line[12:16].strip()
+                if atom_type.upper().startswith("H"):
+                    continue
+                coordinates[serial] = (
+                    float(line[30:38]),
+                    float(line[38:46]),
+                    float(line[46:54]),
+                )
+            except (ValueError, IndexError):
+                continue
+
+    if not saw_model or not model_finished:
+        return {"rmsd_available": False, "reason": "Best Vina MODEL block not found"}
+    if not smiles or not smiles_to_pdb:
+        return {"rmsd_available": False, "reason": "PDBQT SMILES atom mapping unavailable"}
+
+    smiles_mol = Chem.MolFromSmiles(smiles)
+    if smiles_mol is None:
+        return {"rmsd_available": False, "reason": "RDKit could not parse PDBQT SMILES"}
+    crystal_noh = Chem.RemoveHs(crystal)
+    match = crystal_noh.GetSubstructMatch(smiles_mol)
+    if not match or len(match) != smiles_mol.GetNumAtoms():
+        return {"rmsd_available": False, "reason": "No heavy-atom graph mapping to crystal ligand"}
+
+    docked = Chem.Mol(crystal_noh)
+    docked.RemoveAllConformers()
+    conformer = Chem.Conformer(docked.GetNumAtoms())
+    atom_map = []
+    for smiles_idx, crystal_idx in enumerate(match, start=1):
+        pdb_serial = smiles_to_pdb.get(smiles_idx)
+        if pdb_serial is None or pdb_serial not in coordinates:
+            return {"rmsd_available": False, "reason": "Incomplete heavy-atom coordinates in best pose"}
+        conformer.SetAtomPosition(crystal_idx, coordinates[pdb_serial])
+        atom_map.append((crystal_idx, crystal_idx))
+    docked.AddConformer(conformer, assignId=True)
+
+    try:
+        rmsd = float(rdMolAlign.AlignMol(docked, crystal_noh, atomMap=atom_map))
+    except Exception as exc:
+        return {"rmsd_available": False, "reason": f"Direct PDBQT alignment failed: {exc}"}
+    return {
+        "rmsd_available": True,
+        "heavy_atom_rmsd_A": rmsd,
+        "atom_count": len(atom_map),
+        "mapping_method": "RDKit crystal graph + PDBQT REMARK SMILES IDX",
+        "redocking_qc_pass_rmsd_lt_2A": bool(rmsd < 2.0),
+    }
 
 
 def compute_best_pose_rmsd(crystal_sdf: Path, docked_sdf: Path) -> Dict:
@@ -381,10 +504,12 @@ def main() -> None:
     crystal_sdf = OUT / "IT1t_crystal.sdf"
     docked_sdf = OUT / "IT1t_redocked.sdf"
     if it1t_result.get("status") == "ok":
-        if convert_pdb_to_sdf(crystal_itd_pdb, crystal_sdf) and convert_pose_pdbqt_to_sdf(OUT / "IT1t_redocked.pdbqt", docked_sdf):
-            rmsd_result = compute_best_pose_rmsd(crystal_sdf, docked_sdf)
-        else:
-            rmsd_result = {"rmsd_available": False, "reason": "OpenBabel conversion unavailable/failed"}
+        rmsd_result = compute_pdbqt_pose_rmsd(crystal_itd_pdb, OUT / "IT1t_redocked.pdbqt")
+        if not rmsd_result.get("rmsd_available"):
+            # Retain the legacy conversion fallback for environments that do
+            # provide OpenBabel and for auditability of conversion failures.
+            if convert_pdb_to_sdf(crystal_itd_pdb, crystal_sdf) and convert_pose_pdbqt_to_sdf(OUT / "IT1t_redocked.pdbqt", docked_sdf):
+                rmsd_result = compute_best_pose_rmsd(crystal_sdf, docked_sdf)
     audit["redocking_rmsd_qc"] = rmsd_result
 
     it1t_aff = it1t_result.get("best_affinity_kcal_mol")

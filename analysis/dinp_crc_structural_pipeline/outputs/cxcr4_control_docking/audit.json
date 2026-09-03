@@ -1,0 +1,104 @@
+{
+  "timestamp_utc": "2026-09-03T14:35:22Z",
+  "target": "CXCR4",
+  "pdb_id": "3ODU",
+  "positive_control": "IT1t",
+  "pdb_residue_id": "ITD",
+  "runtime": "D:\\whynot17\\dinp_stage2_production_env",
+  "exhaustiveness": 32,
+  "num_modes": 20,
+  "seed": 590836,
+  "crystal_it1t_atom_records": 27,
+  "docking_box": {
+    "center": [
+      20.609925925925925,
+      -7.972037037037037,
+      71.06837037037037
+    ],
+    "size": [
+      24.417838351213632,
+      24.417838351213632,
+      24.417838351213632
+    ],
+    "radius": 6.208919175606816
+  },
+  "it1t_prep": {
+    "ok": true,
+    "method": "Meeko (RDKit PDB-to-SDF conversion: IT1t_crystal_ITD.converted.sdf)"
+  },
+  "it1t_redocking": {
+    "status": "ok",
+    "returncode": 0,
+    "best_affinity_kcal_mol": -6.402,
+    "pose": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\cxcr4_control_docking\\IT1t_redocked.pdbqt",
+    "log": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\cxcr4_control_docking\\IT1t_redocking.log",
+    "command": [
+      "D:\\whynot17\\dinp_stage2_production_env\\Scripts\\vina.EXE",
+      "--receptor",
+      "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\stage2_docking\\docking\\CXCR4\\CXCR4_3ODU_receptor.pdbqt",
+      "--ligand",
+      "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\cxcr4_control_docking\\IT1t_control.pdbqt",
+      "--center_x",
+      "20.609925925925925",
+      "--center_y",
+      "-7.972037037037037",
+      "--center_z",
+      "71.06837037037037",
+      "--size_x",
+      "24.417838351213632",
+      "--size_y",
+      "24.417838351213632",
+      "--size_z",
+      "24.417838351213632",
+      "--exhaustiveness",
+      "32",
+      "--num_modes",
+      "20",
+      "--seed",
+      "590836",
+      "--out",
+      "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\cxcr4_control_docking\\IT1t_redocked.pdbqt"
+    ]
+  },
+  "dinp_same_box": {
+    "status": "ok",
+    "returncode": 0,
+    "best_affinity_kcal_mol": -4.783,
+    "pose": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\cxcr4_control_docking\\DINP_same_box.pdbqt",
+    "log": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\cxcr4_control_docking\\DINP_same_box.log",
+    "command": [
+      "D:\\whynot17\\dinp_stage2_production_env\\Scripts\\vina.EXE",
+      "--receptor",
+      "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\stage2_docking\\docking\\CXCR4\\CXCR4_3ODU_receptor.pdbqt",
+      "--ligand",
+      "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\stage2_docking\\ligand\\DINP.pdbqt",
+      "--center_x",
+      "20.609925925925925",
+      "--center_y",
+      "-7.972037037037037",
+      "--center_z",
+      "71.06837037037037",
+      "--size_x",
+      "24.417838351213632",
+      "--size_y",
+      "24.417838351213632",
+      "--size_z",
+      "24.417838351213632",
+      "--exhaustiveness",
+      "32",
+      "--num_modes",
+      "20",
+      "--seed",
+      "590836",
+      "--out",
+      "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\cxcr4_control_docking\\DINP_same_box.pdbqt"
+    ]
+  },
+  "redocking_rmsd_qc": {
+    "rmsd_available": true,
+    "heavy_atom_rmsd_A": 2.161720344213992,
+    "atom_count": 27,
+    "mapping_method": "RDKit crystal graph + PDBQT REMARK SMILES IDX",
+    "redocking_qc_pass_rmsd_lt_2A": false
+  }
+}

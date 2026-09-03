@@ -1,0 +1,2 @@
+target,pdb_id,pocket_reference,same_receptor,same_box,same_vina_parameters,IT1t_best_affinity_kcal_mol,DINP_best_affinity_kcal_mol,DINP_minus_IT1t_kcal_mol,redocking_heavy_atom_rmsd_A,redocking_qc_pass_rmsd_lt_2A
+CXCR4,3ODU,3ODU co-crystallized IT1t (ITD),True,True,True,-6.402,-4.783,1.6189999999999998,2.161720344213992,False
