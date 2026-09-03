@@ -1,0 +1,17 @@
+[
+  {
+    "cmd": [
+      "D:\\whynot17\\dinp_stage2_production_env\\Scripts\\mk_prepare_receptor.exe",
+      "--read_pdb",
+      "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\stage2_refine_and_rescue\\ptger4_rescue\\PTGER4_9JQZ_chainA_clean.pdb",
+      "-p",
+      "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\stage2_refine_and_rescue\\ptger4_rescue\\PTGER4_9JQZ_rescued_receptor.pdbqt",
+      "--delete_bad_res",
+      "--default_altloc",
+      "A"
+    ],
+    "returncode": 0,
+    "stdout": "Template padding will be used.\n\u001b[32m gasteiger charges will be read from template file \n \u001b[0m\n\nFiles written:\nD:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\stage2_refine_and_rescue\\ptger4_rescue\\PTGER4_9JQZ_rescued_receptor.pdbqt <-- static (i.e., rigid) receptor input file\n",
+    "stderr": ""
+  }
+]

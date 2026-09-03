@@ -137,6 +137,81 @@ def heavy_atom_rmsd(reference_sdf: Path, docked_sdf: Path) -> Optional[float]:
         return None
 
 
+def heavy_atom_rmsd_pdbqt(reference_sdf: Path, docked_pdbqt: Path) -> Optional[float]:
+    """Map the first Vina pose to the reference graph without OpenBabel.
+
+    OpenBabel can convert PDBQT to SDF but may lose the bond orders needed for
+    RDKit graph matching.  Meeko/Vina writes a SMILES plus ``SMILES IDX`` atom
+    map, which lets us place the docked heavy-atom coordinates on the original
+    reference graph and calculate a reproducible RMSD directly.
+    """
+    ref = mol_from_sdf(reference_sdf)
+    if ref is None:
+        return None
+
+    smiles = None
+    smiles_to_pdb: Dict[int, int] = {}
+    coordinates: Dict[int, Tuple[float, float, float]] = {}
+    saw_model = False
+    model_finished = False
+    for line in docked_pdbqt.read_text(encoding="utf-8", errors="ignore").splitlines():
+        if line.startswith("REMARK SMILES IDX"):
+            fields = line.split()[3:]
+            if len(fields) % 2 == 0:
+                for i in range(0, len(fields), 2):
+                    smiles_to_pdb[int(fields[i])] = int(fields[i + 1])
+            continue
+        if line.startswith("REMARK SMILES ") and not line.startswith("REMARK SMILES IDX"):
+            smiles = line.split("REMARK SMILES ", 1)[1].strip()
+            continue
+        if line.startswith("MODEL"):
+            if saw_model:
+                break
+            saw_model = True
+            continue
+        if saw_model and line.startswith("ENDMDL"):
+            model_finished = True
+            break
+        if saw_model and line.startswith(("ATOM", "HETATM")):
+            try:
+                serial = int(line[6:11])
+                atom_type = line[76:78].strip() if len(line) >= 78 else line[12:16].strip()
+                if atom_type.upper().startswith("H"):
+                    continue
+                coordinates[serial] = (
+                    float(line[30:38]),
+                    float(line[38:46]),
+                    float(line[46:54]),
+                )
+            except (ValueError, IndexError):
+                continue
+    if not saw_model or not model_finished or not smiles or not smiles_to_pdb:
+        return None
+
+    query = Chem.MolFromSmiles(smiles)
+    if query is None:
+        return None
+    match = ref.GetSubstructMatch(query)
+    if not match or len(match) != query.GetNumAtoms():
+        return None
+
+    docked = Chem.Mol(ref)
+    docked.RemoveAllConformers()
+    conformer = Chem.Conformer(docked.GetNumAtoms())
+    atom_map = []
+    for smiles_idx, ref_idx in enumerate(match, start=1):
+        pdb_serial = smiles_to_pdb.get(smiles_idx)
+        if pdb_serial is None or pdb_serial not in coordinates:
+            return None
+        conformer.SetAtomPosition(ref_idx, coordinates[pdb_serial])
+        atom_map.append((ref_idx, ref_idx))
+    docked.AddConformer(conformer, assignId=True)
+    try:
+        return float(rdMolAlign.AlignMol(docked, ref, atomMap=atom_map))
+    except Exception:
+        return None
+
+
 def find_existing(paths: List[Path]) -> Path:
     for p in paths:
         if p.exists():
@@ -154,11 +229,13 @@ def load_cxcr4_inputs() -> Dict[str, Path]:
         CTRL / "DINP.pdbqt",
     ])
     it1t = find_existing([
+        CTRL / "IT1t_control.pdbqt",
         CTRL / "IT1t.pdbqt",
         CTRL / "ITD.pdbqt",
         CTRL / "IT1t_crystal.pdbqt",
     ])
     crystal_sdf = find_existing([
+        CTRL / "IT1t_crystal_ITD.converted.sdf",
         CTRL / "IT1t_crystal.sdf",
         CTRL / "ITD_crystal.sdf",
         CTRL / "IT1t.sdf",
@@ -194,12 +271,30 @@ def cxcr4_refinement(vina: str, obabel: str, pocket_audit: Dict, args) -> Dict:
                 stem = f"it1t_s{scale:.2f}_e{ex}_seed{seed}"
                 pose = refdir / f"{stem}.pdbqt"
                 log = refdir / f"{stem}.log"
-                res = vina_dock(vina, inputs["receptor"], inputs["it1t"], center, size,
-                                ex, args.num_modes, seed, pose, log)
                 sdf = refdir / f"{stem}.sdf"
+                resumed_from_cache = False
+                cached_affinity = None
+                if pose.exists() and log.exists():
+                    cached_affinity = parse_vina_best(log.read_text(encoding="utf-8", errors="ignore"))
+                if cached_affinity is not None:
+                    # A valid pose/log pair is enough to resume the Vina
+                    # calculation.  SDF is only a fallback RMSD route; the
+                    # primary RMSD implementation reads the PDBQT directly.
+                    res = {
+                        "returncode": 0,
+                        "affinity": cached_affinity,
+                        "pose": str(pose),
+                        "command": ["RESUMED_FROM_CACHE"],
+                    }
+                    resumed_from_cache = True
+                else:
+                    res = vina_dock(vina, inputs["receptor"], inputs["it1t"], center, size,
+                                    ex, args.num_modes, seed, pose, log)
                 rmsd = None
-                if res["returncode"] == 0 and pose.exists() and pdbqt_to_sdf(obabel, pose, sdf):
-                    rmsd = heavy_atom_rmsd(inputs["crystal_sdf"], sdf)
+                if res["returncode"] == 0 and pose.exists():
+                    rmsd = heavy_atom_rmsd_pdbqt(inputs["crystal_sdf"], pose)
+                    if rmsd is None and pdbqt_to_sdf(obabel, pose, sdf):
+                        rmsd = heavy_atom_rmsd(inputs["crystal_sdf"], sdf)
                 rows.append({
                     "run_id": run_id,
                     "size_scale": scale,
@@ -209,8 +304,14 @@ def cxcr4_refinement(vina: str, obabel: str, pocket_audit: Dict, args) -> Dict:
                     "it1t_affinity_kcal_mol": res["affinity"],
                     "it1t_rmsd_A": rmsd,
                     "qc_pass_lt2A": bool(rmsd is not None and rmsd < 2.0),
+                    "resumed_from_cache": resumed_from_cache,
                     "pose": str(pose),
                 })
+                # Checkpoint the grid after every completed run so a later
+                # interruption never discards already finished combinations.
+                with (refdir / "refinement_grid.csv").open("w", newline="", encoding="utf-8") as fh:
+                    w = csv.DictWriter(fh, fieldnames=list(rows[0].keys()))
+                    w.writeheader(); w.writerows(rows)
 
     with (refdir / "refinement_grid.csv").open("w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0].keys()))
@@ -275,10 +376,15 @@ def rescue_ptger4(vina: str, pocket_audit: Dict, args) -> Dict:
     if not mkrec:
         return {"status": "skipped", "reason": "Meeko receptor-prep executable not found", "clean_pdb": str(clean_pdb)}
     receptor_pdbqt = rescue_dir / "PTGER4_9JQZ_rescued_receptor.pdbqt"
-    # Use the same robust flags that succeeded for the PDB targets where supported.
+    # The clean rescue input is a PDB.  Use Meeko's --read_pdb path rather
+    # than -i/--read_with_prody, which is reserved for the optional ProDy
+    # parser and unnecessarily makes this rescue depend on ProDy.
     attempts = [
-        [mkrec, "-i", str(clean_pdb), "-o", str(receptor_pdbqt), "--delete_residues", "bad_res"],
-        [mkrec, "-i", str(clean_pdb), "-o", str(receptor_pdbqt)],
+        [
+            mkrec, "--read_pdb", str(clean_pdb), "-p", str(receptor_pdbqt),
+            "--delete_bad_res", "--default_altloc", "A",
+        ],
+        [mkrec, "--read_pdb", str(clean_pdb), "-p", str(receptor_pdbqt)],
     ]
     prep_logs = []
     prep_ok = False

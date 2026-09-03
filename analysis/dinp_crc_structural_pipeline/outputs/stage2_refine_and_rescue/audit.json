@@ -1,0 +1,42 @@
+{
+  "vina": "D:\\whynot17\\dinp_stage2_production_env\\Scripts\\vina.exe",
+  "obabel": "D:\\whynot17\\dinp_stage2_production_env\\Scripts\\obabel.exe",
+  "cxcr4": {
+    "best_control_protocol": {
+      "run_id": 2,
+      "size_scale": 0.7,
+      "size_x": 17.092488297168224,
+      "size_y": 17.092488297168224,
+      "size_z": 17.092488297168224,
+      "exhaustiveness": 32,
+      "seed": 3001,
+      "it1t_affinity_kcal_mol": -5.766,
+      "it1t_rmsd_A": 1.595346982555775,
+      "qc_pass_lt2A": true,
+      "resumed_from_cache": true,
+      "pose": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\stage2_refine_and_rescue\\cxcr4_refinement\\it1t_s0.70_e32_seed3001.pdbqt",
+      "selection_rule": "minimum IT1t redocking heavy-atom RMSD; DINP score not used",
+      "protocol_qc_pass": true
+    },
+    "dinp_affinity_kcal_mol": -4.835,
+    "dinp_pose": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\stage2_refine_and_rescue\\cxcr4_refinement\\DINP_frozen_protocol.pdbqt",
+    "n_grid_runs": 36
+  },
+  "ptger4": {
+    "status": "ok",
+    "affinity_kcal_mol": -7.429,
+    "clean_pdb": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\stage2_refine_and_rescue\\ptger4_rescue\\PTGER4_9JQZ_chainA_clean.pdb",
+    "receptor_pdbqt": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\stage2_refine_and_rescue\\ptger4_rescue\\PTGER4_9JQZ_rescued_receptor.pdbqt",
+    "pose": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\stage2_refine_and_rescue\\ptger4_rescue\\DINP_PTGER4_9JQZ_rescue_pose.pdbqt",
+    "pocket_center": [
+      128.2943572998047,
+      137.60739135742188,
+      132.860595703125
+    ],
+    "pocket_size": [
+      26.20448159313978,
+      26.20448159313978,
+      26.20448159313978
+    ]
+  }
+}
