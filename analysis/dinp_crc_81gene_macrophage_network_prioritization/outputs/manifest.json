@@ -1,0 +1,69 @@
+{
+  "analysis": "Macrophage seven-gene PPI, topology and target-actionability prioritization",
+  "run_timestamp_utc": "2026-09-03T08:54:02.131555+00:00",
+  "candidate_input": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_81gene_macrophage_driver_decomposition\\outputs\\macrophage_driver_candidates.csv",
+  "candidate_genes": [
+    "NEAT1",
+    "MMP9",
+    "TIMP1",
+    "STAT3",
+    "PTGER4",
+    "PTGES3",
+    "CXCR4"
+  ],
+  "candidate_family_frozen": true,
+  "string_required_score": 0.7,
+  "string_functional_network": "functional associations; no added interactors",
+  "string_physical_network": "physical associations reported separately; no added interactors",
+  "network_inference": "descriptive induced subgraph topology; no causal direction and no network-level P-value claimed",
+  "pathway_input": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_81gene_macrophage_driver_decomposition\\outputs\\pathway_membership_audit.csv",
+  "pathway_membership_release": "e114_eg62_p19_27110d83",
+  "pathway_membership_rule": "exact memberships from the previously observed g:Profiler terms; no term selected using macrophage results",
+  "target_context_sources": [
+    "UniProt reviewed human entries",
+    "PDBe UniProt best structures",
+    "ChEMBL target/activity records"
+  ],
+  "docking_md_shortlist_rule": "two highest-topology protein candidates outside the direct prostaglandin class plus the most actionable direct prostaglandin node; PTGES3 retained as reserve",
+  "docking_md_shortlist": [
+    "MMP9",
+    "STAT3",
+    "PTGER4"
+  ],
+  "interpretation_boundary": "shortlist candidates are not causal targets; structure and measured ligand records do not establish DINP binding",
+  "network_summary": {
+    "n_input_nodes": 7,
+    "n_edges": 5,
+    "possible_edges": 21,
+    "edge_density": 0.23809523809523808,
+    "n_connected_components": 4,
+    "largest_component_nodes": 4,
+    "n_louvain_modules": 4,
+    "string_species": 9606,
+    "string_required_score": 0.7,
+    "string_functional_edges": 5,
+    "string_physical_edges": 1,
+    "mapped_string_input_genes": 6,
+    "protein_coding_nodes": 6,
+    "structure_eligible_nodes": 6,
+    "docking_md_shortlist": "MMP9;STAT3;PTGER4",
+    "physical_n_edges": 1,
+    "physical_edge_density": 0.047619047619047616,
+    "physical_edges": [
+      "MMP9--TIMP1"
+    ]
+  },
+  "outputs": [
+    "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_81gene_macrophage_network_prioritization\\outputs\\chembl_target_annotations.csv",
+    "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_81gene_macrophage_network_prioritization\\outputs\\docking_md_reserve_candidates.csv",
+    "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_81gene_macrophage_network_prioritization\\outputs\\docking_md_shortlist.csv",
+    "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_81gene_macrophage_network_prioritization\\outputs\\functional_edges.csv",
+    "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_81gene_macrophage_network_prioritization\\outputs\\functional_network_modules.csv",
+    "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_81gene_macrophage_network_prioritization\\outputs\\network_summary.csv",
+    "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_81gene_macrophage_network_prioritization\\outputs\\network_target_evidence_matrix.csv",
+    "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_81gene_macrophage_network_prioritization\\outputs\\pathway_relation_audit.csv",
+    "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_81gene_macrophage_network_prioritization\\outputs\\pdbe_best_structures.csv",
+    "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_81gene_macrophage_network_prioritization\\outputs\\physical_edges.csv",
+    "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_81gene_macrophage_network_prioritization\\outputs\\uniprot_target_annotations.csv"
+  ]
+}

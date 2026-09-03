@@ -1,0 +1,2 @@
+n_input_nodes,n_edges,possible_edges,edge_density,n_connected_components,largest_component_nodes,n_louvain_modules,string_species,string_required_score,string_functional_edges,string_physical_edges,mapped_string_input_genes,protein_coding_nodes,structure_eligible_nodes,docking_md_shortlist,physical_n_edges,physical_edge_density,physical_edges
+7,5,21,0.23809523809523808,4,4,4,9606,0.7,5,1,6,6,6,MMP9;STAT3;PTGER4,1,0.047619047619047616,['MMP9--TIMP1']

@@ -1,0 +1,11 @@
+gene_symbol,term_id,source,term_name,pathway_category
+PTGES3,GO:0006693,GO:BP,prostaglandin metabolic process,prostaglandin_AA_inflammation
+PTGES3,GO:0001516,GO:BP,prostaglandin biosynthetic process,prostaglandin_AA_inflammation
+PTGES3,KEGG:00590,KEGG,Arachidonic acid metabolism,prostaglandin_AA_inflammation
+CXCR4,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+MMP9,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+NEAT1,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+PTGER4,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+STAT3,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+TIMP1,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+STAT3,GO:0004879,GO:MF,nuclear receptor activity,nuclear_receptor
