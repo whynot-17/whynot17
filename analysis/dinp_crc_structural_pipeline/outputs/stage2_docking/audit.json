@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-09-03T12:46:30Z",
+  "targets": [
+    "PTGER4",
+    "CXCR4",
+    "MMP9",
+    "STAT3"
+  ],
+  "events": [],
+  "ligand": {
+    "smiles": "CC(C)CCCCCCOC(=O)C1=CC=CC=C1C(=O)OCCCCCCC(C)C",
+    "conformers_generated": 50,
+    "force_field": "MMFF94",
+    "best_energy": 26.58854110202272,
+    "sdf": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\stage2_docking\\ligand\\DINP_best_3d.sdf",
+    "pdb": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\stage2_docking\\ligand\\DINP_best_3d.pdb"
+  },
+  "ligand_pdbqt": {
+    "ok": false,
+    "method": "No working Meeko/OpenBabel ligand-preparation executable",
+    "path": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\stage2_docking\\ligand\\DINP.pdbqt"
+  }
+}
