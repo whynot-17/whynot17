@@ -1,15 +1,18 @@
-# DINP--CRC bulk co-expression analysis
+# DINP--CRC bulk co-expression analysis (standardized v2)
 #
-# Primary purpose: place the 81-gene DINP--CRC intersection and the 7-gene
-# macrophage driver set in a CRC bulk co-expression network.  The script uses
+# Primary purpose: build an unbiased CRC bulk co-expression network and then
+# overlay the frozen 81-gene DINP--CRC intersection and the 7-gene macrophage
+# driver set.  The script uses
 # the public, processed GSE39582 GPL570 series matrix and keeps two analyses:
 # (1) all samples, including the 19 non-tumoral samples, for tumor-status
 # module association; and (2) tumor-only samples, to avoid making the network
 # entirely a tumor-versus-normal contrast.
 #
 # The script deliberately does not infer causality from co-expression.  It
-# reports module membership, target-set enrichment, and module-trait
-# associations as exploratory convergence evidence.
+# reports module membership, post hoc target-set overlay/enrichment, a fixed
+# macrophage marker-score association, and module-trait associations as
+# exploratory convergence evidence. Frozen target/driver genes are never
+# forced into the WGCNA input.
 
 options(stringsAsFactors = FALSE, warn = 1)
 
@@ -33,6 +36,13 @@ driver_path <- get_arg(
 out_dir <- get_arg("--outdir", "analysis/dinp_crc_wgcna/outputs")
 max_genes <- as.integer(get_arg("--max-genes", "5000"))
 seed <- as.integer(get_arg("--seed", "39582"))
+
+# A fixed, canonical macrophage/myeloid marker panel is used only to create a
+# bulk-expression abundance/state proxy. It is not a deconvolution result.
+macrophage_markers <- c(
+  "CD68", "LST1", "TYROBP", "AIF1", "FCER1G", "CTSS", "C1QA", "C1QB",
+  "C1QC", "MS4A7", "LILRB1", "LGALS3", "CD14", "CTSB", "SPI1"
+)
 
 dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 
@@ -249,17 +259,17 @@ gene_mad[is.na(gene_mad)] <- 0
 ranked_genes <- names(sort(gene_mad, decreasing = TRUE))
 target_present <- intersect(targets, rownames(gene_expr))
 driver_present <- intersect(drivers, rownames(gene_expr))
-forced <- unique(c(target_present, driver_present))
-top_regular <- setdiff(ranked_genes, forced)
-n_regular <- max(0L, max_genes - length(forced))
-selected_genes <- unique(c(forced, head(top_regular, n_regular)))
+selected_genes <- head(ranked_genes, max_genes)
 selected_genes <- selected_genes[selected_genes %in% rownames(gene_expr)]
+target_selected <- intersect(targets, selected_genes)
+driver_selected <- intersect(drivers, selected_genes)
+macrophage_present <- intersect(macrophage_markers, rownames(gene_expr))
 
 write.csv(
   data.frame(
     gene_symbol = targets,
     present_in_gpl570 = targets %in% rownames(gene_expr),
-    forced_into_wgcna_input = targets %in% selected_genes,
+    selected_by_mad_filter = targets %in% selected_genes,
     selected_probe = unname(selected_probe[targets]),
     stringsAsFactors = FALSE
   ),
@@ -271,13 +281,34 @@ write.csv(
   data.frame(
     gene_symbol = drivers,
     present_in_gpl570 = drivers %in% rownames(gene_expr),
-    forced_into_wgcna_input = drivers %in% selected_genes,
+    selected_by_mad_filter = drivers %in% selected_genes,
     selected_probe = unname(selected_probe[drivers]),
     stringsAsFactors = FALSE
   ),
   file.path(out_dir, "macrophage_driver_mapping_audit.csv"),
   row.names = FALSE,
   na = ""
+)
+write.csv(
+  data.frame(
+    gene_symbol = macrophage_markers,
+    present_in_gene_matrix = macrophage_markers %in% rownames(gene_expr),
+    selected_by_mad_filter = macrophage_markers %in% selected_genes,
+    selected_probe = unname(selected_probe[macrophage_markers]),
+    stringsAsFactors = FALSE
+  ),
+  file.path(out_dir, "macrophage_marker_mapping_audit.csv"),
+  row.names = FALSE,
+  na = ""
+)
+write.csv(
+  data.frame(
+    marker_set = "fixed_macrophage_myeloid_proxy",
+    gene_symbol = macrophage_markers,
+    stringsAsFactors = FALSE
+  ),
+  file.path(out_dir, "macrophage_core_marker_set.csv"),
+  row.names = FALSE
 )
 write.csv(data.frame(gene_symbol = selected_genes), file.path(out_dir, "wgcna_selected_genes.csv"), row.names = FALSE)
 
@@ -310,7 +341,7 @@ add_factor_dummies <- function(traits, meta_sub, key, prefix, min_n = 5L) {
   traits
 }
 
-build_traits <- function(meta_sub, include_status = TRUE) {
+build_traits <- function(meta_sub, include_status = TRUE, macrophage_score = NULL) {
   traits <- data.frame(row.names = meta_sub$sample_id, check.names = FALSE)
   if (include_status) traits$tumor_status <- as.numeric(meta_sub$tumor_status == "tumor")
   if ("age.at.diagnosis (year)" %in% names(meta_sub)) {
@@ -328,6 +359,9 @@ build_traits <- function(meta_sub, include_status = TRUE) {
     c("cimp.status", "cimp_status"),
     c("cin.status", "cin_status")
   )) traits <- add_factor_dummies(traits, meta_sub, spec[1], spec[2])
+  if (!is.null(macrophage_score)) {
+    traits$macrophage_core_marker_score <- unname(macrophage_score[meta_sub$sample_id])
+  }
   traits <- traits[, vapply(traits, function(x) sum(!is.na(x)) >= 10L && length(unique(x[!is.na(x)])) >= 2L, logical(1)), drop = FALSE]
   traits
 }
@@ -412,7 +446,15 @@ run_one_network <- function(label, sample_idx, include_status) {
 
   meta_sub <- meta[sample_idx, , drop = FALSE]
   rownames(meta_sub) <- meta_sub$sample_id
-  traits <- build_traits(meta_sub, include_status = include_status)
+  macrophage_score <- NULL
+  if (length(macrophage_present) >= 3L) {
+    marker_mat <- t(gene_expr[macrophage_present, sample_idx, drop = FALSE])
+    marker_z <- scale(marker_mat)
+    macrophage_score <- rowMeans(marker_z, na.rm = TRUE)
+    macrophage_score[!is.finite(macrophage_score)] <- NA_real_
+    names(macrophage_score) <- rownames(marker_mat)
+  }
+  traits <- build_traits(meta_sub, include_status = include_status, macrophage_score = macrophage_score)
   traits <- traits[rownames(datExpr), , drop = FALSE]
 
   module_trait_cor <- matrix(NA_real_, nrow = ncol(MEs_non_grey), ncol = ncol(traits), dimnames = list(colnames(MEs_non_grey), colnames(traits)))
@@ -440,6 +482,28 @@ run_one_network <- function(label, sample_idx, include_status) {
     }
   }
   write.csv(as.data.frame(module_trait_fdr), file.path(out_dir, paste0("module_trait_fdr_", label, ".csv")))
+
+  if ("macrophage_core_marker_score" %in% colnames(module_trait_cor)) {
+    mac_idx <- which(colnames(module_trait_cor) == "macrophage_core_marker_score")[1L]
+    macrophage_assoc <- data.frame(
+      analysis = label,
+      module = rownames(module_trait_cor),
+      macrophage_score_cor = unname(module_trait_cor[, mac_idx]),
+      macrophage_score_p = unname(module_trait_p[, mac_idx]),
+      macrophage_score_fdr = unname(module_trait_fdr[, mac_idx]),
+      stringsAsFactors = FALSE
+    )
+  } else {
+    macrophage_assoc <- data.frame(
+      analysis = label,
+      module = rownames(module_trait_cor),
+      macrophage_score_cor = NA_real_,
+      macrophage_score_p = NA_real_,
+      macrophage_score_fdr = NA_real_,
+      stringsAsFactors = FALSE
+    )
+  }
+  write.csv(macrophage_assoc, file.path(out_dir, paste0("macrophage_module_association_", label, ".csv")), row.names = FALSE, na = "")
 
   if (ncol(traits) > 0L) {
     png(file.path(out_dir, paste0("module_trait_heatmap_", label, ".png")), width = 2200, height = max(1600, 80 * nrow(module_trait_cor)), res = 220)
@@ -476,35 +540,50 @@ run_one_network <- function(label, sample_idx, include_status) {
   membership <- membership[order(membership$module, -abs(membership$kME_own)), , drop = FALSE]
   write.csv(membership, file.path(out_dir, paste0("gene_module_membership_", label, ".csv")), row.names = FALSE)
 
-  target_map <- membership[membership$gene_symbol %in% targets, c("gene_symbol", "module", "kME_own"), drop = FALSE]
+  target_map <- merge(
+    data.frame(gene_symbol = targets, stringsAsFactors = FALSE),
+    membership[, c("gene_symbol", "module", "kME_own"), drop = FALSE],
+    by = "gene_symbol", all.x = TRUE, sort = FALSE
+  )
+  target_map <- target_map[match(targets, target_map$gene_symbol), , drop = FALSE]
+  target_map$selected_in_wgcna_input <- target_map$gene_symbol %in% colnames(datExpr)
   target_map$target_group <- ifelse(target_map$gene_symbol %in% drivers, "81_gene_program_and_7_driver", "81_gene_program")
-  target_map <- target_map[order(target_map$module, -abs(target_map$kME_own)), , drop = FALSE]
+  target_map <- target_map[order(is.na(target_map$module), target_map$module, -abs(target_map$kME_own)), , drop = FALSE]
   write.csv(target_map, file.path(out_dir, paste0("target_module_mapping_", label, ".csv")), row.names = FALSE)
+
+  # Enrichment is evaluated only for target/driver genes that were selected by
+  # the prespecified variance filter. All frozen genes are retained in the
+  # overlay table above, including genes absent from the natural WGCNA input.
+  target_input <- intersect(targets, colnames(datExpr))
+  driver_input <- intersect(drivers, colnames(datExpr))
 
   module_levels <- sort(unique(colors))
   enrich_rows <- lapply(module_levels, function(mod) {
     in_mod <- names(colors)[colors == mod]
-    a <- sum(targets %in% in_mod)
-    b <- sum(targets %in% colnames(datExpr)) - a
-    c <- sum(!(names(colors) %in% targets) & colors == mod)
-    d <- sum(!(names(colors) %in% targets) & colors != mod)
-    mat <- matrix(c(a, b, c, d), nrow = 2L, byrow = TRUE)
+    a <- sum(target_input %in% in_mod)
+    b <- length(target_input) - a
+    target_nonmod <- sum(!(names(colors) %in% target_input) & colors == mod)
+    target_other <- sum(!(names(colors) %in% target_input) & colors != mod)
+    mat <- matrix(c(a, b, target_nonmod, target_other), nrow = 2L, byrow = TRUE)
     p <- tryCatch(fisher.test(mat, alternative = "greater")$p.value, error = function(e) NA_real_)
-    da <- sum(drivers %in% in_mod)
-    db <- sum(drivers %in% colnames(datExpr)) - da
-    dmat <- matrix(c(da, db, c, d), nrow = 2L, byrow = TRUE)
+    da <- sum(driver_input %in% in_mod)
+    db <- length(driver_input) - da
+    driver_nonmod <- sum(!(names(colors) %in% driver_input) & colors == mod)
+    driver_other <- sum(!(names(colors) %in% driver_input) & colors != mod)
+    dmat <- matrix(c(da, db, driver_nonmod, driver_other), nrow = 2L, byrow = TRUE)
     dp <- tryCatch(fisher.test(dmat, alternative = "greater")$p.value, error = function(e) NA_real_)
     data.frame(
       analysis = label,
       module = mod,
       module_gene_n = length(in_mod),
-      target_gene_n_in_input = sum(targets %in% colnames(datExpr)),
+      target_gene_n_in_input = length(target_input),
       target_gene_n_in_module = a,
       target_enrichment_OR = tryCatch(unname(fisher.test(mat)$estimate), error = function(e) NA_real_),
       target_enrichment_p = p,
-      target_enrichment_fdr = p.adjust(p, method = "BH"),
-      driver_gene_n_in_input = sum(drivers %in% colnames(datExpr)),
+      target_enrichment_fdr = NA_real_,
+      driver_gene_n_in_input = length(driver_input),
       driver_gene_n_in_module = da,
+      driver_enrichment_fdr = NA_real_,
       driver_enrichment_p = dp,
       stringsAsFactors = FALSE
     )
@@ -522,7 +601,8 @@ run_one_network <- function(label, sample_idx, include_status) {
 
   module_summary <- aggregate(gene_symbol ~ module, membership, length)
   names(module_summary)[2] <- "module_gene_n"
-  target_counts <- aggregate(gene_symbol ~ module, target_map, length)
+  target_map_selected <- target_map[!is.na(target_map$module), , drop = FALSE]
+  target_counts <- aggregate(gene_symbol ~ module, target_map_selected, length)
   names(target_counts)[2] <- "target_gene_n"
   module_summary <- merge(module_summary, target_counts, by = "module", all.x = TRUE)
   module_summary$target_gene_n[is.na(module_summary$target_gene_n)] <- 0L
@@ -530,7 +610,7 @@ run_one_network <- function(label, sample_idx, include_status) {
   module_summary <- module_summary[order(module_summary$target_enrichment_p, module_summary$module), , drop = FALSE]
   write.csv(module_summary, file.path(out_dir, paste0("module_summary_", label, ".csv")), row.names = FALSE)
 
-  top_target <- target_map[order(-abs(target_map$kME_own)), , drop = FALSE]
+  top_target <- target_map_selected[order(-abs(target_map_selected$kME_own)), , drop = FALSE]
   if (nrow(top_target) > 0L) write.csv(head(top_target, 30L), file.path(out_dir, paste0("top_target_membership_", label, ".csv")), row.names = FALSE)
 
   audit <- data.frame(
@@ -542,8 +622,10 @@ run_one_network <- function(label, sample_idx, include_status) {
     grey_gene_n = sum(colors == "grey"),
     soft_power = soft_power,
     soft_power_rule = power_rule,
-    target_input_n = sum(targets %in% colnames(datExpr)),
-    driver_input_n = sum(drivers %in% colnames(datExpr)),
+    target_input_n = length(target_input),
+    driver_input_n = length(driver_input),
+    macrophage_marker_n = length(macrophage_present),
+    macrophage_score_available = "macrophage_core_marker_score" %in% colnames(traits),
     stringsAsFactors = FALSE
   )
   write.csv(audit, file.path(out_dir, paste0("network_audit_", label, ".csv")), row.names = FALSE)
@@ -558,7 +640,8 @@ run_one_network <- function(label, sample_idx, include_status) {
     module_trait_cor = module_trait_cor,
     module_trait_p = module_trait_p,
     enrichment = enrichment,
-    target_map = target_map
+    target_map = target_map,
+    macrophage_assoc = macrophage_assoc
   )
 }
 
@@ -575,8 +658,11 @@ sample_audit <- data.frame(
   selected_gene_n = length(selected_genes),
   target_n = length(targets),
   target_present_n = length(target_present),
+  target_selected_n = length(target_selected),
   driver_n = length(drivers),
   driver_present_n = length(driver_present),
+  driver_selected_n = length(driver_selected),
+  macrophage_marker_n = length(macrophage_present),
   missing_expression_values_before_impute = missing_before_impute,
   source_matrix = "GSE39582_series_matrix.txt.gz",
   platform_annotation = "GPL570.annot.gz",
@@ -596,14 +682,15 @@ report <- c(
   "",
   "## Scope",
   "",
-  "This analysis places the frozen 81-gene DINP--CRC intersection and the seven macrophage driver candidates in the public GSE39582 GPL570 CRC bulk expression data. WGCNA is used as exploratory co-expression convergence evidence; it does not establish that DINP causes any module or trait.",
+  "This analysis builds an unbiased CRC co-expression network and overlays the frozen 81-gene DINP--CRC intersection and seven macrophage driver candidates. WGCNA is used as exploratory co-expression convergence evidence; it does not establish that DINP causes any module or trait.",
   "",
   "## Input audit",
   "",
   paste0("- Samples: ", nrow(meta), " total; ", sum(!meta$is_non_tumor), " tumor and ", sum(meta$is_non_tumor), " non-tumoral."),
   paste0("- Probe sets: ", nrow(expr_probe), "; collapsed gene-level matrix: ", nrow(gene_expr), " genes."),
-  paste0("- WGCNA input: ", length(selected_genes), " genes selected by MAD, with all available frozen target/driver genes forced into the input."),
-  paste0("- Frozen 81-gene list present on GPL570: ", length(target_present), "/", length(targets), "; seven-driver list present: ", length(driver_present), "/", length(drivers), "."),
+  paste0("- WGCNA input: ", length(selected_genes), " genes selected by MAD only; frozen target/driver genes were not forced into network construction."),
+  paste0("- Frozen 81-gene list present on GPL570: ", length(target_present), "/", length(targets), "; selected by MAD: ", length(target_selected), "; seven-driver list present: ", length(driver_present), "/", length(drivers), "; selected by MAD: ", length(driver_selected), "."),
+  paste0("- Macrophage/myeloid proxy: ", length(macrophage_present), "/", length(macrophage_markers), " fixed markers available; the resulting score is an abundance/state proxy, not cell deconvolution."),
   "- Duplicate probes were collapsed per gene by retaining the probe with the largest across-sample MAD.",
   "- The processed GEO matrix was used as supplied; no outcome-driven gene filtering was applied.",
   "",
@@ -612,6 +699,7 @@ report <- c(
   paste0("- All samples: n=", all_result$n_samples, "; ", all_result$n_modules, " non-grey modules; soft power=", all_result$soft_power, "."),
   paste0("- Tumor-only: n=", tumor_result$n_samples, "; ", tumor_result$n_modules, " non-grey modules; soft power=", tumor_result$soft_power, "."),
   "- The all-sample analysis enables a descriptive tumor-status module-trait comparison; the tumor-only analysis is the less status-dominated sensitivity network.",
+  "- Macrophage-associated module correlations are reported in macrophage_module_association_all_samples.csv and macrophage_module_association_tumor_only.csv.",
   "",
   "## Highest target-set enrichment modules",
   "",
@@ -625,12 +713,13 @@ report <- c(
   "",
   "## Interpretation boundary",
   "",
-  "A target gene set being enriched in a CRC co-expression module supports transcriptomic/network convergence in this dataset. It is not a causal exposure-to-gene test, and module membership/hubness should be treated as prioritization rather than mechanistic proof. Independent bulk or single-cell replication remains necessary."
+  "Target-set enrichment is calculated against the natural WGCNA input and uses only target genes selected by the prespecified MAD filter; all frozen targets remain visible in the overlay audit. Target/driver module membership or hubness should be treated as prioritization rather than mechanistic proof. Independent bulk or single-cell replication remains necessary."
 )
 writeLines(report, file.path(out_dir, "WGCNA_REPORT.md"), useBytes = TRUE)
 
 manifest <- c(
   "analysis=dinp_crc_wgcna",
+  "version=standardized_v2_unbiased_network_target_overlay",
   "dataset=GSE39582",
   "platform=GPL570",
   paste0("matrix_path=", normalizePath(matrix_path, winslash = "/", mustWork = FALSE)),
@@ -639,6 +728,9 @@ manifest <- c(
   paste0("driver_path=", normalizePath(driver_path, winslash = "/", mustWork = FALSE)),
   paste0("seed=", seed),
   paste0("max_genes=", max_genes),
+  "targets_forced_into_wgcna_input=FALSE",
+  paste0("macrophage_marker_set_n=", length(macrophage_markers)),
+  "macrophage_score=within_subset_marker_z_mean_proxy",
   paste0("timestamp_utc=", format(Sys.time(), tz = "UTC", usetz = TRUE)),
   "network_type=signed",
   "correlation=bicor",

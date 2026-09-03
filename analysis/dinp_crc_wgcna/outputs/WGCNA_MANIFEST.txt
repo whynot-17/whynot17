@@ -1,4 +1,5 @@
 analysis=dinp_crc_wgcna
+version=standardized_v2_unbiased_network_target_overlay
 dataset=GSE39582
 platform=GPL570
 matrix_path=D:/whynot17/work/wgcna_crc/raw/GSE39582_series_matrix.txt.gz
@@ -7,7 +8,10 @@ target_path=D:/Codex/projectless-workspaces/2026-08-22/non/work/whynot17/analysi
 driver_path=D:/Codex/projectless-workspaces/2026-08-22/non/work/whynot17/analysis/dinp_crc_81gene_macrophage_driver_decomposition/outputs/macrophage_driver_candidates.csv
 seed=39582
 max_genes=5000
-timestamp_utc=2026-09-03 09:28:55 UTC
+targets_forced_into_wgcna_input=FALSE
+macrophage_marker_set_n=15
+macrophage_score=within_subset_marker_z_mean_proxy
+timestamp_utc=2026-09-03 09:41:14 UTC
 network_type=signed
 correlation=bicor
 maxPOutliers=0.05

@@ -1,2 +1,2 @@
-"analysis","input_sample_n","wgcna_sample_n","wgcna_gene_n","non_grey_module_n","grey_gene_n","soft_power","soft_power_rule","target_input_n","driver_input_n"
-"all_samples",585,585,5000,9,954,9,"smallest power with scale-free fit R2 >= 0.80",75,6
+"analysis","input_sample_n","wgcna_sample_n","wgcna_gene_n","non_grey_module_n","grey_gene_n","soft_power","soft_power_rule","target_input_n","driver_input_n","macrophage_marker_n","macrophage_score_available"
+"all_samples",585,585,5000,8,915,8,"smallest power with scale-free fit R2 >= 0.80",33,4,14,TRUE

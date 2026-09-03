@@ -1,0 +1,17 @@
+"analysis","module","module_gene_n","target_gene_n_in_input","target_gene_n_in_module","target_enrichment_OR","target_enrichment_p","target_enrichment_fdr","driver_gene_n_in_input","driver_gene_n_in_module","driver_enrichment_fdr","driver_enrichment_p"
+"all_samples","blue",1123,38,14,3.6038906791545,0.000381610055198498,0.00572415082797747,5,2,1,0.147286678737893
+"all_samples","grey",1117,38,10,2.21129285412271,0.0318851364801489,NA,5,0,NA,1
+"all_samples","greenyellow",340,38,3,1.93918191620501,0.218013942032948,1,5,0,1,1
+"all_samples","tan",86,38,1,2.50414600179738,0.337456778915334,1,5,1,0.789294075654398,0.0526196050436265
+"all_samples","black",445,38,3,1.45820728219198,0.354939290138631,1,5,1,1,0.248912696981392
+"all_samples","purple",347,38,2,1.22653392555246,0.49553875913592,1,5,0,1,1
+"all_samples","yellow",572,38,3,1.113656672671,0.517412558395451,1,5,1,1,0.309970401444687
+"all_samples","magenta",426,38,1,0.479332630656609,0.875609135103618,1,5,0,1,1
+"all_samples","brown",682,38,1,0.288990378132503,0.966432147315463,1,5,0,1,1
+"all_samples","cyan",49,38,0,0,1,1,5,0,1,1
+"all_samples","green",530,38,0,0,1,1,5,0,1,1
+"all_samples","midnightblue",46,38,0,0,1,1,5,0,1,1
+"all_samples","pink",441,38,0,0,1,1,5,0,1,1
+"all_samples","red",459,38,0,0,1,1,5,0,1,1
+"all_samples","salmon",62,38,0,0,1,1,5,0,1,1
+"all_samples","turquoise",1275,38,0,0,1,1,5,0,1,1

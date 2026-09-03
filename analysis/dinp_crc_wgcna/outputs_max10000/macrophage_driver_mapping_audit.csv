@@ -1,0 +1,8 @@
+"gene_symbol","present_in_gpl570","selected_by_mad_filter","selected_probe"
+"NEAT1",FALSE,FALSE,
+"MMP9",TRUE,TRUE,"203936_s_at"
+"TIMP1",TRUE,TRUE,"201666_at"
+"STAT3",TRUE,TRUE,"225289_at"
+"PTGER4",TRUE,TRUE,"204897_at"
+"PTGES3",TRUE,FALSE,"200627_at"
+"CXCR4",TRUE,TRUE,"217028_at"

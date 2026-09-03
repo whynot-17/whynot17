@@ -1,0 +1,2 @@
+"analysis","input_sample_n","wgcna_sample_n","wgcna_gene_n","non_grey_module_n","grey_gene_n","soft_power","soft_power_rule","target_input_n","driver_input_n","macrophage_marker_n","macrophage_score_available"
+"tumor_only",566,566,10000,19,1508,10,"smallest power with scale-free fit R2 >= 0.80",41,5,14,TRUE
