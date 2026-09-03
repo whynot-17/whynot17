@@ -1,5 +1,5 @@
 gene,pdb_id,format,pocket_source,pocket_chain,receptor_prep_ok,receptor_prep_method,ligand_prep_ok,docking_status,best_affinity_kcal_mol,note
-PTGER4,9JQZ,mmcif,A1ECR,A,False,No working receptor-preparation executable; mmCIF may require conversion/cleanup,False,skipped,,No working Meeko/OpenBabel ligand-preparation executable
-CXCR4,3ODU,pdb,ITD,A,False,No working receptor-preparation executable; mmCIF may require conversion/cleanup,False,skipped,,No working Meeko/OpenBabel ligand-preparation executable
-MMP9,6ESM,pdb,B9Z,A,False,No working receptor-preparation executable; mmCIF may require conversion/cleanup,False,skipped,,No working Meeko/OpenBabel ligand-preparation executable
-STAT3,6NJS,pdb,KQV,A,False,No working receptor-preparation executable; mmCIF may require conversion/cleanup,False,skipped,,No working Meeko/OpenBabel ligand-preparation executable
+PTGER4,9JQZ,mmcif,A1ECR,A,False,No working receptor-preparation executable; mmCIF may require conversion/cleanup,True,skipped,,No working receptor-preparation executable; mmCIF may require conversion/cleanup
+CXCR4,3ODU,pdb,ITD,A,True,Meeko mk_prepare_receptor (delete_bad_res; default_altloc=A),True,ok,-5.499,
+MMP9,6ESM,pdb,B9Z,A,True,Meeko mk_prepare_receptor (delete_bad_res; default_altloc=A),True,ok,-3.995,
+STAT3,6NJS,pdb,KQV,A,True,Meeko mk_prepare_receptor (delete_bad_res; default_altloc=A),True,ok,-4.022,

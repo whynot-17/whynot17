@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "gene": "CXCR4",
+    "pdb_id": "3ODU",
+    "format": "pdb",
+    "pocket_source": "ITD",
+    "pocket_chain": "A",
+    "receptor_prep_ok": true,
+    "receptor_prep_method": "Meeko mk_prepare_receptor (delete_bad_res; default_altloc=A)",
+    "ligand_prep_ok": true,
+    "docking_status": "ok",
+    "best_affinity_kcal_mol": -5.499,
+    "note": ""
+  },
+  {
+    "gene": "STAT3",
+    "pdb_id": "6NJS",
+    "format": "pdb",
+    "pocket_source": "KQV",
+    "pocket_chain": "A",
+    "receptor_prep_ok": true,
+    "receptor_prep_method": "Meeko mk_prepare_receptor (delete_bad_res; default_altloc=A)",
+    "ligand_prep_ok": true,
+    "docking_status": "ok",
+    "best_affinity_kcal_mol": -4.022,
+    "note": ""
+  }
+]

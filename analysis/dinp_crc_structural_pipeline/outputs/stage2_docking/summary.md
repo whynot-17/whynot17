@@ -10,8 +10,8 @@ Targets without an auditable pocket are intentionally skipped rather than subjec
 | Target | PDB | Pocket ligand | Docking | Best Vina affinity (kcal/mol) |
 |---|---|---|---|---:|
 | PTGER4 | 9JQZ | A1ECR | skipped |  |
-| CXCR4 | 3ODU | ITD | skipped |  |
-| MMP9 | 6ESM | B9Z | skipped |  |
-| STAT3 | 6NJS | KQV | skipped |  |
+| CXCR4 | 3ODU | ITD | ok | -5.499 |
+| MMP9 | 6ESM | B9Z | ok | -3.995 |
+| STAT3 | 6NJS | KQV | ok | -4.022 |
 
 The MD shortlist is a computational prioritization output only. Manual inspection of chain identity, receptor completeness, pocket occupancy, protonation, cofactors and membrane context is required before production MD.

@@ -73,7 +73,7 @@ def read_real_docking_rows(path: Path) -> list[dict]:
     rows = []
     with path.open("r", encoding="utf-8-sig", newline="") as fh:
         for row in csv.DictReader(fh):
-            status = str(row.get("status", "")).strip().lower()
+            status = str(row.get("status", row.get("docking_status", ""))).strip().lower()
             affinity_raw = str(
                 row.get("best_affinity_kcal_mol", row.get("best_vina_affinity_kcal_mol", ""))
             ).strip()

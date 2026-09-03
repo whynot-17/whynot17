@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-03T12:46:30Z",
+  "timestamp": "2026-09-03T13:10:18Z",
   "targets": [
     "PTGER4",
     "CXCR4",
@@ -16,8 +16,8 @@
     "pdb": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\stage2_docking\\ligand\\DINP_best_3d.pdb"
   },
   "ligand_pdbqt": {
-    "ok": false,
-    "method": "No working Meeko/OpenBabel ligand-preparation executable",
+    "ok": true,
+    "method": "Meeko mk_prepare_ligand.py",
     "path": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\stage2_docking\\ligand\\DINP.pdbqt"
   }
 }

@@ -1,0 +1,58 @@
+{
+  "timestamp_utc": "2026-09-03T13:10:18Z",
+  "runtime": "D:\\whynot17\\dinp_stage2_production_env",
+  "path_entries_added": [
+    "D:\\whynot17\\dinp_stage2_production_env",
+    "D:\\whynot17\\dinp_stage2_production_env\\Scripts"
+  ],
+  "tools": {
+    "python": "D:\\whynot17\\dinp_stage2_production_env\\Scripts\\python.exe",
+    "vina": "D:\\whynot17\\dinp_stage2_production_env\\Scripts\\vina.exe",
+    "obabel": null,
+    "mk_prepare_ligand": "D:\\whynot17\\dinp_stage2_production_env\\Scripts\\mk_prepare_ligand.exe",
+    "mk_prepare_receptor": "D:\\whynot17\\dinp_stage2_production_env\\Scripts\\mk_prepare_receptor.exe",
+    "prepare_receptor4": null
+  },
+  "targets": [
+    "PTGER4",
+    "CXCR4",
+    "MMP9",
+    "STAT3"
+  ],
+  "conformers": 50,
+  "stage2_script": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\run_stage2_docking.py",
+  "command": [
+    "D:\\whynot17\\dinp_stage2_production_env\\Scripts\\python.exe",
+    "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\run_stage2_docking.py",
+    "--selected",
+    "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\structures\\selected_structures.json",
+    "--config",
+    "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\config.json",
+    "--conformers",
+    "50",
+    "--targets",
+    "PTGER4",
+    "CXCR4",
+    "MMP9",
+    "STAT3"
+  ],
+  "returncode": 0,
+  "real_docking_rows": 3,
+  "real_docking": [
+    {
+      "target": "CXCR4",
+      "pdb": "3ODU",
+      "best_affinity_kcal_mol": -5.499
+    },
+    {
+      "target": "STAT3",
+      "pdb": "6NJS",
+      "best_affinity_kcal_mol": -4.022
+    },
+    {
+      "target": "MMP9",
+      "pdb": "6ESM",
+      "best_affinity_kcal_mol": -3.995
+    }
+  ]
+}

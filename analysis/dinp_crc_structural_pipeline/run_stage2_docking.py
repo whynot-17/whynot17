@@ -40,7 +40,7 @@ except Exception as exc:  # pragma: no cover
     raise SystemExit("RDKit is required for Stage 2 ligand generation") from exc
 
 try:
-    from Bio.PDB import PDBParser, MMCIFParser
+    from Bio.PDB import PDBParser, MMCIFParser, PDBIO
 except Exception as exc:  # pragma: no cover
     raise SystemExit("Biopython is required for receptor/pocket parsing") from exc
 
@@ -198,7 +198,7 @@ def choose_binary(names: Iterable[str]) -> Optional[str]:
 
 
 def prepare_ligand_pdbqt(sdf: Path, out_pdbqt: Path) -> Tuple[bool, str]:
-    meeko = choose_binary(["mk_prepare_ligand.py"])
+    meeko = choose_binary(["mk_prepare_ligand.exe", "mk_prepare_ligand.py", "mk_prepare_ligand"])
     if meeko:
         cp = run([meeko, "-i", str(sdf), "-o", str(out_pdbqt)], check=False)
         if cp.returncode == 0 and out_pdbqt.exists():
@@ -212,11 +212,34 @@ def prepare_ligand_pdbqt(sdf: Path, out_pdbqt: Path) -> Tuple[bool, str]:
 
 
 def prepare_receptor_pdbqt(receptor: Path, out_pdbqt: Path) -> Tuple[bool, str]:
-    meeko = choose_binary(["mk_prepare_receptor.py"])
+    meeko = choose_binary(["mk_prepare_receptor.exe", "mk_prepare_receptor.py", "mk_prepare_receptor"])
     if meeko:
-        cp = run([meeko, "-i", str(receptor), "-o", str(out_pdbqt)], check=False)
+        prep_input = receptor
+        if receptor.suffix.lower() == ".cif":
+            # Meeko's --read_pdb route is more reproducible here than relying
+            # on an optional ProDy mmCIF parser. Preserve the original mmCIF
+            # and create a local conversion only for receptor preparation.
+            prep_input = receptor.with_suffix(".converted.pdb")
+            try:
+                structure = MMCIFParser(QUIET=True).get_structure(receptor.stem, str(receptor))
+                io = PDBIO()
+                io.set_structure(structure)
+                io.save(str(prep_input))
+            except Exception:
+                prep_input = receptor
+        if prep_input.suffix.lower() == ".pdb":
+            cmd = [
+                meeko, "--read_pdb", str(prep_input), "-p", str(out_pdbqt),
+                "--delete_bad_res", "--default_altloc", "A",
+            ]
+        else:
+            cmd = [
+                meeko, "-i", str(prep_input), "-p", str(out_pdbqt),
+                "--delete_bad_res", "--default_altloc", "A",
+            ]
+        cp = run(cmd, check=False)
         if cp.returncode == 0 and out_pdbqt.exists():
-            return True, "Meeko mk_prepare_receptor.py"
+            return True, "Meeko mk_prepare_receptor (delete_bad_res; default_altloc=A)"
     prep = choose_binary(["prepare_receptor4.py"])
     if prep and receptor.suffix.lower() == ".pdb":
         cp = run([prep, "-r", str(receptor), "-o", str(out_pdbqt), "-A", "hydrogens"], check=False)
@@ -227,7 +250,7 @@ def prepare_receptor_pdbqt(receptor: Path, out_pdbqt: Path) -> Tuple[bool, str]:
 
 def run_vina(receptor: Path, ligand: Path, box: Dict, out_pose: Path, log_path: Path,
              exhaustiveness: int, num_modes: int) -> Dict:
-    vina = choose_binary(["vina"])
+    vina = choose_binary(["vina.exe", "vina"])
     if not vina:
         return {"status": "skipped", "reason": "vina executable not found"}
     c = box["center"]
