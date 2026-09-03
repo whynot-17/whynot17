@@ -1,0 +1,143 @@
+{
+  "source": "g:Profiler human GO/KEGG annotation",
+  "endpoint": "https://biit.cs.ut.ee/gprofiler/api/gost/profile/",
+  "release": "e114_eg62_p19_27110d83",
+  "query_gene_count": 81,
+  "query_gene_sha256": "3b104a7a29b3498b2ccb9e5ee3a2741be5fbdc3cbe13763c10b614a65eabb85c",
+  "membership_rule": "gene is mapped to the query-order intersection for the exact term ID; no term was added because of macrophage results",
+  "terms": [
+    {
+      "term_id": "GO:0006693",
+      "source": "GO:BP",
+      "term_name": "prostaglandin metabolic process",
+      "category": "prostaglandin_AA_inflammation",
+      "genes": [
+        "AKR1C1",
+        "AKR1C3",
+        "HPGD",
+        "PLA2G4A",
+        "PTGES",
+        "PTGES2",
+        "PTGES3",
+        "PTGS1",
+        "PTGS2",
+        "SIRT1"
+      ]
+    },
+    {
+      "term_id": "GO:0001516",
+      "source": "GO:BP",
+      "term_name": "prostaglandin biosynthetic process",
+      "category": "prostaglandin_AA_inflammation",
+      "genes": [
+        "PLA2G4A",
+        "PTGES",
+        "PTGES2",
+        "PTGES3",
+        "PTGS1",
+        "PTGS2",
+        "SIRT1"
+      ]
+    },
+    {
+      "term_id": "KEGG:00590",
+      "source": "KEGG",
+      "term_name": "Arachidonic acid metabolism",
+      "category": "prostaglandin_AA_inflammation",
+      "genes": [
+        "AKR1C3",
+        "HPGD",
+        "PLA2G4A",
+        "PTGES",
+        "PTGES2",
+        "PTGES3",
+        "PTGS1",
+        "PTGS2"
+      ]
+    },
+    {
+      "term_id": "GO:0006954",
+      "source": "GO:BP",
+      "term_name": "inflammatory response",
+      "category": "prostaglandin_AA_inflammation",
+      "genes": [
+        "AHSG",
+        "CCL20",
+        "CRP",
+        "CXCL13",
+        "CXCR4",
+        "ESR1",
+        "MMP9",
+        "NEAT1",
+        "NR3C1",
+        "PPARA",
+        "PPARD",
+        "PPARG",
+        "PTGER1",
+        "PTGER2",
+        "PTGER3",
+        "PTGER4",
+        "PTGES",
+        "PTGFR",
+        "PTGS2",
+        "PTX3",
+        "RELA",
+        "SIRT2",
+        "STAT3",
+        "TIMP1",
+        "TNC"
+      ]
+    },
+    {
+      "term_id": "GO:0004879",
+      "source": "GO:MF",
+      "term_name": "nuclear receptor activity",
+      "category": "nuclear_receptor",
+      "genes": [
+        "ESR1",
+        "NR1I2",
+        "NR1I3",
+        "NR3C1",
+        "PGR",
+        "PPARA",
+        "PPARD",
+        "PPARG",
+        "RXRA",
+        "RXRB",
+        "STAT3"
+      ]
+    },
+    {
+      "term_id": "GO:0009410",
+      "source": "GO:BP",
+      "term_name": "response to xenobiotic stimulus",
+      "category": "xenobiotic",
+      "genes": [
+        "ABCC4",
+        "AKR1C1",
+        "ATG5",
+        "BECN1",
+        "CA9",
+        "CPS1",
+        "CYP2A6",
+        "GSTA2",
+        "MMP2",
+        "NR1I2",
+        "PPARG"
+      ]
+    },
+    {
+      "term_id": "GO:0006805",
+      "source": "GO:BP",
+      "term_name": "xenobiotic metabolic process",
+      "category": "xenobiotic",
+      "genes": [
+        "ABCC4",
+        "AKR1C1",
+        "CYP2A6",
+        "GSTA2",
+        "NR1I2"
+      ]
+    }
+  ]
+}

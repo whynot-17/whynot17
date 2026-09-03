@@ -1,0 +1,182 @@
+{
+  "analysis": "Frozen 81-gene DINP-CRC macrophage driver decomposition",
+  "run_timestamp_utc": "2026-09-03T07:24:49.691949+00:00",
+  "input_gene_file": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_multi_database_target_convergence\\outputs\\dinp_crc_intersection.csv",
+  "input_gene_count": 81,
+  "input_gene_sha256": "3b104a7a29b3498b2ccb9e5ee3a2741be5fbdc3cbe13763c10b614a65eabb85c",
+  "source_h5ad": "D:\\mcop and CRC\\cellxgene_census\\2025-11-08\\16023185-de21-4c0d-a9c8-73abdd52d142.h5ad",
+  "source_h5ad_sha256": "cb1abf4e714ec4a0e633e46c420e16f0df2047953b93a5162a516905d6c1e992",
+  "source_h5ad_bytes": 3759324000,
+  "census_version": "2025-11-08",
+  "source_shape": [
+    370115,
+    38361
+  ],
+  "expression_matrix": "adata.X (non-raw source matrix); adata.raw was not used",
+  "primary_filter": "is_primary_data == True; cell_type == macrophage; disease in {colon adenocarcinoma, normal}; donor_id present",
+  "eligible_macrophage_cells": 20280,
+  "paired_donor_count": 35,
+  "unit_of_inference": "donor-level macrophage gene means; paired tumor-minus-normal contrasts",
+  "cell_level_use": "cell-level values used only for detection prevalence; not used as independent inferential replicates",
+  "multiple_testing": "BH-FDR across 81 paired gene-level t-tests; Wilcoxon FDR reported separately",
+  "primary_driver_rule": "positive paired mean delta AND paired_t_BH_FDR < 0.05 AND tumor detection fraction >= 0.25",
+  "pathway_gate": "at least one exact prior g:Profiler term in prostaglandin/arachidonic-acid/inflammatory category",
+  "candidate_label_boundary": "network-prioritized candidate; not a causal driver",
+  "pathway_membership_source": {
+    "source": "g:Profiler human GO/KEGG annotation",
+    "endpoint": "https://biit.cs.ut.ee/gprofiler/api/gost/profile/",
+    "release": "e114_eg62_p19_27110d83",
+    "query_gene_count": 81,
+    "query_gene_sha256": "3b104a7a29b3498b2ccb9e5ee3a2741be5fbdc3cbe13763c10b614a65eabb85c",
+    "membership_rule": "gene is mapped to the query-order intersection for the exact term ID; no term was added because of macrophage results",
+    "terms": [
+      {
+        "term_id": "GO:0006693",
+        "source": "GO:BP",
+        "term_name": "prostaglandin metabolic process",
+        "category": "prostaglandin_AA_inflammation",
+        "genes": [
+          "AKR1C1",
+          "AKR1C3",
+          "HPGD",
+          "PLA2G4A",
+          "PTGES",
+          "PTGES2",
+          "PTGES3",
+          "PTGS1",
+          "PTGS2",
+          "SIRT1"
+        ]
+      },
+      {
+        "term_id": "GO:0001516",
+        "source": "GO:BP",
+        "term_name": "prostaglandin biosynthetic process",
+        "category": "prostaglandin_AA_inflammation",
+        "genes": [
+          "PLA2G4A",
+          "PTGES",
+          "PTGES2",
+          "PTGES3",
+          "PTGS1",
+          "PTGS2",
+          "SIRT1"
+        ]
+      },
+      {
+        "term_id": "KEGG:00590",
+        "source": "KEGG",
+        "term_name": "Arachidonic acid metabolism",
+        "category": "prostaglandin_AA_inflammation",
+        "genes": [
+          "AKR1C3",
+          "HPGD",
+          "PLA2G4A",
+          "PTGES",
+          "PTGES2",
+          "PTGES3",
+          "PTGS1",
+          "PTGS2"
+        ]
+      },
+      {
+        "term_id": "GO:0006954",
+        "source": "GO:BP",
+        "term_name": "inflammatory response",
+        "category": "prostaglandin_AA_inflammation",
+        "genes": [
+          "AHSG",
+          "CCL20",
+          "CRP",
+          "CXCL13",
+          "CXCR4",
+          "ESR1",
+          "MMP9",
+          "NEAT1",
+          "NR3C1",
+          "PPARA",
+          "PPARD",
+          "PPARG",
+          "PTGER1",
+          "PTGER2",
+          "PTGER3",
+          "PTGER4",
+          "PTGES",
+          "PTGFR",
+          "PTGS2",
+          "PTX3",
+          "RELA",
+          "SIRT2",
+          "STAT3",
+          "TIMP1",
+          "TNC"
+        ]
+      },
+      {
+        "term_id": "GO:0004879",
+        "source": "GO:MF",
+        "term_name": "nuclear receptor activity",
+        "category": "nuclear_receptor",
+        "genes": [
+          "ESR1",
+          "NR1I2",
+          "NR1I3",
+          "NR3C1",
+          "PGR",
+          "PPARA",
+          "PPARD",
+          "PPARG",
+          "RXRA",
+          "RXRB",
+          "STAT3"
+        ]
+      },
+      {
+        "term_id": "GO:0009410",
+        "source": "GO:BP",
+        "term_name": "response to xenobiotic stimulus",
+        "category": "xenobiotic",
+        "genes": [
+          "ABCC4",
+          "AKR1C1",
+          "ATG5",
+          "BECN1",
+          "CA9",
+          "CPS1",
+          "CYP2A6",
+          "GSTA2",
+          "MMP2",
+          "NR1I2",
+          "PPARG"
+        ]
+      },
+      {
+        "term_id": "GO:0006805",
+        "source": "GO:BP",
+        "term_name": "xenobiotic metabolic process",
+        "category": "xenobiotic",
+        "genes": [
+          "ABCC4",
+          "AKR1C1",
+          "CYP2A6",
+          "GSTA2",
+          "NR1I2"
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_81gene_macrophage_driver_decomposition\\outputs\\input_81_genes.csv",
+    "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_81gene_macrophage_driver_decomposition\\outputs\\macrophage_donor_gene_deltas.csv",
+    "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_81gene_macrophage_driver_decomposition\\outputs\\macrophage_donor_gene_means.csv",
+    "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_81gene_macrophage_driver_decomposition\\outputs\\macrophage_driver_candidates.csv",
+    "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_81gene_macrophage_driver_decomposition\\outputs\\macrophage_gene_driver_stats.csv",
+    "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_81gene_macrophage_driver_decomposition\\outputs\\macrophage_top10_network_priority_genes.csv",
+    "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_81gene_macrophage_driver_decomposition\\outputs\\pathway_membership_audit.csv"
+  ],
+  "counts": {
+    "primary_statistical_eligible": 18,
+    "network_priority_eligible": 7,
+    "top10_candidates": 7
+  }
+}

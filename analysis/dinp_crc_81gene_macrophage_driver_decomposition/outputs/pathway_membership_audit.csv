@@ -1,0 +1,78 @@
+gene_symbol,term_id,source,term_name,pathway_category
+AKR1C1,GO:0006693,GO:BP,prostaglandin metabolic process,prostaglandin_AA_inflammation
+AKR1C3,GO:0006693,GO:BP,prostaglandin metabolic process,prostaglandin_AA_inflammation
+HPGD,GO:0006693,GO:BP,prostaglandin metabolic process,prostaglandin_AA_inflammation
+PLA2G4A,GO:0006693,GO:BP,prostaglandin metabolic process,prostaglandin_AA_inflammation
+PTGES,GO:0006693,GO:BP,prostaglandin metabolic process,prostaglandin_AA_inflammation
+PTGES2,GO:0006693,GO:BP,prostaglandin metabolic process,prostaglandin_AA_inflammation
+PTGES3,GO:0006693,GO:BP,prostaglandin metabolic process,prostaglandin_AA_inflammation
+PTGS1,GO:0006693,GO:BP,prostaglandin metabolic process,prostaglandin_AA_inflammation
+PTGS2,GO:0006693,GO:BP,prostaglandin metabolic process,prostaglandin_AA_inflammation
+SIRT1,GO:0006693,GO:BP,prostaglandin metabolic process,prostaglandin_AA_inflammation
+PLA2G4A,GO:0001516,GO:BP,prostaglandin biosynthetic process,prostaglandin_AA_inflammation
+PTGES,GO:0001516,GO:BP,prostaglandin biosynthetic process,prostaglandin_AA_inflammation
+PTGES2,GO:0001516,GO:BP,prostaglandin biosynthetic process,prostaglandin_AA_inflammation
+PTGES3,GO:0001516,GO:BP,prostaglandin biosynthetic process,prostaglandin_AA_inflammation
+PTGS1,GO:0001516,GO:BP,prostaglandin biosynthetic process,prostaglandin_AA_inflammation
+PTGS2,GO:0001516,GO:BP,prostaglandin biosynthetic process,prostaglandin_AA_inflammation
+SIRT1,GO:0001516,GO:BP,prostaglandin biosynthetic process,prostaglandin_AA_inflammation
+AKR1C3,KEGG:00590,KEGG,Arachidonic acid metabolism,prostaglandin_AA_inflammation
+HPGD,KEGG:00590,KEGG,Arachidonic acid metabolism,prostaglandin_AA_inflammation
+PLA2G4A,KEGG:00590,KEGG,Arachidonic acid metabolism,prostaglandin_AA_inflammation
+PTGES,KEGG:00590,KEGG,Arachidonic acid metabolism,prostaglandin_AA_inflammation
+PTGES2,KEGG:00590,KEGG,Arachidonic acid metabolism,prostaglandin_AA_inflammation
+PTGES3,KEGG:00590,KEGG,Arachidonic acid metabolism,prostaglandin_AA_inflammation
+PTGS1,KEGG:00590,KEGG,Arachidonic acid metabolism,prostaglandin_AA_inflammation
+PTGS2,KEGG:00590,KEGG,Arachidonic acid metabolism,prostaglandin_AA_inflammation
+AHSG,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+CCL20,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+CRP,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+CXCL13,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+CXCR4,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+ESR1,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+MMP9,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+NEAT1,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+NR3C1,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+PPARA,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+PPARD,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+PPARG,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+PTGER1,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+PTGER2,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+PTGER3,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+PTGER4,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+PTGES,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+PTGFR,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+PTGS2,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+PTX3,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+RELA,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+SIRT2,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+STAT3,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+TIMP1,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+TNC,GO:0006954,GO:BP,inflammatory response,prostaglandin_AA_inflammation
+ESR1,GO:0004879,GO:MF,nuclear receptor activity,nuclear_receptor
+NR1I2,GO:0004879,GO:MF,nuclear receptor activity,nuclear_receptor
+NR1I3,GO:0004879,GO:MF,nuclear receptor activity,nuclear_receptor
+NR3C1,GO:0004879,GO:MF,nuclear receptor activity,nuclear_receptor
+PGR,GO:0004879,GO:MF,nuclear receptor activity,nuclear_receptor
+PPARA,GO:0004879,GO:MF,nuclear receptor activity,nuclear_receptor
+PPARD,GO:0004879,GO:MF,nuclear receptor activity,nuclear_receptor
+PPARG,GO:0004879,GO:MF,nuclear receptor activity,nuclear_receptor
+RXRA,GO:0004879,GO:MF,nuclear receptor activity,nuclear_receptor
+RXRB,GO:0004879,GO:MF,nuclear receptor activity,nuclear_receptor
+STAT3,GO:0004879,GO:MF,nuclear receptor activity,nuclear_receptor
+ABCC4,GO:0009410,GO:BP,response to xenobiotic stimulus,xenobiotic
+AKR1C1,GO:0009410,GO:BP,response to xenobiotic stimulus,xenobiotic
+ATG5,GO:0009410,GO:BP,response to xenobiotic stimulus,xenobiotic
+BECN1,GO:0009410,GO:BP,response to xenobiotic stimulus,xenobiotic
+CA9,GO:0009410,GO:BP,response to xenobiotic stimulus,xenobiotic
+CPS1,GO:0009410,GO:BP,response to xenobiotic stimulus,xenobiotic
+CYP2A6,GO:0009410,GO:BP,response to xenobiotic stimulus,xenobiotic
+GSTA2,GO:0009410,GO:BP,response to xenobiotic stimulus,xenobiotic
+MMP2,GO:0009410,GO:BP,response to xenobiotic stimulus,xenobiotic
+NR1I2,GO:0009410,GO:BP,response to xenobiotic stimulus,xenobiotic
+PPARG,GO:0009410,GO:BP,response to xenobiotic stimulus,xenobiotic
+ABCC4,GO:0006805,GO:BP,xenobiotic metabolic process,xenobiotic
+AKR1C1,GO:0006805,GO:BP,xenobiotic metabolic process,xenobiotic
+CYP2A6,GO:0006805,GO:BP,xenobiotic metabolic process,xenobiotic
+GSTA2,GO:0006805,GO:BP,xenobiotic metabolic process,xenobiotic
+NR1I2,GO:0006805,GO:BP,xenobiotic metabolic process,xenobiotic
