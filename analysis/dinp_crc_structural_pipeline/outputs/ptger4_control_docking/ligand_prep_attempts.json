@@ -1,0 +1,14 @@
+[
+  {
+    "cmd": [
+      "D:\\whynot17\\dinp_stage2_production_env\\Scripts\\mk_prepare_ligand.exe",
+      "-i",
+      "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\ptger4_control_docking\\PTGER4_9JQZ_cocrystal_ligand.sdf",
+      "-o",
+      "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\ptger4_control_docking\\PTGER4_control_ligand.pdbqt"
+    ],
+    "returncode": 0,
+    "stdout": "Input molecules processed: 1, skipped: 0\nPDBQT files written: 1\nPDBQT files not written due to error: 0\nInput molecules with errors: 0\n",
+    "stderr": ""
+  }
+]

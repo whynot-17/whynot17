@@ -24,8 +24,10 @@ import json
 import math
 import os
 from pathlib import Path
+import re
 import shutil
 import subprocess
+import sys
 from typing import Dict, List, Optional, Tuple
 
 from Bio.PDB import MMCIFParser, PDBIO, Select
@@ -190,9 +192,93 @@ def extract_nearest_cocrystal_ligand(cif: Path, center: List[float], out_pdb: Pa
     return report
 
 
-def convert_pdb_to_sdf(obabel: str, pdb: Path, sdf: Path) -> bool:
-    cp = run([obabel, str(pdb), "-O", str(sdf)])
-    (OUT / "crystal_ligand_conversion.log").write_text(cp.stdout + "\n" + cp.stderr, encoding="utf-8")
+def convert_pdb_to_sdf(obabel: str, pdb: Path, sdf: Path, cif: Path, comp_id: str) -> bool:
+    """Convert the extracted ligand while preserving a usable bond graph.
+
+    Biopython PDBIO output may omit CONECT records and aligned element
+    columns. OpenBabel can then create a coordinate-only SDF, which Meeko
+    rejects because the molecule has implicit hydrogens. The mmCIF chemical
+    component dictionary contains the authoritative atom/bond graph, so use
+    it to reconstruct the extracted ligand and retain the observed crystal
+    coordinates. OpenBabel remains an auditable fallback.
+    """
+    graph_error = None
+    try:
+        import gemmi
+
+        atom_rows = []
+        for line in pdb.read_text(encoding="utf-8", errors="ignore").splitlines():
+            if not line.startswith(("ATOM", "HETATM")):
+                continue
+            atom_name = line[12:16].strip()
+            element = line[76:78].strip() or atom_name[:1]
+            # The five-character A1ECR residue identifier shifts the usual
+            # PDB coordinate columns in Biopython's output. Extract the first
+            # three decimal coordinates instead of assuming fixed columns.
+            decimal_fields = re.findall(r"[-+]?\d+\.\d+", line)
+            if len(decimal_fields) < 3:
+                raise ValueError(f"Could not parse coordinates for {atom_name}")
+            atom_rows.append((atom_name, element, tuple(float(x) for x in decimal_fields[:3])))
+        if not atom_rows:
+            raise ValueError("No ligand atoms found in extracted PDB")
+
+        block = gemmi.cif.read(str(cif)).sole_block()
+        atom_table = block.find("_chem_comp_atom.", ["comp_id", "atom_id", "type_symbol"])
+        bond_table = block.find("_chem_comp_bond.", ["comp_id", "atom_id_1", "atom_id_2", "value_order"])
+        atom_types = {str(row[1]).strip(): str(row[2]).strip() for row in atom_table if str(row[0]).strip() == comp_id}
+        bonds = [
+            (str(row[1]).strip(), str(row[2]).strip(), str(row[3]).strip())
+            for row in bond_table if str(row[0]).strip() == comp_id
+        ]
+        if not atom_types or not bonds:
+            raise ValueError(f"No chemical-component graph found for {comp_id}")
+
+        rw = Chem.RWMol()
+        atom_indices = {}
+        for atom_name, element, _coords in atom_rows:
+            symbol = atom_types.get(atom_name, element)
+            idx = rw.AddAtom(Chem.Atom(symbol))
+            atom_indices[atom_name] = idx
+        bond_types = {
+            "sing": Chem.BondType.SINGLE,
+            "doub": Chem.BondType.DOUBLE,
+            "trip": Chem.BondType.TRIPLE,
+            "arom": Chem.BondType.AROMATIC,
+        }
+        for atom_1, atom_2, order in bonds:
+            if atom_1 in atom_indices and atom_2 in atom_indices:
+                rw.AddBond(atom_indices[atom_1], atom_indices[atom_2], bond_types.get(order, Chem.BondType.SINGLE))
+        mol = rw.GetMol()
+        Chem.SanitizeMol(mol)
+        conf = Chem.Conformer(mol.GetNumAtoms())
+        for atom_name, _element, coords in atom_rows:
+            conf.SetAtomPosition(atom_indices[atom_name], coords)
+        mol.AddConformer(conf, assignId=True)
+        mol = Chem.AddHs(mol, addCoords=True)
+        writer = Chem.SDWriter(str(sdf))
+        writer.write(mol)
+        writer.close()
+        if sdf.exists() and sdf.stat().st_size > 0:
+            (OUT / "crystal_ligand_conversion.log").write_text(
+                f"Gemmi chemical-component graph ({comp_id}) + observed PDB coordinates; explicit H atoms added.\n",
+                encoding="utf-8",
+            )
+            return True
+    except Exception as exc:
+        graph_error = str(exc)
+
+    if not obabel:
+        (OUT / "crystal_ligand_conversion.log").write_text(
+            f"Graph reconstruction failed: {graph_error}\nOpenBabel unavailable.\n",
+            encoding="utf-8",
+        )
+        return False
+    cp = run([obabel, str(pdb), "-O", str(sdf), "-h"])
+    (OUT / "crystal_ligand_conversion.log").write_text(
+        f"Graph reconstruction failed: {graph_error}\n"
+        "OpenBabel fallback:\n" + cp.stdout + "\n" + cp.stderr,
+        encoding="utf-8",
+    )
     return cp.returncode == 0 and sdf.exists() and sdf.stat().st_size > 0
 
 
@@ -279,6 +365,13 @@ def main():
     ap.add_argument("--num-modes", type=int, default=20)
     args = ap.parse_args()
 
+    # Keep the final audit print portable on Windows consoles whose legacy
+    # code page cannot encode the Unicode minus sign used in the summary.
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
     prepend_runtime_path()
     vina = which(["vina.exe", "vina"])
     obabel = which(["obabel.exe", "obabel"])
@@ -304,7 +397,7 @@ def main():
     crystal_sdf = OUT / "PTGER4_9JQZ_cocrystal_ligand.sdf"
     control_pdbqt = OUT / "PTGER4_control_ligand.pdbqt"
     ligand_info = extract_nearest_cocrystal_ligand(cif, center, crystal_pdb)
-    if not convert_pdb_to_sdf(obabel, crystal_pdb, crystal_sdf):
+    if not convert_pdb_to_sdf(obabel, crystal_pdb, crystal_sdf, cif, ligand_info["resname"]):
         raise RuntimeError("Could not convert PTGER4 crystal ligand PDB to SDF")
     if not prepare_ligand(mklig, crystal_sdf, control_pdbqt):
         raise RuntimeError("Could not prepare PTGER4 co-crystal ligand with Meeko")

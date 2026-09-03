@@ -1,0 +1,53 @@
+{
+  "target": "PTGER4",
+  "structure": "9JQZ",
+  "control_ligand": {
+    "chain": "A",
+    "resname": "A1ECR",
+    "heavy_atoms": 35,
+    "centroid": [
+      128.29437125069754,
+      137.6073713030134,
+      132.8605721609933
+    ],
+    "distance_to_pocket_center_A": 3.392696088844386e-05,
+    "residue_id": [
+      "H_A1ECR",
+      "401",
+      " "
+    ],
+    "all_candidates": [
+      {
+        "chain": "A",
+        "resname": "A1ECR",
+        "heavy_atoms": 35,
+        "centroid": [
+          128.29437125069754,
+          137.6073713030134,
+          132.8605721609933
+        ],
+        "distance_to_pocket_center_A": 3.392696088844386e-05
+      }
+    ]
+  },
+  "receptor": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_structural_pipeline\\outputs\\stage2_refine_and_rescue\\ptger4_rescue\\PTGER4_9JQZ_rescued_receptor.pdbqt",
+  "pocket_center": [
+    128.2943572998047,
+    137.60739135742188,
+    132.860595703125
+  ],
+  "pocket_size": [
+    26.20448159313978,
+    26.20448159313978,
+    26.20448159313978
+  ],
+  "exhaustiveness": 32,
+  "seed": 590836,
+  "num_modes": 20,
+  "control_affinity_kcal_mol": -10.9,
+  "dinp_affinity_kcal_mol": -7.429,
+  "dinp_minus_control_kcal_mol": 3.471,
+  "control_redocking_rmsd_A": 0.8186817244420719,
+  "qc_pass_lt2A": true,
+  "protocol_selection": "no DINP-based tuning; same receptor, pocket and Vina settings for control and DINP"
+}
