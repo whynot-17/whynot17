@@ -1,0 +1,216 @@
+{
+  "source_receptor_path": "/mnt/d/Codex/projectless-workspaces/2026-08-22/non/work/whynot17/analysis/dinp_crc_structural_pipeline/outputs/stage2_refine_and_rescue/ptger4_rescue/PTGER4_9JQZ_chainA_clean.pdb",
+  "target_receptor_path": "/mnt/d/Codex/projectless-workspaces/2026-08-22/non/work/whynot17/analysis/dinp_crc_structural_pipeline/outputs/ppm_local/9JQZ_PTGER4_PPM_oriented.pdb",
+  "ligand_source_path": "/mnt/d/Codex/projectless-workspaces/2026-08-22/non/work/whynot17/analysis/dinp_crc_structural_pipeline/outputs/stage2_refine_and_rescue/ptger4_rescue/DINP_PTGER4_9JQZ_rescue_pose.pdbqt",
+  "selected_docking_affinity_kcal_mol": -7.429,
+  "ptger4_control_audit": "/mnt/d/Codex/projectless-workspaces/2026-08-22/non/work/whynot17/analysis/dinp_crc_structural_pipeline/outputs/ptger4_control_docking/audit.json",
+  "matched_atom_count": 2209,
+  "matching_key": "chain ID + residue number + insertion code + residue name + atom name",
+  "rotation_matrix": [
+    [
+      0.2639509767471675,
+      0.9517836845470939,
+      0.15632562075416417
+    ],
+    [
+      -0.9368653855201187,
+      0.2915316003839336,
+      -0.19311285661970037
+    ],
+    [
+      -0.22937552460638633,
+      -0.09548373582731635,
+      0.9686432392289767
+    ]
+  ],
+  "translation_vector_angstrom": [
+    118.39278390066295,
+    -154.87416810552628,
+    -109.65521991440941
+  ],
+  "receptor_prefit_rmsd_angstrom": 224.45683289972666,
+  "receptor_postfit_rmsd_angstrom": 0.00049246195532816,
+  "git_commit_if_available": "f7eb393317d872d51dd0420ea3b726b4cc2c0d34",
+  "timestamp_utc": "2026-09-04T03:18:11.573881+00:00",
+  "selected_protocol": {
+    "center": [
+      128.294,
+      137.607,
+      132.861
+    ],
+    "size": [
+      26.2045,
+      26.2045,
+      26.2045
+    ],
+    "exhaustiveness": 32,
+    "seed": 590836
+  },
+  "control_protocol": {
+    "center": [
+      128.294,
+      137.607,
+      132.861
+    ],
+    "size": [
+      26.2045,
+      26.2045,
+      26.2045
+    ],
+    "exhaustiveness": 32,
+    "seed": 590836
+  },
+  "same_receptor_pocket_protocol_verified": true,
+  "ligand_atom_name_mapping": [
+    {
+      "output_pdb_atom_name": "C01",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9001
+    },
+    {
+      "output_pdb_atom_name": "C02",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9002
+    },
+    {
+      "output_pdb_atom_name": "C03",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9003
+    },
+    {
+      "output_pdb_atom_name": "C04",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9004
+    },
+    {
+      "output_pdb_atom_name": "C05",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9005
+    },
+    {
+      "output_pdb_atom_name": "C06",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9006
+    },
+    {
+      "output_pdb_atom_name": "C07",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9007
+    },
+    {
+      "output_pdb_atom_name": "O08",
+      "original_pdbqt_atom_name": "O",
+      "serial": 9008
+    },
+    {
+      "output_pdb_atom_name": "O09",
+      "original_pdbqt_atom_name": "O",
+      "serial": 9009
+    },
+    {
+      "output_pdb_atom_name": "C10",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9010
+    },
+    {
+      "output_pdb_atom_name": "C11",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9011
+    },
+    {
+      "output_pdb_atom_name": "C12",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9012
+    },
+    {
+      "output_pdb_atom_name": "C13",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9013
+    },
+    {
+      "output_pdb_atom_name": "C14",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9014
+    },
+    {
+      "output_pdb_atom_name": "C15",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9015
+    },
+    {
+      "output_pdb_atom_name": "C16",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9016
+    },
+    {
+      "output_pdb_atom_name": "C17",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9017
+    },
+    {
+      "output_pdb_atom_name": "C18",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9018
+    },
+    {
+      "output_pdb_atom_name": "C19",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9019
+    },
+    {
+      "output_pdb_atom_name": "O20",
+      "original_pdbqt_atom_name": "O",
+      "serial": 9020
+    },
+    {
+      "output_pdb_atom_name": "O21",
+      "original_pdbqt_atom_name": "O",
+      "serial": 9021
+    },
+    {
+      "output_pdb_atom_name": "C22",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9022
+    },
+    {
+      "output_pdb_atom_name": "C23",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9023
+    },
+    {
+      "output_pdb_atom_name": "C24",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9024
+    },
+    {
+      "output_pdb_atom_name": "C25",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9025
+    },
+    {
+      "output_pdb_atom_name": "C26",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9026
+    },
+    {
+      "output_pdb_atom_name": "C27",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9027
+    },
+    {
+      "output_pdb_atom_name": "C28",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9028
+    },
+    {
+      "output_pdb_atom_name": "C29",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9029
+    },
+    {
+      "output_pdb_atom_name": "C30",
+      "original_pdbqt_atom_name": "C",
+      "serial": 9030
+    }
+  ]
+}
