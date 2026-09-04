@@ -1,0 +1,8 @@
+PPM 3.0 source provenance
+source_url=https://cggit.cc.lehigh.edu/biomembhub/ppm3_server_code.git
+source_commit=5784f088032e5b9fb35147815f67500b8cc94855
+source_branch=main
+recorded_utc=2026-09-04T03:05:47Z
+runtime_root=/mnt/d/whynot17/ppm3_runtime
+compiler=GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+make=GNU Make 4.3

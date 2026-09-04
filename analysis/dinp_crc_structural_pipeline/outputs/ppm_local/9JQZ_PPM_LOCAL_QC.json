@@ -1,0 +1,113 @@
+{
+  "pdb_id": "9JQZ",
+  "source_url": "https://files.rcsb.org/download/9JQZ.cif",
+  "ppm_source_provenance": [
+    "PPM 3.0 source provenance",
+    "source_url=https://cggit.cc.lehigh.edu/biomembhub/ppm3_server_code.git",
+    "source_commit=5784f088032e5b9fb35147815f67500b8cc94855",
+    "source_branch=main",
+    "recorded_utc=2026-09-04T03:05:47Z",
+    "runtime_root=/mnt/d/whynot17/ppm3_runtime",
+    "compiler=GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+    "make=GNU Make 4.3"
+  ],
+  "ppm_exit_code": 0,
+  "input_pdb": "/mnt/d/Codex/projectless-workspaces/2026-08-22/non/work/whynot17/analysis/dinp_crc_structural_pipeline/inputs/ppm/9JQZ_PTGER4_for_PPM.pdb",
+  "oriented_pdb": "/mnt/d/Codex/projectless-workspaces/2026-08-22/non/work/whynot17/analysis/dinp_crc_structural_pipeline/outputs/ppm_local/9JQZ_PTGER4_PPM_oriented.pdb",
+  "input_sha256": "97459ccad1210e79eff1907742ca5468ee143d143705c7038fc5052efd039ba3",
+  "oriented_sha256": "a5a34e513975b726be7e818b47e492049b8163405da434c619f3373f27ea5bc7",
+  "input_chain_ids": [
+    "A"
+  ],
+  "oriented_chain_ids": [
+    "A"
+  ],
+  "oriented_protein_chain_ids": [
+    "A"
+  ],
+  "input_protein_residues": 281,
+  "oriented_protein_residues": 281,
+  "input_atoms": 2209,
+  "oriented_atoms": 2209,
+  "input_protein_atoms": 2209,
+  "oriented_protein_atoms": 2209,
+  "ppm_dummy_atom_count": 495,
+  "input_raw_coordinate_record_count": 2209,
+  "native_raw_coordinate_record_count": 2704,
+  "common_ca_residues": 281,
+  "first_input_residue": "A:SER 16",
+  "last_input_residue": "A:ILE 296",
+  "first_oriented_residue": "A:SER 16",
+  "last_oriented_residue": "A:ILE 296",
+  "input_ca_rigid_alignment_rmsd_angstrom": 0.0004916677563393414,
+  "internal_pairwise_distance_rmsd_angstrom": 0.0004087282905599153,
+  "membrane_type": "PMm (mammalian plasma membrane)",
+  "curvature": "planar",
+  "topology_n_terminus": "out",
+  "include_heteroatoms": false,
+  "membrane_thickness_raw": "32.4",
+  "transfer_energy_raw": "-69.3",
+  "tm_segments_raw": [
+    [
+      "A",
+      "18",
+      "41"
+    ],
+    [
+      "A",
+      "48",
+      "79"
+    ],
+    [
+      "A",
+      "86",
+      "123"
+    ],
+    [
+      "A",
+      "130",
+      "153"
+    ],
+    [
+      "A",
+      "176",
+      "212"
+    ],
+    [
+      "A",
+      "220",
+      "252"
+    ],
+    [
+      "A",
+      "261",
+      "291"
+    ]
+  ],
+  "topology_qc": {
+    "requested_n_terminus": "out",
+    "observed_n_terminus_ca_z_angstrom": 18.718000411987305,
+    "observed_c_terminus_ca_z_angstrom": -15.744999885559082,
+    "n_terminus_on_positive_z_extracellular_side": true,
+    "c_terminus_on_negative_z_side": true,
+    "seven_tm_segments_detected": true,
+    "pass": true
+  },
+  "biopython_readable": true,
+  "mdanalysis": {
+    "readable": true,
+    "atoms": 2209,
+    "residues": 281,
+    "error": ""
+  },
+  "native_mdanalysis": {
+    "readable": false,
+    "atoms": null,
+    "residues": null,
+    "error": "index 2209 is out of bounds for axis 0 with size 2209"
+  },
+  "mdanalysis_qc_view": "temporary protein-only ATOM/TER/END view; native PPM output preserved",
+  "stderr": "Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_UNDERFLOW_FLAG IEEE_DENORMAL",
+  "internal_geometry_preserved": true,
+  "generated_utc": "2026-09-04T03:06:10.493194+00:00"
+}

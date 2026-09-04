@@ -1,0 +1,12 @@
+PPM 3.0 official local build
+build_started_utc=2026-09-04T03:05:47Z
+source_url=https://cggit.cc.lehigh.edu/biomembhub/ppm3_server_code.git
+source_commit=5784f088032e5b9fb35147815f67500b8cc94855
+compiler=GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+make=GNU Make 4.3
+
+make: Entering directory '/mnt/d/whynot17/ppm3_runtime/ppm3_server_code_wsl'
+gfortran -O -g -o immers opm.o min.o rmsd.o solva.o readpdb.o read_small.o watface.o tilting.o locate.o profile.o hbcor.o deftm.o orient.o find_segm.o
+make: Leaving directory '/mnt/d/whynot17/ppm3_runtime/ppm3_server_code_wsl'
+
+build_exit_code=0

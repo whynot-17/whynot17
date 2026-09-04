@@ -1,0 +1,23 @@
+  1 9JQZ_PTGER4_for_PPM.9JQZ_PTGER4_for_PPMo
+ 0 PMm out 9JQZ_PTGER4_for_PPM.pdb                                                         
+    7 possible transmembrane secondary structure segments
+   1 A   18   41  24
+   2 A   48   79  32
+   3 A   86  123  38
+   4 A  130  153  24
+   5 A  176  212  37
+   6 A  220  252  33
+   7 A  261  291  31
+Possible transmembrane protein, checking... 
+N interact. lipids:  26
+#9JQZ;A; 10;18-40,50-74,78,90-116,130-153,155,168-169,180-205,208,224-248,266-288,291-292,295-296
+A  18  40    20.  -16.3
+A  50  74    23.   -6.3
+A  90 116    28.   -2.5
+A 130 153     8.  -13.4
+A 180 205    29.  -16.8
+A 225 248    17.  -12.3
+A 267 288    18.   -4.5
+TMH contribution:   -72.1
+Tilt angle:    6.3
+9JQZ_PTGER emin=   -69.3 thickn= 32.4+- 1.0 tilt=     6.+-    1.
