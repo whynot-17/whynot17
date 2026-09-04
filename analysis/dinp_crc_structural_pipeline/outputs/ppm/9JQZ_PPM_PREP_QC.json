@@ -1,0 +1,241 @@
+{
+  "script": "/mnt/d/Codex/projectless-workspaces/2026-08-22/non/work/whynot17/analysis/dinp_crc_structural_pipeline/prepare_9jqz_for_ppm.py",
+  "pdb_id": "9JQZ",
+  "downloads": {
+    "mmcif": {
+      "url": "https://files.rcsb.org/download/9JQZ.cif",
+      "path": "/mnt/d/Codex/projectless-workspaces/2026-08-22/non/work/whynot17/analysis/dinp_crc_structural_pipeline/inputs/ppm/9JQZ_raw.cif",
+      "downloaded": false,
+      "bytes": 901337,
+      "sha256": "e24e107735e3b66235068309d05846162b05e67e45dc00b348adc7a7e1db5e98"
+    },
+    "pdb_url_checked": "https://files.rcsb.org/download/9JQZ.pdb"
+  },
+  "source_metadata": {
+    "title": "Structural Insights into Selective Antagonism Grapiprant and EP4 Prostaglandin Receptor",
+    "experimental_method": "ELECTRON MICROSCOPY",
+    "resolution_A": 2.65,
+    "struct_keywords": "gpcr, membrane protein/immune system, membrane protein-immune system complex"
+  },
+  "chain_resolution": {
+    "selected_entity_id": "2",
+    "selected_entity_description": "GFP-like fluorescent chromoprotein,Prostaglandin E2 receptor EP4 subtype",
+    "selected_label_asym_ids": [
+      "B"
+    ],
+    "selected_auth_chain": "A",
+    "resolution_evidence": {
+      "uniprot_accession": "P35408",
+      "uniprot_symbol": "PTGER4",
+      "uniprot_reference_rows": [
+        {
+          "ref_id": "2",
+          "db_name": "PDB",
+          "accession": "9JQZ",
+          "entity_id": "2"
+        },
+        {
+          "ref_id": "3",
+          "db_name": "UNP",
+          "accession": "P35408",
+          "entity_id": "2"
+        }
+      ],
+      "entity_description_match": true
+    },
+    "receptor_author_residue_span": {
+      "ref_id": "3",
+      "auth_begin": -1,
+      "auth_end": 321,
+      "strand": "?"
+    },
+    "all_polymer_entities": {
+      "1": {
+        "type": "polymer",
+        "description": "Heavy chain of Fab fragment"
+      },
+      "2": {
+        "type": "polymer",
+        "description": "GFP-like fluorescent chromoprotein,Prostaglandin E2 receptor EP4 subtype"
+      },
+      "3": {
+        "type": "polymer",
+        "description": "Light chain of Fab fragment"
+      },
+      "4": {
+        "type": "non-polymer",
+        "description": "Grapiprant"
+      },
+      "5": {
+        "type": "water",
+        "description": "water"
+      }
+    },
+    "entity_to_label_chains": {
+      "1": [
+        "A"
+      ],
+      "2": [
+        "B"
+      ],
+      "3": [
+        "C"
+      ],
+      "4": [
+        "D"
+      ],
+      "5": [
+        "E"
+      ]
+    },
+    "label_to_auth_chains_with_coordinates": {
+      "A": [
+        "H"
+      ],
+      "B": [
+        "A"
+      ],
+      "C": [
+        "L"
+      ],
+      "D": [
+        "A"
+      ],
+      "E": [
+        "A"
+      ]
+    }
+  },
+  "retained_content": {
+    "protein_residue_count": 281,
+    "coordinate_atom_count": 2209,
+    "first_residue": "SER 16",
+    "last_residue": "ILE 296",
+    "n_terminal_residue": "SER 16",
+    "obvious_7tm_gpcr": true,
+    "obvious_7tm_basis": "The selected entity is explicitly annotated as PTGER4 and the entry keywords identify a GPCR/membrane protein; the retained coordinates also pass the alpha-helix geometry sanity check."
+  },
+  "removed_content": {
+    "other_polymer_chains_removed": [
+      "H",
+      "L"
+    ],
+    "water_removed": [
+      {
+        "name": "water",
+        "comp_id": "HOH"
+      }
+    ],
+    "heteroatom_categories_removed": [
+      {
+        "name": "Grapiprant",
+        "comp_id": "A1ECR"
+      },
+      {
+        "name": "water",
+        "comp_id": "HOH"
+      }
+    ],
+    "nonpolymer_records_in_source": [
+      {
+        "name": "Grapiprant",
+        "comp_id": "A1ECR"
+      },
+      {
+        "name": "water",
+        "comp_id": "HOH"
+      }
+    ]
+  },
+  "parser_qc": {
+    "biopython_re_readable": true,
+    "mdanalysis_re_readable": true,
+    "mdanalysis_error": null,
+    "mdanalysis_status": "passed"
+  },
+  "output_pdb": "/mnt/d/Codex/projectless-workspaces/2026-08-22/non/work/whynot17/analysis/dinp_crc_structural_pipeline/inputs/ppm/9JQZ_PTGER4_for_PPM.pdb",
+  "output_sha256": "97459ccad1210e79eff1907742ca5468ee143d143705c7038fc5052efd039ba3",
+  "output_legal_pdb": true,
+  "output_qc": {
+    "re_readable_by_biopython": true,
+    "chain_ids": [
+      "A"
+    ],
+    "protein_residue_count": 281,
+    "coordinate_atom_count": 2209,
+    "atom_counts": {
+      "total": 2209,
+      "ATOM_like": 2209,
+      "HETATM_like": 0,
+      "hydrogen": 0
+    },
+    "alpha_helix_sanity": {
+      "backbone_triplets_evaluated": 279,
+      "alpha_like_backbone_positions": 229,
+      "alpha_like_fraction": 0.8207885304659498,
+      "alpha_like_runs_at_least_5": 10,
+      "longest_alpha_like_run": 38,
+      "criterion": "phi -100..-30 degrees and psi -85..25 degrees; geometry sanity check, not formal DSSP"
+    },
+    "numbering_qc": {
+      "observed_auth_residue_numbers": [
+        16,
+        296
+      ],
+      "internal_numbering_gap_count": 0,
+      "internal_missing_auth_residue_numbers": [],
+      "annotated_auth_residue_span": [
+        -1,
+        321
+      ],
+      "terminal_missing_auth_residue_numbers": [
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321
+      ],
+      "chain_break_or_missing_residue_detected": true,
+      "interpretation": "Coordinate gaps relative to the annotated span are reported only; no residues are modeled or inserted."
+    }
+  },
+  "ppm_run_performed": false,
+  "md_run_performed": false
+}
