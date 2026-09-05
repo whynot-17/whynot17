@@ -1,0 +1,8 @@
+{
+  "frame_index": 4999,
+  "time_ps": 50000.000149070285,
+  "protein_heavy_atoms_with_ligand_within_4p5A": 120,
+  "ligand_atoms": 72,
+  "protein_heavy_atoms": 2210,
+  "coordinate_nonfinite": false
+}

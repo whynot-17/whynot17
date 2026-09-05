@@ -1,0 +1,14 @@
+{
+  "n_rows": 5023,
+  "time_start_ps": 10.000000000000009,
+  "time_end_ps": 50200.00000930958,
+  "temperature_mean_K_after_0p5ns": 310.29217122299974,
+  "temperature_sd_K_after_0p5ns": 1.098438163296137,
+  "temperature_last_K": 311.78657845633967,
+  "density_mean_g_mL_after_0p5ns": 1.0262826895962123,
+  "density_sd_g_mL_after_0p5ns": 0.0018448187868110963,
+  "density_last_g_mL": 1.028813470728406,
+  "speed_last_ns_day": 62.7,
+  "speed_median_ns_day": 62.7,
+  "coordinate_nonfinite": false
+}
