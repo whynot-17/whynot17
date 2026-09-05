@@ -1,0 +1,16 @@
+{
+  "n_rows": 3004,
+  "time_start_ns": 40.00000000723157,
+  "time_end_ns": 69.99999999710343,
+  "temperature_mean_K": 310.28809562059536,
+  "temperature_sd_K": 1.0832325729367838,
+  "temperature_min_K": 306.14333957636524,
+  "temperature_max_K": 314.23776416883186,
+  "density_mean_g_mL": 1.0264940674531027,
+  "density_sd_g_mL": 0.0017853589879131893,
+  "density_min_g_mL": 1.020654018153906,
+  "density_max_g_mL": 1.0327539949400344,
+  "speed_median_ns_day": 63.5,
+  "speed_start_ns_day": 62.8,
+  "speed_end_ns_day": 63.1
+}

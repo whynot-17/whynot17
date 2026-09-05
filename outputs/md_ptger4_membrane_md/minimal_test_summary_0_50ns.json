@@ -1,0 +1,155 @@
+{
+  "trajectory": "E:/chatgpt/qc_50ns/production.dcd (snapshot through 50.23 ns; analysis window 0.01-50.00 ns)",
+  "definitions": {
+    "core": "UNK heavy atoms C1x-C6x (aromatic ring)",
+    "branch1": "UNK heavy atoms C7x,O1x,O2x,C8x-C16x",
+    "branch2": "UNK heavy atoms C17x,O3x,O4x,C18x-C26x",
+    "pocket": "protein heavy atoms within 4.5 A of the minimized-reference aromatic core",
+    "contact_retention": "fraction of minimized-reference core-pocket atom pairs (4.5 A) still within 4.5 A",
+    "rmsd_alignment": "core RMSD after protein C-alpha fit; each branch RMSD after aromatic-core fit",
+    "com": "whole-DINP COM after protein fit and periodic-image correction"
+  },
+  "reference_pocket_residues": [
+    [
+      73,
+      "THR"
+    ],
+    [
+      77,
+      "TYR"
+    ],
+    [
+      165,
+      "THR"
+    ],
+    [
+      166,
+      "TRP"
+    ],
+    [
+      267,
+      "LEU"
+    ],
+    [
+      270,
+      "ILE"
+    ]
+  ],
+  "reference_pocket_atoms": 13,
+  "reference_core_pocket_pairs": 24,
+  "overall_0_50ns": {
+    "core_internal_rmsd_A": 0.04628497487730787,
+    "core_internal_rmsd_sd_A": 0.012354455281538432,
+    "core_internal_rmsd_max_A": 0.10039895895438117,
+    "core_in_pocket_rmsd_A": 5.080254185994501,
+    "core_in_pocket_rmsd_sd_A": 0.4157881797053905,
+    "core_in_pocket_rmsd_max_A": 6.370635134213516,
+    "branch1_rmsd_A": 7.212124571667777,
+    "branch2_rmsd_A": 9.134400098377071,
+    "com_displacement_A": 0.7292577054023093,
+    "com_displacement_max_A": 2.8320470570306684,
+    "pair_retention": 0.10871666666666666,
+    "residue_contact_fraction": 0.31133333333333335,
+    "nearest_core_pocket_distance_A": 3.5916075097148874,
+    "nearest_distance_le_4p5_fraction": 0.9982
+  },
+  "segment_40_50ns": {
+    "n_frames": 1001,
+    "core_internal_rmsd_A": 0.046840696473247484,
+    "core_internal_rmsd_sd_A": 0.012781651990259352,
+    "core_in_pocket_rmsd_A": 5.2043072789562705,
+    "core_in_pocket_rmsd_sd_A": 0.32187513603478796,
+    "core_in_pocket_rmsd_min_A": 4.068903152583661,
+    "core_in_pocket_rmsd_max_A": 6.204315368292116,
+    "branch1_rmsd_A": 7.652037987021925,
+    "branch1_rmsd_sd_A": 0.588081306597526,
+    "branch2_rmsd_A": 9.651905012239208,
+    "branch2_rmsd_sd_A": 0.5148564562983979,
+    "com_displacement_A": 0.627433797188796,
+    "com_displacement_sd_A": 0.2150383713294078,
+    "com_displacement_max_A": 1.193498537522138,
+    "pair_retention": 0.08233433233433234,
+    "residue_contact_fraction": 0.3016983016983017,
+    "nearest_core_pocket_distance_A": 3.5373329942703617,
+    "nearest_distance_le_4p5_fraction": 0.999000999000999
+  },
+  "exact_50ns": {
+    "core_in_pocket_rmsd_A": 5.357107307330007,
+    "core_internal_rmsd_A": 0.026171865981509005,
+    "branch1_rmsd_A": 7.306962647027393,
+    "branch2_rmsd_A": 10.249438874625552,
+    "com_displacement_A": 0.3306659284508194,
+    "pair_retention": 0.125,
+    "residue_contact_fraction": 0.3333333333333333,
+    "nearest_core_pocket_distance_A": 3.4561953589993255
+  },
+  "interpretation": {
+    "ring_integrity": "Aromatic ring is rigid (internal RMSD mean ~0.046 A, max ~0.100 A).",
+    "branch_behavior": "Both ester/alkyl arms show large core-aligned RMSD, consistent with flexible torsional rearrangement.",
+    "pocket_behavior": "The core moved away from the minimized-reference pose (protein-aligned core RMSD ~5.2 A after 10 ns), while the nearest distance to the reference pocket stayed ~3.5 A and <=4.5 A in ~99.8% of frames. Reference atom-pair retention is low (~11% overall, ~8% at 40-50 ns), so the original contact pattern is not retained even though the ligand remains near the pocket region.",
+    "decision": "No evidence for sustained complete dissociation in 0-50 ns, but this is not a clean low-core-RMSD/high-original-contact-retention case. Treat it as an early pose relocation to a neighboring pocket microstate plus flexible arm motion. Inspect the relocated core pose/contact map before committing to the remaining 100 ns production."
+  },
+  "files": {
+    "summary_json": "E:/chatgpt/qc_dinp_minimal_0_50ns/minimal_test_summary.json",
+    "timeseries_csv": "E:/chatgpt/qc_dinp_minimal_0_50ns/dinp_minimal_timeseries.csv",
+    "core_contacts_csv": "E:/chatgpt/qc_dinp_minimal_0_50ns/core_internal_and_pocket_residue_timeseries.csv"
+  },
+  "windows": {
+    "0-5ns": {
+      "n_frames": 500,
+      "core_in_pocket_mean_A": 4.415940394621522,
+      "core_in_pocket_start_A": 2.071571273913851,
+      "core_in_pocket_end_A": 3.8578823730064395,
+      "branch1_mean_A": 5.79029175318621,
+      "branch2_mean_A": 7.416971108813541,
+      "com_mean_A": 1.467216778111554,
+      "com_max_A": 2.8320470570306684,
+      "pair_retention_mean": 0.11716666666666667,
+      "residue_contact_fraction_mean": 0.2823333333333333,
+      "nearest_mean_A": 3.4421471372886745,
+      "nearest_le_4p5_fraction": 0.996
+    },
+    "5-10ns": {
+      "n_frames": 501,
+      "core_in_pocket_mean_A": 5.037666871117472,
+      "core_in_pocket_start_A": 3.8578823730064395,
+      "core_in_pocket_end_A": 5.369485789872331,
+      "branch1_mean_A": 6.6621125559297285,
+      "branch2_mean_A": 8.889592482913638,
+      "com_mean_A": 0.6191975821205712,
+      "com_max_A": 1.8759696056428559,
+      "pair_retention_mean": 0.12599800399201597,
+      "residue_contact_fraction_mean": 0.3193612774451098,
+      "nearest_mean_A": 3.6299390137617813,
+      "nearest_le_4p5_fraction": 0.998003992015968
+    },
+    "10-50ns": {
+      "n_frames": 4001,
+      "core_in_pocket_mean_A": 5.168372156559552,
+      "core_in_pocket_start_A": 5.369485789872331,
+      "core_in_pocket_end_A": 5.357107307330007,
+      "branch1_mean_A": 7.458250175784697,
+      "branch2_mean_A": 9.379402918213868,
+      "com_mean_A": 0.6507323680973919,
+      "com_max_A": 1.5837048949428525,
+      "pair_retention_mean": 0.10553611597100725,
+      "residue_contact_fraction_mean": 0.31396317587269845,
+      "nearest_mean_A": 3.605288967332514,
+      "nearest_le_4p5_fraction": 0.9985003749062734
+    },
+    "40-50ns": {
+      "n_frames": 1001,
+      "core_in_pocket_mean_A": 5.2043072789562705,
+      "core_in_pocket_start_A": 5.372535081378462,
+      "core_in_pocket_end_A": 5.357107307330007,
+      "branch1_mean_A": 7.652037987021925,
+      "branch2_mean_A": 9.651905012239208,
+      "com_mean_A": 0.627433797188796,
+      "com_max_A": 1.193498537522138,
+      "pair_retention_mean": 0.08233433233433234,
+      "residue_contact_fraction_mean": 0.3016983016983017,
+      "nearest_mean_A": 3.5373329942703617,
+      "nearest_le_4p5_fraction": 0.999000999000999
+    }
+  }
+}

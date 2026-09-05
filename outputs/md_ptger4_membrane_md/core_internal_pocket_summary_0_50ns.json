@@ -1,0 +1,134 @@
+{
+  "reference_pocket_residues": [
+    [
+      73,
+      "THR"
+    ],
+    [
+      77,
+      "TYR"
+    ],
+    [
+      165,
+      "THR"
+    ],
+    [
+      166,
+      "TRP"
+    ],
+    [
+      267,
+      "LEU"
+    ],
+    [
+      270,
+      "ILE"
+    ]
+  ],
+  "reference_pocket_atoms": 13,
+  "reference_core_pocket_pairs": 24,
+  "overall_0_50ns": {
+    "n_frames": 5000,
+    "core_internal_rmsd_mean_A": 0.04628497487730787,
+    "core_internal_rmsd_sd_A": 0.012354455281538432,
+    "core_internal_rmsd_min_A": 0.01299272589991572,
+    "core_internal_rmsd_max_A": 0.10039895895438117,
+    "pair_retention_mean": 0.10871666666666666,
+    "pair_retention_sd": 0.053896924547650576,
+    "pair_retention_min": 0.0,
+    "pair_retention_max": 0.5833333333333334,
+    "residue_contact_fraction_mean": 0.31133333333333335,
+    "residue_contact_fraction_sd": 0.06069104832952001,
+    "residue_contact_fraction_min": 0.0,
+    "residue_contact_fraction_max": 0.8333333333333334,
+    "nearest_distance_mean_A": 3.5916075097148874,
+    "nearest_distance_min_A": 2.7336480188242542,
+    "nearest_distance_max_A": 4.689987285517008,
+    "nearest_le_4p5_fraction": 0.9982
+  },
+  "first_half_0_25ns": {
+    "n_frames": 2500,
+    "core_internal_rmsd_mean_A": 0.04622999722539253,
+    "core_internal_rmsd_sd_A": 0.01227446108415928,
+    "core_internal_rmsd_min_A": 0.01694051662646569,
+    "core_internal_rmsd_max_A": 0.09697775811817182,
+    "pair_retention_mean": 0.12226666666666665,
+    "pair_retention_sd": 0.054396601573735985,
+    "pair_retention_min": 0.0,
+    "pair_retention_max": 0.5833333333333334,
+    "residue_contact_fraction_mean": 0.3122666666666667,
+    "residue_contact_fraction_sd": 0.06291087876530072,
+    "residue_contact_fraction_min": 0.0,
+    "residue_contact_fraction_max": 0.8333333333333334,
+    "nearest_distance_mean_A": 3.614606947420106,
+    "nearest_distance_min_A": 2.8662665892586525,
+    "nearest_distance_max_A": 4.689987285517008,
+    "nearest_le_4p5_fraction": 0.9984
+  },
+  "second_half_25_50ns": {
+    "n_frames": 2501,
+    "core_internal_rmsd_mean_A": 0.046343632638451634,
+    "core_internal_rmsd_sd_A": 0.012435022078829728,
+    "core_internal_rmsd_min_A": 0.01299272589991572,
+    "core_internal_rmsd_max_A": 0.10039895895438117,
+    "pair_retention_mean": 0.09517859522857525,
+    "pair_retention_sd": 0.0498391332398241,
+    "pair_retention_min": 0.0,
+    "pair_retention_max": 0.20833333333333334,
+    "residue_contact_fraction_mean": 0.31040916966546717,
+    "residue_contact_fraction_sd": 0.058374702111019534,
+    "residue_contact_fraction_min": 0.0,
+    "residue_contact_fraction_max": 0.3333333333333333,
+    "nearest_distance_mean_A": 3.568546532579007,
+    "nearest_distance_min_A": 2.7336480188242542,
+    "nearest_distance_max_A": 4.5721602223755715,
+    "nearest_le_4p5_fraction": 0.998000799680128
+  },
+  "segment_40_50ns": {
+    "n_frames": 1001,
+    "core_internal_rmsd_mean_A": 0.046840696473247484,
+    "core_internal_rmsd_sd_A": 0.012781651990259352,
+    "core_internal_rmsd_min_A": 0.017761203026085526,
+    "core_internal_rmsd_max_A": 0.10039895895438117,
+    "pair_retention_mean": 0.08233433233433234,
+    "pair_retention_sd": 0.05253015958159337,
+    "pair_retention_min": 0.0,
+    "pair_retention_max": 0.16666666666666666,
+    "residue_contact_fraction_mean": 0.3016983016983017,
+    "residue_contact_fraction_sd": 0.06581456777611877,
+    "residue_contact_fraction_min": 0.0,
+    "residue_contact_fraction_max": 0.3333333333333333,
+    "nearest_distance_mean_A": 3.5373329942703617,
+    "nearest_distance_min_A": 2.7336480188242542,
+    "nearest_distance_max_A": 4.539949375670099,
+    "nearest_le_4p5_fraction": 0.999000999000999
+  },
+  "nearest_10ns": {
+    "time_ps": 10000.000029814057,
+    "core_internal_rmsd_A": 0.06278209303556646,
+    "pair_retention": 0.16666666666666666,
+    "residue_contact_fraction": 0.3333333333333333,
+    "nearest_distance_A": 3.387850410924939
+  },
+  "nearest_25ns": {
+    "time_ps": 25000.000074535143,
+    "core_internal_rmsd_A": 0.055543905709501754,
+    "pair_retention": 0.125,
+    "residue_contact_fraction": 0.3333333333333333,
+    "nearest_distance_A": 3.4146979559237045
+  },
+  "nearest_40ns": {
+    "time_ps": 40000.00011925623,
+    "core_internal_rmsd_A": 0.04479989796752105,
+    "pair_retention": 0.0,
+    "residue_contact_fraction": 0.16666666666666666,
+    "nearest_distance_A": 3.419299798223709
+  },
+  "nearest_50ns": {
+    "time_ps": 50000.000149070285,
+    "core_internal_rmsd_A": 0.026171865981509005,
+    "pair_retention": 0.125,
+    "residue_contact_fraction": 0.3333333333333333,
+    "nearest_distance_A": 3.4561953589993255
+  }
+}

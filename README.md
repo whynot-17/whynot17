@@ -10,7 +10,7 @@ This repository contains the computational analysis for an oxaliplatin-resistant
 - Phase 7A–7B: GDSC pharmacogenomic validation and trajectory-conditioned DepMap dependency mapping
 - Phase 7C: functional-module convergence across Reactome, Hallmark, curated modules, CORUM and co-essentiality modules
 - Phase 8: module-conditioned GDSC pharmacological convergence
-- PTGER4–DINP membrane MD: 50 ns milestone QC recorded; 100 ns production continues locally (see [`outputs/md_ptger4_membrane_md/`](outputs/md_ptger4_membrane_md/)).
+- PTGER4–DINP membrane MD: 40–70 ns local-reference QC recorded; 100 ns production continues locally (see [`outputs/md_ptger4_membrane_md/`](outputs/md_ptger4_membrane_md/)).
 
 The current working model is intentionally not centered on Meldonium. Meldonium remains an exploratory/failed metabolic hypothesis unless independent pharmacogenomic evidence supports a carnitine-entry dependency.
 
