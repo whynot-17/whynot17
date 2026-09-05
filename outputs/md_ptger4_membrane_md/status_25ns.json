@@ -1,0 +1,18 @@
+{
+  "requested_ns": 25.0,
+  "trajectory_frame_time_ns": 25.0000000745,
+  "live_time_ns": 26.4600000045,
+  "live_speed_ns_day": 64.5,
+  "live_remaining": "1:3:22:08",
+  "current_temperature_K": 310.9955,
+  "current_density_g_ml": 1.02964,
+  "recent_temperature_mean_K": 310.038,
+  "recent_temperature_sd_K": 1.2647,
+  "recent_density_mean_g_ml": 1.02581,
+  "recent_density_sd_g_ml": 0.00233,
+  "protein_ca_rmsd_vs_minimized_A_at_25ns": 1.856,
+  "ligand_rmsd_pbc_corrected_vs_minimized_A_at_25ns": 3.9986,
+  "ligand_com_displacement_A_at_25ns": 0.5578,
+  "coordinate_nonfinite": false,
+  "interpretation": "At 25 ns the protein remains structurally stable; DINP has conformational rearrangement but its COM remains near the minimized binding location. Continue production for long-timescale assessment."
+}

@@ -1,0 +1,23 @@
+{
+  "snapshot_time_ns": 1.6,
+  "source_checkpoint": "E:\\chatgpt\\ptger4_membrane_md_20260904\\production.chk",
+  "live_run_latest_ns": 1.7,
+  "live_speed_ns_day": 62.0,
+  "temperature_mean_K_after_0p5ns": 310.31,
+  "temperature_sd_K_after_0p5ns": 1.15,
+  "temperature_range_K_after_0p5ns": [
+    307.48,
+    313.1
+  ],
+  "density_mean_g_ml_after_0p5ns": 1.02589,
+  "density_sd_g_ml_after_0p5ns": 0.00164,
+  "box_volume_mean_nm3_after_0p5ns": 710.66,
+  "box_volume_sd_nm3_after_0p5ns": 1.13,
+  "production_log_nonfinite": false,
+  "protein_ca_rmsd_vs_minimized_A": 1.3163,
+  "ligand_rmsd_after_protein_fit_vs_minimized_A": 3.9093,
+  "ligand_protein_contacts_4p5A_minimized": 115,
+  "ligand_protein_contacts_4p5A_snapshot": 112,
+  "contact_residue_overlap_fraction": 0.7931,
+  "interpretation": "Numerically stable early trajectory; protein remains close to minimized structure, ligand has rearranged but retains most initial pocket-contact residues. Too short for binding residence/free-energy conclusions."
+}

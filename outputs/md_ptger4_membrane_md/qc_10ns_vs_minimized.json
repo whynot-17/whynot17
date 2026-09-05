@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "n_frames": 1017,
+  "time_start_ps": 10.000000029814057,
+  "time_end_ps": 10170.000030320896,
+  "protein_ca_rmsd_vs_minimized_mean_A": 1.4258215515908885,
+  "protein_ca_rmsd_vs_minimized_last_A": 1.6242809294571643,
+  "protein_ca_rmsd_vs_minimized_max_A": 1.7937494609629074,
+  "ligand_rmsd_pbc_corrected_vs_minimized_mean_A": 3.863639977325159,
+  "ligand_rmsd_pbc_corrected_vs_minimized_last_A": 4.092719631765551,
+  "ligand_rmsd_pbc_corrected_vs_minimized_max_A": 5.01037462991309,
+  "ligand_com_displacement_pbc_corrected_vs_minimized_mean_A": 1.0320130786209316,
+  "ligand_com_displacement_pbc_corrected_vs_minimized_last_A": 0.33863455286030875,
+  "ligand_com_displacement_pbc_corrected_vs_minimized_max_A": 2.8320470570306684,
+  "ligand_protein_contacts_4p5A_mean": 117.38446411012782,
+  "ligand_protein_contacts_4p5A_last": 115,
+  "ligand_protein_contacts_4p5A_min": 98,
+  "ligand_protein_contacts_4p5A_max": 141,
+  "coordinate_nonfinite": false
+}
