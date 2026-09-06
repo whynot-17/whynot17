@@ -1,0 +1,9 @@
+cluster,subtype,confidence,supporting_markers,alternative_label,alternative_supporting_markers,signature_score
+0,SPP1_like_TAM,high,"CTSL,SPP1,CTSB,MMP9",FCN1_inflammatory_monocyte_like,"S100A9,S100A8",0.8673502513340541
+1,resident_like,medium,"FOLR2,CD163,MRC1",SPP1_like_TAM,"CTSB,TREM2,GPNMB,APOC1,CTSL",0.9000712275505067
+2,FCN1_inflammatory_monocyte_like,high,"S100A9,VCAN",SPP1_like_TAM,CTSB,0.4237576047579448
+3,C1QC_like_TAM,high,"APOE,C1QC,C1QB",APOE_lipid_associated,"APOC1,APOE",0.6684195717175802
+4,FCN1_inflammatory_monocyte_like,medium,FCN1,SPP1_like_TAM,,0.30838238398234047
+5,FCN1_inflammatory_monocyte_like,medium,"VCAN,S100A8,S100A9",SPP1_like_TAM,"SPP1,APOC1,GPNMB",0.6888308564821879
+6,resident_like,high,"LYVE1,FOLR2,MRC1,CD163",C1QC_like_TAM,"FOLR2,C1QA,C1QB,C1QC,MRC1",1.666161972284317
+7,C1QC_like_TAM,high,"C1QC,C1QB,C1QA",FCN1_inflammatory_monocyte_like,CTSS,0.7892126321792603

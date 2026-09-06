@@ -1,0 +1,43 @@
+Cell_type,Cell_subtype,included,selection_reason,cell_count,donor_count,tumor_count,normal_count,border_count
+B cells,CD19+CD20+ B,False,non-myeloid compartment excluded,1845,6,470,441,934
+B cells,IgA+ Plasma,False,non-myeloid compartment excluded,2717,6,159,2049,509
+B cells,IgG+ Plasma,False,non-myeloid compartment excluded,105,6,84,4,17
+B cells,Unknown,False,non-myeloid compartment excluded,24,4,12,0,12
+B cells,Unspecified Plasma,False,non-myeloid compartment excluded,211,6,52,110,49
+Epithelial cells,BEST4+ Enterocytes,False,non-myeloid compartment excluded,52,6,0,52,0
+Epithelial cells,CMS1,False,non-myeloid compartment excluded,758,4,758,0,0
+Epithelial cells,CMS2,False,non-myeloid compartment excluded,620,6,620,0,0
+Epithelial cells,CMS3,False,non-myeloid compartment excluded,804,6,804,0,0
+Epithelial cells,CMS4,False,non-myeloid compartment excluded,30,3,30,0,0
+Epithelial cells,Epithelial cells,False,non-myeloid compartment excluded,2812,6,0,0,2812
+Epithelial cells,Goblet cells,False,non-myeloid compartment excluded,165,6,0,165,0
+Epithelial cells,Intermediate,False,non-myeloid compartment excluded,253,6,0,253,0
+Epithelial cells,Mature Enterocytes,False,non-myeloid compartment excluded,153,5,0,153,0
+Epithelial cells,Stem-like/TA,False,non-myeloid compartment excluded,495,6,0,495,0
+Epithelial cells,Tuft cells,False,non-myeloid compartment excluded,26,4,0,26,0
+Mast cells,Mast cells,False,non-myeloid compartment excluded,248,6,78,62,108
+Myeloids,Anti-inflammatory,True,myeloid macrophage-like; cDC excluded,656,6,122,406,128
+Myeloids,Pro-inflammatory,True,myeloid macrophage-like; cDC excluded,704,6,230,265,209
+Myeloids,Proliferating,True,myeloid macrophage-like; cDC excluded,274,6,119,39,116
+Myeloids,SPP1+A,True,myeloid macrophage-like; cDC excluded,103,6,54,1,48
+Myeloids,SPP1+B,True,myeloid macrophage-like; cDC excluded,634,6,298,7,329
+Myeloids,Unknown,True,myeloid macrophage-like; cDC excluded,143,6,55,45,43
+Myeloids,cDC,False,dendritic/cDC excluded,162,6,51,60,51
+Stromal cells,Enteric glial cells,False,non-myeloid compartment excluded,463,6,31,391,41
+Stromal cells,Lymphatic ECs,False,non-myeloid compartment excluded,123,6,37,66,20
+Stromal cells,Myofibroblasts,False,non-myeloid compartment excluded,1226,6,778,26,422
+Stromal cells,Pericytes,False,non-myeloid compartment excluded,438,6,201,72,165
+Stromal cells,Smooth muscle cells,False,non-myeloid compartment excluded,591,6,192,273,126
+Stromal cells,Stalk-like ECs,False,non-myeloid compartment excluded,523,6,225,139,159
+Stromal cells,Stromal 1,False,non-myeloid compartment excluded,692,6,159,417,116
+Stromal cells,Stromal 2,False,non-myeloid compartment excluded,197,6,9,151,37
+Stromal cells,Stromal 3,False,non-myeloid compartment excluded,2467,6,336,1763,368
+Stromal cells,Tip-like ECs,False,non-myeloid compartment excluded,930,6,353,266,311
+T cells,CD4+ T cells,False,non-myeloid compartment excluded,2061,6,654,609,798
+T cells,CD8+ T cells,False,non-myeloid compartment excluded,1326,6,384,503,439
+T cells,NK cells,False,non-myeloid compartment excluded,270,6,80,104,86
+T cells,Regulatory T cells,False,non-myeloid compartment excluded,1111,6,577,46,488
+T cells,T follicular helper cells,False,non-myeloid compartment excluded,259,5,85,21,153
+T cells,T helper 17 cells,False,non-myeloid compartment excluded,312,5,31,116,165
+T cells,Unknown,False,non-myeloid compartment excluded,272,4,120,2,150
+T cells,gamma delta T cells,False,non-myeloid compartment excluded,159,6,6,138,15

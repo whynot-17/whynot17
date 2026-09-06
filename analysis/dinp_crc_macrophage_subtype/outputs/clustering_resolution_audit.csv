@@ -1,0 +1,6 @@
+resolution,n_clusters,min_cluster_cells,median_cluster_cells,min_cluster_donors,n_one_donor_clusters,stability_ari_mean,hvg_n,selected
+0.3,6,232,434.5,4,0,0.6111780577265451,2500,False
+0.5,8,114,342.0,4,0,0.8176986347447339,2500,True
+0.7,12,29,212.0,3,0,0.6895812179797246,2500,False
+0.9,15,31,167.0,3,0,0.6416448475427918,2500,False
+1.1,19,9,114.0,2,0,0.7395697228226545,2500,False

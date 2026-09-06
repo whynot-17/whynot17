@@ -1,0 +1,5 @@
+subtype,paired_donors,mean_tumor_minus_normal,tumor_mean,normal_mean,t_p,wilcoxon_p,direction,fdr_family,t_fdr_bh
+C1QC_like_TAM,6,0.02195904217660427,0.18916098773479462,0.1672019362449646,0.8648933172225952,0.84375,up,paired tumor-normal PTGER4_mean by macrophage subtype,0.8648933172225952
+FCN1_inflammatory_monocyte_like,5,0.05634263902902603,0.17828494310379028,0.12194230407476425,0.3897649943828583,0.625,up,paired tumor-normal PTGER4_mean by macrophage subtype,0.8648933172225952
+SPP1_like_TAM,1,0.10269946604967117,0.10269946604967117,0.0,,,up,paired tumor-normal PTGER4_mean by macrophage subtype,
+resident_like,5,0.020208116620779037,0.07868476212024689,0.05847664549946785,0.7763906121253967,1.0,up,paired tumor-normal PTGER4_mean by macrophage subtype,0.8648933172225952

@@ -1,0 +1,30 @@
+{
+  "normalization": "library-size normalize_total target_sum=1e4 followed by log1p",
+  "hvg_method": "scanpy highly_variable_genes flavor=seurat",
+  "hvg_target": 2500,
+  "hvg_selected": 2500,
+  "pca": {
+    "n_comps": 30,
+    "use_highly_variable": true,
+    "random_state": 0
+  },
+  "neighbors": {
+    "n_neighbors": 15,
+    "metric": "scanpy default",
+    "n_pcs": 30
+  },
+  "umap": {
+    "random_state": 0,
+    "min_dist": 0.35
+  },
+  "leiden_resolutions_explored": [
+    0.3,
+    0.5,
+    0.7,
+    0.9,
+    1.1
+  ],
+  "selected_resolution": 0.5,
+  "selection_rule": "highest repeated-seed stability ARI among resolutions with min cluster >=30 cells and >=3 donors; stability ARI retained in clustering_resolution_audit.csv",
+  "frozen_program_excluded_from_hvg": true
+}
