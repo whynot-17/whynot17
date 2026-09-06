@@ -9,7 +9,7 @@ This directory records milestone QC for the PTGER4–DINP membrane production ru
 - Platform: OpenMM OpenCL, mixed precision, NVIDIA GeForce RTX 4060 Laptop GPU
 - Target: 100 ns production
 - Local output: `E:\chatgpt\ptger4_membrane_md_20260904`
-- At the time of this QC commit the live run had reached approximately 93.3 ns at about 62.5 ns/day; production continues toward 100 ns.
+- The 100 ns production run completed on 2026-09-06 at 62.48 ns/day; the final checkpoint and audit are retained on the E: drive.
 
 ## Milestone QC
 
@@ -27,6 +27,8 @@ A focused local-reference check over 40–70 ns (using the 40 ns frame to remove
 
 The same local-reference check extended through 90 ns found core internal RMSD 0.057 Å, core RMSD 1.071 ± 0.373 Å (maximum 3.29 Å), COM drift 0.483 ± 0.241 Å (maximum 1.74 Å), pocket-residue contact fraction 82.0%, and a core-to-pocket nearest distance of 3.61 Å that remained within 4.5 Å in every frame. The 40–90 ns window shows no sustained departure.
 
+The 100.0 ns production run completed at 50,000,000 production steps with trajectory QC marked ok. The final potential energy was -766440.735 kJ/mol.
+
 The minimal DINP decomposition over 0–50 ns separates a rigid aromatic ring (internal RMSD 0.046 Å) from flexible ester/alkyl arms. Relative to the minimized starting pose, the aromatic core relocates early, while the later 40–70 ns local state remains stable; whole-ligand RMSD should therefore be interpreted together with local-reference RMSD and COM/contact metrics.
 
 These results support computational structural plausibility and show ligand conformational flexibility with retention near the starting binding region. They do not establish experimental affinity, residence time, or causal DINP biology. Longer production and, preferably, independent replicas are needed for those questions.
@@ -37,7 +39,7 @@ These results support computational structural plausibility and show ligand conf
 - `qc_10ns_vs_minimized.json`, `qc_35ns_vs_minimized.json`, `qc_50ns_vs_minimized.json`, `status_40_70_local_reference.json`: PBC-corrected and local-reference summaries
 - `qc_10ns_vs_minimized.csv`, `qc_35ns_vs_minimized.csv`, `qc_50ns_vs_minimized.csv`, `qc_dinp_40_70_local_timeseries.csv`, `qc_dinp_40_90_local_timeseries.csv`: per-frame RMSD, COM and contact series
 - `production_state_log_to_10ns.csv`, `production_state_log_to_35ns.csv`, `production_state_log_to_50ns.csv`: OpenMM thermodynamic logs
-- `qc_snapshot_1p6ns.json`, `qc_10ns_pbc_corrected_qc.json`, `frame_50ns.json`, `thermo_50ns.json`, `contacts_50ns.json`, `thermo_40_70.json`: frame and thermodynamic QC records
+- `qc_snapshot_1p6ns.json`, `qc_10ns_pbc_corrected_qc.json`, `frame_50ns.json`, `thermo_50ns.json`, `contacts_50ns.json`, `thermo_40_70.json`, `md_run_audit_100ns.json`, `summary_100ns.md`: frame, thermodynamic and final-run QC records
 - `minimal_test_summary_0_50ns.json`, `core_internal_pocket_summary_0_50ns.json`, `minimal_test_0_50ns.png`: DINP core/branch/pocket decomposition
 
 Large binary trajectories (`.dcd`), checkpoints (`.chk`) and coordinate snapshots are retained on the E: drive and intentionally excluded from this repository commit.

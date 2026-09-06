@@ -1,0 +1,22 @@
+{
+  "status": "completed",
+  "resumed": true,
+  "platform": "OpenCL",
+  "platform_properties": {
+    "Precision": "mixed"
+  },
+  "production_ns_target": 100.0,
+  "production_steps_target": 50000000,
+  "initial_step": 25700000,
+  "steps_advanced": 24300000,
+  "production_elapsed_seconds": 67207.84031772614,
+  "production_speed_ns_per_day": 62.47842484074733,
+  "final_potential_energy_kJ_mol": -766440.7346408339,
+  "files": {
+    "dcd": "E:\\chatgpt\\ptger4_membrane_md_20260904\\production.dcd",
+    "log": "E:\\chatgpt\\ptger4_membrane_md_20260904\\production.csv",
+    "checkpoint": "E:\\chatgpt\\ptger4_membrane_md_20260904\\production.chk",
+    "final_pdb": "E:\\chatgpt\\ptger4_membrane_md_20260904\\final.pdb"
+  },
+  "interpretation_boundary": "MD stability supports structural plausibility only; it does not establish experimental affinity or causality."
+}
