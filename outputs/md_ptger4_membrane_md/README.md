@@ -9,7 +9,7 @@ This directory records milestone QC for the PTGER4–DINP membrane production ru
 - Platform: OpenMM OpenCL, mixed precision, NVIDIA GeForce RTX 4060 Laptop GPU
 - Target: 100 ns production
 - Local output: `E:\chatgpt\ptger4_membrane_md_20260904`
-- At the time of this commit the live run had reached approximately 50.3 ns at about 62.7 ns/day; production continues toward 100 ns.
+- At the time of this QC commit the live run had reached approximately 93.3 ns at about 62.5 ns/day; production continues toward 100 ns.
 
 ## Milestone QC
 
@@ -25,15 +25,17 @@ For the trajectory through 50.23 ns, protein Cα RMSD averaged 1.63 Å (maximum 
 
 A focused local-reference check over 40–70 ns (using the 40 ns frame to remove the early 0–10 ns pose relocation) found core RMSD 1.03 ± 0.38 Å (maximum 3.29 Å), COM drift 0.52 ± 0.25 Å (maximum 1.74 Å), pocket-residue contact fraction 81.1%, and a core-to-pocket nearest distance of 3.57 Å that stayed within 4.5 Å in every frame. Brief excursions were not sustained.
 
+The same local-reference check extended through 90 ns found core internal RMSD 0.057 Å, core RMSD 1.071 ± 0.373 Å (maximum 3.29 Å), COM drift 0.483 ± 0.241 Å (maximum 1.74 Å), pocket-residue contact fraction 82.0%, and a core-to-pocket nearest distance of 3.61 Å that remained within 4.5 Å in every frame. The 40–90 ns window shows no sustained departure.
+
 The minimal DINP decomposition over 0–50 ns separates a rigid aromatic ring (internal RMSD 0.046 Å) from flexible ester/alkyl arms. Relative to the minimized starting pose, the aromatic core relocates early, while the later 40–70 ns local state remains stable; whole-ligand RMSD should therefore be interpreted together with local-reference RMSD and COM/contact metrics.
 
 These results support computational structural plausibility and show ligand conformational flexibility with retention near the starting binding region. They do not establish experimental affinity, residence time, or causal DINP biology. Longer production and, preferably, independent replicas are needed for those questions.
 
 ## Files
 
-- `status_25ns.json`, `status_35ns.json`, `status_50ns.json`, `status_40_70_local_reference.json`: milestone status records
+- `status_25ns.json`, `status_35ns.json`, `status_50ns.json`, `status_40_70_local_reference.json`, `status_40_90_local_reference.json`: milestone status records
 - `qc_10ns_vs_minimized.json`, `qc_35ns_vs_minimized.json`, `qc_50ns_vs_minimized.json`, `status_40_70_local_reference.json`: PBC-corrected and local-reference summaries
-- `qc_10ns_vs_minimized.csv`, `qc_35ns_vs_minimized.csv`, `qc_50ns_vs_minimized.csv`, `qc_dinp_40_70_local_timeseries.csv`: per-frame RMSD, COM and contact series
+- `qc_10ns_vs_minimized.csv`, `qc_35ns_vs_minimized.csv`, `qc_50ns_vs_minimized.csv`, `qc_dinp_40_70_local_timeseries.csv`, `qc_dinp_40_90_local_timeseries.csv`: per-frame RMSD, COM and contact series
 - `production_state_log_to_10ns.csv`, `production_state_log_to_35ns.csv`, `production_state_log_to_50ns.csv`: OpenMM thermodynamic logs
 - `qc_snapshot_1p6ns.json`, `qc_10ns_pbc_corrected_qc.json`, `frame_50ns.json`, `thermo_50ns.json`, `contacts_50ns.json`, `thermo_40_70.json`: frame and thermodynamic QC records
 - `minimal_test_summary_0_50ns.json`, `core_internal_pocket_summary_0_50ns.json`, `minimal_test_0_50ns.png`: DINP core/branch/pocket decomposition
