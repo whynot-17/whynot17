@@ -1,0 +1,1375 @@
+{
+  "created": "2026-09-06",
+  "description": "Code-only snapshot of earlier MCOP research and E-drive MD helper scripts.",
+  "source_roots": [
+    "E:\\mcop\\mcop",
+    "E:\\chatgpt"
+  ],
+  "included_extensions": [
+    ".jl",
+    ".m",
+    ".ps1",
+    ".py",
+    ".qmd",
+    ".r",
+    ".rmd",
+    ".sh"
+  ],
+  "excluded_directories": [
+    ".git",
+    "__pycache__",
+    "node_modules",
+    "runtime",
+    "site-packages",
+    "step08a_pathway_robustness",
+    "step8d_venv"
+  ],
+  "file_count": 224,
+  "total_bytes": 3490097,
+  "files": [
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\dinp_crc_81gene_go_kegg_enrichment\\run_dinp_crc_81gene_go_kegg_enrichment.py",
+      "path": "source\\mcop\\analysis\\dinp_crc_81gene_go_kegg_enrichment\\run_dinp_crc_81gene_go_kegg_enrichment.py",
+      "bytes": 13364,
+      "sha256": "ba99aa0f40a906b439c533cb1944fe0ee81df1a823019a0ba0ac8f614cc0d575"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\dinp_crc_81gene_macrophage_driver_decomposition\\run_dinp_crc_81gene_macrophage_driver_decomposition.py",
+      "path": "source\\mcop\\analysis\\dinp_crc_81gene_macrophage_driver_decomposition\\run_dinp_crc_81gene_macrophage_driver_decomposition.py",
+      "bytes": 21901,
+      "sha256": "3b68467d15715c55a6c8d010c512f4770c302349f5271e7d59fde6eb5ae8e834"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\dinp_crc_81gene_macrophage_network_prioritization\\run_dinp_crc_81gene_macrophage_network_prioritization.py",
+      "path": "source\\mcop\\analysis\\dinp_crc_81gene_macrophage_network_prioritization\\run_dinp_crc_81gene_macrophage_network_prioritization.py",
+      "bytes": 29671,
+      "sha256": "8490a3069aac3bbeba75803f93e90b4deb1427246296277a34a07c2e58b3dcf5"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\dinp_crc_81gene_singlecell_localization\\run_dinp_crc_81gene_singlecell_localization.py",
+      "path": "source\\mcop\\analysis\\dinp_crc_81gene_singlecell_localization\\run_dinp_crc_81gene_singlecell_localization.py",
+      "bytes": 22318,
+      "sha256": "bce5083763e837133ecc7cad174ada4716fbfbb22c900caee58454d7a3d2e929"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\dinp_crc_81gene_singlecell_subtype_localization\\run_dinp_crc_81gene_singlecell_subtype_localization.py",
+      "path": "source\\mcop\\analysis\\dinp_crc_81gene_singlecell_subtype_localization\\run_dinp_crc_81gene_singlecell_subtype_localization.py",
+      "bytes": 21687,
+      "sha256": "2ec6f102902adb92861fa6a430732d733bfc84908442e420b3ef0190db735010"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\dinp_crc_multi_database_target_convergence\\run_dinp_crc_multi_database_target_convergence.py",
+      "path": "source\\mcop\\analysis\\dinp_crc_multi_database_target_convergence\\run_dinp_crc_multi_database_target_convergence.py",
+      "bytes": 33565,
+      "sha256": "97db4f2205c68a5bce7a79d9e12055c80324b59aeeca3472315ec52d3b378fab"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\dinp_crc_sex_convergence\\run_dinp_crc_sex_convergence.py",
+      "path": "source\\mcop\\analysis\\dinp_crc_sex_convergence\\run_dinp_crc_sex_convergence.py",
+      "bytes": 13534,
+      "sha256": "7f704935c0d1646543ba38435fc883e6d10dd13ae91fbf78814a2dea689ced8c"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\dinp_crc_structural_pipeline\\prepare_9jqz_for_ppm.py",
+      "path": "source\\mcop\\analysis\\dinp_crc_structural_pipeline\\prepare_9jqz_for_ppm.py",
+      "bytes": 27686,
+      "sha256": "3463cf901aff36cb63b68a8d7b3f16a313ee2e1f80e46357c41585dadfbfa973"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\dinp_crc_structural_pipeline\\run_cxcr4_control_docking.py",
+      "path": "source\\mcop\\analysis\\dinp_crc_structural_pipeline\\run_cxcr4_control_docking.py",
+      "bytes": 21932,
+      "sha256": "d61b8cb3593bd9f9274f4305c71d35ed15f800cb841b20e4432f908d89c8102a"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\dinp_crc_structural_pipeline\\run_dinp_crc_structural_pipeline.py",
+      "path": "source\\mcop\\analysis\\dinp_crc_structural_pipeline\\run_dinp_crc_structural_pipeline.py",
+      "bytes": 25311,
+      "sha256": "01e8ecde353f14f307a02a6baf002b747d171a0e3d3193d5cd39cbe7768232f0"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\dinp_crc_structural_pipeline\\run_ppm3_local_ptger4.sh",
+      "path": "source\\mcop\\analysis\\dinp_crc_structural_pipeline\\run_ppm3_local_ptger4.sh",
+      "bytes": 20173,
+      "sha256": "f01440824f2f75537a05821e4ca465125f392f0f44120c332fe19fa7d28095f7"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\dinp_crc_structural_pipeline\\run_ptger4_1ns_smoketest.py",
+      "path": "source\\mcop\\analysis\\dinp_crc_structural_pipeline\\run_ptger4_1ns_smoketest.py",
+      "bytes": 27623,
+      "sha256": "26f99cd3a0da09c7cff4e7b4605f9aca798364b55060de7d6559ee90fd78bfe9"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\dinp_crc_structural_pipeline\\run_ptger4_control_docking.py",
+      "path": "source\\mcop\\analysis\\dinp_crc_structural_pipeline\\run_ptger4_control_docking.py",
+      "bytes": 19562,
+      "sha256": "f0261b22d4c08cfaa1785c0188efe2c30ae3aaf9a97cb9979feaec928078df8c"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\dinp_crc_structural_pipeline\\run_ptger4_membrane_md.py",
+      "path": "source\\mcop\\analysis\\dinp_crc_structural_pipeline\\run_ptger4_membrane_md.py",
+      "bytes": 26444,
+      "sha256": "cec2751db7d94c84427910b3f007c57e2832b6f6e9b0c4c14cc80629f598831e"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\dinp_crc_structural_pipeline\\run_ptger4_oriented_smoketest.py",
+      "path": "source\\mcop\\analysis\\dinp_crc_structural_pipeline\\run_ptger4_oriented_smoketest.py",
+      "bytes": 9965,
+      "sha256": "07088ce50629e7e4877f91e186ab1b8dce0cc29d0d67b7cbcf78dd547cbc4c45"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\dinp_crc_structural_pipeline\\run_stage2_docking.py",
+      "path": "source\\mcop\\analysis\\dinp_crc_structural_pipeline\\run_stage2_docking.py",
+      "bytes": 17756,
+      "sha256": "a614cd97dcdc5f45727a82558229d1b3f3e3d2614cd5a583560b3f427c68b3b2"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\dinp_crc_structural_pipeline\\run_stage2_production.py",
+      "path": "source\\mcop\\analysis\\dinp_crc_structural_pipeline\\run_stage2_production.py",
+      "bytes": 6304,
+      "sha256": "b0c77dfe619be388eb3212aa9a56bf751b20a17cff4e8b6b39333baf0dce32fc"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\dinp_crc_structural_pipeline\\run_stage2_refine_and_rescue.py",
+      "path": "source\\mcop\\analysis\\dinp_crc_structural_pipeline\\run_stage2_refine_and_rescue.py",
+      "bytes": 19157,
+      "sha256": "e41c9dbdb6ccc99095d47c2c5cb57859e645c064e56bbddd3f580410a359bab9"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\dinp_crc_structural_pipeline\\transfer_dinp_pose_to_ppm_oriented_ptger4.py",
+      "path": "source\\mcop\\analysis\\dinp_crc_structural_pipeline\\transfer_dinp_pose_to_ppm_oriented_ptger4.py",
+      "bytes": 29742,
+      "sha256": "165c7b57b4d3b817bf8a233ba2b9d49ae9e0330073f1f7e531caed305890b224"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\dinp_crc_subtype_convergence\\run_dinp_crc_subtype_convergence.py",
+      "path": "source\\mcop\\analysis\\dinp_crc_subtype_convergence\\run_dinp_crc_subtype_convergence.py",
+      "bytes": 16268,
+      "sha256": "a700b2fc98f4f2090da8b7240c0da96c75ba9d625fd4e2d687eb2f733766b1e6"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\dinp_crc_wgcna\\run_dinp_crc_wgcna.R",
+      "path": "source\\mcop\\analysis\\dinp_crc_wgcna\\run_dinp_crc_wgcna.R",
+      "bytes": 32743,
+      "sha256": "acb6a3867ae8105391f2470eb4c365f81296b5e41b27914a693f36a6c7105ae8"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\run_steps01_04.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\run_steps01_04.py",
+      "bytes": 22174,
+      "sha256": "ed414af6db762b2c94f7778df2e7f81515084174d40690ba60dee30bb8452435"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\clean_room_reconstruction\\build_environmental_universe.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\clean_room_reconstruction\\build_environmental_universe.py",
+      "bytes": 5008,
+      "sha256": "58dbcd32902e6d5e8dc94afccbf600a7331cf4e1b1fb0f24f3b55fb7f090ae8c"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\clean_room_reconstruction\\build_nhanes_registry.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\clean_room_reconstruction\\build_nhanes_registry.py",
+      "bytes": 2714,
+      "sha256": "4eb4415bc3262ab1342731fdd8218b1de2f7fddce8d8585b138615f09838ecfb"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\clean_room_reconstruction\\freeze_test_family.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\clean_room_reconstruction\\freeze_test_family.py",
+      "bytes": 1967,
+      "sha256": "8df89d19addcc438b8a1370e20d5ec220a6c5e3150ea5ac06e048a39ca1af76e"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\clean_room_reconstruction\\map_chemical_to_biomarker.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\clean_room_reconstruction\\map_chemical_to_biomarker.py",
+      "bytes": 9912,
+      "sha256": "a2be7d6e15fe4691523d92b7aa8cc2ab5e8aa38886122f7c77cddc879ebecdb3"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\clean_room_reconstruction\\run_clean_room_reconstruction.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\clean_room_reconstruction\\run_clean_room_reconstruction.py",
+      "bytes": 22659,
+      "sha256": "97df349d58159b98f5eff965f2a31f44b7e6f3e723f097fb8f050f54424e1058"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\hypothesis_unit_audit\\run_hypothesis_unit_audit.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\hypothesis_unit_audit\\run_hypothesis_unit_audit.py",
+      "bytes": 20149,
+      "sha256": "454e1c06788d36e3191866533f763090cca94b03107822ef2a908aab3feed43e"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\outcome_inventory\\run_outcome_sex_audit.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\outcome_inventory\\run_outcome_sex_audit.py",
+      "bytes": 15728,
+      "sha256": "0708ab32f8b65278339906af6d4542c21940cbe76a83bf78cac508e0a7f1c50c"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\sex_divergence_primary\\run_primary_sex_divergence.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\sex_divergence_primary\\run_primary_sex_divergence.py",
+      "bytes": 16719,
+      "sha256": "2a1299dee220d0dcd38a239453706b552f415c1c0c17e1c69b279e4426099ec1"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\sex_divergence_robustness\\run_primary_robustness.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\sex_divergence_robustness\\run_primary_robustness.py",
+      "bytes": 7449,
+      "sha256": "8fc1d73e0f9ee757f4a8dc47a71c4b3a6f98e36e4c685b7f7c1b1ea97dd3439e"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\sex_divergent_exemplar_search\\run_exemplar_search.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\sex_divergent_exemplar_search\\run_exemplar_search.py",
+      "bytes": 7912,
+      "sha256": "a5b7c5a5f4516c830b33ee8e559fe8840c70ddce3c6c05b3f71fd0fba7d5b90f"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step05_crc_screen\\audit_urxp25.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step05_crc_screen\\audit_urxp25.py",
+      "bytes": 12503,
+      "sha256": "699c068d1facdc46d33c656ebddbd5954babbe29512d60245daeb6ed072cfb55"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step05_crc_screen\\run_step05_crc_screen.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step05_crc_screen\\run_step05_crc_screen.py",
+      "bytes": 19138,
+      "sha256": "a55c6b6c60e4d420681045ec23278c94fe94d59e90a892b9decad44c8f337bc0"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step05_crc_screen_rebuilt\\run_step05_rebuilt.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step05_crc_screen_rebuilt\\run_step05_rebuilt.py",
+      "bytes": 20618,
+      "sha256": "4d3f100cf98b7f597bf5bdd6c21a3e7f1321aa44605988c810f192758ab35732"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step05_t2d_screen\\run_t2d_screen.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step05_t2d_screen\\run_t2d_screen.py",
+      "bytes": 24285,
+      "sha256": "2690499f80926e284d638f69a1af33df9b90be2428c5bce4d3854a93c441d489"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step06_robustness\\run_step06_robustness.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step06_robustness\\run_step06_robustness.py",
+      "bytes": 24429,
+      "sha256": "318b6e54290cc6f3ccd2791a72dafc147653f9a2fb925c1b63b39c1d771f789b"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step06_t2d_robustness\\run_step06_t2d_robustness.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step06_t2d_robustness\\run_step06_t2d_robustness.py",
+      "bytes": 33371,
+      "sha256": "d67f355cb606007d3a2e44aaf7cd32e45b18221437db295f192ab8bd6f94a4b8"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step07_genecard_convergence\\run_step07_t2d_genecard_convergence.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step07_genecard_convergence\\run_step07_t2d_genecard_convergence.py",
+      "bytes": 17328,
+      "sha256": "89be5e3bdfc129f7e036f6fe4a72c01b7b88a99fef83c627e93e7c184ff2b780"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step07_genecard_convergence\\run_step07_t2d_genecard_convergence_v2.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step07_genecard_convergence\\run_step07_t2d_genecard_convergence_v2.py",
+      "bytes": 15022,
+      "sha256": "46609600baf4ffa3cb263d45dda0e824b3e2d02a605b2d3a488ba2ed2f1b8d93"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\run_step08b_redundancy_reduction.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\run_step08b_redundancy_reduction.py",
+      "bytes": 21075,
+      "sha256": "a3fca82c099e0d000fe8a9374b5dfa201e8c0236813a9b8ef638fc0cce4936d7"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\run_step08c_module_enrichment.ps1",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\run_step08c_module_enrichment.ps1",
+      "bytes": 2505,
+      "sha256": "6cda4fa1ebd963196cd15b91cf77781a1efd02605d4215ff21fc60a2371f7c5c"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\run_step08c_network_analysis.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\run_step08c_network_analysis.py",
+      "bytes": 19848,
+      "sha256": "6019aa4315d9d4009ed9c030d438a3c07cb883c503ae2f790e3b27e70848910a"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\run_step08c_string_acquisition.ps1",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\run_step08c_string_acquisition.ps1",
+      "bytes": 6551,
+      "sha256": "bb319b426f3f6a2a1065f1ff4b43684bb4e63b553f01d1e6eb7be84493bdecc5"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\run_step08e_t2d_integrated_evidence.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\run_step08e_t2d_integrated_evidence.py",
+      "bytes": 24279,
+      "sha256": "d5f0813f4b4cc1b1ae7df5b7a70b97da428ef3fefa6c22edd117131fc2494241"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\run_step08_t2d_pathway_ora.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step08_t2d_convergence\\run_step08_t2d_pathway_ora.py",
+      "bytes": 12864,
+      "sha256": "b588c839be3be45af77fd448c6eeaa10c6e2476999a071ed3f4f76a59ccbeb71"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step08_transcriptomic_convergence\\run_step08d_transcriptomic_directionality.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step08_transcriptomic_convergence\\run_step08d_transcriptomic_directionality.py",
+      "bytes": 25496,
+      "sha256": "bb93f818ae2a1c2bdd1cabb6e32750d6138f8936cd34e2827a65bdceddca8530"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step09_negative_branch\\run_step09a_question_specific_readiness.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step09_negative_branch\\run_step09a_question_specific_readiness.py",
+      "bytes": 32509,
+      "sha256": "e495abea7f8c697f0c96b1385649e3a6611cef5a96762e9c127f373ac059d312"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step09_negative_branch\\run_step09b_crc_failure_attribution.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step09_negative_branch\\run_step09b_crc_failure_attribution.py",
+      "bytes": 19541,
+      "sha256": "3a57ee65e59a5ffbf164d135a75236d5cf4ef8db00ec39eb70d0f5de85bc0c43"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step09_negative_branch\\run_step09c_counterfactual_data_improvement.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step09_negative_branch\\run_step09c_counterfactual_data_improvement.py",
+      "bytes": 19715,
+      "sha256": "30c9d3851ee2a3de11ae15c49b35c4f20ba96741ce4b7d9b529d114f352b2796"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step09_negative_branch\\run_step09d_negative_branch_synthesis.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step09_negative_branch\\run_step09d_negative_branch_synthesis.py",
+      "bytes": 17621,
+      "sha256": "fd619dc7d97e564570f27250c295ff690e8be98d9de09574f0670bc440b0d15e"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step09_negative_branch\\run_step09e_full_provenance_number_audit.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step09_negative_branch\\run_step09e_full_provenance_number_audit.py",
+      "bytes": 39523,
+      "sha256": "c6f6ab2d94796e32dcd2942f290f7cfae226b4d605bf76a0be03f800885eec4c"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\build_step10a_source_registry.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\build_step10a_source_registry.py",
+      "bytes": 28273,
+      "sha256": "17fd8dd6eb6000d0af99efa02172803a6c6f65a7552473b4251d92b4f8422872"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\build_step10b_qc_manifest.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\build_step10b_qc_manifest.py",
+      "bytes": 9316,
+      "sha256": "5f51047697667bcbfc95161ff599f019b5e9f1a33d459595aa92c0014fe92655"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\compute_ctd_annotation_burden_audit.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\compute_ctd_annotation_burden_audit.py",
+      "bytes": 22014,
+      "sha256": "9c5496e6c400c54a83f951b901ca94e2e051307b036af84ce5a865473ef90f94"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_disease_replacement\\run_step10b_disease_replacement.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_disease_replacement\\run_step10b_disease_replacement.py",
+      "bytes": 19882,
+      "sha256": "3bb3a783c8c309447a1625b97a1d3c35d87abc0d7b625e10ef4996cad3db2c7b"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_environmental_replacement\\capture_step10b_bindingdb_metadata.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_environmental_replacement\\capture_step10b_bindingdb_metadata.py",
+      "bytes": 2023,
+      "sha256": "49c5c408a1ff8d3aea612d380c9f3cd821f6cad439b250b3477d84f24aa841b0"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_environmental_replacement\\run_step10b_environmental_replacement.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_environmental_replacement\\run_step10b_environmental_replacement.py",
+      "bytes": 19684,
+      "sha256": "66086014d8770c9f3ce8acb30e2b64d7fedb9f62a0888c96248772af34a9a5ec"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_p3_knhanes_replacement\\run_knhanes_outcome_feasibility_census.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_p3_knhanes_replacement\\run_knhanes_outcome_feasibility_census.py",
+      "bytes": 22237,
+      "sha256": "4f5535632e3855eb894384b25287dcb5d52ef276a050002bfcf0a0a35a9ddbdd"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_p3_knhanes_replacement\\run_step10b_p3_knhanes_audit.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_p3_knhanes_replacement\\run_step10b_p3_knhanes_audit.py",
+      "bytes": 29053,
+      "sha256": "01380c29afb9ddd19cb71ff0ccd71727201de474b7532c0c1ea31d5d34950797"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_p_chms_replacement\\run_step10b_p_chms_audit.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_p_chms_replacement\\run_step10b_p_chms_audit.py",
+      "bytes": 30766,
+      "sha256": "eefae91744b53853e262b103cd3e66b5f0a8c868007c4e64d5c48bc44041f6c6"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_p_konehs_replacement\\run_step10b_p_konehs_audit.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10b_p_konehs_replacement\\run_step10b_p_konehs_audit.py",
+      "bytes": 24996,
+      "sha256": "b59902a732867dc7dd4b27587b1e7e98c88d577fb84f377c1343a260aee2710c"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10c_public_population_replacement_cchs\\run_cchs_public_association.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10c_public_population_replacement_cchs\\run_cchs_public_association.py",
+      "bytes": 16447,
+      "sha256": "c30e59ff8078322e93093a2fb0f7fc17b73920535551621987c1cc6d8b77418f"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10c_public_population_replacement_cchs\\run_cchs_public_dictionary_audit.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_database_validation\\step10c_public_population_replacement_cchs\\run_cchs_public_dictionary_audit.py",
+      "bytes": 17099,
+      "sha256": "38a5ac3a5a3b31b00285635fd5208b6721e8cb98eb67d66dcab2237e071ea83c"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_disease_replication\\run_step10a_build_disease_registry.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_disease_replication\\run_step10a_build_disease_registry.py",
+      "bytes": 11268,
+      "sha256": "65535a2b42be3d3f8c110460d52cf0bd3496268486a27c0e27fed025fac90bed"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_disease_replication\\run_step10c_randomization.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_disease_replication\\run_step10c_randomization.py",
+      "bytes": 3795,
+      "sha256": "fb35c2ad8dd6e842fb3dbab7d21930cacebf0ba0900282d165e17d8860250903"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_disease_replication\\run_step10d_cross_disease_screen.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_cross_disease_replication\\run_step10d_cross_disease_screen.py",
+      "bytes": 19126,
+      "sha256": "8c4eb7fe09a3289d9ccc91bc938aa5906619dbd3645d246f0f9042c8d42e920f"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_randomized_replication_expanded\\run_step10r_build_expanded_registry.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_randomized_replication_expanded\\run_step10r_build_expanded_registry.py",
+      "bytes": 11778,
+      "sha256": "e29a630dabea5880eea267b4b41c2a8c4b2ebbbc0f9f5de4a06db7204334a4e1"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_randomized_replication_expanded\\run_step10r_cross_disease_screen.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_randomized_replication_expanded\\run_step10r_cross_disease_screen.py",
+      "bytes": 10294,
+      "sha256": "605ab35a64cb97e424831fa7482bb0487df3bc38844d8e0b7bb62c70a9028ed8"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_randomized_replication_expanded\\run_step10r_randomization.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\step10_randomized_replication_expanded\\run_step10r_randomization.py",
+      "bytes": 4158,
+      "sha256": "22ddfe59c59edcb8d6842be2ba357b230ed9ead79ce07800971a441be08863cc"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\retrieve_top_pubmed_records.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\retrieve_top_pubmed_records.py",
+      "bytes": 6133,
+      "sha256": "3a0eefd0752fb3708fc572f3a791068493e56751a78398466f7d381fd39b3b32"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\run_phase1_candidate_mapping_gate.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\run_phase1_candidate_mapping_gate.py",
+      "bytes": 25612,
+      "sha256": "6f4698cd1318091745de340d268e7a530866c9c5662eda429551843ee520e4e3"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\run_phase2_pubmed_collision_audit.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\run_phase2_pubmed_collision_audit.py",
+      "bytes": 19105,
+      "sha256": "cac0ac44d397b5c02734f1931d8a1816502e1992dd409a8fdc05a33e548dcd0e"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\03_literature_collision\\build_phase2_candidate_adjudication.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\t2d_exposure_opportunity\\03_literature_collision\\build_phase2_candidate_adjudication.py",
+      "bytes": 38264,
+      "sha256": "10a6cefde0ba71da25048be3e6b257be5227e05be679010bec6a81d0076c1f0f"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\urxp02_expanded_molecular_universe\\run_urxp02_expanded_molecular_universe.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\urxp02_expanded_molecular_universe\\run_urxp02_expanded_molecular_universe.py",
+      "bytes": 24263,
+      "sha256": "40cafb3e29af733999e5b69b1ada59de43c96b7f44d80e1c52b7ab1018b52188"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\urxp02_m2_disease_branch\\run_urxp02_m2_disease_branch.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\urxp02_m2_disease_branch\\run_urxp02_m2_disease_branch.py",
+      "bytes": 7624,
+      "sha256": "5d88b7c5f7256f75ec8570b62110c8532faefb7a6ebf721641de857dee559d61"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\urxp02_m3_disease_branch_analysis\\run_urxp02_m3_disease_branch_analysis.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\urxp02_m3_disease_branch_analysis\\run_urxp02_m3_disease_branch_analysis.py",
+      "bytes": 28971,
+      "sha256": "a6c4565e7197ef1708dc8c7f122cb97a6bee738bcf5a0eb549f14e58b44495f9"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\urxp02_m4_sex_tissue_mapping\\run_urxp02_m4_sex_tissue_mapping.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\urxp02_m4_sex_tissue_mapping\\run_urxp02_m4_sex_tissue_mapping.py",
+      "bytes": 37803,
+      "sha256": "5174d8bcb3267c7bf9f8dd665ac2d632a3a68757807a07d2bd81464296180263"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\urxp02_m5_single_cell\\run_urxp02_m5_single_cell.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\urxp02_m5_single_cell\\run_urxp02_m5_single_cell.py",
+      "bytes": 41561,
+      "sha256": "d6887880093a34296f370af158baa0637f7eb2c9431d9af015e1c82238f9a0ba"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\urxp02_m5_single_cell_mapping\\run_urxp02_m5_single_cell_mapping.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\urxp02_m5_single_cell_mapping\\run_urxp02_m5_single_cell_mapping.py",
+      "bytes": 41561,
+      "sha256": "d6887880093a34296f370af158baa0637f7eb2c9431d9af015e1c82238f9a0ba"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\urxp02_mechanism_gene_discovery\\run_urxp02_mechanism_gene_discovery.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\urxp02_mechanism_gene_discovery\\run_urxp02_mechanism_gene_discovery.py",
+      "bytes": 20956,
+      "sha256": "1a166d6271194d555a3803d1492311a53d68b98484d4ef2021719ebd92befa65"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\analysis\\disease_agnostic_environmental_framework\\urxp25_focused\\run_urxp25_focused.py",
+      "path": "source\\mcop\\analysis\\disease_agnostic_environmental_framework\\urxp25_focused\\run_urxp25_focused.py",
+      "bytes": 13377,
+      "sha256": "87a6b70eebcef03547c481ea824c8464bc366a185be95109335d6c7c4e30e14d"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\outputs\\archive_snapshot_20260825\\local_graphs\\make_figure1_academic_v2.py",
+      "path": "source\\mcop\\outputs\\archive_snapshot_20260825\\local_graphs\\make_figure1_academic_v2.py",
+      "bytes": 21501,
+      "sha256": "8138d46fa1d15cc3bd6c94ef02e45c6e7ae223dff2020f91dacd6e2da01595fa"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\outputs\\archive_snapshot_20260825\\local_graphs\\make_figure2_candidate_triage_v2.py",
+      "path": "source\\mcop\\outputs\\archive_snapshot_20260825\\local_graphs\\make_figure2_candidate_triage_v2.py",
+      "bytes": 26124,
+      "sha256": "868f22cbe3f6cd15f06e6b9bddb1aa4da9ea4eac5e7e22e7bcffe07935f95655"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\outputs\\archive_snapshot_20260825\\local_graphs\\make_figure3_human_mcop_v3.py",
+      "path": "source\\mcop\\outputs\\archive_snapshot_20260825\\local_graphs\\make_figure3_human_mcop_v3.py",
+      "bytes": 12518,
+      "sha256": "5e1f1b2ca7afb3c31926784728f499aa90b1284362e8c7904fdc37748db464a1"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\outputs\\archive_snapshot_20260825\\local_graphs\\make_main_figures_3_5_v1.py",
+      "path": "source\\mcop\\outputs\\archive_snapshot_20260825\\local_graphs\\make_main_figures_3_5_v1.py",
+      "bytes": 14719,
+      "sha256": "103f52f642c8a9fe3d32c1d2ca941bc037aa6bf4e4c1ae85e747339e1e6a01d3"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\outputs\\archive_snapshot_20260825\\local_graphs\\DINP_Figures3-5_redesign_v4\\make_figures3_5_redesign_v4.py",
+      "path": "source\\mcop\\outputs\\archive_snapshot_20260825\\local_graphs\\DINP_Figures3-5_redesign_v4\\make_figures3_5_redesign_v4.py",
+      "bytes": 30385,
+      "sha256": "48dd381acfff200f381793dff31d3bda88e3fc1e13ae095ced3552b42576f497"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\outputs\\manuscript\\figures\\derive_manuscript_rcs_ci_v1.py",
+      "path": "source\\mcop\\outputs\\manuscript\\figures\\derive_manuscript_rcs_ci_v1.py",
+      "bytes": 5815,
+      "sha256": "1f88f038f2c8e35814c8432da2d641dc09e7b98012597d83ca1275041148255d"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\outputs\\manuscript\\figures\\make_manuscript_figures_v1.py",
+      "path": "source\\mcop\\outputs\\manuscript\\figures\\make_manuscript_figures_v1.py",
+      "bytes": 59825,
+      "sha256": "36d0df957e1bb8bb3ef4143a749eab59286622d92cdf0ad0e312df942463db97"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\outputs\\manuscript\\scripts\\finalize_manuscript_docx.py",
+      "path": "source\\mcop\\outputs\\manuscript\\scripts\\finalize_manuscript_docx.py",
+      "bytes": 5835,
+      "sha256": "84b0b8a8f89acc90975086ed4794e4321044c98317abc67dac32c74e0b3e2ee4"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\outputs\\manuscript\\scripts\\make_figure2_actionability_v3.py",
+      "path": "source\\mcop\\outputs\\manuscript\\scripts\\make_figure2_actionability_v3.py",
+      "bytes": 14690,
+      "sha256": "9daffa903bb13b0800122f2a2eb00d3b7ee0cdeee26aa04f2673651f51558e04"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\build_supplement_tables.py",
+      "path": "source\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\build_supplement_tables.py",
+      "bytes": 9439,
+      "sha256": "cd99bcde4a84360a95dcc46d3840295a3114795686c75e9aef5abfefbed3af9b"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\environmental_crc_15axis_robustness_audit.py",
+      "path": "source\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\environmental_crc_15axis_robustness_audit.py",
+      "bytes": 35768,
+      "sha256": "accbf05a310ed36d5b8c801f2017909047dc70856a1d0a943a34c85a9c928b05"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\environmental_crc_267_actionability_prioritization_v2.py",
+      "path": "source\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\environmental_crc_267_actionability_prioritization_v2.py",
+      "bytes": 8332,
+      "sha256": "1bc70f51a5299371d09288758eb9fe45855e7637dd16a2fcc9e51ed56547ad99"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\final_reproducibility_audit.py",
+      "path": "source\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\final_reproducibility_audit.py",
+      "bytes": 13093,
+      "sha256": "62f6511176ccb8fdfb3e4d2dc7d422af6a0a0f9e6257081a37b62e8e8b78148e"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\mcop_crc_phase2.py",
+      "path": "source\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\mcop_crc_phase2.py",
+      "bytes": 13868,
+      "sha256": "3d3f5803706ddbf786f03e7b8696d3064f9457274b8302dbdb291a14f4b51f0a"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\mcop_crc_phase2h_survey_audit.py",
+      "path": "source\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\mcop_crc_phase2h_survey_audit.py",
+      "bytes": 28111,
+      "sha256": "592507c92b7ad13437cd2c3b309e5b1c79047799ea9bf425432891a1ba6eb75c"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\mcop_crc_phase2h_survey_standard.R",
+      "path": "source\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\mcop_crc_phase2h_survey_standard.R",
+      "bytes": 3408,
+      "sha256": "aaf5fece11bdd3fb38a7af789c27bb2e297ce47549d53a78118ff40c4f8b92b2"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\mcop_crc_phase2_heterogeneity.py",
+      "path": "source\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\mcop_crc_phase2_heterogeneity.py",
+      "bytes": 19009,
+      "sha256": "12f7e2d6d1c293efc46b4da844a84f1b6402d831ec4c39dce96d7f41e03ba8ab"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\mcop_crc_phase2_stability.py",
+      "path": "source\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\mcop_crc_phase2_stability.py",
+      "bytes": 16134,
+      "sha256": "48f7b7daca0f6f6e6fd1a3b4010cc8be484fea0020d11ff598d1109cbd9e3544"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\mcop_phase2g_epithelial_state_analysis.py",
+      "path": "source\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\mcop_phase2g_epithelial_state_analysis.py",
+      "bytes": 76852,
+      "sha256": "ce8091023182f34d739fce9b2f8ce62023873fbd9f40d09ab2f1cfefeecaec01"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\mcop_phase2g_local_completion_audit.py",
+      "path": "source\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\mcop_phase2g_local_completion_audit.py",
+      "bytes": 8096,
+      "sha256": "5832bda4dfd50108081c795790a292e677fb8b2431fe58770c7139fdde442076"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\mcop_phase2g_source_h5ad_qc.py",
+      "path": "source\\mcop\\supplement\\MCOP_CRC_reproducibility\\scripts\\mcop_phase2g_source_h5ad_qc.py",
+      "bytes": 3922,
+      "sha256": "4673f1efa146827280d9c49eb57a3f3161a630888bbc33e62b5670ba10621f03"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\supplement\\MCOP_CRC_submission\\scripts\\final_submission_audit.py",
+      "path": "source\\mcop\\supplement\\MCOP_CRC_submission\\scripts\\final_submission_audit.py",
+      "bytes": 6807,
+      "sha256": "da9159461e1bdf5a19ed7f99ba6254fe3c233773ffdda35f1c3126d2998c59f9"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\supplement\\MCOP_CRC_submission\\scripts\\make_supplementary_figures.py",
+      "path": "source\\mcop\\supplement\\MCOP_CRC_submission\\scripts\\make_supplementary_figures.py",
+      "bytes": 25480,
+      "sha256": "4876a047ce83942ae5f8558712555836ccccdc4a61fe989bb95608fe9fa380e5"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\run_cd_blood_vs_urine_oa.py",
+      "path": "source\\mcop\\work\\run_cd_blood_vs_urine_oa.py",
+      "bytes": 17397,
+      "sha256": "29c3a7ec2722fbf096fabb259db4451641adf216c198f7b2bc227f5726b7141e"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\run_cd_matched_biomarker_oa.py",
+      "path": "source\\mcop\\work\\run_cd_matched_biomarker_oa.py",
+      "bytes": 12270,
+      "sha256": "c4d226c97c3d565e3e899be16d124fc31b500cacb85b9970fff559f90175721b"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\run_cd_sex_arthritis_subtypes.py",
+      "path": "source\\mcop\\work\\run_cd_sex_arthritis_subtypes.py",
+      "bytes": 41558,
+      "sha256": "35ad206ef9f02e70fadf87428a95f19ede38a278f3c3bed59960cdd578cebe08"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\run_cd_urinary_dilution_sensitivity.py",
+      "path": "source\\mcop\\work\\run_cd_urinary_dilution_sensitivity.py",
+      "bytes": 26016,
+      "sha256": "65889223e88debaf8c9c170a428a226f398cfd691d78f4080d182b5e1ec5dca7"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\run_urxp02_m2_exact_2nap_reset.py",
+      "path": "source\\mcop\\work\\run_urxp02_m2_exact_2nap_reset.py",
+      "bytes": 21396,
+      "sha256": "c85526dab50c206fb0fc1b6dd6dc70d79f0aaa7ab94d5005095ddaf9398d880c"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\tmp_list.py",
+      "path": "source\\mcop\\work\\tmp_list.py",
+      "bytes": 595,
+      "sha256": "40881dac93ef04e7b3ce426d3a93dece66a78836df84ecc111a0866022aab508"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\urxp02_m4b_hypertension_branch_readout.py",
+      "path": "source\\mcop\\work\\urxp02_m4b_hypertension_branch_readout.py",
+      "bytes": 16386,
+      "sha256": "c69871014557f6dae81e07212afad34695ea4869691751948da7c670a1c27980"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\phase7_convergent_vulnerability\\scripts\\download_phase7_data.py",
+      "path": "source\\mcop\\work\\phase7_convergent_vulnerability\\scripts\\download_phase7_data.py",
+      "bytes": 3426,
+      "sha256": "fae82b23dbaf80bdb29c2d639b2204d1f8f6dcd115929c8bc1eebb751700d615"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\phase7_convergent_vulnerability\\scripts\\phase7b_define_oxar_like.py",
+      "path": "source\\mcop\\work\\phase7_convergent_vulnerability\\scripts\\phase7b_define_oxar_like.py",
+      "bytes": 4264,
+      "sha256": "3de786eceb88d342f8682b84baa678cad74fe3497a90854f0f0133a865c2b77c"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\phase7_convergent_vulnerability\\scripts\\phase7c_trackA_drug_covariance.py",
+      "path": "source\\mcop\\work\\phase7_convergent_vulnerability\\scripts\\phase7c_trackA_drug_covariance.py",
+      "bytes": 2721,
+      "sha256": "0a43f5cea5f2702f262614a076e75ccbff5ebd6a2852eb00bad111f8618ccd2d"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\derive_manuscript_rcs_ci_v1.py",
+      "path": "source\\mcop\\work\\scripts\\derive_manuscript_rcs_ci_v1.py",
+      "bytes": 5815,
+      "sha256": "1f88f038f2c8e35814c8432da2d641dc09e7b98012597d83ca1275041148255d"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\environmental_crc_15axis_robustness_audit.py",
+      "path": "source\\mcop\\work\\scripts\\environmental_crc_15axis_robustness_audit.py",
+      "bytes": 35768,
+      "sha256": "accbf05a310ed36d5b8c801f2017909047dc70856a1d0a943a34c85a9c928b05"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\environmental_crc_267_actionability_prioritization.py",
+      "path": "source\\mcop\\work\\scripts\\environmental_crc_267_actionability_prioritization.py",
+      "bytes": 22953,
+      "sha256": "fb0e97ba9ec6e881333be0074811a80e8828f73dc881626c1857d8b2a539b40e"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\environmental_crc_267_actionability_prioritization_v2.py",
+      "path": "source\\mcop\\work\\scripts\\environmental_crc_267_actionability_prioritization_v2.py",
+      "bytes": 8332,
+      "sha256": "1bc70f51a5299371d09288758eb9fe45855e7637dd16a2fcc9e51ed56547ad99"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\environmental_crc_267_biomarker_audit_v2.py",
+      "path": "source\\mcop\\work\\scripts\\environmental_crc_267_biomarker_audit_v2.py",
+      "bytes": 39433,
+      "sha256": "94659168edab322ef6127894e23010c3d20d7a921696245818e104f49e7cb23b"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\environmental_crc_267_nhanes_catalog.py",
+      "path": "source\\mcop\\work\\scripts\\environmental_crc_267_nhanes_catalog.py",
+      "bytes": 3565,
+      "sha256": "96d1845aed3a15e8a88092205477b4d6c3c0ae7a2b351c49a47c98508a2cf26b"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\environmental_crc_systematic_human_screen.py",
+      "path": "source\\mcop\\work\\scripts\\environmental_crc_systematic_human_screen.py",
+      "bytes": 11200,
+      "sha256": "6585ccb189e82e4f05a3c96fe5243c088504c4b704ae45b3eb3b30a188edccdd"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\environmental_crc_systematic_human_screen_v2.py",
+      "path": "source\\mcop\\work\\scripts\\environmental_crc_systematic_human_screen_v2.py",
+      "bytes": 14371,
+      "sha256": "74aa258ccee055085903ef0b09c47beeb7347059dd2321a75096251eefb920e2"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\environmental_toxicology_crc_phase1.py",
+      "path": "source\\mcop\\work\\scripts\\environmental_toxicology_crc_phase1.py",
+      "bytes": 30156,
+      "sha256": "4ac7558e161fa3132dfdeae6985caf9507afc64edff9b76c0c4375a19d92e154"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\figure5_ppar_contradiction_audit.py",
+      "path": "source\\mcop\\work\\scripts\\figure5_ppar_contradiction_audit.py",
+      "bytes": 17078,
+      "sha256": "00ffe59773e86b92fd48db649b4be64c544235ac51217b01af3656aca89f68ef"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\figure5_state_mechanism_finalization.py",
+      "path": "source\\mcop\\work\\scripts\\figure5_state_mechanism_finalization.py",
+      "bytes": 23618,
+      "sha256": "f1cf8713bdca2efc9ba80b780accf8d8299d39f61bab5a9227ace72994cdabae"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\inspect_hugene_sqlite.py",
+      "path": "source\\mcop\\work\\scripts\\inspect_hugene_sqlite.py",
+      "bytes": 1303,
+      "sha256": "c88cf2e4f7fac44775e3ddf0338905662a30a2aaae9925265f51815b28670dfb"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\make_figure1_academic_v2.py",
+      "path": "source\\mcop\\work\\scripts\\make_figure1_academic_v2.py",
+      "bytes": 21501,
+      "sha256": "8138d46fa1d15cc3bd6c94ef02e45c6e7ae223dff2020f91dacd6e2da01595fa"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\make_figure2_candidate_triage_v1.py",
+      "path": "source\\mcop\\work\\scripts\\make_figure2_candidate_triage_v1.py",
+      "bytes": 24130,
+      "sha256": "5b71471cc947fb908ff77e8379b5c5e6a3cdf3693f9b4a3ceb54ac38a9ad73d2"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\make_figure2_candidate_triage_v2.py",
+      "path": "source\\mcop\\work\\scripts\\make_figure2_candidate_triage_v2.py",
+      "bytes": 26124,
+      "sha256": "868f22cbe3f6cd15f06e6b9bddb1aa4da9ea4eac5e7e22e7bcffe07935f95655"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\make_figure3_human_mcop_v2.py",
+      "path": "source\\mcop\\work\\scripts\\make_figure3_human_mcop_v2.py",
+      "bytes": 11984,
+      "sha256": "0757cb064e82ca2e44e55c24f9663215724595a44e452424789a0df05682712b"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\make_figure3_human_mcop_v3.py",
+      "path": "source\\mcop\\work\\scripts\\make_figure3_human_mcop_v3.py",
+      "bytes": 12518,
+      "sha256": "5e1f1b2ca7afb3c31926784728f499aa90b1284362e8c7904fdc37748db464a1"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\make_figures3_5_redesign_v4.py",
+      "path": "source\\mcop\\work\\scripts\\make_figures3_5_redesign_v4.py",
+      "bytes": 30385,
+      "sha256": "48dd381acfff200f381793dff31d3bda88e3fc1e13ae095ced3552b42576f497"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\make_main_figures_3_5_v1.py",
+      "path": "source\\mcop\\work\\scripts\\make_main_figures_3_5_v1.py",
+      "bytes": 14719,
+      "sha256": "103f52f642c8a9fe3d32c1d2ca941bc037aa6bf4e4c1ae85e747339e1e6a01d3"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\make_manuscript_figures_v1.py",
+      "path": "source\\mcop\\work\\scripts\\make_manuscript_figures_v1.py",
+      "bytes": 59825,
+      "sha256": "36d0df957e1bb8bb3ef4143a749eab59286622d92cdf0ad0e312df942463db97"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\map_hugene10_targets.py",
+      "path": "source\\mcop\\work\\scripts\\map_hugene10_targets.py",
+      "bytes": 720,
+      "sha256": "f711a5d1b439fb89dce7ef26cc957cd3ab8533ba0dd3f4aadc23ee06ccd92b07"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\mbzp_crc_phase2a_audit.py",
+      "path": "source\\mcop\\work\\scripts\\mbzp_crc_phase2a_audit.py",
+      "bytes": 10368,
+      "sha256": "5b2992d3b7d7dab40b1feef29931957df5768b2c73d9e968233757da361544ad"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\mbzp_crc_phase2b.py",
+      "path": "source\\mcop\\work\\scripts\\mbzp_crc_phase2b.py",
+      "bytes": 47507,
+      "sha256": "df96541e3662c6a57b70d6f8e7adbe4ffefb6677e827b13bb1d7fc5382d54d9c"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\mcop_crc_phase2.py",
+      "path": "source\\mcop\\work\\scripts\\mcop_crc_phase2.py",
+      "bytes": 13868,
+      "sha256": "3d3f5803706ddbf786f03e7b8696d3064f9457274b8302dbdb291a14f4b51f0a"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\mcop_crc_phase2d_paper_audit.py",
+      "path": "source\\mcop\\work\\scripts\\mcop_crc_phase2d_paper_audit.py",
+      "bytes": 33062,
+      "sha256": "fd5b1b53bbe5a0c68cbcb3b1cc370e69d3703d82c849070b79db7752f9877555"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\mcop_crc_phase2h_survey_audit.py",
+      "path": "source\\mcop\\work\\scripts\\mcop_crc_phase2h_survey_audit.py",
+      "bytes": 28111,
+      "sha256": "592507c92b7ad13437cd2c3b309e5b1c79047799ea9bf425432891a1ba6eb75c"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\mcop_crc_phase2h_survey_standard.R",
+      "path": "source\\mcop\\work\\scripts\\mcop_crc_phase2h_survey_standard.R",
+      "bytes": 3408,
+      "sha256": "aaf5fece11bdd3fb38a7af789c27bb2e297ce47549d53a78118ff40c4f8b92b2"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\mcop_crc_phase2_heterogeneity.py",
+      "path": "source\\mcop\\work\\scripts\\mcop_crc_phase2_heterogeneity.py",
+      "bytes": 19009,
+      "sha256": "12f7e2d6d1c293efc46b4da844a84f1b6402d831ec4c39dce96d7f41e03ba8ab"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\mcop_crc_phase2_stability.py",
+      "path": "source\\mcop\\work\\scripts\\mcop_crc_phase2_stability.py",
+      "bytes": 16134,
+      "sha256": "48f7b7daca0f6f6e6fd1a3b4010cc8be484fea0020d11ff598d1109cbd9e3544"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\mcop_phase2e_molecular_validation.py",
+      "path": "source\\mcop\\work\\scripts\\mcop_phase2e_molecular_validation.py",
+      "bytes": 29403,
+      "sha256": "d801ee46ce7a835b2ad5c482a66cec14791a36fc652828bd45178af254afdcee"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\mcop_phase2f_crc_expression_validation.py",
+      "path": "source\\mcop\\work\\scripts\\mcop_phase2f_crc_expression_validation.py",
+      "bytes": 27315,
+      "sha256": "05d629a42c9edbf2211e52f7e946765d5f84bbcae2421c03d14971d32406ec14"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\mcop_phase2f_external_gse144735_replication.py",
+      "path": "source\\mcop\\work\\scripts\\mcop_phase2f_external_gse144735_replication.py",
+      "bytes": 10941,
+      "sha256": "f67451fda9e7a0ee96836094d345cfee6a6b28243171e18a57c7280cf93f3efb"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\mcop_phase2f_singlecell_validation.py",
+      "path": "source\\mcop\\work\\scripts\\mcop_phase2f_singlecell_validation.py",
+      "bytes": 53147,
+      "sha256": "ed63d52a06c7d7c251116d24dc51c3923b20863486d51a4b16ae4ae350427dbe"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\mcop_phase2g_census_staged_recovery.py",
+      "path": "source\\mcop\\work\\scripts\\mcop_phase2g_census_staged_recovery.py",
+      "bytes": 9609,
+      "sha256": "c2f126fddd54a2adf582e4f6275fe41bb1b772f57a8e22ac8de5d64a94daf5d1"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\mcop_phase2g_epithelial_state_analysis.py",
+      "path": "source\\mcop\\work\\scripts\\mcop_phase2g_epithelial_state_analysis.py",
+      "bytes": 76852,
+      "sha256": "ce8091023182f34d739fce9b2f8ce62023873fbd9f40d09ab2f1cfefeecaec01"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\mcop_phase2g_gse144735_fullmatrix.py",
+      "path": "source\\mcop\\work\\scripts\\mcop_phase2g_gse144735_fullmatrix.py",
+      "bytes": 33106,
+      "sha256": "90a923ccca3857dd905adfd204bdca050582b198e796776b5d4c0b0ea1c45bc6"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\mcop_phase2g_local_completion_audit.py",
+      "path": "source\\mcop\\work\\scripts\\mcop_phase2g_local_completion_audit.py",
+      "bytes": 8096,
+      "sha256": "5832bda4dfd50108081c795790a292e677fb8b2431fe58770c7139fdde442076"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\mcop_phase2g_source_h5ad_qc.py",
+      "path": "source\\mcop\\work\\scripts\\mcop_phase2g_source_h5ad_qc.py",
+      "bytes": 3922,
+      "sha256": "4673f1efa146827280d9c49eb57a3f3161a630888bbc33e62b5670ba10621f03"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\mcop_phase3a_power_simulation.py",
+      "path": "source\\mcop\\work\\scripts\\mcop_phase3a_power_simulation.py",
+      "bytes": 13763,
+      "sha256": "5b8ef389c55485288226d9a960e4fd7836eb6997bdee0bb4ab87fb961e4b2e92"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\mcop_phase3a_whi_conditional_logit.py",
+      "path": "source\\mcop\\work\\scripts\\mcop_phase3a_whi_conditional_logit.py",
+      "bytes": 12590,
+      "sha256": "25aa2deca6dfec58afd2552a985dc81bcf0a568de5815c1114c42db90299f93b"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\merge_depmap_parts.ps1",
+      "path": "source\\mcop\\work\\scripts\\merge_depmap_parts.ps1",
+      "bytes": 750,
+      "sha256": "96d7bf34fce341eb4363e5a4cdf61ff165709bbf31305bb08bf3da222f0618ad"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\nhanes_dinp_phase2a_audit.py",
+      "path": "source\\mcop\\work\\scripts\\nhanes_dinp_phase2a_audit.py",
+      "bytes": 9196,
+      "sha256": "b2ccc874ba80b2c01cb0b3d5e59860b468fc46b53e59a181f49b9ae6e0bb7b82"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\phase1_fao_oxa_screen.py",
+      "path": "source\\mcop\\work\\scripts\\phase1_fao_oxa_screen.py",
+      "bytes": 21275,
+      "sha256": "023f37fd47a1040ad8f5c47a026ed2cf6f572f343683669ee9f8f5bdafb76233"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\phase1_pathway_matrix.py",
+      "path": "source\\mcop\\work\\scripts\\phase1_pathway_matrix.py",
+      "bytes": 19028,
+      "sha256": "1dc3f5a135e5b9d1979074d62bea0e67be56387bd64575b9bba4eb72fca62e8b"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\phase3_module_decomposition.py",
+      "path": "source\\mcop\\work\\scripts\\phase3_module_decomposition.py",
+      "bytes": 9018,
+      "sha256": "aec3e64a4b5361acb9abc4b0fc95a2dfd11e773581cc43294373d48fdf726b62"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\phase4_vulnerability_mapping.py",
+      "path": "source\\mcop\\work\\scripts\\phase4_vulnerability_mapping.py",
+      "bytes": 6542,
+      "sha256": "3133db6211ea85d98076cce58acc4b915782e1f54dc5b2e398a438a316eed481"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\phase5_perturbation_reversal.py",
+      "path": "source\\mcop\\work\\scripts\\phase5_perturbation_reversal.py",
+      "bytes": 17314,
+      "sha256": "84468102fdb34401563397e63787d92ff3df7be03cb090994ef713771b18c141"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\phase6_unbiased_screen.py",
+      "path": "source\\mcop\\work\\scripts\\phase6_unbiased_screen.py",
+      "bytes": 12702,
+      "sha256": "a3873bdf3511c739247b730d543e6d2760f1cdfa542a9721a5a3e27c95d10341"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\phase7bR2_validation_patch.py",
+      "path": "source\\mcop\\work\\scripts\\phase7bR2_validation_patch.py",
+      "bytes": 29624,
+      "sha256": "496b4814bab7748879a962d141bd2bf573d6049cf0495a4fd2392a735ac132d0"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\phase7bR3_global_null_patch.py",
+      "path": "source\\mcop\\work\\scripts\\phase7bR3_global_null_patch.py",
+      "bytes": 21458,
+      "sha256": "e1af258e07a885e6ace5ac860d47404abd763ca577773e5f57155bc40c7149fd"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\phase7bR_robust_dependency_mapping.py",
+      "path": "source\\mcop\\work\\scripts\\phase7bR_robust_dependency_mapping.py",
+      "bytes": 38528,
+      "sha256": "e4369642d13a4901742d4134a4fd75e4ddfa069457c1820c59c93ec144f5466e"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\phase7b_trajectory_conditioned_dependency.py",
+      "path": "source\\mcop\\work\\scripts\\phase7b_trajectory_conditioned_dependency.py",
+      "bytes": 19666,
+      "sha256": "0be3bfffacadd4acb3f0e4cc5fc4b1ced08c5105f5b3c916a14c5c4a3a4587b4"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\phase7c_functional_module_convergence.py",
+      "path": "source\\mcop\\work\\scripts\\phase7c_functional_module_convergence.py",
+      "bytes": 16023,
+      "sha256": "50b8362206ffccf607dcb745de57d5eba32cb6246dc85926e2afc81d63016a94"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\phase7c_robustness_audit.py",
+      "path": "source\\mcop\\work\\scripts\\phase7c_robustness_audit.py",
+      "bytes": 8502,
+      "sha256": "9853722b4239a93bf55f955130c87563ca7c3112c97749a59b74cf12a97d99bb"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\phase7_gdsc_oxa_pharmacogenomic_validation.py",
+      "path": "source\\mcop\\work\\scripts\\phase7_gdsc_oxa_pharmacogenomic_validation.py",
+      "bytes": 11465,
+      "sha256": "d07f642cc967dff8a9d23be337550f87b7da5717060edf5accd4d316e88c4887"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\phase8_module_conditioned_gdsc.py",
+      "path": "source\\mcop\\work\\scripts\\phase8_module_conditioned_gdsc.py",
+      "bytes": 10337,
+      "sha256": "42e3532790469182fbabbc47bab9ea8474826ae4d0fec82d05970271fa7e6b4f"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\push_to_github.ps1",
+      "path": "source\\mcop\\work\\scripts\\push_to_github.ps1",
+      "bytes": 550,
+      "sha256": "2102bd60019c881bf1131fc532cb73a2cc470719539b1d996f5d7c49e396026d"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\scripts\\resume_range_download.ps1",
+      "path": "source\\mcop\\work\\scripts\\resume_range_download.ps1",
+      "bytes": 1639,
+      "sha256": "7314455528544472be8f7c371ece942682b0900776da1e04029ba8912a3d61c7"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\step8c_venv\\bin\\Activate.ps1",
+      "path": "source\\mcop\\work\\step8c_venv\\bin\\Activate.ps1",
+      "bytes": 9033,
+      "sha256": "3795a060dea7d621320d6d841deb37591fadf7f5592c5cb2286f9867af0e91df"
+    },
+    {
+      "source": "E:\\mcop\\mcop\\work\\urxp02_m5b_audit_cache\\run_m5b_rescue_audit.py",
+      "path": "source\\mcop\\work\\urxp02_m5b_audit_cache\\run_m5b_rescue_audit.py",
+      "bytes": 22874,
+      "sha256": "1e879b045ca68403e4bb9c3e2adf0d4f493b19a4dcf6225d87a6b6988d114550"
+    },
+    {
+      "source": "E:\\chatgpt\\add_local_details.py",
+      "path": "source\\chatgpt_helpers\\add_local_details.py",
+      "bytes": 1399,
+      "sha256": "f2b480816adcd877c560fa7b3154d3d23c4832b22d132fb88c87b95fcd972259"
+    },
+    {
+      "source": "E:\\chatgpt\\add_window_metrics.py",
+      "path": "source\\chatgpt_helpers\\add_window_metrics.py",
+      "bytes": 1154,
+      "sha256": "f7f43454e1e9e467a978505102eb74817693711028f47b593cd8e27eebbee490"
+    },
+    {
+      "source": "E:\\chatgpt\\analyze_10ns_pbc.py",
+      "path": "source\\chatgpt_helpers\\analyze_10ns_pbc.py",
+      "bytes": 3889,
+      "sha256": "48ee7d83d66eca4cd0789172b70519e7551062a8a3196f2acee406f057ac1f51"
+    },
+    {
+      "source": "E:\\chatgpt\\analyze_10ns_vs_minimized_pbc.py",
+      "path": "source\\chatgpt_helpers\\analyze_10ns_vs_minimized_pbc.py",
+      "bytes": 3913,
+      "sha256": "48b6d5e654a31dba49a8285778818a7ff200cfb33950d1f7c70fdcad1d5c6b35"
+    },
+    {
+      "source": "E:\\chatgpt\\analyze_35ns_vs_minimized_pbc.py",
+      "path": "source\\chatgpt_helpers\\analyze_35ns_vs_minimized_pbc.py",
+      "bytes": 3918,
+      "sha256": "fc63334a593d81e076b75ea836db8bb6d299c2286be2d048b92d6e4525d2ada6"
+    },
+    {
+      "source": "E:\\chatgpt\\analyze_40_50ns.py",
+      "path": "source\\chatgpt_helpers\\analyze_40_50ns.py",
+      "bytes": 5440,
+      "sha256": "d9edb2a9099e98c54db06ed254e44b4ab549a4ea38e3e50c164455a91b9febce"
+    },
+    {
+      "source": "E:\\chatgpt\\analyze_50ns_vs_minimized_pbc.py",
+      "path": "source\\chatgpt_helpers\\analyze_50ns_vs_minimized_pbc.py",
+      "bytes": 3217,
+      "sha256": "0857ff226b862e22f9f92302e2fe6ce1a6777a75c7f4c750e73d9bf1907f0d77"
+    },
+    {
+      "source": "E:\\chatgpt\\analyze_core_internal_and_residue_contacts.py",
+      "path": "source\\chatgpt_helpers\\analyze_core_internal_and_residue_contacts.py",
+      "bytes": 4073,
+      "sha256": "8903cd72d230262d06ab757e864e24b7b2991f92d29047abcc38c58af9eab0b2"
+    },
+    {
+      "source": "E:\\chatgpt\\analyze_dinp_40_50_local.py",
+      "path": "source\\chatgpt_helpers\\analyze_dinp_40_50_local.py",
+      "bytes": 8862,
+      "sha256": "e5d3d74da8a8a19ca0b42c917b4a7e7c70d92296d30e3285f93a3138957037ff"
+    },
+    {
+      "source": "E:\\chatgpt\\analyze_dinp_40_70_local.py",
+      "path": "source\\chatgpt_helpers\\analyze_dinp_40_70_local.py",
+      "bytes": 8864,
+      "sha256": "68afb49aa53310ff494ea0a22cc32924946aa01e2324038a218c0ab36837476f"
+    },
+    {
+      "source": "E:\\chatgpt\\analyze_dinp_40_90_local.py",
+      "path": "source\\chatgpt_helpers\\analyze_dinp_40_90_local.py",
+      "bytes": 8861,
+      "sha256": "63858ae33ddc5975724b3547ae8e3d88e3d1022c8a6844480a1006420a691e72"
+    },
+    {
+      "source": "E:\\chatgpt\\analyze_dinp_minimal_0_50ns.py",
+      "path": "source\\chatgpt_helpers\\analyze_dinp_minimal_0_50ns.py",
+      "bytes": 8237,
+      "sha256": "63b58b3cb2df0111a48e4f8ba16d4e9344e362acced1a1cbd0e360c8d0913f04"
+    },
+    {
+      "source": "E:\\chatgpt\\block_local.py",
+      "path": "source\\chatgpt_helpers\\block_local.py",
+      "bytes": 495,
+      "sha256": "b41692ee4970ccfd0b735172efab74df3626f7b91a076777c250edc4b271a458"
+    },
+    {
+      "source": "E:\\chatgpt\\check_dcd_70.py",
+      "path": "source\\chatgpt_helpers\\check_dcd_70.py",
+      "bytes": 285,
+      "sha256": "635373668cde7e37d5b03bdce60eb40091e17d3a9acd9209a3b9caa3e5e45e65"
+    },
+    {
+      "source": "E:\\chatgpt\\compare_ref.py",
+      "path": "source\\chatgpt_helpers\\compare_ref.py",
+      "bytes": 797,
+      "sha256": "d7d8fecc3f36bb9e318a4e3b202db12a86e95511feb94db094bcf0f8ab4a4986"
+    },
+    {
+      "source": "E:\\chatgpt\\contact50ns.py",
+      "path": "source\\chatgpt_helpers\\contact50ns.py",
+      "bytes": 1171,
+      "sha256": "62ad4fd0dfd8e8b128701346b02f28dfea0a07f7af6f50f2f61f022bedc32a65"
+    },
+    {
+      "source": "E:\\chatgpt\\copy_50ns_snapshot.py",
+      "path": "source\\chatgpt_helpers\\copy_50ns_snapshot.py",
+      "bytes": 634,
+      "sha256": "9139663568366560e9bc41f3ab63cd8f73d2d4063e4f1d4eea61d72a918a4185"
+    },
+    {
+      "source": "E:\\chatgpt\\copy_70ns_snapshot.py",
+      "path": "source\\chatgpt_helpers\\copy_70ns_snapshot.py",
+      "bytes": 586,
+      "sha256": "41e766434c58570a1baf6530c7c401edfd2f69ee72757bde4f6c220f996b3802"
+    },
+    {
+      "source": "E:\\chatgpt\\debug_core.py",
+      "path": "source\\chatgpt_helpers\\debug_core.py",
+      "bytes": 1728,
+      "sha256": "6b4bac690259b8cebb080fa0482e7ca34f5ffd9c7ef43a52caa3e1590c62e291"
+    },
+    {
+      "source": "E:\\chatgpt\\debug_core0.py",
+      "path": "source\\chatgpt_helpers\\debug_core0.py",
+      "bytes": 1576,
+      "sha256": "a6715b2f7c40908e8be9489400aa3581104ff13752225108e099cf0e61db5e01"
+    },
+    {
+      "source": "E:\\chatgpt\\extract_40_70_exact.py",
+      "path": "source\\chatgpt_helpers\\extract_40_70_exact.py",
+      "bytes": 528,
+      "sha256": "3ededc089278949d41625f504cee801743afce87a0d99218f0f27628ce4b23b7"
+    },
+    {
+      "source": "E:\\chatgpt\\extract_local_exact.py",
+      "path": "source\\chatgpt_helpers\\extract_local_exact.py",
+      "bytes": 513,
+      "sha256": "1bba1dab83fb7ae93d93f40dc9548c4cb495689e68e92af14dec3d450c419326"
+    },
+    {
+      "source": "E:\\chatgpt\\fix_40_50_boundary.py",
+      "path": "source\\chatgpt_helpers\\fix_40_50_boundary.py",
+      "bytes": 3904,
+      "sha256": "26005275ac173d8e65de3bbef9353ff7feaea3514ecd75df57bedc4c08b875a7"
+    },
+    {
+      "source": "E:\\chatgpt\\fix_local_com.py",
+      "path": "source\\chatgpt_helpers\\fix_local_com.py",
+      "bytes": 1092,
+      "sha256": "a177d2673c6b5d5556b69257080d62daa93ef085ba422219231daa0be4a84839"
+    },
+    {
+      "source": "E:\\chatgpt\\fix_local_min_com.py",
+      "path": "source\\chatgpt_helpers\\fix_local_min_com.py",
+      "bytes": 956,
+      "sha256": "7fb618309966fb73d6629b35e14a2981a19c92f262673d36e89de63a0299b839"
+    },
+    {
+      "source": "E:\\chatgpt\\fix_minimal_script.py",
+      "path": "source\\chatgpt_helpers\\fix_minimal_script.py",
+      "bytes": 2327,
+      "sha256": "723acbd2d009b6a9b4e7a7b78cab921e15412ab2c56f1f1d5cef14d6b416e9b6"
+    },
+    {
+      "source": "E:\\chatgpt\\fix_minimal_summary_segment.py",
+      "path": "source\\chatgpt_helpers\\fix_minimal_summary_segment.py",
+      "bytes": 1511,
+      "sha256": "3d5a78254542c0d1c5b5435f734cec701d5648edcf20e062ebc5eceaac73d3ee"
+    },
+    {
+      "source": "E:\\chatgpt\\inspect_dinp.py",
+      "path": "source\\chatgpt_helpers\\inspect_dinp.py",
+      "bytes": 479,
+      "sha256": "4e7e38307dd0c3cc6326780626cbfeb68292f4a4158d32ec0cac88062fd898dd"
+    },
+    {
+      "source": "E:\\chatgpt\\inspect_pocket.py",
+      "path": "source\\chatgpt_helpers\\inspect_pocket.py",
+      "bytes": 683,
+      "sha256": "d619900b7bf650852b7415fe1b1b339327392b277ac348c884f52df7894bb504"
+    },
+    {
+      "source": "E:\\chatgpt\\inspect_pocket_res.py",
+      "path": "source\\chatgpt_helpers\\inspect_pocket_res.py",
+      "bytes": 667,
+      "sha256": "658afbfd5d2f00e32cd9430398478cc695759e247c9b712247eae95b045fe4a6"
+    },
+    {
+      "source": "E:\\chatgpt\\make_40_70_script.py",
+      "path": "source\\chatgpt_helpers\\make_40_70_script.py",
+      "bytes": 1569,
+      "sha256": "6f07f2825f10247921596f465a2883db60077a7978b9677672ddd823be28ead8"
+    },
+    {
+      "source": "E:\\chatgpt\\make_minimal_summary.py",
+      "path": "source\\chatgpt_helpers\\make_minimal_summary.py",
+      "bytes": 4268,
+      "sha256": "e93d500c74c240a77c81e26611ef6eeff67b15862c2ac6c26cfe93f728040308"
+    },
+    {
+      "source": "E:\\chatgpt\\make_status50.py",
+      "path": "source\\chatgpt_helpers\\make_status50.py",
+      "bytes": 3608,
+      "sha256": "d731f6755617903ecfbf058204f987300b04493a5b7d39a1fe2fe05b424eb131"
+    },
+    {
+      "source": "E:\\chatgpt\\make_summary_40_70.py",
+      "path": "source\\chatgpt_helpers\\make_summary_40_70.py",
+      "bytes": 2202,
+      "sha256": "63680d874895a2ba8fbfdca66416d21b36a08c10f0db930bf2ec3f644c683782"
+    },
+    {
+      "source": "E:\\chatgpt\\parse_ligand_bonds.py",
+      "path": "source\\chatgpt_helpers\\parse_ligand_bonds.py",
+      "bytes": 465,
+      "sha256": "2f9780081af7c5ba3308b00e4831331156ee88d5fbea05774716aba0b92670a6"
+    },
+    {
+      "source": "E:\\chatgpt\\plot_minimal.py",
+      "path": "source\\chatgpt_helpers\\plot_minimal.py",
+      "bytes": 1424,
+      "sha256": "6477c90d3b4f2bbe8562ec75c2eef52fa142166fcb2da50286d50c72049a1671"
+    },
+    {
+      "source": "E:\\chatgpt\\qc_frame25ns.py",
+      "path": "source\\chatgpt_helpers\\qc_frame25ns.py",
+      "bytes": 1993,
+      "sha256": "8b7a7060326ce4ca118a1896553159aca62279f0b5812ec86cc6963acf4b9cd0"
+    },
+    {
+      "source": "E:\\chatgpt\\qc_frame35ns.py",
+      "path": "source\\chatgpt_helpers\\qc_frame35ns.py",
+      "bytes": 2173,
+      "sha256": "1f9f704ce5112cd0dadccc35534dce0d1fa464d2a75483695a99e2a014e6a55a"
+    },
+    {
+      "source": "E:\\chatgpt\\qc_frame50ns.py",
+      "path": "source\\chatgpt_helpers\\qc_frame50ns.py",
+      "bytes": 2356,
+      "sha256": "49df9347bcd23d9e2134659508f2dfeac8f67f057a0a916914ea58cde1f3a042"
+    },
+    {
+      "source": "E:\\chatgpt\\run_ptger4_existing_system_md.py",
+      "path": "source\\chatgpt_helpers\\run_ptger4_existing_system_md.py",
+      "bytes": 11676,
+      "sha256": "746c9a7b9a077e40e1886ba8ec63167faca8bd14f507d02b19ece617cb50d34a"
+    },
+    {
+      "source": "E:\\chatgpt\\summarize_40_70.py",
+      "path": "source\\chatgpt_helpers\\summarize_40_70.py",
+      "bytes": 1175,
+      "sha256": "99484bba9e0620b77f2b00df94d668cc97afd1a03aaaaffb7013d103c0e007bd"
+    },
+    {
+      "source": "E:\\chatgpt\\summarize_minimal_segments.py",
+      "path": "source\\chatgpt_helpers\\summarize_minimal_segments.py",
+      "bytes": 1271,
+      "sha256": "50086f2d52f9723bdfd0c794d6794aaf4b7c01844df41ac0cc91a4419c18932d"
+    },
+    {
+      "source": "E:\\chatgpt\\summarize_minimal_windows.py",
+      "path": "source\\chatgpt_helpers\\summarize_minimal_windows.py",
+      "bytes": 1039,
+      "sha256": "b869a220e7d322bb1a170b4131d3dd7c8b93fcdabb80e9b662cb38285a3ac9c1"
+    },
+    {
+      "source": "E:\\chatgpt\\thermo50ns.py",
+      "path": "source\\chatgpt_helpers\\thermo50ns.py",
+      "bytes": 1281,
+      "sha256": "e8e4caff39c94876c5040bcb3c9113a895eb97e91ee11c64aca4cdab32e1ff4a"
+    },
+    {
+      "source": "E:\\chatgpt\\thermo_40_70.py",
+      "path": "source\\chatgpt_helpers\\thermo_40_70.py",
+      "bytes": 1213,
+      "sha256": "29bc38b0cc8c97a46b3c478b314d53e8371c6b38c4b0f454d411282862e55dc5"
+    },
+    {
+      "source": "E:\\chatgpt\\update_pause_status.py",
+      "path": "source\\chatgpt_helpers\\update_pause_status.py",
+      "bytes": 1012,
+      "sha256": "08d05e9907d551dfd12474abc08d8c171dfca5bde79d63be03cb5688c34c20c6"
+    },
+    {
+      "source": "E:\\chatgpt\\update_repo_md_readme.py",
+      "path": "source\\chatgpt_helpers\\update_repo_md_readme.py",
+      "bytes": 2866,
+      "sha256": "9b47692682f1a2bb09903c8952e4bf9799b24ffb253a0820650a306b039135c1"
+    },
+    {
+      "source": "E:\\chatgpt\\update_repo_readme50.py",
+      "path": "source\\chatgpt_helpers\\update_repo_readme50.py",
+      "bytes": 4144,
+      "sha256": "330b118867de05175e9d228516f20103fb9bfcf1defcde56ddf735685b56dfd1"
+    },
+    {
+      "source": "E:\\chatgpt\\update_running_status.py",
+      "path": "source\\chatgpt_helpers\\update_running_status.py",
+      "bytes": 853,
+      "sha256": "890b5485f40544b3539a15fb5cd822941569fd216317ccfeafb782a91975737b"
+    }
+  ]
+}

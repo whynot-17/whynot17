@@ -1,0 +1,12 @@
+﻿from pathlib import Path
+src=Path(r"E:\chatgpt\analyze_dinp_40_50_local.py"); dst=Path(r"E:\chatgpt\analyze_dinp_40_70_local.py")
+s=src.read_text(encoding='utf-8')
+s=s.replace(r'DCD=Path(r"E:\chatgpt\qc_50ns\production.dcd")',r'DCD=Path(r"E:\chatgpt\qc_70ns\production.dcd")')
+s=s.replace(r'OUT=Path(r"E:\chatgpt\qc_dinp_40_50ns")',r'OUT=Path(r"E:\chatgpt\qc_dinp_40_70ns")')
+s=s.replace('if t>50000.1: break','if t>70000.1: break')
+s=s.replace("OUT/'dinp_40_50_local_timeseries.csv'","OUT/'dinp_40_70_local_timeseries.csv'")
+s=s.replace("'time_end_ns':float(x[-1,0]/1000)","'time_end_ns':float(x[-1,0]/1000)")
+s=s.replace("'overall_40_50ns':summ(a),'first_half_40_45ns':summ(a[a[:,0]<=45000.1]),'second_half_45_50ns':summ(a[a[:,0]>=45000.0])","'overall_40_70ns':summ(a),'first_half_40_55ns':summ(a[a[:,0]<=55000.1]),'second_half_55_70ns':summ(a[a[:,0]>=55000.0])")
+s=s.replace("(OUT/'status_40_50_local_reference.json')","(OUT/'status_40_70_local_reference.json')")
+s=s.replace('Using the 40 ns frame as a local reference removes the 0-10 ns relocation from the stability test. A small core RMSD/COM drift and stationary pocket nearest distance/contact fraction over 40-50 ns indicate no ongoing departure; branch RMSDs quantify local flexible motion.','Using the 40 ns frame as a local reference removes the 0-10 ns relocation from the stability test. A small core RMSD/COM drift and stationary pocket nearest distance/contact fraction over 40-70 ns indicate no ongoing departure; branch RMSDs quantify local flexible motion.')
+dst.write_text(s,encoding='utf-8')

@@ -1,0 +1,6 @@
+﻿import numpy as np,json
+from pathlib import Path
+p=Path(r"E:\chatgpt\qc_dinp_minimal_0_50ns\dinp_minimal_timeseries.csv"); a=np.loadtxt(p,delimiter=',',skiprows=1)
+def summ(x):
+ return {'n':len(x),'start_ns':x[0,0]/1000,'end_ns':x[-1,0]/1000,'core_mean':x[:,1].mean(),'core_sd':x[:,1].std(ddof=1),'core_min':x[:,1].min(),'core_max':x[:,1].max(),'b1_mean':x[:,2].mean(),'b1_sd':x[:,2].std(ddof=1),'b1_min':x[:,2].min(),'b1_max':x[:,2].max(),'b2_mean':x[:,3].mean(),'b2_sd':x[:,3].std(ddof=1),'b2_min':x[:,3].min(),'b2_max':x[:,3].max(),'com_mean':x[:,4].mean(),'com_sd':x[:,4].std(ddof=1),'com_min':x[:,4].min(),'com_max':x[:,4].max(),'pair_ret_mean':x[:,5].mean(),'pair_ret_sd':x[:,5].std(ddof=1),'pair_ret_min':x[:,5].min(),'pair_ret_max':x[:,5].max(),'pocket_frac_mean':x[:,6].mean(),'pocket_frac_min':x[:,6].min(),'pocket_frac_max':x[:,6].max(),'nearest_mean':x[:,7].mean(),'nearest_min':x[:,7].min(),'nearest_max':x[:,7].max(),'nearest_le_4p5_frac':np.mean(x[:,7]<=4.5),'pair_ret_ge_0p25_frac':np.mean(x[:,5]>=0.25)}
+for label,mask in [('0-10ns',(a[:,0]<=10000.1)),('10-25ns',(a[:,0]>=10000)&(a[:,0]<=25000.1)),('25-40ns',(a[:,0]>=25000)&(a[:,0]<=40000.1)),('40-50ns',(a[:,0]>=40000)&(a[:,0]<=50000.1))]: print(label,json.dumps(summ(a[mask]),ensure_ascii=False))
