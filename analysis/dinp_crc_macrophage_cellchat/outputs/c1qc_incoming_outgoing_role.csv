@@ -1,0 +1,3 @@
+direction,mean_score,sum_score,n_pairs
+C1QC_like_TAM_to_tumor,0.01662590222901656,4.904641157559886,295
+tumor_to_C1QC_like_TAM,0.04758645386209856,2.807600777863815,59

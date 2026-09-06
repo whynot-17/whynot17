@@ -1,0 +1,8 @@
+condition,receiver_group,sender_subtype,outgoing_strength,n_supported_pairs,max_pair_score
+normal,normal_epithelial,C1QC_like_TAM,0.25477954718027,59,0.05089431896922113
+normal,normal_epithelial,FCN1_inflammatory_monocyte_like,0.3750051247752644,59,0.08126506697296614
+normal,normal_epithelial,resident_like,0.2323665101759721,59,0.03620741701847196
+tumor,tumor_epithelial,C1QC_like_TAM,4.904641157559886,295,0.3287623070529016
+tumor,tumor_epithelial,FCN1_inflammatory_monocyte_like,8.14738473515155,295,0.5113731154395114
+tumor,tumor_epithelial,SPP1_like_TAM,11.74114063730224,295,0.8796090319073271
+tumor,tumor_epithelial,resident_like,8.075545309188797,295,0.4495367230126253

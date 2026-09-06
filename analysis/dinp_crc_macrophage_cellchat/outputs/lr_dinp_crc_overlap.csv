@@ -1,0 +1,60 @@
+ligand,receptor,pathway,category,ligand_in_81gene,receptor_in_81gene,pair_overlaps_81gene,overlap_81_genes,ligand_in_7driver,receptor_in_7driver,pair_overlaps_7driver,overlap_7_drivers,prostaglandin_ptger4_represented
+SPP1,CD44,SPP1,Secreted Signaling,False,False,False,,False,False,False,,False
+SPP1,ITGAV+ITGB1,SPP1,ECM-Receptor,False,False,False,,False,False,False,,False
+SPP1,ITGAV+ITGB5,SPP1,ECM-Receptor,False,False,False,,False,False,False,,False
+CXCL12,CXCR4,CXCL,Secreted Signaling,False,True,True,CXCR4,False,True,True,CXCR4,False
+CXCL9,CXCR3,CXCL,Secreted Signaling,False,False,False,,False,False,False,,False
+CXCL10,CXCR3,CXCL,Secreted Signaling,False,False,False,,False,False,False,,False
+CXCL11,CXCR3,CXCL,Secreted Signaling,False,False,False,,False,False,False,,False
+CXCL8,CXCR1,CXCL,Secreted Signaling,False,False,False,,False,False,False,,False
+CXCL8,CXCR2,CXCL,Secreted Signaling,False,False,False,,False,False,False,,False
+CXCL1,CXCR2,CXCL,Secreted Signaling,False,False,False,,False,False,False,,False
+CXCL2,CXCR2,CXCL,Secreted Signaling,False,False,False,,False,False,False,,False
+CCL2,CCR2,CCL,Secreted Signaling,False,False,False,,False,False,False,,False
+CCL3,CCR1,CCL,Secreted Signaling,False,False,False,,False,False,False,,False
+CCL3,CCR5,CCL,Secreted Signaling,False,False,False,,False,False,False,,False
+CCL4,CCR5,CCL,Secreted Signaling,False,False,False,,False,False,False,,False
+CCL5,CCR5,CCL,Secreted Signaling,False,False,False,,False,False,False,,False
+CCL20,CCR6,CCL,Secreted Signaling,True,False,True,CCL20,False,False,False,,False
+VEGFA,FLT1,VEGF,Secreted Signaling,False,False,False,,False,False,False,,False
+VEGFA,KDR,VEGF,Secreted Signaling,False,False,False,,False,False,False,,False
+VEGFA,NRP1,VEGF,Secreted Signaling,False,False,False,,False,False,False,,False
+VEGFC,FLT4,VEGF,Secreted Signaling,False,False,False,,False,False,False,,False
+TGFB1,TGFBR1+TGFBR2,TGFb,Secreted Signaling,False,False,False,,False,False,False,,False
+TGFB2,TGFBR1+TGFBR2,TGFb,Secreted Signaling,False,False,False,,False,False,False,,False
+TGFB3,TGFBR1+TGFBR2,TGFb,Secreted Signaling,False,False,False,,False,False,False,,False
+TNF,TNFRSF1A,TNF,Secreted Signaling,False,False,False,,False,False,False,,False
+TNF,TNFRSF1B,TNF,Secreted Signaling,False,False,False,,False,False,False,,False
+LTA,LTBR,TNF,Secreted Signaling,False,False,False,,False,False,False,,False
+FASLG,FAS,TNF,Cell-Cell Contact,False,False,False,,False,False,False,,False
+IL1B,IL1R1,IL-related,Secreted Signaling,False,False,False,,False,False,False,,False
+IL6,IL6R,IL-related,Secreted Signaling,False,False,False,,False,False,False,,False
+IL10,IL10RA+IL10RB,IL-related,Secreted Signaling,False,False,False,,False,False,False,,False
+IL11,IL11RA,IL-related,Secreted Signaling,False,False,False,,False,False,False,,False
+IL17A,IL17RA+IL17RC,IL-related,Secreted Signaling,False,False,False,,False,False,False,,False
+IL18,IL18R1+IL18RAP,IL-related,Secreted Signaling,False,False,False,,False,False,False,,False
+IL12A+IL12B,IL12RB1+IL12RB2,IL-related,Secreted Signaling,False,False,False,,False,False,False,,False
+EGF,EGFR,EGF,Secreted Signaling,False,False,False,,False,False,False,,False
+TGFA,EGFR,EGF,Secreted Signaling,False,False,False,,False,False,False,,False
+HBEGF,EGFR,EGF,Secreted Signaling,False,False,False,,False,False,False,,False
+AREG,EGFR,EGF,Secreted Signaling,False,False,False,,False,False,False,,False
+EREG,EGFR,EGF,Secreted Signaling,False,False,False,,False,False,False,,False
+MIF,CD74+CXCR4,MIF,Secreted Signaling,False,True,True,CXCR4,False,True,True,CXCR4,False
+MIF,CD74+ACKR3,MIF,Secreted Signaling,False,False,False,,False,False,False,,False
+C3,C3AR1,Complement,Secreted Signaling,False,False,False,,False,False,False,,False
+C5,C5AR1,Complement,Secreted Signaling,False,False,False,,False,False,False,,False
+C5,C5AR2,Complement,Secreted Signaling,False,False,False,,False,False,False,,False
+GAS6,AXL,GAS,Secreted Signaling,False,False,False,,False,False,False,,False
+GAS6,MERTK,GAS,Secreted Signaling,False,False,False,,False,False,False,,False
+GAS6,TYRO3,GAS,Secreted Signaling,False,False,False,,False,False,False,,False
+CSF1,CSF1R,CSF,Secreted Signaling,False,False,False,,False,False,False,,False
+CSF2,CSF2RA+CSF2RB,CSF,Secreted Signaling,False,False,False,,False,False,False,,False
+CSF3,CSF3R,CSF,Secreted Signaling,False,False,False,,False,False,False,,False
+FN1,ITGA5+ITGB1,FN1,ECM-Receptor,False,False,False,,False,False,False,,False
+COL1A1,ITGA1+ITGB1,Collagen,ECM-Receptor,False,False,False,,False,False,False,,False
+COL3A1,ITGA1+ITGB1,Collagen,ECM-Receptor,False,False,False,,False,False,False,,False
+LAMC1,ITGA6+ITGB1,Laminin,ECM-Receptor,False,False,False,,False,False,False,,False
+JAG1,NOTCH1,Notch,Cell-Cell Contact,False,False,False,,False,False,False,,False
+JAG2,NOTCH2,Notch,Cell-Cell Contact,False,False,False,,False,False,False,,False
+DLL1,NOTCH1,Notch,Cell-Cell Contact,False,False,False,,False,False,False,,False
+DLL4,NOTCH1,Notch,Cell-Cell Contact,False,False,False,,False,False,False,,False

@@ -1,0 +1,60 @@
+ligand,receptor,pathway,category,species,database,database_version
+SPP1,CD44,SPP1,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+SPP1,ITGAV+ITGB1,SPP1,ECM-Receptor,human,CellChat-compatible focused prior,0.1-local
+SPP1,ITGAV+ITGB5,SPP1,ECM-Receptor,human,CellChat-compatible focused prior,0.1-local
+CXCL12,CXCR4,CXCL,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+CXCL9,CXCR3,CXCL,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+CXCL10,CXCR3,CXCL,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+CXCL11,CXCR3,CXCL,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+CXCL8,CXCR1,CXCL,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+CXCL8,CXCR2,CXCL,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+CXCL1,CXCR2,CXCL,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+CXCL2,CXCR2,CXCL,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+CCL2,CCR2,CCL,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+CCL3,CCR1,CCL,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+CCL3,CCR5,CCL,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+CCL4,CCR5,CCL,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+CCL5,CCR5,CCL,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+CCL20,CCR6,CCL,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+VEGFA,FLT1,VEGF,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+VEGFA,KDR,VEGF,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+VEGFA,NRP1,VEGF,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+VEGFC,FLT4,VEGF,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+TGFB1,TGFBR1+TGFBR2,TGFb,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+TGFB2,TGFBR1+TGFBR2,TGFb,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+TGFB3,TGFBR1+TGFBR2,TGFb,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+TNF,TNFRSF1A,TNF,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+TNF,TNFRSF1B,TNF,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+LTA,LTBR,TNF,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+FASLG,FAS,TNF,Cell-Cell Contact,human,CellChat-compatible focused prior,0.1-local
+IL1B,IL1R1,IL-related,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+IL6,IL6R,IL-related,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+IL10,IL10RA+IL10RB,IL-related,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+IL11,IL11RA,IL-related,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+IL17A,IL17RA+IL17RC,IL-related,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+IL18,IL18R1+IL18RAP,IL-related,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+IL12A+IL12B,IL12RB1+IL12RB2,IL-related,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+EGF,EGFR,EGF,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+TGFA,EGFR,EGF,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+HBEGF,EGFR,EGF,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+AREG,EGFR,EGF,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+EREG,EGFR,EGF,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+MIF,CD74+CXCR4,MIF,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+MIF,CD74+ACKR3,MIF,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+C3,C3AR1,Complement,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+C5,C5AR1,Complement,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+C5,C5AR2,Complement,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+GAS6,AXL,GAS,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+GAS6,MERTK,GAS,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+GAS6,TYRO3,GAS,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+CSF1,CSF1R,CSF,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+CSF2,CSF2RA+CSF2RB,CSF,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+CSF3,CSF3R,CSF,Secreted Signaling,human,CellChat-compatible focused prior,0.1-local
+FN1,ITGA5+ITGB1,FN1,ECM-Receptor,human,CellChat-compatible focused prior,0.1-local
+COL1A1,ITGA1+ITGB1,Collagen,ECM-Receptor,human,CellChat-compatible focused prior,0.1-local
+COL3A1,ITGA1+ITGB1,Collagen,ECM-Receptor,human,CellChat-compatible focused prior,0.1-local
+LAMC1,ITGA6+ITGB1,Laminin,ECM-Receptor,human,CellChat-compatible focused prior,0.1-local
+JAG1,NOTCH1,Notch,Cell-Cell Contact,human,CellChat-compatible focused prior,0.1-local
+JAG2,NOTCH2,Notch,Cell-Cell Contact,human,CellChat-compatible focused prior,0.1-local
+DLL1,NOTCH1,Notch,Cell-Cell Contact,human,CellChat-compatible focused prior,0.1-local
+DLL4,NOTCH1,Notch,Cell-Cell Contact,human,CellChat-compatible focused prior,0.1-local

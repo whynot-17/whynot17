@@ -1,0 +1,57 @@
+{
+  "analysis": "dinp_crc_macrophage_cellchat",
+  "timestamp_utc": "2026-09-06T17:21:31.960439+00:00",
+  "dataset": "GSE144735 CRC single-cell matrix",
+  "source_object": "E:\\mcop\\mcop\\work\\mcop_phase2f_external\\raw\\GSE144735_raw_UMI_count_matrix.txt.gz",
+  "source_annotation": "E:\\mcop\\mcop\\work\\mcop_phase2f_external\\raw\\GSE144735_annotation.txt.gz",
+  "matrix_sha256": "046cbbd6c7501a4ddbca6d09fc0bb923e62d4d9421d5781efdeacb2c0a5b3b31",
+  "annotation_sha256": "4eb9da239bef95b9003c0f6d0eeb41c6598ecc794cd25f57ad06d9bad81e881b",
+  "total_cells": 27414,
+  "donors": 6,
+  "tumor_cells": 8254,
+  "normal_cells": 9736,
+  "border_cells": 9424,
+  "macrophage_subtype_counts": {
+    "FCN1_inflammatory_monocyte_like": 985,
+    "resident_like": 579,
+    "C1QC_like_TAM": 534,
+    "SPP1_like_TAM": 416
+  },
+  "tumor_epithelial_counts": {
+    "CMS1": 758,
+    "CMS2": 620,
+    "CMS3": 804,
+    "CMS4": 30
+  },
+  "selected_sender_cells": 2514,
+  "selected_tumor_epithelial_cells": 2212,
+  "selected_normal_epithelial_cells": 1144,
+  "metadata_fields": [
+    "Index",
+    "Patient",
+    "Class",
+    "Sample",
+    "Cell_type",
+    "Cell_subtype"
+  ],
+  "donor_id_field": "Patient",
+  "condition_field": "Class",
+  "broad_cell_type_field": "Cell_type",
+  "epithelial_state_field": "Cell_subtype",
+  "macrophage_subtype_source": "E:\\chatgpt\\whynot17\\analysis\\dinp_crc_macrophage_subtype\\outputs\\macrophage_cell_program_scores.csv",
+  "macrophage_subtype_commit": "21d5382",
+  "normalization": "raw UMI counts; per-cell total 1e4; log1p",
+  "software": {
+    "python": "3.11.16",
+    "pandas": "2.3.3",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "CellChat": "unavailable: Rscript not found",
+    "CellChatDB": "not instantiated; local CellChat-compatible human prior v0.1-local"
+  },
+  "species": "human",
+  "signaling_database_used": "CellChat-compatible focused human LR prior v0.1-local; secreted, ECM-Receptor, Cell-Cell Contact",
+  "ptger4_database_status": "not represented as a robust CellChat LR interaction; no pair was invented",
+  "no_redownload": true,
+  "runtime_seconds": 82.11
+}
