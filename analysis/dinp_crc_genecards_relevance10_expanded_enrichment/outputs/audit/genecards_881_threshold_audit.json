@@ -1,0 +1,39 @@
+{
+  "source_file": "analysis/dinp_crc_multi_database_target_convergence/outputs/source_records/genecards_crc_top2000_reference.csv",
+  "source_sha256": "72448cb1cc70eac077bf560919ead96af67344b825afe15dc739f5442ee647d6",
+  "source_scope": "archived ordinary GeneCards CRC top-2000 reference",
+  "full_crc_genecards_export_present_in_this_source": false,
+  "threshold_rule": "RelevanceScore >= 10.0",
+  "rows": 2000,
+  "unique_symbols": 2000,
+  "count_relevance_ge_10": 881,
+  "boundary": {
+    "rank_881": {
+      "rank": 881,
+      "symbol": "NDRG4",
+      "relevance_score": 10.0
+    },
+    "rank_882": {
+      "rank": 882,
+      "symbol": "FAS",
+      "relevance_score": 9.9
+    },
+    "rank_2000": {
+      "rank": 2000,
+      "symbol": "EIF2B5",
+      "relevance_score": 3.1
+    }
+  },
+  "conditions": {
+    "exactly_2000_rows": true,
+    "complete_rank_sequence_1_to_2000": true,
+    "unique_symbols": true,
+    "score_monotonic_nonincreasing": true,
+    "count_relevance_ge_10_is_881": true,
+    "rank_881_score_ge_10": true,
+    "rank_882_score_lt_10": true,
+    "rank_2000_score_lt_10": true
+  },
+  "audit_status": "PASS_WITH_ARCHIVED_TOP2000_SCOPE",
+  "interpretation": "Within the archived ranked top-2000 source, the threshold crosses from 10.0 at rank 881 to 9.9 at rank 882, and the scores are nonincreasing through rank 2000 (score 3.1). This supports 881 as the complete >=10 set under the source's globally sorted-ranking assumption; it is not evidence that a full login-restricted export was obtained."
+}

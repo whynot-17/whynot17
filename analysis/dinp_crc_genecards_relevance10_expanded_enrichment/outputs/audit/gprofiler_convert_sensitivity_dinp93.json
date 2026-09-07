@@ -1,0 +1,1402 @@
+{
+  "retrieved_at": "2026-09-07T15:30:36.745997+00:00",
+  "endpoint": "https://biit.cs.ut.ee/gprofiler/api/convert/convert/",
+  "target": "ENSG",
+  "organism": "hsapiens",
+  "input_count": 93,
+  "conversion": {
+    "payload": {
+      "organism": "hsapiens",
+      "target": "ENSG",
+      "query": [
+        "ABCC4",
+        "ADAMTS1",
+        "AHSG",
+        "AKR1C1",
+        "AKR1C3",
+        "ATF4",
+        "ATG5",
+        "BACE1",
+        "BECN1",
+        "C4BPA",
+        "CA5B",
+        "CA9",
+        "CADM3",
+        "CASP14",
+        "CCL20",
+        "CGA",
+        "CPS1",
+        "CRP",
+        "CXCL13",
+        "CXCR4",
+        "CYP11A1",
+        "CYP1A2",
+        "CYP2A6",
+        "CYP2C9",
+        "CYP3A4",
+        "DDIT4",
+        "DKK1",
+        "DPT",
+        "DUSP1",
+        "ESR1",
+        "F3",
+        "FLG",
+        "GSTA2",
+        "HPGD",
+        "HSD3B2",
+        "HSPA1A",
+        "HSPA1L",
+        "IGFBP1",
+        "IL1A",
+        "LUM",
+        "MAP1LC3B",
+        "MIR675",
+        "MMP2",
+        "MMP9",
+        "NEAT1",
+        "NR1I2",
+        "NR1I3",
+        "NR3C1",
+        "OMD",
+        "PARP10",
+        "PGR",
+        "PLA2G4A",
+        "PLAC8",
+        "PPARA",
+        "PPARD",
+        "PPARG",
+        "PTGER1",
+        "PTGER2",
+        "PTGER3",
+        "PTGER4",
+        "PTGES",
+        "PTGES2",
+        "PTGES3",
+        "PTGFR",
+        "PTGS1",
+        "PTGS2",
+        "PTX3",
+        "RELA",
+        "RGS2",
+        "RPS2",
+        "RXRA",
+        "RXRB",
+        "SCGN",
+        "SELE",
+        "SIRT1",
+        "SIRT2",
+        "SIRT3",
+        "SIRT5",
+        "SLCO2A1",
+        "SNHG25",
+        "SNORA13",
+        "SNORA50C",
+        "SNORA64",
+        "SNORA65",
+        "SNORA72",
+        "SPP2",
+        "SQSTM1",
+        "STAR",
+        "STAT3",
+        "SUSD2",
+        "TIMP1",
+        "TIMP2",
+        "TNC"
+      ]
+    },
+    "response": {
+      "result": [
+        {
+          "converted": "ENSG00000125257",
+          "description": "ATP binding cassette subfamily C member 4 (PEL blood group) [Source:HGNC Symbol;Acc:HGNC:55]",
+          "incoming": "ABCC4",
+          "n_converted": 1,
+          "n_incoming": 1,
+          "name": "ABCC4",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000154734",
+          "description": "ADAM metallopeptidase with thrombospondin type 1 motif 1 [Source:HGNC Symbol;Acc:HGNC:217]",
+          "incoming": "ADAMTS1",
+          "n_converted": 1,
+          "n_incoming": 2,
+          "name": "ADAMTS1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000145192",
+          "description": "alpha 2-HS glycoprotein [Source:HGNC Symbol;Acc:HGNC:349]",
+          "incoming": "AHSG",
+          "n_converted": 1,
+          "n_incoming": 3,
+          "name": "AHSG",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000187134",
+          "description": "aldo-keto reductase family 1 member C1 [Source:HGNC Symbol;Acc:HGNC:384]",
+          "incoming": "AKR1C1",
+          "n_converted": 1,
+          "n_incoming": 4,
+          "name": "AKR1C1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000196139",
+          "description": "aldo-keto reductase family 1 member C3 [Source:HGNC Symbol;Acc:HGNC:386]",
+          "incoming": "AKR1C3",
+          "n_converted": 1,
+          "n_incoming": 5,
+          "name": "AKR1C3",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000128272",
+          "description": "activating transcription factor 4 [Source:HGNC Symbol;Acc:HGNC:786]",
+          "incoming": "ATF4",
+          "n_converted": 1,
+          "n_incoming": 6,
+          "name": "ATF4",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000057663",
+          "description": "autophagy related 5 [Source:HGNC Symbol;Acc:HGNC:589]",
+          "incoming": "ATG5",
+          "n_converted": 1,
+          "n_incoming": 7,
+          "name": "ATG5",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000186318",
+          "description": "beta-secretase 1 [Source:HGNC Symbol;Acc:HGNC:933]",
+          "incoming": "BACE1",
+          "n_converted": 1,
+          "n_incoming": 8,
+          "name": "BACE1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000126581",
+          "description": "beclin 1 [Source:HGNC Symbol;Acc:HGNC:1034]",
+          "incoming": "BECN1",
+          "n_converted": 1,
+          "n_incoming": 9,
+          "name": "BECN1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000123838",
+          "description": "complement component 4 binding protein alpha [Source:HGNC Symbol;Acc:HGNC:1325]",
+          "incoming": "C4BPA",
+          "n_converted": 1,
+          "n_incoming": 10,
+          "name": "C4BPA",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000169239",
+          "description": "carbonic anhydrase 5B [Source:HGNC Symbol;Acc:HGNC:1378]",
+          "incoming": "CA5B",
+          "n_converted": 1,
+          "n_incoming": 11,
+          "name": "CA5B",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000107159",
+          "description": "carbonic anhydrase 9 [Source:HGNC Symbol;Acc:HGNC:1383]",
+          "incoming": "CA9",
+          "n_converted": 1,
+          "n_incoming": 12,
+          "name": "CA9",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000162706",
+          "description": "cell adhesion molecule 3 [Source:HGNC Symbol;Acc:HGNC:17601]",
+          "incoming": "CADM3",
+          "n_converted": 1,
+          "n_incoming": 13,
+          "name": "CADM3",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000105141",
+          "description": "caspase 14 [Source:HGNC Symbol;Acc:HGNC:1502]",
+          "incoming": "CASP14",
+          "n_converted": 1,
+          "n_incoming": 14,
+          "name": "CASP14",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000115009",
+          "description": "C-C motif chemokine ligand 20 [Source:HGNC Symbol;Acc:HGNC:10619]",
+          "incoming": "CCL20",
+          "n_converted": 1,
+          "n_incoming": 15,
+          "name": "CCL20",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000135346",
+          "description": "glycoprotein hormones, alpha polypeptide [Source:HGNC Symbol;Acc:HGNC:1885]",
+          "incoming": "CGA",
+          "n_converted": 1,
+          "n_incoming": 16,
+          "name": "CGA",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000021826",
+          "description": "carbamoyl-phosphate synthase 1 [Source:HGNC Symbol;Acc:HGNC:2323]",
+          "incoming": "CPS1",
+          "n_converted": 1,
+          "n_incoming": 17,
+          "name": "CPS1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000132693",
+          "description": "C-reactive protein [Source:HGNC Symbol;Acc:HGNC:2367]",
+          "incoming": "CRP",
+          "n_converted": 1,
+          "n_incoming": 18,
+          "name": "CRP",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000156234",
+          "description": "C-X-C motif chemokine ligand 13 [Source:HGNC Symbol;Acc:HGNC:10639]",
+          "incoming": "CXCL13",
+          "n_converted": 1,
+          "n_incoming": 19,
+          "name": "CXCL13",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000121966",
+          "description": "C-X-C motif chemokine receptor 4 [Source:HGNC Symbol;Acc:HGNC:2561]",
+          "incoming": "CXCR4",
+          "n_converted": 1,
+          "n_incoming": 20,
+          "name": "CXCR4",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000140459",
+          "description": "cytochrome P450 family 11 subfamily A member 1 [Source:HGNC Symbol;Acc:HGNC:2590]",
+          "incoming": "CYP11A1",
+          "n_converted": 1,
+          "n_incoming": 21,
+          "name": "CYP11A1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000140505",
+          "description": "cytochrome P450 family 1 subfamily A member 2 [Source:HGNC Symbol;Acc:HGNC:2596]",
+          "incoming": "CYP1A2",
+          "n_converted": 1,
+          "n_incoming": 22,
+          "name": "CYP1A2",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000255974",
+          "description": "cytochrome P450 family 2 subfamily A member 6 [Source:HGNC Symbol;Acc:HGNC:2610]",
+          "incoming": "CYP2A6",
+          "n_converted": 1,
+          "n_incoming": 23,
+          "name": "CYP2A6",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000138109",
+          "description": "cytochrome P450 family 2 subfamily C member 9 [Source:HGNC Symbol;Acc:HGNC:2623]",
+          "incoming": "CYP2C9",
+          "n_converted": 1,
+          "n_incoming": 24,
+          "name": "CYP2C9",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000160868",
+          "description": "cytochrome P450 family 3 subfamily A member 4 [Source:HGNC Symbol;Acc:HGNC:2637]",
+          "incoming": "CYP3A4",
+          "n_converted": 1,
+          "n_incoming": 25,
+          "name": "CYP3A4",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000168209",
+          "description": "DNA damage inducible transcript 4 [Source:HGNC Symbol;Acc:HGNC:24944]",
+          "incoming": "DDIT4",
+          "n_converted": 1,
+          "n_incoming": 26,
+          "name": "DDIT4",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000107984",
+          "description": "dickkopf WNT signaling pathway inhibitor 1 [Source:HGNC Symbol;Acc:HGNC:2891]",
+          "incoming": "DKK1",
+          "n_converted": 1,
+          "n_incoming": 27,
+          "name": "DKK1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000143196",
+          "description": "dermatopontin [Source:HGNC Symbol;Acc:HGNC:3011]",
+          "incoming": "DPT",
+          "n_converted": 1,
+          "n_incoming": 28,
+          "name": "DPT",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000120129",
+          "description": "dual specificity phosphatase 1 [Source:HGNC Symbol;Acc:HGNC:3064]",
+          "incoming": "DUSP1",
+          "n_converted": 1,
+          "n_incoming": 29,
+          "name": "DUSP1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000091831",
+          "description": "estrogen receptor 1 [Source:HGNC Symbol;Acc:HGNC:3467]",
+          "incoming": "ESR1",
+          "n_converted": 1,
+          "n_incoming": 30,
+          "name": "ESR1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000117525",
+          "description": "coagulation factor III, tissue factor [Source:HGNC Symbol;Acc:HGNC:3541]",
+          "incoming": "F3",
+          "n_converted": 1,
+          "n_incoming": 31,
+          "name": "F3",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000143631",
+          "description": "filaggrin [Source:HGNC Symbol;Acc:HGNC:3748]",
+          "incoming": "FLG",
+          "n_converted": 1,
+          "n_incoming": 32,
+          "name": "FLG",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000244067",
+          "description": "glutathione S-transferase alpha 2 [Source:HGNC Symbol;Acc:HGNC:4627]",
+          "incoming": "GSTA2",
+          "n_converted": 1,
+          "n_incoming": 33,
+          "name": "GSTA2",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000164120",
+          "description": "15-hydroxyprostaglandin dehydrogenase [Source:HGNC Symbol;Acc:HGNC:5154]",
+          "incoming": "HPGD",
+          "n_converted": 1,
+          "n_incoming": 34,
+          "name": "HPGD",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000203859",
+          "description": "hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 2 [Source:HGNC Symbol;Acc:HGNC:5218]",
+          "incoming": "HSD3B2",
+          "n_converted": 1,
+          "n_incoming": 35,
+          "name": "HSD3B2",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000204389",
+          "description": "heat shock protein family A (Hsp70) member 1A [Source:HGNC Symbol;Acc:HGNC:5232]",
+          "incoming": "HSPA1A",
+          "n_converted": 1,
+          "n_incoming": 36,
+          "name": "HSPA1A",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000204390",
+          "description": "heat shock protein family A (Hsp70) member 1 like [Source:HGNC Symbol;Acc:HGNC:5234]",
+          "incoming": "HSPA1L",
+          "n_converted": 1,
+          "n_incoming": 37,
+          "name": "HSPA1L",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000146678",
+          "description": "insulin like growth factor binding protein 1 [Source:HGNC Symbol;Acc:HGNC:5469]",
+          "incoming": "IGFBP1",
+          "n_converted": 1,
+          "n_incoming": 38,
+          "name": "IGFBP1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000115008",
+          "description": "interleukin 1 alpha [Source:HGNC Symbol;Acc:HGNC:5991]",
+          "incoming": "IL1A",
+          "n_converted": 1,
+          "n_incoming": 39,
+          "name": "IL1A",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000139329",
+          "description": "lumican [Source:HGNC Symbol;Acc:HGNC:6724]",
+          "incoming": "LUM",
+          "n_converted": 1,
+          "n_incoming": 40,
+          "name": "LUM",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000140941",
+          "description": "microtubule associated protein 1 light chain 3 beta [Source:HGNC Symbol;Acc:HGNC:13352]",
+          "incoming": "MAP1LC3B",
+          "n_converted": 1,
+          "n_incoming": 41,
+          "name": "MAP1LC3B",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000284010",
+          "description": "microRNA 675 [Source:HGNC Symbol;Acc:HGNC:33351]",
+          "incoming": "MIR675",
+          "n_converted": 1,
+          "n_incoming": 42,
+          "name": "MIR675",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000087245",
+          "description": "matrix metallopeptidase 2 [Source:HGNC Symbol;Acc:HGNC:7166]",
+          "incoming": "MMP2",
+          "n_converted": 1,
+          "n_incoming": 43,
+          "name": "MMP2",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000100985",
+          "description": "matrix metallopeptidase 9 [Source:HGNC Symbol;Acc:HGNC:7176]",
+          "incoming": "MMP9",
+          "n_converted": 1,
+          "n_incoming": 44,
+          "name": "MMP9",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000245532",
+          "description": "nuclear paraspeckle assembly transcript 1 [Source:HGNC Symbol;Acc:HGNC:30815]",
+          "incoming": "NEAT1",
+          "n_converted": 1,
+          "n_incoming": 45,
+          "name": "NEAT1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000144852",
+          "description": "nuclear receptor subfamily 1 group I member 2 [Source:HGNC Symbol;Acc:HGNC:7968]",
+          "incoming": "NR1I2",
+          "n_converted": 1,
+          "n_incoming": 46,
+          "name": "NR1I2",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000143257",
+          "description": "nuclear receptor subfamily 1 group I member 3 [Source:HGNC Symbol;Acc:HGNC:7969]",
+          "incoming": "NR1I3",
+          "n_converted": 1,
+          "n_incoming": 47,
+          "name": "NR1I3",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000113580",
+          "description": "nuclear receptor subfamily 3 group C member 1 [Source:HGNC Symbol;Acc:HGNC:7978]",
+          "incoming": "NR3C1",
+          "n_converted": 1,
+          "n_incoming": 48,
+          "name": "NR3C1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000127083",
+          "description": "osteomodulin [Source:HGNC Symbol;Acc:HGNC:8134]",
+          "incoming": "OMD",
+          "n_converted": 1,
+          "n_incoming": 49,
+          "name": "OMD",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000178685",
+          "description": "poly(ADP-ribose) polymerase family member 10 [Source:HGNC Symbol;Acc:HGNC:25895]",
+          "incoming": "PARP10",
+          "n_converted": 1,
+          "n_incoming": 50,
+          "name": "PARP10",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000082175",
+          "description": "progesterone receptor [Source:HGNC Symbol;Acc:HGNC:8910]",
+          "incoming": "PGR",
+          "n_converted": 1,
+          "n_incoming": 51,
+          "name": "PGR",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000116711",
+          "description": "phospholipase A2 group IVA [Source:HGNC Symbol;Acc:HGNC:9035]",
+          "incoming": "PLA2G4A",
+          "n_converted": 1,
+          "n_incoming": 52,
+          "name": "PLA2G4A",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000145287",
+          "description": "placenta associated 8 [Source:HGNC Symbol;Acc:HGNC:19254]",
+          "incoming": "PLAC8",
+          "n_converted": 1,
+          "n_incoming": 53,
+          "name": "PLAC8",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000186951",
+          "description": "peroxisome proliferator activated receptor alpha [Source:HGNC Symbol;Acc:HGNC:9232]",
+          "incoming": "PPARA",
+          "n_converted": 1,
+          "n_incoming": 54,
+          "name": "PPARA",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000112033",
+          "description": "peroxisome proliferator activated receptor delta [Source:HGNC Symbol;Acc:HGNC:9235]",
+          "incoming": "PPARD",
+          "n_converted": 1,
+          "n_incoming": 55,
+          "name": "PPARD",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000132170",
+          "description": "peroxisome proliferator activated receptor gamma [Source:HGNC Symbol;Acc:HGNC:9236]",
+          "incoming": "PPARG",
+          "n_converted": 1,
+          "n_incoming": 56,
+          "name": "PPARG",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000160951",
+          "description": "prostaglandin E receptor 1 [Source:HGNC Symbol;Acc:HGNC:9593]",
+          "incoming": "PTGER1",
+          "n_converted": 1,
+          "n_incoming": 57,
+          "name": "PTGER1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000125384",
+          "description": "prostaglandin E receptor 2 [Source:HGNC Symbol;Acc:HGNC:9594]",
+          "incoming": "PTGER2",
+          "n_converted": 1,
+          "n_incoming": 58,
+          "name": "PTGER2",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000050628",
+          "description": "prostaglandin E receptor 3 [Source:HGNC Symbol;Acc:HGNC:9595]",
+          "incoming": "PTGER3",
+          "n_converted": 1,
+          "n_incoming": 59,
+          "name": "PTGER3",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000171522",
+          "description": "prostaglandin E receptor 4 [Source:HGNC Symbol;Acc:HGNC:9596]",
+          "incoming": "PTGER4",
+          "n_converted": 1,
+          "n_incoming": 60,
+          "name": "PTGER4",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000148344",
+          "description": "prostaglandin E synthase [Source:HGNC Symbol;Acc:HGNC:9599]",
+          "incoming": "PTGES",
+          "n_converted": 1,
+          "n_incoming": 61,
+          "name": "PTGES",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000148334",
+          "description": "prostaglandin E synthase 2 [Source:HGNC Symbol;Acc:HGNC:17822]",
+          "incoming": "PTGES2",
+          "n_converted": 1,
+          "n_incoming": 62,
+          "name": "PTGES2",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000110958",
+          "description": "prostaglandin E synthase 3 [Source:HGNC Symbol;Acc:HGNC:16049]",
+          "incoming": "PTGES3",
+          "n_converted": 1,
+          "n_incoming": 63,
+          "name": "PTGES3",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000122420",
+          "description": "prostaglandin F receptor [Source:HGNC Symbol;Acc:HGNC:9600]",
+          "incoming": "PTGFR",
+          "n_converted": 1,
+          "n_incoming": 64,
+          "name": "PTGFR",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000095303",
+          "description": "prostaglandin-endoperoxide synthase 1 [Source:HGNC Symbol;Acc:HGNC:9604]",
+          "incoming": "PTGS1",
+          "n_converted": 1,
+          "n_incoming": 65,
+          "name": "PTGS1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000073756",
+          "description": "prostaglandin-endoperoxide synthase 2 [Source:HGNC Symbol;Acc:HGNC:9605]",
+          "incoming": "PTGS2",
+          "n_converted": 1,
+          "n_incoming": 66,
+          "name": "PTGS2",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000163661",
+          "description": "pentraxin 3 [Source:HGNC Symbol;Acc:HGNC:9692]",
+          "incoming": "PTX3",
+          "n_converted": 1,
+          "n_incoming": 67,
+          "name": "PTX3",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000173039",
+          "description": "RELA proto-oncogene, NF-kB subunit [Source:HGNC Symbol;Acc:HGNC:9955]",
+          "incoming": "RELA",
+          "n_converted": 1,
+          "n_incoming": 68,
+          "name": "RELA",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000116741",
+          "description": "regulator of G protein signaling 2 [Source:HGNC Symbol;Acc:HGNC:9998]",
+          "incoming": "RGS2",
+          "n_converted": 1,
+          "n_incoming": 69,
+          "name": "RGS2",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000140988",
+          "description": "ribosomal protein S2 [Source:HGNC Symbol;Acc:HGNC:10404]",
+          "incoming": "RPS2",
+          "n_converted": 1,
+          "n_incoming": 70,
+          "name": "RPS2",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000186350",
+          "description": "retinoid X receptor alpha [Source:HGNC Symbol;Acc:HGNC:10477]",
+          "incoming": "RXRA",
+          "n_converted": 1,
+          "n_incoming": 71,
+          "name": "RXRA",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000204231",
+          "description": "retinoid X receptor beta [Source:HGNC Symbol;Acc:HGNC:10478]",
+          "incoming": "RXRB",
+          "n_converted": 1,
+          "n_incoming": 72,
+          "name": "RXRB",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000079689",
+          "description": "secretagogin, EF-hand calcium binding protein [Source:HGNC Symbol;Acc:HGNC:16941]",
+          "incoming": "SCGN",
+          "n_converted": 1,
+          "n_incoming": 73,
+          "name": "SCGN",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000007908",
+          "description": "selectin E [Source:HGNC Symbol;Acc:HGNC:10718]",
+          "incoming": "SELE",
+          "n_converted": 1,
+          "n_incoming": 74,
+          "name": "SELE",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000096717",
+          "description": "sirtuin 1 [Source:HGNC Symbol;Acc:HGNC:14929]",
+          "incoming": "SIRT1",
+          "n_converted": 1,
+          "n_incoming": 75,
+          "name": "SIRT1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000068903",
+          "description": "sirtuin 2 [Source:HGNC Symbol;Acc:HGNC:10886]",
+          "incoming": "SIRT2",
+          "n_converted": 1,
+          "n_incoming": 76,
+          "name": "SIRT2",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000142082",
+          "description": "sirtuin 3 [Source:HGNC Symbol;Acc:HGNC:14931]",
+          "incoming": "SIRT3",
+          "n_converted": 1,
+          "n_incoming": 77,
+          "name": "SIRT3",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000124523",
+          "description": "sirtuin 5 [Source:HGNC Symbol;Acc:HGNC:14933]",
+          "incoming": "SIRT5",
+          "n_converted": 1,
+          "n_incoming": 78,
+          "name": "SIRT5",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000174640",
+          "description": "solute carrier organic anion transporter family member 2A1 [Source:HGNC Symbol;Acc:HGNC:10955]",
+          "incoming": "SLCO2A1",
+          "n_converted": 1,
+          "n_incoming": 79,
+          "name": "SLCO2A1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000266402",
+          "description": "small nucleolar RNA host gene 25 [Source:HGNC Symbol;Acc:HGNC:51534]",
+          "incoming": "SNHG25",
+          "n_converted": 1,
+          "n_incoming": 80,
+          "name": "SNHG25",
+          "namespaces": "GENECARDS,HGNC",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000238363",
+          "description": "small nucleolar RNA, H/ACA box 13 [Source:HGNC Symbol;Acc:HGNC:32601]",
+          "incoming": "SNORA13",
+          "n_converted": 1,
+          "n_incoming": 81,
+          "name": "SNORA13",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000277887",
+          "description": "small nucleolar RNA, H/ACA box 50C [Source:HGNC Symbol;Acc:HGNC:32662]",
+          "incoming": "SNORA50C",
+          "n_converted": 1,
+          "n_incoming": 82,
+          "name": "SNORA50C",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000207405",
+          "description": "small nucleolar RNA, H/ACA box 64 [Source:HGNC Symbol;Acc:HGNC:10221]",
+          "incoming": "SNORA64",
+          "n_converted": 1,
+          "n_incoming": 83,
+          "name": "SNORA64",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000201302",
+          "description": "small nucleolar RNA, H/ACA box 65 [Source:HGNC Symbol;Acc:HGNC:10222]",
+          "incoming": "SNORA65",
+          "n_converted": 1,
+          "n_incoming": 84,
+          "name": "SNORA65",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000200355",
+          "description": "Small nucleolar RNA SNORA72 [Source:RFAM;Acc:RF00139]",
+          "incoming": "SNORA72",
+          "n_converted": 1,
+          "n_incoming": 85,
+          "name": "SNORA72",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,RFAM,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000201898",
+          "description": "Small nucleolar RNA SNORA72 [Source:RFAM;Acc:RF00139]",
+          "incoming": "SNORA72",
+          "n_converted": 2,
+          "n_incoming": 85,
+          "name": "SNORA72",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,RFAM,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000201944",
+          "description": "Small nucleolar RNA SNORA72 [Source:RFAM;Acc:RF00139]",
+          "incoming": "SNORA72",
+          "n_converted": 3,
+          "n_incoming": 85,
+          "name": "SNORA72",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,RFAM,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000206901",
+          "description": "Small nucleolar RNA SNORA72 [Source:RFAM;Acc:RF00139]",
+          "incoming": "SNORA72",
+          "n_converted": 4,
+          "n_incoming": 85,
+          "name": "SNORA72",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,RFAM,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000207067",
+          "description": "small nucleolar RNA, H/ACA box 72 [Source:HGNC Symbol;Acc:HGNC:10234]",
+          "incoming": "SNORA72",
+          "n_converted": 5,
+          "n_incoming": 85,
+          "name": "SNORA72",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,RFAM,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000207084",
+          "description": "Small nucleolar RNA SNORA72 [Source:RFAM;Acc:RF00139]",
+          "incoming": "SNORA72",
+          "n_converted": 6,
+          "n_incoming": 85,
+          "name": "SNORA72",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,RFAM,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000207249",
+          "description": "Small nucleolar RNA SNORA72 [Source:RFAM;Acc:RF00139]",
+          "incoming": "SNORA72",
+          "n_converted": 7,
+          "n_incoming": 85,
+          "name": "SNORA72",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,RFAM,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000252158",
+          "description": "Small nucleolar RNA SNORA72 [Source:RFAM;Acc:RF00139]",
+          "incoming": "SNORA72",
+          "n_converted": 8,
+          "n_incoming": 85,
+          "name": "SNORA72",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,RFAM,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000072080",
+          "description": "secreted phosphoprotein 2 [Source:HGNC Symbol;Acc:HGNC:11256]",
+          "incoming": "SPP2",
+          "n_converted": 1,
+          "n_incoming": 86,
+          "name": "SPP2",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000161011",
+          "description": "sequestosome 1 [Source:HGNC Symbol;Acc:HGNC:11280]",
+          "incoming": "SQSTM1",
+          "n_converted": 1,
+          "n_incoming": 87,
+          "name": "SQSTM1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000147465",
+          "description": "steroidogenic acute regulatory protein [Source:HGNC Symbol;Acc:HGNC:11359]",
+          "incoming": "STAR",
+          "n_converted": 1,
+          "n_incoming": 88,
+          "name": "STAR",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000168610",
+          "description": "signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364]",
+          "incoming": "STAT3",
+          "n_converted": 1,
+          "n_incoming": 89,
+          "name": "STAT3",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000099994",
+          "description": "sushi domain containing 2 [Source:HGNC Symbol;Acc:HGNC:30667]",
+          "incoming": "SUSD2",
+          "n_converted": 1,
+          "n_incoming": 90,
+          "name": "SUSD2",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000102265",
+          "description": "TIMP metallopeptidase inhibitor 1 [Source:HGNC Symbol;Acc:HGNC:11820]",
+          "incoming": "TIMP1",
+          "n_converted": 1,
+          "n_incoming": 91,
+          "name": "TIMP1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000035862",
+          "description": "TIMP metallopeptidase inhibitor 2 [Source:HGNC Symbol;Acc:HGNC:11821]",
+          "incoming": "TIMP2",
+          "n_converted": 1,
+          "n_incoming": 92,
+          "name": "TIMP2",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000041982",
+          "description": "tenascin C [Source:HGNC Symbol;Acc:HGNC:5318]",
+          "incoming": "TNC",
+          "n_converted": 1,
+          "n_incoming": 93,
+          "name": "TNC",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        }
+      ],
+      "meta": {}
+    },
+    "by_symbol": {
+      "ABCC4": [
+        "ENSG00000125257"
+      ],
+      "ADAMTS1": [
+        "ENSG00000154734"
+      ],
+      "AHSG": [
+        "ENSG00000145192"
+      ],
+      "AKR1C1": [
+        "ENSG00000187134"
+      ],
+      "AKR1C3": [
+        "ENSG00000196139"
+      ],
+      "ATF4": [
+        "ENSG00000128272"
+      ],
+      "ATG5": [
+        "ENSG00000057663"
+      ],
+      "BACE1": [
+        "ENSG00000186318"
+      ],
+      "BECN1": [
+        "ENSG00000126581"
+      ],
+      "C4BPA": [
+        "ENSG00000123838"
+      ],
+      "CA5B": [
+        "ENSG00000169239"
+      ],
+      "CA9": [
+        "ENSG00000107159"
+      ],
+      "CADM3": [
+        "ENSG00000162706"
+      ],
+      "CASP14": [
+        "ENSG00000105141"
+      ],
+      "CCL20": [
+        "ENSG00000115009"
+      ],
+      "CGA": [
+        "ENSG00000135346"
+      ],
+      "CPS1": [
+        "ENSG00000021826"
+      ],
+      "CRP": [
+        "ENSG00000132693"
+      ],
+      "CXCL13": [
+        "ENSG00000156234"
+      ],
+      "CXCR4": [
+        "ENSG00000121966"
+      ],
+      "CYP11A1": [
+        "ENSG00000140459"
+      ],
+      "CYP1A2": [
+        "ENSG00000140505"
+      ],
+      "CYP2A6": [
+        "ENSG00000255974"
+      ],
+      "CYP2C9": [
+        "ENSG00000138109"
+      ],
+      "CYP3A4": [
+        "ENSG00000160868"
+      ],
+      "DDIT4": [
+        "ENSG00000168209"
+      ],
+      "DKK1": [
+        "ENSG00000107984"
+      ],
+      "DPT": [
+        "ENSG00000143196"
+      ],
+      "DUSP1": [
+        "ENSG00000120129"
+      ],
+      "ESR1": [
+        "ENSG00000091831"
+      ],
+      "F3": [
+        "ENSG00000117525"
+      ],
+      "FLG": [
+        "ENSG00000143631"
+      ],
+      "GSTA2": [
+        "ENSG00000244067"
+      ],
+      "HPGD": [
+        "ENSG00000164120"
+      ],
+      "HSD3B2": [
+        "ENSG00000203859"
+      ],
+      "HSPA1A": [
+        "ENSG00000204389"
+      ],
+      "HSPA1L": [
+        "ENSG00000204390"
+      ],
+      "IGFBP1": [
+        "ENSG00000146678"
+      ],
+      "IL1A": [
+        "ENSG00000115008"
+      ],
+      "LUM": [
+        "ENSG00000139329"
+      ],
+      "MAP1LC3B": [
+        "ENSG00000140941"
+      ],
+      "MIR675": [
+        "ENSG00000284010"
+      ],
+      "MMP2": [
+        "ENSG00000087245"
+      ],
+      "MMP9": [
+        "ENSG00000100985"
+      ],
+      "NEAT1": [
+        "ENSG00000245532"
+      ],
+      "NR1I2": [
+        "ENSG00000144852"
+      ],
+      "NR1I3": [
+        "ENSG00000143257"
+      ],
+      "NR3C1": [
+        "ENSG00000113580"
+      ],
+      "OMD": [
+        "ENSG00000127083"
+      ],
+      "PARP10": [
+        "ENSG00000178685"
+      ],
+      "PGR": [
+        "ENSG00000082175"
+      ],
+      "PLA2G4A": [
+        "ENSG00000116711"
+      ],
+      "PLAC8": [
+        "ENSG00000145287"
+      ],
+      "PPARA": [
+        "ENSG00000186951"
+      ],
+      "PPARD": [
+        "ENSG00000112033"
+      ],
+      "PPARG": [
+        "ENSG00000132170"
+      ],
+      "PTGER1": [
+        "ENSG00000160951"
+      ],
+      "PTGER2": [
+        "ENSG00000125384"
+      ],
+      "PTGER3": [
+        "ENSG00000050628"
+      ],
+      "PTGER4": [
+        "ENSG00000171522"
+      ],
+      "PTGES": [
+        "ENSG00000148344"
+      ],
+      "PTGES2": [
+        "ENSG00000148334"
+      ],
+      "PTGES3": [
+        "ENSG00000110958"
+      ],
+      "PTGFR": [
+        "ENSG00000122420"
+      ],
+      "PTGS1": [
+        "ENSG00000095303"
+      ],
+      "PTGS2": [
+        "ENSG00000073756"
+      ],
+      "PTX3": [
+        "ENSG00000163661"
+      ],
+      "RELA": [
+        "ENSG00000173039"
+      ],
+      "RGS2": [
+        "ENSG00000116741"
+      ],
+      "RPS2": [
+        "ENSG00000140988"
+      ],
+      "RXRA": [
+        "ENSG00000186350"
+      ],
+      "RXRB": [
+        "ENSG00000204231"
+      ],
+      "SCGN": [
+        "ENSG00000079689"
+      ],
+      "SELE": [
+        "ENSG00000007908"
+      ],
+      "SIRT1": [
+        "ENSG00000096717"
+      ],
+      "SIRT2": [
+        "ENSG00000068903"
+      ],
+      "SIRT3": [
+        "ENSG00000142082"
+      ],
+      "SIRT5": [
+        "ENSG00000124523"
+      ],
+      "SLCO2A1": [
+        "ENSG00000174640"
+      ],
+      "SNHG25": [
+        "ENSG00000266402"
+      ],
+      "SNORA13": [
+        "ENSG00000238363"
+      ],
+      "SNORA50C": [
+        "ENSG00000277887"
+      ],
+      "SNORA64": [
+        "ENSG00000207405"
+      ],
+      "SNORA65": [
+        "ENSG00000201302"
+      ],
+      "SNORA72": [
+        "ENSG00000200355",
+        "ENSG00000201898",
+        "ENSG00000201944",
+        "ENSG00000206901",
+        "ENSG00000207067",
+        "ENSG00000207084",
+        "ENSG00000207249",
+        "ENSG00000252158"
+      ],
+      "SPP2": [
+        "ENSG00000072080"
+      ],
+      "SQSTM1": [
+        "ENSG00000161011"
+      ],
+      "STAR": [
+        "ENSG00000147465"
+      ],
+      "STAT3": [
+        "ENSG00000168610"
+      ],
+      "SUSD2": [
+        "ENSG00000099994"
+      ],
+      "TIMP1": [
+        "ENSG00000102265"
+      ],
+      "TIMP2": [
+        "ENSG00000035862"
+      ],
+      "TNC": [
+        "ENSG00000041982"
+      ]
+    },
+    "raw_sha256": "b2cdfa48d7dff175a0cd479006a1eed08384d599393a9d27146701109056ed3e"
+  }
+}

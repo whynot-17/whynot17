@@ -1,0 +1,326 @@
+{
+  "audit": "expanded_dinp_crc_background_ora_and_genecards_audit",
+  "run_utc": "2026-09-07T15:30:40.495151+00:00",
+  "inputs": {
+    "query": {
+      "path": "analysis/dinp_crc_multi_database_target_convergence/outputs/dinp_crc_genecards_relevance10_expanded_intersection.csv",
+      "sha256": "2bd5b776024ea820fe17d4295f9a3408253aa5b434329465d2fb38168f3886ab",
+      "count": 18
+    },
+    "sensitivity_background": {
+      "path": "analysis/dinp_crc_multi_database_target_convergence/outputs/dinp_exposure_gene_matrix_ctd_toxcast_tox21_t3db.csv",
+      "sha256": "8d3e13c2dddf1d6040c30a2988b8141995bdc3bb3d1aa6d5ec56c9e2316368b3",
+      "count": 93
+    },
+    "primary_background": {
+      "path": "analysis/dinp_crc_multi_database_target_convergence/outputs/source_records/genecards_crc_top2000_reference.csv",
+      "sha256": "72448cb1cc70eac077bf560919ead96af67344b825afe15dc739f5442ee647d6",
+      "count": 881
+    }
+  },
+  "canonical_id_namespace": "Ensembl gene IDs via g:Profiler g:Convert, target=ENSG, organism=hsapiens",
+  "gprofiler_version": "e114_eg62_p19_27110d83",
+  "fixed_gene_set_mapping": {
+    "url": "https://biit.cs.ut.ee/gprofiler/static/gprofiler_full_hsapiens.ENSG.gmt",
+    "path": "work/gprofiler_audit_cache/gprofiler_full_hsapiens.ENSG.gmt",
+    "sha256": "58a3d835d269bf2603b6777525c22c3773e5b5cde0da6073ab8927014a3aee3e",
+    "bytes": 100822473,
+    "source_term_counts_all_gmt": {
+      "GO:BP": 21565,
+      "REAC": 2649
+    },
+    "terms_rechecked_from_api": {
+      "GO:BP": 2005,
+      "REAC": 287
+    }
+  },
+  "frozen_hypergeometric_definition": {
+    "formula": "P(X>=k)=sum_{i=k}^{min(K,n)} choose(K,i)*choose(N-K,n-i)/choose(N,n)",
+    "custom_domain_N": "all unique canonical Ensembl IDs mapped from the frozen input background; matches domain_scope=custom",
+    "annotated_domain_N": "background IDs occurring in the relevant fixed GO/Reactome mapping; reported as an alternative sensitivity only",
+    "bh": "Benjamini-Hochberg applied source-wise to the returned terms with nonzero query intersection, reproducing g:Profiler p_value"
+  },
+  "conversion_summary": {
+    "query18": {
+      "input_symbols": 18,
+      "conversion_rows": 18,
+      "canonical_ensembl_ids": 18,
+      "unmapped_symbols": [],
+      "one_to_many_symbols": {},
+      "response_sha256": "0dd09237e42d77aa8940080465a6bc75e11acc10d8244c63ee5804f1563905ad"
+    },
+    "sensitivity_dinp93": {
+      "input_symbols": 93,
+      "conversion_rows": 100,
+      "canonical_ensembl_ids": 100,
+      "unmapped_symbols": [],
+      "one_to_many_symbols": {
+        "SNORA72": [
+          "ENSG00000200355",
+          "ENSG00000201898",
+          "ENSG00000201944",
+          "ENSG00000206901",
+          "ENSG00000207067",
+          "ENSG00000207084",
+          "ENSG00000207249",
+          "ENSG00000252158"
+        ]
+      },
+      "response_sha256": "b2cdfa48d7dff175a0cd479006a1eed08384d599393a9d27146701109056ed3e"
+    },
+    "primary_genecards881": {
+      "input_symbols": 881,
+      "conversion_rows": 889,
+      "canonical_ensembl_ids": 868,
+      "unmapped_symbols": [
+        "CASC21",
+        "CCAT1",
+        "CRCS11",
+        "CRCS2",
+        "CRCS5",
+        "CRCS6",
+        "CRCS7",
+        "CRCS8",
+        "CRCS9",
+        "GSTT1",
+        "LINC00312",
+        "LNC-S100B-2",
+        "LOC126807632",
+        "LOC129933707",
+        "LOC130002222",
+        "LOC130009266",
+        "RAD51L3-RFFL",
+        "RUNX1-IT1",
+        "SACK1C-AS1",
+        "SPRY4-IT1"
+      ],
+      "one_to_many_symbols": {
+        "BUB1B-PAK6": [
+          "ENSG00000137843",
+          "ENSG00000259288"
+        ],
+        "DUXAP8": [
+          "ENSG00000206195",
+          "ENSG00000271672"
+        ],
+        "DUXAP9": [
+          "ENSG00000225210",
+          "ENSG00000293329"
+        ],
+        "GFOD3P": [
+          "ENSG00000227372",
+          "ENSG00000293478"
+        ],
+        "RAC1": [
+          "ENSG00000129538",
+          "ENSG00000136238"
+        ],
+        "RP9P": [
+          "ENSG00000205763",
+          "ENSG00000291146"
+        ],
+        "RPLP0P2": [
+          "ENSG00000243742",
+          "ENSG00000293352"
+        ],
+        "WASH5P": [
+          "ENSG00000282458",
+          "ENSG00000292982"
+        ]
+      },
+      "response_sha256": "86b6230685167c7a9f8c65d28fe6075136822840f7d0b4bdc00b193f94133a16"
+    }
+  },
+  "background_summaries": {
+    "primary_genecards881": {
+      "input_symbol_count": 881,
+      "canonical_ensembl_count": 868,
+      "one_to_many_symbols": {
+        "BUB1B-PAK6": [
+          "ENSG00000137843",
+          "ENSG00000259288"
+        ],
+        "DUXAP8": [
+          "ENSG00000206195",
+          "ENSG00000271672"
+        ],
+        "DUXAP9": [
+          "ENSG00000225210",
+          "ENSG00000293329"
+        ],
+        "GFOD3P": [
+          "ENSG00000227372",
+          "ENSG00000293478"
+        ],
+        "RAC1": [
+          "ENSG00000129538",
+          "ENSG00000136238"
+        ],
+        "RP9P": [
+          "ENSG00000205763",
+          "ENSG00000291146"
+        ],
+        "RPLP0P2": [
+          "ENSG00000243742",
+          "ENSG00000293352"
+        ],
+        "WASH5P": [
+          "ENSG00000282458",
+          "ENSG00000292982"
+        ]
+      },
+      "unmapped_symbols": [
+        "CASC21",
+        "CCAT1",
+        "CRCS11",
+        "CRCS2",
+        "CRCS5",
+        "CRCS6",
+        "CRCS7",
+        "CRCS8",
+        "CRCS9",
+        "GSTT1",
+        "LINC00312",
+        "LNC-S100B-2",
+        "LOC126807632",
+        "LOC129933707",
+        "LOC130002222",
+        "LOC130009266",
+        "RAD51L3-RFFL",
+        "RUNX1-IT1",
+        "SACK1C-AS1",
+        "SPRY4-IT1"
+      ],
+      "source_summaries": {
+        "GO:BP": {
+          "api_rows": 2005,
+          "fixed_gmt_term_map_complete": true,
+          "api_term_metrics_match_fixed_gmt": true,
+          "historical_runner_raw_p_matches_fixed_gmt_local_p": true,
+          "gprofiler_adjusted_p_reproduced_by_sourcewise_bh": true,
+          "api_adjusted_p_max_abs_difference": 2.456368441983159e-12,
+          "mapped_background_N_custom_domain": 868,
+          "annotated_background_N_alternative_domain": 569,
+          "mapped_query_n_custom_domain": 18,
+          "annotated_query_n_alternative_domain": 18,
+          "gprofiler_effective_domain_sizes": [
+            868
+          ],
+          "gprofiler_adjusted_fdr_lt_0_05": 429,
+          "local_annotated_domain_bh_fdr_lt_0_05": 134
+        },
+        "REAC": {
+          "api_rows": 287,
+          "fixed_gmt_term_map_complete": true,
+          "api_term_metrics_match_fixed_gmt": true,
+          "historical_runner_raw_p_matches_fixed_gmt_local_p": true,
+          "gprofiler_adjusted_p_reproduced_by_sourcewise_bh": true,
+          "api_adjusted_p_max_abs_difference": 1.6715517858756357e-12,
+          "mapped_background_N_custom_domain": 868,
+          "annotated_background_N_alternative_domain": 387,
+          "mapped_query_n_custom_domain": 18,
+          "annotated_query_n_alternative_domain": 17,
+          "gprofiler_effective_domain_sizes": [
+            868
+          ],
+          "gprofiler_adjusted_fdr_lt_0_05": 27,
+          "local_annotated_domain_bh_fdr_lt_0_05": 1
+        }
+      }
+    },
+    "sensitivity_dinp93": {
+      "input_symbol_count": 93,
+      "canonical_ensembl_count": 100,
+      "one_to_many_symbols": {
+        "SNORA72": [
+          "ENSG00000200355",
+          "ENSG00000201898",
+          "ENSG00000201944",
+          "ENSG00000206901",
+          "ENSG00000207067",
+          "ENSG00000207084",
+          "ENSG00000207249",
+          "ENSG00000252158"
+        ]
+      },
+      "unmapped_symbols": [],
+      "source_summaries": {
+        "GO:BP": {
+          "api_rows": 2005,
+          "fixed_gmt_term_map_complete": true,
+          "api_term_metrics_match_fixed_gmt": true,
+          "historical_runner_raw_p_matches_fixed_gmt_local_p": true,
+          "gprofiler_adjusted_p_reproduced_by_sourcewise_bh": true,
+          "api_adjusted_p_max_abs_difference": 7.049916206369744e-14,
+          "mapped_background_N_custom_domain": 100,
+          "annotated_background_N_alternative_domain": 99,
+          "mapped_query_n_custom_domain": 18,
+          "annotated_query_n_alternative_domain": 18,
+          "gprofiler_effective_domain_sizes": [
+            100
+          ],
+          "gprofiler_adjusted_fdr_lt_0_05": 100,
+          "local_annotated_domain_bh_fdr_lt_0_05": 97
+        },
+        "REAC": {
+          "api_rows": 287,
+          "fixed_gmt_term_map_complete": true,
+          "api_term_metrics_match_fixed_gmt": true,
+          "historical_runner_raw_p_matches_fixed_gmt_local_p": true,
+          "gprofiler_adjusted_p_reproduced_by_sourcewise_bh": true,
+          "api_adjusted_p_max_abs_difference": 7.116529587847253e-14,
+          "mapped_background_N_custom_domain": 100,
+          "annotated_background_N_alternative_domain": 80,
+          "mapped_query_n_custom_domain": 18,
+          "annotated_query_n_alternative_domain": 17,
+          "gprofiler_effective_domain_sizes": [
+            100
+          ],
+          "gprofiler_adjusted_fdr_lt_0_05": 0,
+          "local_annotated_domain_bh_fdr_lt_0_05": 0
+        }
+      }
+    }
+  },
+  "genecards_threshold_audit": {
+    "source_file": "analysis/dinp_crc_multi_database_target_convergence/outputs/source_records/genecards_crc_top2000_reference.csv",
+    "source_sha256": "72448cb1cc70eac077bf560919ead96af67344b825afe15dc739f5442ee647d6",
+    "source_scope": "archived ordinary GeneCards CRC top-2000 reference",
+    "full_crc_genecards_export_present_in_this_source": false,
+    "threshold_rule": "RelevanceScore >= 10.0",
+    "rows": 2000,
+    "unique_symbols": 2000,
+    "count_relevance_ge_10": 881,
+    "boundary": {
+      "rank_881": {
+        "rank": 881,
+        "symbol": "NDRG4",
+        "relevance_score": 10.0
+      },
+      "rank_882": {
+        "rank": 882,
+        "symbol": "FAS",
+        "relevance_score": 9.9
+      },
+      "rank_2000": {
+        "rank": 2000,
+        "symbol": "EIF2B5",
+        "relevance_score": 3.1
+      }
+    },
+    "conditions": {
+      "exactly_2000_rows": true,
+      "complete_rank_sequence_1_to_2000": true,
+      "unique_symbols": true,
+      "score_monotonic_nonincreasing": true,
+      "count_relevance_ge_10_is_881": true,
+      "rank_881_score_ge_10": true,
+      "rank_882_score_lt_10": true,
+      "rank_2000_score_lt_10": true
+    },
+    "audit_status": "PASS_WITH_ARCHIVED_TOP2000_SCOPE",
+    "interpretation": "Within the archived ranked top-2000 source, the threshold crosses from 10.0 at rank 881 to 9.9 at rank 882, and the scores are nonincreasing through rank 2000 (score 3.1). This supports 881 as the complete >=10 set under the source's globally sorted-ranking assumption; it is not evidence that a full login-restricted export was obtained."
+  },
+  "overall_status": "PASS",
+  "interpretation_boundary": "The 93-symbol sensitivity background maps to 100 canonical Ensembl IDs because SNORA72 expands to eight IDs. This is identifier expansion, not an additional biological input gene list. The historical g:Profiler run used N=100 under domain_scope=custom. The annotated-domain N values are not substituted into historical results."
+}

@@ -1,0 +1,275 @@
+{
+  "retrieved_at": "2026-09-07T15:30:33.292129+00:00",
+  "endpoint": "https://biit.cs.ut.ee/gprofiler/api/convert/convert/",
+  "target": "ENSG",
+  "organism": "hsapiens",
+  "input_count": 18,
+  "conversion": {
+    "payload": {
+      "organism": "hsapiens",
+      "target": "ENSG",
+      "query": [
+        "BECN1",
+        "CRP",
+        "CXCR4",
+        "CYP1A2",
+        "CYP3A4",
+        "DKK1",
+        "ESR1",
+        "MMP2",
+        "MMP9",
+        "NEAT1",
+        "PPARD",
+        "PPARG",
+        "PTGS1",
+        "PTGS2",
+        "RELA",
+        "SIRT1",
+        "STAT3",
+        "TIMP1"
+      ]
+    },
+    "response": {
+      "result": [
+        {
+          "converted": "ENSG00000126581",
+          "description": "beclin 1 [Source:HGNC Symbol;Acc:HGNC:1034]",
+          "incoming": "BECN1",
+          "n_converted": 1,
+          "n_incoming": 1,
+          "name": "BECN1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000132693",
+          "description": "C-reactive protein [Source:HGNC Symbol;Acc:HGNC:2367]",
+          "incoming": "CRP",
+          "n_converted": 1,
+          "n_incoming": 2,
+          "name": "CRP",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000121966",
+          "description": "C-X-C motif chemokine receptor 4 [Source:HGNC Symbol;Acc:HGNC:2561]",
+          "incoming": "CXCR4",
+          "n_converted": 1,
+          "n_incoming": 3,
+          "name": "CXCR4",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000140505",
+          "description": "cytochrome P450 family 1 subfamily A member 2 [Source:HGNC Symbol;Acc:HGNC:2596]",
+          "incoming": "CYP1A2",
+          "n_converted": 1,
+          "n_incoming": 4,
+          "name": "CYP1A2",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000160868",
+          "description": "cytochrome P450 family 3 subfamily A member 4 [Source:HGNC Symbol;Acc:HGNC:2637]",
+          "incoming": "CYP3A4",
+          "n_converted": 1,
+          "n_incoming": 5,
+          "name": "CYP3A4",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000107984",
+          "description": "dickkopf WNT signaling pathway inhibitor 1 [Source:HGNC Symbol;Acc:HGNC:2891]",
+          "incoming": "DKK1",
+          "n_converted": 1,
+          "n_incoming": 6,
+          "name": "DKK1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000091831",
+          "description": "estrogen receptor 1 [Source:HGNC Symbol;Acc:HGNC:3467]",
+          "incoming": "ESR1",
+          "n_converted": 1,
+          "n_incoming": 7,
+          "name": "ESR1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000087245",
+          "description": "matrix metallopeptidase 2 [Source:HGNC Symbol;Acc:HGNC:7166]",
+          "incoming": "MMP2",
+          "n_converted": 1,
+          "n_incoming": 8,
+          "name": "MMP2",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000100985",
+          "description": "matrix metallopeptidase 9 [Source:HGNC Symbol;Acc:HGNC:7176]",
+          "incoming": "MMP9",
+          "n_converted": 1,
+          "n_incoming": 9,
+          "name": "MMP9",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000245532",
+          "description": "nuclear paraspeckle assembly transcript 1 [Source:HGNC Symbol;Acc:HGNC:30815]",
+          "incoming": "NEAT1",
+          "n_converted": 1,
+          "n_incoming": 10,
+          "name": "NEAT1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000112033",
+          "description": "peroxisome proliferator activated receptor delta [Source:HGNC Symbol;Acc:HGNC:9235]",
+          "incoming": "PPARD",
+          "n_converted": 1,
+          "n_incoming": 11,
+          "name": "PPARD",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000132170",
+          "description": "peroxisome proliferator activated receptor gamma [Source:HGNC Symbol;Acc:HGNC:9236]",
+          "incoming": "PPARG",
+          "n_converted": 1,
+          "n_incoming": 12,
+          "name": "PPARG",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000095303",
+          "description": "prostaglandin-endoperoxide synthase 1 [Source:HGNC Symbol;Acc:HGNC:9604]",
+          "incoming": "PTGS1",
+          "n_converted": 1,
+          "n_incoming": 13,
+          "name": "PTGS1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000073756",
+          "description": "prostaglandin-endoperoxide synthase 2 [Source:HGNC Symbol;Acc:HGNC:9605]",
+          "incoming": "PTGS2",
+          "n_converted": 1,
+          "n_incoming": 14,
+          "name": "PTGS2",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000173039",
+          "description": "RELA proto-oncogene, NF-kB subunit [Source:HGNC Symbol;Acc:HGNC:9955]",
+          "incoming": "RELA",
+          "n_converted": 1,
+          "n_incoming": 15,
+          "name": "RELA",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000096717",
+          "description": "sirtuin 1 [Source:HGNC Symbol;Acc:HGNC:14929]",
+          "incoming": "SIRT1",
+          "n_converted": 1,
+          "n_incoming": 16,
+          "name": "SIRT1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000168610",
+          "description": "signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364]",
+          "incoming": "STAT3",
+          "n_converted": 1,
+          "n_incoming": 17,
+          "name": "STAT3",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        },
+        {
+          "converted": "ENSG00000102265",
+          "description": "TIMP metallopeptidase inhibitor 1 [Source:HGNC Symbol;Acc:HGNC:11820]",
+          "incoming": "TIMP1",
+          "n_converted": 1,
+          "n_incoming": 18,
+          "name": "TIMP1",
+          "namespaces": "ENTREZGENE,GENECARDS,HGNC,UNIPROT_GN,WIKIGENE",
+          "query": "query_1"
+        }
+      ],
+      "meta": {}
+    },
+    "by_symbol": {
+      "BECN1": [
+        "ENSG00000126581"
+      ],
+      "CRP": [
+        "ENSG00000132693"
+      ],
+      "CXCR4": [
+        "ENSG00000121966"
+      ],
+      "CYP1A2": [
+        "ENSG00000140505"
+      ],
+      "CYP3A4": [
+        "ENSG00000160868"
+      ],
+      "DKK1": [
+        "ENSG00000107984"
+      ],
+      "ESR1": [
+        "ENSG00000091831"
+      ],
+      "MMP2": [
+        "ENSG00000087245"
+      ],
+      "MMP9": [
+        "ENSG00000100985"
+      ],
+      "NEAT1": [
+        "ENSG00000245532"
+      ],
+      "PPARD": [
+        "ENSG00000112033"
+      ],
+      "PPARG": [
+        "ENSG00000132170"
+      ],
+      "PTGS1": [
+        "ENSG00000095303"
+      ],
+      "PTGS2": [
+        "ENSG00000073756"
+      ],
+      "RELA": [
+        "ENSG00000173039"
+      ],
+      "SIRT1": [
+        "ENSG00000096717"
+      ],
+      "STAT3": [
+        "ENSG00000168610"
+      ],
+      "TIMP1": [
+        "ENSG00000102265"
+      ]
+    },
+    "raw_sha256": "0dd09237e42d77aa8940080465a6bc75e11acc10d8244c63ee5804f1563905ad"
+  }
+}
