@@ -1,0 +1,77 @@
+{
+  "data_root": "E:\\chatgpt\\data\\dinp_cross_tissue_perturbation_consensus",
+  "files": [
+    {
+      "path": "E:\\chatgpt\\data\\dinp_cross_tissue_perturbation_consensus\\GSE158473_family.soft.gz",
+      "size": 4826,
+      "sha256": "1caa237936d07a707c7ef579bbc46820916d3bc159644a1af693f36b90984a58"
+    },
+    {
+      "path": "E:\\chatgpt\\data\\dinp_cross_tissue_perturbation_consensus\\GSE158473_Flaws_gene_logCPMvalues_2019-02-19.txt.gz",
+      "size": 4900719,
+      "sha256": "a2e39c50d5a214b3bef70231018f4bfbdeb95c11913c41b7a9995d9b137cb23f"
+    },
+    {
+      "path": "E:\\chatgpt\\data\\dinp_cross_tissue_perturbation_consensus\\GSE313258_AllSamples_Countsmatrix_TPM.csv.gz",
+      "size": 2583586,
+      "sha256": "14b6f6dc2e3210255ad75013a6b1ce6aab2c08ac29a62e90d622995ca7d442b3"
+    },
+    {
+      "path": "E:\\chatgpt\\data\\dinp_cross_tissue_perturbation_consensus\\GSE313258_family.soft.gz",
+      "size": 4308,
+      "sha256": "24ae528b258cadc3217543526cb256602fd72a030ef6022857bd1f4ad30ab3ef"
+    },
+    {
+      "path": "E:\\chatgpt\\data\\dinp_cross_tissue_perturbation_consensus\\crc\\GPL13667_family.soft.gz",
+      "size": 6038451838,
+      "sha256": "64fafc88c6fb306888a127f4264fce75bc9dac9363294c5404029dbd586437f5"
+    },
+    {
+      "path": "E:\\chatgpt\\data\\dinp_cross_tissue_perturbation_consensus\\crc\\GPL13667_family2.soft.gz",
+      "size": 3747033966,
+      "sha256": "d598ae83829bd3a3579124d9b9de3c78f205f4687ae9ab57f63ca9b1683d1e6e"
+    },
+    {
+      "path": "E:\\chatgpt\\data\\dinp_cross_tissue_perturbation_consensus\\crc\\GPL570.annot.gz",
+      "size": 8471521,
+      "sha256": "d7cd44352127b1e34f3a720ebea86093ef255a38f1612a85a2962b71bde8f394"
+    },
+    {
+      "path": "E:\\chatgpt\\data\\dinp_cross_tissue_perturbation_consensus\\crc\\GPL570_family.soft.gz",
+      "size": 1128814445,
+      "sha256": "3ca053fa4f0f0ad211abbfce3136d285c529ea737bcdd8066b33bc89bff82784"
+    },
+    {
+      "path": "E:\\chatgpt\\data\\dinp_cross_tissue_perturbation_consensus\\crc\\GSE37364_family.soft.gz",
+      "size": 45991810,
+      "sha256": "f952900eef3ebc312708102e00b45d88388cd3428bfca5d7070d1b273cf287e5"
+    },
+    {
+      "path": "E:\\chatgpt\\data\\dinp_cross_tissue_perturbation_consensus\\crc\\GSE37364_series_matrix.txt.gz",
+      "size": 10944303,
+      "sha256": "60e860718b10087605b0fde9ca83d763e6fb4ed9b3a6f45044d707b9b615deda"
+    },
+    {
+      "path": "E:\\chatgpt\\data\\dinp_cross_tissue_perturbation_consensus\\crc\\GSE39582_family.soft.gz",
+      "size": 287763812,
+      "sha256": "afeaa4a33378c082bf213d2e7351c483e005d8cde30a39da0e1bc6433df1b77d"
+    },
+    {
+      "path": "E:\\chatgpt\\data\\dinp_cross_tissue_perturbation_consensus\\crc\\GSE39582_series_matrix.txt.gz",
+      "size": 172157430,
+      "sha256": "5b88fa71c5268fa1a6ac52b062ee6e676def6c997ab4a09c36ea7acd90ef3968"
+    },
+    {
+      "path": "E:\\chatgpt\\data\\dinp_cross_tissue_perturbation_consensus\\crc\\GSE44076_family.soft.gz",
+      "size": 93136212,
+      "sha256": "7fe4ae6796ecafcb2fe8ba675759913291d70378f928689c7fd8a5c0a48f61c9"
+    },
+    {
+      "path": "E:\\chatgpt\\data\\dinp_cross_tissue_perturbation_consensus\\crc\\GSE44076_series_matrix.txt.gz",
+      "size": 32596137,
+      "sha256": "096db6c83516d01e39a8c1e3b84b2b3759d9edb133e0ce40807251a69b2671bb"
+    }
+  ],
+  "generated_utc": "2026-09-07T07:14:51.473866+00:00",
+  "python": "3.11.16 | packaged by conda-forge | (main, Sep  2 2026, 23:31:17) [MSC v.1944 64 bit (AMD64)]"
+}

@@ -1,0 +1,11 @@
+dataset_id,tissue,species,contrast_id,dose,timepoint,n_treated,n_control,expression_scale,analysis_method,quality,status,source_url,exclusion_reason,n_tumor,n_normal,method,n_pairs,platform,design,n_genes_tested
+GSE158473,ovary,mouse,GSE158473_0month_DiNP_20ugkgd,20 ug/kg/day,0 month,3,3,log2 CPM,Welch t-test,secondary_processed_expression,PASS,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE158473,,,,,,,,
+GSE158473,ovary,mouse,GSE158473_0month_DiNP_100ugkgd,100 ug/kg/day,0 month,3,3,log2 CPM,Welch t-test,secondary_processed_expression,PASS,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE158473,,,,,,,,
+GSE158473,ovary,mouse,GSE158473_3months_DiNP_20ugkgd,20 ug/kg/day,3 months,3,3,log2 CPM,Welch t-test,secondary_processed_expression,PASS,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE158473,,,,,,,,
+GSE158473,ovary,mouse,GSE158473_3months_DiNP_100ugkgd,100 ug/kg/day,3 months,3,3,log2 CPM,Welch t-test,secondary_processed_expression,PASS,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE158473,,,,,,,,
+GSE313258,liver,mouse,GSE313258_20weeks_DiNP_1.5mgkgd,1.5 mg/kg/day,20 weeks,13,14,TPM (log2 transformed for test),Welch t-test,secondary_processed_expression,PASS,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE313258,,,,,,,,
+GSE313258,liver,mouse,GSE313258_20weeks_DiNP_15mgkgd,15 mg/kg/day,20 weeks,13,14,TPM (log2 transformed for test),Welch t-test,secondary_processed_expression,PASS,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE313258,,,,,,,,
+GSE313258,liver,mouse,GSE313258_20weeks_DiNP_150mgkgd,150 mg/kg/day,20 weeks,14,14,TPM (log2 transformed for test),Welch t-test,secondary_processed_expression,PASS,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE313258,,,,,,,,
+THYROID_ORGANOID,thyroid organoid,mouse,,,,,,,,,UNAVAILABLE,,No unique DINP GEO accession confirmed from the source record; excluded rather than guessed.,,,,,,,
+GSE44076,,,,,,,,log2 RMA-like,,,PASS,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44076,,98.0,98.0,paired,98.0,GPL13667,paired adjacent-normal vs primary tumor,20217.0
+GSE37364,,,,,,,,log2(x+1) probe intensity,,,PASS,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE37364,,27.0,38.0,welch,0.0,GPL570,unpaired normal mucosa vs CRC biopsy,22834.0

@@ -1,0 +1,5 @@
+collection,status,n_terms,source
+Hallmark,PASS,50,E:\chatgpt\whynot17\work\gene_sets\h.all.v2026.1.Hs.symbols.gmt
+Reactome,PASS,1474,E:\chatgpt\whynot17\work\gene_sets\c2.cp.reactome.v2026.1.Hs.symbols.gmt
+KEGG,UNAVAILABLE,0,No local GMT was available; no KEGG terms were imputed.
+GO:BP,UNAVAILABLE,0,No local GMT was available; no GO:BP terms were imputed.
