@@ -1,0 +1,10 @@
+theme_order,theme_id,theme_label,GO_representative_count,Reactome_informative_count,aligned_term_count,GO_union_gene_count,Reactome_union_gene_count,shared_gene_count,union_gene_count,GO_Reactome_union_Jaccard,GO_core_drivers,Reactome_core_drivers
+1,lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,11,4,15,15,6,6,15,0.4000,SIRT1:8/11; PPARD:7/11; PTGS2:7/11; CYP1A2:6/11; CYP3A4:6/11; PTGS1:6/11,CYP1A2:4/4; PTGS2:4/4; CYP3A4:3/4; PPARD:2/4; PTGS1:2/4; PPARG:1/4
+2,inflammation_defense,Inflammation / defense / stimulus response,4,0,4,15,0,0,15,0.0000,ESR1:4/4; MMP9:4/4; PPARD:4/4; PPARG:4/4; PTGS2:4/4; RELA:4/4,
+3,chemical_oxygen_stress,Chemical / oxygen / abiotic stress response,6,0,6,16,0,0,16,0.0000,BECN1:5/6; MMP2:5/6; PPARG:5/6; SIRT1:5/6; PPARD:4/6; PTGS2:4/6,
+4,apoptosis_cell_death,Apoptosis / programmed cell death,2,0,2,12,0,0,12,0.0000,BECN1:2/2; DKK1:2/2; ESR1:2/2; MMP9:2/2; PPARD:2/2; PTGS2:2/2,
+5,mirna_regulation,miRNA transcription / metabolism,2,0,2,5,0,0,5,0.0000,ESR1:2/2; PPARD:2/2; PPARG:2/2; RELA:2/2; STAT3:1/2,
+6,signaling_receptor,Signaling / receptor / hormone response,4,1,5,11,3,3,11,0.2727,PPARG:4/4; RELA:4/4; SIRT1:4/4; ESR1:3/4; BECN1:2/4; MMP9:2/4,ESR1:1/1; PPARD:1/1; PPARG:1/1
+7,matrix_migration,Matrix remodeling / cell migration,1,1,2,9,3,3,9,0.3333,CXCR4:1/1; MMP2:1/1; MMP9:1/1; PPARD:1/1; PPARG:1/1; PTGS2:1/1,MMP2:1/1; MMP9:1/1; TIMP1:1/1
+8,development_reproduction,Development / reproduction / circulation,10,0,10,17,0,0,17,0.0000,MMP2:10/10; PPARD:10/10; PTGS2:10/10; MMP9:9/10; TIMP1:9/10; ESR1:8/10,
+9,general_metabolism,General metabolism / biosynthesis / storage,3,0,3,18,0,0,18,0.0000,CYP1A2:3/3; CYP3A4:3/3; MMP2:3/3; PPARD:3/3; SIRT1:3/3; BECN1:2/3,

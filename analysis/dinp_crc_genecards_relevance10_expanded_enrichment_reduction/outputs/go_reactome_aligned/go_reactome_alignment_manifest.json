@@ -1,0 +1,29 @@
+{
+  "generated_utc": "2026-09-07T14:34:01.946030+00:00",
+  "input_go_representatives": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_genecards_relevance10_expanded_enrichment_reduction\\outputs\\go_bp_cleaning\\go_bp_clean_representatives.csv",
+  "input_go_representatives_sha256": "ef65deacbde127d5c20ebedbd28a66a46d67652468fdd1cf672bc4cf16bca337",
+  "input_primary_106_terms": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_genecards_relevance10_expanded_enrichment_reduction\\outputs\\primary_106_terms_with_genes.csv",
+  "input_primary_106_terms_sha256": "9235a59a6711ef2a824cfa49bbbecfe8b9b83c1f3a04ed7e0517e43936f5d8d9",
+  "go_representatives": 43,
+  "reactome_rows": 7,
+  "reactome_root_excluded": 1,
+  "reactome_informative_terms": 6,
+  "aligned_terms": 49,
+  "theme_count": 9,
+  "reactome_theme_map": {
+    "REAC:R-HSA-556833": "lipid_eicosanoid",
+    "REAC:R-HSA-8978868": "lipid_eicosanoid",
+    "REAC:R-HSA-9018678": "lipid_eicosanoid",
+    "REAC:R-HSA-9018677": "lipid_eicosanoid",
+    "REAC:R-HSA-383280": "signaling_receptor",
+    "REAC:R-HSA-1592389": "matrix_migration"
+  },
+  "statistical_boundary": "No enrichment P/FDR recalculation; GO and Reactome remain source-specific.",
+  "outputs": [
+    "go_reactome_aligned_terms.csv",
+    "go_reactome_theme_alignment.csv",
+    "go_reactome_driver_contribution.csv",
+    "go_reactome_global_driver_contribution.csv",
+    "go_reactome_alignment_summary.md"
+  ]
+}
