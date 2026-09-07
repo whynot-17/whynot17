@@ -257,6 +257,8 @@ def main() -> int:
     overlap.to_csv(OUT_DIR / "overlap_summary.csv", index=False)
     genes.to_csv(OUT_DIR / "overlap_genes_long.csv", index=False)
     enrich.to_csv(OUT_DIR / "key_pathway_enrichment.csv", index=False)
+    if not enrich.empty:
+        enrich[enrich["key_pathway"]].to_csv(OUT_DIR / "key_pathway_enrichment_key_terms.csv", index=False)
     panels_df.to_csv(OUT_DIR / "panel_enrichment_summary.csv", index=False)
 
     # A compact visual makes cutoff sensitivity immediately inspectable.
