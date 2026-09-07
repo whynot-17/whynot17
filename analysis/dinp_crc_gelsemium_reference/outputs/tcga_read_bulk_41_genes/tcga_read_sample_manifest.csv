@@ -1,0 +1,103 @@
+sample_id,_study,primary disease or tissue,_sample_type,study,disease,sample_type,group,include,dataset,patient_id
+TCGA-EI-6512-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6512
+TCGA-F5-6863-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6863
+TCGA-AG-3742-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-3742
+TCGA-DC-6681-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-6681
+TCGA-DC-5337-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-5337
+TCGA-DC-4745-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-4745
+TCGA-AF-3911-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-3911
+TCGA-CI-6622-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CI-6622
+TCGA-DC-6158-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-6158
+TCGA-EI-6884-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6884
+TCGA-G5-6233-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G5-6233
+TCGA-AG-3731-11,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,READ_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-3731
+TCGA-AG-3725-11,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,READ_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-3725
+TCGA-AH-6903-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AH-6903
+TCGA-CI-6621-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CI-6621
+TCGA-EI-6882-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6882
+TCGA-AF-2687-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-2687
+TCGA-DC-6156-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-6156
+TCGA-EF-5830-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EF-5830
+TCGA-G5-6641-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G5-6641
+TCGA-AF-6136-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-6136
+TCGA-F5-6813-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6813
+TCGA-AF-6655-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-6655
+TCGA-AF-A56L-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-A56L
+TCGA-G5-6572-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G5-6572
+TCGA-AF-5654-11,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,READ_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-5654
+TCGA-EI-6507-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6507
+TCGA-AH-6549-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AH-6549
+TCGA-EI-6508-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6508
+TCGA-AH-6897-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AH-6897
+TCGA-AF-4110-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-4110
+TCGA-DC-6682-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-6682
+TCGA-AF-2691-11,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,READ_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-2691
+TCGA-EI-6513-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6513
+TCGA-EI-6506-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6506
+TCGA-DC-6683-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-6683
+TCGA-DC-6155-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-6155
+TCGA-BM-6198-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-BM-6198
+TCGA-DY-A1DG-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DY-A1DG
+TCGA-DC-4749-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-4749
+TCGA-G5-6235-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G5-6235
+TCGA-AH-6643-11,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,READ_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AH-6643
+TCGA-EI-6514-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6514
+TCGA-AF-2693-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-2693
+TCGA-AF-A56N-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-A56N
+TCGA-DY-A1DD-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DY-A1DD
+TCGA-AF-A56K-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-A56K
+TCGA-F5-6571-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6571
+TCGA-CI-6623-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CI-6623
+TCGA-AF-2690-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-2690
+TCGA-AG-3591-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-3591
+TCGA-AG-4022-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-4022
+TCGA-AG-3731-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-3731
+TCGA-DY-A1DF-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DY-A1DF
+TCGA-EI-6917-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6917
+TCGA-DY-A1DE-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DY-A1DE
+TCGA-AH-6644-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AH-6644
+TCGA-AF-2689-11,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,READ_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-2689
+TCGA-F5-6861-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6861
+TCGA-F5-6814-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6814
+TCGA-EI-6511-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6511
+TCGA-AG-3732-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-3732
+TCGA-AH-6544-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AH-6544
+TCGA-AF-6672-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-6672
+TCGA-DY-A0XA-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DY-A0XA
+TCGA-EI-7002-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-7002
+TCGA-AG-3742-11,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,READ_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-3742
+TCGA-F5-6702-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6702
+TCGA-DY-A1H8-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DY-A1H8
+TCGA-DT-5265-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DT-5265
+TCGA-F5-6465-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6465
+TCGA-AF-3400-11,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,READ_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-3400
+TCGA-F5-6864-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6864
+TCGA-EI-6510-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6510
+TCGA-F5-6812-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6812
+TCGA-DC-6160-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-6160
+TCGA-F5-6810-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6810
+TCGA-CL-4957-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CL-4957
+TCGA-EI-7004-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-7004
+TCGA-DC-6154-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-6154
+TCGA-CI-6619-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CI-6619
+TCGA-CI-6624-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CI-6624
+TCGA-CL-5918-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CL-5918
+TCGA-AG-3732-11,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,READ_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-3732
+TCGA-AG-3592-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-3592
+TCGA-CL-5917-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CL-5917
+TCGA-EI-6885-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6885
+TCGA-EF-5831-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EF-5831
+TCGA-DC-5869-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-5869
+TCGA-AG-4021-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-4021
+TCGA-DC-6157-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DC-6157
+TCGA-AH-6547-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AH-6547
+TCGA-AF-5654-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-5654
+TCGA-F5-6811-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6811
+TCGA-EI-6509-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6509
+TCGA-AF-2692-11,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,TCGA,Rectum Adenocarcinoma,Solid Tissue Normal,READ_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AF-2692
+TCGA-CI-6620-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CI-6620
+TCGA-AH-6643-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AH-6643
+TCGA-DY-A1DC-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DY-A1DC
+TCGA-EI-6881-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-EI-6881
+TCGA-AG-3725-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AG-3725
+TCGA-F5-6464-01,TCGA,Rectum Adenocarcinoma,Primary Tumor,TCGA,Rectum Adenocarcinoma,Primary Tumor,READ_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F5-6464
