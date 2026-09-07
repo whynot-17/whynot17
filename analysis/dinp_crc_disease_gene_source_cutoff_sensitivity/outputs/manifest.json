@@ -1,6 +1,6 @@
 {
   "analysis": "DINP CTD 86-gene \u00d7 CRC disease-source cutoff sensitivity audit",
-  "run_utc": "2026-09-07T08:08:41.124313+00:00",
+  "run_utc": "2026-09-07T08:14:05.640322+00:00",
   "query_definition": "All 86 genes in dinp_exposure_gene_matrix.csv; this file contains CTD=1 for all rows and no ToxCast/ChEMBL-only additions.",
   "sources": {
     "GeneCards": {
