@@ -1,0 +1,58 @@
+{
+  "analysis": "DINP-CRC GeneCards relevance-threshold intersection GO/KEGG ORA",
+  "run_utc": "2026-09-07T11:50:32.251511+00:00",
+  "query_count": 16,
+  "background_count": 86,
+  "query_sha256": "0e24f50d2e5e780404d7dde7ba40790d67f096832a1ac95e7fbb330189bdd67a",
+  "background_sha256": "03ab7abc1ed7ccf5de61bcd131eff4e5eba39028f98f18d5241eb0d87624316a",
+  "sources": [
+    "GO:BP",
+    "GO:MF",
+    "GO:CC",
+    "KEGG"
+  ],
+  "threshold": {
+    "field": "GeneCards RelevanceScore",
+    "operator": ">=",
+    "value": 10
+  },
+  "method": "ORA; hypergeometric enrichment with custom CTD-DINP background",
+  "multiple_testing": {
+    "family": "GO:BP + GO:MF + GO:CC + KEGG",
+    "family_size": 39324,
+    "adjustment": "BH"
+  },
+  "inputs": {
+    "query": "/mnt/d/Codex/projectless-workspaces/2026-08-22/non/work/whynot17/analysis/dinp_crc_multi_database_target_convergence/outputs/dinp_crc_genecards_relevance10_intersection.csv",
+    "query_sha256": "2a8a2a63fcdc57b8874a1720e72523f960eae1ec5d28ab33311b47c027b5f6f1",
+    "background": "/mnt/d/Codex/projectless-workspaces/2026-08-22/non/work/whynot17/analysis/dinp_crc_multi_database_target_convergence/outputs/dinp_exposure_gene_matrix.csv",
+    "background_sha256": "7e7c6f110c8e58a63af7585e75ff4d289912afd09629eeb3fa5982f79597e63a"
+  },
+  "firewall": {
+    "open_targets_used": false,
+    "crc_outcome_statistics_used": false,
+    "enrichment_used_for_gene_selection": false
+  },
+  "api": {
+    "endpoint": "https://biit.cs.ut.ee/gprofiler/api/gost/profile/",
+    "response_sha256": "8650447be8d86bf2963d03de752794e3a3ec32b182600fe6d5dc29138ab8a332",
+    "version": "e114_eg62_p19_27110d83",
+    "timestamp": "2026-09-07T11:50:29.448793+00:00"
+  },
+  "counts": {
+    "returned_terms": 2471,
+    "global_fdr_lt_0_05": 10,
+    "significant_by_source": {
+      "GO:BP": 10,
+      "GO:MF": 0,
+      "GO:CC": 0,
+      "KEGG": 0
+    },
+    "source_specific_fdr_lt_0_05_by_source": {
+      "GO:BP": 25,
+      "GO:MF": 0,
+      "GO:CC": 0,
+      "KEGG": 1
+    }
+  }
+}
