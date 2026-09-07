@@ -29,7 +29,7 @@ This re-analysis keeps `analysis/dinp_crc_pge2_ptger4_axis/` unchanged and tests
 
 ### Recommended interpretation
 
-The data **suggests only weakly** a potential PGE2–PTGER4 macrophage response axis at the expression level. The pooled C1QC PTGER4 enrichment is reproducible as a pooled description, while donor-level source and receiver ranks must be read with sparse-group coverage and heterogeneity visible. This does not demonstrate extracellular PGE2 production, receptor binding, spatial proximity, or functional communication.
+The data **suggests only weakly** a potential PGE2–PTGER4 macrophage response axis at the expression level. C1QC has a measurable pooled PTGER4 signal but is not the top pooled receiver; donor-level source and receiver ranks must be read with sparse-group coverage and heterogeneity visible. This does not demonstrate extracellular PGE2 production, receptor binding, spatial proximity, or functional communication.
 
 ### Recommended next step
 

@@ -259,6 +259,10 @@ def main():
         "SPP1-like TAM has adequate coverage in the available donor coverage, so its apparent high rank cannot be generalized to 62 donors.",
         "SPP1-like TAM is covered unevenly across donors, so its apparent high rank must be interpreted with the eligible-donor denominator and cannot be generalized to all 62 donors.",
     )
+    robustness_text = robustness_text.replace(
+        "The pooled C1QC PTGER4 enrichment is reproducible as a pooled description, while donor-level source and receiver ranks must be read with sparse-group coverage and heterogeneity visible.",
+        "C1QC has a measurable pooled PTGER4 signal but is not the top pooled receiver; donor-level source and receiver ranks must be read with sparse-group coverage and heterogeneity visible.",
+    )
     robustness_report.write_text(robustness_text, encoding="utf-8")
     report.write_text(robustness_text + "\n\n## Validation-specific annotation\n\nGSE178341 uses the public c295 official labels. The cohort has one official macrophage-like cluster (cM02); SPP1-like, C1QC-like, FCN1-like and resident-like labels are transparent marker-defined transfer states within Macro/Mono and are not presented as the original c295 annotation. Ambiguous cells remain `other_myeloid`.\n", encoding="utf-8")
     print("GSE178341 PRIMARY VALIDATION: PASS")
