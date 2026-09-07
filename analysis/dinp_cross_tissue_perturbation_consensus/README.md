@@ -14,3 +14,5 @@ The DINP side keeps dose and time contrasts separate, maps mouse symbols to huma
 Because both confirmed DINP matrices are processed expression (logCPM or TPM), the script uses Welch tests on the native processed scale and records this as secondary-quality evidence. Pathway files use a transparent preranked rank-sum implementation over the locally available Hallmark and Reactome GMTs; `pathway_collection_manifest.csv` explicitly records GO:BP and KEGG as unavailable when no local GMT is present.
 
 Main outputs include per-contrast DEG tables, `dinp_gene_consensus.csv`, `crc_gene_consensus.csv`, `dinp_crc_directional_convergence.csv`, dose/time consistency tables, orthology and legacy audits, candidate tiers, eight figures, `ANALYSIS_AUDIT.md`, and `DINP_CROSS_TISSUE_CONSENSUS_REPORT.md`.
+
+The repository also carries compressed full consensus tables (`*.csv.gz`) plus top-250 snapshots for the larger per-gene tables. The uncompressed per-contrast DEG matrices remain on `E:\chatgpt` and their SHA-256 values are recorded in `outputs/provenance/file_provenance.json` and `outputs/large_table_manifest.csv`.
