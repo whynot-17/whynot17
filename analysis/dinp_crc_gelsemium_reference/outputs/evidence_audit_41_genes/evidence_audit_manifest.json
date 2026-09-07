@@ -1,0 +1,37 @@
+{
+  "generated_utc": "2026-09-07T16:34:27.724991+00:00",
+  "script": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_gelsemium_reference\\run_41_gene_evidence_audit.py",
+  "inputs": {
+    "intersection": {
+      "path": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_gelsemium_reference\\outputs\\dinp_crc_intersection_41.csv",
+      "sha256": "20c2e83a758d5cd369234cdacd8ea2d53bd6a7ae85e44af5d602e388eb270297"
+    },
+    "exposure_matrix": {
+      "path": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_multi_database_target_convergence\\outputs\\dinp_exposure_gene_matrix_ctd_toxcast_tox21_t3db.csv",
+      "sha256": "8d3e13c2dddf1d6040c30a2988b8141995bdc3bb3d1aa6d5ec56c9e2316368b3"
+    },
+    "target_prioritization": {
+      "path": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_gelsemium_reference\\outputs\\target_prioritization_1893\\go_reactome_kegg_target_prioritization.csv",
+      "sha256": "dc78f6ba93c90e8bef1897e03c7bb1860b7007b8aeb94d5147d74ce4fe932be9"
+    }
+  },
+  "gene_count": 41,
+  "dinp_source_family_definition": "CTD; CompTox=(ToxCast OR Tox21); T3DB",
+  "pathway_recurrence_definition": "GO cleaned representatives + significant Reactome + significant KEGG term membership",
+  "annotation_density_correction_performed": false,
+  "new_statistical_test_performed": false,
+  "outputs": {
+    "evidence_matrix": {
+      "path": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_gelsemium_reference\\outputs\\evidence_audit_41_genes\\dinp_crc_41_gene_evidence_matrix.csv",
+      "sha256": "049659787e0c7dfcc7096f3ad82dbc6595526c639b76054d89c6413e1554cc7a"
+    },
+    "prioritization_decomposition": {
+      "path": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_gelsemium_reference\\outputs\\evidence_audit_41_genes\\prioritization_decomposition.csv",
+      "sha256": "7512dfc91e8ef25f8ad87ca60695d0bc59462af17d62a9cdc722224af0f7daef"
+    },
+    "summary": {
+      "path": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_gelsemium_reference\\outputs\\evidence_audit_41_genes\\evidence_audit_summary.md",
+      "sha256": "75bec602fce6e76081365be7a66d5d207b3d1b5ab62da8681303cc6e431a9cbc"
+    }
+  }
+}
