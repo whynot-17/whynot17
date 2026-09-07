@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-09-07T13:31:33.050816+00:00",
+  "analysis": "Expanded DINP exposure matrix ∩ GeneCards CRC threshold set",
+  "exposure_sources": [
+    "CTD",
+    "ToxCast",
+    "Tox21",
+    "T3DB"
+  ],
+  "disease_source": "GeneCards only",
+  "gene_cards_rule": {
+    "field": "RelevanceScore",
+    "operator": ">=",
+    "value": 10.0,
+    "scope": "ordinary CRC top-2000 reference archived locally; not a full-ranking export"
+  },
+  "counts": {
+    "expanded_exposure_genes": 93,
+    "genecards_input_rows": 2000,
+    "genecards_rows_relevance_ge_10": 881,
+    "expanded_exposure_genecards_intersection": 18,
+    "new_intersection_genes_from_non_ctd_layers": 2
+  },
+  "new_intersection_genes_from_non_ctd_layers": [
+    "CYP1A2",
+    "CYP3A4"
+  ],
+  "source_files": {
+    "expanded_dinp_exposure_matrix": {
+      "path": "analysis/dinp_crc_multi_database_target_convergence/outputs/dinp_exposure_gene_matrix_ctd_toxcast_tox21_t3db.csv",
+      "sha256": "8d3e13c2dddf1d6040c30a2988b8141995bdc3bb3d1aa6d5ec56c9e2316368b3"
+    },
+    "genecards_crc_top2000_reference": {
+      "path": "analysis/dinp_crc_multi_database_target_convergence/outputs/source_records/genecards_crc_top2000_reference.csv",
+      "sha256": "72448cb1cc70eac077bf560919ead96af67344b825afe15dc739f5442ee647d6"
+    }
+  },
+  "open_targets_used": false,
+  "interpretation": "This is a GeneCards-threshold intersection, not a causal target set or a merged biological truth score.",
+  "output": "analysis/dinp_crc_multi_database_target_convergence/outputs/dinp_crc_genecards_relevance10_expanded_intersection.csv",
+  "output_sha256": "2bd5b776024ea820fe17d4295f9a3408253aa5b434329465d2fb38168f3886ab"
+}

@@ -1,0 +1,19 @@
+gene_symbol,gene_cards_rank,gene_cards_relevance_score,gene_cards_knowledge_score,gene_cards_gene_name,gene_cards_gene_type,CTD,ToxCast,Tox21,T3DB,exposure_support_count,CTD_raw_row_count,CTD_unique_chemical_gene_pairs,CTD_unique_pmids,CTD_single_chemical_evidence,CTD_cotreatment_evidence,ToxCast_active_assay_count,ToxCast_active_assay_sources,ToxCast_active_endpoints,Tox21_active_assay_count,Tox21_active_endpoints,T3DB_target_count,T3DB_uniprot_ids,rule
+PTGS2,44,39.9,91,Prostaglandin-Endoperoxide Synthase 2,Protein Coding,1,0,0,0,1,2,1,1,0,1,0,,,0,,0,,expanded DINP exposure matrix AND GeneCards CRC RelevanceScore >= 10
+PPARG,50,36.7,100,Peroxisome Proliferator Activated Receptor Gamma,Protein Coding,1,0,0,0,1,3,1,3,1,0,0,,,0,,0,,expanded DINP exposure matrix AND GeneCards CRC RelevanceScore >= 10
+STAT3,70,30.7,100,Signal Transducer And Activator Of Transcription 3,Protein Coding,1,0,0,0,1,1,1,1,1,0,0,,,0,,0,,expanded DINP exposure matrix AND GeneCards CRC RelevanceScore >= 10
+MMP9,126,23.7,100,Matrix Metallopeptidase 9,Protein Coding,1,0,0,0,1,1,1,1,1,0,0,,,0,,0,,expanded DINP exposure matrix AND GeneCards CRC RelevanceScore >= 10
+CRP,133,23.6,87,C-Reactive Protein,Protein Coding,1,0,0,0,1,1,1,1,0,1,0,,,0,,0,,expanded DINP exposure matrix AND GeneCards CRC RelevanceScore >= 10
+MMP2,153,22.1,100,Matrix Metallopeptidase 2,Protein Coding,1,0,0,0,1,1,1,1,1,0,0,,,0,,0,,expanded DINP exposure matrix AND GeneCards CRC RelevanceScore >= 10
+NEAT1,215,19.6,65,Nuclear Paraspeckle Assembly Transcript 1,RNA Gene,1,0,0,0,1,1,1,1,0,1,0,,,0,,0,,expanded DINP exposure matrix AND GeneCards CRC RelevanceScore >= 10
+CXCR4,376,16.6,100,C-X-C Motif Chemokine Receptor 4,Protein Coding,1,0,0,0,1,1,1,1,0,1,0,,,0,,0,,expanded DINP exposure matrix AND GeneCards CRC RelevanceScore >= 10
+PPARD,503,15.8,91,Peroxisome Proliferator Activated Receptor Delta,Protein Coding,1,0,0,0,1,1,1,1,1,0,0,,,0,,0,,expanded DINP exposure matrix AND GeneCards CRC RelevanceScore >= 10
+PTGS1,535,15.6,90,Prostaglandin-Endoperoxide Synthase 1,Protein Coding,1,0,0,0,1,2,1,1,0,1,0,,,0,,0,,expanded DINP exposure matrix AND GeneCards CRC RelevanceScore >= 10
+ESR1,642,15.1,100,Estrogen Receptor 1,Protein Coding,1,0,0,0,1,1,1,1,1,0,0,,,0,,0,,expanded DINP exposure matrix AND GeneCards CRC RelevanceScore >= 10
+SIRT1,654,14.7,97,Sirtuin 1,Protein Coding,1,0,0,0,1,2,1,1,1,0,0,,,0,,0,,expanded DINP exposure matrix AND GeneCards CRC RelevanceScore >= 10
+CYP1A2,683,13.7,85,Cytochrome P450 Family 1 Subfamily A Member 2,Protein Coding,0,0,1,0,1,0,0,0,0,0,0,,,1,TOX21_p450_CYP1A2_Antagonist,0,,expanded DINP exposure matrix AND GeneCards CRC RelevanceScore >= 10
+RELA,693,13.4,100,"RELA Proto-Oncogene, NF-KB Subunit",Protein Coding,1,0,0,0,1,1,1,1,1,0,0,,,0,,0,,expanded DINP exposure matrix AND GeneCards CRC RelevanceScore >= 10
+CYP3A4,705,13.1,92,Cytochrome P450 Family 3 Subfamily A Member 4,Protein Coding,0,0,1,0,1,0,0,0,0,0,0,,,1,TOX21_p450_CYP3A4_Antagonist,0,,expanded DINP exposure matrix AND GeneCards CRC RelevanceScore >= 10
+DKK1,720,12.5,86,Dickkopf Wnt Signaling Pathway Inhibitor 1,Protein Coding,1,0,0,0,1,1,1,1,0,1,0,,,0,,0,,expanded DINP exposure matrix AND GeneCards CRC RelevanceScore >= 10
+BECN1,734,11.9,86,Beclin 1,Protein Coding,1,0,0,0,1,3,1,1,1,0,0,,,0,,0,,expanded DINP exposure matrix AND GeneCards CRC RelevanceScore >= 10
+TIMP1,795,10.8,82,TIMP Metallopeptidase Inhibitor 1,Protein Coding,1,0,0,0,1,1,1,1,1,0,0,,,0,,0,,expanded DINP exposure matrix AND GeneCards CRC RelevanceScore >= 10
