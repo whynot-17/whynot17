@@ -355,7 +355,7 @@ At the term level, the Reactome prostaglandin-synthesis term is globally FDR-sig
 
 ## Interpretation
 
-The PTGER4 finding is **cutoff-sensitive**, rather than stable across all prespecified cutoffs. This audit therefore does not support describing PTGER4 as a source-independent CRC convergence hit. If a pathway is significant only in a broad source or only after expanding to top2000, it should be reported as a feature of that selected disease-gene ranking and treated as hypothesis-generating. See `panel_enrichment_summary.csv` for the prespecified prostaglandin, arachidonate, eicosanoid, PPAR and inflammatory panels, and `key_pathway_enrichment.csv` for term-level FDR.
+The PTGER4 finding is **cutoff-sensitive**, rather than stable across all prespecified cutoffs. This audit therefore does not support describing PTGER4 as a source-independent CRC convergence hit. If a pathway is significant only in a broad source or only after expanding to top2000, it should be reported as a feature of that selected disease-gene ranking and treated as hypothesis-generating. See `panel_enrichment_summary.csv` for the prespecified prostaglandin, arachidonate, eicosanoid, PPAR and inflammatory panels, and `key_pathway_enrichment_key_terms.csv` for the compact term-level table (the full all-term table is generated locally as `key_pathway_enrichment.csv`).
 
 The result does not prove that Open Targets “diluted” a true signal: because PTGER4 is not present at top500 in either source and appears at different cutoffs, the simpler conclusion is that the original PTGER4 enrichment is not robust to disease-gene source/cutoff choice. The proper next step is independent cohort or cell-level validation, not selecting the cutoff that gives the preferred pathway.
 
@@ -363,7 +363,7 @@ The result does not prove that Open Targets “diluted” a true signal: because
 
 - `overlap_summary.csv`: all overlap counts, PTGER4 rank/presence and overlap lists.
 - `panel_enrichment_summary.csv`: pathway-panel overlap and hypergeometric/FDR values under both backgrounds.
-- `key_pathway_enrichment.csv`: Reactome/Hallmark term-level results for key names (prostaglandin, arachidonate, eicosanoid, PPAR, inflammation and lipid).
+- `key_pathway_enrichment_key_terms.csv`: compact Reactome/Hallmark term-level results for key names (prostaglandin, arachidonate, eicosanoid, PPAR, inflammation and lipid). The full all-term table is retained locally as `key_pathway_enrichment.csv`.
 - `cutoff_sensitivity_overlap.png`: compact overlap plot.
 """
     (OUT_DIR / "CUTOFF_SENSITIVITY_REPORT.md").write_text(report, encoding="utf-8")
