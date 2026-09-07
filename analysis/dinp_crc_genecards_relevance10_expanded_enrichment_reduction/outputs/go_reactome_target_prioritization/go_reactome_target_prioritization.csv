@@ -1,0 +1,19 @@
+biological_priority_rank,gene_symbol,GO_representative_count,Reactome_term_count,aligned_term_count,GO_theme_count,Reactome_theme_count,shared_theme_count,shared_theme_labels,source_status,biological_role,GO_recurrence_fraction,Reactome_recurrence_fraction,macrophage_driver_rank,macrophage_paired_t_BH_FDR,macrophage_cohen_dz,macrophage_detection_fraction,network_priority_rank,candidate_role,docking_protein_eligible,best_pdb_id,pdb_structure_count,known_measured_target_evidence
+1,PPARD,35,3,38,9,2,2,Lipid / fatty-acid / eicosanoid metabolism; Signaling / receptor / hormone response,GO+Reactome_same_theme,direct lipid/eicosanoid pathway context; nuclear-receptor pathway context,0.8140,0.5000,,,,,,,,,,
+2,PPARG,32,2,34,9,2,2,Lipid / fatty-acid / eicosanoid metabolism; Signaling / receptor / hormone response,GO+Reactome_same_theme,direct lipid/eicosanoid pathway context; nuclear-receptor pathway context,0.7442,0.3333,,,,,,,,,,
+3,PTGS2,32,4,36,8,1,1,Lipid / fatty-acid / eicosanoid metabolism,GO+Reactome_same_theme,direct lipid/eicosanoid pathway context,0.7442,0.6667,,,,,,,,,,
+4,CYP1A2,13,4,17,4,1,1,Lipid / fatty-acid / eicosanoid metabolism,GO+Reactome_same_theme,direct lipid/eicosanoid pathway context,0.3023,0.6667,,,,,,,,,,
+5,CYP3A4,10,3,13,3,1,1,Lipid / fatty-acid / eicosanoid metabolism,GO+Reactome_same_theme,direct lipid/eicosanoid pathway context,0.2326,0.5000,,,,,,,,,,
+6,PTGS1,12,2,14,4,1,1,Lipid / fatty-acid / eicosanoid metabolism,GO+Reactome_same_theme,direct lipid/eicosanoid pathway context,0.2791,0.3333,,,,,,,,,,
+7,ESR1,24,1,25,8,1,1,Signaling / receptor / hormone response,GO+Reactome_same_theme,nuclear-receptor pathway context,0.5581,0.1667,,,,,,,,,,
+8,MMP9,24,1,25,8,1,1,Matrix remodeling / cell migration,GO+Reactome_same_theme,matrix-remodeling pathway context,0.5581,0.1667,2.0,1.248097192472699e-05,1.0176236323672705,0.47892074198988194,1,network bridge candidate,True,1l6j,59,True
+9,MMP2,23,1,24,8,1,1,Matrix remodeling / cell migration,GO+Reactome_same_theme,matrix-remodeling pathway context,0.5349,0.1667,,,,,,,,,,
+10,TIMP1,18,1,19,6,1,1,Matrix remodeling / cell migration,GO+Reactome_same_theme,matrix-remodeling pathway context,0.4186,0.1667,3.0,0.0003294953076373999,0.7782820300422876,0.6938764755480608,3,supporting/context,True,9soq,19,False
+11,SIRT1,31,0,31,8,0,0,,GO_only,GO-only pathway context,0.7209,0.0000,,,,,,,,,,
+12,RELA,25,0,25,8,0,0,,GO_only,GO-only pathway context,0.5814,0.0000,,,,,,,,,,
+13,STAT3,20,0,20,8,0,0,,GO_only,GO-only pathway context,0.4651,0.0000,4.0,0.00036010371630080336,0.7689482580063429,0.44572091062394603,2,network bridge candidate,True,6qhd,8,True
+14,BECN1,20,0,20,7,0,0,,GO_only,GO-only pathway context,0.4651,0.0000,,,,,,,,,,
+15,DKK1,13,0,13,7,0,0,,GO_only,GO-only pathway context,0.3023,0.0000,,,,,,,,,,
+16,CXCR4,13,0,13,6,0,0,,GO_only,GO-only pathway context,0.3023,0.0000,7.0,0.037937604411841366,0.444135633053083,0.5502740303541316,4,supporting/context,True,8k3z,74,True
+17,CRP,11,0,11,4,0,0,,GO_only,GO-only pathway context,0.2558,0.0000,,,,,,,,,,
+18,NEAT1,8,0,8,3,0,0,,GO_only,GO-only pathway context,0.1860,0.0000,1.0,1.094688948302581e-06,1.1925016412831624,0.8478077571669477,5,non-protein state/regulatory node,False,,0,False

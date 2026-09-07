@@ -1,0 +1,25 @@
+{
+  "generated_utc": "2026-09-07T14:57:56.184799+00:00",
+  "input_aligned_global": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_genecards_relevance10_expanded_enrichment_reduction\\outputs\\go_reactome_aligned\\go_reactome_global_driver_contribution.csv",
+  "input_aligned_terms": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_genecards_relevance10_expanded_enrichment_reduction\\outputs\\go_reactome_aligned\\go_reactome_aligned_terms.csv",
+  "input_theme_alignment": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_genecards_relevance10_expanded_enrichment_reduction\\outputs\\go_reactome_aligned\\go_reactome_theme_alignment.csv",
+  "candidate_gene_count": 18,
+  "same_theme_cross_resource_gene_count": 10,
+  "shared_theme_count": 3,
+  "structural_followup_candidate_count": 7,
+  "biological_ordering": [
+    "same_theme_concordance_count descending",
+    "both-source support descending",
+    "Reactome recurrence descending",
+    "GO recurrence descending",
+    "theme breadth descending",
+    "gene symbol ascending"
+  ],
+  "statistical_boundary": "No new enrichment tests; no P/FDR changes; prioritization is descriptive.",
+  "outputs": [
+    "go_reactome_target_prioritization.csv",
+    "go_reactome_cross_resource_target_shortlist.csv",
+    "go_reactome_structural_followup_prioritization.csv",
+    "go_reactome_target_prioritization_summary.md"
+  ]
+}
