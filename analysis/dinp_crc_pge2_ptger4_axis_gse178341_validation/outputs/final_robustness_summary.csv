@@ -1,0 +1,37 @@
+metric,value,definition,evidence_grade
+Most stable pseudobulk score,Score_B,highest mean pairwise Spearman concordance of donor-group ranks at n≥20 (0.741),descriptive
+Score_A_mean_rank_concordance_ge20,0.6298802272037113,mean pairwise Spearman concordance with the other score definitions,descriptive
+Score_B_mean_rank_concordance_ge20,0.7407012402773461,mean pairwise Spearman concordance with the other score definitions,descriptive
+Score_C_mean_rank_concordance_ge20,0.6526530344049095,mean pairwise Spearman concordance with the other score definitions,descriptive
+Score_D_mean_rank_concordance_ge20,0.5749264174706616,mean pairwise Spearman concordance with the other score definitions,descriptive
+SPP1_Score_A_median_rank_ge20,5.0,donor-group source rank among prespecified candidate groups,descriptive
+SPP1_Score_A_top2_donors_ge20,2/56 eligible; 2/62 total,top-two donor frequency; denominator reports eligible donor groups and all available tumor donors,descriptive
+SPP1_Score_B_median_rank_ge20,5.0,donor-group source rank among prespecified candidate groups,descriptive
+SPP1_Score_B_top2_donors_ge20,9/56 eligible; 9/62 total,top-two donor frequency; denominator reports eligible donor groups and all available tumor donors,descriptive
+SPP1_Score_D_median_rank_ge20,3.0,donor-group source rank among prespecified candidate groups,descriptive
+SPP1_Score_D_top2_donors_ge20,20/56 eligible; 20/62 total,top-two donor frequency; denominator reports eligible donor groups and all available tumor donors,descriptive
+mast_top1_donors_ge20_by_score,Score_A:21/39 eligible; 21/62 total; Score_B:23/39 eligible; 23/62 total; Score_D:12/39 eligible; 12/62 total,mast-cell top-1 donor frequency after n≥20 filter,descriptive
+SPP1_Score_A_median_rank_percentile_ge20,0.33333333333333337,1 = best; donor-group rank percentile,descriptive
+SPP1_Score_B_median_rank_percentile_ge20,0.4,1 = best; donor-group rank percentile,descriptive
+SPP1_Score_C_median_rank_percentile_ge20,0.4285714285714286,1 = best; donor-group rank percentile,descriptive
+SPP1_Score_D_median_rank_percentile_ge20,0.6,1 = best; donor-group rank percentile,descriptive
+SPP1_vs_mast_positive_donors_ScoreB_ge20,2,donors where SPP1 synthesis score exceeds mast-cell score,descriptive
+SPP1_vs_mast_median_delta_ScoreB_ge20,-0.6554664466718001,paired donor score difference,descriptive
+C1QC_Delta1_valid_donors,62,donors with both C1QC-like and SPP1-like TAM present for Delta1,descriptive
+C1QC_Delta2_valid_donors,62,donors with at least one other macrophage subtype for Delta2,descriptive
+C1QC_PTGER4_median_rank_mean,2.0,median donor rank by PTGER4 mean,descriptive
+C1QC_PTGER4_top1_donors,21,donors where C1QC is top PTGER4 subtype,descriptive
+C1QC_PTGER4_top2_donors,42,donors where C1QC is top-two PTGER4 subtype,descriptive
+C1QC_gt_SPP1_donors,32,donors with Delta1 > 0,descriptive
+C1QC_gt_other_mean_donors,34,donors with Delta2 > 0,descriptive
+C1QC_Delta1_median,0.005063248992154559,C1QC PTGER4 mean minus SPP1 PTGER4 mean,descriptive
+C1QC_Delta2_median,0.029141586693316776,C1QC PTGER4 mean minus mean of other macrophage subtypes,descriptive
+C1QC_Delta1_exact_sign_p,0.8990763136528589,two-sided exact sign test; supplementary with 62 donors,descriptive
+C1QC_Delta1_paired_permutation_p,0.6308568457157714,seeded Monte Carlo paired sign-flip; supplementary,descriptive
+C1QC_Delta2_exact_sign_p,0.52577336017565,two-sided exact sign test; supplementary with 62 donors,descriptive
+C1QC_Delta2_paired_permutation_p,0.763801180994095,seeded Monte Carlo paired sign-flip; supplementary,descriptive
+axis_coverage_ge20,57,tumor donors with C1QC and source group meeting n≥20 for Score D axis,descriptive
+Final source support,WEAK SUPPORT,Score A/B/D top-two frequency at n≥20 and donor-level ranking,WEAK SUPPORT
+Final receiver support,WEAK SUPPORT,pooled and donor-level C1QC PTGER4 rank/effect direction,WEAK SUPPORT
+Final axis support,WEAK SUPPORT,requires both source and receiver to reach at least moderate support,WEAK SUPPORT
+Recommended next step,larger single-cell cohort replication plus spatial validation before extending the axis,decision based on robustness evidence,descriptive
