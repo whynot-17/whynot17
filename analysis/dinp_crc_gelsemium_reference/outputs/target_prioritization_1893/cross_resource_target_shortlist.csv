@@ -1,0 +1,34 @@
+biological_priority_rank,gene_symbol,GO_representative_count,Reactome_term_count,KEGG_term_count,total_aligned_term_count,source_count,same_theme_two_source_count,same_theme_three_source_count,same_theme_labels,source_status,GO_theme_count,Reactome_theme_count,KEGG_theme_count,theme_breadth
+1,RXRA,15,28,4,47,3,4,3,Lipid / fatty-acid / eicosanoid metabolism; Chemical / xenobiotic / oxygen-stress response; Signaling / receptor / hormone response; General metabolism / biosynthesis,GO:BP+REAC+KEGG,5,4,3,5
+2,CYP2C9,17,15,8,40,3,3,3,Lipid / fatty-acid / eicosanoid metabolism; Chemical / xenobiotic / oxygen-stress response; General metabolism / biosynthesis,GO:BP+REAC+KEGG,4,3,3,4
+3,PPARG,50,16,3,69,3,3,2,Lipid / fatty-acid / eicosanoid metabolism; Signaling / receptor / hormone response; General metabolism / biosynthesis,GO:BP+REAC+KEGG,6,3,2,6
+4,CYP1A2,21,16,6,43,3,3,2,Lipid / fatty-acid / eicosanoid metabolism; Chemical / xenobiotic / oxygen-stress response; General metabolism / biosynthesis,GO:BP+REAC+KEGG,4,3,2,4
+5,CYP3A4,20,12,6,38,3,3,2,Lipid / fatty-acid / eicosanoid metabolism; Chemical / xenobiotic / oxygen-stress response; General metabolism / biosynthesis,GO:BP+REAC+KEGG,4,3,2,4
+6,PPARA,44,19,2,65,3,4,1,Lipid / fatty-acid / eicosanoid metabolism; Chemical / xenobiotic / oxygen-stress response; Signaling / receptor / hormone response; General metabolism / biosynthesis,GO:BP+REAC+KEGG,6,3,2,6
+7,PTGS2,34,11,4,49,3,4,1,Lipid / fatty-acid / eicosanoid metabolism; Chemical / xenobiotic / oxygen-stress response; Inflammation / immune / stimulus response; General metabolism / biosynthesis,GO:BP+REAC+KEGG,6,3,2,6
+8,AKR1C3,30,10,1,41,3,3,1,Lipid / fatty-acid / eicosanoid metabolism; Signaling / receptor / hormone response; General metabolism / biosynthesis,GO:BP+REAC+KEGG,6,3,1,6
+9,PPARD,41,9,2,52,3,3,1,Lipid / fatty-acid / eicosanoid metabolism; Signaling / receptor / hormone response; General metabolism / biosynthesis,GO:BP+REAC+KEGG,6,3,1,6
+10,HPGD,19,9,1,29,3,2,1,Lipid / fatty-acid / eicosanoid metabolism; General metabolism / biosynthesis,GO:BP+REAC+KEGG,5,2,1,5
+11,PTGS1,11,8,2,21,3,2,1,Lipid / fatty-acid / eicosanoid metabolism; General metabolism / biosynthesis,GO:BP+REAC+KEGG,4,2,1,4
+12,PTGES2,7,6,1,14,3,2,1,Lipid / fatty-acid / eicosanoid metabolism; General metabolism / biosynthesis,GO:BP+REAC+KEGG,2,2,1,2
+13,RELA,27,12,3,42,3,5,0,Lipid / fatty-acid / eicosanoid metabolism; Chemical / xenobiotic / oxygen-stress response; Inflammation / immune / stimulus response; Signaling / receptor / hormone response; General metabolism / biosynthesis,GO:BP+REAC+KEGG,6,3,2,6
+14,STAT3,29,9,2,40,3,5,0,Lipid / fatty-acid / eicosanoid metabolism; Chemical / xenobiotic / oxygen-stress response; Inflammation / immune / stimulus response; Signaling / receptor / hormone response; General metabolism / biosynthesis,GO:BP+REAC+KEGG,5,3,2,5
+15,ESR1,25,9,1,35,3,3,0,Chemical / xenobiotic / oxygen-stress response; Signaling / receptor / hormone response; General metabolism / biosynthesis,GO:BP+REAC+KEGG,6,2,1,6
+16,MMP9,19,5,2,26,3,3,0,Lipid / fatty-acid / eicosanoid metabolism; Inflammation / immune / stimulus response; Signaling / receptor / hormone response,GO:BP+REAC+KEGG,6,3,1,7
+17,SQSTM1,15,9,1,25,2,3,0,Inflammation / immune / stimulus response; Signaling / receptor / hormone response; General metabolism / biosynthesis,GO:BP+REAC,4,3,0,4
+18,MMP2,21,6,1,28,2,3,0,Inflammation / immune / stimulus response; Signaling / receptor / hormone response; General metabolism / biosynthesis,GO:BP+REAC,6,4,0,7
+19,PGR,14,12,1,27,3,2,0,Signaling / receptor / hormone response; General metabolism / biosynthesis,GO:BP+REAC+KEGG,4,2,1,5
+20,HSPA1A,24,4,1,29,3,2,0,Lipid / fatty-acid / eicosanoid metabolism; Signaling / receptor / hormone response,GO:BP+REAC+KEGG,6,1,1,6
+21,NR3C1,23,10,0,33,2,2,0,Signaling / receptor / hormone response; General metabolism / biosynthesis,GO:BP+REAC,6,2,0,6
+22,TIMP1,16,8,0,24,2,2,0,Inflammation / immune / stimulus response; General metabolism / biosynthesis,GO:BP+REAC,3,4,0,5
+23,PTGER4,13,4,1,18,2,2,0,Lipid / fatty-acid / eicosanoid metabolism; Signaling / receptor / hormone response,GO:BP+REAC,5,2,0,5
+24,PTGER2,13,4,1,18,2,2,0,Lipid / fatty-acid / eicosanoid metabolism; Signaling / receptor / hormone response,GO:BP+REAC,4,2,0,4
+25,CCL20,4,3,0,7,2,2,0,Inflammation / immune / stimulus response; Signaling / receptor / hormone response,GO:BP+REAC,2,2,0,2
+26,IL1A,17,7,1,25,2,1,0,Inflammation / immune / stimulus response,GO:BP+REAC,6,1,0,6
+27,SIRT1,45,4,1,50,2,1,0,Signaling / receptor / hormone response,GO:BP+REAC,6,1,0,6
+28,BECN1,23,3,1,27,2,1,0,General metabolism / biosynthesis,GO:BP+REAC,6,1,0,6
+29,F3,12,2,0,14,2,1,0,Signaling / receptor / hormone response,GO:BP+REAC,4,1,0,4
+30,DKK1,11,2,0,13,2,1,0,Signaling / receptor / hormone response,GO:BP+REAC,5,1,0,5
+31,CXCR4,8,2,0,10,2,1,0,Signaling / receptor / hormone response,GO:BP+REAC,3,1,0,3
+32,DUSP1,6,2,2,10,2,1,0,Signaling / receptor / hormone response,GO:BP+REAC,2,1,0,2
+33,SELE,7,1,2,10,2,1,0,Lipid / fatty-acid / eicosanoid metabolism,GO:BP+KEGG,3,0,1,3

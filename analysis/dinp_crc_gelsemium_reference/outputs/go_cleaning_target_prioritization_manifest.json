@@ -1,0 +1,35 @@
+{
+  "generated_utc": "2026-09-07T16:25:40.815145+00:00",
+  "script": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_gelsemium_reference\\run_go_cleaning_and_target_prioritization.py",
+  "input_enrichment": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_gelsemium_reference\\outputs\\enrichment_all_backgrounds.csv",
+  "input_enrichment_sha256": "ba8f96e02dcebdeab94b53232801ccfcc61a4d07e5adde8d6ce5a24dddc1afa4",
+  "input_query": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_gelsemium_reference\\outputs\\query_41_genes.csv",
+  "input_query_sha256": "5f0c544e97a8f78dec5976e4e0ba5a4a62ef013829fd61bea880f8655495dd3e",
+  "background": "gelsemium_crc1893",
+  "query_gene_count": 41,
+  "significant_term_counts": {
+    "GO:BP": 202,
+    "REAC": 50,
+    "KEGG": 13
+  },
+  "go_ontology_url": "https://purl.obolibrary.org/obo/go/go-basic.obo",
+  "go_ontology_cache": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\work\\gene_sets\\go-basic.obo",
+  "go_ontology_sha256": "b08d45b268b8c24ccb2513dbbbc7d4df9f6521c099b413f79eb31e06e0fa3bcc",
+  "go_ontology_term_count": 48340,
+  "ancestor_jaccard_threshold": 0.5,
+  "go_representative_count": 97,
+  "go_folded_term_count": 105,
+  "theme_count": 9,
+  "target_gene_count": 41,
+  "cross_resource_shortlist_count": 33,
+  "statistical_boundary": "No enrichment P/FDR recalculation; cleaning and prioritization are descriptive post-enrichment layers.",
+  "outputs": {
+    "summary": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_gelsemium_reference\\outputs\\go_cleaning_target_prioritization_summary.md",
+    "go_cleaning": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_gelsemium_reference\\outputs\\go_bp_cleaning_1893\\go_bp_202_terms_cleaning.csv",
+    "go_representatives": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_gelsemium_reference\\outputs\\go_bp_cleaning_1893\\go_bp_clean_representatives.csv",
+    "aligned_terms": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_gelsemium_reference\\outputs\\go_reactome_kegg_aligned_1893\\go_reactome_kegg_aligned_terms.csv",
+    "theme_alignment": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_gelsemium_reference\\outputs\\go_reactome_kegg_aligned_1893\\go_reactome_kegg_theme_alignment.csv",
+    "target_prioritization": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_gelsemium_reference\\outputs\\target_prioritization_1893\\go_reactome_kegg_target_prioritization.csv",
+    "target_shortlist": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_gelsemium_reference\\outputs\\target_prioritization_1893\\cross_resource_target_shortlist.csv"
+  }
+}

@@ -1,0 +1,215 @@
+theme_id,theme_label,gene_symbol,term_membership_count,fraction_of_theme_terms,theme_driver_rank
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,PPARD,14,0.7368,1
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,PPARA,12,0.6316,2
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,PPARG,11,0.5789,3
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,SIRT1,10,0.5263,4
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,PTGS2,8,0.4211,5
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,AKR1C3,7,0.3684,6
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,CYP3A4,6,0.3158,7
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,CYP1A2,6,0.3158,8
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,CYP2C9,5,0.2632,9
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,NR3C1,5,0.2632,10
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,HPGD,4,0.2105,11
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,RXRA,4,0.2105,12
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,PTGS1,3,0.1579,13
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,PTGES2,3,0.1579,14
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,ESR1,3,0.1579,15
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,PGR,2,0.1053,16
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,HSPA1A,2,0.1053,17
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,PTGER4,2,0.1053,18
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,PTGER2,2,0.1053,19
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,NR1I2,1,0.0526,20
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,BECN1,1,0.0526,21
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,CRP,1,0.0526,22
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,STAT3,1,0.0526,23
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,MMP9,1,0.0526,24
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,SELE,1,0.0526,25
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,DKK1,1,0.0526,26
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,IL1A,1,0.0526,27
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,MMP2,1,0.0526,28
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,CA9,1,0.0526,29
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,RELA,1,0.0526,30
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,CYP2C9,3,0.5000,1
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,MMP2,3,0.5000,2
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,CYP3A4,3,0.5000,3
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,PPARG,3,0.5000,4
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,CYP1A2,3,0.5000,5
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,BECN1,3,0.5000,6
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,NR1I2,2,0.3333,7
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,ATG5,2,0.3333,8
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,PTGS2,2,0.3333,9
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,RELA,2,0.3333,10
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,SIRT1,2,0.3333,11
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,CA9,1,0.1667,12
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,PTGS1,1,0.1667,13
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,HSPA1A,1,0.1667,14
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,STAT3,1,0.1667,15
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,IL1A,1,0.1667,16
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,PPARD,1,0.1667,17
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,PPARA,1,0.1667,18
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,RXRA,1,0.1667,19
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,MMP9,1,0.1667,20
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,IGFBP1,1,0.1667,21
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,ESR1,1,0.1667,22
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,PTGER2,1,0.1667,23
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,PTGER4,1,0.1667,24
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,AKR1C3,1,0.1667,25
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,NR3C1,1,0.1667,26
+inflammation_immune,Inflammation / immune / stimulus response,PPARG,9,0.7500,1
+inflammation_immune,Inflammation / immune / stimulus response,STAT3,9,0.7500,2
+inflammation_immune,Inflammation / immune / stimulus response,RELA,7,0.5833,3
+inflammation_immune,Inflammation / immune / stimulus response,IL1A,6,0.5000,4
+inflammation_immune,Inflammation / immune / stimulus response,TIMP1,6,0.5000,5
+inflammation_immune,Inflammation / immune / stimulus response,PPARA,6,0.5000,6
+inflammation_immune,Inflammation / immune / stimulus response,F3,5,0.4167,7
+inflammation_immune,Inflammation / immune / stimulus response,HSPA1A,5,0.4167,8
+inflammation_immune,Inflammation / immune / stimulus response,PTGS2,4,0.3333,9
+inflammation_immune,Inflammation / immune / stimulus response,CRP,4,0.3333,10
+inflammation_immune,Inflammation / immune / stimulus response,ESR1,4,0.3333,11
+inflammation_immune,Inflammation / immune / stimulus response,PTGER4,4,0.3333,12
+inflammation_immune,Inflammation / immune / stimulus response,PPARD,4,0.3333,13
+inflammation_immune,Inflammation / immune / stimulus response,NR3C1,4,0.3333,14
+inflammation_immune,Inflammation / immune / stimulus response,MMP9,3,0.2500,15
+inflammation_immune,Inflammation / immune / stimulus response,SELE,3,0.2500,16
+inflammation_immune,Inflammation / immune / stimulus response,PTGER2,3,0.2500,17
+inflammation_immune,Inflammation / immune / stimulus response,SIRT1,3,0.2500,18
+inflammation_immune,Inflammation / immune / stimulus response,HPGD,3,0.2500,19
+inflammation_immune,Inflammation / immune / stimulus response,CCL20,2,0.1667,20
+inflammation_immune,Inflammation / immune / stimulus response,NEAT1,2,0.1667,21
+inflammation_immune,Inflammation / immune / stimulus response,CXCR4,2,0.1667,22
+inflammation_immune,Inflammation / immune / stimulus response,RXRA,2,0.1667,23
+inflammation_immune,Inflammation / immune / stimulus response,AKR1C3,2,0.1667,24
+inflammation_immune,Inflammation / immune / stimulus response,PGR,2,0.1667,25
+inflammation_immune,Inflammation / immune / stimulus response,DKK1,2,0.1667,26
+inflammation_immune,Inflammation / immune / stimulus response,MMP2,2,0.1667,27
+inflammation_immune,Inflammation / immune / stimulus response,IGFBP1,2,0.1667,28
+inflammation_immune,Inflammation / immune / stimulus response,BECN1,2,0.1667,29
+inflammation_immune,Inflammation / immune / stimulus response,TIMP2,1,0.0833,30
+inflammation_immune,Inflammation / immune / stimulus response,CYP3A4,1,0.0833,31
+inflammation_immune,Inflammation / immune / stimulus response,DUSP1,1,0.0833,32
+inflammation_immune,Inflammation / immune / stimulus response,CYP1A2,1,0.0833,33
+inflammation_immune,Inflammation / immune / stimulus response,ATG5,1,0.0833,34
+inflammation_immune,Inflammation / immune / stimulus response,CYP2C9,1,0.0833,35
+inflammation_immune,Inflammation / immune / stimulus response,NR1I2,1,0.0833,36
+inflammation_immune,Inflammation / immune / stimulus response,SQSTM1,1,0.0833,37
+inflammation_immune,Inflammation / immune / stimulus response,PTGS1,1,0.0833,38
+signaling_receptor,Signaling / receptor / hormone response,SIRT1,8,0.8000,1
+signaling_receptor,Signaling / receptor / hormone response,PPARG,7,0.7000,2
+signaling_receptor,Signaling / receptor / hormone response,PPARA,6,0.6000,3
+signaling_receptor,Signaling / receptor / hormone response,HSPA1A,5,0.5000,4
+signaling_receptor,Signaling / receptor / hormone response,STAT3,4,0.4000,5
+signaling_receptor,Signaling / receptor / hormone response,ESR1,4,0.4000,6
+signaling_receptor,Signaling / receptor / hormone response,RXRA,4,0.4000,7
+signaling_receptor,Signaling / receptor / hormone response,PGR,3,0.3000,8
+signaling_receptor,Signaling / receptor / hormone response,RELA,3,0.3000,9
+signaling_receptor,Signaling / receptor / hormone response,AKR1C3,3,0.3000,10
+signaling_receptor,Signaling / receptor / hormone response,MMP9,3,0.3000,11
+signaling_receptor,Signaling / receptor / hormone response,PTGS2,3,0.3000,12
+signaling_receptor,Signaling / receptor / hormone response,HPGD,2,0.2000,13
+signaling_receptor,Signaling / receptor / hormone response,SELE,2,0.2000,14
+signaling_receptor,Signaling / receptor / hormone response,CXCR4,2,0.2000,15
+signaling_receptor,Signaling / receptor / hormone response,PTGER4,2,0.2000,16
+signaling_receptor,Signaling / receptor / hormone response,PPARD,2,0.2000,17
+signaling_receptor,Signaling / receptor / hormone response,NR3C1,2,0.2000,18
+signaling_receptor,Signaling / receptor / hormone response,DUSP1,2,0.2000,19
+signaling_receptor,Signaling / receptor / hormone response,DKK1,2,0.2000,20
+signaling_receptor,Signaling / receptor / hormone response,MMP2,2,0.2000,21
+signaling_receptor,Signaling / receptor / hormone response,BECN1,2,0.2000,22
+signaling_receptor,Signaling / receptor / hormone response,PTGER2,1,0.1000,23
+signaling_receptor,Signaling / receptor / hormone response,F3,1,0.1000,24
+signaling_receptor,Signaling / receptor / hormone response,CCL20,1,0.1000,25
+signaling_receptor,Signaling / receptor / hormone response,IL1A,1,0.1000,26
+signaling_receptor,Signaling / receptor / hormone response,NR1I2,1,0.1000,27
+signaling_receptor,Signaling / receptor / hormone response,SQSTM1,1,0.1000,28
+cell_death_cycle,Cell death / cell cycle / genome maintenance,MMP9,2,1.0000,1
+cell_death_cycle,Cell death / cell cycle / genome maintenance,F3,2,1.0000,2
+cell_death_cycle,Cell death / cell cycle / genome maintenance,ESR1,2,1.0000,3
+cell_death_cycle,Cell death / cell cycle / genome maintenance,SIRT1,2,1.0000,4
+cell_death_cycle,Cell death / cell cycle / genome maintenance,AKR1C3,2,1.0000,5
+cell_death_cycle,Cell death / cell cycle / genome maintenance,ATG5,2,1.0000,6
+cell_death_cycle,Cell death / cell cycle / genome maintenance,TIMP1,2,1.0000,7
+cell_death_cycle,Cell death / cell cycle / genome maintenance,PPARG,2,1.0000,8
+cell_death_cycle,Cell death / cell cycle / genome maintenance,HSPA1A,2,1.0000,9
+cell_death_cycle,Cell death / cell cycle / genome maintenance,DKK1,2,1.0000,10
+cell_death_cycle,Cell death / cell cycle / genome maintenance,IL1A,2,1.0000,11
+cell_death_cycle,Cell death / cell cycle / genome maintenance,PPARA,2,1.0000,12
+cell_death_cycle,Cell death / cell cycle / genome maintenance,PPARD,2,1.0000,13
+cell_death_cycle,Cell death / cell cycle / genome maintenance,MMP2,2,1.0000,14
+cell_death_cycle,Cell death / cell cycle / genome maintenance,HPGD,2,1.0000,15
+cell_death_cycle,Cell death / cell cycle / genome maintenance,PTGS2,2,1.0000,16
+cell_death_cycle,Cell death / cell cycle / genome maintenance,RELA,2,1.0000,17
+cell_death_cycle,Cell death / cell cycle / genome maintenance,SQSTM1,2,1.0000,18
+cell_death_cycle,Cell death / cell cycle / genome maintenance,NR3C1,2,1.0000,19
+cell_death_cycle,Cell death / cell cycle / genome maintenance,BECN1,2,1.0000,20
+cell_death_cycle,Cell death / cell cycle / genome maintenance,CXCR4,1,0.5000,21
+general_metabolism,General metabolism / biosynthesis,CYP3A4,9,0.6429,1
+general_metabolism,General metabolism / biosynthesis,CYP1A2,9,0.6429,2
+general_metabolism,General metabolism / biosynthesis,SIRT1,8,0.5714,3
+general_metabolism,General metabolism / biosynthesis,AKR1C3,8,0.5714,4
+general_metabolism,General metabolism / biosynthesis,PPARA,7,0.5000,5
+general_metabolism,General metabolism / biosynthesis,CYP2C9,6,0.4286,6
+general_metabolism,General metabolism / biosynthesis,STAT3,6,0.4286,7
+general_metabolism,General metabolism / biosynthesis,PTGS2,5,0.3571,8
+general_metabolism,General metabolism / biosynthesis,PPARD,4,0.2857,9
+general_metabolism,General metabolism / biosynthesis,PTGES2,4,0.2857,10
+general_metabolism,General metabolism / biosynthesis,PPARG,4,0.2857,11
+general_metabolism,General metabolism / biosynthesis,NEAT1,4,0.2857,12
+general_metabolism,General metabolism / biosynthesis,RELA,4,0.2857,13
+general_metabolism,General metabolism / biosynthesis,HPGD,3,0.2143,14
+general_metabolism,General metabolism / biosynthesis,PTGS1,3,0.2143,15
+general_metabolism,General metabolism / biosynthesis,ATG5,3,0.2143,16
+general_metabolism,General metabolism / biosynthesis,HSPA1A,3,0.2143,17
+general_metabolism,General metabolism / biosynthesis,SQSTM1,3,0.2143,18
+general_metabolism,General metabolism / biosynthesis,BECN1,3,0.2143,19
+general_metabolism,General metabolism / biosynthesis,NR3C1,3,0.2143,20
+general_metabolism,General metabolism / biosynthesis,TIMP2,2,0.1429,21
+general_metabolism,General metabolism / biosynthesis,MMP9,2,0.1429,22
+general_metabolism,General metabolism / biosynthesis,TIMP1,2,0.1429,23
+general_metabolism,General metabolism / biosynthesis,NR1I2,2,0.1429,24
+general_metabolism,General metabolism / biosynthesis,MMP2,1,0.0714,25
+general_metabolism,General metabolism / biosynthesis,RXRA,1,0.0714,26
+general_metabolism,General metabolism / biosynthesis,CRP,1,0.0714,27
+general_metabolism,General metabolism / biosynthesis,F3,1,0.0714,28
+general_metabolism,General metabolism / biosynthesis,ESR1,1,0.0714,29
+general_metabolism,General metabolism / biosynthesis,PGR,1,0.0714,30
+general_metabolism,General metabolism / biosynthesis,PTGER4,1,0.0714,31
+general_metabolism,General metabolism / biosynthesis,DKK1,1,0.0714,32
+general_metabolism,General metabolism / biosynthesis,IL1A,1,0.0714,33
+other,Other / mixed biological processes,PPARD,14,0.4118,1
+other,Other / mixed biological processes,PPARG,14,0.4118,2
+other,Other / mixed biological processes,SIRT1,12,0.3529,3
+other,Other / mixed biological processes,PPARA,10,0.2941,4
+other,Other / mixed biological processes,ESR1,10,0.2941,5
+other,Other / mixed biological processes,MMP2,10,0.2941,6
+other,Other / mixed biological processes,PTGS2,10,0.2941,7
+other,Other / mixed biological processes,BECN1,10,0.2941,8
+other,Other / mixed biological processes,STAT3,8,0.2353,9
+other,Other / mixed biological processes,RELA,8,0.2353,10
+other,Other / mixed biological processes,SQSTM1,8,0.2353,11
+other,Other / mixed biological processes,ATG5,8,0.2353,12
+other,Other / mixed biological processes,MMP9,7,0.2059,13
+other,Other / mixed biological processes,AKR1C3,7,0.2059,14
+other,Other / mixed biological processes,HSPA1A,6,0.1765,15
+other,Other / mixed biological processes,NR3C1,6,0.1765,16
+other,Other / mixed biological processes,PGR,6,0.1765,17
+other,Other / mixed biological processes,TIMP1,6,0.1765,18
+other,Other / mixed biological processes,PTGER2,6,0.1765,19
+other,Other / mixed biological processes,HPGD,5,0.1471,20
+other,Other / mixed biological processes,CRP,5,0.1471,21
+other,Other / mixed biological processes,IL1A,5,0.1471,22
+other,Other / mixed biological processes,RXRA,3,0.0882,23
+other,Other / mixed biological processes,DKK1,3,0.0882,24
+other,Other / mixed biological processes,CXCR4,3,0.0882,25
+other,Other / mixed biological processes,DUSP1,3,0.0882,26
+other,Other / mixed biological processes,F3,3,0.0882,27
+other,Other / mixed biological processes,PTGS1,3,0.0882,28
+other,Other / mixed biological processes,PTGER4,3,0.0882,29
+other,Other / mixed biological processes,NR1I2,2,0.0588,30
+other,Other / mixed biological processes,CA9,2,0.0588,31
+other,Other / mixed biological processes,NEAT1,2,0.0588,32
+other,Other / mixed biological processes,CYP1A2,2,0.0588,33
+other,Other / mixed biological processes,CYP2C9,2,0.0588,34
+other,Other / mixed biological processes,SELE,1,0.0294,35
+other,Other / mixed biological processes,CCL20,1,0.0294,36
+other,Other / mixed biological processes,CYP3A4,1,0.0294,37
+other,Other / mixed biological processes,TIMP2,1,0.0294,38

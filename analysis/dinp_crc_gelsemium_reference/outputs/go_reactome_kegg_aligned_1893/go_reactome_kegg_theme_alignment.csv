@@ -1,0 +1,10 @@
+theme_id,theme_label,GO_representative_count,Reactome_term_count,KEGG_term_count,GO_gene_count,Reactome_gene_count,KEGG_gene_count,GO_Reactome_shared_gene_count,GO_KEGG_shared_gene_count,Reactome_KEGG_shared_gene_count,three_source_shared_gene_count,union_gene_count,GO_Reactome_union_Jaccard
+lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,19,8,2,30,14,13,14,13,8,8,30,0.4667
+chemical_xenobiotic_stress,Chemical / xenobiotic / oxygen-stress response,6,3,4,26,4,10,4,9,4,4,27,0.1538
+inflammation_immune,Inflammation / immune / stimulus response,12,4,0,38,9,0,9,0,0,0,38,0.2368
+signaling_receptor,Signaling / receptor / hormone response,10,7,1,28,24,4,22,4,4,4,30,0.7333
+matrix_migration,Matrix remodeling / adhesion / migration,0,1,0,0,4,0,0,0,0,0,4,
+cell_death_cycle,Cell death / cell cycle / genome maintenance,2,0,0,21,0,0,0,0,0,0,21,
+transport_localization,Transport / localization / vesicle trafficking,0,0,0,0,0,0,0,0,0,0,0,
+general_metabolism,General metabolism / biosynthesis,14,7,2,33,23,3,21,3,3,3,35,0.6000
+other,Other / mixed biological processes,34,20,4,38,38,18,36,18,18,18,40,0.9000
