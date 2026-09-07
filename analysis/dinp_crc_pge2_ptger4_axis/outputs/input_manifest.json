@@ -1,0 +1,88 @@
+{
+  "analysis": "dinp_crc_pge2_ptger4_axis",
+  "run_timestamp_utc": "2026-09-07T01:45:24.126242+00:00",
+  "matrix": {
+    "path": "E:\\mcop\\mcop\\work\\mcop_phase2f_external\\raw\\GSE144735_raw_UMI_count_matrix.txt.gz",
+    "sha256": "046cbbd6c7501a4ddbca6d09fc0bb923e62d4d9421d5781efdeacb2c0a5b3b31",
+    "size_bytes": 56598691
+  },
+  "annotation": {
+    "path": "E:\\mcop\\mcop\\work\\mcop_phase2f_external\\raw\\GSE144735_annotation.txt.gz",
+    "sha256": "4eb9da239bef95b9003c0f6d0eeb41c6598ecc794cd25f57ad06d9bad81e881b",
+    "size_bytes": 194418
+  },
+  "prior_subtype_output": {
+    "path": "E:\\chatgpt\\whynot17\\analysis\\dinp_crc_macrophage_subtype\\outputs\\macrophage_cell_program_scores.csv",
+    "sha256": "e26bcf4b705cce9d074df8c2ff1daf8bbd149369b361ed9fab5a9cbf94e523ad"
+  },
+  "source_dataset": "GSE144735 CRC single-cell matrix; local cache; six donors",
+  "n_cells": 27414,
+  "n_donors": 6,
+  "donors": [
+    "KUL01",
+    "KUL19",
+    "KUL21",
+    "KUL28",
+    "KUL30",
+    "KUL31"
+  ],
+  "group_counts": {
+    "T_cells": 5770,
+    "B_cells": 4902,
+    "fibroblast_like": 4582,
+    "border_epithelial": 2812,
+    "tumor_epithelial": 2212,
+    "endothelial_like": 1576,
+    "normal_epithelial": 1144,
+    "FCN1_inflammatory_monocyte_like": 985,
+    "smooth_muscle_like": 591,
+    "resident_like": 579,
+    "C1QC_like_TAM": 534,
+    "enteric_glial_like": 463,
+    "pericyte_like": 438,
+    "SPP1_like_TAM": 416,
+    "mast_cells": 248,
+    "other_myeloid": 162
+  },
+  "target_genes": [
+    "PLA2G4A",
+    "PTGS1",
+    "PTGS2",
+    "PTGES",
+    "PTGES2",
+    "PTGES3",
+    "PTGER4"
+  ],
+  "genes_present": [
+    "PLA2G4A",
+    "PTGER4",
+    "PTGES",
+    "PTGES2",
+    "PTGES3",
+    "PTGS1",
+    "PTGS2"
+  ],
+  "genes_missing": [],
+  "synthesis_genes": [
+    "PLA2G4A",
+    "PTGS1",
+    "PTGS2",
+    "PTGES",
+    "PTGES2",
+    "PTGES3"
+  ],
+  "normalization": "per-cell library-size normalize to 1e4, log1p; synthesis gene-wise z-score mean",
+  "pge2_high_threshold_global_cell_q75": 0.12725569608105977,
+  "ptger4_high_threshold_macrophage_q75": 5e-324,
+  "ptger4_high_definition": "detected-only fallback because macrophage q75 is zero",
+  "donor_validation": "tumor donor-level aggregates; source top among mast cells plus six prespecified comparison groups and receiver top among four macrophage subtypes",
+  "ordinary_cellchat": "not used by user request; this is a focused source-receiver analysis",
+  "r_environment": "E:\\\\chatgpt\\\\cellchat_env (R 4.4.3; CellChat not installed)",
+  "software": {
+    "python": "3.11.16 | packaged by conda-forge | (main, Sep  2 2026, 23:31:17) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "platform": "Windows-10-10.0.22621-SP0"
+  },
+  "runtime_seconds": 138.68
+}

@@ -1,0 +1,8 @@
+rank_type,category,n_tumor_donors_top,fraction_of_6_donors
+source,mast_cells,3,0.5
+source,SPP1_like_TAM,1,0.16666666666666666
+source,fibroblast_like,1,0.16666666666666666
+source,C1QC_like_TAM,1,0.16666666666666666
+receiver,FCN1_inflammatory_monocyte_like,3,0.5
+receiver,C1QC_like_TAM,2,0.3333333333333333
+receiver,SPP1_like_TAM,1,0.16666666666666666
