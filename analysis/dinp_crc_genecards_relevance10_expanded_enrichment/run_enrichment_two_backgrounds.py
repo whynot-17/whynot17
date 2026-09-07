@@ -293,6 +293,9 @@ def main() -> None:
     counts = {
         background_name: {
             "returned_terms": sum(1 for row in all_rows if row["background"] == background_name),
+            "effective_domain_sizes_reported_by_gprofiler": sorted(
+                {int(row["effective_domain_size"]) for row in all_rows if row["background"] == background_name}
+            ),
             "global_fdr_lt_0_05": sum(1 for row in significant if row["background"] == background_name),
             "global_significant_by_source": source_counts[background_name],
             "within_source_fdr_lt_0_05": {
@@ -370,14 +373,14 @@ def main() -> None:
         "",
         "## Results",
         "",
-        "| Background | Returned terms | Global BH-FDR <0.05 | GO:BP | KEGG | Reactome |",
-        "|---|---:|---:|---:|---:|---:|",
+        "| Background | Input background | API effective domain | Returned terms | Global BH-FDR <0.05 | GO:BP | KEGG | Reactome |",
+        "|---|---:|---:|---:|---:|---:|---:|---:|",
     ]
     for background_name, label in [("primary_genecards881", "Primary GeneCards 881"), ("sensitivity_dinp93", "Sensitivity DINP 93")]:
         item = counts[background_name]
         by_source = item["global_significant_by_source"]
         lines.append(
-            f"| {label} | {item['returned_terms']} | {item['global_fdr_lt_0_05']} | {by_source['GO:BP']} | {by_source['KEGG']} | {by_source['REAC']} |"
+            f"| {label} | {len(backgrounds[background_name])} | {', '.join(str(value) for value in item['effective_domain_sizes_reported_by_gprofiler'])} | {item['returned_terms']} | {item['global_fdr_lt_0_05']} | {by_source['GO:BP']} | {by_source['KEGG']} | {by_source['REAC']} |"
         )
     lines += [
         "",
@@ -400,6 +403,8 @@ def main() -> None:
         lines.append("")
     lines += [
         "## Interpretation boundary",
+        "",
+        "The frozen input background counts are 881 and 93. g:Profiler also reports an effective mapped domain after its identifier/domain processing; those API-reported values are retained separately and do not replace the frozen input counts.",
         "",
         "This analysis tests over-representation only. It is direction-agnostic and does not show pathway activation, DINP causality, or mediation. The GeneCards primary background is the available archived ordinary CRC top-2000 reference rather than a full GeneCards export.",
         "",

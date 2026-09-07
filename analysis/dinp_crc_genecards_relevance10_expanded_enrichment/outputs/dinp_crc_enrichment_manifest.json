@@ -1,6 +1,6 @@
 {
   "analysis": "Expanded 18-gene DINP-CRC GeneCards-threshold GO/KEGG/Reactome ORA",
-  "run_utc": "2026-09-07T13:36:56.865494+00:00",
+  "run_utc": "2026-09-07T13:41:55.507822+00:00",
   "query": {
     "path": "analysis/dinp_crc_multi_database_target_convergence/outputs/dinp_crc_genecards_relevance10_expanded_intersection.csv",
     "sha256": "2bd5b776024ea820fe17d4295f9a3408253aa5b434329465d2fb38168f3886ab",
@@ -247,6 +247,9 @@
   "counts": {
     "primary_genecards881": {
       "returned_terms": 2433,
+      "effective_domain_sizes_reported_by_gprofiler": [
+        868
+      ],
       "global_fdr_lt_0_05": 106,
       "global_significant_by_source": {
         "GO:BP": 99,
@@ -261,6 +264,9 @@
     },
     "sensitivity_dinp93": {
       "returned_terms": 2433,
+      "effective_domain_sizes_reported_by_gprofiler": [
+        100
+      ],
       "global_fdr_lt_0_05": 0,
       "global_significant_by_source": {
         "GO:BP": 0,

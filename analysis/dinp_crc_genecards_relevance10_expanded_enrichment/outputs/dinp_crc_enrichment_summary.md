@@ -15,10 +15,10 @@
 
 ## Results
 
-| Background | Returned terms | Global BH-FDR <0.05 | GO:BP | KEGG | Reactome |
-|---|---:|---:|---:|---:|---:|
-| Primary GeneCards 881 | 2433 | 106 | 99 | 0 | 7 |
-| Sensitivity DINP 93 | 2433 | 0 | 0 | 0 | 0 |
+| Background | Input background | API effective domain | Returned terms | Global BH-FDR <0.05 | GO:BP | KEGG | Reactome |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Primary GeneCards 881 | 881 | 868 | 2433 | 106 | 99 | 0 | 7 |
+| Sensitivity DINP 93 | 93 | 100 | 2433 | 0 | 0 | 0 | 0 |
 
 ## Top terms by background
 
@@ -47,6 +47,8 @@
 - `GO:BP` positive regulation of cell differentiation — overlap 7/18; global BH-FDR=0.1608
 
 ## Interpretation boundary
+
+The frozen input background counts are 881 and 93. g:Profiler also reports an effective mapped domain after its identifier/domain processing; those API-reported values are retained separately and do not replace the frozen input counts.
 
 This analysis tests over-representation only. It is direction-agnostic and does not show pathway activation, DINP causality, or mediation. The GeneCards primary background is the available archived ordinary CRC top-2000 reference rather than a full GeneCards export.
 
