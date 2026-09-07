@@ -1,0 +1,349 @@
+cluster_id,theme_label,gene_symbol,cluster_term_count,fraction_of_cluster_terms,cluster_top_driver,global_significant_term_count,global_theme_cluster_count,overall_driver_rank
+theme_01,Inflammation / defense / stimulus response,PTGS2,2,1.0,True,87,32,1
+theme_01,Inflammation / defense / stimulus response,PPARD,2,1.0,True,85,33,2
+theme_01,Inflammation / defense / stimulus response,PPARG,2,1.0,True,77,30,3
+theme_01,Inflammation / defense / stimulus response,ESR1,2,1.0,True,61,22,5
+theme_01,Inflammation / defense / stimulus response,RELA,2,1.0,True,58,21,6
+theme_01,Inflammation / defense / stimulus response,MMP9,2,1.0,True,56,21,7
+theme_01,Inflammation / defense / stimulus response,STAT3,2,1.0,True,47,17,10
+theme_01,Inflammation / defense / stimulus response,NEAT1,2,1.0,True,20,10,18
+theme_01,Inflammation / defense / stimulus response,TIMP1,1,0.5,False,42,17,11
+theme_01,Inflammation / defense / stimulus response,CXCR4,1,0.5,False,38,14,12
+theme_01,Inflammation / defense / stimulus response,CRP,1,0.5,False,25,13,17
+theme_02,Inflammation / defense / stimulus response,PTGS2,2,1.0,True,87,32,1
+theme_02,Inflammation / defense / stimulus response,PPARD,2,1.0,True,85,33,2
+theme_02,Inflammation / defense / stimulus response,PPARG,2,1.0,True,77,30,3
+theme_02,Inflammation / defense / stimulus response,ESR1,2,1.0,True,61,22,5
+theme_02,Inflammation / defense / stimulus response,RELA,2,1.0,True,58,21,6
+theme_02,Inflammation / defense / stimulus response,MMP9,2,1.0,True,56,21,7
+theme_02,Inflammation / defense / stimulus response,BECN1,2,1.0,True,53,19,8
+theme_02,Inflammation / defense / stimulus response,STAT3,2,1.0,True,47,17,10
+theme_02,Inflammation / defense / stimulus response,NEAT1,2,1.0,True,20,10,18
+theme_02,Inflammation / defense / stimulus response,TIMP1,1,0.5,False,42,17,11
+theme_02,Inflammation / defense / stimulus response,CXCR4,1,0.5,False,38,14,12
+theme_02,Inflammation / defense / stimulus response,CRP,1,0.5,False,25,13,17
+theme_03,Chemical / oxygen / abiotic stress response,PTGS2,6,1.0,True,87,32,1
+theme_03,Chemical / oxygen / abiotic stress response,PPARD,6,1.0,True,85,33,2
+theme_03,Chemical / oxygen / abiotic stress response,PPARG,6,1.0,True,77,30,3
+theme_03,Chemical / oxygen / abiotic stress response,SIRT1,6,1.0,True,74,27,4
+theme_03,Chemical / oxygen / abiotic stress response,ESR1,6,1.0,True,61,22,5
+theme_03,Chemical / oxygen / abiotic stress response,RELA,6,1.0,True,58,21,6
+theme_03,Chemical / oxygen / abiotic stress response,MMP9,6,1.0,True,56,21,7
+theme_03,Chemical / oxygen / abiotic stress response,BECN1,6,1.0,True,53,19,8
+theme_03,Chemical / oxygen / abiotic stress response,MMP2,6,1.0,True,50,21,9
+theme_03,Chemical / oxygen / abiotic stress response,STAT3,6,1.0,True,47,17,10
+theme_03,Chemical / oxygen / abiotic stress response,TIMP1,6,1.0,True,42,17,11
+theme_03,Chemical / oxygen / abiotic stress response,CXCR4,6,1.0,True,38,14,12
+theme_03,Chemical / oxygen / abiotic stress response,PTGS1,6,1.0,True,38,15,13
+theme_03,Chemical / oxygen / abiotic stress response,CYP1A2,6,1.0,True,37,15,14
+theme_03,Chemical / oxygen / abiotic stress response,CYP3A4,6,1.0,True,28,12,16
+theme_03,Chemical / oxygen / abiotic stress response,DKK1,5,0.8333333333333334,False,32,9,15
+theme_03,Chemical / oxygen / abiotic stress response,CRP,3,0.5,False,25,13,17
+theme_03,Chemical / oxygen / abiotic stress response,NEAT1,2,0.3333333333333333,False,20,10,18
+theme_04,Development / reproduction / circulation,PTGS2,2,1.0,True,87,32,1
+theme_04,Development / reproduction / circulation,PPARD,2,1.0,True,85,33,2
+theme_04,Development / reproduction / circulation,PPARG,2,1.0,True,77,30,3
+theme_04,Development / reproduction / circulation,SIRT1,2,1.0,True,74,27,4
+theme_04,Development / reproduction / circulation,ESR1,2,1.0,True,61,22,5
+theme_04,Development / reproduction / circulation,RELA,2,1.0,True,58,21,6
+theme_04,Development / reproduction / circulation,MMP9,2,1.0,True,56,21,7
+theme_04,Development / reproduction / circulation,BECN1,2,1.0,True,53,19,8
+theme_04,Development / reproduction / circulation,MMP2,2,1.0,True,50,21,9
+theme_04,Development / reproduction / circulation,STAT3,2,1.0,True,47,17,10
+theme_04,Development / reproduction / circulation,TIMP1,2,1.0,True,42,17,11
+theme_04,Development / reproduction / circulation,PTGS1,2,1.0,True,38,15,13
+theme_04,Development / reproduction / circulation,CRP,2,1.0,True,25,13,17
+theme_04,Development / reproduction / circulation,NEAT1,2,1.0,True,20,10,18
+theme_05,Lipid / fatty-acid / eicosanoid metabolism,PTGS2,6,1.0,True,87,32,1
+theme_05,Lipid / fatty-acid / eicosanoid metabolism,PPARD,6,1.0,True,85,33,2
+theme_05,Lipid / fatty-acid / eicosanoid metabolism,PPARG,6,1.0,True,77,30,3
+theme_05,Lipid / fatty-acid / eicosanoid metabolism,SIRT1,6,1.0,True,74,27,4
+theme_05,Lipid / fatty-acid / eicosanoid metabolism,PTGS1,6,1.0,True,38,15,13
+theme_05,Lipid / fatty-acid / eicosanoid metabolism,CYP1A2,6,1.0,True,37,15,14
+theme_05,Lipid / fatty-acid / eicosanoid metabolism,CYP3A4,6,1.0,True,28,12,16
+theme_05,Lipid / fatty-acid / eicosanoid metabolism,STAT3,5,0.8333333333333334,False,47,17,10
+theme_06,Lipid / fatty-acid / eicosanoid metabolism,PTGS2,2,1.0,True,87,32,1
+theme_06,Lipid / fatty-acid / eicosanoid metabolism,PPARD,2,1.0,True,85,33,2
+theme_06,Lipid / fatty-acid / eicosanoid metabolism,SIRT1,2,1.0,True,74,27,4
+theme_06,Lipid / fatty-acid / eicosanoid metabolism,BECN1,2,1.0,True,53,19,8
+theme_06,Lipid / fatty-acid / eicosanoid metabolism,PTGS1,2,1.0,True,38,15,13
+theme_06,Lipid / fatty-acid / eicosanoid metabolism,CYP1A2,2,1.0,True,37,15,14
+theme_06,Lipid / fatty-acid / eicosanoid metabolism,CYP3A4,2,1.0,True,28,12,16
+theme_06,Lipid / fatty-acid / eicosanoid metabolism,PPARG,1,0.5,False,77,30,3
+theme_06,Lipid / fatty-acid / eicosanoid metabolism,ESR1,1,0.5,False,61,22,5
+theme_07,Inflammation / defense / stimulus response,PTGS2,2,1.0,True,87,32,1
+theme_07,Inflammation / defense / stimulus response,PPARD,2,1.0,True,85,33,2
+theme_07,Inflammation / defense / stimulus response,PPARG,2,1.0,True,77,30,3
+theme_07,Inflammation / defense / stimulus response,ESR1,2,1.0,True,61,22,5
+theme_07,Inflammation / defense / stimulus response,RELA,2,1.0,True,58,21,6
+theme_07,Inflammation / defense / stimulus response,MMP9,2,1.0,True,56,21,7
+theme_07,Inflammation / defense / stimulus response,BECN1,2,1.0,True,53,19,8
+theme_07,Inflammation / defense / stimulus response,STAT3,2,1.0,True,47,17,10
+theme_07,Inflammation / defense / stimulus response,CXCR4,2,1.0,True,38,14,12
+theme_07,Inflammation / defense / stimulus response,NEAT1,2,1.0,True,20,10,18
+theme_07,Inflammation / defense / stimulus response,MMP2,1,0.5,False,50,21,9
+theme_07,Inflammation / defense / stimulus response,CRP,1,0.5,False,25,13,17
+theme_08,Development / reproduction / circulation,PTGS2,7,1.0,True,87,32,1
+theme_08,Development / reproduction / circulation,PPARD,7,1.0,True,85,33,2
+theme_08,Development / reproduction / circulation,PPARG,7,1.0,True,77,30,3
+theme_08,Development / reproduction / circulation,SIRT1,7,1.0,True,74,27,4
+theme_08,Development / reproduction / circulation,ESR1,7,1.0,True,61,22,5
+theme_08,Development / reproduction / circulation,RELA,7,1.0,True,58,21,6
+theme_08,Development / reproduction / circulation,MMP9,7,1.0,True,56,21,7
+theme_08,Development / reproduction / circulation,MMP2,7,1.0,True,50,21,9
+theme_08,Development / reproduction / circulation,STAT3,7,1.0,True,47,17,10
+theme_08,Development / reproduction / circulation,TIMP1,7,1.0,True,42,17,11
+theme_08,Development / reproduction / circulation,CXCR4,7,1.0,True,38,14,12
+theme_08,Development / reproduction / circulation,DKK1,7,1.0,True,32,9,15
+theme_08,Development / reproduction / circulation,BECN1,6,0.8571428571428571,False,53,19,8
+theme_08,Development / reproduction / circulation,CYP1A2,6,0.8571428571428571,False,37,15,14
+theme_08,Development / reproduction / circulation,CRP,3,0.42857142857142855,False,25,13,17
+theme_08,Development / reproduction / circulation,PTGS1,1,0.14285714285714285,False,38,15,13
+theme_09,Development / reproduction / circulation,PTGS2,1,1.0,True,87,32,1
+theme_09,Development / reproduction / circulation,PPARD,1,1.0,True,85,33,2
+theme_09,Development / reproduction / circulation,MMP9,1,1.0,True,56,21,7
+theme_09,Development / reproduction / circulation,MMP2,1,1.0,True,50,21,9
+theme_09,Development / reproduction / circulation,TIMP1,1,1.0,True,42,17,11
+theme_10,Lipid / fatty-acid / eicosanoid metabolism,PTGS2,4,1.0,True,87,32,1
+theme_10,Lipid / fatty-acid / eicosanoid metabolism,SIRT1,4,1.0,True,74,27,4
+theme_10,Lipid / fatty-acid / eicosanoid metabolism,PTGS1,4,1.0,True,38,15,13
+theme_10,Lipid / fatty-acid / eicosanoid metabolism,CYP1A2,4,1.0,True,37,15,14
+theme_10,Lipid / fatty-acid / eicosanoid metabolism,CYP3A4,4,1.0,True,28,12,16
+theme_11,Development / reproduction / circulation,PTGS2,3,1.0,True,87,32,1
+theme_11,Development / reproduction / circulation,PPARD,3,1.0,True,85,33,2
+theme_11,Development / reproduction / circulation,ESR1,3,1.0,True,61,22,5
+theme_11,Development / reproduction / circulation,MMP9,3,1.0,True,56,21,7
+theme_11,Development / reproduction / circulation,MMP2,3,1.0,True,50,21,9
+theme_11,Development / reproduction / circulation,TIMP1,3,1.0,True,42,17,11
+theme_12,Signaling / receptor / hormone response,PPARD,1,1.0,True,85,33,2
+theme_12,Signaling / receptor / hormone response,PPARG,1,1.0,True,77,30,3
+theme_12,Signaling / receptor / hormone response,SIRT1,1,1.0,True,74,27,4
+theme_12,Signaling / receptor / hormone response,ESR1,1,1.0,True,61,22,5
+theme_12,Signaling / receptor / hormone response,RELA,1,1.0,True,58,21,6
+theme_12,Signaling / receptor / hormone response,BECN1,1,1.0,True,53,19,8
+theme_12,Signaling / receptor / hormone response,STAT3,1,1.0,True,47,17,10
+theme_13,General metabolism / biosynthesis / storage,PTGS2,1,1.0,True,87,32,1
+theme_13,General metabolism / biosynthesis / storage,PPARD,1,1.0,True,85,33,2
+theme_13,General metabolism / biosynthesis / storage,PPARG,1,1.0,True,77,30,3
+theme_13,General metabolism / biosynthesis / storage,SIRT1,1,1.0,True,74,27,4
+theme_13,General metabolism / biosynthesis / storage,ESR1,1,1.0,True,61,22,5
+theme_13,General metabolism / biosynthesis / storage,MMP2,1,1.0,True,50,21,9
+theme_13,General metabolism / biosynthesis / storage,CXCR4,1,1.0,True,38,14,12
+theme_13,General metabolism / biosynthesis / storage,PTGS1,1,1.0,True,38,15,13
+theme_13,General metabolism / biosynthesis / storage,CYP1A2,1,1.0,True,37,15,14
+theme_13,General metabolism / biosynthesis / storage,DKK1,1,1.0,True,32,9,15
+theme_13,General metabolism / biosynthesis / storage,CYP3A4,1,1.0,True,28,12,16
+theme_13,General metabolism / biosynthesis / storage,CRP,1,1.0,True,25,13,17
+theme_14,Development / reproduction / circulation,PTGS2,4,1.0,True,87,32,1
+theme_14,Development / reproduction / circulation,PPARD,4,1.0,True,85,33,2
+theme_14,Development / reproduction / circulation,PPARG,4,1.0,True,77,30,3
+theme_14,Development / reproduction / circulation,SIRT1,4,1.0,True,74,27,4
+theme_14,Development / reproduction / circulation,ESR1,4,1.0,True,61,22,5
+theme_14,Development / reproduction / circulation,RELA,4,1.0,True,58,21,6
+theme_14,Development / reproduction / circulation,MMP9,4,1.0,True,56,21,7
+theme_14,Development / reproduction / circulation,BECN1,4,1.0,True,53,19,8
+theme_14,Development / reproduction / circulation,MMP2,4,1.0,True,50,21,9
+theme_14,Development / reproduction / circulation,STAT3,4,1.0,True,47,17,10
+theme_14,Development / reproduction / circulation,CXCR4,4,1.0,True,38,14,12
+theme_14,Development / reproduction / circulation,DKK1,4,1.0,True,32,9,15
+theme_14,Development / reproduction / circulation,NEAT1,4,1.0,True,20,10,18
+theme_14,Development / reproduction / circulation,TIMP1,3,0.75,False,42,17,11
+theme_14,Development / reproduction / circulation,CRP,2,0.5,False,25,13,17
+theme_15,Inflammation / defense / stimulus response,PTGS2,2,1.0,True,87,32,1
+theme_15,Inflammation / defense / stimulus response,PPARD,2,1.0,True,85,33,2
+theme_15,Inflammation / defense / stimulus response,PPARG,2,1.0,True,77,30,3
+theme_15,Inflammation / defense / stimulus response,SIRT1,2,1.0,True,74,27,4
+theme_15,Inflammation / defense / stimulus response,ESR1,2,1.0,True,61,22,5
+theme_15,Inflammation / defense / stimulus response,RELA,2,1.0,True,58,21,6
+theme_15,Inflammation / defense / stimulus response,MMP9,2,1.0,True,56,21,7
+theme_15,Inflammation / defense / stimulus response,BECN1,2,1.0,True,53,19,8
+theme_15,Inflammation / defense / stimulus response,STAT3,2,1.0,True,47,17,10
+theme_15,Inflammation / defense / stimulus response,NEAT1,2,1.0,True,20,10,18
+theme_15,Inflammation / defense / stimulus response,MMP2,1,0.5,False,50,21,9
+theme_15,Inflammation / defense / stimulus response,TIMP1,1,0.5,False,42,17,11
+theme_15,Inflammation / defense / stimulus response,CXCR4,1,0.5,False,38,14,12
+theme_15,Inflammation / defense / stimulus response,PTGS1,1,0.5,False,38,15,13
+theme_15,Inflammation / defense / stimulus response,CRP,1,0.5,False,25,13,17
+theme_16,General metabolism / biosynthesis / storage,PPARD,1,1.0,True,85,33,2
+theme_16,General metabolism / biosynthesis / storage,SIRT1,1,1.0,True,74,27,4
+theme_16,General metabolism / biosynthesis / storage,RELA,1,1.0,True,58,21,6
+theme_16,General metabolism / biosynthesis / storage,MMP9,1,1.0,True,56,21,7
+theme_16,General metabolism / biosynthesis / storage,BECN1,1,1.0,True,53,19,8
+theme_16,General metabolism / biosynthesis / storage,MMP2,1,1.0,True,50,21,9
+theme_16,General metabolism / biosynthesis / storage,STAT3,1,1.0,True,47,17,10
+theme_16,General metabolism / biosynthesis / storage,TIMP1,1,1.0,True,42,17,11
+theme_16,General metabolism / biosynthesis / storage,CYP1A2,1,1.0,True,37,15,14
+theme_16,General metabolism / biosynthesis / storage,CYP3A4,1,1.0,True,28,12,16
+theme_16,General metabolism / biosynthesis / storage,NEAT1,1,1.0,True,20,10,18
+theme_17,miRNA transcription / metabolism,PPARD,6,1.0,True,85,33,2
+theme_17,miRNA transcription / metabolism,PPARG,6,1.0,True,77,30,3
+theme_17,miRNA transcription / metabolism,ESR1,6,1.0,True,61,22,5
+theme_17,miRNA transcription / metabolism,RELA,6,1.0,True,58,21,6
+theme_17,miRNA transcription / metabolism,STAT3,4,0.6666666666666666,False,47,17,10
+theme_17,miRNA transcription / metabolism,NEAT1,2,0.3333333333333333,False,20,10,18
+theme_18,Lipid / fatty-acid / eicosanoid metabolism,PTGS2,1,1.0,True,87,32,1
+theme_18,Lipid / fatty-acid / eicosanoid metabolism,PPARD,1,1.0,True,85,33,2
+theme_18,Lipid / fatty-acid / eicosanoid metabolism,PPARG,1,1.0,True,77,30,3
+theme_18,Lipid / fatty-acid / eicosanoid metabolism,PTGS1,1,1.0,True,38,15,13
+theme_18,Lipid / fatty-acid / eicosanoid metabolism,CYP1A2,1,1.0,True,37,15,14
+theme_18,Lipid / fatty-acid / eicosanoid metabolism,CYP3A4,1,1.0,True,28,12,16
+theme_19,Lipid / fatty-acid / eicosanoid metabolism,PTGS2,1,1.0,True,87,32,1
+theme_19,Lipid / fatty-acid / eicosanoid metabolism,PPARD,1,1.0,True,85,33,2
+theme_19,Lipid / fatty-acid / eicosanoid metabolism,PTGS1,1,1.0,True,38,15,13
+theme_19,Lipid / fatty-acid / eicosanoid metabolism,CYP1A2,1,1.0,True,37,15,14
+theme_20,Development / reproduction / circulation,PTGS2,2,1.0,True,87,32,1
+theme_20,Development / reproduction / circulation,PPARD,2,1.0,True,85,33,2
+theme_20,Development / reproduction / circulation,PPARG,2,1.0,True,77,30,3
+theme_20,Development / reproduction / circulation,MMP2,2,1.0,True,50,21,9
+theme_20,Development / reproduction / circulation,PTGS1,2,1.0,True,38,15,13
+theme_20,Development / reproduction / circulation,CRP,2,1.0,True,25,13,17
+theme_21,Signaling / receptor / hormone response,PTGS2,4,1.0,True,87,32,1
+theme_21,Signaling / receptor / hormone response,PPARD,4,1.0,True,85,33,2
+theme_21,Signaling / receptor / hormone response,PPARG,4,1.0,True,77,30,3
+theme_21,Signaling / receptor / hormone response,SIRT1,4,1.0,True,74,27,4
+theme_21,Signaling / receptor / hormone response,ESR1,4,1.0,True,61,22,5
+theme_21,Signaling / receptor / hormone response,RELA,4,1.0,True,58,21,6
+theme_21,Signaling / receptor / hormone response,MMP9,4,1.0,True,56,21,7
+theme_21,Signaling / receptor / hormone response,BECN1,4,1.0,True,53,19,8
+theme_21,Signaling / receptor / hormone response,MMP2,4,1.0,True,50,21,9
+theme_21,Signaling / receptor / hormone response,STAT3,4,1.0,True,47,17,10
+theme_21,Signaling / receptor / hormone response,DKK1,4,1.0,True,32,9,15
+theme_21,Signaling / receptor / hormone response,TIMP1,3,0.75,False,42,17,11
+theme_21,Signaling / receptor / hormone response,CXCR4,3,0.75,False,38,14,12
+theme_22,Lipid / fatty-acid / eicosanoid metabolism,PTGS2,6,1.0,True,87,32,1
+theme_22,Lipid / fatty-acid / eicosanoid metabolism,SIRT1,6,1.0,True,74,27,4
+theme_22,Lipid / fatty-acid / eicosanoid metabolism,PTGS1,6,1.0,True,38,15,13
+theme_23,Chemical / oxygen / abiotic stress response,MMP9,2,1.0,True,56,21,7
+theme_23,Chemical / oxygen / abiotic stress response,MMP2,2,1.0,True,50,21,9
+theme_23,Chemical / oxygen / abiotic stress response,TIMP1,2,1.0,True,42,17,11
+theme_24,Lipid / fatty-acid / eicosanoid metabolism,PTGS2,2,1.0,True,87,32,1
+theme_24,Lipid / fatty-acid / eicosanoid metabolism,PTGS1,2,1.0,True,38,15,13
+theme_24,Lipid / fatty-acid / eicosanoid metabolism,CYP1A2,2,1.0,True,37,15,14
+theme_24,Lipid / fatty-acid / eicosanoid metabolism,CYP3A4,2,1.0,True,28,12,16
+theme_25,Lipid / fatty-acid / eicosanoid metabolism,PPARD,3,1.0,True,85,33,2
+theme_25,Lipid / fatty-acid / eicosanoid metabolism,PPARG,3,1.0,True,77,30,3
+theme_25,Lipid / fatty-acid / eicosanoid metabolism,SIRT1,3,1.0,True,74,27,4
+theme_25,Lipid / fatty-acid / eicosanoid metabolism,CRP,3,1.0,True,25,13,17
+theme_26,Chemical / oxygen / abiotic stress response,PTGS2,5,1.0,True,87,32,1
+theme_26,Chemical / oxygen / abiotic stress response,PPARD,5,1.0,True,85,33,2
+theme_26,Chemical / oxygen / abiotic stress response,PPARG,5,1.0,True,77,30,3
+theme_26,Chemical / oxygen / abiotic stress response,SIRT1,5,1.0,True,74,27,4
+theme_26,Chemical / oxygen / abiotic stress response,BECN1,5,1.0,True,53,19,8
+theme_26,Chemical / oxygen / abiotic stress response,MMP2,3,0.6,False,50,21,9
+theme_26,Chemical / oxygen / abiotic stress response,CXCR4,3,0.6,False,38,14,12
+theme_27,Signaling / receptor / hormone response,PPARD,1,1.0,True,85,33,2
+theme_27,Signaling / receptor / hormone response,PPARG,1,1.0,True,77,30,3
+theme_27,Signaling / receptor / hormone response,SIRT1,1,1.0,True,74,27,4
+theme_27,Signaling / receptor / hormone response,ESR1,1,1.0,True,61,22,5
+theme_27,Signaling / receptor / hormone response,RELA,1,1.0,True,58,21,6
+theme_28,Chemical / oxygen / abiotic stress response,PPARD,2,1.0,True,85,33,2
+theme_28,Chemical / oxygen / abiotic stress response,PPARG,2,1.0,True,77,30,3
+theme_28,Chemical / oxygen / abiotic stress response,SIRT1,2,1.0,True,74,27,4
+theme_28,Chemical / oxygen / abiotic stress response,ESR1,2,1.0,True,61,22,5
+theme_28,Chemical / oxygen / abiotic stress response,RELA,2,1.0,True,58,21,6
+theme_28,Chemical / oxygen / abiotic stress response,MMP9,2,1.0,True,56,21,7
+theme_28,Chemical / oxygen / abiotic stress response,MMP2,2,1.0,True,50,21,9
+theme_28,Chemical / oxygen / abiotic stress response,STAT3,2,1.0,True,47,17,10
+theme_28,Chemical / oxygen / abiotic stress response,DKK1,2,1.0,True,32,9,15
+theme_28,Chemical / oxygen / abiotic stress response,BECN1,1,0.5,False,53,19,8
+theme_28,Chemical / oxygen / abiotic stress response,TIMP1,1,0.5,False,42,17,11
+theme_29,Lipid / fatty-acid / eicosanoid metabolism,PTGS2,2,1.0,True,87,32,1
+theme_29,Lipid / fatty-acid / eicosanoid metabolism,SIRT1,2,1.0,True,74,27,4
+theme_29,Lipid / fatty-acid / eicosanoid metabolism,PTGS1,2,1.0,True,38,15,13
+theme_29,Lipid / fatty-acid / eicosanoid metabolism,CYP1A2,2,1.0,True,37,15,14
+theme_30,Signaling / receptor / hormone response,PTGS2,1,1.0,True,87,32,1
+theme_30,Signaling / receptor / hormone response,PPARG,1,1.0,True,77,30,3
+theme_30,Signaling / receptor / hormone response,SIRT1,1,1.0,True,74,27,4
+theme_30,Signaling / receptor / hormone response,ESR1,1,1.0,True,61,22,5
+theme_30,Signaling / receptor / hormone response,RELA,1,1.0,True,58,21,6
+theme_30,Signaling / receptor / hormone response,MMP9,1,1.0,True,56,21,7
+theme_30,Signaling / receptor / hormone response,STAT3,1,1.0,True,47,17,10
+theme_30,Signaling / receptor / hormone response,DKK1,1,1.0,True,32,9,15
+theme_31,Inflammation / defense / stimulus response,PTGS2,1,1.0,True,87,32,1
+theme_31,Inflammation / defense / stimulus response,PPARD,1,1.0,True,85,33,2
+theme_31,Inflammation / defense / stimulus response,PPARG,1,1.0,True,77,30,3
+theme_31,Inflammation / defense / stimulus response,SIRT1,1,1.0,True,74,27,4
+theme_31,Inflammation / defense / stimulus response,RELA,1,1.0,True,58,21,6
+theme_31,Inflammation / defense / stimulus response,MMP9,1,1.0,True,56,21,7
+theme_31,Inflammation / defense / stimulus response,BECN1,1,1.0,True,53,19,8
+theme_31,Inflammation / defense / stimulus response,MMP2,1,1.0,True,50,21,9
+theme_31,Inflammation / defense / stimulus response,TIMP1,1,1.0,True,42,17,11
+theme_31,Inflammation / defense / stimulus response,CXCR4,1,1.0,True,38,14,12
+theme_32,Apoptosis / programmed cell death,PTGS2,7,1.0,True,87,32,1
+theme_32,Apoptosis / programmed cell death,PPARD,7,1.0,True,85,33,2
+theme_32,Apoptosis / programmed cell death,SIRT1,7,1.0,True,74,27,4
+theme_32,Apoptosis / programmed cell death,ESR1,7,1.0,True,61,22,5
+theme_32,Apoptosis / programmed cell death,RELA,7,1.0,True,58,21,6
+theme_32,Apoptosis / programmed cell death,MMP9,7,1.0,True,56,21,7
+theme_32,Apoptosis / programmed cell death,BECN1,7,1.0,True,53,19,8
+theme_32,Apoptosis / programmed cell death,TIMP1,7,1.0,True,42,17,11
+theme_32,Apoptosis / programmed cell death,DKK1,7,1.0,True,32,9,15
+theme_32,Apoptosis / programmed cell death,PPARG,5,0.7142857142857143,False,77,30,3
+theme_32,Apoptosis / programmed cell death,MMP2,5,0.7142857142857143,False,50,21,9
+theme_32,Apoptosis / programmed cell death,CXCR4,3,0.42857142857142855,False,38,14,12
+theme_33,Lipid / fatty-acid / eicosanoid metabolism,PPARD,1,1.0,True,85,33,2
+theme_33,Lipid / fatty-acid / eicosanoid metabolism,SIRT1,1,1.0,True,74,27,4
+theme_33,Lipid / fatty-acid / eicosanoid metabolism,ESR1,1,1.0,True,61,22,5
+theme_33,Lipid / fatty-acid / eicosanoid metabolism,CYP1A2,1,1.0,True,37,15,14
+theme_33,Lipid / fatty-acid / eicosanoid metabolism,CYP3A4,1,1.0,True,28,12,16
+theme_34,Inflammation / defense / stimulus response,PTGS2,4,1.0,True,87,32,1
+theme_34,Inflammation / defense / stimulus response,PPARD,4,1.0,True,85,33,2
+theme_34,Inflammation / defense / stimulus response,PPARG,4,1.0,True,77,30,3
+theme_34,Inflammation / defense / stimulus response,ESR1,4,1.0,True,61,22,5
+theme_34,Inflammation / defense / stimulus response,RELA,4,1.0,True,58,21,6
+theme_34,Inflammation / defense / stimulus response,MMP9,4,1.0,True,56,21,7
+theme_34,Inflammation / defense / stimulus response,BECN1,4,1.0,True,53,19,8
+theme_34,Inflammation / defense / stimulus response,CXCR4,4,1.0,True,38,14,12
+theme_34,Inflammation / defense / stimulus response,CRP,4,1.0,True,25,13,17
+theme_35,Chemical / oxygen / abiotic stress response,PTGS2,1,1.0,True,87,32,1
+theme_35,Chemical / oxygen / abiotic stress response,PPARG,1,1.0,True,77,30,3
+theme_35,Chemical / oxygen / abiotic stress response,SIRT1,1,1.0,True,74,27,4
+theme_35,Chemical / oxygen / abiotic stress response,RELA,1,1.0,True,58,21,6
+theme_35,Chemical / oxygen / abiotic stress response,BECN1,1,1.0,True,53,19,8
+theme_35,Chemical / oxygen / abiotic stress response,MMP2,1,1.0,True,50,21,9
+theme_36,General metabolism / biosynthesis / storage,PTGS2,1,1.0,True,87,32,1
+theme_36,General metabolism / biosynthesis / storage,PPARD,1,1.0,True,85,33,2
+theme_36,General metabolism / biosynthesis / storage,PPARG,1,1.0,True,77,30,3
+theme_36,General metabolism / biosynthesis / storage,SIRT1,1,1.0,True,74,27,4
+theme_36,General metabolism / biosynthesis / storage,ESR1,1,1.0,True,61,22,5
+theme_36,General metabolism / biosynthesis / storage,RELA,1,1.0,True,58,21,6
+theme_36,General metabolism / biosynthesis / storage,MMP9,1,1.0,True,56,21,7
+theme_36,General metabolism / biosynthesis / storage,BECN1,1,1.0,True,53,19,8
+theme_36,General metabolism / biosynthesis / storage,MMP2,1,1.0,True,50,21,9
+theme_36,General metabolism / biosynthesis / storage,STAT3,1,1.0,True,47,17,10
+theme_36,General metabolism / biosynthesis / storage,TIMP1,1,1.0,True,42,17,11
+theme_36,General metabolism / biosynthesis / storage,PTGS1,1,1.0,True,38,15,13
+theme_36,General metabolism / biosynthesis / storage,CYP1A2,1,1.0,True,37,15,14
+theme_36,General metabolism / biosynthesis / storage,DKK1,1,1.0,True,32,9,15
+theme_36,General metabolism / biosynthesis / storage,CYP3A4,1,1.0,True,28,12,16
+theme_36,General metabolism / biosynthesis / storage,NEAT1,1,1.0,True,20,10,18
+theme_37,Signaling / receptor / hormone response,PTGS2,1,1.0,True,87,32,1
+theme_37,Signaling / receptor / hormone response,PPARG,1,1.0,True,77,30,3
+theme_37,Signaling / receptor / hormone response,SIRT1,1,1.0,True,74,27,4
+theme_37,Signaling / receptor / hormone response,RELA,1,1.0,True,58,21,6
+theme_37,Signaling / receptor / hormone response,MMP9,1,1.0,True,56,21,7
+theme_37,Signaling / receptor / hormone response,BECN1,1,1.0,True,53,19,8
+theme_37,Signaling / receptor / hormone response,MMP2,1,1.0,True,50,21,9
+theme_38,Lipid / fatty-acid / eicosanoid metabolism,PPARD,1,1.0,True,85,33,2
+theme_38,Lipid / fatty-acid / eicosanoid metabolism,CYP1A2,1,1.0,True,37,15,14
+theme_38,Lipid / fatty-acid / eicosanoid metabolism,CYP3A4,1,1.0,True,28,12,16
+theme_39,Matrix remodeling / cell migration,PTGS2,1,1.0,True,87,32,1
+theme_39,Matrix remodeling / cell migration,PPARD,1,1.0,True,85,33,2
+theme_39,Matrix remodeling / cell migration,PPARG,1,1.0,True,77,30,3
+theme_39,Matrix remodeling / cell migration,SIRT1,1,1.0,True,74,27,4
+theme_39,Matrix remodeling / cell migration,MMP9,1,1.0,True,56,21,7
+theme_39,Matrix remodeling / cell migration,MMP2,1,1.0,True,50,21,9
+theme_39,Matrix remodeling / cell migration,STAT3,1,1.0,True,47,17,10
+theme_39,Matrix remodeling / cell migration,TIMP1,1,1.0,True,42,17,11
+theme_39,Matrix remodeling / cell migration,CXCR4,1,1.0,True,38,14,12
+theme_40,Lipid / fatty-acid / eicosanoid metabolism,PTGS2,1,1.0,True,87,32,1
+theme_40,Lipid / fatty-acid / eicosanoid metabolism,PPARD,1,1.0,True,85,33,2
+theme_40,Lipid / fatty-acid / eicosanoid metabolism,PPARG,1,1.0,True,77,30,3
+theme_40,Lipid / fatty-acid / eicosanoid metabolism,SIRT1,1,1.0,True,74,27,4
+theme_40,Lipid / fatty-acid / eicosanoid metabolism,CRP,1,1.0,True,25,13,17
+theme_41,Signaling / receptor / hormone response,PPARD,1,1.0,True,85,33,2
+theme_41,Signaling / receptor / hormone response,PPARG,1,1.0,True,77,30,3
+theme_41,Signaling / receptor / hormone response,ESR1,1,1.0,True,61,22,5
+theme_42,Lipid / fatty-acid / eicosanoid metabolism,PTGS2,2,1.0,True,87,32,1
+theme_42,Lipid / fatty-acid / eicosanoid metabolism,CYP1A2,2,1.0,True,37,15,14
+theme_42,Lipid / fatty-acid / eicosanoid metabolism,CYP3A4,2,1.0,True,28,12,16

@@ -1,0 +1,43 @@
+cluster_id,theme_label,term_count,source_count,sources,union_gene_count,union_genes,representative_term_id,representative_term_name,theme_term_counts
+theme_01,Inflammation / defense / stimulus response,2,1,GO:BP,11,CRP;CXCR4;ESR1;MMP9;NEAT1;PPARD;PPARG;PTGS2;RELA;STAT3;TIMP1,GO:0006954,inflammatory response,inflammation_defense=2
+theme_02,Inflammation / defense / stimulus response,2,1,GO:BP,12,BECN1;CRP;CXCR4;ESR1;MMP9;NEAT1;PPARD;PPARG;PTGS2;RELA;STAT3;TIMP1,GO:0006952,defense response,inflammation_defense=2
+theme_03,Chemical / oxygen / abiotic stress response,6,2,GO:BP;REAC,18,BECN1;CRP;CXCR4;CYP1A2;CYP3A4;DKK1;ESR1;MMP2;MMP9;NEAT1;PPARD;PPARG;PTGS1;PTGS2;RELA;SIRT1;STAT3;TIMP1,GO:0070887,cellular response to chemical stimulus,chemical_oxygen_stress=2;development_reproduction=1;inflammation_defense=2;ontology_umbrella=1
+theme_04,Development / reproduction / circulation,2,1,GO:BP,14,BECN1;CRP;ESR1;MMP2;MMP9;NEAT1;PPARD;PPARG;PTGS1;PTGS2;RELA;SIRT1;STAT3;TIMP1,GO:0042127,regulation of cell population proliferation,development_reproduction=2
+theme_05,Lipid / fatty-acid / eicosanoid metabolism,6,1,GO:BP,8,CYP1A2;CYP3A4;PPARD;PPARG;PTGS1;PTGS2;SIRT1;STAT3,GO:0006631,fatty acid metabolic process,general_metabolism=1;lipid_eicosanoid=5
+theme_06,Lipid / fatty-acid / eicosanoid metabolism,2,1,GO:BP,9,BECN1;CYP1A2;CYP3A4;ESR1;PPARD;PPARG;PTGS1;PTGS2;SIRT1,GO:0006629,lipid metabolic process,lipid_eicosanoid=2
+theme_07,Inflammation / defense / stimulus response,2,1,GO:BP,12,BECN1;CRP;CXCR4;ESR1;MMP2;MMP9;NEAT1;PPARD;PPARG;PTGS2;RELA;STAT3,GO:0032101,regulation of response to external stimulus,inflammation_defense=2
+theme_08,Development / reproduction / circulation,7,1,GO:BP,16,BECN1;CRP;CXCR4;CYP1A2;DKK1;ESR1;MMP2;MMP9;PPARD;PPARG;PTGS1;PTGS2;RELA;SIRT1;STAT3;TIMP1,GO:0051239,regulation of multicellular organismal process,development_reproduction=7
+theme_09,Development / reproduction / circulation,1,1,GO:BP,5,MMP2;MMP9;PPARD;PTGS2;TIMP1,GO:0007566,embryo implantation,development_reproduction=1
+theme_10,Lipid / fatty-acid / eicosanoid metabolism,4,1,GO:BP,5,CYP1A2;CYP3A4;PTGS1;PTGS2;SIRT1,GO:0006633,fatty acid biosynthetic process,lipid_eicosanoid=4
+theme_11,Development / reproduction / circulation,3,1,GO:BP,6,ESR1;MMP2;MMP9;PPARD;PTGS2;TIMP1,GO:0007565,female pregnancy,development_reproduction=3
+theme_12,Signaling / receptor / hormone response,1,1,GO:BP,7,BECN1;ESR1;PPARD;PPARG;RELA;SIRT1;STAT3,GO:0030522,intracellular receptor signaling pathway,signaling_receptor=1
+theme_13,General metabolism / biosynthesis / storage,1,1,GO:BP,12,CRP;CXCR4;CYP1A2;CYP3A4;DKK1;ESR1;MMP2;PPARD;PPARG;PTGS1;PTGS2;SIRT1,GO:0065008,regulation of biological quality,general_metabolism=1
+theme_14,Development / reproduction / circulation,4,1,GO:BP,15,BECN1;CRP;CXCR4;DKK1;ESR1;MMP2;MMP9;NEAT1;PPARD;PPARG;PTGS2;RELA;SIRT1;STAT3;TIMP1,GO:0048584,positive regulation of response to stimulus,development_reproduction=2;inflammation_defense=2
+theme_15,Inflammation / defense / stimulus response,2,1,GO:BP,15,BECN1;CRP;CXCR4;ESR1;MMP2;MMP9;NEAT1;PPARD;PPARG;PTGS1;PTGS2;RELA;SIRT1;STAT3;TIMP1,GO:0006950,response to stress,inflammation_defense=2
+theme_16,General metabolism / biosynthesis / storage,1,1,GO:BP,11,BECN1;CYP1A2;CYP3A4;MMP2;MMP9;NEAT1;PPARD;RELA;SIRT1;STAT3;TIMP1,GO:0009056,catabolic process,general_metabolism=1
+theme_17,miRNA transcription / metabolism,6,1,GO:BP,6,ESR1;NEAT1;PPARD;PPARG;RELA;STAT3,GO:2000628,regulation of miRNA metabolic process,mirna_regulation=6
+theme_18,Lipid / fatty-acid / eicosanoid metabolism,1,1,REAC,6,CYP1A2;CYP3A4;PPARD;PPARG;PTGS1;PTGS2,REAC:R-HSA-556833,Metabolism of lipids,lipid_eicosanoid=1
+theme_19,Lipid / fatty-acid / eicosanoid metabolism,1,1,REAC,4,CYP1A2;PPARD;PTGS1;PTGS2,REAC:R-HSA-8978868,Fatty acid metabolism,lipid_eicosanoid=1
+theme_20,Development / reproduction / circulation,2,1,GO:BP,6,CRP;MMP2;PPARD;PPARG;PTGS1;PTGS2,GO:0008015,blood circulation,development_reproduction=2
+theme_21,Signaling / receptor / hormone response,4,1,GO:BP,13,BECN1;CXCR4;DKK1;ESR1;MMP2;MMP9;PPARD;PPARG;PTGS2;RELA;SIRT1;STAT3;TIMP1,GO:0009966,regulation of signal transduction,signaling_receptor=4
+theme_22,Lipid / fatty-acid / eicosanoid metabolism,6,1,GO:BP,3,PTGS1;PTGS2;SIRT1,GO:0001516,prostaglandin biosynthetic process,lipid_eicosanoid=6
+theme_23,Chemical / oxygen / abiotic stress response,2,2,GO:BP;REAC,3,MMP2;MMP9;TIMP1,GO:0071492,cellular response to UV-A,chemical_oxygen_stress=1;matrix_migration=1
+theme_24,Lipid / fatty-acid / eicosanoid metabolism,2,1,GO:BP,4,CYP1A2;CYP3A4;PTGS1;PTGS2,GO:0001676,long-chain fatty acid metabolic process,lipid_eicosanoid=2
+theme_25,Lipid / fatty-acid / eicosanoid metabolism,3,1,GO:BP,4,CRP;PPARD;PPARG;SIRT1,GO:0010883,regulation of lipid storage,general_metabolism=1;lipid_eicosanoid=2
+theme_26,Chemical / oxygen / abiotic stress response,5,1,GO:BP,7,BECN1;CXCR4;MMP2;PPARD;PPARG;PTGS2;SIRT1,GO:0001666,response to hypoxia,chemical_oxygen_stress=5
+theme_27,Signaling / receptor / hormone response,1,1,GO:BP,5,ESR1;PPARD;PPARG;RELA;SIRT1,GO:0009755,hormone-mediated signaling pathway,signaling_receptor=1
+theme_28,Chemical / oxygen / abiotic stress response,2,1,GO:BP,11,BECN1;DKK1;ESR1;MMP2;MMP9;PPARD;PPARG;RELA;SIRT1;STAT3;TIMP1,GO:0033993,response to lipid,chemical_oxygen_stress=1;lipid_eicosanoid=1
+theme_29,Lipid / fatty-acid / eicosanoid metabolism,2,1,GO:BP,4,CYP1A2;PTGS1;PTGS2;SIRT1,GO:0033559,unsaturated fatty acid metabolic process,lipid_eicosanoid=2
+theme_30,Signaling / receptor / hormone response,1,1,GO:BP,8,DKK1;ESR1;MMP9;PPARG;PTGS2;RELA;SIRT1;STAT3,GO:1902532,negative regulation of intracellular signal transduction,signaling_receptor=1
+theme_31,Inflammation / defense / stimulus response,1,1,GO:BP,10,BECN1;CXCR4;MMP2;MMP9;PPARD;PPARG;PTGS2;RELA;SIRT1;TIMP1,GO:0009628,response to abiotic stimulus,inflammation_defense=1
+theme_32,Apoptosis / programmed cell death,7,1,GO:BP,12,BECN1;CXCR4;DKK1;ESR1;MMP2;MMP9;PPARD;PPARG;PTGS2;RELA;SIRT1;TIMP1,GO:0042981,regulation of apoptotic process,apoptosis_cell_death=7
+theme_33,Lipid / fatty-acid / eicosanoid metabolism,1,1,GO:BP,5,CYP1A2;CYP3A4;ESR1;PPARD;SIRT1,GO:0008202,steroid metabolic process,lipid_eicosanoid=1
+theme_34,Inflammation / defense / stimulus response,4,1,GO:BP,9,BECN1;CRP;CXCR4;ESR1;MMP9;PPARD;PPARG;PTGS2;RELA,GO:0043207,response to external biotic stimulus,inflammation_defense=4
+theme_35,Chemical / oxygen / abiotic stress response,1,1,GO:BP,6,BECN1;MMP2;PPARG;PTGS2;RELA;SIRT1,GO:0062197,cellular response to chemical stress,chemical_oxygen_stress=1
+theme_36,General metabolism / biosynthesis / storage,1,1,GO:BP,16,BECN1;CYP1A2;CYP3A4;DKK1;ESR1;MMP2;MMP9;NEAT1;PPARD;PPARG;PTGS1;PTGS2;RELA;SIRT1;STAT3;TIMP1,GO:0044238,primary metabolic process,general_metabolism=1
+theme_37,Signaling / receptor / hormone response,1,1,GO:BP,7,BECN1;MMP2;MMP9;PPARG;PTGS2;RELA;SIRT1,GO:2001233,regulation of apoptotic signaling pathway,signaling_receptor=1
+theme_38,Lipid / fatty-acid / eicosanoid metabolism,1,1,GO:BP,3,CYP1A2;CYP3A4;PPARD,GO:0008203,cholesterol metabolic process,lipid_eicosanoid=1
+theme_39,Matrix remodeling / cell migration,1,1,GO:BP,9,CXCR4;MMP2;MMP9;PPARD;PPARG;PTGS2;SIRT1;STAT3;TIMP1,GO:0030334,regulation of cell migration,matrix_migration=1
+theme_40,Lipid / fatty-acid / eicosanoid metabolism,1,1,GO:BP,5,CRP;PPARD;PPARG;PTGS2;SIRT1,GO:0010876,lipid localization,lipid_eicosanoid=1
+theme_41,Signaling / receptor / hormone response,1,1,REAC,3,ESR1;PPARD;PPARG,REAC:R-HSA-383280,Nuclear Receptor transcription pathway,signaling_receptor=1
+theme_42,Lipid / fatty-acid / eicosanoid metabolism,2,1,REAC,3,CYP1A2;CYP3A4;PTGS2,REAC:R-HSA-9018677,Biosynthesis of DHA-derived SPMs,lipid_eicosanoid=2
