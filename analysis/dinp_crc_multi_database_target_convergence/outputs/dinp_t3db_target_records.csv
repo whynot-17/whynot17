@@ -1,0 +1,2 @@
+t3db_id,chemical_name,gene_symbol,target_name,uniprot_id,target_scope,evidence_type,source_url,source_record_note
+T3D3648,Diisononyl phthalate,NR1I2,Nuclear receptor subfamily 1 group I member 2,O75469,human protein target,T3DB toxin-target curation,https://www.t3db.ca/toxins/T3D3648,Public T3DB DINP record; target section reports one NR1I2/PXR target.

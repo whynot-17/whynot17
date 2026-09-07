@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-09-07T13:27:48.611337+00:00",
+  "chemical": {
+    "preferred_name": "Diisononyl phthalate",
+    "synonym": "DINP",
+    "casrn": "28553-12-0",
+    "ctd_id": "C012125",
+    "dtxsid": "DTXSID4022521",
+    "pubchem_cid": "590836",
+    "t3db_id": "T3D3648"
+  },
+  "integration_rule": {
+    "source_preserving": true,
+    "support_count_definition": "number of source layers among CTD, ToxCast, Tox21, and T3DB with retained evidence",
+    "comptox_gene_rule": "active_hit_call > 0 AND organism == human AND official/approved gene symbol present",
+    "t3db_gene_rule": "human target gene explicitly reported by the public DINP T3DB record",
+    "absence_interpretation": "missing or inactive records are not biological negatives",
+    "no_related_phthalate_substitution": true
+  },
+  "source_files": {
+    "CTD_interaction_records": {
+      "path": "analysis/dinp_crc_multi_database_target_convergence/outputs/source_records/ctd_dinp_human_interactions.csv",
+      "source_url": "https://www.ctdbase.org/detail.go?type=chem&acc=C012125",
+      "sha256": "226bfdf396620ec8237d579e5d61e1b2d7f1b1d87953c31271812082bf5f327f"
+    },
+    "CompTox_dashboard_bioactivity_json": {
+      "path": "analysis/dinp_crc_multi_database_target_convergence/outputs/source_records/dinp_comptox_bioactivity_v4_2.json",
+      "source_url": "https://comptox.epa.gov/dashboard/chemical/invitrodb/DTXSID4022521",
+      "sha256": "f4ceb28e93f575606eb7412aaa4e3bbbac6720b674250958cadda2421c3605ef"
+    },
+    "T3DB_PubChem_PUG_View_raw": {
+      "path": "analysis/dinp_crc_multi_database_target_convergence/outputs/source_records/t3db_dinp_pubchem_pugview.json",
+      "source_url": "https://www.t3db.ca/toxins/T3D3648",
+      "sha256": "8e8db33a7f6c63d747ceb8175714d723041431effda8d4f0bac420436afeb23a"
+    }
+  },
+  "counts": {
+    "CTD_human_rows": 166,
+    "CTD_unique_human_genes": 86,
+    "CompTox_all_bioactivity_endpoints": 445,
+    "CompTox_active_endpoints": 11,
+    "CompTox_active_human_endpoint_rows": 11,
+    "ToxCast_active_human_genes": 5,
+    "Tox21_active_human_genes": 3,
+    "CompTox_active_human_unique_genes": 8,
+    "T3DB_target_rows": 1,
+    "T3DB_unique_genes": 1,
+    "DINP_exposure_union_genes": 93,
+    "CTD_only_genes": 85,
+    "new_genes_added_by_CompTox": 7,
+    "new_genes_added_by_T3DB": 0,
+    "genes_supported_by_at_least_2_layers": 1
+  },
+  "overlaps": {
+    "CTD_ToxCast": 1,
+    "CTD_Tox21": 0,
+    "CTD_T3DB": 1,
+    "ToxCast_Tox21": 0,
+    "ToxCast_T3DB": 1,
+    "Tox21_T3DB": 0,
+    "all_four_layers": 0
+  },
+  "compTox_meta": {
+    "retrieval_file": "analysis/dinp_crc_multi_database_target_convergence/outputs/source_records/dinp_comptox_bioactivity_v4_2.json",
+    "retrieval_file_sha256": "f4ceb28e93f575606eb7412aaa4e3bbbac6720b674250958cadda2421c3605ef",
+    "source_url": "https://comptox.epa.gov/dashboard/chemical/invitrodb/DTXSID4022521",
+    "dashboard_record_version": "invitrodb v4.2 as reported by the public dashboard QC record",
+    "all_endpoint_rows": 445,
+    "active_endpoint_rows": 11,
+    "human_active_endpoint_rows": 11,
+    "active_human_target_gene_count": 8,
+    "active_human_target_genes": [
+      "BACE1",
+      "CYP1A2",
+      "CYP2C9",
+      "CYP3A4",
+      "F3",
+      "IL1A",
+      "NR1I2",
+      "SELE"
+    ],
+    "active_tox21_endpoint_rows": 3,
+    "active_toxcast_endpoint_rows": 8,
+    "absence_interpretation": "Inactive or absent endpoint/target records are not interpreted as biological negatives."
+  }
+}
