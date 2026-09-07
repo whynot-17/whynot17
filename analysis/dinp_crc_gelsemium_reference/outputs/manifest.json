@@ -1,0 +1,455 @@
+{
+  "analysis": "DINP--CRC intersection using published Gelsemium CRC GeneCards set",
+  "run_utc": "2026-09-07T16:06:59.750905+00:00",
+  "paper": {
+    "doi": "10.1186/s12906-021-03273-7",
+    "title": "A network pharmacology-based investigation on the bioactive ingredients and molecular mechanisms of Gelsemium elegans Benth against colorectal cancer",
+    "supplementary_table": "Table S2",
+    "supplementary_file": "analysis/dinp_crc_gelsemium_reference/inputs/12906_2021_3273_MOESM1_ESM.xlsx",
+    "supplementary_sha256": "990c09ade5e5556c3a9acd49edebd9b793d50e44772ddbc1b528a6c66bc044f7",
+    "reported_crc_candidates": 1893
+  },
+  "inputs": {
+    "dinp_matrix": "analysis/dinp_crc_multi_database_target_convergence/outputs/dinp_exposure_gene_matrix_ctd_toxcast_tox21_t3db.csv",
+    "dinp_matrix_sha256": "8d3e13c2dddf1d6040c30a2988b8141995bdc3bb3d1aa6d5ec56c9e2316368b3",
+    "dinp_input_genes": 93,
+    "crc_input_genes": 1893,
+    "intersection_genes": 41
+  },
+  "gene_normalization": "strip whitespace and uppercase symbols; no related-phthalate substitution or disease-result filtering",
+  "gprofiler": {
+    "api_url": "https://biit.cs.ut.ee/gprofiler/api/gost/profile/",
+    "sources": [
+      "GO:BP",
+      "KEGG",
+      "REAC"
+    ],
+    "domain_scope": "custom",
+    "all_results": true,
+    "backgrounds": {
+      "gelsemium_crc1893": {
+        "input_symbols": 1893,
+        "query_symbols": 41,
+        "api_rows": 3120,
+        "gprofiler_version": "e114_eg62_p19_27110d83",
+        "query_mapped_ensg": 41,
+        "effective_domain_sizes": [
+          1875
+        ],
+        "significant_terms_by_source": {
+          "GO:BP": 202,
+          "KEGG": 13,
+          "REAC": 50
+        }
+      },
+      "dinp93": {
+        "input_symbols": 93,
+        "query_symbols": 41,
+        "api_rows": 3120,
+        "gprofiler_version": "e114_eg62_p19_27110d83",
+        "query_mapped_ensg": 41,
+        "effective_domain_sizes": [
+          100
+        ],
+        "significant_terms_by_source": {
+          "GO:BP": 128,
+          "KEGG": 0,
+          "REAC": 1
+        }
+      }
+    },
+    "raw_audit": [
+      {
+        "background": "gelsemium_crc1893",
+        "api_rows": 3120,
+        "source_family_sizes": {
+          "GO:BP": 24546,
+          "KEGG": 586,
+          "REAC": 2849
+        },
+        "timestamp": "2026-09-07T16:05:13.078062+00:00",
+        "gprofiler_version": "e114_eg62_p19_27110d83",
+        "genes_metadata": {
+          "failed": [],
+          "ambiguous": {},
+          "duplicates": [],
+          "query": {
+            "query_1": {
+              "mapping": {
+                "AKR1C3": [
+                  "ENSG00000196139"
+                ],
+                "ATG5": [
+                  "ENSG00000057663"
+                ],
+                "BECN1": [
+                  "ENSG00000126581"
+                ],
+                "CA9": [
+                  "ENSG00000107159"
+                ],
+                "CCL20": [
+                  "ENSG00000115009"
+                ],
+                "CRP": [
+                  "ENSG00000132693"
+                ],
+                "CXCR4": [
+                  "ENSG00000121966"
+                ],
+                "CYP1A2": [
+                  "ENSG00000140505"
+                ],
+                "CYP2C9": [
+                  "ENSG00000138109"
+                ],
+                "CYP3A4": [
+                  "ENSG00000160868"
+                ],
+                "DKK1": [
+                  "ENSG00000107984"
+                ],
+                "DUSP1": [
+                  "ENSG00000120129"
+                ],
+                "ESR1": [
+                  "ENSG00000091831"
+                ],
+                "F3": [
+                  "ENSG00000117525"
+                ],
+                "HPGD": [
+                  "ENSG00000164120"
+                ],
+                "HSPA1A": [
+                  "ENSG00000204389"
+                ],
+                "IGFBP1": [
+                  "ENSG00000146678"
+                ],
+                "IL1A": [
+                  "ENSG00000115008"
+                ],
+                "MIR675": [
+                  "ENSG00000284010"
+                ],
+                "MMP2": [
+                  "ENSG00000087245"
+                ],
+                "MMP9": [
+                  "ENSG00000100985"
+                ],
+                "NEAT1": [
+                  "ENSG00000245532"
+                ],
+                "NR1I2": [
+                  "ENSG00000144852"
+                ],
+                "NR3C1": [
+                  "ENSG00000113580"
+                ],
+                "PGR": [
+                  "ENSG00000082175"
+                ],
+                "PPARA": [
+                  "ENSG00000186951"
+                ],
+                "PPARD": [
+                  "ENSG00000112033"
+                ],
+                "PPARG": [
+                  "ENSG00000132170"
+                ],
+                "PTGER2": [
+                  "ENSG00000125384"
+                ],
+                "PTGER4": [
+                  "ENSG00000171522"
+                ],
+                "PTGES2": [
+                  "ENSG00000148334"
+                ],
+                "PTGS1": [
+                  "ENSG00000095303"
+                ],
+                "PTGS2": [
+                  "ENSG00000073756"
+                ],
+                "RELA": [
+                  "ENSG00000173039"
+                ],
+                "RXRA": [
+                  "ENSG00000186350"
+                ],
+                "SELE": [
+                  "ENSG00000007908"
+                ],
+                "SIRT1": [
+                  "ENSG00000096717"
+                ],
+                "SQSTM1": [
+                  "ENSG00000161011"
+                ],
+                "STAT3": [
+                  "ENSG00000168610"
+                ],
+                "TIMP1": [
+                  "ENSG00000102265"
+                ],
+                "TIMP2": [
+                  "ENSG00000035862"
+                ]
+              },
+              "ensgs": [
+                "ENSG00000196139",
+                "ENSG00000057663",
+                "ENSG00000126581",
+                "ENSG00000107159",
+                "ENSG00000115009",
+                "ENSG00000132693",
+                "ENSG00000121966",
+                "ENSG00000140505",
+                "ENSG00000138109",
+                "ENSG00000160868",
+                "ENSG00000107984",
+                "ENSG00000120129",
+                "ENSG00000091831",
+                "ENSG00000117525",
+                "ENSG00000164120",
+                "ENSG00000204389",
+                "ENSG00000146678",
+                "ENSG00000115008",
+                "ENSG00000284010",
+                "ENSG00000087245",
+                "ENSG00000100985",
+                "ENSG00000245532",
+                "ENSG00000144852",
+                "ENSG00000113580",
+                "ENSG00000082175",
+                "ENSG00000186951",
+                "ENSG00000112033",
+                "ENSG00000132170",
+                "ENSG00000125384",
+                "ENSG00000171522",
+                "ENSG00000148334",
+                "ENSG00000095303",
+                "ENSG00000073756",
+                "ENSG00000173039",
+                "ENSG00000186350",
+                "ENSG00000007908",
+                "ENSG00000096717",
+                "ENSG00000161011",
+                "ENSG00000168610",
+                "ENSG00000102265",
+                "ENSG00000035862"
+              ]
+            }
+          }
+        },
+        "raw_response": "analysis/dinp_crc_gelsemium_reference/outputs/raw_gprofiler/gprofiler_gelsemium_crc1893.json",
+        "raw_response_sha256": "201ed65f11fc8b5bf6e39e6fe2b8643cdf21842d0705aee2ec928838e6dd4648",
+        "request_payload": "analysis/dinp_crc_gelsemium_reference/outputs/request_payload_gelsemium_crc1893.json",
+        "query_input_symbols": 41,
+        "background_input_symbols": 1893
+      },
+      {
+        "background": "dinp93",
+        "api_rows": 3120,
+        "source_family_sizes": {
+          "GO:BP": 24546,
+          "KEGG": 586,
+          "REAC": 2849
+        },
+        "timestamp": "2026-09-07T16:05:18.796943+00:00",
+        "gprofiler_version": "e114_eg62_p19_27110d83",
+        "genes_metadata": {
+          "failed": [],
+          "ambiguous": {},
+          "duplicates": [],
+          "query": {
+            "query_1": {
+              "mapping": {
+                "AKR1C3": [
+                  "ENSG00000196139"
+                ],
+                "ATG5": [
+                  "ENSG00000057663"
+                ],
+                "BECN1": [
+                  "ENSG00000126581"
+                ],
+                "CA9": [
+                  "ENSG00000107159"
+                ],
+                "CCL20": [
+                  "ENSG00000115009"
+                ],
+                "CRP": [
+                  "ENSG00000132693"
+                ],
+                "CXCR4": [
+                  "ENSG00000121966"
+                ],
+                "CYP1A2": [
+                  "ENSG00000140505"
+                ],
+                "CYP2C9": [
+                  "ENSG00000138109"
+                ],
+                "CYP3A4": [
+                  "ENSG00000160868"
+                ],
+                "DKK1": [
+                  "ENSG00000107984"
+                ],
+                "DUSP1": [
+                  "ENSG00000120129"
+                ],
+                "ESR1": [
+                  "ENSG00000091831"
+                ],
+                "F3": [
+                  "ENSG00000117525"
+                ],
+                "HPGD": [
+                  "ENSG00000164120"
+                ],
+                "HSPA1A": [
+                  "ENSG00000204389"
+                ],
+                "IGFBP1": [
+                  "ENSG00000146678"
+                ],
+                "IL1A": [
+                  "ENSG00000115008"
+                ],
+                "MIR675": [
+                  "ENSG00000284010"
+                ],
+                "MMP2": [
+                  "ENSG00000087245"
+                ],
+                "MMP9": [
+                  "ENSG00000100985"
+                ],
+                "NEAT1": [
+                  "ENSG00000245532"
+                ],
+                "NR1I2": [
+                  "ENSG00000144852"
+                ],
+                "NR3C1": [
+                  "ENSG00000113580"
+                ],
+                "PGR": [
+                  "ENSG00000082175"
+                ],
+                "PPARA": [
+                  "ENSG00000186951"
+                ],
+                "PPARD": [
+                  "ENSG00000112033"
+                ],
+                "PPARG": [
+                  "ENSG00000132170"
+                ],
+                "PTGER2": [
+                  "ENSG00000125384"
+                ],
+                "PTGER4": [
+                  "ENSG00000171522"
+                ],
+                "PTGES2": [
+                  "ENSG00000148334"
+                ],
+                "PTGS1": [
+                  "ENSG00000095303"
+                ],
+                "PTGS2": [
+                  "ENSG00000073756"
+                ],
+                "RELA": [
+                  "ENSG00000173039"
+                ],
+                "RXRA": [
+                  "ENSG00000186350"
+                ],
+                "SELE": [
+                  "ENSG00000007908"
+                ],
+                "SIRT1": [
+                  "ENSG00000096717"
+                ],
+                "SQSTM1": [
+                  "ENSG00000161011"
+                ],
+                "STAT3": [
+                  "ENSG00000168610"
+                ],
+                "TIMP1": [
+                  "ENSG00000102265"
+                ],
+                "TIMP2": [
+                  "ENSG00000035862"
+                ]
+              },
+              "ensgs": [
+                "ENSG00000196139",
+                "ENSG00000057663",
+                "ENSG00000126581",
+                "ENSG00000107159",
+                "ENSG00000115009",
+                "ENSG00000132693",
+                "ENSG00000121966",
+                "ENSG00000140505",
+                "ENSG00000138109",
+                "ENSG00000160868",
+                "ENSG00000107984",
+                "ENSG00000120129",
+                "ENSG00000091831",
+                "ENSG00000117525",
+                "ENSG00000164120",
+                "ENSG00000204389",
+                "ENSG00000146678",
+                "ENSG00000115008",
+                "ENSG00000284010",
+                "ENSG00000087245",
+                "ENSG00000100985",
+                "ENSG00000245532",
+                "ENSG00000144852",
+                "ENSG00000113580",
+                "ENSG00000082175",
+                "ENSG00000186951",
+                "ENSG00000112033",
+                "ENSG00000132170",
+                "ENSG00000125384",
+                "ENSG00000171522",
+                "ENSG00000148334",
+                "ENSG00000095303",
+                "ENSG00000073756",
+                "ENSG00000173039",
+                "ENSG00000186350",
+                "ENSG00000007908",
+                "ENSG00000096717",
+                "ENSG00000161011",
+                "ENSG00000168610",
+                "ENSG00000102265",
+                "ENSG00000035862"
+              ]
+            }
+          }
+        },
+        "raw_response": "analysis/dinp_crc_gelsemium_reference/outputs/raw_gprofiler/gprofiler_dinp93.json",
+        "raw_response_sha256": "58de8c9cd69df8ab64f9f49358db16e5d38f4cd62da549e7a0e64a495931e573",
+        "request_payload": "analysis/dinp_crc_gelsemium_reference/outputs/request_payload_dinp93.json",
+        "query_input_symbols": 41,
+        "background_input_symbols": 93
+      }
+    ]
+  },
+  "outputs": {
+    "crc_normalized": "analysis/dinp_crc_gelsemium_reference/outputs/crc_genecards_1893_normalized.csv",
+    "intersection": "analysis/dinp_crc_gelsemium_reference/outputs/dinp_crc_intersection_41.csv",
+    "enrichment": "analysis/dinp_crc_gelsemium_reference/outputs/enrichment_all_backgrounds.csv"
+  }
+}
