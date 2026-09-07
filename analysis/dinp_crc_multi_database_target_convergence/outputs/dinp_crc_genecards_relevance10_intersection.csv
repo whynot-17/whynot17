@@ -1,0 +1,17 @@
+gene_symbol,gene_cards_rank,gene_cards_relevance_score,gene_cards_knowledge_score,gene_cards_gene_name,gene_cards_gene_type,ctd_raw_row_count,ctd_direction,ctd_action,ctd_single_chemical_evidence,ctd_cotreatment_evidence,rule
+PTGS2,44,39.9,91,Prostaglandin-Endoperoxide Synthase 2,Protein Coding,2,affects;increases,affects^cotreatment;affects^reaction;increases^expression,0,1,CTD DINP human gene AND GeneCards CRC RelevanceScore >= 10
+PPARG,50,36.7,100,Peroxisome Proliferator Activated Receptor Gamma,Protein Coding,3,affects;increases,affects^activity;affects^binding;increases^activity,1,0,CTD DINP human gene AND GeneCards CRC RelevanceScore >= 10
+STAT3,70,30.7,100,Signal Transducer And Activator Of Transcription 3,Protein Coding,1,increases,increases^phosphorylation,1,0,CTD DINP human gene AND GeneCards CRC RelevanceScore >= 10
+MMP9,126,23.7,100,Matrix Metallopeptidase 9,Protein Coding,1,affects,affects^expression,1,0,CTD DINP human gene AND GeneCards CRC RelevanceScore >= 10
+CRP,133,23.6,87,C-Reactive Protein,Protein Coding,1,affects;decreases,affects^cotreatment;decreases^expression,0,1,CTD DINP human gene AND GeneCards CRC RelevanceScore >= 10
+MMP2,153,22.1,100,Matrix Metallopeptidase 2,Protein Coding,1,decreases,decreases^expression,1,0,CTD DINP human gene AND GeneCards CRC RelevanceScore >= 10
+NEAT1,215,19.6,65,Nuclear Paraspeckle Assembly Transcript 1,RNA Gene,1,affects;decreases,affects^cotreatment;decreases^expression,0,1,CTD DINP human gene AND GeneCards CRC RelevanceScore >= 10
+CXCR4,376,16.6,100,C-X-C Motif Chemokine Receptor 4,Protein Coding,1,affects;increases,affects^cotreatment;affects^reaction;increases^expression,0,1,CTD DINP human gene AND GeneCards CRC RelevanceScore >= 10
+PPARD,503,15.8,91,Peroxisome Proliferator Activated Receptor Delta,Protein Coding,1,affects,affects^binding,1,0,CTD DINP human gene AND GeneCards CRC RelevanceScore >= 10
+PTGS1,535,15.6,90,Prostaglandin-Endoperoxide Synthase 1,Protein Coding,2,affects,affects^cotreatment;affects^expression;affects^reaction,0,1,CTD DINP human gene AND GeneCards CRC RelevanceScore >= 10
+ESR1,642,15.1,100,Estrogen Receptor 1,Protein Coding,1,decreases;increases,decreases^reaction;increases^activity,1,0,CTD DINP human gene AND GeneCards CRC RelevanceScore >= 10
+SIRT1,654,14.7,97,Sirtuin 1,Protein Coding,2,decreases,decreases^expression,1,0,CTD DINP human gene AND GeneCards CRC RelevanceScore >= 10
+RELA,693,13.4,100,"RELA Proto-Oncogene, NF-KB Subunit",Protein Coding,1,increases,increases^phosphorylation,1,0,CTD DINP human gene AND GeneCards CRC RelevanceScore >= 10
+DKK1,720,12.5,86,Dickkopf Wnt Signaling Pathway Inhibitor 1,Protein Coding,1,affects;decreases,affects^cotreatment;decreases^expression,0,1,CTD DINP human gene AND GeneCards CRC RelevanceScore >= 10
+BECN1,734,11.9,86,Beclin 1,Protein Coding,3,increases,increases^expression;increases^reaction,1,0,CTD DINP human gene AND GeneCards CRC RelevanceScore >= 10
+TIMP1,795,10.8,82,TIMP Metallopeptidase Inhibitor 1,Protein Coding,1,decreases,decreases^expression,1,0,CTD DINP human gene AND GeneCards CRC RelevanceScore >= 10

@@ -1,0 +1,33 @@
+{
+  "analysis": "DINP CTD ∩ GeneCards CRC threshold intersection",
+  "generated_at_utc": "2026-09-07T11:32:24.174587+00:00",
+  "gene_cards_threshold": {
+    "field": "RelevanceScore",
+    "operator": ">=",
+    "value": 10.0
+  },
+  "inputs": {
+    "ctd_exposure_matrix": "/mnt/d/Codex/projectless-workspaces/2026-08-22/non/work/whynot17/analysis/dinp_crc_multi_database_target_convergence/outputs/dinp_exposure_gene_matrix.csv",
+    "ctd_exposure_matrix_sha256": "7e7c6f110c8e58a63af7585e75ff4d289912afd09629eeb3fa5982f79597e63a",
+    "genecards_input": "/mnt/d/Codex/projectless-workspaces/2026-08-22/non/work/whynot17/analysis/dinp_crc_multi_database_target_convergence/outputs/source_records/genecards_crc_top2000_reference.csv",
+    "genecards_input_sha256": "72448cb1cc70eac077bf560919ead96af67344b825afe15dc739f5442ee647d6",
+    "genecards_scope": "archived ordinary CRC search top-2000 reference; not a full ranking export"
+  },
+  "firewall": {
+    "open_targets_loaded": false,
+    "disgenet_loaded": false,
+    "crc_outcome_data_loaded": false,
+    "p_values_or_fdr_used": false,
+    "downstream_enrichment_used": false
+  },
+  "counts": {
+    "ctd_unique_dinp_human_genes": 86,
+    "genecards_rows": 2000,
+    "genecards_rows_relevance_ge_10": 881,
+    "intersection_genes": 16
+  },
+  "output": {
+    "path": "/mnt/d/Codex/projectless-workspaces/2026-08-22/non/work/whynot17/analysis/dinp_crc_multi_database_target_convergence/outputs/dinp_crc_genecards_relevance10_intersection.csv",
+    "sha256": "2a8a2a63fcdc57b8874a1720e72523f960eae1ec5d28ab33311b47c027b5f6f1"
+  }
+}
