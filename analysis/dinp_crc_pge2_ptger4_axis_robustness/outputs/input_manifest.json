@@ -1,0 +1,180 @@
+{
+  "analysis": "dinp_crc_pge2_ptger4_axis_robustness",
+  "run_timestamp_utc": "2026-09-07T03:55:35.452921+00:00",
+  "previous_commit": "de2a22520d518caa3e30c7bf431505842a3e5cfd",
+  "previous_module_preserved": true,
+  "matrix": {
+    "path": "E:\\mcop\\mcop\\work\\mcop_phase2f_external\\raw\\GSE144735_raw_UMI_count_matrix.txt.gz",
+    "sha256": "046cbbd6c7501a4ddbca6d09fc0bb923e62d4d9421d5781efdeacb2c0a5b3b31",
+    "size_bytes": 56598691
+  },
+  "annotation": {
+    "path": "E:\\mcop\\mcop\\work\\mcop_phase2f_external\\raw\\GSE144735_annotation.txt.gz",
+    "sha256": "4eb9da239bef95b9003c0f6d0eeb41c6598ecc794cd25f57ad06d9bad81e881b",
+    "size_bytes": 194418
+  },
+  "subtype_source": {
+    "path": "E:\\chatgpt\\whynot17\\analysis\\dinp_crc_macrophage_subtype\\outputs\\macrophage_cell_program_scores.csv",
+    "sha256": "e26bcf4b705cce9d074df8c2ff1daf8bbd149369b361ed9fab5a9cbf94e523ad"
+  },
+  "cell_score_source": {
+    "path": "E:\\chatgpt\\whynot17\\analysis\\dinp_crc_pge2_ptger4_axis\\outputs\\pge2_synthesis_cell_scores.csv",
+    "sha256": "7732d44e27d197523c661fd18c759715b6054e5bed72cf56977244534cee2325"
+  },
+  "donors": [
+    "KUL01",
+    "KUL19",
+    "KUL21",
+    "KUL28",
+    "KUL30",
+    "KUL31"
+  ],
+  "n_donors": 6,
+  "total_cells": 27414,
+  "cell_counts_per_donor_group": {
+    "KUL01": {
+      "B_cells": 388,
+      "C1QC_like_TAM": 96,
+      "FCN1_inflammatory_monocyte_like": 427,
+      "SPP1_like_TAM": 347,
+      "T_cells": 930,
+      "border_epithelial": 1102,
+      "endothelial_like": 282,
+      "enteric_glial_like": 48,
+      "fibroblast_like": 1104,
+      "mast_cells": 28,
+      "normal_epithelial": 172,
+      "other_myeloid": 15,
+      "pericyte_like": 78,
+      "resident_like": 157,
+      "smooth_muscle_like": 159,
+      "tumor_epithelial": 730
+    },
+    "KUL19": {
+      "B_cells": 2020,
+      "C1QC_like_TAM": 235,
+      "FCN1_inflammatory_monocyte_like": 126,
+      "SPP1_like_TAM": 11,
+      "T_cells": 2873,
+      "border_epithelial": 218,
+      "endothelial_like": 380,
+      "enteric_glial_like": 118,
+      "fibroblast_like": 887,
+      "mast_cells": 62,
+      "normal_epithelial": 287,
+      "other_myeloid": 76,
+      "pericyte_like": 58,
+      "resident_like": 167,
+      "smooth_muscle_like": 174,
+      "tumor_epithelial": 574
+    },
+    "KUL21": {
+      "B_cells": 448,
+      "C1QC_like_TAM": 31,
+      "FCN1_inflammatory_monocyte_like": 305,
+      "SPP1_like_TAM": 18,
+      "T_cells": 954,
+      "border_epithelial": 740,
+      "endothelial_like": 164,
+      "enteric_glial_like": 5,
+      "fibroblast_like": 1085,
+      "mast_cells": 73,
+      "normal_epithelial": 249,
+      "other_myeloid": 31,
+      "pericyte_like": 106,
+      "resident_like": 198,
+      "smooth_muscle_like": 64,
+      "tumor_epithelial": 759
+    },
+    "KUL28": {
+      "B_cells": 396,
+      "C1QC_like_TAM": 53,
+      "FCN1_inflammatory_monocyte_like": 27,
+      "SPP1_like_TAM": 13,
+      "T_cells": 210,
+      "border_epithelial": 17,
+      "endothelial_like": 252,
+      "enteric_glial_like": 95,
+      "fibroblast_like": 402,
+      "mast_cells": 41,
+      "normal_epithelial": 20,
+      "other_myeloid": 5,
+      "pericyte_like": 124,
+      "resident_like": 11,
+      "smooth_muscle_like": 36,
+      "tumor_epithelial": 40
+    },
+    "KUL30": {
+      "B_cells": 1058,
+      "C1QC_like_TAM": 69,
+      "FCN1_inflammatory_monocyte_like": 82,
+      "SPP1_like_TAM": 11,
+      "T_cells": 72,
+      "border_epithelial": 190,
+      "endothelial_like": 420,
+      "enteric_glial_like": 178,
+      "fibroblast_like": 834,
+      "mast_cells": 26,
+      "normal_epithelial": 150,
+      "other_myeloid": 15,
+      "pericyte_like": 56,
+      "resident_like": 36,
+      "smooth_muscle_like": 145,
+      "tumor_epithelial": 68
+    },
+    "KUL31": {
+      "B_cells": 592,
+      "C1QC_like_TAM": 50,
+      "FCN1_inflammatory_monocyte_like": 18,
+      "SPP1_like_TAM": 16,
+      "T_cells": 731,
+      "border_epithelial": 545,
+      "endothelial_like": 78,
+      "enteric_glial_like": 19,
+      "fibroblast_like": 270,
+      "mast_cells": 18,
+      "normal_epithelial": 266,
+      "other_myeloid": 20,
+      "pericyte_like": 16,
+      "resident_like": 10,
+      "smooth_muscle_like": 13,
+      "tumor_epithelial": 41
+    }
+  },
+  "groups_in_primary_comparison": [
+    "mast_cells",
+    "tumor_epithelial",
+    "normal_epithelial",
+    "SPP1_like_TAM",
+    "C1QC_like_TAM",
+    "FCN1_inflammatory_monocyte_like",
+    "resident_like",
+    "fibroblast_like",
+    "endothelial_like",
+    "other_myeloid"
+  ],
+  "macrophage_subtypes": [
+    "SPP1_like_TAM",
+    "C1QC_like_TAM",
+    "FCN1_inflammatory_monocyte_like",
+    "resident_like"
+  ],
+  "normalization": "reuse prior per-cell library-size normalized log1p target-gene expression; donor-group means; donor-group gene-wise z-score for Scores A-C; q95-scaled geometric bottleneck Score D",
+  "minimum_cell_thresholds": [
+    10,
+    20,
+    30
+  ],
+  "primary_threshold": 20,
+  "ptger4_high_fraction": "not treated as independent; previous macrophage q75=0 caused exact collapse to detection",
+  "software": {
+    "python": "3.11.16 | packaged by conda-forge | (main, Sep  2 2026, 23:31:17) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scipy": "available",
+    "platform": "Windows-10-10.0.22621-SP0"
+  },
+  "ordinary_cellchat": "not used",
+  "new_clustering": "not used",
+  "runtime_seconds": 4.0
+}

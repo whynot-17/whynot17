@@ -1,0 +1,35 @@
+metric,value,definition,evidence_grade
+Most stable pseudobulk score,Score_B,highest mean pairwise Spearman concordance of donor-group ranks at n≥20 (0.767),descriptive
+Score_A_mean_rank_concordance_ge20,0.6011408904288569,mean pairwise Spearman concordance with the other score definitions,descriptive
+Score_B_mean_rank_concordance_ge20,0.7666559963099823,mean pairwise Spearman concordance with the other score definitions,descriptive
+Score_C_mean_rank_concordance_ge20,0.6990283280970034,mean pairwise Spearman concordance with the other score definitions,descriptive
+Score_D_mean_rank_concordance_ge20,0.49326264437361034,mean pairwise Spearman concordance with the other score definitions,descriptive
+SPP1_Score_A_median_rank_ge20,2.0,donor-group source rank among prespecified candidate groups,descriptive
+SPP1_Score_A_top2_donors_ge20,1/1 eligible; 1/6 total,top-two donor frequency; denominator reports eligible donor groups and all six tumor donors,descriptive
+SPP1_Score_B_median_rank_ge20,2.0,donor-group source rank among prespecified candidate groups,descriptive
+SPP1_Score_B_top2_donors_ge20,1/1 eligible; 1/6 total,top-two donor frequency; denominator reports eligible donor groups and all six tumor donors,descriptive
+SPP1_Score_D_median_rank_ge20,3.0,donor-group source rank among prespecified candidate groups,descriptive
+SPP1_Score_D_top2_donors_ge20,0/1 eligible; 0/6 total,top-two donor frequency; denominator reports eligible donor groups and all six tumor donors,descriptive
+mast_top1_donors_ge20_by_score,Score_A:0/2 eligible; 0/6 total; Score_B:1/2 eligible; 1/6 total; Score_D:1/2 eligible; 1/6 total,mast-cell top-1 donor frequency after n≥20 filter,descriptive
+SPP1_Score_A_median_rank_percentile_ge20,0.75,1 = best; donor-group rank percentile,descriptive
+SPP1_Score_B_median_rank_percentile_ge20,0.75,1 = best; donor-group rank percentile,descriptive
+SPP1_Score_C_median_rank_percentile_ge20,0.5,1 = best; donor-group rank percentile,descriptive
+SPP1_Score_D_median_rank_percentile_ge20,0.5,1 = best; donor-group rank percentile,descriptive
+C1QC_Delta1_valid_donors,4,donors with both C1QC-like and SPP1-like TAM present for Delta1,descriptive
+C1QC_Delta2_valid_donors,5,donors with at least one other macrophage subtype for Delta2,descriptive
+C1QC_PTGER4_median_rank_mean,2.0,median donor rank by PTGER4 mean,descriptive
+C1QC_PTGER4_top1_donors,2,donors where C1QC is top PTGER4 subtype,descriptive
+C1QC_PTGER4_top2_donors,5,donors where C1QC is top-two PTGER4 subtype,descriptive
+C1QC_gt_SPP1_donors,2,donors with Delta1 > 0,descriptive
+C1QC_gt_other_mean_donors,3,donors with Delta2 > 0,descriptive
+C1QC_Delta1_median,0.012215458092772778,C1QC PTGER4 mean minus SPP1 PTGER4 mean,descriptive
+C1QC_Delta2_median,0.05777194453671283,C1QC PTGER4 mean minus mean of other macrophage subtypes,descriptive
+C1QC_Delta1_exact_sign_p,1.0,two-sided exact sign test; supplementary with six donors,descriptive
+C1QC_Delta1_paired_permutation_p,0.75,exact paired sign-flip permutation; supplementary,descriptive
+C1QC_Delta2_exact_sign_p,1.0,two-sided exact sign test; supplementary with six donors,descriptive
+C1QC_Delta2_paired_permutation_p,0.375,exact paired sign-flip permutation; supplementary,descriptive
+axis_coverage_ge20,3,tumor donors with C1QC and source group meeting n≥20 for Score D axis,descriptive
+Final source support,WEAK SUPPORT,Score A/B/D top-two frequency at n≥20 and donor-level ranking,WEAK SUPPORT
+Final receiver support,WEAK SUPPORT,pooled and donor-level C1QC PTGER4 rank/effect direction,WEAK SUPPORT
+Final axis support,WEAK SUPPORT,requires both source and receiver to reach at least moderate support,WEAK SUPPORT
+Recommended next step,larger single-cell cohort replication plus spatial validation before extending the axis,decision based on robustness evidence,descriptive

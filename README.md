@@ -12,6 +12,7 @@ This repository contains the computational analysis for an oxaliplatin-resistant
 - Phase 8: module-conditioned GDSC pharmacological convergence
 - PTGER4–DINP membrane MD: 40–90 ns local-reference QC and the completed 100 ns production audit are recorded (see [`outputs/md_ptger4_membrane_md/`](outputs/md_ptger4_membrane_md/)).
 - Focused PGE2 source → PTGER4 receiver analysis is under [`analysis/dinp_crc_pge2_ptger4_axis/`](analysis/dinp_crc_pge2_ptger4_axis/); it uses donor-level checks and does not claim demonstrated communication.
+- Its strict robustness re-analysis is under [`analysis/dinp_crc_pge2_ptger4_axis_robustness/`](analysis/dinp_crc_pge2_ptger4_axis_robustness/); the primary unit is donor × cell-group pseudobulk with Score A–D and 10/20/30-cell sensitivity.
 
 The current working model is intentionally not centered on Meldonium. Meldonium remains an exploratory/failed metabolic hypothesis unless independent pharmacogenomic evidence supports a carnitine-entry dependency.
 

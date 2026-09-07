@@ -1,0 +1,5 @@
+score,name,genes,primary,formula,PTGES3_included,biological_note
+Score_A,Core inducible PGE2,"PLA2G4A, PTGS2, PTGES",yes,mean of donor-group gene-wise z-scored mean log1p expression,False,PLA2G4A -> PTGS2 -> PTGES core inducible route
+Score_B,Extended enzymatic PGE2,"PLA2G4A, PTGS1, PTGS2, PTGES, PTGES2",yes,mean of donor-group gene-wise z-scored mean log1p expression,False,PLA2G4A plus PTGS1/2 and PTGES/PTGES2; excludes PTGES3
+Score_C,Original six-gene sensitivity,"PLA2G4A, PTGS1, PTGS2, PTGES, PTGES2, PTGES3",sensitivity,mean of donor-group gene-wise z-scored mean log1p expression,True,reproduces the previous six-gene definition
+Score_D,Bottleneck-aware PGE2,"PLA2G4A, PTGS1, PTGS2, PTGES, PTGES2",yes,"geometric_mean(PLA2G4A/q95, max(PTGS1,PTGS2)/q95, max(PTGES,PTGES2)/q95), each component clipped to [0,1]",False,"requires upstream, cyclooxygenase, and terminal synthase support simultaneously"
