@@ -12,3 +12,5 @@ The complete CTD DINP set is 86 genes. GeneCards uses the locally preserved rele
 
 The output report is intentionally conservative: a signal that appears only at one cutoff is cutoff-sensitive and does not establish source-independent disease convergence.
 
+Key outputs are written under `outputs/`: `CUTOFF_SENSITIVITY_REPORT.md`, `overlap_summary.csv`, `panel_enrichment_summary.csv`, `key_pathway_enrichment_key_terms.csv`, and `cutoff_sensitivity_overlap.png`. The full all-term Reactome/Hallmark table is generated locally as `key_pathway_enrichment.csv`.
+
