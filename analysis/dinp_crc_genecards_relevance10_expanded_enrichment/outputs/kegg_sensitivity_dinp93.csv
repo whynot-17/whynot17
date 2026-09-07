@@ -1,0 +1,142 @@
+background,source,term_id,term_name,description,term_size,effective_domain_size,query_size,intersection_size,raw_hypergeom_p,gprofiler_p_value,gprofiler_significant,intersection_genes,parents,BH_FDR_global_source_family,BH_FDR_global_significant,BH_FDR_within_source,BH_FDR_within_source_significant
+sensitivity_dinp93,KEGG,KEGG:05200,Pathways in cancer,Pathways in cancer,16,100,18,9,0.00014939538293793012,0.02106474899424739,True,,KEGG:00000,0.2612645131241389,False,0.08754569440162704,False
+sensitivity_dinp93,KEGG,KEGG:05221,Acute myeloid leukemia,Acute myeloid leukemia,3,100,18,3,0.005046382189239558,0.08894248608534311,True,,KEGG:00000,0.936320107358647,False,0.36964749536179764,False
+sensitivity_dinp93,KEGG,KEGG:04066,HIF-1 signaling pathway,HIF-1 signaling pathway,3,100,18,3,0.005046382189239558,0.08894248608534311,True,,KEGG:00000,0.936320107358647,False,0.36964749536179764,False
+sensitivity_dinp93,KEGG,KEGG:04310,Wnt signaling pathway,Wnt signaling pathway,3,100,18,3,0.005046382189239558,0.08894248608534311,True,,KEGG:00000,0.936320107358647,False,0.36964749536179764,False
+sensitivity_dinp93,KEGG,KEGG:05205,Proteoglycans in cancer,Proteoglycans in cancer,5,100,18,4,0.0034466270106915733,0.08894248608534311,True,,KEGG:00000,0.8036672532180076,False,0.36964749536179764,False
+sensitivity_dinp93,KEGG,KEGG:01522,Endocrine resistance,Endocrine resistance,3,100,18,3,0.005046382189239558,0.08894248608534311,True,,KEGG:00000,0.936320107358647,False,0.36964749536179764,False
+sensitivity_dinp93,KEGG,KEGG:05167,Kaposi sarcoma-associated herpesvirus infection,Kaposi sarcoma-associated herpesvirus infection,5,100,18,4,0.0034466270106915733,0.08894248608534311,True,,KEGG:00000,0.8036672532180076,False,0.36964749536179764,False
+sensitivity_dinp93,KEGG,KEGG:04670,Leukocyte transendothelial migration,Leukocyte transendothelial migration,3,100,18,3,0.005046382189239558,0.08894248608534311,True,,KEGG:00000,0.936320107358647,False,0.36964749536179764,False
+sensitivity_dinp93,KEGG,KEGG:05206,MicroRNAs in cancer,MicroRNAs in cancer,6,100,18,4,0.009129967776584372,0.1430361618331543,True,,KEGG:00000,1.0,False,0.5944623463420491,False
+sensitivity_dinp93,KEGG,KEGG:05161,Hepatitis B,Hepatitis B,4,100,18,3,0.017844423617619544,0.1657079525195369,True,,KEGG:00000,1.0,False,0.6886869516059939,False
+sensitivity_dinp93,KEGG,KEGG:05415,Diabetic cardiomyopathy,Diabetic cardiomyopathy,4,100,18,3,0.017844423617619544,0.1657079525195369,True,,KEGG:00000,1.0,False,0.6886869516059939,False
+sensitivity_dinp93,KEGG,KEGG:04148,Efferocytosis,Efferocytosis,7,100,18,4,0.018803739292996422,0.1657079525195369,True,,KEGG:00000,1.0,False,0.6886869516059939,False
+sensitivity_dinp93,KEGG,KEGG:04657,IL-17 signaling pathway,IL-17 signaling pathway,4,100,18,3,0.017844423617619544,0.1657079525195369,True,,KEGG:00000,1.0,False,0.6886869516059939,False
+sensitivity_dinp93,KEGG,KEGG:05010,Alzheimer disease,Alzheimer disease,7,100,18,4,0.018803739292996422,0.1657079525195369,True,,KEGG:00000,1.0,False,0.6886869516059939,False
+sensitivity_dinp93,KEGG,KEGG:04917,Prolactin signaling pathway,Prolactin signaling pathway,4,100,18,3,0.017844423617619544,0.1657079525195369,True,,KEGG:00000,1.0,False,0.6886869516059939,False
+sensitivity_dinp93,KEGG,KEGG:04926,Relaxin signaling pathway,Relaxin signaling pathway,4,100,18,3,0.017844423617619544,0.1657079525195369,True,,KEGG:00000,1.0,False,0.6886869516059939,False
+sensitivity_dinp93,KEGG,KEGG:05169,Epstein-Barr virus infection,Epstein-Barr virus infection,2,100,18,2,0.030909090909092683,0.16762237762237753,True,,KEGG:00000,1.0,False,0.6966433566433966,False
+sensitivity_dinp93,KEGG,KEGG:05170,Human immunodeficiency virus 1 infection,Human immunodeficiency virus 1 infection,2,100,18,2,0.030909090909092683,0.16762237762237753,True,,KEGG:00000,1.0,False,0.6966433566433966,False
+sensitivity_dinp93,KEGG,KEGG:05219,Bladder cancer,Bladder cancer,2,100,18,2,0.030909090909092683,0.16762237762237753,True,,KEGG:00000,1.0,False,0.6966433566433966,False
+sensitivity_dinp93,KEGG,KEGG:05235,PD-L1 expression and PD-1 checkpoint pathway in cancer,PD-L1 expression and PD-1 checkpoint pathway in cancer,2,100,18,2,0.030909090909092683,0.16762237762237753,True,,KEGG:00000,1.0,False,0.6966433566433966,False
+sensitivity_dinp93,KEGG,KEGG:04068,FoxO signaling pathway,FoxO signaling pathway,2,100,18,2,0.030909090909092683,0.16762237762237753,True,,KEGG:00000,1.0,False,0.6966433566433966,False
+sensitivity_dinp93,KEGG,KEGG:04152,AMPK signaling pathway,AMPK signaling pathway,2,100,18,2,0.030909090909092683,0.16762237762237753,True,,KEGG:00000,1.0,False,0.6966433566433966,False
+sensitivity_dinp93,KEGG,KEGG:05016,Huntington disease,Huntington disease,2,100,18,2,0.030909090909092683,0.16762237762237753,True,,KEGG:00000,1.0,False,0.6966433566433966,False
+sensitivity_dinp93,KEGG,KEGG:04625,C-type lectin receptor signaling pathway,C-type lectin receptor signaling pathway,2,100,18,2,0.030909090909092683,0.16762237762237753,True,,KEGG:00000,1.0,False,0.6966433566433966,False
+sensitivity_dinp93,KEGG,KEGG:05212,Pancreatic cancer,Pancreatic cancer,2,100,18,2,0.030909090909092683,0.16762237762237753,True,,KEGG:00000,1.0,False,0.6966433566433966,False
+sensitivity_dinp93,KEGG,KEGG:04064,NF-kappa B signaling pathway,NF-kappa B signaling pathway,2,100,18,2,0.030909090909092683,0.16762237762237753,True,,KEGG:00000,1.0,False,0.6966433566433966,False
+sensitivity_dinp93,KEGG,KEGG:05022,Pathways of neurodegeneration - multiple diseases,Pathways of neurodegeneration - multiple diseases,8,100,18,4,0.03318437275690884,0.17329616884165058,True,,KEGG:00000,1.0,False,0.7202237939092067,False
+sensitivity_dinp93,KEGG,KEGG:04062,Chemokine signaling pathway,Chemokine signaling pathway,5,100,18,3,0.03944111852800824,0.19176543836032933,True,,KEGG:00000,1.0,False,0.7969826019797527,False
+sensitivity_dinp93,KEGG,KEGG:04211,Longevity regulating pathway,Longevity regulating pathway,5,100,18,3,0.03944111852800824,0.19176543836032933,True,,KEGG:00000,1.0,False,0.7969826019797527,False
+sensitivity_dinp93,KEGG,KEGG:00000,KEGG root term,KEGG root term,70,100,18,16,0.04364567294547809,0.20513466284375578,True,,,1.0,False,0.8525454782016719,False
+sensitivity_dinp93,KEGG,KEGG:05163,Human cytomegalovirus infection,Human cytomegalovirus infection,9,100,18,4,0.052692014673179986,0.23966367964252203,True,,KEGG:00000,1.0,False,0.9960490515639829,False
+sensitivity_dinp93,KEGG,KEGG:05207,Chemical carcinogenesis - receptor activation,Chemical carcinogenesis - receptor activation,13,100,18,5,0.05462008739137978,0.2406697600682965,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05321,Inflammatory bowel disease,Inflammatory bowel disease,3,100,18,2,0.08263450834879447,0.26480603811772624,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05215,Prostate cancer,Prostate cancer,3,100,18,2,0.08263450834879447,0.26480603811772624,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04931,Insulin resistance,Insulin resistance,3,100,18,2,0.08263450834879447,0.26480603811772624,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04933,AGE-RAGE signaling pathway in diabetic complications,AGE-RAGE signaling pathway in diabetic complications,6,100,18,3,0.0697522692794387,0.26480603811772624,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04936,Alcoholic liver disease,Alcoholic liver disease,3,100,18,2,0.08263450834879447,0.26480603811772624,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04668,TNF signaling pathway,TNF signaling pathway,6,100,18,3,0.0697522692794387,0.26480603811772624,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04081,Hormone signaling,Hormone signaling,3,100,18,2,0.08263450834879447,0.26480603811772624,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05140,Leishmaniasis,Leishmaniasis,3,100,18,2,0.08263450834879447,0.26480603811772624,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05203,Viral carcinogenesis,Viral carcinogenesis,3,100,18,2,0.08263450834879447,0.26480603811772624,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05204,Chemical carcinogenesis - DNA adducts,Chemical carcinogenesis - DNA adducts,6,100,18,3,0.0697522692794387,0.26480603811772624,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05202,Transcriptional misregulation in cancer,Transcriptional misregulation in cancer,6,100,18,3,0.0697522692794387,0.26480603811772624,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05171,Coronavirus disease - COVID-19,Coronavirus disease - COVID-19,3,100,18,2,0.08263450834879447,0.26480603811772624,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:00380,Tryptophan metabolism,Tryptophan metabolism,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04658,Th1 and Th2 cell differentiation,Th1 and Th2 cell differentiation,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04659,Th17 cell differentiation,Th17 cell differentiation,4,100,18,2,0.14742459307996708,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04660,T cell receptor signaling pathway,T cell receptor signaling pathway,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04662,B cell receptor signaling pathway,B cell receptor signaling pathway,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:03260,Virion - Human immunodeficiency virus,Virion - Human immunodeficiency virus,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:03250,Viral life cycle - HIV-1,Viral life cycle - HIV-1,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:01521,EGFR tyrosine kinase inhibitor resistance,EGFR tyrosine kinase inhibitor resistance,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04218,Cellular senescence,Cellular senescence,4,100,18,2,0.14742459307996708,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04215,Apoptosis - multiple species,Apoptosis - multiple species,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04961,Endocrine and other factor-regulated calcium reabsorption,Endocrine and other factor-regulated calcium reabsorption,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04915,Estrogen signaling pathway,Estrogen signaling pathway,7,100,18,3,0.1079636667692616,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04810,Regulation of actin cytoskeleton,Regulation of actin cytoskeleton,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04630,JAK-STAT signaling pathway,JAK-STAT signaling pathway,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04623,Cytosolic DNA-sensing pathway,Cytosolic DNA-sensing pathway,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04620,Toll-like receptor signaling pathway,Toll-like receptor signaling pathway,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04613,Neutrophil extracellular trap formation,Neutrophil extracellular trap formation,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04550,Signaling pathways regulating pluripotency of stem cells,Signaling pathways regulating pluripotency of stem cells,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05168,Herpes simplex virus 1 infection,Herpes simplex virus 1 infection,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05135,Yersinia infection,Yersinia infection,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05142,Chagas disease,Chagas disease,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05222,Small cell lung cancer,Small cell lung cancer,4,100,18,2,0.14742459307996708,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05220,Chronic myeloid leukemia,Chronic myeloid leukemia,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05165,Human papillomavirus infection,Human papillomavirus infection,4,100,18,2,0.14742459307996708,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05160,Hepatitis C,Hepatitis C,4,100,18,2,0.14742459307996708,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05130,Pathogenic Escherichia coli infection,Pathogenic Escherichia coli infection,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05120,Epithelial cell signaling in Helicobacter pylori infection,Epithelial cell signaling in Helicobacter pylori infection,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05132,Salmonella infection,Salmonella infection,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05146,Amoebiasis,Amoebiasis,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05145,Toxoplasmosis,Toxoplasmosis,4,100,18,2,0.14742459307996708,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04923,Regulation of lipolysis in adipocytes,Regulation of lipolysis in adipocytes,4,100,18,2,0.14742459307996708,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:00591,Linoleic acid metabolism,Linoleic acid metabolism,4,100,18,2,0.14742459307996708,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:00830,Retinol metabolism,Retinol metabolism,4,100,18,2,0.14742459307996708,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05017,Spinocerebellar ataxia,Spinocerebellar ataxia,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04714,Thermogenesis,Thermogenesis,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04672,Intestinal immune network for IgA production,Intestinal immune network for IgA production,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05417,Lipid and atherosclerosis,Lipid and atherosclerosis,12,100,18,4,0.14192982177515656,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05418,Fluid shear stress and atherosclerosis,Fluid shear stress and atherosclerosis,8,100,18,3,0.15283124317667218,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04519,Cadherin signaling,Cadherin signaling,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04723,Retrograde endocannabinoid signaling,Retrograde endocannabinoid signaling,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04380,Osteoclast differentiation,Osteoclast differentiation,4,100,18,2,0.14742459307996708,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04360,Axon guidance,Axon guidance,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04071,Sphingolipid signaling pathway,Sphingolipid signaling pathway,1,100,18,1,0.18000000000000294,0.2917241379310345,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05162,Measles,Measles,5,100,18,2,0.21941357611458953,0.3256559392858903,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04137,Mitophagy - animal,Mitophagy - animal,5,100,18,2,0.21941357611458953,0.3256559392858903,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05131,Shigellosis,Shigellosis,5,100,18,2,0.21941357611458953,0.3256559392858903,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05208,Chemical carcinogenesis - reactive oxygen species,Chemical carcinogenesis - reactive oxygen species,5,100,18,2,0.21941357611458953,0.3256559392858903,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04726,Serotonergic synapse,Serotonergic synapse,5,100,18,2,0.21941357611458953,0.3256559392858903,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:00982,Drug metabolism - cytochrome P450,Drug metabolism - cytochrome P450,5,100,18,2,0.21941357611458953,0.3256559392858903,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:03320,PPAR signaling pathway,PPAR signaling pathway,5,100,18,2,0.21941357611458953,0.3256559392858903,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04920,Adipocytokine signaling pathway,Adipocytokine signaling pathway,5,100,18,2,0.21941357611458953,0.3256559392858903,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05166,Human T-cell leukemia virus 1 infection,Human T-cell leukemia virus 1 infection,2,100,18,1,0.3290909090909179,0.4034940711462452,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04611,Platelet activation,Platelet activation,2,100,18,1,0.3290909090909179,0.4034940711462452,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05164,Influenza A,Influenza A,2,100,18,1,0.3290909090909179,0.4034940711462452,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04371,Apelin signaling pathway,Apelin signaling pathway,2,100,18,1,0.3290909090909179,0.4034940711462452,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04622,RIG-I-like receptor signaling pathway,RIG-I-like receptor signaling pathway,2,100,18,1,0.3290909090909179,0.4034940711462452,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04370,VEGF signaling pathway,VEGF signaling pathway,2,100,18,1,0.3290909090909179,0.4034940711462452,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05224,Breast cancer,Breast cancer,2,100,18,1,0.3290909090909179,0.4034940711462452,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04014,Ras signaling pathway,Ras signaling pathway,2,100,18,1,0.3290909090909179,0.4034940711462452,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04722,Neurotrophin signaling pathway,Neurotrophin signaling pathway,2,100,18,1,0.3290909090909179,0.4034940711462452,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05152,Tuberculosis,Tuberculosis,2,100,18,1,0.3290909090909179,0.4034940711462452,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05030,Cocaine addiction,Cocaine addiction,2,100,18,1,0.3290909090909179,0.4034940711462452,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05031,Amphetamine addiction,Amphetamine addiction,2,100,18,1,0.3290909090909179,0.4034940711462452,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:00980,Metabolism of xenobiotics by cytochrome P450,Metabolism of xenobiotics by cytochrome P450,6,100,18,2,0.29424422953218454,0.4034940711462452,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04932,Non-alcoholic fatty liver disease,Non-alcoholic fatty liver disease,6,100,18,2,0.29424422953218454,0.4034940711462452,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04935,"Growth hormone synthesis, secretion and action","Growth hormone synthesis, secretion and action",2,100,18,1,0.3290909090909179,0.4034940711462452,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:00140,Steroid hormone biosynthesis,Steroid hormone biosynthesis,6,100,18,2,0.29424422953218454,0.4034940711462452,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04136,Autophagy - other,Autophagy - other,2,100,18,1,0.3290909090909179,0.4034940711462452,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:00232,Caffeine metabolism,Caffeine metabolism,2,100,18,1,0.3290909090909179,0.4034940711462452,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04210,Apoptosis,Apoptosis,2,100,18,1,0.3290909090909179,0.4034940711462452,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:01523,Antifolate resistance,Antifolate resistance,2,100,18,1,0.3290909090909179,0.4034940711462452,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:01100,Metabolic pathways,Metabolic pathways,22,100,18,5,0.35493607609863476,0.43143092008541983,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04919,Thyroid hormone signaling pathway,Thyroid hormone signaling pathway,3,100,18,1,0.45231910946196346,0.4982577690166977,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04976,Bile secretion,Bile secretion,3,100,18,1,0.45231910946196346,0.4982577690166977,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05133,Pertussis,Pertussis,3,100,18,1,0.45231910946196346,0.4982577690166977,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04621,NOD-like receptor signaling pathway,NOD-like receptor signaling pathway,3,100,18,1,0.45231910946196346,0.4982577690166977,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05216,Thyroid cancer,Thyroid cancer,3,100,18,1,0.45231910946196346,0.4982577690166977,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05223,Non-small cell lung cancer,Non-small cell lung cancer,3,100,18,1,0.45231910946196346,0.4982577690166977,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05134,Legionellosis,Legionellosis,3,100,18,1,0.45231910946196346,0.4982577690166977,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:00983,Drug metabolism - other enzymes,Drug metabolism - other enzymes,3,100,18,1,0.45231910946196346,0.4982577690166977,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04922,Glucagon signaling pathway,Glucagon signaling pathway,3,100,18,1,0.45231910946196346,0.4982577690166977,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04144,Endocytosis,Endocytosis,3,100,18,1,0.45231910946196346,0.4982577690166977,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04061,Viral protein interaction with cytokine and cytokine receptor,Viral protein interaction with cytokine and cytokine receptor,3,100,18,1,0.45231910946196346,0.4982577690166977,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04921,Oxytocin signaling pathway,Oxytocin signaling pathway,3,100,18,1,0.45231910946196346,0.4982577690166977,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:00590,Arachidonic acid metabolism,Arachidonic acid metabolism,9,100,18,2,0.50868314446595,0.5560025067418167,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:00760,Nicotinate and nicotinamide metabolism,Nicotinate and nicotinamide metabolism,4,100,18,1,0.5539506149226222,0.5743164463536118,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04217,Necroptosis,Necroptosis,4,100,18,1,0.5539506149226222,0.5743164463536118,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04060,Cytokine-cytokine receptor interaction,Cytokine-cytokine receptor interaction,4,100,18,1,0.5539506149226222,0.5743164463536118,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04020,Calcium signaling pathway,Calcium signaling pathway,4,100,18,1,0.5539506149226222,0.5743164463536118,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04213,Longevity regulating pathway - multiple species,Longevity regulating pathway - multiple species,4,100,18,1,0.5539506149226222,0.5743164463536118,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:05014,Amyotrophic lateral sclerosis,Amyotrophic lateral sclerosis,4,100,18,1,0.5539506149226222,0.5743164463536118,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04912,GnRH signaling pathway,GnRH signaling pathway,4,100,18,1,0.5539506149226222,0.5743164463536118,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04151,PI3K-Akt signaling pathway,PI3K-Akt signaling pathway,5,100,18,1,0.6375848746245694,0.6514454153773487,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04140,Autophagy - animal,Autophagy - animal,5,100,18,1,0.6375848746245694,0.6514454153773487,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04024,cAMP signaling pathway,cAMP signaling pathway,6,100,18,1,0.7062530036431132,0.7164149173646124,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04010,MAPK signaling pathway,MAPK signaling pathway,7,100,18,1,0.7625024284773843,0.762502428477423,True,,KEGG:00000,1.0,False,1.0,False
+sensitivity_dinp93,KEGG,KEGG:04913,Ovarian steroidogenesis,Ovarian steroidogenesis,7,100,18,1,0.7625024284773843,0.762502428477423,True,,KEGG:00000,1.0,False,1.0,False

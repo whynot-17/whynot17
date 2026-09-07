@@ -1,0 +1,291 @@
+{
+  "analysis": "Expanded 18-gene DINP-CRC GeneCards-threshold GO/KEGG/Reactome ORA",
+  "run_utc": "2026-09-07T13:36:56.865494+00:00",
+  "query": {
+    "path": "analysis/dinp_crc_multi_database_target_convergence/outputs/dinp_crc_genecards_relevance10_expanded_intersection.csv",
+    "sha256": "2bd5b776024ea820fe17d4295f9a3408253aa5b434329465d2fb38168f3886ab",
+    "count": 18,
+    "gene_list_sha256": "6fe7badd561c1a895aa6539483a487d1244f039a2b5860bfd626de4873a6b9f7"
+  },
+  "backgrounds": {
+    "primary_genecards881": {
+      "path": "analysis/dinp_crc_multi_database_target_convergence/outputs/source_records/genecards_crc_top2000_reference.csv",
+      "sha256": "72448cb1cc70eac077bf560919ead96af67344b825afe15dc739f5442ee647d6",
+      "rule": "ordinary archived CRC GeneCards reference, RelevanceScore >= 10",
+      "count": 881,
+      "gene_list_sha256": "14b37096a46c02c50e4fe228517a2880df7ce37b5ac349c8395e6aa022be8251"
+    },
+    "sensitivity_dinp93": {
+      "path": "analysis/dinp_crc_multi_database_target_convergence/outputs/dinp_exposure_gene_matrix_ctd_toxcast_tox21_t3db.csv",
+      "sha256": "8d3e13c2dddf1d6040c30a2988b8141995bdc3bb3d1aa6d5ec56c9e2316368b3",
+      "rule": "all genes in source-preserving CTD + ToxCast + Tox21 + T3DB DINP matrix",
+      "count": 93,
+      "gene_list_sha256": "05e223ce959aff2699a1ade99ccfe3f1b21e6a6e224aa78c786cdb5baf90e4ec"
+    }
+  },
+  "sources": [
+    "GO:BP",
+    "KEGG",
+    "REAC"
+  ],
+  "organism": "hsapiens",
+  "method": "one-sided hypergeometric ORA with custom background",
+  "multiple_testing": "each background is a separate family; global BH uses the sum of g:Profiler source term-family sizes; within-source BH retained",
+  "api": {
+    "endpoint": "https://biit.cs.ut.ee/gprofiler/api/gost/profile/",
+    "gprofiler_audit": [
+      {
+        "background": "primary_genecards881",
+        "n_returned_terms": 2433,
+        "source_family_sizes": {
+          "GO:BP": 24546,
+          "KEGG": 586,
+          "REAC": 2849
+        },
+        "total_source_family_size": 27981,
+        "timestamp": "2026-09-07T13:36:52.728532+00:00",
+        "gprofiler_version": "e114_eg62_p19_27110d83",
+        "genes_metadata": {
+          "failed": [],
+          "ambiguous": {},
+          "duplicates": [],
+          "query": {
+            "query_1": {
+              "mapping": {
+                "BECN1": [
+                  "ENSG00000126581"
+                ],
+                "CRP": [
+                  "ENSG00000132693"
+                ],
+                "CXCR4": [
+                  "ENSG00000121966"
+                ],
+                "CYP1A2": [
+                  "ENSG00000140505"
+                ],
+                "CYP3A4": [
+                  "ENSG00000160868"
+                ],
+                "DKK1": [
+                  "ENSG00000107984"
+                ],
+                "ESR1": [
+                  "ENSG00000091831"
+                ],
+                "MMP2": [
+                  "ENSG00000087245"
+                ],
+                "MMP9": [
+                  "ENSG00000100985"
+                ],
+                "NEAT1": [
+                  "ENSG00000245532"
+                ],
+                "PPARD": [
+                  "ENSG00000112033"
+                ],
+                "PPARG": [
+                  "ENSG00000132170"
+                ],
+                "PTGS1": [
+                  "ENSG00000095303"
+                ],
+                "PTGS2": [
+                  "ENSG00000073756"
+                ],
+                "RELA": [
+                  "ENSG00000173039"
+                ],
+                "SIRT1": [
+                  "ENSG00000096717"
+                ],
+                "STAT3": [
+                  "ENSG00000168610"
+                ],
+                "TIMP1": [
+                  "ENSG00000102265"
+                ]
+              },
+              "ensgs": [
+                "ENSG00000126581",
+                "ENSG00000132693",
+                "ENSG00000121966",
+                "ENSG00000140505",
+                "ENSG00000160868",
+                "ENSG00000107984",
+                "ENSG00000091831",
+                "ENSG00000087245",
+                "ENSG00000100985",
+                "ENSG00000245532",
+                "ENSG00000112033",
+                "ENSG00000132170",
+                "ENSG00000095303",
+                "ENSG00000073756",
+                "ENSG00000173039",
+                "ENSG00000096717",
+                "ENSG00000168610",
+                "ENSG00000102265"
+              ]
+            }
+          }
+        },
+        "raw_response": "analysis/dinp_crc_genecards_relevance10_expanded_enrichment/outputs/raw_gprofiler/gprofiler_primary_genecards881.json",
+        "raw_response_sha256": "5e1548ab30389bd489cc1f7ddbe0e91ff1556f5fdb4b522768d291b70f61ced1",
+        "request_payload": "analysis/dinp_crc_genecards_relevance10_expanded_enrichment/outputs/request_payload_primary_genecards881.json",
+        "query_count": 18,
+        "background_count": 881,
+        "query_mapped_count": 18,
+        "failed_symbols": []
+      },
+      {
+        "background": "sensitivity_dinp93",
+        "n_returned_terms": 2433,
+        "source_family_sizes": {
+          "GO:BP": 24546,
+          "KEGG": 586,
+          "REAC": 2849
+        },
+        "total_source_family_size": 27981,
+        "timestamp": "2026-09-07T13:36:55.253290+00:00",
+        "gprofiler_version": "e114_eg62_p19_27110d83",
+        "genes_metadata": {
+          "failed": [],
+          "ambiguous": {},
+          "duplicates": [],
+          "query": {
+            "query_1": {
+              "mapping": {
+                "BECN1": [
+                  "ENSG00000126581"
+                ],
+                "CRP": [
+                  "ENSG00000132693"
+                ],
+                "CXCR4": [
+                  "ENSG00000121966"
+                ],
+                "CYP1A2": [
+                  "ENSG00000140505"
+                ],
+                "CYP3A4": [
+                  "ENSG00000160868"
+                ],
+                "DKK1": [
+                  "ENSG00000107984"
+                ],
+                "ESR1": [
+                  "ENSG00000091831"
+                ],
+                "MMP2": [
+                  "ENSG00000087245"
+                ],
+                "MMP9": [
+                  "ENSG00000100985"
+                ],
+                "NEAT1": [
+                  "ENSG00000245532"
+                ],
+                "PPARD": [
+                  "ENSG00000112033"
+                ],
+                "PPARG": [
+                  "ENSG00000132170"
+                ],
+                "PTGS1": [
+                  "ENSG00000095303"
+                ],
+                "PTGS2": [
+                  "ENSG00000073756"
+                ],
+                "RELA": [
+                  "ENSG00000173039"
+                ],
+                "SIRT1": [
+                  "ENSG00000096717"
+                ],
+                "STAT3": [
+                  "ENSG00000168610"
+                ],
+                "TIMP1": [
+                  "ENSG00000102265"
+                ]
+              },
+              "ensgs": [
+                "ENSG00000126581",
+                "ENSG00000132693",
+                "ENSG00000121966",
+                "ENSG00000140505",
+                "ENSG00000160868",
+                "ENSG00000107984",
+                "ENSG00000091831",
+                "ENSG00000087245",
+                "ENSG00000100985",
+                "ENSG00000245532",
+                "ENSG00000112033",
+                "ENSG00000132170",
+                "ENSG00000095303",
+                "ENSG00000073756",
+                "ENSG00000173039",
+                "ENSG00000096717",
+                "ENSG00000168610",
+                "ENSG00000102265"
+              ]
+            }
+          }
+        },
+        "raw_response": "analysis/dinp_crc_genecards_relevance10_expanded_enrichment/outputs/raw_gprofiler/gprofiler_sensitivity_dinp93.json",
+        "raw_response_sha256": "829804da0dbcb3b6ebacd941e3aab361302a3edaf3480dfd067a98e5519da8c5",
+        "request_payload": "analysis/dinp_crc_genecards_relevance10_expanded_enrichment/outputs/request_payload_sensitivity_dinp93.json",
+        "query_count": 18,
+        "background_count": 93,
+        "query_mapped_count": 18,
+        "failed_symbols": []
+      }
+    ]
+  },
+  "counts": {
+    "primary_genecards881": {
+      "returned_terms": 2433,
+      "global_fdr_lt_0_05": 106,
+      "global_significant_by_source": {
+        "GO:BP": 99,
+        "KEGG": 0,
+        "REAC": 7
+      },
+      "within_source_fdr_lt_0_05": {
+        "GO:BP": 101,
+        "KEGG": 0,
+        "REAC": 5
+      }
+    },
+    "sensitivity_dinp93": {
+      "returned_terms": 2433,
+      "global_fdr_lt_0_05": 0,
+      "global_significant_by_source": {
+        "GO:BP": 0,
+        "KEGG": 0,
+        "REAC": 0
+      },
+      "within_source_fdr_lt_0_05": {
+        "GO:BP": 0,
+        "KEGG": 0,
+        "REAC": 0
+      }
+    }
+  },
+  "firewall": {
+    "open_targets_used": false,
+    "crc_outcome_statistics_used": false,
+    "enrichment_used_for_gene_selection": false
+  },
+  "interpretation_boundary": "Enrichment is direction-agnostic and does not establish DINP causality, pathway activation, or mediation. The primary GeneCards background is limited to the archived ordinary top-2000 reference.",
+  "canonical_outputs": [
+    "dinp_crc_18_gene_list.csv",
+    "dinp_crc_enrichment_all_backgrounds.csv",
+    "dinp_crc_enrichment_primary_genecards881.csv",
+    "dinp_crc_enrichment_sensitivity_dinp93.csv",
+    "dinp_crc_enrichment_manifest.json",
+    "dinp_crc_enrichment_summary.md"
+  ]
+}

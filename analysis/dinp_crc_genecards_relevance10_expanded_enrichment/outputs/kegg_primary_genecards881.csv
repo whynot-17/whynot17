@@ -1,0 +1,142 @@
+background,source,term_id,term_name,description,term_size,effective_domain_size,query_size,intersection_size,raw_hypergeom_p,gprofiler_p_value,gprofiler_significant,intersection_genes,parents,BH_FDR_global_source_family,BH_FDR_global_significant,BH_FDR_within_source,BH_FDR_within_source_significant
+primary_genecards881,KEGG,KEGG:04148,Efferocytosis,Efferocytosis,22,868,18,4,0.0007528792565054828,0.035385325055680907,True,,KEGG:00000,0.11901872585468877,False,0.14706241477073764,False
+primary_genecards881,KEGG,KEGG:05200,Pathways in cancer,Pathways in cancer,137,868,18,9,0.0006468813190170048,0.035385325055680907,True,,KEGG:00000,0.10585021162230884,False,0.14706241477073764,False
+primary_genecards881,KEGG,KEGG:00000,KEGG root term,KEGG root term,425,868,18,16,0.0004338786185344586,0.035385325055680907,True,,,0.08315313441926496,False,0.14706241477073764,False
+primary_genecards881,KEGG,KEGG:03320,PPAR signaling pathway,PPAR signaling pathway,4,868,18,2,0.002379976346548252,0.07388181034919285,True,,KEGG:00000,0.23614935515165475,False,0.30705489974972255,False
+primary_genecards881,KEGG,KEGG:04670,Leukocyte transendothelial migration,Leukocyte transendothelial migration,16,868,18,3,0.0035485538759787217,0.07388181034919285,True,,KEGG:00000,0.3192671575683621,False,0.30705489974972255,False
+primary_genecards881,KEGG,KEGG:01100,Metabolic pathways,Metabolic pathways,55,868,18,5,0.003867613513549917,0.07388181034919285,True,,KEGG:00000,0.3342226535841768,False,0.30705489974972255,False
+primary_genecards881,KEGG,KEGG:05207,Chemical carcinogenesis - receptor activation,Chemical carcinogenesis - receptor activation,56,868,18,5,0.0041918757645013315,0.07388181034919285,True,,KEGG:00000,0.35103420633098337,False,0.30705489974972255,False
+primary_genecards881,KEGG,KEGG:05204,Chemical carcinogenesis - DNA adducts,Chemical carcinogenesis - DNA adducts,15,868,18,3,0.002921199763734819,0.07388181034919285,True,,KEGG:00000,0.2742888945941744,False,0.30705489974972255,False
+primary_genecards881,KEGG,KEGG:00591,Linoleic acid metabolism,Linoleic acid metabolism,6,868,18,2,0.005804525589143014,0.08184381080668636,True,,KEGG:00000,0.4301901165478251,False,0.34014519952378064,False
+primary_genecards881,KEGG,KEGG:00590,Arachidonic acid metabolism,Arachidonic acid metabolism,6,868,18,2,0.005804525589143014,0.08184381080668636,True,,KEGG:00000,0.4301901165478251,False,0.34014519952378064,False
+primary_genecards881,KEGG,KEGG:04657,IL-17 signaling pathway,IL-17 signaling pathway,20,868,18,3,0.006855254665665302,0.0878719007142569,True,,KEGG:00000,0.4843860626262142,False,0.3651981121890788,False
+primary_genecards881,KEGG,KEGG:00830,Retinol metabolism,Retinol metabolism,7,868,18,2,0.008026526805251052,0.09431168996154567,True,,KEGG:00000,0.5247435666769386,False,0.3919620589897597,False
+primary_genecards881,KEGG,KEGG:05010,Alzheimer disease,Alzheimer disease,42,868,18,4,0.008849866061101944,0.09598700881629023,True,,KEGG:00000,0.5705716641836256,False,0.3989247316773646,False
+primary_genecards881,KEGG,KEGG:00760,Nicotinate and nicotinamide metabolism,Nicotinate and nicotinamide metabolism,1,868,18,1,0.0207373271889683,0.11246012052463647,True,,KEGG:00000,0.863468976301372,False,0.4673874512590548,False
+primary_genecards881,KEGG,KEGG:04668,TNF signaling pathway,TNF signaling pathway,29,868,18,3,0.019531154705462704,0.11246012052463647,True,,KEGG:00000,0.863468976301372,False,0.4673874512590548,False
+primary_genecards881,KEGG,KEGG:04915,Estrogen signaling pathway,Estrogen signaling pathway,27,868,18,3,0.01604912143669636,0.11246012052463647,True,,KEGG:00000,0.8586433401915886,False,0.4673874512590548,False
+primary_genecards881,KEGG,KEGG:04917,Prolactin signaling pathway,Prolactin signaling pathway,28,868,18,3,0.01774132452057714,0.11246012052463647,True,,KEGG:00000,0.863468976301372,False,0.4673874512590548,False
+primary_genecards881,KEGG,KEGG:00140,Steroid hormone biosynthesis,Steroid hormone biosynthesis,9,868,18,2,0.013424205861679956,0.11246012052463647,True,,KEGG:00000,0.7423373601100136,False,0.4673874512590548,False
+primary_genecards881,KEGG,KEGG:04211,Longevity regulating pathway,Longevity regulating pathway,27,868,18,3,0.01604912143669636,0.11246012052463647,True,,KEGG:00000,0.8586433401915886,False,0.4673874512590548,False
+primary_genecards881,KEGG,KEGG:05417,Lipid and atherosclerosis,Lipid and atherosclerosis,51,868,18,4,0.01753808786220902,0.11246012052463647,True,,KEGG:00000,0.863468976301372,False,0.4673874512590548,False
+primary_genecards881,KEGG,KEGG:04923,Regulation of lipolysis in adipocytes,Regulation of lipolysis in adipocytes,11,868,18,2,0.02000980149392508,0.11246012052463647,True,,KEGG:00000,0.863468976301372,False,0.4673874512590548,False
+primary_genecards881,KEGG,KEGG:03260,Virion - Human immunodeficiency virus,Virion - Human immunodeficiency virus,1,868,18,1,0.0207373271889683,0.11246012052463647,True,,KEGG:00000,0.863468976301372,False,0.4673874512590548,False
+primary_genecards881,KEGG,KEGG:05022,Pathways of neurodegeneration - multiple diseases,Pathways of neurodegeneration - multiple diseases,45,868,18,4,0.011321893686157054,0.11246012052463647,True,,KEGG:00000,0.6655418219167238,False,0.4673874512590548,False
+primary_genecards881,KEGG,KEGG:05415,Diabetic cardiomyopathy,Diabetic cardiomyopathy,29,868,18,3,0.019531154705462704,0.11246012052463647,True,,KEGG:00000,0.863468976301372,False,0.4673874512590548,False
+primary_genecards881,KEGG,KEGG:00982,Drug metabolism - cytochrome P450,Drug metabolism - cytochrome P450,10,868,18,2,0.016574619036768563,0.11246012052463647,True,,KEGG:00000,0.863468976301372,False,0.4673874512590548,False
+primary_genecards881,KEGG,KEGG:05221,Acute myeloid leukemia,Acute myeloid leukemia,27,868,18,3,0.01604912143669636,0.11246012052463647,True,,KEGG:00000,0.8586433401915886,False,0.4673874512590548,False
+primary_genecards881,KEGG,KEGG:05167,Kaposi sarcoma-associated herpesvirus infection,Kaposi sarcoma-associated herpesvirus infection,55,868,18,4,0.02269798565815796,0.1185339251034706,True,,KEGG:00000,0.9367438594408817,False,0.4926303553955765,False
+primary_genecards881,KEGG,KEGG:00980,Metabolism of xenobiotics by cytochrome P450,Metabolism of xenobiotics by cytochrome P450,12,868,18,2,0.023717954692428024,0.11943684327229914,True,,KEGG:00000,0.9507909602418748,False,0.4963829089201008,False
+primary_genecards881,KEGG,KEGG:04062,Chemokine signaling pathway,Chemokine signaling pathway,32,868,18,3,0.02549153145686923,0.11981019784692473,True,,KEGG:00000,1.0,False,0.497934581124179,False
+primary_genecards881,KEGG,KEGG:04310,Wnt signaling pathway,Wnt signaling pathway,32,868,18,3,0.02549153145686923,0.11981019784692473,True,,KEGG:00000,1.0,False,0.497934581124179,False
+primary_genecards881,KEGG,KEGG:05202,Transcriptional misregulation in cancer,Transcriptional misregulation in cancer,33,868,18,3,0.027676302904048093,0.12199848938313375,True,,KEGG:00000,1.0,False,0.5070291828276651,False
+primary_genecards881,KEGG,KEGG:04726,Serotonergic synapse,Serotonergic synapse,13,868,18,2,0.027687600427449287,0.12199848938313375,True,,KEGG:00000,1.0,False,0.5070291828276651,False
+primary_genecards881,KEGG,KEGG:05163,Human cytomegalovirus infection,Human cytomegalovirus infection,60,868,18,4,0.030367396829392008,0.12593538096873944,True,,KEGG:00000,1.0,False,0.523391015941874,False
+primary_genecards881,KEGG,KEGG:04926,Relaxin signaling pathway,Relaxin signaling pathway,34,868,18,3,0.02996024786682118,0.12593538096873944,True,,KEGG:00000,1.0,False,0.523391015941874,False
+primary_genecards881,KEGG,KEGG:04137,Mitophagy - animal,Mitophagy - animal,14,868,18,2,0.03190757372489313,0.12854193986283036,True,,KEGG:00000,1.0,False,0.5342239486510679,False
+primary_genecards881,KEGG,KEGG:04066,HIF-1 signaling pathway,HIF-1 signaling pathway,36,868,18,3,0.03482525416100318,0.1363989121302978,True,,KEGG:00000,1.0,False,0.5668777482874406,False
+primary_genecards881,KEGG,KEGG:04064,NF-kappa B signaling pathway,NF-kappa B signaling pathway,16,868,18,2,0.041055367586561226,0.1447648414204393,True,,KEGG:00000,1.0,False,0.6016467877485315,False
+primary_genecards881,KEGG,KEGG:04136,Autophagy - other,Autophagy - other,2,868,18,1,0.04106804011935369,0.1447648414204393,True,,KEGG:00000,1.0,False,0.6016467877485315,False
+primary_genecards881,KEGG,KEGG:05418,Fluid shear stress and atherosclerosis,Fluid shear stress and atherosclerosis,38,868,18,3,0.04008463103830819,0.1447648414204393,True,,KEGG:00000,1.0,False,0.6016467877485315,False
+primary_genecards881,KEGG,KEGG:04920,Adipocytokine signaling pathway,Adipocytokine signaling pathway,16,868,18,2,0.041055367586561226,0.1447648414204393,True,,KEGG:00000,1.0,False,0.6016467877485315,False
+primary_genecards881,KEGG,KEGG:05205,Proteoglycans in cancer,Proteoglycans in cancer,67,868,18,4,0.043487550729014834,0.14955474762879686,True,,KEGG:00000,1.0,False,0.621553773834212,False
+primary_genecards881,KEGG,KEGG:05321,Inflammatory bowel disease,Inflammatory bowel disease,17,868,18,2,0.045962362306778484,0.15430221631528052,True,,KEGG:00000,1.0,False,0.6412843883755284,False
+primary_genecards881,KEGG,KEGG:04933,AGE-RAGE signaling pathway in diabetic complications,AGE-RAGE signaling pathway in diabetic complications,43,868,18,3,0.0549312610705659,0.18012343746350892,True,,KEGG:00000,1.0,False,0.7485981159849213,False
+primary_genecards881,KEGG,KEGG:01522,Endocrine resistance,Endocrine resistance,44,868,18,3,0.058185770072334504,0.1818218283762827,True,,KEGG:00000,1.0,False,0.7556566767988889,False
+primary_genecards881,KEGG,KEGG:00232,Caffeine metabolism,Caffeine metabolism,3,868,18,1,0.0609996512948035,0.1818218283762827,True,,KEGG:00000,1.0,False,0.7556566767988889,False
+primary_genecards881,KEGG,KEGG:04961,Endocrine and other factor-regulated calcium reabsorption,Endocrine and other factor-regulated calcium reabsorption,3,868,18,1,0.0609996512948035,0.1818218283762827,True,,KEGG:00000,1.0,False,0.7556566767988889,False
+primary_genecards881,KEGG,KEGG:05140,Leishmaniasis,Leishmaniasis,20,868,18,2,0.06189679263881683,0.1818218283762827,True,,KEGG:00000,1.0,False,0.7556566767988889,False
+primary_genecards881,KEGG,KEGG:04931,Insulin resistance,Insulin resistance,20,868,18,2,0.06189679263881683,0.1818218283762827,True,,KEGG:00000,1.0,False,0.7556566767988889,False
+primary_genecards881,KEGG,KEGG:05016,Huntington disease,Huntington disease,21,868,18,2,0.06758132089023178,0.19057932491029392,True,,KEGG:00000,1.0,False,0.7920530808335164,False
+primary_genecards881,KEGG,KEGG:04081,Hormone signaling,Hormone signaling,21,868,18,2,0.06758132089023178,0.19057932491029392,True,,KEGG:00000,1.0,False,0.7920530808335164,False
+primary_genecards881,KEGG,KEGG:04152,AMPK signaling pathway,AMPK signaling pathway,22,868,18,2,0.0734373245807574,0.20303260325226233,True,,KEGG:00000,1.0,False,0.8438092589083105,False
+primary_genecards881,KEGG,KEGG:05030,Cocaine addiction,Cocaine addiction,4,868,18,1,0.0805395429442689,0.21426557651135314,True,,KEGG:00000,1.0,False,0.8904938144404072,False
+primary_genecards881,KEGG,KEGG:03250,Viral life cycle - HIV-1,Viral life cycle - HIV-1,4,868,18,1,0.0805395429442689,0.21426557651135314,True,,KEGG:00000,1.0,False,0.8904938144404072,False
+primary_genecards881,KEGG,KEGG:04672,Intestinal immune network for IgA production,Intestinal immune network for IgA production,5,868,18,1,0.09969496913301877,0.2382540787746407,True,,KEGG:00000,1.0,False,0.9901907103720169,False
+primary_genecards881,KEGG,KEGG:04380,Osteoclast differentiation,Osteoclast differentiation,26,868,18,2,0.0984069219891921,0.2382540787746407,True,,KEGG:00000,1.0,False,0.9901907103720169,False
+primary_genecards881,KEGG,KEGG:00380,Tryptophan metabolism,Tryptophan metabolism,5,868,18,1,0.09969496913301877,0.2382540787746407,True,,KEGG:00000,1.0,False,0.9901907103720169,False
+primary_genecards881,KEGG,KEGG:04659,Th17 cell differentiation,Th17 cell differentiation,25,868,18,2,0.09194899052481523,0.2382540787746407,True,,KEGG:00000,1.0,False,0.9901907103720169,False
+primary_genecards881,KEGG,KEGG:05031,Amphetamine addiction,Amphetamine addiction,5,868,18,1,0.09969496913301877,0.2382540787746407,True,,KEGG:00000,1.0,False,0.9901907103720169,False
+primary_genecards881,KEGG,KEGG:04723,Retrograde endocannabinoid signaling,Retrograde endocannabinoid signaling,5,868,18,1,0.09969496913301877,0.2382540787746407,True,,KEGG:00000,1.0,False,0.9901907103720169,False
+primary_genecards881,KEGG,KEGG:05161,Hepatitis B,Hepatitis B,56,868,18,3,0.10414098481572172,0.24473131431638503,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05171,Coronavirus disease - COVID-19,Coronavirus disease - COVID-19,28,868,18,2,0.11170740922673099,0.2540442693699863,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05145,Toxoplasmosis,Toxoplasmosis,28,868,18,2,0.11170740922673099,0.2540442693699863,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04913,Ovarian steroidogenesis,Ovarian steroidogenesis,6,868,18,1,0.11847305784165035,0.26515398659732003,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05219,Bladder cancer,Bladder cancer,31,868,18,2,0.1325111953150977,0.27476586087353577,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05222,Small cell lung cancer,Small cell lung cancer,31,868,18,2,0.1325111953150977,0.27476586087353577,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04625,C-type lectin receptor signaling pathway,C-type lectin receptor signaling pathway,30,868,18,2,0.12547214312461877,0.27476586087353577,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04932,Non-alcoholic fatty liver disease,Non-alcoholic fatty liver disease,31,868,18,2,0.1325111953150977,0.27476586087353577,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04936,Alcoholic liver disease,Alcoholic liver disease,31,868,18,2,0.1325111953150977,0.27476586087353577,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04061,Viral protein interaction with cytokine and cytokine receptor,Viral protein interaction with cytokine and cytokine receptor,8,868,18,1,0.15492511657514174,0.3165861077831316,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05162,Measles,Measles,35,868,18,2,0.16156035209574765,0.32084520627418567,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05235,PD-L1 expression and PD-1 checkpoint pathway in cancer,PD-L1 expression and PD-1 checkpoint pathway in cancer,35,868,18,2,0.16156035209574765,0.32084520627418567,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04622,RIG-I-like receptor signaling pathway,RIG-I-like receptor signaling pathway,9,868,18,1,0.17261273041434883,0.3380332637271378,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04215,Apoptosis - multiple species,Apoptosis - multiple species,10,868,18,1,0.18995029834516738,0.36689030228213204,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05017,Spinocerebellar ataxia,Spinocerebellar ataxia,11,868,18,1,0.20694434803044331,0.36935636800242544,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05203,Viral carcinogenesis,Viral carcinogenesis,40,868,18,2,0.19943706777163325,0.36935636800242544,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04976,Bile secretion,Bile secretion,11,868,18,1,0.20694434803044331,0.36935636800242544,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:01523,Antifolate resistance,Antifolate resistance,11,868,18,1,0.20694434803044331,0.36935636800242544,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04922,Glucagon signaling pathway,Glucagon signaling pathway,11,868,18,1,0.20694434803044331,0.36935636800242544,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04623,Cytosolic DNA-sensing pathway,Cytosolic DNA-sensing pathway,11,868,18,1,0.20694434803044331,0.36935636800242544,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05170,Human immunodeficiency virus 1 infection,Human immunodeficiency virus 1 infection,42,868,18,2,0.21493673633867014,0.3741491336257874,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05212,Pancreatic cancer,Pancreatic cancer,42,868,18,2,0.21493673633867014,0.3741491336257874,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05131,Shigellosis,Shigellosis,43,868,18,2,0.2227418814737419,0.38300738155763103,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05169,Epstein-Barr virus infection,Epstein-Barr virus infection,44,868,18,2,0.23057788677857832,0.3870414528060029,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05160,Hepatitis C,Hepatitis C,44,868,18,2,0.23057788677857832,0.3870414528060029,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04658,Th1 and Th2 cell differentiation,Th1 and Th2 cell differentiation,13,868,18,1,0.23992743391700969,0.38884791014001274,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05134,Legionellosis,Legionellosis,13,868,18,1,0.23992743391700969,0.38884791014001274,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05120,Epithelial cell signaling in Helicobacter pylori infection,Epithelial cell signaling in Helicobacter pylori infection,13,868,18,1,0.23992743391700969,0.38884791014001274,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05206,MicroRNAs in cancer,MicroRNAs in cancer,125,868,18,4,0.25327709819946903,0.4058189868868811,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04068,FoxO signaling pathway,FoxO signaling pathway,48,868,18,2,0.2621462583117775,0.4153103642905405,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:00983,Drug metabolism - other enzymes,Drug metabolism - other enzymes,15,868,18,1,0.27161195774905084,0.4255254004722484,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05215,Prostate cancer,Prostate cancer,51,868,18,2,0.28594902672961237,0.42594229463181843,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05208,Chemical carcinogenesis - reactive oxygen species,Chemical carcinogenesis - reactive oxygen species,50,868,18,2,0.27801004192492207,0.42594229463181843,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04912,GnRH signaling pathway,GnRH signaling pathway,16,868,18,1,0.28698239709304063,0.42594229463181843,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04611,Platelet activation,Platelet activation,16,868,18,1,0.28698239709304063,0.42594229463181843,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04144,Endocytosis,Endocytosis,16,868,18,1,0.28698239709304063,0.42594229463181843,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04218,Cellular senescence,Cellular senescence,53,868,18,2,0.30182433267128156,0.4433044886101403,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05133,Pertussis,Pertussis,18,868,18,1,0.3168089804229471,0.45121279029773786,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04714,Thermogenesis,Thermogenesis,18,868,18,1,0.3168089804229471,0.45121279029773786,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04921,Oxytocin signaling pathway,Oxytocin signaling pathway,18,868,18,1,0.3168089804229471,0.45121279029773786,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05216,Thyroid cancer,Thyroid cancer,19,868,18,1,0.33127655495505526,0.4624751905794303,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04217,Necroptosis,Necroptosis,19,868,18,1,0.33127655495505526,0.4624751905794303,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04060,Cytokine-cytokine receptor interaction,Cytokine-cytokine receptor interaction,20,868,18,1,0.34545443718175134,0.4683564965629491,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05146,Amoebiasis,Amoebiasis,20,868,18,1,0.34545443718175134,0.4683564965629491,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04213,Longevity regulating pathway - multiple species,Longevity regulating pathway - multiple species,20,868,18,1,0.34545443718175134,0.4683564965629491,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05014,Amyotrophic lateral sclerosis,Amyotrophic lateral sclerosis,22,868,18,1,0.37296289149251727,0.4914744644890514,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04662,B cell receptor signaling pathway,B cell receptor signaling pathway,22,868,18,1,0.37296289149251727,0.4914744644890514,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04020,Calcium signaling pathway,Calcium signaling pathway,22,868,18,1,0.37296289149251727,0.4914744644890514,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04370,VEGF signaling pathway,VEGF signaling pathway,23,868,18,1,0.38630410656763475,0.5043414724616055,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05130,Pathogenic Escherichia coli infection,Pathogenic Escherichia coli infection,25,868,18,1,0.41218641549731483,0.5283480416816678,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04613,Neutrophil extracellular trap formation,Neutrophil extracellular trap formation,25,868,18,1,0.41218641549731483,0.5283480416816678,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04371,Apelin signaling pathway,Apelin signaling pathway,27,868,18,1,0.4370353663610981,0.5358433622324944,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04024,cAMP signaling pathway,cAMP signaling pathway,27,868,18,1,0.4370353663610981,0.5358433622324944,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04621,NOD-like receptor signaling pathway,NOD-like receptor signaling pathway,27,868,18,1,0.4370353663610981,0.5358433622324944,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04071,Sphingolipid signaling pathway,Sphingolipid signaling pathway,26,868,18,1,0.42473759523754023,0.5358433622324944,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05165,Human papillomavirus infection,Human papillomavirus infection,69,868,18,2,0.42616678235805566,0.5358433622324944,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04140,Autophagy - animal,Autophagy - animal,28,868,18,1,0.4490845499583575,0.5412044576409284,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04360,Axon guidance,Axon guidance,28,868,18,1,0.4490845499583575,0.5412044576409284,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04660,T cell receptor signaling pathway,T cell receptor signaling pathway,29,868,18,1,0.4608898810306003,0.5505479123896025,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04935,"Growth hormone synthesis, secretion and action","Growth hormone synthesis, secretion and action",30,868,18,1,0.47245600992403686,0.5505479123896025,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04722,Neurotrophin signaling pathway,Neurotrophin signaling pathway,30,868,18,1,0.47245600992403686,0.5505479123896025,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04620,Toll-like receptor signaling pathway,Toll-like receptor signaling pathway,30,868,18,1,0.47245600992403686,0.5505479123896025,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04630,JAK-STAT signaling pathway,JAK-STAT signaling pathway,31,868,18,1,0.4837875037441303,0.5591314592442622,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05142,Chagas disease,Chagas disease,32,868,18,1,0.4948888477500837,0.5673116059559224,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05168,Herpes simplex virus 1 infection,Herpes simplex virus 1 infection,33,868,18,1,0.5057644467221349,0.5751031208678922,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04210,Apoptosis,Apoptosis,36,868,18,1,0.5370796422796357,0.5780780882535871,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05152,Tuberculosis,Tuberculosis,35,868,18,1,0.5268556343789039,0.5780780882535871,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05164,Influenza A,Influenza A,36,868,18,1,0.5370796422796357,0.5780780882535871,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05135,Yersinia infection,Yersinia infection,35,868,18,1,0.5268556343789039,0.5780780882535871,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04919,Thyroid hormone signaling pathway,Thyroid hormone signaling pathway,36,868,18,1,0.5370796422796357,0.5780780882535871,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04810,Regulation of actin cytoskeleton,Regulation of actin cytoskeleton,35,868,18,1,0.5268556343789039,0.5780780882535871,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05223,Non-small cell lung cancer,Non-small cell lung cancer,34,868,18,1,0.5164186263139644,0.5780780882535871,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05132,Salmonella infection,Salmonella infection,38,868,18,1,0.5569049682769623,0.5948757615673013,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05220,Chronic myeloid leukemia,Chronic myeloid leukemia,39,868,18,1,0.5665142581219654,0.6005903037216201,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04550,Signaling pathways regulating pluripotency of stem cells,Signaling pathways regulating pluripotency of stem cells,42,868,18,1,0.5941749646646964,0.6252139553543665,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:01521,EGFR tyrosine kinase inhibitor resistance,EGFR tyrosine kinase inhibitor resistance,43,868,18,1,0.6030186095026311,0.6298194365897944,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04519,Cadherin signaling,Cadherin signaling,44,868,18,1,0.6116800216585748,0.6341682577475505,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04014,Ras signaling pathway,Ras signaling pathway,45,868,18,1,0.6201627396324964,0.6382696809338059,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05224,Breast cancer,Breast cancer,51,868,18,1,0.6674966364299803,0.6820074328719411,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04010,MAPK signaling pathway,MAPK signaling pathway,55,868,18,1,0.6958954809959955,0.7059083656131191,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:05166,Human T-cell leukemia virus 1 infection,Human T-cell leukemia virus 1 infection,56,868,18,1,0.7026284223763646,0.7076471968202227,True,,KEGG:00000,1.0,False,1.0,False
+primary_genecards881,KEGG,KEGG:04151,PI3K-Akt signaling pathway,PI3K-Akt signaling pathway,77,868,18,1,0.8153867089813782,0.8153867089797076,True,,KEGG:00000,1.0,False,1.0,False
