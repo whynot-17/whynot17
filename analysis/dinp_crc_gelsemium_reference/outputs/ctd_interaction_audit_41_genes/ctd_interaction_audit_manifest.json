@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-07T16:52:56.790585+00:00",
+  "generated_utc": "2026-09-07T23:31:26.663831+00:00",
   "script": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_gelsemium_reference\\run_ctd_interaction_type_audit.py",
   "inputs": {
     "intersection": {
@@ -15,6 +15,7 @@
   "ctd_source_record_count": 166,
   "direct_binding_gene_count": 5,
   "single_functional_response_gene_count": 11,
+  "literature_association_without_direct_single_chemical_support_gene_count": 3,
   "co_treatment_only_gene_count": 16,
   "no_ctd_gene_count": 6,
   "new_statistical_test_performed": false,
@@ -25,7 +26,7 @@
     },
     "summary": {
       "path": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_gelsemium_reference\\outputs\\ctd_interaction_audit_41_genes\\ctd_interaction_audit_summary.md",
-      "sha256": "6efa7d5398a01f84fd57fb77c78db87f27719bbb9cfb0e6a1b6215635f1a4989"
+      "sha256": "b17d1102fa531aa5267ecf6d646f6bf9f3241266bd63e77af3c1cfda5807f591"
     }
   }
 }

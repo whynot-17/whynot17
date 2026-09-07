@@ -1,10 +1,10 @@
 # CTD interaction-type audit for the fresh 41-gene DINP–CRC intersection
 
-Generated (UTC): 2026-09-07T16:52:56.789586+00:00
+Generated (UTC): 2026-09-07T23:31:26.663831+00:00
 
 ## Main result
 
-The 41-gene intersection contains **5** genes with at least one CTD DINP-specific binding/interaction action, **11** additional genes with single-chemical functional-response evidence, **16** co-treatment-only genes, and **6** genes without a CTD record.
+The 41-gene intersection contains **5** genes with at least one CTD DINP-specific binding/interaction action, **11** additional genes with single-chemical functional-response evidence, **3** literature-associated genes without direct single-chemical support, **16** co-treatment-only genes, and **6** genes without a CTD record.
 
 A CTD chemical–gene record is not automatically a direct target claim. The original action labels, single-chemical flags, co-treatment flags, and PubMed IDs are retained below so that direct interaction, functional response, and literature association remain separate.
 
@@ -12,6 +12,7 @@ A CTD chemical–gene record is not automatically a direct target claim. The ori
 |---|---:|
 | single-chemical binding or interaction | 5 |
 | single-chemical functional response without binding action | 11 |
+| literature association without direct single-chemical support | 3 |
 | co-treatment only | 16 |
 | no CTD record | 6 |
 

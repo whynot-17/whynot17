@@ -141,6 +141,7 @@ def main() -> None:
     direct_genes = [row for row in rows if row["CTD_direct_binding_record_count"] > 0]
     single_functional_genes = [row for row in rows if row["CTD_evidence_class"] == "single_chemical_functional_response"]
     cotreatment_only_genes = [row for row in rows if row["CTD_evidence_class"] == "co_treatment_only"]
+    literature_only_genes = [row for row in rows if row["CTD_evidence_class"] == "literature_association_without_direct_single_chemical_support"]
     no_ctd_genes = [row for row in rows if row["CTD_evidence_class"] == "no_CTD_record"]
     summary_lines = [
         "# CTD interaction-type audit for the fresh 41-gene DINP–CRC intersection",
@@ -149,7 +150,7 @@ def main() -> None:
         "",
         "## Main result",
         "",
-        f"The 41-gene intersection contains **{len(direct_genes)}** genes with at least one CTD DINP-specific binding/interaction action, **{len(single_functional_genes)}** additional genes with single-chemical functional-response evidence, **{len(cotreatment_only_genes)}** co-treatment-only genes, and **{len(no_ctd_genes)}** genes without a CTD record.",
+        f"The 41-gene intersection contains **{len(direct_genes)}** genes with at least one CTD DINP-specific binding/interaction action, **{len(single_functional_genes)}** additional genes with single-chemical functional-response evidence, **{len(literature_only_genes)}** literature-associated genes without direct single-chemical support, **{len(cotreatment_only_genes)}** co-treatment-only genes, and **{len(no_ctd_genes)}** genes without a CTD record.",
         "",
         "A CTD chemical–gene record is not automatically a direct target claim. The original action labels, single-chemical flags, co-treatment flags, and PubMed IDs are retained below so that direct interaction, functional response, and literature association remain separate.",
         "",
@@ -157,6 +158,7 @@ def main() -> None:
         "|---|---:|",
         f"| single-chemical binding or interaction | {len(direct_genes)} |",
         f"| single-chemical functional response without binding action | {len(single_functional_genes)} |",
+        f"| literature association without direct single-chemical support | {len(literature_only_genes)} |",
         f"| co-treatment only | {len(cotreatment_only_genes)} |",
         f"| no CTD record | {len(no_ctd_genes)} |",
         "",
@@ -196,6 +198,7 @@ def main() -> None:
         "ctd_source_record_count": len(ctd_rows),
         "direct_binding_gene_count": len(direct_genes),
         "single_functional_response_gene_count": len(single_functional_genes),
+        "literature_association_without_direct_single_chemical_support_gene_count": len(literature_only_genes),
         "co_treatment_only_gene_count": len(cotreatment_only_genes),
         "no_ctd_gene_count": len(no_ctd_genes),
         "new_statistical_test_performed": False,
@@ -211,6 +214,7 @@ def main() -> None:
     print(f"Intersection genes: {len(rows)}")
     print(f"Direct binding/interaction genes: {len(direct_genes)}")
     print(f"Single-chemical functional-response genes: {len(single_functional_genes)}")
+    print(f"Literature-association genes without direct single-chemical support: {len(literature_only_genes)}")
     print(f"Co-treatment-only genes: {len(cotreatment_only_genes)}")
     print(f"No-CTD genes: {len(no_ctd_genes)}")
     print(f"Table: {table_path.resolve()}")
