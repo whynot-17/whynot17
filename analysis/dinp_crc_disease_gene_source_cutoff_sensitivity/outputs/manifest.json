@@ -1,0 +1,43 @@
+{
+  "analysis": "DINP CTD 86-gene \u00d7 CRC disease-source cutoff sensitivity audit",
+  "run_utc": "2026-09-07T08:08:41.124313+00:00",
+  "query_definition": "All 86 genes in dinp_exposure_gene_matrix.csv; this file contains CTD=1 for all rows and no ToxCast/ChEMBL-only additions.",
+  "sources": {
+    "GeneCards": {
+      "ranking_file": "E:\\chatgpt\\whynot17\\analysis\\dinp_crc_disease_gene_source_cutoff_sensitivity\\inputs\\genecards_anywhere_crc_top2000.csv",
+      "available_n": 2000,
+      "score": "RelevanceScore",
+      "cutoffs": [
+        500,
+        1000,
+        2000
+      ]
+    },
+    "OpenTargets": {
+      "ranking_file": "E:\\chatgpt\\whynot17\\analysis\\dinp_crc_multi_database_target_convergence\\outputs\\crc_gene_matrix.csv",
+      "available_n": 15611,
+      "score": "OpenTargets_score, descending; ties broken by gene symbol",
+      "cutoffs": [
+        500,
+        1000,
+        2000
+      ]
+    }
+  },
+  "backgrounds": [
+    "cutoff_universe",
+    "available_ranked_universe"
+  ],
+  "pathway_sets": {
+    "Reactome": "E:\\chatgpt\\whynot17\\work\\gene_sets\\c2.cp.reactome.v2026.1.Hs.symbols.gmt",
+    "Hallmark": "E:\\chatgpt\\whynot17\\work\\gene_sets\\h.all.v2026.1.Hs.symbols.gmt"
+  },
+  "input_sha256": {
+    "dinp": "7e7c6f110c8e58a63af7585e75ff4d289912afd09629eeb3fa5982f79597e63a",
+    "crc": "b0e93aead4e7d23f0d239dc0ad69afc2752aa0c3205aa6880d65a6658052a271",
+    "genecards": "f09e8951a7790c460f93dae6c40fc35070c9092f72908a91bccae3292e86b7e9",
+    "reactome": "373763dce87b698513cf5a090e84236a3b0603669e56a7b43cd80eb1efaa80e1",
+    "hallmark": "76547221245ab6a88533c2d523a2d3faefbdd8fa611049b75fff89ade0957276"
+  },
+  "interpretation_guardrail": "A term or PTGER4 signal appearing only at one hand-picked cutoff is cutoff-sensitive and should not be presented as stable disease convergence. Candidate-universe enrichment is descriptive of the selected ranking universe."
+}
