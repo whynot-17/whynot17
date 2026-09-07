@@ -1,0 +1,46 @@
+{
+  "analysis": "DINP\u2013CRC 81-gene GO/KEGG background audit",
+  "run_utc": "2026-09-07T05:54:39.499166+00:00",
+  "query_n": 81,
+  "dinp_exposure_n": 86,
+  "crc_union_n": 15885,
+  "legacy_union_n": 15890,
+  "query_fraction_of_dinp": 0.9418604651162791,
+  "primary_null": "DINP exposure universe; tests whether CRC-overlapping DINP genes are selectively enriched relative to all DINP-eligible genes",
+  "descriptive_genome_warning": "Annotated-genome background is descriptive only and is not an intersection-specific null model",
+  "hashes": {
+    "query": "3b104a7a29b3498b2ccb9e5ee3a2741be5fbdc3cbe13763c10b614a65eabb85c",
+    "exposure": "03ab7abc1ed7ccf5de61bcd131eff4e5eba39028f98f18d5241eb0d87624316a",
+    "crc": "c9f0948b7421184a6be350a38c75fae1a932241fd0fe66fe893356b6170aba2d"
+  },
+  "runs": {
+    "primary_dinp_exposure_universe": {
+      "background_n": 86,
+      "response_sha256": "3573244984a36038bea5a2f6a174723a400a18af49896cb8dae9fe80eca78447",
+      "returned_terms": 4064,
+      "significant_global_fdr": 11,
+      "significant_within_source_fdr": 10
+    },
+    "sensitivity_crc_union": {
+      "background_n": 15885,
+      "response_sha256": "26826ad20bb604a73270998dabfa948aca4378e81075fe3f6d72e30637088e52",
+      "returned_terms": 4064,
+      "significant_global_fdr": 534,
+      "significant_within_source_fdr": 562
+    },
+    "legacy_exposure_crc_union": {
+      "background_n": 15890,
+      "response_sha256": "f433b90153a1e27f1eaf91e3cda1ba554bc083f6bad4c66e28bac3e0ef6afd3e",
+      "returned_terms": 4064,
+      "significant_global_fdr": 534,
+      "significant_within_source_fdr": 562
+    },
+    "descriptive_annotated_genome": {
+      "background_n": null,
+      "response_sha256": "db0c89cccbdea21c0498c51908c46719d1124f00e9168b3a18854a5ab775bbd5",
+      "returned_terms": 4064,
+      "significant_global_fdr": 634,
+      "significant_within_source_fdr": 636
+    }
+  }
+}

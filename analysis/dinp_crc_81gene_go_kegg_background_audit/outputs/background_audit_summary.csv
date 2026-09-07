@@ -1,0 +1,5 @@
+background,n_terms,n_global_fdr_lt_0_05,best_term,best_global_fdr
+primary_dinp_exposure_universe,4064,11,molecular_function,8.590274288797574e-05
+sensitivity_crc_union,4064,534,cellular response to chemical stimulus,9.278367893624397e-15
+legacy_exposure_crc_union,4064,534,cellular response to chemical stimulus,9.016218784556292e-15
+descriptive_annotated_genome,4064,634,cellular response to chemical stimulus,1.706176395887171e-18
