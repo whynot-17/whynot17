@@ -1,0 +1,119 @@
+family_id,theme_id,theme_label,gene_symbol,representative_term_count,fraction_of_family_representatives,family_top_driver,global_cleaned_term_count,global_driver_rank
+family_01,lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,SIRT1,8,0.7272727272727273,True,31,4
+family_01,lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,PPARD,7,0.6363636363636364,False,35,1
+family_01,lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,PTGS2,7,0.6363636363636364,False,32,3
+family_01,lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,CYP1A2,6,0.5454545454545454,False,13,13
+family_01,lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,PTGS1,6,0.5454545454545454,False,12,15
+family_01,lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,CYP3A4,6,0.5454545454545454,False,10,17
+family_01,lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,PPARG,5,0.45454545454545453,False,32,2
+family_01,lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,CRP,3,0.2727272727272727,False,11,16
+family_01,lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,STAT3,2,0.18181818181818182,False,20,9
+family_01,lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,RELA,1,0.09090909090909091,False,25,5
+family_01,lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,ESR1,1,0.09090909090909091,False,24,6
+family_01,lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,MMP9,1,0.09090909090909091,False,24,7
+family_01,lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,MMP2,1,0.09090909090909091,False,23,8
+family_01,lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,BECN1,1,0.09090909090909091,False,20,10
+family_01,lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,DKK1,1,0.09090909090909091,False,13,12
+family_02,inflammation_defense,Inflammation / defense / stimulus response,PPARD,4,1.0,True,35,1
+family_02,inflammation_defense,Inflammation / defense / stimulus response,PPARG,4,1.0,True,32,2
+family_02,inflammation_defense,Inflammation / defense / stimulus response,PTGS2,4,1.0,True,32,3
+family_02,inflammation_defense,Inflammation / defense / stimulus response,RELA,4,1.0,True,25,5
+family_02,inflammation_defense,Inflammation / defense / stimulus response,ESR1,4,1.0,True,24,6
+family_02,inflammation_defense,Inflammation / defense / stimulus response,MMP9,4,1.0,True,24,7
+family_02,inflammation_defense,Inflammation / defense / stimulus response,STAT3,3,0.75,False,20,9
+family_02,inflammation_defense,Inflammation / defense / stimulus response,CXCR4,3,0.75,False,13,14
+family_02,inflammation_defense,Inflammation / defense / stimulus response,NEAT1,3,0.75,False,8,18
+family_02,inflammation_defense,Inflammation / defense / stimulus response,BECN1,2,0.5,False,20,10
+family_02,inflammation_defense,Inflammation / defense / stimulus response,CRP,2,0.5,False,11,16
+family_02,inflammation_defense,Inflammation / defense / stimulus response,SIRT1,1,0.25,False,31,4
+family_02,inflammation_defense,Inflammation / defense / stimulus response,MMP2,1,0.25,False,23,8
+family_02,inflammation_defense,Inflammation / defense / stimulus response,TIMP1,1,0.25,False,18,11
+family_02,inflammation_defense,Inflammation / defense / stimulus response,DKK1,1,0.25,False,13,12
+family_03,chemical_oxygen_stress,Chemical / oxygen / abiotic stress response,PPARG,5,0.8333333333333334,True,32,2
+family_03,chemical_oxygen_stress,Chemical / oxygen / abiotic stress response,SIRT1,5,0.8333333333333334,True,31,4
+family_03,chemical_oxygen_stress,Chemical / oxygen / abiotic stress response,MMP2,5,0.8333333333333334,True,23,8
+family_03,chemical_oxygen_stress,Chemical / oxygen / abiotic stress response,BECN1,5,0.8333333333333334,True,20,10
+family_03,chemical_oxygen_stress,Chemical / oxygen / abiotic stress response,PPARD,4,0.6666666666666666,False,35,1
+family_03,chemical_oxygen_stress,Chemical / oxygen / abiotic stress response,PTGS2,4,0.6666666666666666,False,32,3
+family_03,chemical_oxygen_stress,Chemical / oxygen / abiotic stress response,RELA,3,0.5,False,25,5
+family_03,chemical_oxygen_stress,Chemical / oxygen / abiotic stress response,MMP9,3,0.5,False,24,7
+family_03,chemical_oxygen_stress,Chemical / oxygen / abiotic stress response,TIMP1,3,0.5,False,18,11
+family_03,chemical_oxygen_stress,Chemical / oxygen / abiotic stress response,ESR1,2,0.3333333333333333,False,24,6
+family_03,chemical_oxygen_stress,Chemical / oxygen / abiotic stress response,STAT3,2,0.3333333333333333,False,20,9
+family_03,chemical_oxygen_stress,Chemical / oxygen / abiotic stress response,CXCR4,2,0.3333333333333333,False,13,14
+family_03,chemical_oxygen_stress,Chemical / oxygen / abiotic stress response,DKK1,1,0.16666666666666666,False,13,12
+family_03,chemical_oxygen_stress,Chemical / oxygen / abiotic stress response,CYP1A2,1,0.16666666666666666,False,13,13
+family_03,chemical_oxygen_stress,Chemical / oxygen / abiotic stress response,PTGS1,1,0.16666666666666666,False,12,15
+family_03,chemical_oxygen_stress,Chemical / oxygen / abiotic stress response,CYP3A4,1,0.16666666666666666,False,10,17
+family_04,apoptosis_cell_death,Apoptosis / programmed cell death,PPARD,2,1.0,True,35,1
+family_04,apoptosis_cell_death,Apoptosis / programmed cell death,PTGS2,2,1.0,True,32,3
+family_04,apoptosis_cell_death,Apoptosis / programmed cell death,SIRT1,2,1.0,True,31,4
+family_04,apoptosis_cell_death,Apoptosis / programmed cell death,RELA,2,1.0,True,25,5
+family_04,apoptosis_cell_death,Apoptosis / programmed cell death,ESR1,2,1.0,True,24,6
+family_04,apoptosis_cell_death,Apoptosis / programmed cell death,MMP9,2,1.0,True,24,7
+family_04,apoptosis_cell_death,Apoptosis / programmed cell death,BECN1,2,1.0,True,20,10
+family_04,apoptosis_cell_death,Apoptosis / programmed cell death,TIMP1,2,1.0,True,18,11
+family_04,apoptosis_cell_death,Apoptosis / programmed cell death,DKK1,2,1.0,True,13,12
+family_04,apoptosis_cell_death,Apoptosis / programmed cell death,PPARG,1,0.5,False,32,2
+family_04,apoptosis_cell_death,Apoptosis / programmed cell death,MMP2,1,0.5,False,23,8
+family_04,apoptosis_cell_death,Apoptosis / programmed cell death,CXCR4,1,0.5,False,13,14
+family_05,mirna_regulation,miRNA transcription / metabolism,PPARD,2,1.0,True,35,1
+family_05,mirna_regulation,miRNA transcription / metabolism,PPARG,2,1.0,True,32,2
+family_05,mirna_regulation,miRNA transcription / metabolism,RELA,2,1.0,True,25,5
+family_05,mirna_regulation,miRNA transcription / metabolism,ESR1,2,1.0,True,24,6
+family_05,mirna_regulation,miRNA transcription / metabolism,STAT3,1,0.5,False,20,9
+family_06,signaling_receptor,Signaling / receptor / hormone response,PPARG,4,1.0,True,32,2
+family_06,signaling_receptor,Signaling / receptor / hormone response,SIRT1,4,1.0,True,31,4
+family_06,signaling_receptor,Signaling / receptor / hormone response,RELA,4,1.0,True,25,5
+family_06,signaling_receptor,Signaling / receptor / hormone response,ESR1,3,0.75,False,24,6
+family_06,signaling_receptor,Signaling / receptor / hormone response,PPARD,2,0.5,False,35,1
+family_06,signaling_receptor,Signaling / receptor / hormone response,PTGS2,2,0.5,False,32,3
+family_06,signaling_receptor,Signaling / receptor / hormone response,MMP9,2,0.5,False,24,7
+family_06,signaling_receptor,Signaling / receptor / hormone response,STAT3,2,0.5,False,20,9
+family_06,signaling_receptor,Signaling / receptor / hormone response,BECN1,2,0.5,False,20,10
+family_06,signaling_receptor,Signaling / receptor / hormone response,MMP2,1,0.25,False,23,8
+family_06,signaling_receptor,Signaling / receptor / hormone response,DKK1,1,0.25,False,13,12
+family_07,matrix_migration,Matrix remodeling / cell migration,PPARD,1,1.0,True,35,1
+family_07,matrix_migration,Matrix remodeling / cell migration,PPARG,1,1.0,True,32,2
+family_07,matrix_migration,Matrix remodeling / cell migration,PTGS2,1,1.0,True,32,3
+family_07,matrix_migration,Matrix remodeling / cell migration,SIRT1,1,1.0,True,31,4
+family_07,matrix_migration,Matrix remodeling / cell migration,MMP9,1,1.0,True,24,7
+family_07,matrix_migration,Matrix remodeling / cell migration,MMP2,1,1.0,True,23,8
+family_07,matrix_migration,Matrix remodeling / cell migration,STAT3,1,1.0,True,20,9
+family_07,matrix_migration,Matrix remodeling / cell migration,TIMP1,1,1.0,True,18,11
+family_07,matrix_migration,Matrix remodeling / cell migration,CXCR4,1,1.0,True,13,14
+family_08,development_reproduction,Development / reproduction / circulation,PPARD,10,1.0,True,35,1
+family_08,development_reproduction,Development / reproduction / circulation,PTGS2,10,1.0,True,32,3
+family_08,development_reproduction,Development / reproduction / circulation,MMP2,10,1.0,True,23,8
+family_08,development_reproduction,Development / reproduction / circulation,MMP9,9,0.9,False,24,7
+family_08,development_reproduction,Development / reproduction / circulation,TIMP1,9,0.9,False,18,11
+family_08,development_reproduction,Development / reproduction / circulation,PPARG,8,0.8,False,32,2
+family_08,development_reproduction,Development / reproduction / circulation,ESR1,8,0.8,False,24,6
+family_08,development_reproduction,Development / reproduction / circulation,SIRT1,7,0.7,False,31,4
+family_08,development_reproduction,Development / reproduction / circulation,RELA,7,0.7,False,25,5
+family_08,development_reproduction,Development / reproduction / circulation,STAT3,7,0.7,False,20,9
+family_08,development_reproduction,Development / reproduction / circulation,BECN1,6,0.6,False,20,10
+family_08,development_reproduction,Development / reproduction / circulation,DKK1,5,0.5,False,13,12
+family_08,development_reproduction,Development / reproduction / circulation,CXCR4,5,0.5,False,13,14
+family_08,development_reproduction,Development / reproduction / circulation,CRP,5,0.5,False,11,16
+family_08,development_reproduction,Development / reproduction / circulation,CYP1A2,3,0.3,False,13,13
+family_08,development_reproduction,Development / reproduction / circulation,PTGS1,3,0.3,False,12,15
+family_08,development_reproduction,Development / reproduction / circulation,NEAT1,3,0.3,False,8,18
+family_09,general_metabolism,General metabolism / biosynthesis / storage,PPARD,3,1.0,True,35,1
+family_09,general_metabolism,General metabolism / biosynthesis / storage,SIRT1,3,1.0,True,31,4
+family_09,general_metabolism,General metabolism / biosynthesis / storage,MMP2,3,1.0,True,23,8
+family_09,general_metabolism,General metabolism / biosynthesis / storage,CYP1A2,3,1.0,True,13,13
+family_09,general_metabolism,General metabolism / biosynthesis / storage,CYP3A4,3,1.0,True,10,17
+family_09,general_metabolism,General metabolism / biosynthesis / storage,PPARG,2,0.6666666666666666,False,32,2
+family_09,general_metabolism,General metabolism / biosynthesis / storage,PTGS2,2,0.6666666666666666,False,32,3
+family_09,general_metabolism,General metabolism / biosynthesis / storage,RELA,2,0.6666666666666666,False,25,5
+family_09,general_metabolism,General metabolism / biosynthesis / storage,ESR1,2,0.6666666666666666,False,24,6
+family_09,general_metabolism,General metabolism / biosynthesis / storage,MMP9,2,0.6666666666666666,False,24,7
+family_09,general_metabolism,General metabolism / biosynthesis / storage,STAT3,2,0.6666666666666666,False,20,9
+family_09,general_metabolism,General metabolism / biosynthesis / storage,BECN1,2,0.6666666666666666,False,20,10
+family_09,general_metabolism,General metabolism / biosynthesis / storage,TIMP1,2,0.6666666666666666,False,18,11
+family_09,general_metabolism,General metabolism / biosynthesis / storage,DKK1,2,0.6666666666666666,False,13,12
+family_09,general_metabolism,General metabolism / biosynthesis / storage,PTGS1,2,0.6666666666666666,False,12,15
+family_09,general_metabolism,General metabolism / biosynthesis / storage,NEAT1,2,0.6666666666666666,False,8,18
+family_09,general_metabolism,General metabolism / biosynthesis / storage,CXCR4,1,0.3333333333333333,False,13,14
+family_09,general_metabolism,General metabolism / biosynthesis / storage,CRP,1,0.3333333333333333,False,11,16

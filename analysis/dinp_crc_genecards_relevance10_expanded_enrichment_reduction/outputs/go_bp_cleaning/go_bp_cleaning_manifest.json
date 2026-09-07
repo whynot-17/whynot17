@@ -1,0 +1,60 @@
+{
+  "generated_utc": "2026-09-07T14:14:32.873245+00:00",
+  "script": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_genecards_relevance10_expanded_enrichment_reduction\\run_go_bp_semantic_cleaning.py",
+  "input_term_file": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_genecards_relevance10_expanded_enrichment_reduction\\outputs\\primary_106_terms_with_genes.csv",
+  "input_term_file_sha256": "9235a59a6711ef2a824cfa49bbbecfe8b9b83c1f3a04ed7e0517e43936f5d8d9",
+  "go_ontology_url": "https://purl.obolibrary.org/obo/go/go-basic.obo",
+  "go_ontology_cache": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\work\\gene_sets\\go-basic.obo",
+  "go_ontology_cache_sha256": "b08d45b268b8c24ccb2513dbbbc7d4df9f6521c099b413f79eb31e06e0fa3bcc",
+  "go_ontology_term_count": 48340,
+  "primary_go_bp_term_count": 99,
+  "retained_representative_count": 43,
+  "folded_term_count": 56,
+  "theme_family_count": 9,
+  "ancestor_jaccard_threshold": 0.5,
+  "non_ancestor_jaccard_threshold": null,
+  "original_enrichment_unchanged": true,
+  "reactome_mixed_in": false,
+  "query_genes": [
+    "BECN1",
+    "CRP",
+    "CXCR4",
+    "CYP1A2",
+    "CYP3A4",
+    "DKK1",
+    "ESR1",
+    "MMP2",
+    "MMP9",
+    "NEAT1",
+    "PPARD",
+    "PPARG",
+    "PTGS1",
+    "PTGS2",
+    "RELA",
+    "SIRT1",
+    "STAT3",
+    "TIMP1"
+  ],
+  "outputs": {
+    "go_bp_99_terms_cleaning.csv": {
+      "path": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_genecards_relevance10_expanded_enrichment_reduction\\outputs\\go_bp_cleaning\\go_bp_99_terms_cleaning.csv",
+      "sha256": "18b70de126082bc26174a87c9a83c4a6e52ea7c13b2c3e20b5e95fa0dcf95a97"
+    },
+    "go_bp_clean_representatives.csv": {
+      "path": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_genecards_relevance10_expanded_enrichment_reduction\\outputs\\go_bp_cleaning\\go_bp_clean_representatives.csv",
+      "sha256": "ef65deacbde127d5c20ebedbd28a66a46d67652468fdd1cf672bc4cf16bca337"
+    },
+    "go_bp_clean_theme_families.csv": {
+      "path": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_genecards_relevance10_expanded_enrichment_reduction\\outputs\\go_bp_cleaning\\go_bp_clean_theme_families.csv",
+      "sha256": "3c7b3b6d2fa4c3d71d39dc34bbfbaf20a41cccf4e55988d624ad2ab3edc50db9"
+    },
+    "go_bp_clean_theme_driver_contribution.csv": {
+      "path": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_genecards_relevance10_expanded_enrichment_reduction\\outputs\\go_bp_cleaning\\go_bp_clean_theme_driver_contribution.csv",
+      "sha256": "07e4f0275f78b13a72059226ae8f1e22efa811d63b282a4594510bc4135a9278"
+    },
+    "go_bp_cleaning_summary.md": {
+      "path": "D:\\Codex\\projectless-workspaces\\2026-08-22\\non\\work\\whynot17\\analysis\\dinp_crc_genecards_relevance10_expanded_enrichment_reduction\\outputs\\go_bp_cleaning\\go_bp_cleaning_summary.md",
+      "sha256": "0b68603242d3d5ddd3e258f854b31ed18c9830002ef9e34e4522ed1f579b9cd4"
+    }
+  }
+}

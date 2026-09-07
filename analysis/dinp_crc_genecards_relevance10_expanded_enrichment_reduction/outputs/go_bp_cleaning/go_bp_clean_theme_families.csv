@@ -1,0 +1,10 @@
+family_id,theme_id,theme_label,representative_term_count,source_count,representative_term,union_gene_count
+family_01,lipid_eicosanoid,Lipid / fatty-acid / eicosanoid metabolism,11,1,lipid biosynthetic process,15
+family_02,inflammation_defense,Inflammation / defense / stimulus response,4,1,inflammatory response,15
+family_03,chemical_oxygen_stress,Chemical / oxygen / abiotic stress response,6,1,cellular response to chemical stimulus,16
+family_04,apoptosis_cell_death,Apoptosis / programmed cell death,2,1,apoptotic process,12
+family_05,mirna_regulation,miRNA transcription / metabolism,2,1,negative regulation of miRNA transcription,5
+family_06,signaling_receptor,Signaling / receptor / hormone response,4,1,intracellular receptor signaling pathway,11
+family_07,matrix_migration,Matrix remodeling / cell migration,1,1,regulation of cell migration,9
+family_08,development_reproduction,Development / reproduction / circulation,10,1,regulation of cell population proliferation,17
+family_09,general_metabolism,General metabolism / biosynthesis / storage,3,1,regulation of biological quality,18
