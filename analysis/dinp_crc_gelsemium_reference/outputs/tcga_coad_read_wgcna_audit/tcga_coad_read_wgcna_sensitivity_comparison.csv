@@ -1,0 +1,4 @@
+analysis,network_type,cor_type,network_genes,targets_in_network,targets_projection_only,non_grey_modules,soft_power,best_non_grey_module,best_non_grey_target_overlap,best_non_grey_OR,best_non_grey_p,best_non_grey_BH_FDR
+signed_bicor_8000,signed,bicor,8000,16,25,3,8,turquoise,9,2.41717198307603,0.064203726494732,0.256814905978928
+signed_bicor_15000,signed,bicor,15000,26,15,3,7,brown,7,2.55474693700858,0.0380159795892771,0.152063918357108
+unsigned_pearson_8000,unsigned,pearson,8000,16,25,4,2,yellow,2,3.94405515240411,0.106811837988451,0.289598095584028

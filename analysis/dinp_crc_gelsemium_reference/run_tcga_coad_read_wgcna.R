@@ -16,8 +16,11 @@ allowWGCNAThreads(nThreads = 2)
 file_arg <- grep("^--file=", commandArgs(trailingOnly = FALSE), value = TRUE)
 script_dir <- if (length(file_arg)) dirname(normalizePath(sub("^--file=", "", file_arg[1]), winslash = "/")) else getwd()
 ROOT <- normalizePath(file.path(script_dir, "../.."), winslash = "/", mustWork = TRUE)
-RUNTIME <- "D:/whynot17/work/tcga_coad_read_wgcna_runtime"
-OUTPUT <- file.path(ROOT, "analysis", "dinp_crc_gelsemium_reference", "outputs", "tcga_coad_read_wgcna")
+RUNTIME <- Sys.getenv("WGCNA_RUNTIME", unset = "D:/whynot17/work/tcga_coad_read_wgcna_runtime")
+OUTPUT_SUBDIR <- Sys.getenv("WGCNA_OUTPUT_SUBDIR", unset = "tcga_coad_read_wgcna")
+NETWORK_TYPE <- Sys.getenv("WGCNA_NETWORK_TYPE", unset = "signed")
+COR_TYPE <- Sys.getenv("WGCNA_COR_TYPE", unset = "bicor")
+OUTPUT <- file.path(ROOT, "analysis", "dinp_crc_gelsemium_reference", "outputs", OUTPUT_SUBDIR)
 INPUT_MATRIX <- file.path(RUNTIME, "tcga_coad_read_expression_top_variable.csv.gz")
 INPUT_SELECTION <- file.path(OUTPUT, "tcga_coad_read_wgcna_selected_genes.csv")
 INPUT_META <- file.path(OUTPUT, "tcga_coad_read_wgcna_sample_manifest.csv")
@@ -63,14 +66,16 @@ pdf(file.path(OUTPUT, "tcga_coad_read_wgcna_sample_dendrogram.pdf"), width = 12,
 plot(sample_tree, main = "TCGA COAD + READ primary-tumour clustering", xlab = "", sub = "No automatic sample removal")
 dev.off()
 
-message("Selecting signed-network soft-threshold power")
+cor_options <- if (COR_TYPE == "bicor") list(maxPOutliers = 0.05) else list(use = "p")
+cor_fnc <- if (COR_TYPE == "pearson") "cor" else COR_TYPE
+message("Selecting ", NETWORK_TYPE, "-network soft-threshold power with ", COR_TYPE)
 powers <- c(seq(1, 10, by = 1), seq(12, 30, by = 2))
 sft <- suppressWarnings(pickSoftThreshold(
   datExpr,
   powerVector = powers,
-  networkType = "signed",
-  corFnc = "bicor",
-  corOptions = list(maxPOutliers = 0.05),
+  networkType = NETWORK_TYPE,
+  corFnc = cor_fnc,
+  corOptions = cor_options,
   verbose = 2
 ))
 sft_table <- sft$fitIndices
@@ -86,20 +91,20 @@ eligible_power <- sft_table$Power[is.finite(sft_table$SFT.R.sq) &
                                     is.finite(sft_table$mean.k.) & sft_table$mean.k. > 1]
 if (length(eligible_power)) {
   soft_power <- min(eligible_power)
-  power_rule <- "first power with signed R² >= 0.80 and mean connectivity > 1"
+  power_rule <- paste0("first power with ", NETWORK_TYPE, " R2 >= 0.80 and mean connectivity > 1")
 } else {
   finite_fit <- which(is.finite(sft_table$SFT.R.sq))
   if (!length(finite_fit)) stop("No finite soft-threshold fit was returned")
   best_fit <- finite_fit[which.max(sft_table$SFT.R.sq[finite_fit])]
   soft_power <- sft_table$Power[best_fit]
-  power_rule <- "fallback: power with maximum finite signed R²"
+  power_rule <- paste0("fallback: power with maximum finite ", NETWORK_TYPE, " R2")
 }
 message("Selected soft-threshold power: ", soft_power, " (", power_rule, ")")
 
-message("Building signed WGCNA modules")
+message("Building ", NETWORK_TYPE, " WGCNA modules")
 net <- blockwiseModules(
-  datExpr, power = soft_power, TOMType = "signed", networkType = "signed",
-  corType = "bicor", maxPOutliers = 0.05, minModuleSize = 30,
+  datExpr, power = soft_power, TOMType = NETWORK_TYPE, networkType = NETWORK_TYPE,
+  corType = COR_TYPE, maxPOutliers = 0.05, minModuleSize = 30,
   mergeCutHeight = 0.25, deepSplit = 2, pamRespectsDendro = FALSE,
   numericLabels = TRUE, saveTOMs = FALSE, maxBlockSize = ncol(datExpr), verbose = 2
 )
@@ -200,7 +205,7 @@ top_trait <- module_trait[which.max(abs(module_trait$target_score_cor)), , drop 
 report <- c(
   "# TCGA-COAD + TCGA-READ full-transcriptome WGCNA", "",
   "## Scope", "",
-  "A signed, bicor WGCNA was built from the top 8,000 genes selected by full-transcriptome MAD after gene-symbol deduplication. The fresh 41-gene DINP–CRC set was overlaid after network construction; target genes were not used to select or force network genes.", "",
+  sprintf("A %s, %s WGCNA was built from the top %d genes selected by full-transcriptome MAD after gene-symbol deduplication. The fresh 41-gene DINP–CRC set was overlaid after network construction; target genes were not used to select or force network genes.", NETWORK_TYPE, COR_TYPE, ncol(datExpr)), "",
   sprintf("- Samples: **%d** primary tumors (%d COAD, %d READ).", nrow(datExpr), sum(metadata$cohort == "COAD"), sum(metadata$cohort == "READ")),
   sprintf("- Network genes: **%d**; fresh 41-gene targets present as network genes: **%d/41**.", ncol(datExpr), length(network_targets)),
   sprintf("- Targets projected to module eigengenes only: **%d/41**.", sum(!target_overlay$in_network_input)),
@@ -217,7 +222,7 @@ report <- c(
   "- `tcga_coad_read_wgcna_sample_dendrogram.pdf`, `tcga_coad_read_wgcna_module_dendrogram.pdf`, and `tcga_coad_read_wgcna_module_trait_heatmap.pdf`: QC/overview figures.", "",
   "## Reproducibility", "",
   "- Expression scale: Xena-delivered log2(TPM+0.001).",
-  sprintf("- Network: signed bicor; power=%s; minModuleSize=30; mergeCutHeight=0.25; deepSplit=2.", soft_power),
+  sprintf("- Network: %s %s; power=%s; minModuleSize=30; mergeCutHeight=0.25; deepSplit=2.", NETWORK_TYPE, COR_TYPE, soft_power),
   sprintf("- R: %s; WGCNA: %s; dynamicTreeCut: %s; fastcluster: %s.", R.version.string, as.character(packageVersion("WGCNA")), as.character(packageVersion("dynamicTreeCut")), as.character(packageVersion("fastcluster"))),
   "- No automatic sample removal was performed; sample clustering is saved for inspection.",
   "- The 41-gene set was not used for network-gene selection."
@@ -231,7 +236,7 @@ manifest <- list(
   samples = nrow(datExpr), coad_samples = sum(metadata$cohort == "COAD"), read_samples = sum(metadata$cohort == "READ"),
   network_genes = ncol(datExpr), target_genes = length(target_genes), target_genes_present_in_network = length(network_targets), target_genes_projection_only = sum(!target_overlay$in_network_input),
   module_count_non_grey = sum(non_grey), soft_threshold_power = soft_power, soft_threshold_rule = power_rule, target_enrichment_significant_modules = nrow(sig_modules),
-  parameters = list(networkType = "signed", corType = "bicor", maxPOutliers = 0.05, minModuleSize = 30, mergeCutHeight = 0.25, deepSplit = 2),
+  parameters = list(networkType = NETWORK_TYPE, corType = COR_TYPE, maxPOutliers = 0.05, minModuleSize = 30, mergeCutHeight = 0.25, deepSplit = 2),
   interpretation_boundary = "coexpression structure and post-network target overlay; not exposure causality or direct target confirmation",
   package_versions = list(R = R.version.string, WGCNA = as.character(packageVersion("WGCNA")), dynamicTreeCut = as.character(packageVersion("dynamicTreeCut")), fastcluster = as.character(packageVersion("fastcluster")))
 )

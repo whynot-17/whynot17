@@ -1,0 +1,33 @@
+{
+  "analysis": "TCGA COAD + READ full-transcriptome WGCNA with fresh 41-gene overlay",
+  "run_timestamp_utc": "2026-09-08 01:36:32 UTC",
+  "input_matrix": "D:/whynot17/work/tcga_coad_read_wgcna_runtime_15000/tcga_coad_read_expression_top_variable.csv.gz",
+  "input_selection": "D:/Codex/projectless-workspaces/2026-08-22/non/work/whynot17/analysis/dinp_crc_gelsemium_reference/outputs/tcga_coad_read_wgcna_sensitivity_15000/tcga_coad_read_wgcna_selected_genes.csv",
+  "target_file": "D:/Codex/projectless-workspaces/2026-08-22/non/work/whynot17/analysis/dinp_crc_gelsemium_reference/outputs/query_41_genes.csv",
+  "samples": 380,
+  "coad_samples": 288,
+  "read_samples": 92,
+  "network_genes": 15000,
+  "target_genes": 41,
+  "target_genes_present_in_network": 26,
+  "target_genes_projection_only": 15,
+  "module_count_non_grey": 3,
+  "soft_threshold_power": 7,
+  "soft_threshold_rule": "first power with signed RB2 >= 0.80 and mean connectivity > 1",
+  "target_enrichment_significant_modules": 0,
+  "parameters": {
+    "networkType": "signed",
+    "corType": "bicor",
+    "maxPOutliers": 0.05,
+    "minModuleSize": 30,
+    "mergeCutHeight": 0.25,
+    "deepSplit": 2
+  },
+  "interpretation_boundary": "coexpression structure and post-network target overlay; not exposure causality or direct target confirmation",
+  "package_versions": {
+    "R": "R version 4.6.1 (2026-06-24 ucrt)",
+    "WGCNA": "1.74",
+    "dynamicTreeCut": "1.63.1",
+    "fastcluster": "1.3.0"
+  }
+}
