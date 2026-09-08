@@ -1,0 +1,330 @@
+sample_id,_study,primary disease or tissue,_sample_type,study,disease,sample_type,group,include,dataset,patient_id
+TCGA-D5-6929-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6929
+TCGA-AA-3511-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3511
+TCGA-QG-A5YX-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-QG-A5YX
+TCGA-F4-6704-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6704
+TCGA-CM-6164-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6164
+TCGA-A6-A567-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-A567
+TCGA-AA-3516-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3516
+TCGA-G4-6320-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6320
+TCGA-AY-A69D-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AY-A69D
+TCGA-AY-A8YK-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AY-A8YK
+TCGA-F4-6806-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6806
+TCGA-5M-AAT4-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-5M-AAT4
+TCGA-CM-6167-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6167
+TCGA-AZ-6603-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6603
+TCGA-CM-6168-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6168
+TCGA-G4-6314-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6314
+TCGA-F4-6808-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6808
+TCGA-AZ-4615-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-4615
+TCGA-AY-6386-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AY-6386
+TCGA-AZ-6598-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6598
+TCGA-A6-6653-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6653
+TCGA-NH-A50V-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-NH-A50V
+TCGA-AD-6899-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-6899
+TCGA-G4-6311-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6311
+TCGA-A6-2683-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2683
+TCGA-DM-A280-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A280
+TCGA-NH-A6GC-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-NH-A6GC
+TCGA-F4-6570-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6570
+TCGA-CM-6679-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6679
+TCGA-A6-4105-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-4105
+TCGA-D5-5538-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-5538
+TCGA-NH-A50U-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-NH-A50U
+TCGA-D5-6924-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6924
+TCGA-D5-6931-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6931
+TCGA-A6-5656-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5656
+TCGA-A6-6649-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6649
+TCGA-AA-3518-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3518
+TCGA-DM-A0X9-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A0X9
+TCGA-DM-A28G-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A28G
+TCGA-F4-6703-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6703
+TCGA-AA-3492-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3492
+TCGA-G4-6293-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6293
+TCGA-AA-3531-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3531
+TCGA-DM-A28E-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A28E
+TCGA-CK-6747-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-6747
+TCGA-CK-4947-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-4947
+TCGA-AD-6888-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-6888
+TCGA-F4-6809-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6809
+TCGA-CK-5914-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-5914
+TCGA-AZ-4313-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-4313
+TCGA-G4-6588-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6588
+TCGA-G4-6309-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6309
+TCGA-CM-5868-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-5868
+TCGA-F4-6855-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6855
+TCGA-AD-6964-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-6964
+TCGA-G4-6295-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6295
+TCGA-D5-5539-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-5539
+TCGA-AA-3506-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3506
+TCGA-A6-5661-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5661
+TCGA-RU-A8FL-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-RU-A8FL
+TCGA-5M-AATE-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-5M-AATE
+TCGA-AA-3712-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3712
+TCGA-A6-6648-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6648
+TCGA-A6-5662-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5662
+TCGA-DM-A1D8-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A1D8
+TCGA-D5-6539-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6539
+TCGA-AZ-6599-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6599
+TCGA-G4-6299-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6299
+TCGA-AZ-5403-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-5403
+TCGA-AD-5900-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-5900
+TCGA-D5-6898-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6898
+TCGA-AA-3489-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3489
+TCGA-DM-A1D7-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A1D7
+TCGA-AA-A02Y-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-A02Y
+TCGA-CM-6676-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6676
+TCGA-CA-5797-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CA-5797
+TCGA-AA-3496-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3496
+TCGA-NH-A8F7-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-NH-A8F7
+TCGA-AA-3712-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3712
+TCGA-CM-4743-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-4743
+TCGA-AA-3662-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3662
+TCGA-A6-3809-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-3809
+TCGA-CM-4747-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-4747
+TCGA-A6-5666-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5666
+TCGA-DM-A285-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A285
+TCGA-CM-6171-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6171
+TCGA-D5-6538-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6538
+TCGA-AA-3511-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3511
+TCGA-A6-2675-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2675
+TCGA-G4-6298-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6298
+TCGA-A6-6650-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6650
+TCGA-AM-5820-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AM-5820
+TCGA-AA-3663-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3663
+TCGA-A6-6654-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6654
+TCGA-CM-5349-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-5349
+TCGA-AZ-6599-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6599
+TCGA-A6-2686-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2686
+TCGA-AZ-6600-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6600
+TCGA-AA-3509-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3509
+TCGA-AZ-6606-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6606
+TCGA-WS-AB45-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-WS-AB45
+TCGA-AD-6548-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-6548
+TCGA-D5-6926-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6926
+TCGA-AZ-6598-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6598
+TCGA-A6-6138-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6138
+TCGA-AZ-4616-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-4616
+TCGA-A6-5659-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5659
+TCGA-AA-A02K-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-A02K
+TCGA-A6-2685-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2685
+TCGA-AZ-6601-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6601
+TCGA-DM-A1HA-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A1HA
+TCGA-AA-3713-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3713
+TCGA-G4-6627-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6627
+TCGA-AA-3502-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3502
+TCGA-AA-A01X-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-A01X
+TCGA-CK-5913-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-5913
+TCGA-4N-A93T-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-4N-A93T
+TCGA-AZ-6603-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6603
+TCGA-QG-A5YV-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-QG-A5YV
+TCGA-AZ-6607-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6607
+TCGA-G4-6321-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6321
+TCGA-D5-6536-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6536
+TCGA-A6-6140-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6140
+TCGA-A6-2682-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2682
+TCGA-A6-A566-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-A566
+TCGA-AD-6963-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-6963
+TCGA-D5-5541-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-5541
+TCGA-AM-5821-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AM-5821
+TCGA-A6-6652-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6652
+TCGA-DM-A282-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A282
+TCGA-AD-6901-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-6901
+TCGA-CM-6161-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6161
+TCGA-5M-AAT5-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-5M-AAT5
+TCGA-CK-6748-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-6748
+TCGA-A6-5665-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5665
+TCGA-AZ-4684-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-4684
+TCGA-AA-3517-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3517
+TCGA-G4-6302-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6302
+TCGA-AU-6004-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AU-6004
+TCGA-G4-6310-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6310
+TCGA-CA-5255-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CA-5255
+TCGA-NH-A6GA-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-NH-A6GA
+TCGA-AA-3655-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3655
+TCGA-A6-2678-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2678
+TCGA-CM-5863-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-5863
+TCGA-G4-6304-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6304
+TCGA-CM-6678-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6678
+TCGA-A6-5657-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5657
+TCGA-A6-2672-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2672
+TCGA-D5-6930-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6930
+TCGA-F4-6805-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6805
+TCGA-DM-A28M-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A28M
+TCGA-QL-A97D-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-QL-A97D
+TCGA-3L-AA1B-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-3L-AA1B
+TCGA-CM-5860-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-5860
+TCGA-A6-2684-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2684
+TCGA-AA-3534-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3534
+TCGA-A6-2679-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2679
+TCGA-SS-A7HO-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-SS-A7HO
+TCGA-D5-6537-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6537
+TCGA-AA-3495-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3495
+TCGA-CA-5254-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CA-5254
+TCGA-AD-A5EK-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-A5EK
+TCGA-CK-6746-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-6746
+TCGA-CA-6718-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CA-6718
+TCGA-AY-5543-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AY-5543
+TCGA-CK-4952-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-4952
+TCGA-F4-6807-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6807
+TCGA-CK-5915-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-5915
+TCGA-A6-6781-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6781
+TCGA-AZ-6605-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6605
+TCGA-AU-3779-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AU-3779
+TCGA-DM-A1D4-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A1D4
+TCGA-DM-A1D0-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A1D0
+TCGA-A6-2671-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2671
+TCGA-CM-6675-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6675
+TCGA-AY-6197-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AY-6197
+TCGA-DM-A28K-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A28K
+TCGA-G4-6307-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6307
+TCGA-CM-5861-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-5861
+TCGA-CA-5796-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CA-5796
+TCGA-AZ-4323-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-4323
+TCGA-DM-A1DA-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A1DA
+TCGA-D5-6928-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6928
+TCGA-AA-3685-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3685
+TCGA-A6-5664-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5664
+TCGA-AZ-5407-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-5407
+TCGA-AA-3522-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3522
+TCGA-AA-3496-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3496
+TCGA-AY-6196-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AY-6196
+TCGA-D5-6920-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6920
+TCGA-F4-6461-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6461
+TCGA-A6-5667-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5667
+TCGA-D5-6540-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6540
+TCGA-G4-6297-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6297
+TCGA-A6-2686-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2686
+TCGA-DM-A28F-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A28F
+TCGA-CA-5256-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CA-5256
+TCGA-A6-6142-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6142
+TCGA-AZ-6608-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6608
+TCGA-A6-6141-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6141
+TCGA-G4-6306-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6306
+TCGA-AA-3525-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3525
+TCGA-D5-6922-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6922
+TCGA-DM-A288-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A288
+TCGA-AZ-6600-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6600
+TCGA-DM-A1HB-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A1HB
+TCGA-A6-2682-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2682
+TCGA-CK-4951-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-4951
+TCGA-CK-4948-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-4948
+TCGA-F4-6856-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6856
+TCGA-F4-6569-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6569
+TCGA-CM-6163-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6163
+TCGA-D5-6535-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6535
+TCGA-5M-AAT6-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-5M-AAT6
+TCGA-A6-5662-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5662
+TCGA-AA-3526-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3526
+TCGA-AA-3514-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3514
+TCGA-AD-6895-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-6895
+TCGA-G4-6586-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6586
+TCGA-NH-A8F8-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-NH-A8F8
+TCGA-D5-6529-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6529
+TCGA-DM-A0XF-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A0XF
+TCGA-A6-5667-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5667
+TCGA-CM-6169-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6169
+TCGA-CA-6719-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CA-6719
+TCGA-D5-7000-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-7000
+TCGA-G4-6625-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6625
+TCGA-CM-6680-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6680
+TCGA-CM-6166-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6166
+TCGA-NH-A6GB-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-NH-A6GB
+TCGA-D5-6923-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6923
+TCGA-AZ-4614-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-4614
+TCGA-CM-5864-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-5864
+TCGA-AA-3655-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3655
+TCGA-CK-5912-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-5912
+TCGA-D5-6927-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6927
+TCGA-QG-A5YW-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-QG-A5YW
+TCGA-D5-6532-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6532
+TCGA-CM-6172-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6172
+TCGA-D5-6533-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6533
+TCGA-AA-3697-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3697
+TCGA-DM-A28H-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A28H
+TCGA-F4-6460-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6460
+TCGA-D5-5540-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-5540
+TCGA-A6-5660-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5660
+TCGA-F4-6463-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6463
+TCGA-CM-6170-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6170
+TCGA-AA-3662-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3662
+TCGA-QG-A5Z2-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-QG-A5Z2
+TCGA-A6-2675-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2675
+TCGA-G4-6294-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6294
+TCGA-D5-6530-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6530
+TCGA-G4-6315-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6315
+TCGA-AA-A01P-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-A01P
+TCGA-G4-6303-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6303
+TCGA-AZ-4682-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-4682
+TCGA-AA-3527-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3527
+TCGA-AD-6890-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-6890
+TCGA-AD-6889-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-6889
+TCGA-CK-4950-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-4950
+TCGA-CM-5344-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-5344
+TCGA-QG-A5Z1-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-QG-A5Z1
+TCGA-G4-6628-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6628
+TCGA-D5-6534-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6534
+TCGA-AA-3663-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3663
+TCGA-A6-5659-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5659
+TCGA-CM-5862-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-5862
+TCGA-AA-3697-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3697
+TCGA-F4-6704-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6704
+TCGA-CK-6751-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-6751
+TCGA-AD-A5EJ-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-A5EJ
+TCGA-T9-A92H-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-T9-A92H
+TCGA-AA-3713-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3713
+TCGA-CA-6716-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CA-6716
+TCGA-AA-3660-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3660
+TCGA-AA-3489-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3489
+TCGA-AA-A01Z-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-A01Z
+TCGA-D5-5537-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-5537
+TCGA-D5-6531-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6531
+TCGA-DM-A1D9-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A1D9
+TCGA-DM-A1DB-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A1DB
+TCGA-A6-A5ZU-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-A5ZU
+TCGA-NH-A5IV-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-NH-A5IV
+TCGA-A6-6651-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6651
+TCGA-CA-6715-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CA-6715
+TCGA-CM-6674-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6674
+TCGA-D5-6932-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6932
+TCGA-A6-2685-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2685
+TCGA-A6-6137-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6137
+TCGA-CK-5916-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CK-5916
+TCGA-F4-6459-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6459
+TCGA-CM-6165-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6165
+TCGA-A6-3810-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-3810
+TCGA-A6-6780-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6780
+TCGA-CM-6677-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6677
+TCGA-G4-6322-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6322
+TCGA-F4-6854-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-F4-6854
+TCGA-A6-A565-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-A565
+TCGA-A6-A56B-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-A56B
+TCGA-AY-A54L-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AY-A54L
+TCGA-A6-5665-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-5665
+TCGA-A6-2677-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2677
+TCGA-CM-6162-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-6162
+TCGA-D5-6541-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-D5-6541
+TCGA-CM-5348-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-5348
+TCGA-4T-AA8H-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-4T-AA8H
+TCGA-5M-AATA-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-5M-AATA
+TCGA-AY-A71X-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AY-A71X
+TCGA-NH-A50T-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-NH-A50T
+TCGA-AA-3520-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3520
+TCGA-DM-A28C-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A28C
+TCGA-AD-6965-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AD-6965
+TCGA-DM-A0XD-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A0XD
+TCGA-CA-6717-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CA-6717
+TCGA-A6-6782-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-6782
+TCGA-A6-2674-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2674
+TCGA-G4-6626-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6626
+TCGA-CM-4744-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-4744
+TCGA-AZ-6605-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6605
+TCGA-A6-2680-11,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,TCGA,Colon Adenocarcinoma,Solid Tissue Normal,COAD_solid_tissue_normal,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2680
+TCGA-AZ-6601-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-6601
+TCGA-A6-2684-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-A6-2684
+TCGA-AZ-4315-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AZ-4315
+TCGA-CM-4751-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-CM-4751
+TCGA-AA-3675-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3675
+TCGA-G4-6317-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-G4-6317
+TCGA-DM-A28A-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-DM-A28A
+TCGA-AA-3660-01,TCGA,Colon Adenocarcinoma,Primary Tumor,TCGA,Colon Adenocarcinoma,Primary Tumor,COAD_primary_tumor,True,TcgaTargetGtex_rsem_gene_tpm,TCGA-AA-3660

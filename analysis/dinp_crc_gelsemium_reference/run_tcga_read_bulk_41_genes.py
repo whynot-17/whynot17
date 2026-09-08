@@ -9,6 +9,7 @@ expression check, not evidence that DINP caused the observed expression shift.
 
 from __future__ import annotations
 
+import argparse
 import hashlib
 import json
 import platform
@@ -37,6 +38,7 @@ XENA_HUB = "https://toil.xenahubs.net"
 EXPRESSION_DATASET = "TcgaTargetGtex_rsem_gene_tpm"
 PHENOTYPE_DATASET = "TcgaTargetGTEX_phenotype.txt"
 DISEASE_LABEL = "Rectum Adenocarcinoma"
+COHORT = "READ"
 
 
 def bh(values: pd.Series) -> pd.Series:
@@ -79,6 +81,14 @@ def sha256_text(value: str) -> str:
     return hashlib.sha256(value.encode("utf-8")).hexdigest()
 
 
+def tumor_group() -> str:
+    return f"{COHORT}_primary_tumor"
+
+
+def normal_group() -> str:
+    return f"{COHORT}_solid_tissue_normal"
+
+
 def load_genes() -> list[str]:
     if not GENE_FILE.exists():
         raise FileNotFoundError(f"Fresh 41-gene input is missing: {GENE_FILE}")
@@ -113,8 +123,8 @@ def load_sample_manifest() -> pd.DataFrame:
     metadata["sample_type"] = metadata["_sample_type"]
     metadata["group"] = "outside_scope"
     read_mask = metadata["study"].eq("TCGA") & metadata["disease"].eq(DISEASE_LABEL)
-    metadata.loc[read_mask & metadata["sample_type"].eq("Primary Tumor"), "group"] = "READ_primary_tumor"
-    metadata.loc[read_mask & metadata["sample_type"].eq("Solid Tissue Normal"), "group"] = "READ_solid_tissue_normal"
+    metadata.loc[read_mask & metadata["sample_type"].eq("Primary Tumor"), "group"] = tumor_group()
+    metadata.loc[read_mask & metadata["sample_type"].eq("Solid Tissue Normal"), "group"] = normal_group()
     metadata["include"] = metadata["group"].ne("outside_scope")
     metadata["dataset"] = EXPRESSION_DATASET
     metadata["patient_id"] = metadata["sample_id"].where(metadata["study"].eq("TCGA"), np.nan)
@@ -143,8 +153,8 @@ def cliff_delta(x: np.ndarray, y: np.ndarray) -> float:
 
 
 def independent_stats(expression: pd.DataFrame, metadata: pd.DataFrame, genes: list[str]) -> pd.DataFrame:
-    tumor_ids = metadata.loc[metadata["group"].eq("READ_primary_tumor"), "sample_id"]
-    normal_ids = metadata.loc[metadata["group"].eq("READ_solid_tissue_normal"), "sample_id"]
+    tumor_ids = metadata.loc[metadata["group"].eq(tumor_group()), "sample_id"]
+    normal_ids = metadata.loc[metadata["group"].eq(normal_group()), "sample_id"]
     rows = []
     for gene in genes:
         tumor = expression.loc[expression.index.intersection(tumor_ids), gene].dropna().to_numpy(float)
@@ -155,7 +165,7 @@ def independent_stats(expression: pd.DataFrame, metadata: pd.DataFrame, genes: l
             statistic, p_value = np.nan, 1.0
         rows.append(
             {
-                "comparison": "READ_primary_tumor_vs_READ_solid_tissue_normal",
+                "comparison": f"{COHORT}_primary_tumor_vs_{COHORT}_solid_tissue_normal",
                 "gene": gene,
                 "tumor_n": int(len(tumor)),
                 "normal_n": int(len(normal)),
@@ -173,9 +183,9 @@ def independent_stats(expression: pd.DataFrame, metadata: pd.DataFrame, genes: l
 
 
 def paired_stats(expression: pd.DataFrame, metadata: pd.DataFrame, genes: list[str]) -> pd.DataFrame:
-    scoped = metadata[metadata["group"].isin(["READ_primary_tumor", "READ_solid_tissue_normal"])].copy()
-    tumors = scoped[scoped["group"].eq("READ_primary_tumor")].drop_duplicates("patient_id")
-    normals = scoped[scoped["group"].eq("READ_solid_tissue_normal")].drop_duplicates("patient_id")
+    scoped = metadata[metadata["group"].isin([tumor_group(), normal_group()])].copy()
+    tumors = scoped[scoped["group"].eq(tumor_group())].drop_duplicates("patient_id")
+    normals = scoped[scoped["group"].eq(normal_group())].drop_duplicates("patient_id")
     paired_ids = sorted(set(tumors["patient_id"].dropna()) & set(normals["patient_id"].dropna()))
     rows = []
     if not paired_ids:
@@ -193,7 +203,7 @@ def paired_stats(expression: pd.DataFrame, metadata: pd.DataFrame, genes: list[s
             statistic, p_value = np.nan, 1.0
         rows.append(
             {
-                "comparison": "READ_patient_paired_primary_tumor_vs_solid_normal",
+                "comparison": f"{COHORT}_patient_paired_primary_tumor_vs_solid_normal",
                 "gene": gene,
                 "paired_n": int(len(differences)),
                 "tumor_median": float(np.median(tumor_values[keep])) if keep.any() else np.nan,
@@ -213,22 +223,22 @@ def write_report(metadata: pd.DataFrame, independent: pd.DataFrame, paired: pd.D
     significant = independent[independent["BH_FDR_within_41_gene_family"] < 0.05]
     direction = int((independent["median_delta_tumor_minus_normal"] > 0).sum())
     report = [
-        "# TCGA-READ bulk validation of the fresh 41-gene DINP–CRC intersection",
+        f"# TCGA-{COHORT} bulk validation of the fresh 41-gene DINP–CRC intersection",
         "",
         "## Status",
         "",
         "This is a new bulk expression check using only the fresh 41 genes reconstructed from the published Gelsemium elegans–CRC GeneCards supplement and the frozen DINP multi-source matrix. It does not reuse the legacy 81-gene or 9-gene analyses.",
         "",
-        f"- READ primary tumour samples: **{int(counts.get('READ_primary_tumor', 0))}**",
-        f"- READ solid-tissue normal samples: **{int(counts.get('READ_solid_tissue_normal', 0))}**",
+        f"- {COHORT} primary tumour samples: **{int(counts.get(tumor_group(), 0))}**",
+        f"- {COHORT} solid-tissue normal samples: **{int(counts.get(normal_group(), 0))}**",
         f"- Genes queried: **{len(genes)}**",
         f"- Independent tumor–normal tests with BH-FDR < 0.05: **{len(significant)} / {len(genes)}**",
         f"- Positive median shifts (tumor > normal): **{direction} / {len(genes)}**",
-        f"- Patient-matched pairs available: **{len(set(metadata.loc[metadata['group'].eq('READ_primary_tumor'), 'patient_id'].dropna()) & set(metadata.loc[metadata['group'].eq('READ_solid_tissue_normal'), 'patient_id'].dropna()))}**",
+        f"- Patient-matched pairs available: **{len(set(metadata.loc[metadata['group'].eq(tumor_group()), 'patient_id'].dropna()) & set(metadata.loc[metadata['group'].eq(normal_group()), 'patient_id'].dropna()))}**",
         "",
         "## Interpretation boundary",
         "",
-        "The analysis tests whether the 41-gene DINP–CRC intersection is expressed differently in TCGA READ tumour tissue than in READ solid-tissue normal tissue. It is a disease-state and tissue-context validation only; it does not establish DINP exposure, direct target binding, causality, or temporal direction.",
+        f"The analysis tests whether the 41-gene DINP–CRC intersection is expressed differently in TCGA {COHORT} tumour tissue than in {COHORT} solid-tissue normal tissue. It is a disease-state and tissue-context validation only; it does not establish DINP exposure, direct target binding, causality, or temporal direction.",
         "",
         "The primary inferential family is the 41 queried genes, with BH-FDR applied across all 41 independent Mann–Whitney tests. Patient-paired results, when available, are reported separately and are not used to rescue or re-rank the independent analysis.",
         "",
@@ -243,35 +253,42 @@ def write_report(metadata: pd.DataFrame, independent: pd.DataFrame, paired: pd.D
         "",
         "## Outputs",
         "",
-        "- `tcga_read_sample_manifest.csv`: complete Xena phenotype mapping and inclusion flag.",
-        "- `tcga_read_expression_41_genes.csv`: downloaded expression matrix for the scoped READ samples.",
-        "- `tcga_read_independent_gene_stats.csv`: independent tumor–normal comparison with 41-gene BH-FDR.",
-        "- `tcga_read_paired_gene_stats.csv`: available patient-matched sensitivity comparison.",
-        "- `tcga_read_bulk_manifest.json`: source, input hash and run metadata.",
+        f"- `tcga_{COHORT.lower()}_sample_manifest.csv`: complete Xena phenotype mapping and inclusion flag.",
+        f"- `tcga_{COHORT.lower()}_expression_41_genes.csv`: downloaded expression matrix for the scoped {COHORT} samples.",
+        f"- `tcga_{COHORT.lower()}_independent_gene_stats.csv`: independent tumor–normal comparison with 41-gene BH-FDR.",
+        f"- `tcga_{COHORT.lower()}_paired_gene_stats.csv`: available patient-matched sensitivity comparison.",
+        f"- `tcga_{COHORT.lower()}_bulk_manifest.json`: source, input hash and run metadata.",
         "",
         "## Caveat",
         "",
-        "READ solid-tissue normal availability is limited in TCGA. If the normal reference is small, the estimate is treated as a precision-limited tissue comparison rather than a definitive universal CRC direction. COAD, GTEx colon, and single-cell analyses are separate contexts and are not silently pooled into this READ-only run.",
+        f"{COHORT} solid-tissue normal availability is limited in TCGA. If the normal reference is small, the estimate is treated as a precision-limited tissue comparison rather than a definitive universal CRC direction. The other TCGA CRC subtype, GTEx colon, and single-cell analyses are separate contexts and are not silently pooled into this {COHORT}-only run.",
     ]
-    (OUTPUT / "TCGA_READ_BULK_41_GENE_REPORT.md").write_text("\n".join(report) + "\n", encoding="utf-8")
+    (OUTPUT / f"TCGA_{COHORT}_BULK_41_GENE_REPORT.md").write_text("\n".join(report) + "\n", encoding="utf-8")
     return {
-        "read_primary_tumor": int(counts.get("READ_primary_tumor", 0)),
-        "read_solid_tissue_normal": int(counts.get("READ_solid_tissue_normal", 0)),
+        "primary_tumor": int(counts.get(tumor_group(), 0)),
+        "solid_tissue_normal": int(counts.get(normal_group(), 0)),
         "queried_genes": len(genes),
         "independent_fdr_positive": int(len(significant)),
         "positive_median_shifts": direction,
-        "paired_pairs": int(len(set(metadata.loc[metadata["group"].eq("READ_primary_tumor"), "patient_id"].dropna()) & set(metadata.loc[metadata["group"].eq("READ_solid_tissue_normal"), "patient_id"].dropna()))),
+        "paired_pairs": int(len(set(metadata.loc[metadata["group"].eq(tumor_group()), "patient_id"].dropna()) & set(metadata.loc[metadata["group"].eq(normal_group()), "patient_id"].dropna()))),
         "expression_samples": int(expression.shape[0]),
     }
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Run fresh 41-gene TCGA READ or COAD bulk validation")
+    parser.add_argument("--cohort", choices=["READ", "COAD"], default="READ")
+    args = parser.parse_args()
+    global COHORT, DISEASE_LABEL, OUTPUT
+    COHORT = args.cohort
+    DISEASE_LABEL = "Rectum Adenocarcinoma" if COHORT == "READ" else "Colon Adenocarcinoma"
+    OUTPUT = FRESH_DIR / "outputs" / f"tcga_{COHORT.lower()}_bulk_41_genes"
     OUTPUT.mkdir(parents=True, exist_ok=True)
     genes = load_genes()
     metadata = load_sample_manifest()
     scoped_ids = metadata.loc[metadata["include"], "sample_id"].tolist()
     if not scoped_ids:
-        raise RuntimeError("No TCGA-READ samples were selected from the Xena phenotype table")
+        raise RuntimeError(f"No TCGA-{COHORT} samples were selected from the Xena phenotype table")
     expression = load_expression(scoped_ids, genes)
     metadata = metadata[metadata["sample_id"].isin(expression.index)].copy()
     expression = expression.reindex(metadata["sample_id"])
@@ -296,23 +313,25 @@ def main() -> None:
             independent = independent.merge(evidence_subset, on="gene", how="left")
             paired = paired.merge(evidence_subset, on="gene", how="left")
 
-    metadata.to_csv(OUTPUT / "tcga_read_sample_manifest.csv", index=False)
-    expression.to_csv(OUTPUT / "tcga_read_expression_41_genes.csv")
-    independent.to_csv(OUTPUT / "tcga_read_independent_gene_stats.csv", index=False)
-    paired.to_csv(OUTPUT / "tcga_read_paired_gene_stats.csv", index=False)
+    prefix = f"tcga_{COHORT.lower()}"
+    metadata.to_csv(OUTPUT / f"{prefix}_sample_manifest.csv", index=False)
+    expression.to_csv(OUTPUT / f"{prefix}_expression_41_genes.csv")
+    independent.to_csv(OUTPUT / f"{prefix}_independent_gene_stats.csv", index=False)
+    paired.to_csv(OUTPUT / f"{prefix}_paired_gene_stats.csv", index=False)
     summary = write_report(metadata, independent, paired, genes, expression)
 
     manifest = {
-        "analysis": "TCGA-READ fresh 41-gene bulk expression validation",
+        "analysis": f"TCGA-{COHORT} fresh 41-gene bulk expression validation",
         "run_timestamp_utc": datetime.now(timezone.utc).isoformat(),
         "script": str(Path(__file__).relative_to(ROOT)),
         "xena_hub": XENA_HUB,
         "expression_dataset": EXPRESSION_DATASET,
         "phenotype_dataset": PHENOTYPE_DATASET,
+        "cohort": COHORT,
         "disease_label": DISEASE_LABEL,
         "groups": {
-            "tumor": "TCGA + Rectum Adenocarcinoma + Primary Tumor",
-            "normal": "TCGA + Rectum Adenocarcinoma + Solid Tissue Normal",
+            "tumor": f"TCGA + {DISEASE_LABEL} + Primary Tumor",
+            "normal": f"TCGA + {DISEASE_LABEL} + Solid Tissue Normal",
         },
         "gene_input": str(GENE_FILE.relative_to(ROOT)),
         "gene_input_sha256": sha256_file(GENE_FILE),
@@ -322,7 +341,7 @@ def main() -> None:
         "analysis_boundary": "bulk tumor-normal disease-state validation; not exposure causality or direct target confirmation",
         "python": platform.python_version(),
     }
-    (OUTPUT / "tcga_read_bulk_manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (OUTPUT / f"tcga_{COHORT.lower()}_bulk_manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":
