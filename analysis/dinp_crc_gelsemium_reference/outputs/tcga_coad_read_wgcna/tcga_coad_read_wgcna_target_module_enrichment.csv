@@ -1,0 +1,5 @@
+"module","module_size","target_genes_in_network","target_overlap","non_target_in_module","odds_ratio","p_value","BH_FDR_across_WGCNA_modules"
+"blue",276,16,0,276,0,1,1
+"brown",200,16,1,199,2.60753142882217,0.333336625945263,0.666673251890526
+"grey",4743,16,6,4737,0.411316950433733,0.978003272581636,1
+"turquoise",2781,16,9,2772,2.41717198307603,0.064203726494732,0.256814905978928
