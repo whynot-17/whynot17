@@ -1,0 +1,9 @@
+compartment,group,n_cells,n_donors,n_cell_types
+endothelial,colon adenocarcinoma,4912,60,6
+endothelial,normal,2608,35,6
+epithelial,colon adenocarcinoma,113216,62,9
+epithelial,normal,55079,36,7
+fibroblast,colon adenocarcinoma,3031,58,2
+fibroblast,normal,2200,35,2
+myeloid,colon adenocarcinoma,39167,62,7
+myeloid,normal,2947,36,7
