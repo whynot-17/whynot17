@@ -1,10 +1,11 @@
 {
   "analysis": "TCGA-READ fresh 41-gene bulk expression validation",
-  "run_timestamp_utc": "2026-09-07T23:49:17.253054+00:00",
+  "run_timestamp_utc": "2026-09-08T00:17:10.649272+00:00",
   "script": "analysis/dinp_crc_gelsemium_reference/run_tcga_read_bulk_41_genes.py",
   "xena_hub": "https://toil.xenahubs.net",
   "expression_dataset": "TcgaTargetGtex_rsem_gene_tpm",
   "phenotype_dataset": "TcgaTargetGTEX_phenotype.txt",
+  "cohort": "READ",
   "disease_label": "Rectum Adenocarcinoma",
   "groups": {
     "tumor": "TCGA + Rectum Adenocarcinoma + Primary Tumor",
@@ -57,8 +58,8 @@
     "TIMP2"
   ],
   "summary": {
-    "read_primary_tumor": 92,
-    "read_solid_tissue_normal": 10,
+    "primary_tumor": 92,
+    "solid_tissue_normal": 10,
     "queried_genes": 41,
     "independent_fdr_positive": 18,
     "positive_median_shifts": 15,

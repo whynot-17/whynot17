@@ -1,0 +1,51 @@
+{
+  "analysis": "Offline audit of fresh TCGA-COAD and TCGA-READ bulk validations",
+  "run_timestamp_utc": "2026-09-08T00:17:15.384578+00:00",
+  "script": "analysis/dinp_crc_gelsemium_reference/audit_tcga_coad_read_bulk.py",
+  "gene_input": "analysis/dinp_crc_gelsemium_reference/outputs/query_41_genes.csv",
+  "gene_input_sha256": "5f0c544e97a8f78dec5976e4e0ba5a4a62ef013829fd61bea880f8655495dd3e",
+  "cohorts": {
+    "READ": {
+      "directory": "analysis/dinp_crc_gelsemium_reference/outputs/tcga_read_bulk_41_genes",
+      "summary": {
+        "cohort": "READ",
+        "primary_tumor": 92,
+        "solid_tissue_normal": 10,
+        "paired_pairs": 6,
+        "genes": 41,
+        "independent_fdr_positive": 18,
+        "independent_recompute_pass": true,
+        "errors": 0,
+        "warnings": [
+          "small paired sensitivity set (n=6)",
+          "small independent normal reference (n=10)"
+        ]
+      },
+      "errors": []
+    },
+    "COAD": {
+      "directory": "analysis/dinp_crc_gelsemium_reference/outputs/tcga_coad_bulk_41_genes",
+      "summary": {
+        "cohort": "COAD",
+        "primary_tumor": 288,
+        "solid_tissue_normal": 41,
+        "paired_pairs": 26,
+        "genes": 41,
+        "independent_fdr_positive": 31,
+        "independent_recompute_pass": true,
+        "errors": 0,
+        "warnings": []
+      },
+      "errors": []
+    }
+  },
+  "cross_cohort": {
+    "shared_fdr_positive": 17,
+    "direction_concordant": 33,
+    "spearman_rho": 0.7868595329383059,
+    "spearman_p": 1.062126368552622e-09
+  },
+  "status": "PASS",
+  "analysis_boundary": "offline implementation and result reproducibility audit; not exposure causality or mechanistic validation",
+  "python": "3.11.16"
+}

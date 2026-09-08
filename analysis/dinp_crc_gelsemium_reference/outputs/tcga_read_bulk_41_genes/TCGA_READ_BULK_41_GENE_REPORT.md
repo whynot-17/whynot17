@@ -36,4 +36,4 @@ The primary inferential family is the 41 queried genes, with BH-FDR applied acro
 
 ## Caveat
 
-READ solid-tissue normal availability is limited in TCGA. If the normal reference is small, the estimate is treated as a precision-limited tissue comparison rather than a definitive universal CRC direction. COAD, GTEx colon, and single-cell analyses are separate contexts and are not silently pooled into this READ-only run.
+READ solid-tissue normal availability is limited in TCGA. If the normal reference is small, the estimate is treated as a precision-limited tissue comparison rather than a definitive universal CRC direction. The other TCGA CRC subtype, GTEx colon, and single-cell analyses are separate contexts and are not silently pooled into this READ-only run.
