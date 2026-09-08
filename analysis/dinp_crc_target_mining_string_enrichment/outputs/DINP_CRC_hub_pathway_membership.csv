@@ -1,0 +1,450 @@
+﻿analysis_category,category,term,description,reduced_rank,fdr,fdr_numeric,p_value,gene_symbol,string_id,hub_rank,degree,membership_basis
+GO_BP,Process,GO:0070887,Cellular response to chemical stimulus,1.0,6.12e-36,6.120000000000001e-36,3.9e-40,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0070887,Cellular response to chemical stimulus,1.0,6.12e-36,6.120000000000001e-36,3.9e-40,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0070887,Cellular response to chemical stimulus,1.0,6.12e-36,6.120000000000001e-36,3.9e-40,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0070887,Cellular response to chemical stimulus,1.0,6.12e-36,6.120000000000001e-36,3.9e-40,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0070887,Cellular response to chemical stimulus,1.0,6.12e-36,6.120000000000001e-36,3.9e-40,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0070887,Cellular response to chemical stimulus,1.0,6.12e-36,6.120000000000001e-36,3.9e-40,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0070887,Cellular response to chemical stimulus,1.0,6.12e-36,6.120000000000001e-36,3.9e-40,PPARG,9606.ENSP00000287820,7,23,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0070887,Cellular response to chemical stimulus,1.0,6.12e-36,6.120000000000001e-36,3.9e-40,MMP9,9606.ENSP00000361405,8,21,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0070887,Cellular response to chemical stimulus,1.0,6.12e-36,6.120000000000001e-36,3.9e-40,IFNG,9606.ENSP00000229135,9,20,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0070887,Cellular response to chemical stimulus,1.0,6.12e-36,6.120000000000001e-36,3.9e-40,SIRT1,9606.ENSP00000212015,10,19,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0070887,Cellular response to chemical stimulus,1.0,6.12e-36,6.120000000000001e-36,3.9e-40,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0070887,Cellular response to chemical stimulus,1.0,6.12e-36,6.120000000000001e-36,3.9e-40,IL13,9606.ENSP00000304915,13,17,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0070887,Cellular response to chemical stimulus,1.0,6.12e-36,6.120000000000001e-36,3.9e-40,ESR1,9606.ENSP00000405330,14,17,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0070887,Cellular response to chemical stimulus,1.0,6.12e-36,6.120000000000001e-36,3.9e-40,IL1A,9606.ENSP00000263339,15,16,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0070887,Cellular response to chemical stimulus,1.0,6.12e-36,6.120000000000001e-36,3.9e-40,PPARA,9606.ENSP00000385523,16,16,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0070887,Cellular response to chemical stimulus,1.0,6.12e-36,6.120000000000001e-36,3.9e-40,CEBPB,9606.ENSP00000305422,17,15,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0070887,Cellular response to chemical stimulus,1.0,6.12e-36,6.120000000000001e-36,3.9e-40,ADIPOQ,9606.ENSP00000389814,18,15,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0070887,Cellular response to chemical stimulus,1.0,6.12e-36,6.120000000000001e-36,3.9e-40,SREBF1,9606.ENSP00000348069,19,14,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0070887,Cellular response to chemical stimulus,1.0,6.12e-36,6.120000000000001e-36,3.9e-40,IL18,9606.ENSP00000280357,20,13,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0051128,Regulation of cellular component organization,2.0,1.25e-12,1.25e-12,1e-14,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0051128,Regulation of cellular component organization,2.0,1.25e-12,1.25e-12,1e-14,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0051128,Regulation of cellular component organization,2.0,1.25e-12,1.25e-12,1e-14,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+GO_BP,Process,GO:1901362,Organic cyclic compound biosynthetic process,3.0,1.25e-12,1.25e-12,9.98e-15,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0051128,Regulation of cellular component organization,2.0,1.25e-12,1.25e-12,1e-14,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+GO_BP,Process,GO:1901362,Organic cyclic compound biosynthetic process,3.0,1.25e-12,1.25e-12,9.98e-15,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0051128,Regulation of cellular component organization,2.0,1.25e-12,1.25e-12,1e-14,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0051128,Regulation of cellular component organization,2.0,1.25e-12,1.25e-12,1e-14,PPARG,9606.ENSP00000287820,7,23,significant nonredundant STRING representative terms
+GO_BP,Process,GO:1901362,Organic cyclic compound biosynthetic process,3.0,1.25e-12,1.25e-12,9.98e-15,PPARG,9606.ENSP00000287820,7,23,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0051128,Regulation of cellular component organization,2.0,1.25e-12,1.25e-12,1e-14,MMP9,9606.ENSP00000361405,8,21,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0051128,Regulation of cellular component organization,2.0,1.25e-12,1.25e-12,1e-14,IFNG,9606.ENSP00000229135,9,20,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0051128,Regulation of cellular component organization,2.0,1.25e-12,1.25e-12,1e-14,SIRT1,9606.ENSP00000212015,10,19,significant nonredundant STRING representative terms
+GO_BP,Process,GO:1901362,Organic cyclic compound biosynthetic process,3.0,1.25e-12,1.25e-12,9.98e-15,SIRT1,9606.ENSP00000212015,10,19,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0051128,Regulation of cellular component organization,2.0,1.25e-12,1.25e-12,1e-14,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+GO_BP,Process,GO:1901362,Organic cyclic compound biosynthetic process,3.0,1.25e-12,1.25e-12,9.98e-15,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0051128,Regulation of cellular component organization,2.0,1.25e-12,1.25e-12,1e-14,ESR1,9606.ENSP00000405330,14,17,significant nonredundant STRING representative terms
+GO_BP,Process,GO:1901362,Organic cyclic compound biosynthetic process,3.0,1.25e-12,1.25e-12,9.98e-15,ESR1,9606.ENSP00000405330,14,17,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0051128,Regulation of cellular component organization,2.0,1.25e-12,1.25e-12,1e-14,IL1A,9606.ENSP00000263339,15,16,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0051128,Regulation of cellular component organization,2.0,1.25e-12,1.25e-12,1e-14,PPARA,9606.ENSP00000385523,16,16,significant nonredundant STRING representative terms
+GO_BP,Process,GO:1901362,Organic cyclic compound biosynthetic process,3.0,1.25e-12,1.25e-12,9.98e-15,CEBPB,9606.ENSP00000305422,17,15,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0051128,Regulation of cellular component organization,2.0,1.25e-12,1.25e-12,1e-14,ADIPOQ,9606.ENSP00000389814,18,15,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0051128,Regulation of cellular component organization,2.0,1.25e-12,1.25e-12,1e-14,SREBF1,9606.ENSP00000348069,19,14,significant nonredundant STRING representative terms
+GO_BP,Process,GO:1901362,Organic cyclic compound biosynthetic process,3.0,1.25e-12,1.25e-12,9.98e-15,SREBF1,9606.ENSP00000348069,19,14,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0008202,Steroid metabolic process,4.0,2.24e-12,2.24e-12,1.9e-14,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0008202,Steroid metabolic process,4.0,2.24e-12,2.24e-12,1.9e-14,ESR1,9606.ENSP00000405330,14,17,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0008202,Steroid metabolic process,4.0,2.24e-12,2.24e-12,1.9e-14,SREBF1,9606.ENSP00000348069,19,14,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0050790,Regulation of catalytic activity,5.0,2.98e-11,2.98e-11,3.19e-13,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0050790,Regulation of catalytic activity,5.0,2.98e-11,2.98e-11,3.19e-13,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0050790,Regulation of catalytic activity,5.0,2.98e-11,2.98e-11,3.19e-13,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0050790,Regulation of catalytic activity,5.0,2.98e-11,2.98e-11,3.19e-13,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0050790,Regulation of catalytic activity,5.0,2.98e-11,2.98e-11,3.19e-13,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0050790,Regulation of catalytic activity,5.0,2.98e-11,2.98e-11,3.19e-13,PPARG,9606.ENSP00000287820,7,23,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0050790,Regulation of catalytic activity,5.0,2.98e-11,2.98e-11,3.19e-13,MMP9,9606.ENSP00000361405,8,21,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0050790,Regulation of catalytic activity,5.0,2.98e-11,2.98e-11,3.19e-13,IFNG,9606.ENSP00000229135,9,20,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0050790,Regulation of catalytic activity,5.0,2.98e-11,2.98e-11,3.19e-13,SIRT1,9606.ENSP00000212015,10,19,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0050790,Regulation of catalytic activity,5.0,2.98e-11,2.98e-11,3.19e-13,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0050790,Regulation of catalytic activity,5.0,2.98e-11,2.98e-11,3.19e-13,IL13,9606.ENSP00000304915,13,17,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0050790,Regulation of catalytic activity,5.0,2.98e-11,2.98e-11,3.19e-13,ESR1,9606.ENSP00000405330,14,17,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0050790,Regulation of catalytic activity,5.0,2.98e-11,2.98e-11,3.19e-13,IL1A,9606.ENSP00000263339,15,16,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0050790,Regulation of catalytic activity,5.0,2.98e-11,2.98e-11,3.19e-13,ADIPOQ,9606.ENSP00000389814,18,15,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0050790,Regulation of catalytic activity,5.0,2.98e-11,2.98e-11,3.19e-13,IL18,9606.ENSP00000280357,20,13,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0150077,Regulation of neuroinflammatory response,7.0,4.54e-11,4.54e-11,4.98e-13,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0002683,Negative regulation of immune system process,6.0,4.54e-11,4.54e-11,4.98e-13,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0150077,Regulation of neuroinflammatory response,7.0,4.54e-11,4.54e-11,4.98e-13,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0002683,Negative regulation of immune system process,6.0,4.54e-11,4.54e-11,4.98e-13,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0150077,Regulation of neuroinflammatory response,7.0,4.54e-11,4.54e-11,4.98e-13,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0002683,Negative regulation of immune system process,6.0,4.54e-11,4.54e-11,4.98e-13,PPARG,9606.ENSP00000287820,7,23,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0150077,Regulation of neuroinflammatory response,7.0,4.54e-11,4.54e-11,4.98e-13,MMP9,9606.ENSP00000361405,8,21,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0002683,Negative regulation of immune system process,6.0,4.54e-11,4.54e-11,4.98e-13,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0150077,Regulation of neuroinflammatory response,7.0,4.54e-11,4.54e-11,4.98e-13,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0002683,Negative regulation of immune system process,6.0,4.54e-11,4.54e-11,4.98e-13,CEBPB,9606.ENSP00000305422,17,15,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0002683,Negative regulation of immune system process,6.0,4.54e-11,4.54e-11,4.98e-13,ADIPOQ,9606.ENSP00000389814,18,15,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0150077,Regulation of neuroinflammatory response,7.0,4.54e-11,4.54e-11,4.98e-13,IL18,9606.ENSP00000280357,20,13,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0009894,Regulation of catabolic process,8.0,6.69e-10,6.69e-10,9.18e-12,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0009894,Regulation of catabolic process,8.0,6.69e-10,6.69e-10,9.18e-12,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0009894,Regulation of catabolic process,8.0,6.69e-10,6.69e-10,9.18e-12,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0009894,Regulation of catabolic process,8.0,6.69e-10,6.69e-10,9.18e-12,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0009894,Regulation of catabolic process,8.0,6.69e-10,6.69e-10,9.18e-12,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0009894,Regulation of catabolic process,8.0,6.69e-10,6.69e-10,9.18e-12,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0009894,Regulation of catabolic process,8.0,6.69e-10,6.69e-10,9.18e-12,IFNG,9606.ENSP00000229135,9,20,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0009894,Regulation of catabolic process,8.0,6.69e-10,6.69e-10,9.18e-12,SIRT1,9606.ENSP00000212015,10,19,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0009894,Regulation of catabolic process,8.0,6.69e-10,6.69e-10,9.18e-12,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0009894,Regulation of catabolic process,8.0,6.69e-10,6.69e-10,9.18e-12,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0009894,Regulation of catabolic process,8.0,6.69e-10,6.69e-10,9.18e-12,PPARA,9606.ENSP00000385523,16,16,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0009894,Regulation of catabolic process,8.0,6.69e-10,6.69e-10,9.18e-12,SREBF1,9606.ENSP00000348069,19,14,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0050708,Regulation of protein secretion,9.0,2.39e-08,2.39e-08,4.53e-10,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0050708,Regulation of protein secretion,9.0,2.39e-08,2.39e-08,4.53e-10,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0050708,Regulation of protein secretion,9.0,2.39e-08,2.39e-08,4.53e-10,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0050708,Regulation of protein secretion,9.0,2.39e-08,2.39e-08,4.53e-10,PPARG,9606.ENSP00000287820,7,23,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0050708,Regulation of protein secretion,9.0,2.39e-08,2.39e-08,4.53e-10,IFNG,9606.ENSP00000229135,9,20,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0050708,Regulation of protein secretion,9.0,2.39e-08,2.39e-08,4.53e-10,IL13,9606.ENSP00000304915,13,17,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0050708,Regulation of protein secretion,9.0,2.39e-08,2.39e-08,4.53e-10,IL1A,9606.ENSP00000263339,15,16,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0050708,Regulation of protein secretion,9.0,2.39e-08,2.39e-08,4.53e-10,SREBF1,9606.ENSP00000348069,19,14,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0001525,Angiogenesis,10.0,4.8e-08,4.8e-08,9.64e-10,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0001525,Angiogenesis,10.0,4.8e-08,4.8e-08,9.64e-10,SIRT1,9606.ENSP00000212015,10,19,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0001525,Angiogenesis,10.0,4.8e-08,4.8e-08,9.64e-10,IL18,9606.ENSP00000280357,20,13,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0045766,Positive regulation of angiogenesis,11.0,4.85e-08,4.85e-08,9.76e-10,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0045766,Positive regulation of angiogenesis,11.0,4.85e-08,4.85e-08,9.76e-10,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0045766,Positive regulation of angiogenesis,11.0,4.85e-08,4.85e-08,9.76e-10,SIRT1,9606.ENSP00000212015,10,19,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0045766,Positive regulation of angiogenesis,11.0,4.85e-08,4.85e-08,9.76e-10,IL1A,9606.ENSP00000263339,15,16,significant nonredundant STRING representative terms
+GO_BP,Process,GO:1904035,Regulation of epithelial cell apoptotic process,12.0,2e-07,2e-07,4.66e-09,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+GO_BP,Process,GO:1904035,Regulation of epithelial cell apoptotic process,12.0,2e-07,2e-07,4.66e-09,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+GO_BP,Process,GO:1904035,Regulation of epithelial cell apoptotic process,12.0,2e-07,2e-07,4.66e-09,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+GO_BP,Process,GO:1904035,Regulation of epithelial cell apoptotic process,12.0,2e-07,2e-07,4.66e-09,IL13,9606.ENSP00000304915,13,17,significant nonredundant STRING representative terms
+GO_BP,Process,GO:1904035,Regulation of epithelial cell apoptotic process,12.0,2e-07,2e-07,4.66e-09,ESR1,9606.ENSP00000405330,14,17,significant nonredundant STRING representative terms
+GO_BP,Process,GO:1904035,Regulation of epithelial cell apoptotic process,12.0,2e-07,2e-07,4.66e-09,PPARA,9606.ENSP00000385523,16,16,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0045444,Fat cell differentiation,13.0,4.53e-07,4.53e-07,1.12e-08,PPARG,9606.ENSP00000287820,7,23,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0045444,Fat cell differentiation,13.0,4.53e-07,4.53e-07,1.12e-08,SIRT1,9606.ENSP00000212015,10,19,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0045444,Fat cell differentiation,13.0,4.53e-07,4.53e-07,1.12e-08,CEBPB,9606.ENSP00000305422,17,15,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0045444,Fat cell differentiation,13.0,4.53e-07,4.53e-07,1.12e-08,ADIPOQ,9606.ENSP00000389814,18,15,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0045444,Fat cell differentiation,13.0,4.53e-07,4.53e-07,1.12e-08,SREBF1,9606.ENSP00000348069,19,14,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0043030,Regulation of macrophage activation,14.0,1.07e-06,1.07e-06,2.8e-08,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0043030,Regulation of macrophage activation,14.0,1.07e-06,1.07e-06,2.8e-08,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0043030,Regulation of macrophage activation,14.0,1.07e-06,1.07e-06,2.8e-08,IL13,9606.ENSP00000304915,13,17,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0010594,Regulation of endothelial cell migration,15.0,6.71e-06,6.71e-06,2.08e-07,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0010594,Regulation of endothelial cell migration,15.0,6.71e-06,6.71e-06,2.08e-07,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0010594,Regulation of endothelial cell migration,15.0,6.71e-06,6.71e-06,2.08e-07,PPARG,9606.ENSP00000287820,7,23,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0010594,Regulation of endothelial cell migration,15.0,6.71e-06,6.71e-06,2.08e-07,SIRT1,9606.ENSP00000212015,10,19,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0022008,Neurogenesis,16.0,7.32e-06,7.32e-06,2.3e-07,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0022008,Neurogenesis,16.0,7.32e-06,7.32e-06,2.3e-07,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0022008,Neurogenesis,16.0,7.32e-06,7.32e-06,2.3e-07,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0022008,Neurogenesis,16.0,7.32e-06,7.32e-06,2.3e-07,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0022008,Neurogenesis,16.0,7.32e-06,7.32e-06,2.3e-07,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0022008,Neurogenesis,16.0,7.32e-06,7.32e-06,2.3e-07,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0022008,Neurogenesis,16.0,7.32e-06,7.32e-06,2.3e-07,IFNG,9606.ENSP00000229135,9,20,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0022008,Neurogenesis,16.0,7.32e-06,7.32e-06,2.3e-07,CEBPB,9606.ENSP00000305422,17,15,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0044283,Small molecule biosynthetic process,17.0,1.01e-05,1.01e-05,3.32e-07,PPARA,9606.ENSP00000385523,16,16,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0044283,Small molecule biosynthetic process,17.0,1.01e-05,1.01e-05,3.32e-07,SREBF1,9606.ENSP00000348069,19,14,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0070141,Response to UV-A,18.0,4.01e-05,4.01e-05,1.51e-06,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0070141,Response to UV-A,18.0,4.01e-05,4.01e-05,1.51e-06,MMP9,9606.ENSP00000361405,8,21,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0009611,Response to wounding,19.0,5.43e-05,5.43e-05,2.1e-06,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0009611,Response to wounding,19.0,5.43e-05,5.43e-05,2.1e-06,IL1A,9606.ENSP00000263339,15,16,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0009611,Response to wounding,19.0,5.43e-05,5.43e-05,2.1e-06,PPARA,9606.ENSP00000385523,16,16,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0002703,Regulation of leukocyte mediated immunity,20.0,8.16e-05,8.16e-05,3.3e-06,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0002703,Regulation of leukocyte mediated immunity,20.0,8.16e-05,8.16e-05,3.3e-06,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0002703,Regulation of leukocyte mediated immunity,20.0,8.16e-05,8.16e-05,3.3e-06,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0002703,Regulation of leukocyte mediated immunity,20.0,8.16e-05,8.16e-05,3.3e-06,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0002703,Regulation of leukocyte mediated immunity,20.0,8.16e-05,8.16e-05,3.3e-06,IL13,9606.ENSP00000304915,13,17,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0002703,Regulation of leukocyte mediated immunity,20.0,8.16e-05,8.16e-05,3.3e-06,IL18,9606.ENSP00000280357,20,13,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0002366,Leukocyte activation involved in immune response,21.0,0.00013,0.00013,5.43e-06,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0002366,Leukocyte activation involved in immune response,21.0,0.00013,0.00013,5.43e-06,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0002366,Leukocyte activation involved in immune response,21.0,0.00013,0.00013,5.43e-06,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0002366,Leukocyte activation involved in immune response,21.0,0.00013,0.00013,5.43e-06,IFNG,9606.ENSP00000229135,9,20,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0002366,Leukocyte activation involved in immune response,21.0,0.00013,0.00013,5.43e-06,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0060740,Prostate gland epithelium morphogenesis,23.0,0.00019,0.00019,8.37e-06,ESR1,9606.ENSP00000405330,14,17,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0044255,Cellular lipid metabolic process,24.0,0.00022,0.00022,1.01e-05,PPARG,9606.ENSP00000287820,7,23,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0044255,Cellular lipid metabolic process,24.0,0.00022,0.00022,1.01e-05,SIRT1,9606.ENSP00000212015,10,19,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0044255,Cellular lipid metabolic process,24.0,0.00022,0.00022,1.01e-05,PPARA,9606.ENSP00000385523,16,16,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0044255,Cellular lipid metabolic process,24.0,0.00022,0.00022,1.01e-05,ADIPOQ,9606.ENSP00000389814,18,15,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0043271,Negative regulation of ion transport,25.0,0.00024,0.00024,1.09e-05,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0043271,Negative regulation of ion transport,25.0,0.00024,0.00024,1.09e-05,MMP9,9606.ENSP00000361405,8,21,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0001659,Temperature homeostasis,26.0,0.0005,0.0005,2.42e-05,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0001659,Temperature homeostasis,26.0,0.0005,0.0005,2.42e-05,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0001659,Temperature homeostasis,26.0,0.0005,0.0005,2.42e-05,IL1A,9606.ENSP00000263339,15,16,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0001894,Tissue homeostasis,27.0,0.00053,0.00053,2.63e-05,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0032733,Positive regulation of interleukin-10 production,28.0,0.0011,0.0011,6.08e-05,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0032733,Positive regulation of interleukin-10 production,28.0,0.0011,0.0011,6.08e-05,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0032733,Positive regulation of interleukin-10 production,28.0,0.0011,0.0011,6.08e-05,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0032733,Positive regulation of interleukin-10 production,28.0,0.0011,0.0011,6.08e-05,IL13,9606.ENSP00000304915,13,17,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0019915,Lipid storage,29.0,0.0012,0.0012,6.65e-05,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0019915,Lipid storage,29.0,0.0012,0.0012,6.65e-05,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0045646,Regulation of erythrocyte differentiation,32.0,0.0016,0.0016,9.31e-05,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0033003,Regulation of mast cell activation,31.0,0.0016,0.0016,9.31e-05,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0033003,Regulation of mast cell activation,31.0,0.0016,0.0016,9.31e-05,IL13,9606.ENSP00000304915,13,17,significant nonredundant STRING representative terms
+GO_BP,Process,GO:1900544,Positive regulation of purine nucleotide metabolic process,33.0,0.002,0.002,0.00012,IFNG,9606.ENSP00000229135,9,20,significant nonredundant STRING representative terms
+GO_BP,Process,GO:1900544,Positive regulation of purine nucleotide metabolic process,33.0,0.002,0.002,0.00012,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+GO_BP,Process,GO:1900544,Positive regulation of purine nucleotide metabolic process,33.0,0.002,0.002,0.00012,PPARA,9606.ENSP00000385523,16,16,significant nonredundant STRING representative terms
+GO_BP,Process,GO:1903320,Regulation of protein modification by small protein conjugation or removal,35.0,0.0042,0.0042,0.00028,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+GO_BP,Process,GO:1903320,Regulation of protein modification by small protein conjugation or removal,35.0,0.0042,0.0042,0.00028,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0010633,Negative regulation of epithelial cell migration,37.0,0.0059,0.0059,0.00042,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0010633,Negative regulation of epithelial cell migration,37.0,0.0059,0.0059,0.00042,PPARG,9606.ENSP00000287820,7,23,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0010633,Negative regulation of epithelial cell migration,37.0,0.0059,0.0059,0.00042,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0045670,Regulation of osteoclast differentiation,38.0,0.0065,0.0065,0.00046,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0045670,Regulation of osteoclast differentiation,38.0,0.0065,0.0065,0.00046,IFNG,9606.ENSP00000229135,9,20,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0045670,Regulation of osteoclast differentiation,38.0,0.0065,0.0065,0.00046,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0045670,Regulation of osteoclast differentiation,38.0,0.0065,0.0065,0.00046,CEBPB,9606.ENSP00000305422,17,15,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0051930,Regulation of sensory perception of pain,41.0,0.0112,0.0112,0.00089,IL1A,9606.ENSP00000263339,15,16,significant nonredundant STRING representative terms
+GO_BP,Process,GO:1905897,Regulation of response to endoplasmic reticulum stress,42.0,0.0115,0.0115,0.00093,SIRT1,9606.ENSP00000212015,10,19,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0008593,Regulation of Notch signaling pathway,44.0,0.0162,0.0162,0.0014,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0008593,Regulation of Notch signaling pathway,44.0,0.0162,0.0162,0.0014,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0043279,Response to alkaloid,46.0,0.0183,0.0183,0.0016,PPARG,9606.ENSP00000287820,7,23,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0030890,Positive regulation of B cell proliferation,47.0,0.0187,0.0187,0.0016,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0030890,Positive regulation of B cell proliferation,47.0,0.0187,0.0187,0.0016,IL13,9606.ENSP00000304915,13,17,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0006606,Protein import into nucleus,48.0,0.0286,0.0286,0.0027,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0006606,Protein import into nucleus,48.0,0.0286,0.0286,0.0027,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0006606,Protein import into nucleus,48.0,0.0286,0.0286,0.0027,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+GO_BP,Process,GO:0002931,Response to ischemia,49.0,0.0297,0.0297,0.0028,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005615,Extracellular space,1.0,2.15e-09,2.15e-09,1.05e-12,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005615,Extracellular space,1.0,2.15e-09,2.15e-09,1.05e-12,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005615,Extracellular space,1.0,2.15e-09,2.15e-09,1.05e-12,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005615,Extracellular space,1.0,2.15e-09,2.15e-09,1.05e-12,MMP9,9606.ENSP00000361405,8,21,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005615,Extracellular space,1.0,2.15e-09,2.15e-09,1.05e-12,IFNG,9606.ENSP00000229135,9,20,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005615,Extracellular space,1.0,2.15e-09,2.15e-09,1.05e-12,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005615,Extracellular space,1.0,2.15e-09,2.15e-09,1.05e-12,IL13,9606.ENSP00000304915,13,17,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005615,Extracellular space,1.0,2.15e-09,2.15e-09,1.05e-12,IL1A,9606.ENSP00000263339,15,16,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005615,Extracellular space,1.0,2.15e-09,2.15e-09,1.05e-12,ADIPOQ,9606.ENSP00000389814,18,15,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005615,Extracellular space,1.0,2.15e-09,2.15e-09,1.05e-12,IL18,9606.ENSP00000280357,20,13,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005667,Transcription regulator complex,2.0,2.73e-05,2.73e-05,4e-08,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005667,Transcription regulator complex,2.0,2.73e-05,2.73e-05,4e-08,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005667,Transcription regulator complex,2.0,2.73e-05,2.73e-05,4e-08,PPARG,9606.ENSP00000287820,7,23,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005667,Transcription regulator complex,2.0,2.73e-05,2.73e-05,4e-08,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005667,Transcription regulator complex,2.0,2.73e-05,2.73e-05,4e-08,ESR1,9606.ENSP00000405330,14,17,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005667,Transcription regulator complex,2.0,2.73e-05,2.73e-05,4e-08,CEBPB,9606.ENSP00000305422,17,15,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0012505,Endomembrane system,3.0,0.0002,0.0002,8.99e-07,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0009897,External side of plasma membrane,4.0,0.0002,0.0002,5.32e-07,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0012505,Endomembrane system,3.0,0.0002,0.0002,8.99e-07,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0012505,Endomembrane system,3.0,0.0002,0.0002,8.99e-07,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0012505,Endomembrane system,3.0,0.0002,0.0002,8.99e-07,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0012505,Endomembrane system,3.0,0.0002,0.0002,8.99e-07,MMP9,9606.ENSP00000361405,8,21,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0012505,Endomembrane system,3.0,0.0002,0.0002,8.99e-07,SIRT1,9606.ENSP00000212015,10,19,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0009897,External side of plasma membrane,4.0,0.0002,0.0002,5.32e-07,IL13,9606.ENSP00000304915,13,17,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0012505,Endomembrane system,3.0,0.0002,0.0002,8.99e-07,ESR1,9606.ENSP00000405330,14,17,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0012505,Endomembrane system,3.0,0.0002,0.0002,8.99e-07,ADIPOQ,9606.ENSP00000389814,18,15,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0012505,Endomembrane system,3.0,0.0002,0.0002,8.99e-07,SREBF1,9606.ENSP00000348069,19,14,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0045121,Membrane raft,5.0,0.0119,0.0119,0.0002,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005829,Cytosol,6.0,0.0127,0.0127,0.00024,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005829,Cytosol,6.0,0.0127,0.0127,0.00024,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005829,Cytosol,6.0,0.0127,0.0127,0.00024,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005829,Cytosol,6.0,0.0127,0.0127,0.00024,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005829,Cytosol,6.0,0.0127,0.0127,0.00024,PPARG,9606.ENSP00000287820,7,23,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005829,Cytosol,6.0,0.0127,0.0127,0.00024,SIRT1,9606.ENSP00000212015,10,19,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005829,Cytosol,6.0,0.0127,0.0127,0.00024,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005829,Cytosol,6.0,0.0127,0.0127,0.00024,ESR1,9606.ENSP00000405330,14,17,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005829,Cytosol,6.0,0.0127,0.0127,0.00024,IL1A,9606.ENSP00000263339,15,16,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005829,Cytosol,6.0,0.0127,0.0127,0.00024,SREBF1,9606.ENSP00000348069,19,14,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005829,Cytosol,6.0,0.0127,0.0127,0.00024,IL18,9606.ENSP00000280357,20,13,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005739,Mitochondrion,7.0,0.0219,0.0219,0.00046,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005739,Mitochondrion,7.0,0.0219,0.0219,0.00046,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0005739,Mitochondrion,7.0,0.0219,0.0219,0.00046,SIRT1,9606.ENSP00000212015,10,19,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0034399,Nuclear periphery,9.0,0.0389,0.0389,0.00095,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+GO_CC,Component,GO:0034399,Nuclear periphery,9.0,0.0389,0.0389,0.00095,CEBPB,9606.ENSP00000305422,17,15,significant nonredundant STRING representative terms
+GO_MF,Function,GO:0005515,Protein binding,1.0,3.14e-15,3.14e-15,6.37e-19,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+GO_MF,Function,GO:0005515,Protein binding,1.0,3.14e-15,3.14e-15,6.37e-19,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+GO_MF,Function,GO:0005515,Protein binding,1.0,3.14e-15,3.14e-15,6.37e-19,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+GO_MF,Function,GO:0005515,Protein binding,1.0,3.14e-15,3.14e-15,6.37e-19,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+GO_MF,Function,GO:0005515,Protein binding,1.0,3.14e-15,3.14e-15,6.37e-19,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+GO_MF,Function,GO:0005515,Protein binding,1.0,3.14e-15,3.14e-15,6.37e-19,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+GO_MF,Function,GO:0005515,Protein binding,1.0,3.14e-15,3.14e-15,6.37e-19,PPARG,9606.ENSP00000287820,7,23,significant nonredundant STRING representative terms
+GO_MF,Function,GO:0005515,Protein binding,1.0,3.14e-15,3.14e-15,6.37e-19,MMP9,9606.ENSP00000361405,8,21,significant nonredundant STRING representative terms
+GO_MF,Function,GO:0005515,Protein binding,1.0,3.14e-15,3.14e-15,6.37e-19,IFNG,9606.ENSP00000229135,9,20,significant nonredundant STRING representative terms
+GO_MF,Function,GO:0005515,Protein binding,1.0,3.14e-15,3.14e-15,6.37e-19,SIRT1,9606.ENSP00000212015,10,19,significant nonredundant STRING representative terms
+GO_MF,Function,GO:0005515,Protein binding,1.0,3.14e-15,3.14e-15,6.37e-19,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+GO_MF,Function,GO:0005515,Protein binding,1.0,3.14e-15,3.14e-15,6.37e-19,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+GO_MF,Function,GO:0005515,Protein binding,1.0,3.14e-15,3.14e-15,6.37e-19,IL13,9606.ENSP00000304915,13,17,significant nonredundant STRING representative terms
+GO_MF,Function,GO:0005515,Protein binding,1.0,3.14e-15,3.14e-15,6.37e-19,ESR1,9606.ENSP00000405330,14,17,significant nonredundant STRING representative terms
+GO_MF,Function,GO:0005515,Protein binding,1.0,3.14e-15,3.14e-15,6.37e-19,IL1A,9606.ENSP00000263339,15,16,significant nonredundant STRING representative terms
+GO_MF,Function,GO:0005515,Protein binding,1.0,3.14e-15,3.14e-15,6.37e-19,PPARA,9606.ENSP00000385523,16,16,significant nonredundant STRING representative terms
+GO_MF,Function,GO:0005515,Protein binding,1.0,3.14e-15,3.14e-15,6.37e-19,CEBPB,9606.ENSP00000305422,17,15,significant nonredundant STRING representative terms
+GO_MF,Function,GO:0005515,Protein binding,1.0,3.14e-15,3.14e-15,6.37e-19,ADIPOQ,9606.ENSP00000389814,18,15,significant nonredundant STRING representative terms
+GO_MF,Function,GO:0005515,Protein binding,1.0,3.14e-15,3.14e-15,6.37e-19,SREBF1,9606.ENSP00000348069,19,14,significant nonredundant STRING representative terms
+GO_MF,Function,GO:0005515,Protein binding,1.0,3.14e-15,3.14e-15,6.37e-19,IL18,9606.ENSP00000280357,20,13,significant nonredundant STRING representative terms
+GO_MF,Function,GO:1901363,Heterocyclic compound binding,2.0,0.00042,0.00042,2.96e-06,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+GO_MF,Function,GO:1901363,Heterocyclic compound binding,2.0,0.00042,0.00042,2.96e-06,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+GO_MF,Function,GO:1901363,Heterocyclic compound binding,2.0,0.00042,0.00042,2.96e-06,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+GO_MF,Function,GO:1901363,Heterocyclic compound binding,2.0,0.00042,0.00042,2.96e-06,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+GO_MF,Function,GO:1901363,Heterocyclic compound binding,2.0,0.00042,0.00042,2.96e-06,PPARG,9606.ENSP00000287820,7,23,significant nonredundant STRING representative terms
+GO_MF,Function,GO:1901363,Heterocyclic compound binding,2.0,0.00042,0.00042,2.96e-06,SIRT1,9606.ENSP00000212015,10,19,significant nonredundant STRING representative terms
+GO_MF,Function,GO:1901363,Heterocyclic compound binding,2.0,0.00042,0.00042,2.96e-06,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+GO_MF,Function,GO:1901363,Heterocyclic compound binding,2.0,0.00042,0.00042,2.96e-06,ESR1,9606.ENSP00000405330,14,17,significant nonredundant STRING representative terms
+GO_MF,Function,GO:1901363,Heterocyclic compound binding,2.0,0.00042,0.00042,2.96e-06,PPARA,9606.ENSP00000385523,16,16,significant nonredundant STRING representative terms
+GO_MF,Function,GO:1901363,Heterocyclic compound binding,2.0,0.00042,0.00042,2.96e-06,CEBPB,9606.ENSP00000305422,17,15,significant nonredundant STRING representative terms
+GO_MF,Function,GO:1901363,Heterocyclic compound binding,2.0,0.00042,0.00042,2.96e-06,SREBF1,9606.ENSP00000348069,19,14,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05200,Pathways in cancer,1.0,1.45e-16,1.45e-16,4.31e-19,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05200,Pathways in cancer,1.0,1.45e-16,1.45e-16,4.31e-19,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05200,Pathways in cancer,1.0,1.45e-16,1.45e-16,4.31e-19,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05200,Pathways in cancer,1.0,1.45e-16,1.45e-16,4.31e-19,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05200,Pathways in cancer,1.0,1.45e-16,1.45e-16,4.31e-19,PPARG,9606.ENSP00000287820,7,23,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05200,Pathways in cancer,1.0,1.45e-16,1.45e-16,4.31e-19,MMP9,9606.ENSP00000361405,8,21,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05200,Pathways in cancer,1.0,1.45e-16,1.45e-16,4.31e-19,IFNG,9606.ENSP00000229135,9,20,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05200,Pathways in cancer,1.0,1.45e-16,1.45e-16,4.31e-19,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05200,Pathways in cancer,1.0,1.45e-16,1.45e-16,4.31e-19,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05200,Pathways in cancer,1.0,1.45e-16,1.45e-16,4.31e-19,IL13,9606.ENSP00000304915,13,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05200,Pathways in cancer,1.0,1.45e-16,1.45e-16,4.31e-19,ESR1,9606.ENSP00000405330,14,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05321,Inflammatory bowel disease,2.0,1.41e-13,1.41e-13,8.42e-16,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05321,Inflammatory bowel disease,2.0,1.41e-13,1.41e-13,8.42e-16,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05321,Inflammatory bowel disease,2.0,1.41e-13,1.41e-13,8.42e-16,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05321,Inflammatory bowel disease,2.0,1.41e-13,1.41e-13,8.42e-16,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05321,Inflammatory bowel disease,2.0,1.41e-13,1.41e-13,8.42e-16,IFNG,9606.ENSP00000229135,9,20,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05321,Inflammatory bowel disease,2.0,1.41e-13,1.41e-13,8.42e-16,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05321,Inflammatory bowel disease,2.0,1.41e-13,1.41e-13,8.42e-16,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05321,Inflammatory bowel disease,2.0,1.41e-13,1.41e-13,8.42e-16,IL13,9606.ENSP00000304915,13,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05321,Inflammatory bowel disease,2.0,1.41e-13,1.41e-13,8.42e-16,IL1A,9606.ENSP00000263339,15,16,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05321,Inflammatory bowel disease,2.0,1.41e-13,1.41e-13,8.42e-16,IL18,9606.ENSP00000280357,20,13,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05418,Fluid shear stress and atherosclerosis,3.0,8.91e-13,8.91e-13,7.96e-15,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05418,Fluid shear stress and atherosclerosis,3.0,8.91e-13,8.91e-13,7.96e-15,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05418,Fluid shear stress and atherosclerosis,3.0,8.91e-13,8.91e-13,7.96e-15,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05418,Fluid shear stress and atherosclerosis,3.0,8.91e-13,8.91e-13,7.96e-15,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05418,Fluid shear stress and atherosclerosis,3.0,8.91e-13,8.91e-13,7.96e-15,MMP9,9606.ENSP00000361405,8,21,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05418,Fluid shear stress and atherosclerosis,3.0,8.91e-13,8.91e-13,7.96e-15,IFNG,9606.ENSP00000229135,9,20,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05418,Fluid shear stress and atherosclerosis,3.0,8.91e-13,8.91e-13,7.96e-15,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05418,Fluid shear stress and atherosclerosis,3.0,8.91e-13,8.91e-13,7.96e-15,IL1A,9606.ENSP00000263339,15,16,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04932,Non-alcoholic fatty liver disease,4.0,3.24e-12,3.24e-12,3.86e-14,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04932,Non-alcoholic fatty liver disease,4.0,3.24e-12,3.24e-12,3.86e-14,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04932,Non-alcoholic fatty liver disease,4.0,3.24e-12,3.24e-12,3.86e-14,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04932,Non-alcoholic fatty liver disease,4.0,3.24e-12,3.24e-12,3.86e-14,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04932,Non-alcoholic fatty liver disease,4.0,3.24e-12,3.24e-12,3.86e-14,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04932,Non-alcoholic fatty liver disease,4.0,3.24e-12,3.24e-12,3.86e-14,IL1A,9606.ENSP00000263339,15,16,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04932,Non-alcoholic fatty liver disease,4.0,3.24e-12,3.24e-12,3.86e-14,PPARA,9606.ENSP00000385523,16,16,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04932,Non-alcoholic fatty liver disease,4.0,3.24e-12,3.24e-12,3.86e-14,ADIPOQ,9606.ENSP00000389814,18,15,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04932,Non-alcoholic fatty liver disease,4.0,3.24e-12,3.24e-12,3.86e-14,SREBF1,9606.ENSP00000348069,19,14,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04920,Adipocytokine signaling pathway,5.0,8.96e-12,8.96e-12,1.33e-13,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04920,Adipocytokine signaling pathway,5.0,8.96e-12,8.96e-12,1.33e-13,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04920,Adipocytokine signaling pathway,5.0,8.96e-12,8.96e-12,1.33e-13,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04920,Adipocytokine signaling pathway,5.0,8.96e-12,8.96e-12,1.33e-13,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04920,Adipocytokine signaling pathway,5.0,8.96e-12,8.96e-12,1.33e-13,PPARA,9606.ENSP00000385523,16,16,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04920,Adipocytokine signaling pathway,5.0,8.96e-12,8.96e-12,1.33e-13,ADIPOQ,9606.ENSP00000389814,18,15,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04060,Cytokine-cytokine receptor interaction,6.0,5.85e-11,5.85e-11,1.04e-12,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04060,Cytokine-cytokine receptor interaction,6.0,5.85e-11,5.85e-11,1.04e-12,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04060,Cytokine-cytokine receptor interaction,6.0,5.85e-11,5.85e-11,1.04e-12,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04060,Cytokine-cytokine receptor interaction,6.0,5.85e-11,5.85e-11,1.04e-12,IFNG,9606.ENSP00000229135,9,20,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04060,Cytokine-cytokine receptor interaction,6.0,5.85e-11,5.85e-11,1.04e-12,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04060,Cytokine-cytokine receptor interaction,6.0,5.85e-11,5.85e-11,1.04e-12,IL13,9606.ENSP00000304915,13,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04060,Cytokine-cytokine receptor interaction,6.0,5.85e-11,5.85e-11,1.04e-12,IL1A,9606.ENSP00000263339,15,16,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04060,Cytokine-cytokine receptor interaction,6.0,5.85e-11,5.85e-11,1.04e-12,IL18,9606.ENSP00000280357,20,13,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa03320,PPAR signaling pathway,7.0,4.96e-10,4.96e-10,1.03e-11,PPARG,9606.ENSP00000287820,7,23,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa03320,PPAR signaling pathway,7.0,4.96e-10,4.96e-10,1.03e-11,PPARA,9606.ENSP00000385523,16,16,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa03320,PPAR signaling pathway,7.0,4.96e-10,4.96e-10,1.03e-11,ADIPOQ,9606.ENSP00000389814,18,15,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05332,Graft-versus-host disease,8.0,1.47e-09,1.47e-09,3.49e-11,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05332,Graft-versus-host disease,8.0,1.47e-09,1.47e-09,3.49e-11,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05332,Graft-versus-host disease,8.0,1.47e-09,1.47e-09,3.49e-11,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05332,Graft-versus-host disease,8.0,1.47e-09,1.47e-09,3.49e-11,IFNG,9606.ENSP00000229135,9,20,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05332,Graft-versus-host disease,8.0,1.47e-09,1.47e-09,3.49e-11,IL1A,9606.ENSP00000263339,15,16,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05164,Influenza A,9.0,1.91e-09,1.91e-09,5.12e-11,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05164,Influenza A,9.0,1.91e-09,1.91e-09,5.12e-11,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05164,Influenza A,9.0,1.91e-09,1.91e-09,5.12e-11,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05164,Influenza A,9.0,1.91e-09,1.91e-09,5.12e-11,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05164,Influenza A,9.0,1.91e-09,1.91e-09,5.12e-11,IFNG,9606.ENSP00000229135,9,20,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05164,Influenza A,9.0,1.91e-09,1.91e-09,5.12e-11,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05164,Influenza A,9.0,1.91e-09,1.91e-09,5.12e-11,IL1A,9606.ENSP00000263339,15,16,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05164,Influenza A,9.0,1.91e-09,1.91e-09,5.12e-11,IL18,9606.ENSP00000280357,20,13,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04933,AGE-RAGE signaling pathway in diabetic complications,10.0,2.95e-09,2.95e-09,9.67e-11,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04933,AGE-RAGE signaling pathway in diabetic complications,10.0,2.95e-09,2.95e-09,9.67e-11,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04933,AGE-RAGE signaling pathway in diabetic complications,10.0,2.95e-09,2.95e-09,9.67e-11,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04933,AGE-RAGE signaling pathway in diabetic complications,10.0,2.95e-09,2.95e-09,9.67e-11,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04933,AGE-RAGE signaling pathway in diabetic complications,10.0,2.95e-09,2.95e-09,9.67e-11,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04933,AGE-RAGE signaling pathway in diabetic complications,10.0,2.95e-09,2.95e-09,9.67e-11,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04933,AGE-RAGE signaling pathway in diabetic complications,10.0,2.95e-09,2.95e-09,9.67e-11,IL1A,9606.ENSP00000263339,15,16,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04152,AMPK signaling pathway,11.0,1.9e-08,1.9e-08,7.35e-10,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04152,AMPK signaling pathway,11.0,1.9e-08,1.9e-08,7.35e-10,PPARG,9606.ENSP00000287820,7,23,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04152,AMPK signaling pathway,11.0,1.9e-08,1.9e-08,7.35e-10,SIRT1,9606.ENSP00000212015,10,19,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04152,AMPK signaling pathway,11.0,1.9e-08,1.9e-08,7.35e-10,ADIPOQ,9606.ENSP00000389814,18,15,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04152,AMPK signaling pathway,11.0,1.9e-08,1.9e-08,7.35e-10,SREBF1,9606.ENSP00000348069,19,14,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04211,Longevity regulating pathway,12.0,2.23e-08,2.23e-08,9.27e-10,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04211,Longevity regulating pathway,12.0,2.23e-08,2.23e-08,9.27e-10,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04211,Longevity regulating pathway,12.0,2.23e-08,2.23e-08,9.27e-10,PPARG,9606.ENSP00000287820,7,23,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04211,Longevity regulating pathway,12.0,2.23e-08,2.23e-08,9.27e-10,SIRT1,9606.ENSP00000212015,10,19,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04211,Longevity regulating pathway,12.0,2.23e-08,2.23e-08,9.27e-10,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04211,Longevity regulating pathway,12.0,2.23e-08,2.23e-08,9.27e-10,ADIPOQ,9606.ENSP00000389814,18,15,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04066,HIF-1 signaling pathway,13.0,6.73e-08,6.73e-08,3.41e-09,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04066,HIF-1 signaling pathway,13.0,6.73e-08,6.73e-08,3.41e-09,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04066,HIF-1 signaling pathway,13.0,6.73e-08,6.73e-08,3.41e-09,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04066,HIF-1 signaling pathway,13.0,6.73e-08,6.73e-08,3.41e-09,IFNG,9606.ENSP00000229135,9,20,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04066,HIF-1 signaling pathway,13.0,6.73e-08,6.73e-08,3.41e-09,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04217,Necroptosis,14.0,8.66e-08,8.66e-08,4.64e-09,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04217,Necroptosis,14.0,8.66e-08,8.66e-08,4.64e-09,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04217,Necroptosis,14.0,8.66e-08,8.66e-08,4.64e-09,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04217,Necroptosis,14.0,8.66e-08,8.66e-08,4.64e-09,IFNG,9606.ENSP00000229135,9,20,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04217,Necroptosis,14.0,8.66e-08,8.66e-08,4.64e-09,IL1A,9606.ENSP00000263339,15,16,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04668,TNF signaling pathway,15.0,1.2e-07,1.2e-07,6.8e-09,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04668,TNF signaling pathway,15.0,1.2e-07,1.2e-07,6.8e-09,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04668,TNF signaling pathway,15.0,1.2e-07,1.2e-07,6.8e-09,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04668,TNF signaling pathway,15.0,1.2e-07,1.2e-07,6.8e-09,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04668,TNF signaling pathway,15.0,1.2e-07,1.2e-07,6.8e-09,MMP9,9606.ENSP00000361405,8,21,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04668,TNF signaling pathway,15.0,1.2e-07,1.2e-07,6.8e-09,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04668,TNF signaling pathway,15.0,1.2e-07,1.2e-07,6.8e-09,CEBPB,9606.ENSP00000305422,17,15,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05160,Hepatitis C,16.0,1.41e-07,1.41e-07,8.42e-09,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05160,Hepatitis C,16.0,1.41e-07,1.41e-07,8.42e-09,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05160,Hepatitis C,16.0,1.41e-07,1.41e-07,8.42e-09,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05160,Hepatitis C,16.0,1.41e-07,1.41e-07,8.42e-09,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05160,Hepatitis C,16.0,1.41e-07,1.41e-07,8.42e-09,IFNG,9606.ENSP00000229135,9,20,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05160,Hepatitis C,16.0,1.41e-07,1.41e-07,8.42e-09,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05160,Hepatitis C,16.0,1.41e-07,1.41e-07,8.42e-09,PPARA,9606.ENSP00000385523,16,16,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04672,Intestinal immune network for IgA production,17.0,1.58e-06,1.58e-06,1.31e-07,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04672,Intestinal immune network for IgA production,17.0,1.58e-06,1.58e-06,1.31e-07,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05131,Shigellosis,18.0,1.79e-06,1.79e-06,1.6e-07,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05131,Shigellosis,18.0,1.79e-06,1.79e-06,1.6e-07,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05131,Shigellosis,18.0,1.79e-06,1.79e-06,1.6e-07,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05131,Shigellosis,18.0,1.79e-06,1.79e-06,1.6e-07,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05131,Shigellosis,18.0,1.79e-06,1.79e-06,1.6e-07,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05131,Shigellosis,18.0,1.79e-06,1.79e-06,1.6e-07,IL18,9606.ENSP00000280357,20,13,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04010,MAPK signaling pathway,19.0,2.12e-06,2.12e-06,2.05e-07,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04010,MAPK signaling pathway,19.0,2.12e-06,2.12e-06,2.05e-07,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04010,MAPK signaling pathway,19.0,2.12e-06,2.12e-06,2.05e-07,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04010,MAPK signaling pathway,19.0,2.12e-06,2.12e-06,2.05e-07,IL1B,9606.ENSP00000263341,6,29,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04010,MAPK signaling pathway,19.0,2.12e-06,2.12e-06,2.05e-07,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04010,MAPK signaling pathway,19.0,2.12e-06,2.12e-06,2.05e-07,IL1A,9606.ENSP00000263339,15,16,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05202,Transcriptional misregulation in cancer,20.0,2.26e-06,2.26e-06,2.29e-07,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05202,Transcriptional misregulation in cancer,20.0,2.26e-06,2.26e-06,2.29e-07,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05202,Transcriptional misregulation in cancer,20.0,2.26e-06,2.26e-06,2.29e-07,PPARG,9606.ENSP00000287820,7,23,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05202,Transcriptional misregulation in cancer,20.0,2.26e-06,2.26e-06,2.29e-07,MMP9,9606.ENSP00000361405,8,21,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05202,Transcriptional misregulation in cancer,20.0,2.26e-06,2.26e-06,2.29e-07,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05202,Transcriptional misregulation in cancer,20.0,2.26e-06,2.26e-06,2.29e-07,CEBPB,9606.ENSP00000305422,17,15,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05167,Kaposi sarcoma-associated herpesvirus infection,21.0,4.38e-06,4.38e-06,4.7e-07,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05167,Kaposi sarcoma-associated herpesvirus infection,21.0,4.38e-06,4.38e-06,4.7e-07,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05167,Kaposi sarcoma-associated herpesvirus infection,21.0,4.38e-06,4.38e-06,4.7e-07,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05167,Kaposi sarcoma-associated herpesvirus infection,21.0,4.38e-06,4.38e-06,4.7e-07,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05167,Kaposi sarcoma-associated herpesvirus infection,21.0,4.38e-06,4.38e-06,4.7e-07,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04664,Fc epsilon RI signaling pathway,22.0,9.87e-06,9.87e-06,1.23e-06,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04664,Fc epsilon RI signaling pathway,22.0,9.87e-06,9.87e-06,1.23e-06,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04664,Fc epsilon RI signaling pathway,22.0,9.87e-06,9.87e-06,1.23e-06,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04664,Fc epsilon RI signaling pathway,22.0,9.87e-06,9.87e-06,1.23e-06,IL13,9606.ENSP00000304915,13,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04151,PI3K-Akt signaling pathway,24.0,1.05e-05,1.05e-05,1.37e-06,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04151,PI3K-Akt signaling pathway,24.0,1.05e-05,1.05e-05,1.37e-06,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04151,PI3K-Akt signaling pathway,24.0,1.05e-05,1.05e-05,1.37e-06,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04151,PI3K-Akt signaling pathway,24.0,1.05e-05,1.05e-05,1.37e-06,IL4,9606.ENSP00000231449,11,18,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04151,PI3K-Akt signaling pathway,24.0,1.05e-05,1.05e-05,1.37e-06,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04915,Estrogen signaling pathway,25.0,3.64e-05,3.64e-05,5.37e-06,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04915,Estrogen signaling pathway,25.0,3.64e-05,3.64e-05,5.37e-06,MMP9,9606.ENSP00000361405,8,21,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04915,Estrogen signaling pathway,25.0,3.64e-05,3.64e-05,5.37e-06,ESR1,9606.ENSP00000405330,14,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04218,Cellular senescence,27.0,6.87e-05,6.87e-05,1.14e-05,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05166,Human T-cell leukemia virus 1 infection,26.0,6.87e-05,6.87e-05,1.1e-05,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05166,Human T-cell leukemia virus 1 infection,26.0,6.87e-05,6.87e-05,1.1e-05,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04218,Cellular senescence,27.0,6.87e-05,6.87e-05,1.14e-05,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05166,Human T-cell leukemia virus 1 infection,26.0,6.87e-05,6.87e-05,1.1e-05,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04218,Cellular senescence,27.0,6.87e-05,6.87e-05,1.14e-05,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05166,Human T-cell leukemia virus 1 infection,26.0,6.87e-05,6.87e-05,1.1e-05,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04218,Cellular senescence,27.0,6.87e-05,6.87e-05,1.14e-05,SIRT1,9606.ENSP00000212015,10,19,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04218,Cellular senescence,27.0,6.87e-05,6.87e-05,1.14e-05,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05166,Human T-cell leukemia virus 1 infection,26.0,6.87e-05,6.87e-05,1.1e-05,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04218,Cellular senescence,27.0,6.87e-05,6.87e-05,1.14e-05,IL1A,9606.ENSP00000263339,15,16,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04922,Glucagon signaling pathway,28.0,7.43e-05,7.43e-05,1.28e-05,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04922,Glucagon signaling pathway,28.0,7.43e-05,7.43e-05,1.28e-05,SIRT1,9606.ENSP00000212015,10,19,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04922,Glucagon signaling pathway,28.0,7.43e-05,7.43e-05,1.28e-05,PPARA,9606.ENSP00000385523,16,16,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05230,Central carbon metabolism in cancer,29.0,0.00014,0.00014,2.8e-05,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05230,Central carbon metabolism in cancer,29.0,0.00014,0.00014,2.8e-05,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04371,Apelin signaling pathway,30.0,0.00027,0.00027,5.94e-05,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05206,MicroRNAs in cancer,33.0,0.00065,0.00065,0.00015,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05206,MicroRNAs in cancer,33.0,0.00065,0.00065,0.00015,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05206,MicroRNAs in cancer,33.0,0.00065,0.00065,0.00015,MMP9,9606.ENSP00000361405,8,21,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05206,MicroRNAs in cancer,33.0,0.00065,0.00065,0.00015,SIRT1,9606.ENSP00000212015,10,19,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04068,FoxO signaling pathway,34.0,0.0018,0.0018,0.00044,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04068,FoxO signaling pathway,34.0,0.0018,0.0018,0.00044,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04068,FoxO signaling pathway,34.0,0.0018,0.0018,0.00044,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04068,FoxO signaling pathway,34.0,0.0018,0.0018,0.00044,SIRT1,9606.ENSP00000212015,10,19,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05410,Hypertrophic cardiomyopathy,35.0,0.0039,0.0039,0.001,IL6,9606.ENSP00000385675,1,38,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05410,Hypertrophic cardiomyopathy,35.0,0.0039,0.0039,0.001,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05165,Human papillomavirus infection,36.0,0.0042,0.0042,0.0011,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05165,Human papillomavirus infection,36.0,0.0042,0.0042,0.0011,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05165,Human papillomavirus infection,36.0,0.0042,0.0042,0.0011,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05165,Human papillomavirus infection,36.0,0.0042,0.0042,0.0011,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04216,Ferroptosis,37.0,0.0044,0.0044,0.0013,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04550,Signaling pathways regulating pluripotency of stem cells,41.0,0.0162,0.0162,0.0055,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04550,Signaling pathways regulating pluripotency of stem cells,41.0,0.0162,0.0162,0.0055,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa04261,Adrenergic signaling in cardiomyocytes,43.0,0.0179,0.0179,0.0061,AKT1,9606.ENSP00000451828,4,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05014,Amyotrophic lateral sclerosis,45.0,0.0217,0.0217,0.0078,TNF,9606.ENSP00000398698,2,36,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05014,Amyotrophic lateral sclerosis,45.0,0.0217,0.0217,0.0078,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa00760,Nicotinate and nicotinamide metabolism,46.0,0.0338,0.0338,0.0125,SIRT1,9606.ENSP00000212015,10,19,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05203,Viral carcinogenesis,47.0,0.0351,0.0351,0.0131,TP53,9606.ENSP00000269305,3,32,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05203,Viral carcinogenesis,47.0,0.0351,0.0351,0.0131,STAT3,9606.ENSP00000264657,5,29,significant nonredundant STRING representative terms
+KEGG,KEGG,hsa05203,Viral carcinogenesis,47.0,0.0351,0.0351,0.0131,RELA,9606.ENSP00000384273,12,17,significant nonredundant STRING representative terms
