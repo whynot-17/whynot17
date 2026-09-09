@@ -1,0 +1,24 @@
+{
+  "package": "DINP_CRC_PPARG_MD_handoff",
+  "status": "ready_for_external_md_system_build",
+  "md_execution": "deferred_to_user_external_machine",
+  "primary_target": "PPARG",
+  "cebp_b_role": "downstream_mediator_not_docked",
+  "recommended_pose": "prepared/PPARG_4XLD_DINP_seed20260909_mode1_complex.pdb",
+  "alternate_pose": "prepared/PPARG_4XLD_DINP_seed20260911_mode1_complex.pdb",
+  "receptor_pdbqt": "prepared/PPARG_4XLD_rigid.pdbqt",
+  "ligand_pdbqt": "prepared/DINP_CID590836.pdbqt",
+  "ligand_sdf": "prepared/DINP_CID590836_representative_3d.sdf",
+  "search_box": "prepared/PPARG_4XLD_box.txt",
+  "protocol": "DINP_CRC_PPARG_MD_protocol.json",
+  "runner": "run_pparg_external_md.py",
+  "docking_summary": "docking_runs/DINP_CRC_docking_summary.csv",
+  "pose_sensitivity": "docking_runs/PPARG_DINP_seed_pose_rmsd.csv",
+  "minimum_external_inputs": [
+    "A validated PPARG-DINP system.xml generated with an explicit-solvent protein force field and validated DINP ligand parameters",
+    "A topology PDB with atom order identical to system.xml",
+    "An equilibrated/minimized starting PDB or the recommended complex PDB after external system building"
+  ],
+  "recommended_production": "100 ns NPT at 310 K, 2 fs timestep, three seeds if compute budget permits",
+  "interpretation_boundary": "MD stability supports structural plausibility only; it does not establish experimental affinity or causal PPARG-to-CEBPB regulation."
+}

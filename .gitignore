@@ -19,6 +19,9 @@ work/**/*series_matrix.txt
 __pycache__/
 *.pyc
 .pytest_cache/
+work/.venv_docking/
+work/bin/
+work/Miniforge3-Linux-x86_64.sh
 .DS_Store
 Thumbs.db
 

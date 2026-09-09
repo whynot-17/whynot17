@@ -1,0 +1,41 @@
+{
+  "generated_utc": "2026-09-09T11:15:25.678039+00:00",
+  "openmm_version": "8.6.0.dev-c6173db",
+  "platforms": [
+    {
+      "name": "Reference",
+      "properties": []
+    },
+    {
+      "name": "CPU",
+      "properties": [
+        "Threads",
+        "DeterministicForces"
+      ]
+    },
+    {
+      "name": "OpenCL",
+      "properties": [
+        "DeviceIndex",
+        "DeviceName",
+        "OpenCLPlatformIndex",
+        "OpenCLPlatformName",
+        "Precision",
+        "UseCpuPme",
+        "DisablePmeStream"
+      ],
+      "device_name": "gfx1010:xnack-",
+      "platform_name": "AMD Accelerated Parallel Processing"
+    }
+  ],
+  "python_packages": {
+    "openmm": true,
+    "pdbfixer": true,
+    "rdkit": true,
+    "openff_toolkit": false,
+    "openmmforcefields": false,
+    "mdtraj": false
+  },
+  "md_readiness": "not_ready_for_production",
+  "reason": "Protein force field is available through OpenMM, but a validated ligand force-field/charge pipeline for DINP is not installed; PPARG docking pose consensus also requires inspection before MD."
+}

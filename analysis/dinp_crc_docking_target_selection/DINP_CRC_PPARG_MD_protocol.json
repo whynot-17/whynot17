@@ -1,0 +1,40 @@
+{
+  "scope": "external-machine MD handoff for PPARG-DINP",
+  "target": "PPARG",
+  "ligand": {
+    "name": "DINP",
+    "pubchem_cid": 590836,
+    "representative_isomer_description": "bis(7-methyloctyl) phthalate",
+    "mixture_caveat": "Commercial DINP is a branched-isomer mixture; this input is one documented representative structure.",
+    "recommended_docking_pose": "PPARG_4XLD_DINP_seed20260909_mode1_complex.pdb",
+    "alternate_docking_pose": "PPARG_4XLD_DINP_seed20260911_mode1_complex.pdb"
+  },
+  "structure": {
+    "receptor_pdb_id": "4XLD",
+    "receptor_chain": "A",
+    "pocket_definition": "4XLD co-crystallized ligand BRL coordinates",
+    "box_center_A": [57.267, 28.395, 4.706],
+    "box_size_A": [24, 24, 24]
+  },
+  "recommended_md": {
+    "ensemble": "NPT",
+    "temperature_K": 310.0,
+    "pressure_atmosphere": 1.0,
+    "timestep_fs": 2.0,
+    "production_ns": 100.0,
+    "equilibration_ns": 0.1,
+    "water_model": "TIP3P-compatible explicit solvent",
+    "protein_force_field": "AMBER14-family or locally validated equivalent",
+    "ligand_force_field": "GAFF2/AMBER or OpenFF; record exact version and charge method",
+    "replicates": 3,
+    "random_seeds": [20260909, 20260910, 20260911]
+  },
+  "minimum_qc": [
+    "Confirm the complex topology contains one PPARG protein and one DINP ligand with matching atom order.",
+    "Validate ligand net charge, atom types, bonded terms and partial charges before production.",
+    "Minimize and equilibrate before production; monitor temperature, pressure, density and potential energy.",
+    "Report protein C-alpha RMSD/RMSF, ligand RMSD after protein alignment, ligand-pocket contacts, hydrogen bonds, radius of gyration and SASA.",
+    "Use the alternate PPARG pose as a sensitivity run if the seed-20260909 pose does not remain in the pocket during equilibration."
+  ],
+  "interpretation_boundary": "MD stability supports structural plausibility only; it does not establish experimental affinity, DINP isomer-mixture behavior or causal PPARG-to-CEBPB regulation."
+}

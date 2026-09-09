@@ -1,0 +1,427 @@
+{
+  "analysis": "DINP_CRC_docking_target_selection_and_vina_screen",
+  "generated_utc": "2026-09-09T13:24:50.399344+00:00",
+  "primary_target": "PPARG",
+  "support_targets": [
+    "PPARA",
+    "RXRA",
+    "NR1I2",
+    "ESR1"
+  ],
+  "downstream_mediator_excluded": [
+    "CEBPB"
+  ],
+  "docking_engine": "AutoDock Vina 1.2.7",
+  "docking_settings": {
+    "exhaustiveness": 32,
+    "num_modes": 20,
+    "energy_range_kcal_mol": 5,
+    "cpu": 8,
+    "pparg_seeds": [
+      20260909,
+      20260910,
+      20260911
+    ]
+  },
+  "docking_summary": [
+    {
+      "gene_symbol": "ESR1",
+      "n_successful_runs": "1",
+      "best_affinity_kcal_mol": "-8.059",
+      "mean_top1_affinity_kcal_mol": "-8.059",
+      "sd_top1_affinity_kcal_mol": "0.0",
+      "top1_range_kcal_mol": "0.0",
+      "interpretation": "descriptive only; Vina scores are not directly comparable across different proteins/pockets"
+    },
+    {
+      "gene_symbol": "PPARG",
+      "n_successful_runs": "3",
+      "best_affinity_kcal_mol": "-7.889",
+      "mean_top1_affinity_kcal_mol": "-7.8497",
+      "sd_top1_affinity_kcal_mol": "0.0284",
+      "top1_range_kcal_mol": "0.066",
+      "interpretation": "descriptive only; Vina scores are not directly comparable across different proteins/pockets"
+    },
+    {
+      "gene_symbol": "PPARA",
+      "n_successful_runs": "1",
+      "best_affinity_kcal_mol": "-7.651",
+      "mean_top1_affinity_kcal_mol": "-7.651",
+      "sd_top1_affinity_kcal_mol": "0.0",
+      "top1_range_kcal_mol": "0.0",
+      "interpretation": "descriptive only; Vina scores are not directly comparable across different proteins/pockets"
+    },
+    {
+      "gene_symbol": "NR1I2",
+      "n_successful_runs": "1",
+      "best_affinity_kcal_mol": "-6.779",
+      "mean_top1_affinity_kcal_mol": "-6.779",
+      "sd_top1_affinity_kcal_mol": "0.0",
+      "top1_range_kcal_mol": "0.0",
+      "interpretation": "descriptive only; Vina scores are not directly comparable across different proteins/pockets"
+    },
+    {
+      "gene_symbol": "RXRA",
+      "n_successful_runs": "1",
+      "best_affinity_kcal_mol": "-5.414",
+      "mean_top1_affinity_kcal_mol": "-5.414",
+      "sd_top1_affinity_kcal_mol": "0.0",
+      "top1_range_kcal_mol": "0.0",
+      "interpretation": "descriptive only; Vina scores are not directly comparable across different proteins/pockets"
+    }
+  ],
+  "md_status": "deferred_to_external_machine_by_design",
+  "md_note": "MD is intentionally outside the current delivery scope; all docking inputs and poses are included for transfer to the user's external machine.",
+  "package_files": [
+    {
+      "path": "build_execution_manifest.py",
+      "sha256": "755170cf544128b05e103bf1857177ab7a5164160c19f65f3da279e7cc1399a9",
+      "bytes": 2318
+    },
+    {
+      "path": "DINP_CRC_docking_execution_manifest.json",
+      "sha256": "6a015b1f79bf157c0a2c19494f35cf971dc05da53583fc9d867fe706c9e45084",
+      "bytes": 15225
+    },
+    {
+      "path": "DINP_CRC_docking_only_handoff.md",
+      "sha256": "9bbac143cfa2ef12d10591c0bb227aad92b00322d3cc6cacb276904852913e72",
+      "bytes": 2414
+    },
+    {
+      "path": "DINP_CRC_docking_results_report.md",
+      "sha256": "18f7265d5007eea2955fa4f16626be71a5a71c95a46754dc1d36b3c2a9f0c6dd",
+      "bytes": 2237
+    },
+    {
+      "path": "DINP_CRC_docking_target_selection_manifest.json",
+      "sha256": "00550d6f6e01fbf3dcd1d507b8ad74e50d1913dac55dad281e2b7d2e3571b21e",
+      "bytes": 1607
+    },
+    {
+      "path": "DINP_CRC_docking_target_selection_report.md",
+      "sha256": "1326fdc4965335c726b7eb98dbb0c8f63cdc4442fd5fd9707207e3a57677a00b",
+      "bytes": 3848
+    },
+    {
+      "path": "DINP_CRC_docking_target_shortlist.csv",
+      "sha256": "35b726748d1e6f150d7ecef06dc301d5555b70fc43beecd33c5f306cc91ec6fa",
+      "bytes": 10864
+    },
+    {
+      "path": "DINP_CRC_PPARG_MD_handoff_manifest.json",
+      "sha256": "d7f434beb79e864192689f2974dc58c4314a1251cf5bfae6ad0c4163959fad6b",
+      "bytes": 1439
+    },
+    {
+      "path": "DINP_CRC_PPARG_MD_protocol.json",
+      "sha256": "343bfb107f68ec4c2d91171844c2ca4ccfcd955c0bc012e478070cb317f7dfe2",
+      "bytes": 2041
+    },
+    {
+      "path": "DINP_CRC_PPARG_MD_runtime_probe.json",
+      "sha256": "46022faef3bf8fa6ff3e08c17c44edb9cc9ca881cf48b06f2d728bb092a36699",
+      "bytes": 1103
+    },
+    {
+      "path": "docking_runs/DINP_CRC_docking_modes.csv",
+      "sha256": "b9bc0445016ef653dce353f0b3360dc420a58dc7b864a282d57e196ddfbd0d1d",
+      "bytes": 51784
+    },
+    {
+      "path": "docking_runs/DINP_CRC_docking_run_summary.csv",
+      "sha256": "0d4cfe0720f2ecee60e1752754d438a8746aa1cefb59c0bd3279077f72a51692",
+      "bytes": 270
+    },
+    {
+      "path": "docking_runs/DINP_CRC_docking_summary.csv",
+      "sha256": "0f40fd9924b7e69fe75342bd9776a2d90d614fafd14748db9629d190b4958692",
+      "bytes": 762
+    },
+    {
+      "path": "docking_runs/docking_execution_metadata.txt",
+      "sha256": "3cd0b55ef3f51973f57e4d31b4f88a2adaa825851d16d06de52a025c324a9794",
+      "bytes": 213
+    },
+    {
+      "path": "docking_runs/ESR1_1XPC_DINP_seed20260909.log",
+      "sha256": "5096068114c49abe7a034316680246272c44b21c4d760a0b1ea5ec860e050166",
+      "bytes": 2684
+    },
+    {
+      "path": "docking_runs/ESR1_1XPC_DINP_seed20260909.pdbqt",
+      "sha256": "2df7416476cc0828e977e25b14c1a591417f61aa42f69262e8732ffbafd7f914",
+      "bytes": 78051
+    },
+    {
+      "path": "docking_runs/NR1I2_8CH8_DINP_seed20260909.log",
+      "sha256": "d0f6f0320d6e26919dcf86a8d08da8e93ae6e185fbff662d0ff45630c9fde2e0",
+      "bytes": 2685
+    },
+    {
+      "path": "docking_runs/NR1I2_8CH8_DINP_seed20260909.pdbqt",
+      "sha256": "e0e5a66cb5d1636b03c7e285e204d34e561b9751eb630ee8a787bf36555eec92",
+      "bytes": 78051
+    },
+    {
+      "path": "docking_runs/PPARA_6KB1_DINP_seed20260909.log",
+      "sha256": "8533a4c21237831e656fdc109263f7d6801e9a7816b0e4de94d48225b927abb7",
+      "bytes": 2683
+    },
+    {
+      "path": "docking_runs/PPARA_6KB1_DINP_seed20260909.pdbqt",
+      "sha256": "9ac1851f05cfd5260ac29ad06d60865a5467c45f933ec7b48cd1ff6fc5b8973e",
+      "bytes": 78051
+    },
+    {
+      "path": "docking_runs/PPARG_4XLD_DINP_seed20260909.log",
+      "sha256": "cb2977364aceedbb0d7551c1f32de5e28c26d49e71a446af55bd09cf1c5fc0b2",
+      "bytes": 2834
+    },
+    {
+      "path": "docking_runs/PPARG_4XLD_DINP_seed20260909.pdbqt",
+      "sha256": "535dea9b106eef5c54572657f28f36df567deaffe946cb358d5b2f85d762707d",
+      "bytes": 78051
+    },
+    {
+      "path": "docking_runs/PPARG_4XLD_DINP_seed20260910.log",
+      "sha256": "fc7ac6fe5b6d2f1c7f338cf6c10e9c4102541f0c1ef5a6aea9cc18228a5febb0",
+      "bytes": 2834
+    },
+    {
+      "path": "docking_runs/PPARG_4XLD_DINP_seed20260910.pdbqt",
+      "sha256": "101abb7b99b5e300a1e9ee2a876b889f0a90e33c5a4a29ef3b05a0167a82f3d8",
+      "bytes": 78051
+    },
+    {
+      "path": "docking_runs/PPARG_4XLD_DINP_seed20260911.log",
+      "sha256": "7477339ed4c4db1d5408d5b0bc6bb25c34fa8b43e300648970e07fadc85b9917",
+      "bytes": 2684
+    },
+    {
+      "path": "docking_runs/PPARG_4XLD_DINP_seed20260911.pdbqt",
+      "sha256": "75b19887d64446b256c550d4524142f46bd9c3cd55efeab6baefa7fbff186331",
+      "bytes": 78051
+    },
+    {
+      "path": "docking_runs/PPARG_DINP_seed_pose_rmsd.csv",
+      "sha256": "2d7a2555ecc1bf331638bbe6a487f4611a47d93c7ea4fad7d4502df0a1092253",
+      "bytes": 111
+    },
+    {
+      "path": "docking_runs/PPARG_DINP_top_pose_contact_audit.csv",
+      "sha256": "df2275ad619cb0d9fa268751ffd5308007fc6f40dc18c6402250efa4e1a22b3b",
+      "bytes": 2176
+    },
+    {
+      "path": "docking_runs/RXRA_1FBY_DINP_seed20260909.log",
+      "sha256": "1b0da14225f5e355d98f2c2eb9b348234b396d7010965e0ccb52a52b19d1c24d",
+      "bytes": 2684
+    },
+    {
+      "path": "docking_runs/RXRA_1FBY_DINP_seed20260909.pdbqt",
+      "sha256": "17379db7fd6bf52b533ac4a9a2e855e9fcfee62ab37a904788bd84d18148ccb0",
+      "bytes": 78051
+    },
+    {
+      "path": "extract_pparg_md_complex.py",
+      "sha256": "74515f8d0aec5b1f2303e8ad07237370133c9d6fd29812112055c51eb3b260b1",
+      "bytes": 2392
+    },
+    {
+      "path": "inputs/1FBY.pdb",
+      "sha256": "29119c0f2c4e5657fda25d15a5355aa752ea4b81097e933ac10480467fe32ca7",
+      "bytes": 335340
+    },
+    {
+      "path": "inputs/1XPC.pdb",
+      "sha256": "01907f0465c7f4c5a79cabec9f2fc3c466ed8117c19b45ea32015a73b2ed605e",
+      "bytes": 210843
+    },
+    {
+      "path": "inputs/2PRG.pdb",
+      "sha256": "ccd6f2ce051b06b706f46a4375ec7b50caaa1eb81c3d090a576c739fc23b8ed8",
+      "bytes": 457569
+    },
+    {
+      "path": "inputs/4XLD.pdb",
+      "sha256": "8b63e3e13768ebc4a82f59847233d029d635fb62696be9e2038ee60581d15234",
+      "bytes": 208089
+    },
+    {
+      "path": "inputs/6KB1.pdb",
+      "sha256": "916bfc94c9bd0a6cdd95c5289788b6ebdf34a163afdb2488ce996a78ca057fba",
+      "bytes": 235548
+    },
+    {
+      "path": "inputs/8CH8.pdb",
+      "sha256": "09ca66e4e621067b1fb942e8c155d844061113ef8be5a5fefc3729609bffd229",
+      "bytes": 222102
+    },
+    {
+      "path": "inputs/DINP_CID590836_2d.sdf",
+      "sha256": "6f41d76776cc50a1b1eec381d8cab6e0ec4f5392a1715aa063b8af2b6fb2ed11",
+      "bytes": 8609
+    },
+    {
+      "path": "prepare_docking_inputs.py",
+      "sha256": "a2f4239cd38b614a809826a74c80ae0dfcfad31ddb61db0490763eb509bd620e",
+      "bytes": 6449
+    },
+    {
+      "path": "prepared/DINP_CID590836.pdbqt",
+      "sha256": "d764b7e16e3f88e8b475e0a66e8f8c672f19c27158215a19627d7bf3129ba7ae",
+      "bytes": 3597
+    },
+    {
+      "path": "prepared/DINP_CID590836_representative_3d.pdb",
+      "sha256": "a433f0e4899808409bc8d129be55a12d938909c467dedb74bd235e56227ffa3f",
+      "bytes": 6702
+    },
+    {
+      "path": "prepared/DINP_CID590836_representative_3d.sdf",
+      "sha256": "80ee6cf6fcffa161d5ba56da33f2e66fa3bc0afb4849bb2583931eaf8767bcd2",
+      "bytes": 8806
+    },
+    {
+      "path": "prepared/docking_input_manifest.json",
+      "sha256": "7c30d96870f1cb994a790fc0cfb12fa4bf56acd4a553502ea10d1fda98520180",
+      "bytes": 4590
+    },
+    {
+      "path": "prepared/ESR1_1XPC.box.pdb",
+      "sha256": "5518a8717085d9ac08b1d8e0578cd621ced81ad9584f87bbe9ff01e0bd23a614",
+      "bytes": 936
+    },
+    {
+      "path": "prepared/ESR1_1XPC_box.txt",
+      "sha256": "0d19598460b985d2be23f30fbbdfa31f70ab4707d1c514d0da063259ea55d4fd",
+      "bytes": 106
+    },
+    {
+      "path": "prepared/ESR1_1XPC_protein_h.pdb",
+      "sha256": "e15841be69db81afa274a07716715715d996efe3100819b254449d47994ee671",
+      "bytes": 160710
+    },
+    {
+      "path": "prepared/ESR1_1XPC_rigid.pdbqt",
+      "sha256": "3efcceee3fcd4db238e67b2672f4937cb566381355059d4db8c2ff2e190afceb",
+      "bytes": 191808
+    },
+    {
+      "path": "prepared/NR1I2_8CH8.box.pdb",
+      "sha256": "1df5b870514fc7510d30b253e8df48754b7fcefaf1f70f027542a47d71dda2d0",
+      "bytes": 936
+    },
+    {
+      "path": "prepared/NR1I2_8CH8_box.txt",
+      "sha256": "ca43dcf69e163156bf998ede1c2c1ef0401f52159c60a25414a4999fed929a10",
+      "bytes": 106
+    },
+    {
+      "path": "prepared/NR1I2_8CH8_protein_h.pdb",
+      "sha256": "09939a13ee82a933f319dfb62402e4df4c174334839d72daa6d8f32f47405e18",
+      "bytes": 183588
+    },
+    {
+      "path": "prepared/NR1I2_8CH8_rigid.pdbqt",
+      "sha256": "f2c0ac8c5700b4b57f966f53718c124b891bd789d76b15cb631d092954a87091",
+      "bytes": 214002
+    },
+    {
+      "path": "prepared/PPARA_6KB1.box.pdb",
+      "sha256": "e2ef4f107a37cbc247effdb7f4f9bd70115f2d8ae4a16f2c3c9f220a1aab6e8f",
+      "bytes": 936
+    },
+    {
+      "path": "prepared/PPARA_6KB1_box.txt",
+      "sha256": "e9e573ea074a463148a434c67ef14e83f9a8ceac2f70aa7815f5561df1b7109d",
+      "bytes": 105
+    },
+    {
+      "path": "prepared/PPARA_6KB1_protein_h.pdb",
+      "sha256": "f4a3c19299dedfd01bb5b3c56a13967a85591a43b32a5eac49e2f064a3c9315a",
+      "bytes": 175060
+    },
+    {
+      "path": "prepared/PPARA_6KB1_rigid.pdbqt",
+      "sha256": "1ff6a7d950dd582006907855d8b711d18007ee103206c1c93737c3626ad85bc5",
+      "bytes": 210033
+    },
+    {
+      "path": "prepared/PPARG_4XLD.box.pdb",
+      "sha256": "4400056e5e42bcabd3cd5b2f7ed2fd631635ee06e9b1ce56ced0d8739013626c",
+      "bytes": 936
+    },
+    {
+      "path": "prepared/PPARG_4XLD_box.txt",
+      "sha256": "57e3b2b46f942bb88f970973392ded74b51af4784bb7ed29f5704084fa19bb3f",
+      "bytes": 105
+    },
+    {
+      "path": "prepared/PPARG_4XLD_DINP_seed20260909_mode1_complex.pdb",
+      "sha256": "4c1fa3ff34849d307224e2b60efd4bb67a5f53cf4824002bd17c442f01dc937c",
+      "bytes": 175626
+    },
+    {
+      "path": "prepared/PPARG_4XLD_DINP_seed20260911_mode1_complex.pdb",
+      "sha256": "b94035011cfc6fc10f0907984e508c92d4ebbb4fe774350a676725bbbd277021",
+      "bytes": 175626
+    },
+    {
+      "path": "prepared/PPARG_4XLD_protein_h.pdb",
+      "sha256": "5d1c28be055e765a53cb9aa45d19b439676f189a2b7014f9fcf49da2eb49e249",
+      "bytes": 173338
+    },
+    {
+      "path": "prepared/PPARG_4XLD_rigid.pdbqt",
+      "sha256": "32d6410a69511ea3ca1ca250e6faa224d5d9fe553754a8713b3f9956335f0c42",
+      "bytes": 207279
+    },
+    {
+      "path": "prepared/RXRA_1FBY.box.pdb",
+      "sha256": "89c5273ea0af0cd06160bc4bcc63cb53dbaaf81d60b0ba859b4c44c7852523e1",
+      "bytes": 936
+    },
+    {
+      "path": "prepared/RXRA_1FBY_box.txt",
+      "sha256": "3132d209cb004c477ad95c25d085b14b0cc8a71064103d53e1752d0b497e8249",
+      "bytes": 106
+    },
+    {
+      "path": "prepared/RXRA_1FBY_protein_h.pdb",
+      "sha256": "33cf5530f454513f0aa8615ea588d562a50c9840e2cbbc6139d1172f118080a7",
+      "bytes": 277342
+    },
+    {
+      "path": "prepared/RXRA_1FBY_rigid.pdbqt",
+      "sha256": "acf1444866ded68784a12fdf616a3e4e81debc9d5a5d1ad0b221ceae80430411",
+      "bytes": 331209
+    },
+    {
+      "path": "probe_md_runtime.py",
+      "sha256": "ef00b782c6c0a3b36e0fb2fc463b2a5397a849b33a3ecd49c025089f24a9fe10",
+      "bytes": 2195
+    },
+    {
+      "path": "run_pparg_external_md.py",
+      "sha256": "3425ec40dcae68c721cf7110996cec95271c574b83eb2ee4986913b3a64dd5bd",
+      "bytes": 6425
+    },
+    {
+      "path": "run_target_selection.py",
+      "sha256": "b2cae77de49e75b07e181ed90e8a4ae2c14341aa9d5a8ad61f4d6434f16ce3f4",
+      "bytes": 12695
+    },
+    {
+      "path": "run_vina_docking.py",
+      "sha256": "e9a5b2aa7bb1c06eb747e9a240cb184f658b317afc125054bbd4377e9c4e7e59",
+      "bytes": 4796
+    },
+    {
+      "path": "summarize_docking.py",
+      "sha256": "6be62c93f0441300182fded8b9490e01d46d2a08163336cf13516b145f799753",
+      "bytes": 8073
+    }
+  ]
+}

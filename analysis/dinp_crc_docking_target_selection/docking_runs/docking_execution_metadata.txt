@@ -1,0 +1,7 @@
+generated_utc=2026-09-09T13:21:30.081039+00:00
+engine=AutoDock Vina 1.2.7 Windows binary
+ligand=PubChem CID 590836 representative DINP conformer
+exhaustiveness=32
+num_modes=20
+energy_range_kcal_mol=5
+cpu=8

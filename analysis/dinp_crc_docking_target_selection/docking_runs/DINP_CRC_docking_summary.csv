@@ -1,0 +1,6 @@
+gene_symbol,n_successful_runs,best_affinity_kcal_mol,mean_top1_affinity_kcal_mol,sd_top1_affinity_kcal_mol,top1_range_kcal_mol,interpretation
+ESR1,1,-8.059,-8.059,0.0,0.0,descriptive only; Vina scores are not directly comparable across different proteins/pockets
+PPARG,3,-7.889,-7.8497,0.0284,0.066,descriptive only; Vina scores are not directly comparable across different proteins/pockets
+PPARA,1,-7.651,-7.651,0.0,0.0,descriptive only; Vina scores are not directly comparable across different proteins/pockets
+NR1I2,1,-6.779,-6.779,0.0,0.0,descriptive only; Vina scores are not directly comparable across different proteins/pockets
+RXRA,1,-5.414,-5.414,0.0,0.0,descriptive only; Vina scores are not directly comparable across different proteins/pockets

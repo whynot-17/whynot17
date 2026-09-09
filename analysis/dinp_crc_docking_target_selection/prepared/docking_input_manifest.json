@@ -1,0 +1,102 @@
+{
+  "ligand": {
+    "sdf": "C:\\Users\\21634\\Documents\\Codex\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\prepared\\DINP_CID590836_representative_3d.sdf",
+    "pdb": "C:\\Users\\21634\\Documents\\Codex\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\prepared\\DINP_CID590836_representative_3d.pdb",
+    "n_atoms_with_h": 72,
+    "conformer_energy_uff": 45.31841467584274
+  },
+  "receptors": [
+    {
+      "gene_symbol": "PPARG",
+      "pdb_id": "4XLD",
+      "co_crystal_ligand": "BRL",
+      "protein_pdb": "C:\\Users\\21634\\Documents\\Codex\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\prepared\\PPARG_4XLD_protein_h.pdb",
+      "receptor_pdbqt": "C:\\Users\\21634\\Documents\\Codex\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\prepared\\PPARG_4XLD_rigid.pdbqt",
+      "box_file": "C:\\Users\\21634\\Documents\\Codex\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\prepared\\PPARG_4XLD_box.txt",
+      "box_center_A": [
+        57.267,
+        28.395,
+        4.706
+      ],
+      "box_size_A": [
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "gene_symbol": "PPARA",
+      "pdb_id": "6KB1",
+      "co_crystal_ligand": "T4T",
+      "protein_pdb": "C:\\Users\\21634\\Documents\\Codex\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\prepared\\PPARA_6KB1_protein_h.pdb",
+      "receptor_pdbqt": "C:\\Users\\21634\\Documents\\Codex\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\prepared\\PPARA_6KB1_rigid.pdbqt",
+      "box_file": "C:\\Users\\21634\\Documents\\Codex\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\prepared\\PPARA_6KB1_box.txt",
+      "box_center_A": [
+        11.11,
+        4.368,
+        -7.357
+      ],
+      "box_size_A": [
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "gene_symbol": "RXRA",
+      "pdb_id": "1FBY",
+      "co_crystal_ligand": "9CR",
+      "protein_pdb": "C:\\Users\\21634\\Documents\\Codex\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\prepared\\RXRA_1FBY_protein_h.pdb",
+      "receptor_pdbqt": "C:\\Users\\21634\\Documents\\Codex\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\prepared\\RXRA_1FBY_rigid.pdbqt",
+      "box_file": "C:\\Users\\21634\\Documents\\Codex\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\prepared\\RXRA_1FBY_box.txt",
+      "box_center_A": [
+        23.767,
+        34.823,
+        36.124
+      ],
+      "box_size_A": [
+        22,
+        22,
+        22
+      ]
+    },
+    {
+      "gene_symbol": "NR1I2",
+      "pdb_id": "8CH8",
+      "co_crystal_ligand": "ULC",
+      "protein_pdb": "C:\\Users\\21634\\Documents\\Codex\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\inputs\\8CH8.pdb",
+      "receptor_pdbqt": "C:\\Users\\21634\\Documents\\Codex\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\prepared\\NR1I2_8CH8_rigid.pdbqt",
+      "box_file": "C:\\Users\\21634\\Documents\\Codex\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\prepared\\NR1I2_8CH8_box.txt",
+      "box_center_A": [
+        8.984,
+        -15.328,
+        -1.918
+      ],
+      "box_size_A": [
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "gene_symbol": "ESR1",
+      "pdb_id": "1XPC",
+      "co_crystal_ligand": "AIT",
+      "protein_pdb": "C:\\Users\\21634\\Documents\\Codex\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\prepared\\ESR1_1XPC_protein_h.pdb",
+      "receptor_pdbqt": "C:\\Users\\21634\\Documents\\Codex\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\prepared\\ESR1_1XPC_rigid.pdbqt",
+      "box_file": "C:\\Users\\21634\\Documents\\Codex\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\prepared\\ESR1_1XPC_box.txt",
+      "box_center_A": [
+        31.465,
+        -1.534,
+        25.483
+      ],
+      "box_size_A": [
+        22,
+        22,
+        22
+      ]
+    }
+  ],
+  "status": "prepared_for_docking",
+  "cebp_b_excluded": true
+}

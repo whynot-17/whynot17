@@ -1,0 +1,59 @@
+{
+  "analysis": "DINP_CRC_docking_target_selection",
+  "generated_utc": "2026-09-09T13:21:30.020273+00:00",
+  "primary_target": "PPARG",
+  "support_targets": [
+    "PPARA",
+    "RXRA",
+    "NR1I2",
+    "ESR1"
+  ],
+  "excluded_from_docking": [
+    "CEBPB"
+  ],
+  "docking_status": "completed_vina_screen",
+  "md_status": "deferred_to_external_machine_by_design",
+  "source_files": [
+    {
+      "path": "outputs/DINP_CRC_overlap.csv",
+      "sha256": "205832dc85eea7b6b6837a4b8cb3c1d632cd3761ece2c1972ee08cdcf3d1fbe7"
+    },
+    {
+      "path": "outputs/DINP_target_master.csv",
+      "sha256": "3a1a8d6367330ddafa4bd909434136b9a322ebd8e1770c01f2b1e173a9dba016"
+    },
+    {
+      "path": "outputs/DINP_CRC_PPI_pathway_transcriptomic_cross_rank.csv",
+      "sha256": "b707a7d66c6ca321f13511ebbf4986d23b989c7bf08b1dab78729f2c2fe1e86e"
+    },
+    {
+      "path": "outputs/DINP_CRC_STRING_cytohubba_8_consensus_hubs.csv",
+      "sha256": "6ebc2056fb2435890295f32d91e25b120a41ff6fdd00ef679b380ec61e64c381"
+    }
+  ],
+  "public_structure_records": {
+    "PPARG": [
+      "4XLD",
+      "2PRG"
+    ],
+    "PPARA": [
+      "6KB1",
+      "3VI8"
+    ],
+    "RXRA": [
+      "1FBY",
+      "1FM6"
+    ],
+    "NR1I2": [
+      "8CH8"
+    ],
+    "ESR1": [
+      "1XPC"
+    ]
+  },
+  "limitations": [
+    "DINP is a branched-isomer mixture rather than a single stereochemically defined ligand.",
+    "Current target-master DINP binding records are not equivalent to purified-protein binding assays.",
+    "Structure availability is not a docking or MD result."
+  ]
+}
