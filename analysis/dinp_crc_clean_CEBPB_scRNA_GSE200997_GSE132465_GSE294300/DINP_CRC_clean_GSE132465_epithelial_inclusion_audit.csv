@@ -1,0 +1,24 @@
+cohort,Patient,Tumor Sample,Normal Sample,Tumor epithelial cells,Normal epithelial cells,Tumor pass50,Normal pass50,paired included/excluded,exclusion reason
+GSE132465,SMC01,SMC01-T,SMC01-N,1093,159,True,True,included,
+GSE132465,SMC02,SMC02-T,SMC02-N,352,119,True,True,included,
+GSE132465,SMC03,SMC03-T,SMC03-N,796,65,True,True,included,
+GSE132465,SMC04,SMC04-T,SMC04-N,307,169,True,True,included,
+GSE132465,SMC05,SMC05-T,SMC05-N,13,75,False,True,excluded,tumor epithelial <50
+GSE132465,SMC06,SMC06-T,SMC06-N,189,23,True,False,excluded,normal epithelial <50
+GSE132465,SMC07,SMC07-T,SMC07-N,542,128,True,True,included,
+GSE132465,SMC08,SMC08-T,SMC08-N,320,18,True,False,excluded,normal epithelial <50
+GSE132465,SMC09,SMC09-T,SMC09-N,1887,189,True,True,included,
+GSE132465,SMC10,SMC10-T,SMC10-N,511,125,True,True,included,
+GSE132465,SMC11,SMC11-T,,326,0,True,False,excluded,normal sample missing
+GSE132465,SMC14,SMC14-T,,166,0,True,False,excluded,normal sample missing
+GSE132465,SMC15,SMC15-T,,319,0,True,False,excluded,normal sample missing
+GSE132465,SMC16,SMC16-T,,2720,0,True,False,excluded,normal sample missing
+GSE132465,SMC17,SMC17-T,,505,0,True,False,excluded,normal sample missing
+GSE132465,SMC18,SMC18-T,,1516,0,True,False,excluded,normal sample missing
+GSE132465,SMC19,SMC19-T,,382,0,True,False,excluded,normal sample missing
+GSE132465,SMC20,SMC20-T,,524,0,True,False,excluded,normal sample missing
+GSE132465,SMC21,SMC21-T,,1727,0,True,False,excluded,normal sample missing
+GSE132465,SMC22,SMC22-T,,1902,0,True,False,excluded,normal sample missing
+GSE132465,SMC23,SMC23-T,,639,0,True,False,excluded,normal sample missing
+GSE132465,SMC24,SMC24-T,,317,0,True,False,excluded,normal sample missing
+GSE132465,SMC25,SMC25-T,,416,0,True,False,excluded,normal sample missing
