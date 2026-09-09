@@ -196,6 +196,39 @@ def cosine_similarity_matrix(query: np.ndarray, centroids: np.ndarray) -> np.nda
     return np.divide(numerator, denominator, out=np.zeros_like(numerator), where=denominator > 0)
 
 
+def leave_one_out_median_centroids(group_data: np.ndarray) -> np.ndarray:
+    """Return an exact leave-one-out median centroid for every row in a group.
+
+    The production classifier uses median centroids, so calibration must remove
+    each reference cell and recompute the median rather than switching to a mean.
+    This implementation uses sorted values and vectorized rank arithmetic so the
+    result is identical to np.median(group_data without row_i, axis=0).
+    """
+    n_rows, n_features = group_data.shape
+    if n_rows < 2:
+        median = np.median(group_data, axis=0)
+        return np.repeat(median[None, :], n_rows, axis=0)
+    order = np.argsort(group_data, axis=0, kind="mergesort")
+    sorted_values = np.take_along_axis(group_data, order, axis=0)
+    ranks = np.empty_like(order)
+    columns = np.arange(n_features)
+    ranks[order, columns] = np.arange(n_rows)[:, None]
+    flat_sorted = sorted_values.ravel(order="F")
+    offsets = np.arange(n_features) * n_rows
+    remaining = n_rows - 1
+    if remaining % 2 == 1:
+        middle = remaining // 2
+        indices = middle + (ranks <= middle)
+        return flat_sorted[indices + offsets]
+    lower = remaining // 2 - 1
+    upper = remaining // 2
+    lower_indices = lower + (ranks <= lower)
+    upper_indices = upper + (ranks <= upper)
+    return 0.5 * (
+        flat_sorted[lower_indices + offsets] + flat_sorted[upper_indices + offsets]
+    )
+
+
 def fit_reference_mapping(
     ref_cells: pd.DataFrame,
     ref_counts: dict[str, np.ndarray],
@@ -213,15 +246,13 @@ def fit_reference_mapping(
     ref_z = (ref_expr - ref_mean) / ref_std
     centroids = np.vstack([np.median(ref_z[ref_labels == label], axis=0) for label in REFERENCE_LABELS])
 
-    # Leave-one-out reference calibration supplies auditable, data-derived cutoffs.
+    # Leave-one-out calibration uses the same median-centroid estimator as the
+    # production classifier. Mean-centroid calibration is deliberately avoided.
     loo_centroids = np.repeat(centroids[None, :, :], len(ref_cells), axis=0)
     for index, label in enumerate(REFERENCE_LABELS):
         mask = ref_labels == label
         rows = np.flatnonzero(mask)
-        if len(rows) < 2:
-            continue
-        group_sum = ref_z[mask].sum(axis=0)
-        loo_centroids[rows, index, :] = (group_sum - ref_z[rows]) / (len(rows) - 1)
+        loo_centroids[rows, index, :] = leave_one_out_median_centroids(ref_z[mask])
     loo_scores = np.empty((len(ref_cells), len(REFERENCE_LABELS)), dtype=float)
     for start in range(0, len(ref_cells), 10000):
         stop = min(start + 10000, len(ref_cells))
@@ -231,8 +262,10 @@ def fit_reference_mapping(
     loo_top1 = loo_scores[np.arange(len(ref_cells)), loo_order[:, 0]]
     loo_top2 = loo_scores[np.arange(len(ref_cells)), loo_order[:, 1]]
     loo_margin = loo_top1 - loo_top2
-    sim_threshold = float(max(0.05, np.nanquantile(loo_top1, 0.05)))
-    margin_threshold = float(max(0.02, np.nanquantile(loo_margin, 0.05)))
+    sim_threshold_5 = float(max(0.05, np.nanquantile(loo_top1, 0.05)))
+    margin_threshold_5 = float(max(0.02, np.nanquantile(loo_margin, 0.05)))
+    sim_threshold_10 = float(max(0.05, np.nanquantile(loo_top1, 0.10)))
+    margin_threshold_10 = float(max(0.02, np.nanquantile(loo_margin, 0.10)))
     label_array = np.array(REFERENCE_LABELS, dtype=object)
     model = {
         "features": features,
@@ -240,8 +273,10 @@ def fit_reference_mapping(
         "mean": ref_mean,
         "std": ref_std,
         "centroids": centroids,
-        "sim_threshold_5pct_reference": sim_threshold,
-        "margin_threshold_5pct_reference": margin_threshold,
+        "sim_threshold_5pct_reference": sim_threshold_5,
+        "margin_threshold_5pct_reference": margin_threshold_5,
+        "sim_threshold_10pct_reference": sim_threshold_10,
+        "margin_threshold_10pct_reference": margin_threshold_10,
         "reference_cells": int(len(ref_cells)),
         "reference_loo_top1_median": float(np.median(loo_top1)),
         "reference_loo_margin_median": float(np.median(loo_margin)),
@@ -278,9 +313,11 @@ def apply_reference_mapping(
     marker_panel_count = (panel_score_frame > 0.25).sum(axis=1)
     top1_label = np.array(model["labels"], dtype=object)[top1_index]
     top2_label = np.array(model["labels"], dtype=object)[top2_index]
-    is_low_score = top1 < model["sim_threshold_5pct_reference"]
-    is_ambiguous = (margin < model["margin_threshold_5pct_reference"]) & (top2 >= model["sim_threshold_5pct_reference"])
-    status = np.where(is_low_score, "Low_confidence", np.where(is_ambiguous, "Doublet_like_or_ambiguous", "Confident"))
+    top1_pass = top1 >= model["sim_threshold_5pct_reference"]
+    margin_pass = margin >= model["margin_threshold_5pct_reference"]
+    is_ambiguous = top1_pass & ~margin_pass & (top2 >= model["sim_threshold_5pct_reference"])
+    is_low_confidence = ~top1_pass | (~margin_pass & ~is_ambiguous)
+    status = np.where(is_low_confidence, "Low_confidence", np.where(is_ambiguous, "Doublet_like_or_ambiguous", "Confident"))
 
     output["top1_reference_label"] = top1_label
     output["top2_reference_label"] = top2_label
@@ -292,6 +329,25 @@ def apply_reference_mapping(
     output["cell_type"] = np.where(status == "Confident", top1_label, "Unclassified")
     output["analysis_cell_type"] = np.where(status == "Confident", top1_label, "")
     output["cell_type_source"] = "Reference-mapped to GSE132465 curated labels"
+    return output
+
+
+def apply_reference_threshold_variant(
+    mapped_cells: pd.DataFrame,
+    similarity_threshold: float,
+    margin_threshold: float,
+    require_margin: bool,
+) -> pd.DataFrame:
+    """Rebuild the analysis inclusion mask without changing stored raw scores."""
+    output = mapped_cells.copy()
+    top1_pass = output["top1_reference_similarity"].ge(similarity_threshold)
+    margin_pass = output["reference_score_margin"].ge(margin_threshold)
+    confident = top1_pass & (margin_pass if require_margin else True)
+    output["analysis_cell_type"] = np.where(
+        confident,
+        output["top1_reference_label"],
+        "",
+    )
     return output
 
 
@@ -308,6 +364,11 @@ def load_gse200997(model: dict) -> tuple[pd.DataFrame, dict, pd.DataFrame]:
     cells = cells.rename(columns={"samples": "Sample", "Condition": "Class"})
     cells["cohort"] = "GSE200997"
     cells["Patient"] = cells["Sample"].str.replace(r"^[TB]_", "", regex=True)
+    sample_map = cells[["Patient", "Class", "Sample"]].drop_duplicates()
+    duplicate_patient_class = sample_map.groupby(["Patient", "Class"], dropna=False)["Sample"].nunique()
+    if duplicate_patient_class.gt(1).any():
+        bad = duplicate_patient_class[duplicate_patient_class.gt(1)].to_dict()
+        raise AssertionError(f"GSE200997 has >1 sample for Patient + Class: {bad}")
     cells["cell_subtype"] = ""
     cells = add_target_metrics(cells, counts, total_umi, n_genes)
     cells = apply_reference_mapping(cells, counts, total_umi, model)
@@ -331,8 +392,12 @@ def load_gse200997(model: dict) -> tuple[pd.DataFrame, dict, pd.DataFrame]:
         "qc_threshold": {"min_umi": MIN_QC_UMI, "min_genes": MIN_QC_GENES},
         "reference_mapping": {
             "features": model["features"],
-            "sim_threshold": model["sim_threshold_5pct_reference"],
-            "margin_threshold": model["margin_threshold_5pct_reference"],
+            "sim_threshold_5pct": model["sim_threshold_5pct_reference"],
+            "margin_threshold_5pct": model["margin_threshold_5pct_reference"],
+            "sim_threshold_10pct": model["sim_threshold_10pct_reference"],
+            "margin_threshold_10pct": model["margin_threshold_10pct_reference"],
+            "reference_loo_top1_median": model["reference_loo_top1_median"],
+            "reference_loo_margin_median": model["reference_loo_margin_median"],
             "reference_loo_label_accuracy": model["reference_loo_label_accuracy"],
         },
         "excluded_metadata_fields": ["Location", "Side", "left_right", "tumor_region"],
@@ -383,34 +448,173 @@ def summarize_pseudobulk(cells: pd.DataFrame) -> pd.DataFrame:
     return result
 
 
+def patient_epithelial_cell_count_audit(cells: pd.DataFrame) -> pd.DataFrame:
+    """Audit QC and epithelial inclusion counts at patient/sample/condition level."""
+    rows = []
+    for (cohort, patient, sample, condition), group in cells.groupby(
+        ["cohort", "Patient", "Sample", "Class"], dropna=False, sort=True
+    ):
+        qc = group[group["qc_pass"]]
+        rows.append({
+            "cohort": cohort,
+            "Patient": patient,
+            "Sample": sample,
+            "Class": condition,
+            "qc_pass_total_cells": int(len(qc)),
+            "confident_epithelial_cells": int(qc["analysis_cell_type"].eq("Epithelial cells").sum()),
+            "low_confidence_cells": int(qc["annotation_status"].eq("Low_confidence").sum()),
+            "ambiguous_cells": int(qc["annotation_status"].eq("Doublet_like_or_ambiguous").sum()),
+        })
+    output = pd.DataFrame(rows)
+    output["epithelial_pass_50"] = output["confident_epithelial_cells"].ge(MIN_CELLS_PER_SAMPLE_CELLTYPE)
+    return output
+
+
+def gse200997_epithelial_inclusion_audit(count_audit: pd.DataFrame) -> pd.DataFrame:
+    """Explain exactly why a GSE200997 patient enters or fails paired analysis."""
+    source = count_audit[count_audit["cohort"].eq("GSE200997")].copy()
+    rows = []
+    for patient in sorted(source["Patient"].unique()):
+        tumor = source[(source["Patient"] == patient) & source["Class"].eq("Tumor")]
+        normal = source[(source["Patient"] == patient) & source["Class"].eq("Normal")]
+        tumor_count = int(tumor.iloc[0]["confident_epithelial_cells"]) if not tumor.empty else 0
+        normal_count = int(normal.iloc[0]["confident_epithelial_cells"]) if not normal.empty else 0
+        tumor_pass = bool(not tumor.empty and tumor_count >= MIN_CELLS_PER_SAMPLE_CELLTYPE)
+        normal_pass = bool(not normal.empty and normal_count >= MIN_CELLS_PER_SAMPLE_CELLTYPE)
+        reasons = []
+        if tumor.empty:
+            reasons.append("tumor sample missing")
+        elif not tumor_pass:
+            reasons.append("tumor epithelial <50")
+        if normal.empty:
+            reasons.append("normal sample missing")
+        elif not normal_pass:
+            reasons.append("normal epithelial <50")
+        included = tumor_pass and normal_pass
+        rows.append({
+            "Patient": patient,
+            "Tumor Sample": tumor.iloc[0]["Sample"] if not tumor.empty else "",
+            "Normal Sample": normal.iloc[0]["Sample"] if not normal.empty else "",
+            "Tumor epithelial cells": tumor_count,
+            "Normal epithelial cells": normal_count,
+            "Tumor pass50": tumor_pass,
+            "Normal pass50": normal_pass,
+            "paired included/excluded": "included" if included else "excluded",
+            "exclusion reason": "; ".join(reasons) if reasons else "",
+        })
+    return pd.DataFrame(rows)
+
+
+def gse200997_annotation_status_summary(cells: pd.DataFrame) -> pd.DataFrame:
+    """Condition-stratified annotation failure and epithelial retention audit."""
+    source = cells[cells["cohort"].eq("GSE200997") & cells["qc_pass"]].copy()
+    rows = []
+    for condition in ["Tumor", "Normal"]:
+        current = source[source["Class"].eq(condition)]
+        total = len(current)
+        rows.append({
+            "cohort": "GSE200997",
+            "Class": condition,
+            "qc_pass_cells": int(total),
+            "confident_pct": float(current["annotation_status"].eq("Confident").mean() * 100) if total else np.nan,
+            "low_confidence_pct": float(current["annotation_status"].eq("Low_confidence").mean() * 100) if total else np.nan,
+            "ambiguous_pct": float(current["annotation_status"].eq("Doublet_like_or_ambiguous").mean() * 100) if total else np.nan,
+            "epithelial_confident_pct": float(current["analysis_cell_type"].eq("Epithelial cells").mean() * 100) if total else np.nan,
+            "confident_cells": int(current["annotation_status"].eq("Confident").sum()),
+            "low_confidence_cells": int(current["annotation_status"].eq("Low_confidence").sum()),
+            "ambiguous_cells": int(current["annotation_status"].eq("Doublet_like_or_ambiguous").sum()),
+            "confident_epithelial_cells": int(current["analysis_cell_type"].eq("Epithelial cells").sum()),
+        })
+    return pd.DataFrame(rows)
+
+
+def gse200997_label_composition(cells: pd.DataFrame) -> pd.DataFrame:
+    """Export top1 and final confident label composition by condition."""
+    source = cells[cells["cohort"].eq("GSE200997") & cells["qc_pass"]].copy()
+    rows = []
+    for condition in ["Tumor", "Normal"]:
+        current = source[source["Class"].eq(condition)]
+        top1 = current["top1_reference_label"].value_counts(dropna=False)
+        for label, count in top1.items():
+            rows.append({
+                "cohort": "GSE200997", "Class": condition,
+                "mapping_scope": "Top1 reference label among all QC cells",
+                "cell_type": label, "n_cells": int(count),
+                "pct_within_condition": float(count / len(current) * 100) if len(current) else np.nan,
+            })
+        confident = current[current["analysis_cell_type"].ne("")]
+        final = confident["analysis_cell_type"].value_counts(dropna=False)
+        for label, count in final.items():
+            rows.append({
+                "cohort": "GSE200997", "Class": condition,
+                "mapping_scope": "Confident final labels",
+                "cell_type": label, "n_cells": int(count),
+                "pct_within_condition": float(count / len(current) * 100) if len(current) else np.nan,
+            })
+    return pd.DataFrame(rows)
+
+
+def assert_unique_patient_class(pseudobulk: pd.DataFrame) -> None:
+    """Prevent silent set_index behavior when a patient has duplicate condition rows."""
+    usable = pseudobulk[pseudobulk["passes_min_cells"]].copy()
+    duplicates = (
+        usable.groupby(["cohort", "cell_type", "Patient", "Class"], dropna=False)
+        .size()
+        .reset_index(name="n_rows")
+    )
+    duplicates = duplicates[duplicates["n_rows"].gt(1)]
+    if not duplicates.empty:
+        raise AssertionError(
+            "Duplicate Patient + Class records entering paired analysis:\n"
+            + duplicates.to_string(index=False)
+        )
+
+
+def paired_effect(pseudobulk: pd.DataFrame, cohort: str, cell_type: str) -> dict:
+    current = pseudobulk[
+        pseudobulk["passes_min_cells"] &
+        pseudobulk["cohort"].eq(cohort) &
+        pseudobulk["cell_type"].eq(cell_type)
+    ].copy()
+    duplicate_rows = current.groupby(["Patient", "Class"], dropna=False).size()
+    if duplicate_rows.gt(1).any():
+        raise AssertionError(
+            f"Duplicate Patient + Class records entering paired analysis for {cohort}/{cell_type}: "
+            f"{duplicate_rows[duplicate_rows.gt(1)].to_dict()}"
+        )
+    tumor = current[current["Class"].eq("Tumor")].set_index("Patient")
+    normal = current[current["Class"].eq("Normal")].set_index("Patient")
+    patients = sorted(set(tumor.index) & set(normal.index))
+    tumor_values = tumor.loc[patients, "log1p_pseudobulk_cpm"].to_numpy(float) if patients else np.array([])
+    normal_values = normal.loc[patients, "log1p_pseudobulk_cpm"].to_numpy(float) if patients else np.array([])
+    statistic, p_value = safe_wilcoxon(normal_values, tumor_values)
+    delta = tumor_values - normal_values
+    median_delta = float(np.median(delta)) if len(delta) else np.nan
+    return {
+        "cohort": cohort,
+        "gene_symbol": TARGET,
+        "cell_type": cell_type,
+        "matched_patient_n": len(patients),
+        "matched_patients": ";".join(patients),
+        "median_delta_tumor_minus_normal_log1p_pseudobulk_cpm": median_delta,
+        "mean_delta_tumor_minus_normal_log1p_pseudobulk_cpm": float(np.mean(delta)) if len(delta) else np.nan,
+        "tumor_gt_normal_n": int(np.sum(delta > 0)) if len(delta) else 0,
+        "tumor_eq_normal_n": int(np.sum(delta == 0)) if len(delta) else 0,
+        "tumor_lt_normal_n": int(np.sum(delta < 0)) if len(delta) else 0,
+        "wilcoxon_statistic": statistic,
+        "wilcoxon_p_value": p_value,
+        "minimum_cell_rule": MIN_CELLS_PER_SAMPLE_CELLTYPE,
+        "direction": "Tumor higher" if median_delta > 0 else ("Normal higher" if median_delta < 0 else "No difference"),
+    }
+
+
 def paired_validation(pseudobulk: pd.DataFrame) -> pd.DataFrame:
+    assert_unique_patient_class(pseudobulk)
     usable = pseudobulk[pseudobulk["passes_min_cells"]].copy()
     rows = []
     for cohort in ["GSE200997", "GSE132465"]:
         for cell_type in REFERENCE_LABELS:
-            current = usable[(usable["cohort"] == cohort) & (usable["cell_type"] == cell_type)]
-            tumor = current[current["Class"] == "Tumor"].set_index("Patient")
-            normal = current[current["Class"] == "Normal"].set_index("Patient")
-            patients = sorted(set(tumor.index) & set(normal.index))
-            tumor_values = tumor.loc[patients, "log1p_pseudobulk_cpm"].to_numpy(float) if patients else np.array([])
-            normal_values = normal.loc[patients, "log1p_pseudobulk_cpm"].to_numpy(float) if patients else np.array([])
-            statistic, p_value = safe_wilcoxon(normal_values, tumor_values)
-            delta = tumor_values - normal_values
-            rows.append({
-                "cohort": cohort,
-                "gene_symbol": TARGET,
-                "cell_type": cell_type,
-                "matched_patient_n": len(patients),
-                "matched_patients": ";".join(patients),
-                "median_delta_tumor_minus_normal_log1p_pseudobulk_cpm": float(np.median(delta)) if len(delta) else np.nan,
-                "mean_delta_tumor_minus_normal_log1p_pseudobulk_cpm": float(np.mean(delta)) if len(delta) else np.nan,
-                "tumor_gt_normal_n": int(np.sum(delta > 0)) if len(delta) else 0,
-                "tumor_eq_normal_n": int(np.sum(delta == 0)) if len(delta) else 0,
-                "tumor_lt_normal_n": int(np.sum(delta < 0)) if len(delta) else 0,
-                "wilcoxon_statistic": statistic,
-                "wilcoxon_p_value": p_value,
-                "minimum_cell_rule": MIN_CELLS_PER_SAMPLE_CELLTYPE,
-            })
+            rows.append(paired_effect(pseudobulk, cohort, cell_type))
     output = pd.DataFrame(rows)
     output["fdr_bh_secondary_celltype_family"] = output.groupby("cohort")["wilcoxon_p_value"].transform(bh_adjust)
     output["direction"] = np.where(
@@ -424,6 +628,92 @@ def paired_validation(pseudobulk: pd.DataFrame) -> pd.DataFrame:
     output["fdr_bh_primary_epithelial_across_cohorts"] = np.nan
     output.loc[primary.index, "fdr_bh_primary_epithelial_across_cohorts"] = primary_fdr.to_numpy()
     return output
+
+
+def threshold_sensitivity_analysis(gse200997: pd.DataFrame, model: dict) -> pd.DataFrame:
+    variants = [
+        {
+            "threshold_variant": "strict",
+            "similarity_threshold": model["sim_threshold_5pct_reference"],
+            "margin_threshold": model["margin_threshold_5pct_reference"],
+            "require_margin": True,
+            "rule": "reference 5th percentile similarity + 5th percentile margin",
+        },
+        {
+            "threshold_variant": "relaxed",
+            "similarity_threshold": model["sim_threshold_5pct_reference"],
+            "margin_threshold": model["margin_threshold_5pct_reference"],
+            "require_margin": False,
+            "rule": "reference 5th percentile similarity only; margin not required",
+        },
+        {
+            "threshold_variant": "very_strict",
+            "similarity_threshold": model["sim_threshold_10pct_reference"],
+            "margin_threshold": model["margin_threshold_10pct_reference"],
+            "require_margin": True,
+            "rule": "reference 10th percentile similarity + 10th percentile margin",
+        },
+    ]
+    rows = []
+    for variant in variants:
+        current = apply_reference_threshold_variant(
+            gse200997,
+            variant["similarity_threshold"],
+            variant["margin_threshold"],
+            variant["require_margin"],
+        )
+        pseudobulk = summarize_pseudobulk(current)
+        effect = paired_effect(pseudobulk, "GSE200997", "Epithelial cells")
+        epithelial_cells = current[
+            current["qc_pass"] & current["analysis_cell_type"].eq("Epithelial cells")
+        ]
+        rows.append({
+            "threshold_variant": variant["threshold_variant"],
+            "rule": variant["rule"],
+            "similarity_threshold": variant["similarity_threshold"],
+            "margin_threshold": variant["margin_threshold"],
+            "require_margin": variant["require_margin"],
+            "confident_epithelial_cells_total": int(len(epithelial_cells)),
+            "confident_epithelial_cells_tumor": int((epithelial_cells["Class"] == "Tumor").sum()),
+            "confident_epithelial_cells_normal": int((epithelial_cells["Class"] == "Normal").sum()),
+            "matched_patient_n": effect["matched_patient_n"],
+            "matched_patients": effect["matched_patients"],
+            "median_delta_tumor_minus_normal_log1p_pseudobulk_cpm": effect["median_delta_tumor_minus_normal_log1p_pseudobulk_cpm"],
+            "wilcoxon_p_value": effect["wilcoxon_p_value"],
+            "direction": effect["direction"],
+        })
+    return pd.DataFrame(rows)
+
+
+def marker_gate_epithelial_sensitivity(gse200997: pd.DataFrame) -> pd.DataFrame:
+    """A non-transfer, conservative epithelial gate for sensitivity auditing."""
+    epithelial_score = gse200997["marker_score_Epithelial cells"]
+    non_epithelial_columns = [
+        "marker_score_T cells", "marker_score_B cells", "marker_score_Myeloids",
+        "marker_score_Stromal cells", "marker_score_Mast cells",
+    ]
+    non_epithelial_score = gse200997[non_epithelial_columns].max(axis=1)
+    gate = epithelial_score.ge(0.5) & epithelial_score.ge(non_epithelial_score + 0.1)
+    current = gse200997.copy()
+    current["analysis_cell_type"] = np.where(gate, "Epithelial cells", "")
+    pseudobulk = summarize_pseudobulk(current)
+    effect = paired_effect(pseudobulk, "GSE200997", "Epithelial cells")
+    gated = current[current["qc_pass"] & gate]
+    return pd.DataFrame([{
+        "method": "canonical_marker_gate",
+        "markers": "EPCAM/KRT8/KRT18/KRT19/KRT20/CEACAM5/MUC1",
+        "epithelial_score_threshold": 0.5,
+        "non_epithelial_exclusion_margin": 0.1,
+        "cebpb_excluded_from_gate": True,
+        "gated_epithelial_cells_total": int(len(gated)),
+        "gated_epithelial_cells_tumor": int((gated["Class"] == "Tumor").sum()),
+        "gated_epithelial_cells_normal": int((gated["Class"] == "Normal").sum()),
+        "matched_patient_n": effect["matched_patient_n"],
+        "matched_patients": effect["matched_patients"],
+        "median_delta_tumor_minus_normal_log1p_pseudobulk_cpm": effect["median_delta_tumor_minus_normal_log1p_pseudobulk_cpm"],
+        "wilcoxon_p_value": effect["wilcoxon_p_value"],
+        "direction": effect["direction"],
+    }])
 
 
 def cross_cohort_replication(validation: pd.DataFrame) -> pd.DataFrame:
@@ -449,7 +739,14 @@ def cross_cohort_replication(validation: pd.DataFrame) -> pd.DataFrame:
         d2 = row["gse132465_median_delta"]
         agree = bool(np.isfinite(d1) and np.isfinite(d2) and ((d1 > 0 and d2 > 0) or (d1 < 0 and d2 < 0) or (d1 == 0 and d2 == 0)))
         row["same_direction"] = agree
-        row["replication_status"] = "Direction concordant" if agree else "Not concordant/insufficient"
+        p1 = row["gse200997_p"]
+        p2 = row["gse132465_p"]
+        if not agree:
+            row["replication_status"] = "Not concordant/insufficient"
+        elif np.isfinite(p1) and np.isfinite(p2) and p1 < 0.05 and p2 < 0.05:
+            row["replication_status"] = "Direction and nominal evidence concordant"
+        else:
+            row["replication_status"] = "Direction concordant; statistical replication not established"
         rows.append(row)
     return pd.DataFrame(rows)
 
@@ -515,13 +812,25 @@ def plot_epithelial_validation(pseudobulk: pd.DataFrame) -> None:
     plt.close(fig)
 
 
+def fmt_report_number(value: object, digits: int = 4) -> str:
+    if value is None or pd.isna(value):
+        return "NA"
+    return f"{float(value):.{digits}g}"
+
+
 def write_report(
     cells: pd.DataFrame,
     localization: pd.DataFrame,
     pseudobulk: pd.DataFrame,
     validation: pd.DataFrame,
     replication: pd.DataFrame,
-    audit: pd.DataFrame,
+    annotation_audit: pd.DataFrame,
+    epithelial_count_audit: pd.DataFrame,
+    inclusion_audit: pd.DataFrame,
+    status_summary: pd.DataFrame,
+    label_composition: pd.DataFrame,
+    threshold_sensitivity: pd.DataFrame,
+    marker_gate_sensitivity: pd.DataFrame,
     manifest: dict,
 ) -> None:
     primary = validation[validation["primary_epithelial_hypothesis"]].copy()
@@ -543,15 +852,56 @@ def write_report(
         f"- Total cells loaded: {len(cells):,}; QC-passing cells: {int(cells['qc_pass'].sum()):,}.",
         f"- QC thresholds: total UMI ≥ {MIN_QC_UMI}; detected genes ≥ {MIN_QC_GENES}.",
         f"- GSE200997 cells retained as confident reference-mapped labels: {int((cells['cohort'].eq('GSE200997') & cells['annotation_status'].eq('Confident')).sum()):,}; low-confidence: {int((cells['cohort'].eq('GSE200997') & cells['annotation_status'].eq('Low_confidence')).sum()):,}; ambiguous/doublet-like: {int((cells['cohort'].eq('GSE200997') & cells['annotation_status'].eq('Doublet_like_or_ambiguous')).sum()):,}.",
-        f"- Reference leave-one-out label accuracy: {manifest['reference_mapping']['reference_loo_label_accuracy']:.3f}; similarity threshold: {manifest['reference_mapping']['sim_threshold']:.4f}; margin threshold: {manifest['reference_mapping']['margin_threshold']:.4f}.",
+        f"- Reference LOO median-centroid calibration: accuracy={manifest['reference_mapping']['reference_loo_label_accuracy']:.3f}; top1 median={manifest['reference_mapping']['reference_loo_top1_median']:.4f}; margin median={manifest['reference_mapping']['reference_loo_margin_median']:.4f}.",
+        f"- Strict thresholds: similarity={manifest['reference_mapping']['sim_threshold_5pct']:.4f}; margin={manifest['reference_mapping']['margin_threshold_5pct']:.4f}. Very-strict thresholds: similarity={manifest['reference_mapping']['sim_threshold_10pct']:.4f}; margin={manifest['reference_mapping']['margin_threshold_10pct']:.4f}.",
         "- GSE200997 epithelial labels are therefore reference-mapped epithelial cells, not CNV-confirmed malignant cells; the Tumor sample context is not treated as a malignancy annotation.",
+        "",
+        "## GSE200997 condition-dependent annotation audit",
+        "",
+    ]
+    for _, row in status_summary.iterrows():
+        report.append(
+            f"- {row['Class']}: QC cells={int(row['qc_pass_cells'])}; Confident={row['confident_pct']:.2f}%; Low-confidence={row['low_confidence_pct']:.2f}%; Ambiguous={row['ambiguous_pct']:.2f}%; Confident epithelial={row['epithelial_confident_pct']:.2f}%.",
+        )
+    report.extend([
+        "",
+        "The full label composition is exported separately for both top1 reference labels among all QC cells and confident final labels. These condition-stratified percentages are the audit for potential condition-dependent filtering.",
+        "",
+        "## GSE200997 epithelial inclusion audit",
+        "",
+        "The prior contaminated module reported 7 matched epithelial patients. In this clean strict reference-mapped analysis, only patients passing the 50-cell rule in both conditions enter the paired test; the table below records every exclusion reason.",
+    ])
+    for _, row in inclusion_audit.iterrows():
+        reason = row["exclusion reason"] or "both conditions pass 50 cells"
+        report.append(
+            f"- {row['Patient']}: Tumor={int(row['Tumor epithelial cells'])}, Normal={int(row['Normal epithelial cells'])}; Tumor pass50={str(row['Tumor pass50']).lower()}, Normal pass50={str(row['Normal pass50']).lower()}; {row['paired included/excluded']}; {reason}.",
+        )
+    report.extend([
+        "",
+        "## Threshold sensitivity",
+        "",
+    ])
+    for _, row in threshold_sensitivity.iterrows():
+        report.append(
+            f"- {row['threshold_variant']}: matched n={int(row['matched_patient_n'])}; median Δ={fmt_report_number(row['median_delta_tumor_minus_normal_log1p_pseudobulk_cpm'])}; P={fmt_report_number(row['wilcoxon_p_value'])}; direction={row['direction']}; included epithelial cells={int(row['confident_epithelial_cells_total'])}.",
+        )
+    marker_row = marker_gate_sensitivity.iloc[0]
+    report.extend([
+        "",
+        "## Non-transfer epithelial gate sensitivity",
+        "",
+        f"A separate canonical-marker gate excluding CEBPB from classification retained {int(marker_row['gated_epithelial_cells_total'])} cells and produced matched n={int(marker_row['matched_patient_n'])}, median Δ={fmt_report_number(marker_row['median_delta_tumor_minus_normal_log1p_pseudobulk_cpm'])}, P={fmt_report_number(marker_row['wilcoxon_p_value'])}, direction={marker_row['direction']}.",
+        "",
+        "## Interpretation",
+        "",
+        "GSE132465 showed a tumor-high epithelial CEBPB signal. GSE200997 had the same nominal direction, but did not provide statistically supportive replication under strict reference-mapped epithelial analysis (matched n=4; P=0.625); therefore, cross-cohort epithelial replication was not established.",
         "",
         "## Primary epithelial validation",
         "",
-    ]
+    ])
     for _, row in primary.iterrows():
         report.append(
-            f"- {row['cohort']}: matched n={int(row['matched_patient_n'])}; median Δ(Tumor−Normal)={row['median_delta_tumor_minus_normal_log1p_pseudobulk_cpm']:.4f}; Wilcoxon p={row['wilcoxon_p_value'] if pd.notna(row['wilcoxon_p_value']) else 'NA'}; primary epithelial BH-FDR={row['fdr_bh_primary_epithelial_across_cohorts'] if pd.notna(row['fdr_bh_primary_epithelial_across_cohorts']) else 'NA'}; {row['direction']}.",
+            f"- {row['cohort']}: matched n={int(row['matched_patient_n'])}; median Δ(Tumor−Normal)={fmt_report_number(row['median_delta_tumor_minus_normal_log1p_pseudobulk_cpm'])}; Wilcoxon P={fmt_report_number(row['wilcoxon_p_value'])}; primary epithelial BH-FDR={fmt_report_number(row['fdr_bh_primary_epithelial_across_cohorts'])}; {row['direction']}.",
         )
     epithelial_rep = replication[replication["cell_type"].eq("Epithelial cells")]
     if not epithelial_rep.empty:
@@ -565,6 +915,12 @@ def write_report(
         "",
         "- `DINP_CRC_clean_CEBPB_cell_level.csv`: cell-level CEBPB metrics and annotation/QC status.",
         "- `DINP_CRC_clean_GSE200997_annotation_audit.csv`: complete GSE200997 reference-mapping audit, including top-two labels, similarities, margins, and confidence status.",
+        "- `DINP_CRC_clean_CEBPB_patient_epithelial_cell_count_audit.csv`: patient × sample × condition QC and epithelial cell-count audit for both cohorts.",
+        "- `DINP_CRC_clean_GSE200997_epithelial_inclusion_audit.csv`: explicit GSE200997 paired inclusion/exclusion reasons explaining matched n.",
+        "- `DINP_CRC_clean_GSE200997_annotation_status_by_condition.csv`: Tumor/Normal condition-stratified confidence and epithelial retention audit.",
+        "- `DINP_CRC_clean_GSE200997_label_composition_by_condition.csv`: top1 and confident final label composition by condition.",
+        "- `DINP_CRC_clean_GSE200997_epithelial_threshold_sensitivity.csv`: strict/relaxed/very-strict reference threshold sensitivity.",
+        "- `DINP_CRC_clean_GSE200997_marker_gate_epithelial_sensitivity.csv`: non-transfer canonical epithelial-gate sensitivity.",
         "- `DINP_CRC_clean_CEBPB_localization.csv`: cohort/condition/cell-type localization summary.",
         "- `DINP_CRC_clean_CEBPB_patient_sample_pseudobulk.csv`: patient/sample-level pseudobulk.",
         "- `DINP_CRC_clean_CEBPB_tumor_normal_validation_all_celltypes.csv`: secondary six-cell-type paired validation with cohort-specific BH-FDR.",
@@ -584,6 +940,12 @@ def main() -> None:
     gse200997, manifest_200997, annotation_audit = load_gse200997(model)
     cells = pd.concat([gse132465, gse200997], ignore_index=True, sort=False).fillna("")
 
+    epithelial_count_audit = patient_epithelial_cell_count_audit(cells)
+    inclusion_audit = gse200997_epithelial_inclusion_audit(epithelial_count_audit)
+    status_summary = gse200997_annotation_status_summary(cells)
+    label_composition = gse200997_label_composition(cells)
+    threshold_sensitivity = threshold_sensitivity_analysis(gse200997, model)
+    marker_gate_sensitivity = marker_gate_epithelial_sensitivity(gse200997)
     localization = summarize_localization(cells)
     pseudobulk = summarize_pseudobulk(cells)
     validation = paired_validation(pseudobulk)
@@ -601,6 +963,12 @@ def main() -> None:
     }]
     cells[cell_columns + extra_columns].to_csv(OUTPUT_DIR / "DINP_CRC_clean_CEBPB_cell_level.csv", index=False)
     annotation_audit.to_csv(OUTPUT_DIR / "DINP_CRC_clean_GSE200997_annotation_audit.csv", index=False)
+    epithelial_count_audit.to_csv(OUTPUT_DIR / "DINP_CRC_clean_CEBPB_patient_epithelial_cell_count_audit.csv", index=False)
+    inclusion_audit.to_csv(OUTPUT_DIR / "DINP_CRC_clean_GSE200997_epithelial_inclusion_audit.csv", index=False)
+    status_summary.to_csv(OUTPUT_DIR / "DINP_CRC_clean_GSE200997_annotation_status_by_condition.csv", index=False)
+    label_composition.to_csv(OUTPUT_DIR / "DINP_CRC_clean_GSE200997_label_composition_by_condition.csv", index=False)
+    threshold_sensitivity.to_csv(OUTPUT_DIR / "DINP_CRC_clean_GSE200997_epithelial_threshold_sensitivity.csv", index=False)
+    marker_gate_sensitivity.to_csv(OUTPUT_DIR / "DINP_CRC_clean_GSE200997_marker_gate_epithelial_sensitivity.csv", index=False)
     localization.to_csv(OUTPUT_DIR / "DINP_CRC_clean_CEBPB_localization.csv", index=False)
     pseudobulk.to_csv(OUTPUT_DIR / "DINP_CRC_clean_CEBPB_patient_sample_pseudobulk.csv", index=False)
     validation.to_csv(OUTPUT_DIR / "DINP_CRC_clean_CEBPB_tumor_normal_validation_all_celltypes.csv", index=False)
@@ -629,8 +997,13 @@ def main() -> None:
             "features": model["features"],
             "similarity": "cosine similarity after gene-wise standardization fit on GSE132465 marker expression",
             "confidence_rule": "Confident if top1 similarity >= reference 5th percentile and top1-top2 margin >= reference 5th percentile; otherwise low-confidence or ambiguous if top2 also clears similarity threshold",
-            "sim_threshold": model["sim_threshold_5pct_reference"],
-            "margin_threshold": model["margin_threshold_5pct_reference"],
+            "calibration_estimator": "exact leave-one-out median centroid; production classifier also uses median centroid",
+            "sim_threshold_5pct": model["sim_threshold_5pct_reference"],
+            "margin_threshold_5pct": model["margin_threshold_5pct_reference"],
+            "sim_threshold_10pct": model["sim_threshold_10pct_reference"],
+            "margin_threshold_10pct": model["margin_threshold_10pct_reference"],
+            "reference_loo_top1_median": model["reference_loo_top1_median"],
+            "reference_loo_margin_median": model["reference_loo_margin_median"],
             "reference_loo_label_accuracy": model["reference_loo_label_accuracy"],
         },
         "cohorts": {"GSE132465": manifest_132465, "GSE200997": manifest_200997},
@@ -640,10 +1013,18 @@ def main() -> None:
             "GSE132465_qc_pass": int((cells["cohort"].eq("GSE132465") & cells["qc_pass"]).sum()),
             "GSE200997_qc_pass": int((cells["cohort"].eq("GSE200997") & cells["qc_pass"]).sum()),
             "GSE200997_annotation_status": cells.loc[cells["cohort"].eq("GSE200997"), "annotation_status"].value_counts().to_dict(),
+            "GSE200997_annotation_status_by_condition": status_summary.to_dict("records"),
+            "GSE200997_strict_epithelial_included_patients": inclusion_audit.loc[inclusion_audit["paired included/excluded"].eq("included"), "Patient"].tolist(),
         },
         "output_rows": {
             "cell_level": int(len(cells)),
             "annotation_audit": int(len(annotation_audit)),
+            "patient_epithelial_cell_count_audit": int(len(epithelial_count_audit)),
+            "gse200997_epithelial_inclusion_audit": int(len(inclusion_audit)),
+            "gse200997_annotation_status_by_condition": int(len(status_summary)),
+            "gse200997_label_composition_by_condition": int(len(label_composition)),
+            "gse200997_threshold_sensitivity": int(len(threshold_sensitivity)),
+            "gse200997_marker_gate_sensitivity": int(len(marker_gate_sensitivity)),
             "localization": int(len(localization)),
             "pseudobulk": int(len(pseudobulk)),
             "validation": int(len(validation)),
@@ -653,12 +1034,20 @@ def main() -> None:
         "source_note": "The old CEBPB/CD36 multicohort output was not read as input; both cohorts were reconstructed from raw matrices and source annotation files.",
     }
     (OUTPUT_DIR / "DINP_CRC_clean_CEBPB_manifest.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False, default=str) + "\n", encoding="utf-8")
-    write_report(cells, localization, pseudobulk, validation, replication, annotation_audit, manifest)
+    write_report(
+        cells, localization, pseudobulk, validation, replication, annotation_audit,
+        epithelial_count_audit, inclusion_audit, status_summary, label_composition,
+        threshold_sensitivity, marker_gate_sensitivity, manifest,
+    )
     print(json.dumps({
         "output_dir": str(OUTPUT_DIR),
         "cells": len(cells),
         "qc_pass": int(cells["qc_pass"].sum()),
         "gse200997_status": cells.loc[cells["cohort"].eq("GSE200997"), "annotation_status"].value_counts().to_dict(),
+        "gse200997_status_by_condition": status_summary.to_dict("records"),
+        "gse200997_inclusion_audit": inclusion_audit.to_dict("records"),
+        "threshold_sensitivity": threshold_sensitivity.to_dict("records"),
+        "marker_gate_sensitivity": marker_gate_sensitivity.to_dict("records"),
         "primary_epithelial": primary[["cohort", "matched_patient_n", "median_delta_tumor_minus_normal_log1p_pseudobulk_cpm", "wilcoxon_p_value", "fdr_bh_primary_epithelial_across_cohorts", "direction"]].to_dict("records"),
     }, ensure_ascii=False, indent=2))
 

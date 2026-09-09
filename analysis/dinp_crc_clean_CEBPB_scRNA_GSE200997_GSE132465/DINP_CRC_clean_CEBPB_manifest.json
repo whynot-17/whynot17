@@ -92,9 +92,14 @@
     ],
     "similarity": "cosine similarity after gene-wise standardization fit on GSE132465 marker expression",
     "confidence_rule": "Confident if top1 similarity >= reference 5th percentile and top1-top2 margin >= reference 5th percentile; otherwise low-confidence or ambiguous if top2 also clears similarity threshold",
-    "sim_threshold": 0.31298260747993367,
-    "margin_threshold": 0.13384536105265143,
-    "reference_loo_label_accuracy": 0.9713137276452762
+    "calibration_estimator": "exact leave-one-out median centroid; production classifier also uses median centroid",
+    "sim_threshold_5pct": 0.17495292069381338,
+    "margin_threshold_5pct": 0.06334192271976279,
+    "sim_threshold_10pct": 0.2577322022225565,
+    "margin_threshold_10pct": 0.13764920955114487,
+    "reference_loo_top1_median": 0.5601712122278683,
+    "reference_loo_margin_median": 0.5262976040303703,
+    "reference_loo_label_accuracy": 0.9415440656942329
   },
   "cohorts": {
     "GSE132465": {
@@ -181,9 +186,13 @@
           "TYROBP",
           "VWF"
         ],
-        "sim_threshold": 0.31298260747993367,
-        "margin_threshold": 0.13384536105265143,
-        "reference_loo_label_accuracy": 0.9713137276452762
+        "sim_threshold_5pct": 0.17495292069381338,
+        "margin_threshold_5pct": 0.06334192271976279,
+        "sim_threshold_10pct": 0.2577322022225565,
+        "margin_threshold_10pct": 0.13764920955114487,
+        "reference_loo_top1_median": 0.5601712122278683,
+        "reference_loo_margin_median": 0.5262976040303703,
+        "reference_loo_label_accuracy": 0.9415440656942329
       },
       "excluded_metadata_fields": [
         "Location",
@@ -199,16 +208,56 @@
     "GSE132465_qc_pass": 63689,
     "GSE200997_qc_pass": 49846,
     "GSE200997_annotation_status": {
-      "Confident": 39909,
-      "Low_confidence": 9615,
-      "Doublet_like_or_ambiguous": 335
-    }
+      "Confident": 46013,
+      "Low_confidence": 2620,
+      "Doublet_like_or_ambiguous": 1226
+    },
+    "GSE200997_annotation_status_by_condition": [
+      {
+        "cohort": "GSE200997",
+        "Class": "Tumor",
+        "qc_pass_cells": 31573,
+        "confident_pct": 92.36689576536914,
+        "low_confidence_pct": 5.346340227409495,
+        "ambiguous_pct": 2.28676400722136,
+        "epithelial_confident_pct": 20.457352801444273,
+        "confident_cells": 29163,
+        "low_confidence_cells": 1688,
+        "ambiguous_cells": 722,
+        "confident_epithelial_cells": 6459
+      },
+      {
+        "cohort": "GSE200997",
+        "Class": "Normal",
+        "qc_pass_cells": 18273,
+        "confident_pct": 92.17424615553001,
+        "low_confidence_pct": 5.084003721337493,
+        "ambiguous_pct": 2.7417501231324906,
+        "epithelial_confident_pct": 12.548568926831937,
+        "confident_cells": 16843,
+        "low_confidence_cells": 929,
+        "ambiguous_cells": 501,
+        "confident_epithelial_cells": 2293
+      }
+    ],
+    "GSE200997_strict_epithelial_included_patients": [
+      "cac11",
+      "cac14",
+      "cac15",
+      "cac7"
+    ]
   },
   "output_rows": {
     "cell_level": 113548,
     "annotation_audit": 49859,
+    "patient_epithelial_cell_count_audit": 56,
+    "gse200997_epithelial_inclusion_audit": 16,
+    "gse200997_annotation_status_by_condition": 2,
+    "gse200997_label_composition_by_condition": 24,
+    "gse200997_threshold_sensitivity": 3,
+    "gse200997_marker_gate_sensitivity": 1,
     "localization": 24,
-    "pseudobulk": 307,
+    "pseudobulk": 311,
     "validation": 12,
     "primary_epithelial": 2,
     "replication": 6

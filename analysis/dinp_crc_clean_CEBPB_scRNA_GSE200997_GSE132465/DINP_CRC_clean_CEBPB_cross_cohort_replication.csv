@@ -1,0 +1,7 @@
+gene_symbol,cell_type,gse200997_matched_n,gse200997_median_delta,gse200997_p,gse200997_direction,gse132465_matched_n,gse132465_median_delta,gse132465_p,gse132465_direction,same_direction,replication_status
+CEBPB,Epithelial cells,4,0.19747379111505037,0.625,Tumor higher,7,0.6070179492732768,0.046875,Tumor higher,True,Direction concordant; statistical replication not established
+CEBPB,Myeloids,0,,,No difference,3,-0.06471452983334114,1.0,Normal higher,False,Not concordant/insufficient
+CEBPB,Stromal cells,0,,,No difference,7,-0.26607249165668545,0.109375,Normal higher,False,Not concordant/insufficient
+CEBPB,T cells,7,0.12192627591130822,0.375,Tumor higher,10,0.026481021715931696,0.4921875,Tumor higher,True,Direction concordant; statistical replication not established
+CEBPB,B cells,6,0.06613493106498702,0.84375,Tumor higher,9,-0.29549940235733585,0.09765625,Normal higher,False,Not concordant/insufficient
+CEBPB,Mast cells,0,,,No difference,0,,,No difference,False,Not concordant/insufficient

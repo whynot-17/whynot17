@@ -1,0 +1,3 @@
+cohort,Class,qc_pass_cells,confident_pct,low_confidence_pct,ambiguous_pct,epithelial_confident_pct,confident_cells,low_confidence_cells,ambiguous_cells,confident_epithelial_cells
+GSE200997,Tumor,31573,92.36689576536914,5.346340227409495,2.28676400722136,20.457352801444273,29163,1688,722,6459
+GSE200997,Normal,18273,92.17424615553001,5.084003721337493,2.7417501231324906,12.548568926831937,16843,929,501,2293

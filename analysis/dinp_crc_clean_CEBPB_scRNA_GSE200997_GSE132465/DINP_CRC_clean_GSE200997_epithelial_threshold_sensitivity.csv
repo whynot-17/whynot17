@@ -1,0 +1,4 @@
+threshold_variant,rule,similarity_threshold,margin_threshold,require_margin,confident_epithelial_cells_total,confident_epithelial_cells_tumor,confident_epithelial_cells_normal,matched_patient_n,matched_patients,median_delta_tumor_minus_normal_log1p_pseudobulk_cpm,wilcoxon_p_value,direction
+strict,reference 5th percentile similarity + 5th percentile margin,0.17495292069381338,0.06334192271976279,True,8752,6459,2293,4,cac11;cac14;cac15;cac7,0.19747379111505037,0.625,Tumor higher
+relaxed,reference 5th percentile similarity only; margin not required,0.17495292069381338,0.06334192271976279,False,8839,6523,2316,4,cac11;cac14;cac15;cac7,0.20472674440597127,0.625,Tumor higher
+very_strict,reference 10th percentile similarity + 10th percentile margin,0.2577322022225565,0.13764920955114487,True,8147,6069,2078,3,cac11;cac14;cac7,-0.008761969372157896,1.0,Normal higher
