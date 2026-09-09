@@ -16,7 +16,7 @@ The GSE188711 raw supplementary files contain 35,693 barcodes, whereas the sourc
 
 ## Re-running
 
-The raw GEO files are intentionally not committed. Download/prepare the source files under the repository `work/` paths expected by the script, and make the prior GSE132465 cell-level output available under `outputs/DINP_CRC_scRNA_GSE132465_CEBPB_CD36/`. Then run:
+The raw GEO files are intentionally not committed. Download/prepare the source files under the repository `work/` paths expected by the script. The script automatically uses the committed prior GSE132465 cell-level table under `analysis/dinp_crc_scRNA_GSE132465_CEBPB_CD36/`; for a local-only workspace it falls back to `outputs/DINP_CRC_scRNA_GSE132465_CEBPB_CD36/`. Then run:
 
 ```powershell
 & C:\Users\21634\anaconda3\python.exe analysis/dinp_crc_multicohort_scRNA_CEBPB_CD36/run_multicohort_crc_scRNA_cebpb_cd36.py

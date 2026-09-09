@@ -12,7 +12,7 @@ from scipy.io import mmread
 from scipy.stats import mannwhitneyu, wilcoxon
 
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_DIR = ROOT / "outputs" / "DINP_CRC_multicohort_scRNA_CEBPB_CD36"
 TARGETS = ["CEBPB", "CD36"]
 MIN_CELLS_PER_SAMPLE_CELLTYPE = 50
@@ -20,7 +20,13 @@ MIN_CROSS_CELLS_PER_SAMPLE_COMPARTMENT = 10
 MIN_QC_GENES = 200
 MIN_QC_UMI = 500
 
-GSE132465_CELL_LEVEL = ROOT / "outputs" / "DINP_CRC_scRNA_GSE132465_CEBPB_CD36" / "GSE132465_CEBPB_CD36_cell_level_expression.csv"
+GSE132465_REPO_OUTPUT = ROOT / "analysis" / "dinp_crc_scRNA_GSE132465_CEBPB_CD36"
+GSE132465_LOCAL_OUTPUT = ROOT / "outputs" / "DINP_CRC_scRNA_GSE132465_CEBPB_CD36"
+GSE132465_CELL_LEVEL = (
+    GSE132465_REPO_OUTPUT / "GSE132465_CEBPB_CD36_cell_level_expression.csv"
+    if (GSE132465_REPO_OUTPUT / "GSE132465_CEBPB_CD36_cell_level_expression.csv").exists()
+    else GSE132465_LOCAL_OUTPUT / "GSE132465_CEBPB_CD36_cell_level_expression.csv"
+)
 GSE132465_LOCALIZATION = ROOT / "outputs" / "DINP_CRC_scRNA_GSE132465_CEBPB_CD36" / "GSE132465_CEBPB_CD36_cell_type_localization.csv"
 GSE132465_ANNOTATION = ROOT / "work" / "scRNA_GSE132465" / "cell_annotation.txt.gz"
 GSE132465_SOFT = ROOT / "work" / "scRNA_GSE132465" / "GSE132465_family.soft.gz"
