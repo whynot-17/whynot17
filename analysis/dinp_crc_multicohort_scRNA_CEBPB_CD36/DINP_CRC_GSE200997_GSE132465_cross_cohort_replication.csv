@@ -1,0 +1,15 @@
+gene_symbol,cross_compartment,gse200997_matched_n,gse200997_median_delta,gse200997_p,gse132465_matched_n,gse132465_median_delta,gse132465_p,same_direction,replication_status
+CD36,B_Plasma,7,0.2587719351184547,0.09375,10,-0.3852394347670006,0.001953125,False,Not concordant/insufficient
+CD36,Epithelial,7,0.0,1.0,10,-0.5364933245033722,0.0390625,False,Not concordant/insufficient
+CD36,Mast,0,,,0,,,False,Not concordant/insufficient
+CD36,Myeloid,4,2.679508287973191,0.125,9,-0.62393807392829,0.30078125,False,Not concordant/insufficient
+CD36,Stromal,4,-3.949100731465857,0.375,10,-2.880752898957544,0.001953125,True,Direction concordant
+CD36,T_NK,7,0.0,1.0,10,-0.17516485744896543,0.046875,False,Not concordant/insufficient
+CD36,Unclassified,3,0.0,1.0,0,,,False,Not concordant/insufficient
+CEBPB,B_Plasma,7,0.0932936556885613,0.6875,10,-0.2346883829680615,0.10546875,False,Not concordant/insufficient
+CEBPB,Epithelial,7,0.3043151596379161,0.296875,10,0.6583344048801125,0.005859375,True,Direction concordant
+CEBPB,Mast,0,,,0,,,False,Not concordant/insufficient
+CEBPB,Myeloid,4,0.2982778997935287,0.125,9,-0.06471452983334114,0.8203125,False,Not concordant/insufficient
+CEBPB,Stromal,4,0.3068753094050125,0.625,10,-0.17583024933930735,0.275390625,False,Not concordant/insufficient
+CEBPB,T_NK,7,0.09131387651036071,0.296875,10,0.026481021715931696,0.4921875,True,Direction concordant
+CEBPB,Unclassified,3,1.2489575245170057,0.25,0,,,False,Not concordant/insufficient

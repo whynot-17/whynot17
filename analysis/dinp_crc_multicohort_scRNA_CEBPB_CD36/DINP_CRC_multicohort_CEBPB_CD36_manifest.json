@@ -1,0 +1,259 @@
+{
+  "targets": [
+    "CEBPB",
+    "CD36"
+  ],
+  "qc_threshold_for_raw_matrix_cohorts": {
+    "min_umi": 500,
+    "min_genes": 200
+  },
+  "pseudobulk": {
+    "grouping": "cohort x patient x sample x class x side x cell_type",
+    "normalization": "aggregate target UMI / aggregate library UMI x 1e6 = pseudobulk CPM",
+    "minimum_cells_per_sample_celltype": 50,
+    "minimum_cells_per_sample_cross_compartment_exploratory": 10,
+    "tumor_normal_test": "paired Wilcoxon across matched patients, BH across tests within cohort",
+    "left_right_test": "sample-level Mann-Whitney U among tumor samples, BH within cohort"
+  },
+  "cohorts": {
+    "GSE132465": {
+      "cohort": "GSE132465",
+      "annotation_source": "work/scRNA_GSE132465/cell_annotation.txt.gz",
+      "annotation_sha256": "4bf2ebdadc88da53b0c46e654a6576e841925addc25c981d7cdbc0d988b4677c",
+      "source_cell_level_output": "outputs/DINP_CRC_scRNA_GSE132465_CEBPB_CD36/GSE132465_CEBPB_CD36_cell_level_expression.csv",
+      "cell_type_source": "GEO curated annotation from prior single-cell analysis",
+      "side_mapping": "rectum/sigmoid/rectosigmoid=Left; ascending/hepatic flexure=Right; normal samples inherit matched patient side"
+    },
+    "GSE200997": {
+      "cohort": "GSE200997",
+      "annotation_source": "work/scRNA_GSE200997/cell_annotation.csv.gz",
+      "annotation_sha256": "e0da0e400a7792c0612a8da7805f08dbfb42c4bcadc80e0f2b9ec8e566d7bdfc",
+      "count_source": "work/scRNA_GSE200997/raw_UMI_count_matrix.csv.gz",
+      "count_sha256": "1ffa86c0e6eba0a76556a848c4bc55771a161a1e9110416c4f36eec257b3e687",
+      "cell_type_source": "Marker-inferred; GEO file contains sample/condition/location/CMS metadata but no cell-type labels",
+      "marker_panels": {
+        "Epithelial": [
+          "EPCAM",
+          "KRT8",
+          "KRT18",
+          "KRT19",
+          "KRT20",
+          "CEACAM5",
+          "MUC1"
+        ],
+        "T_NK": [
+          "CD3D",
+          "CD3E",
+          "TRAC",
+          "CD247",
+          "CD8A",
+          "NKG7",
+          "GNLY",
+          "TRBC1"
+        ],
+        "B_Plasma": [
+          "CD79A",
+          "MS4A1",
+          "CD37",
+          "CD74",
+          "CD79B",
+          "CD19",
+          "JCHAIN",
+          "MZB1",
+          "SDC1"
+        ],
+        "Myeloid": [
+          "LYZ",
+          "LST1",
+          "TYROBP",
+          "FCER1G",
+          "CTSS",
+          "CD68",
+          "C1QA",
+          "C1QB",
+          "C1QC"
+        ],
+        "Neutrophil": [
+          "S100A8",
+          "S100A9",
+          "FCGR3B",
+          "CSF3R",
+          "S100A12",
+          "LILRB3",
+          "CXCR2"
+        ],
+        "Fibroblast": [
+          "COL1A1",
+          "COL1A2",
+          "COL3A1",
+          "DCN",
+          "LUM",
+          "FAP",
+          "THY1",
+          "PDGFRA"
+        ],
+        "Endothelial": [
+          "PECAM1",
+          "VWF",
+          "EMCN",
+          "KDR",
+          "ENG",
+          "CLDN5",
+          "RAMP2"
+        ],
+        "Mast": [
+          "TPSAB1",
+          "TPSB2",
+          "KIT",
+          "CPA3",
+          "GATA2",
+          "MS4A2"
+        ]
+      },
+      "qc_threshold": {
+        "min_umi": 500,
+        "min_genes": 200
+      }
+    },
+    "GSE188711": {
+      "cohort": "GSE188711",
+      "source_tar": "work/scRNA_GSE188711/GSE188711_RAW.tar",
+      "source_tar_sha256": "6e180ca87970067361f7d0f102047949fdadba8993ea7c6f60903a7684fb275a",
+      "cell_type_source": "Marker-inferred from raw 10X UMI; GEO series has no cell-type annotation file",
+      "sample_side_map": {
+        "GSM5688706": {
+          "sample": "WGC",
+          "side": "Left"
+        },
+        "GSM5688707": {
+          "sample": "JCA",
+          "side": "Left"
+        },
+        "GSM5688708": {
+          "sample": "LS-CRC3",
+          "side": "Left"
+        },
+        "GSM5688709": {
+          "sample": "RS-CRC1",
+          "side": "Right"
+        },
+        "GSM5688710": {
+          "sample": "R_CRC3",
+          "side": "Right"
+        },
+        "GSM5688711": {
+          "sample": "R_CRC4",
+          "side": "Right"
+        }
+      },
+      "marker_panels": {
+        "Epithelial": [
+          "EPCAM",
+          "KRT8",
+          "KRT18",
+          "KRT19",
+          "KRT20",
+          "CEACAM5",
+          "MUC1"
+        ],
+        "T_NK": [
+          "CD3D",
+          "CD3E",
+          "TRAC",
+          "CD247",
+          "CD8A",
+          "NKG7",
+          "GNLY",
+          "TRBC1"
+        ],
+        "B_Plasma": [
+          "CD79A",
+          "MS4A1",
+          "CD37",
+          "CD74",
+          "CD79B",
+          "CD19",
+          "JCHAIN",
+          "MZB1",
+          "SDC1"
+        ],
+        "Myeloid": [
+          "LYZ",
+          "LST1",
+          "TYROBP",
+          "FCER1G",
+          "CTSS",
+          "CD68",
+          "C1QA",
+          "C1QB",
+          "C1QC"
+        ],
+        "Neutrophil": [
+          "S100A8",
+          "S100A9",
+          "FCGR3B",
+          "CSF3R",
+          "S100A12",
+          "LILRB3",
+          "CXCR2"
+        ],
+        "Fibroblast": [
+          "COL1A1",
+          "COL1A2",
+          "COL3A1",
+          "DCN",
+          "LUM",
+          "FAP",
+          "THY1",
+          "PDGFRA"
+        ],
+        "Endothelial": [
+          "PECAM1",
+          "VWF",
+          "EMCN",
+          "KDR",
+          "ENG",
+          "CLDN5",
+          "RAMP2"
+        ],
+        "Mast": [
+          "TPSAB1",
+          "TPSB2",
+          "KIT",
+          "CPA3",
+          "GATA2",
+          "MS4A2"
+        ]
+      },
+      "qc_threshold": {
+        "min_umi": 500,
+        "min_genes": 200
+      }
+    }
+  },
+  "cell_counts_after_qc": {
+    "GSE200997_tumor": 31573,
+    "GSE200997_normal": 18273,
+    "GSE132465_tumor": 47285,
+    "GSE132465_normal": 16404,
+    "GSE188711_tumor": 33482,
+    "combined": 147017
+  },
+  "cell_type_source_warning": "GSE200997 and GSE188711 labels are marker-inferred; GSE132465 labels are GEO-curated. Tumor epithelial is a sample-context proxy, not CNV-confirmed malignant status.",
+  "qc": {
+    "combined_cells": 149241,
+    "combined_qc_pass_cells": 147017,
+    "long_rows": 298482,
+    "localization_rows": 154,
+    "pseudobulk_rows": 852,
+    "paired_rows": 26,
+    "cross_compartment_paired_rows": 26,
+    "cross_compartment_pseudobulk_rows": 756,
+    "sidedness_rows": 42,
+    "replication_rows": 14,
+    "target_total_umi": {
+      "CEBPB": 171052,
+      "CD36": 11149
+    }
+  }
+}
