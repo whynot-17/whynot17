@@ -1,0 +1,45 @@
+{
+  "analysis": "clean_CEBPB_only_GSE132465_GSE294300",
+  "targets": [
+    "CEBPB"
+  ],
+  "included_cohorts": [
+    "GSE132465",
+    "GSE294300"
+  ],
+  "qc_threshold": {
+    "min_umi": 500,
+    "min_genes": 200
+  },
+  "pseudobulk": {
+    "normalization": "aggregate CEBPB UMI / aggregate library UMI × 1e6 = pseudobulk CPM",
+    "grouping": "cohort × patient × sample × class × cell_type",
+    "minimum_cells_per_sample_celltype": 50,
+    "tumor_normal_test": "paired Wilcoxon across matched patients",
+    "primary_fdr_family": "epithelial tests across the two cohorts"
+  },
+  "reference_mapping": {
+    "reference_cohort": "GSE132465",
+    "annotation_features_exclude_target": true,
+    "calibration_estimator": "exact leave-one-out median centroid"
+  },
+  "primary_summary": [
+    {
+      "cohort": "GSE132465",
+      "matched_patient_n": 7,
+      "median_delta_tumor_minus_normal_log1p_pseudobulk_cpm": 0.6070179492732768,
+      "wilcoxon_p_value": 0.046875,
+      "fdr_bh_primary_epithelial_across_cohorts": 0.046875,
+      "direction": "Tumor higher"
+    },
+    {
+      "cohort": "GSE294300",
+      "matched_patient_n": 10,
+      "median_delta_tumor_minus_normal_log1p_pseudobulk_cpm": 0.665450444465336,
+      "wilcoxon_p_value": 0.037109375,
+      "fdr_bh_primary_epithelial_across_cohorts": 0.046875,
+      "direction": "Tumor higher"
+    }
+  ],
+  "source_note": "Two-cohort CEBPB epithelial validation using patient-level pseudobulk from GSE132465 and GSE294300."
+}

@@ -1,2 +1,0 @@
-method,markers,epithelial_score_threshold,non_epithelial_exclusion_margin,cebpb_excluded_from_gate,gated_epithelial_cells_total,gated_epithelial_cells_tumor,gated_epithelial_cells_normal,matched_patient_n,matched_patients,median_delta_tumor_minus_normal_log1p_pseudobulk_cpm,wilcoxon_p_value,direction
-canonical_marker_gate,EPCAM/KRT8/KRT18/KRT19/KRT20/CEACAM5/MUC1,0.5,0.1,True,9894,7138,2756,7,cac10;cac11;cac14;cac15;cac4;cac6;cac7,0.3115965403652359,0.296875,Tumor higher

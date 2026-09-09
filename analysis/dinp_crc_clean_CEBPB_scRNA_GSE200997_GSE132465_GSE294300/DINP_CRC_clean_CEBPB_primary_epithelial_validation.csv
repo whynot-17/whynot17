@@ -1,4 +1,0 @@
-cohort,gene_symbol,cell_type,matched_patient_n,matched_patients,median_delta_tumor_minus_normal_log1p_pseudobulk_cpm,mean_delta_tumor_minus_normal_log1p_pseudobulk_cpm,tumor_gt_normal_n,tumor_eq_normal_n,tumor_lt_normal_n,wilcoxon_statistic,wilcoxon_p_value,minimum_cell_rule,direction,fdr_bh_secondary_celltype_family,primary_epithelial_hypothesis,fdr_bh_primary_epithelial_across_cohorts
-GSE200997,CEBPB,Epithelial cells,4,cac11;cac14;cac15;cac7,0.19747379111505037,0.24175818733664667,3,0,1,3.0,0.625,50,Tumor higher,0.84375,True,0.625
-GSE132465,CEBPB,Epithelial cells,7,SMC01;SMC02;SMC03;SMC04;SMC07;SMC09;SMC10,0.6070179492732768,0.72112716630018,6,0,1,2.0,0.046875,50,Tumor higher,0.18229166666666666,True,0.0703125
-GSE294300,CEBPB,Epithelial cells,10,patient_04;patient_08;patient_09;patient_10;patient_11;patient_17;patient_18;patient_19;patient_20;patient_23,0.665450444465336,0.5719417333278692,7,0,3,7.0,0.037109375,50,Tumor higher,0.0509765625,True,0.0703125
