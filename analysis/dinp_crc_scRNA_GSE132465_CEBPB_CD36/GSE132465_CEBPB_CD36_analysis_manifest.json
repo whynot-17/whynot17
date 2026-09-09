@@ -1,0 +1,76 @@
+{
+  "dataset": "GSE132465",
+  "annotation_source": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE132nnn/GSE132465/suppl/GSE132465_GEO_processed_CRC_10X_cell_annotation.txt.gz",
+  "count_source": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE132nnn/GSE132465/suppl/GSE132465_GEO_processed_CRC_10X_raw_UMI_count_matrix.txt.gz",
+  "annotation_sha256": "4bf2ebdadc88da53b0c46e654a6576e841925addc25c981d7cdbc0d988b4677c",
+  "count_matrix_sha256": "deff856c7fe1d2c845af5b31e1c65a1dd95ea29541772a66c89bda3aaa8c0666",
+  "cell_n": 63689,
+  "tumor_cell_n": 47285,
+  "normal_cell_n": 16404,
+  "patient_n": 23,
+  "tumor_patient_n": 23,
+  "normal_patient_n": 10,
+  "matched_patient_n": 10,
+  "matched_patients": [
+    "SMC01",
+    "SMC02",
+    "SMC03",
+    "SMC04",
+    "SMC05",
+    "SMC06",
+    "SMC07",
+    "SMC08",
+    "SMC09",
+    "SMC10"
+  ],
+  "cell_types": [
+    "B cells",
+    "Epithelial cells",
+    "Mast cells",
+    "Myeloids",
+    "Stromal cells",
+    "T cells"
+  ],
+  "target_genes": [
+    "CEBPB",
+    "CD36"
+  ],
+  "target_rows_found": [
+    "CD36",
+    "CEBPB"
+  ],
+  "minimum_cells_per_sample_celltype_for_pseudobulk": 50,
+  "pseudobulk_unit": "sum raw target UMI per patient x class x cell type, normalized by aggregate library UMI to pseudobulk CPM",
+  "paired_test": "two-sided Wilcoxon signed-rank test on log1p(pseudobulk CPM) across matched patients; BH correction across 12 gene x cell-type tests",
+  "top_tumor_localization": [
+    {
+      "gene_symbol": "CEBPB",
+      "top_tumor_cell_type_by_detection": "Myeloids",
+      "top_tumor_detection_rate": 0.741875,
+      "top_tumor_cell_type_by_mean_log1p_cpm": "Myeloids",
+      "top_tumor_mean_log1p_cpm": 4.647288797652988
+    },
+    {
+      "gene_symbol": "CD36",
+      "top_tumor_cell_type_by_detection": "Myeloids",
+      "top_tumor_detection_rate": 0.1809375,
+      "top_tumor_cell_type_by_mean_log1p_cpm": "Myeloids",
+      "top_tumor_mean_log1p_cpm": 0.976027356743315
+    }
+  ],
+  "qc": {
+    "annotation_cell_ids_unique": true,
+    "cell_level_rows": 63689,
+    "pseudobulk_rows": 354,
+    "paired_rows": 12,
+    "total_library_umi_sum": 622669375,
+    "targets_nonzero_umi": {
+      "CEBPB": 112098,
+      "CD36": 7847
+    },
+    "targets_detected_cells": {
+      "CEBPB": 29087,
+      "CD36": 2243
+    }
+  }
+}
