@@ -110,8 +110,12 @@ def main():
             simulation.step(equil_steps)
 
     simulation.reporters.clear()
-    simulation.reporters.append(DCDReporter(str(dcd), report_steps, enforcePeriodicBox=True))
-    simulation.reporters.append(StateDataReporter(str(state_csv), report_steps, step=True, time=True, potentialEnergy=True, kineticEnergy=True, totalEnergy=True, temperature=True, volume=True, density=True, progress=True, remainingTime=True, speed=True, totalSteps=target_steps, separator=","))
+    # A resumed run must append to the existing trajectory/log files.  The
+    # checkpoint is written every 100 ps, so a resume can overlap at most one
+    # reporting interval; overwriting here would discard the completed prefix.
+    append_outputs = bool(args.resume and dcd.exists())
+    simulation.reporters.append(DCDReporter(str(dcd), report_steps, append=append_outputs, enforcePeriodicBox=True))
+    simulation.reporters.append(StateDataReporter(str(state_csv), report_steps, step=True, time=True, potentialEnergy=True, kineticEnergy=True, totalEnergy=True, temperature=True, volume=True, density=True, progress=True, remainingTime=True, speed=True, totalSteps=target_steps, separator=",", append=append_outputs))
     simulation.reporters.append(CheckpointReporter(str(checkpoint), checkpoint_steps))
     remaining = max(0, target_steps - simulation.currentStep)
     simulation.step(remaining)
