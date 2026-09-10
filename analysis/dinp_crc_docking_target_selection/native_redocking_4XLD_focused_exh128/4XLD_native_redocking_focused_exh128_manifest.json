@@ -1,0 +1,75 @@
+{
+  "generated_utc": "2026-09-10T00:04:27.082212+00:00",
+  "assay": "4XLD focused-box native-ligand self-redocking",
+  "ligand": {
+    "resname": "BRL",
+    "description": "co-crystallized rosiglitazone",
+    "chain": "A",
+    "resseq": 502
+  },
+  "box": {
+    "derivation": "native BRL heavy-atom bounding-box midpoint; native span plus 8 A total margin; rounded upward",
+    "center_A": [
+      57.2365,
+      29.371000000000002,
+      3.713
+    ],
+    "native_span_A": [
+      4.783000000000001,
+      11.176000000000002,
+      6.656000000000001
+    ],
+    "size_A": [
+      14,
+      20,
+      16
+    ]
+  },
+  "parameters": {
+    "engine": "AutoDock Vina 1.2.7",
+    "seed": 20260909,
+    "exhaustiveness": 128,
+    "original_exhaustiveness": 32,
+    "num_modes": 20,
+    "energy_range_kcal_mol": 5,
+    "cpu": 8,
+    "rmsd_pass_threshold_A": 2.0
+  },
+  "result": {
+    "top_affinity_kcal_mol": -8.517,
+    "top_rmsd_A": 2.3464767887196336,
+    "native_like_in_top1": false,
+    "native_like_in_top3": false,
+    "best_mode": 15,
+    "best_rmsd_A": 1.3583585241017928,
+    "native_like_pose_count": 2
+  },
+  "provenance": {
+    "receptor_sha256": "32d6410a69511ea3ca1ca250e6faa224d5d9fe553754a8713b3f9956335f0c42",
+    "native_ligand_pdbqt_sha256": "fe65b48af6dae600c2670340ee8ca8a5cd8eac847eb4e9499eef5462b6f31d92",
+    "original_box_sha256": "57e3b2b46f942bb88f970973392ded74b51af4784bb7ed29f5704084fa19bb3f",
+    "command": [
+      "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\work\\bin\\vina_1.2.7_win.exe",
+      "--config",
+      "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\native_redocking_4XLD_focused_exh128\\PPARG_4XLD_focused_native_box.txt",
+      "--receptor",
+      "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\prepared\\PPARG_4XLD_rigid.pdbqt",
+      "--ligand",
+      "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\native_redocking_4XLD\\4XLD_native_BRL.pdbqt",
+      "--out",
+      "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\native_redocking_4XLD_focused_exh128\\4XLD_native_redocked_BRL_focused_exh128.pdbqt",
+      "--exhaustiveness",
+      "128",
+      "--num_modes",
+      "20",
+      "--energy_range",
+      "5",
+      "--cpu",
+      "8",
+      "--seed",
+      "20260909",
+      "--verbosity",
+      "1"
+    ]
+  }
+}

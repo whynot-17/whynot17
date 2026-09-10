@@ -1,0 +1,220 @@
+REMARK 4XLD BRL structural overlap; coordinates are in receptor frame unless noted
+MODEL        1
+REMARK COPY A Crystal BRL
+HETATM    1   S1 BRL A 502      58.150  32.598   4.855  1.00  0.00           S
+HETATM    2   O2 BRL A 502      59.628  34.652   5.020  1.00  0.00           O
+HETATM    3   O4 BRL A 502      54.845  34.277   5.276  1.00  0.00           O
+HETATM    4  O13 BRL A 502      56.740  26.147   6.301  1.00  0.00           O
+HETATM    5   N3 BRL A 502      57.261  34.959   5.090  1.00  0.00           N
+HETATM    6  N16 BRL A 502      57.882  24.038   4.535  1.00  0.00           N
+HETATM    7  N18 BRL A 502      59.305  23.842   2.606  1.00  0.00           N
+HETATM    8   C2 BRL A 502      58.521  34.176   4.994  1.00  0.00           C
+HETATM    9   C4 BRL A 502      56.018  33.945   5.184  1.00  0.00           C
+HETATM   10   C5 BRL A 502      56.550  32.482   5.144  1.00  0.00           C
+HETATM   11   C6 BRL A 502      56.312  31.863   6.534  1.00  0.00           C
+HETATM   12   C7 BRL A 502      56.413  30.324   6.463  1.00  0.00           C
+HETATM   13   C8 BRL A 502      55.408  29.564   5.811  1.00  0.00           C
+HETATM   14   C9 BRL A 502      55.516  28.174   5.752  1.00  0.00           C
+HETATM   15  C10 BRL A 502      56.611  27.537   6.337  1.00  0.00           C
+HETATM   16  C11 BRL A 502      57.600  28.291   6.984  1.00  0.00           C
+HETATM   17  C12 BRL A 502      57.491  29.689   7.041  1.00  0.00           C
+HETATM   18  C14 BRL A 502      55.986  25.490   5.281  1.00  0.00           C
+HETATM   19  C15 BRL A 502      56.517  24.050   5.136  1.00  0.00           C
+HETATM   20  C16 BRL A 502      59.015  24.080   5.358  1.00  0.00           C
+HETATM   21  C17 BRL A 502      58.049  23.979   3.123  1.00  0.00           C
+HETATM   22  C19 BRL A 502      59.500  23.783   1.274  1.00  0.00           C
+HETATM   23  C20 BRL A 502      58.376  23.867   0.385  1.00  0.00           C
+HETATM   24  C21 BRL A 502      57.078  24.010   0.898  1.00  0.00           C
+HETATM   25  C22 BRL A 502      56.905  24.066   2.274  1.00  0.00           C
+TER
+REMARK COPY B Top1
+HETATM   26   S1 BRL B 502      58.200  33.102   4.503  1.00  0.00           S
+HETATM   27   O2 BRL B 502      59.053  35.490   4.420  1.00  0.00           O
+HETATM   28   O4 BRL B 502      55.008  33.733   6.328  1.00  0.00           O
+HETATM   29  O13 BRL B 502      55.904  26.270   6.439  1.00  0.00           O
+HETATM   30   N3 BRL B 502      56.904  35.094   5.384  1.00  0.00           N
+HETATM   31  N16 BRL B 502      56.750  24.512   3.587  1.00  0.00           N
+HETATM   32  N18 BRL B 502      58.857  24.613   2.430  1.00  0.00           N
+HETATM   33   C2 BRL B 502      58.182  34.714   4.727  1.00  0.00           C
+HETATM   34   C4 BRL B 502      56.097  33.760   5.772  1.00  0.00           C
+HETATM   35   C5 BRL B 502      56.923  32.517   5.329  1.00  0.00           C
+HETATM   36   C6 BRL B 502      57.408  31.804   6.606  1.00  0.00           C
+HETATM   37   C7 BRL B 502      57.015  30.311   6.571  1.00  0.00           C
+HETATM   38   C8 BRL B 502      57.739  29.357   7.332  1.00  0.00           C
+HETATM   39   C9 BRL B 502      57.369  28.012   7.293  1.00  0.00           C
+HETATM   40  C10 BRL B 502      56.291  27.610   6.504  1.00  0.00           C
+HETATM   41  C11 BRL B 502      55.581  28.556   5.750  1.00  0.00           C
+HETATM   42  C12 BRL B 502      55.953  29.908   5.792  1.00  0.00           C
+HETATM   43  C14 BRL B 502      56.895  25.374   5.932  1.00  0.00           C
+HETATM   44  C15 BRL B 502      57.111  25.684   4.437  1.00  0.00           C
+HETATM   45  C16 BRL B 502      55.454  23.984   3.629  1.00  0.00           C
+HETATM   46  C17 BRL B 502      57.715  23.923   2.722  1.00  0.00           C
+HETATM   47  C19 BRL B 502      59.792  24.084   1.616  1.00  0.00           C
+HETATM   48  C20 BRL B 502      59.586  22.784   1.044  1.00  0.00           C
+HETATM   49  C21 BRL B 502      58.418  22.062   1.332  1.00  0.00           C
+HETATM   50  C22 BRL B 502      57.472  22.628   2.175  1.00  0.00           C
+TER
+REMARK COPY C Top2
+HETATM   51   S1 BRL C 502      58.088  33.038   4.854  1.00  0.00           S
+HETATM   52   O2 BRL C 502      59.473  35.160   4.931  1.00  0.00           O
+HETATM   53   O4 BRL C 502      54.911  34.417   6.241  1.00  0.00           O
+HETATM   54  O13 BRL C 502      55.744  26.401   5.961  1.00  0.00           O
+HETATM   55   N3 BRL C 502      57.181  35.287   5.587  1.00  0.00           N
+HETATM   56  N16 BRL C 502      58.260  24.577   3.891  1.00  0.00           N
+HETATM   57  N18 BRL C 502      59.451  23.162   2.353  1.00  0.00           N
+HETATM   58   C2 BRL C 502      58.414  34.612   5.103  1.00  0.00           C
+HETATM   59   C4 BRL C 502      56.041  34.182   5.838  1.00  0.00           C
+HETATM   60   C5 BRL C 502      56.610  32.775   5.490  1.00  0.00           C
+HETATM   61   C6 BRL C 502      56.738  31.988   6.808  1.00  0.00           C
+HETATM   62   C7 BRL C 502      56.461  30.487   6.567  1.00  0.00           C
+HETATM   63   C8 BRL C 502      55.576  30.073   5.538  1.00  0.00           C
+HETATM   64   C9 BRL C 502      55.339  28.713   5.331  1.00  0.00           C
+HETATM   65  C10 BRL C 502      55.970  27.768   6.140  1.00  0.00           C
+HETATM   66  C11 BRL C 502      56.840  28.181   7.158  1.00  0.00           C
+HETATM   67  C12 BRL C 502      57.080  29.548   7.364  1.00  0.00           C
+HETATM   68  C14 BRL C 502      56.913  25.614   5.726  1.00  0.00           C
+HETATM   69  C15 BRL C 502      57.046  25.383   4.208  1.00  0.00           C
+HETATM   70  C16 BRL C 502      59.406  24.683   4.689  1.00  0.00           C
+HETATM   71  C17 BRL C 502      58.266  23.687   2.779  1.00  0.00           C
+HETATM   72  C19 BRL C 502      59.495  22.317   1.304  1.00  0.00           C
+HETATM   73  C20 BRL C 502      58.282  21.966   0.623  1.00  0.00           C
+HETATM   74  C21 BRL C 502      57.054  22.498   1.044  1.00  0.00           C
+HETATM   75  C22 BRL C 502      57.037  23.364   2.129  1.00  0.00           C
+TER
+REMARK COPY D Mode15
+HETATM   76   S1 BRL D 502      58.435  32.947   4.707  1.00  0.00           S
+HETATM   77   O2 BRL D 502      59.308  35.327   4.689  1.00  0.00           O
+HETATM   78   O4 BRL D 502      54.887  33.684   5.600  1.00  0.00           O
+HETATM   79  O13 BRL D 502      55.595  26.259   6.464  1.00  0.00           O
+HETATM   80   N3 BRL D 502      56.979  34.987   5.088  1.00  0.00           N
+HETATM   81  N16 BRL D 502      57.830  24.238   4.271  1.00  0.00           N
+HETATM   82  N18 BRL D 502      59.252  23.344   2.549  1.00  0.00           N
+HETATM   83   C2 BRL D 502      58.379  34.570   4.811  1.00  0.00           C
+HETATM   84   C4 BRL D 502      56.082  33.677   5.343  1.00  0.00           C
+HETATM   85   C5 BRL D 502      56.980  32.412   5.214  1.00  0.00           C
+HETATM   86   C6 BRL D 502      57.110  31.789   6.617  1.00  0.00           C
+HETATM   87   C7 BRL D 502      56.717  30.297   6.582  1.00  0.00           C
+HETATM   88   C8 BRL D 502      57.593  29.308   7.096  1.00  0.00           C
+HETATM   89   C9 BRL D 502      57.222  27.963   7.061  1.00  0.00           C
+HETATM   90  C10 BRL D 502      55.990  27.597   6.519  1.00  0.00           C
+HETATM   91  C11 BRL D 502      55.127  28.577   6.008  1.00  0.00           C
+HETATM   92  C12 BRL D 502      55.502  29.929   6.045  1.00  0.00           C
+HETATM   93  C14 BRL D 502      56.641  25.326   6.185  1.00  0.00           C
+HETATM   94  C15 BRL D 502      56.618  25.006   4.677  1.00  0.00           C
+HETATM   95  C16 BRL D 502      58.729  23.775   5.242  1.00  0.00           C
+HETATM   96  C17 BRL D 502      58.085  23.963   2.898  1.00  0.00           C
+HETATM   97  C19 BRL D 502      59.525  23.069   1.259  1.00  0.00           C
+HETATM   98  C20 BRL D 502      58.584  23.431   0.238  1.00  0.00           C
+HETATM   99  C21 BRL D 502      57.383  24.068   0.577  1.00  0.00           C
+HETATM  100  C22 BRL D 502      57.123  24.339   1.914  1.00  0.00           C
+TER
+CONECT    1    8
+CONECT    1   10
+CONECT    2    8
+CONECT    3    9
+CONECT    4   15
+CONECT    4   18
+CONECT    5    8
+CONECT    5    9
+CONECT    6   19
+CONECT    6   20
+CONECT    6   21
+CONECT    7   21
+CONECT    7   22
+CONECT    9   10
+CONECT   10   11
+CONECT   11   12
+CONECT   12   13
+CONECT   12   17
+CONECT   13   14
+CONECT   14   15
+CONECT   15   16
+CONECT   16   17
+CONECT   18   19
+CONECT   21   25
+CONECT   22   23
+CONECT   23   24
+CONECT   24   25
+CONECT   26   33
+CONECT   26   35
+CONECT   27   33
+CONECT   28   34
+CONECT   29   40
+CONECT   29   43
+CONECT   30   33
+CONECT   30   34
+CONECT   31   44
+CONECT   31   45
+CONECT   31   46
+CONECT   32   46
+CONECT   32   47
+CONECT   34   35
+CONECT   35   36
+CONECT   36   37
+CONECT   37   38
+CONECT   37   42
+CONECT   38   39
+CONECT   39   40
+CONECT   40   41
+CONECT   41   42
+CONECT   43   44
+CONECT   46   50
+CONECT   47   48
+CONECT   48   49
+CONECT   49   50
+CONECT   51   58
+CONECT   51   60
+CONECT   52   58
+CONECT   53   59
+CONECT   54   65
+CONECT   54   68
+CONECT   55   58
+CONECT   55   59
+CONECT   56   69
+CONECT   56   70
+CONECT   56   71
+CONECT   57   71
+CONECT   57   72
+CONECT   59   60
+CONECT   60   61
+CONECT   61   62
+CONECT   62   63
+CONECT   62   67
+CONECT   63   64
+CONECT   64   65
+CONECT   65   66
+CONECT   66   67
+CONECT   68   69
+CONECT   71   75
+CONECT   72   73
+CONECT   73   74
+CONECT   74   75
+CONECT   76   83
+CONECT   76   85
+CONECT   77   83
+CONECT   78   84
+CONECT   79   90
+CONECT   79   93
+CONECT   80   83
+CONECT   80   84
+CONECT   81   94
+CONECT   81   95
+CONECT   81   96
+CONECT   82   96
+CONECT   82   97
+CONECT   84   85
+CONECT   85   86
+CONECT   86   87
+CONECT   87   88
+CONECT   87   92
+CONECT   88   89
+CONECT   89   90
+CONECT   90   91
+CONECT   91   92
+CONECT   93   94
+CONECT   96  100
+CONECT   97   98
+CONECT   98   99
+CONECT   99  100
+ENDMDL
+END

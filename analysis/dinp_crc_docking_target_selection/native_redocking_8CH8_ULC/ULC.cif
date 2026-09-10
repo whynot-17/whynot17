@@ -1,0 +1,174 @@
+data_ULC
+# 
+_chem_comp.id                                    ULC 
+_chem_comp.name                                  "~{O}-(5,6,7,8-tetrahydronaphthalen-2-yl) ~{N}-(6-methoxypyridin-2-yl)-~{N}-methyl-carbamothioate" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C18 H20 N2 O2 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2023-02-07 
+_chem_comp.pdbx_modified_date                    2024-02-16 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        328.429 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     ULC 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        8CH8 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  PDBE 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.pdbx_backbone_atom_flag 
+_chem_comp_atom.pdbx_n_terminal_atom_flag 
+_chem_comp_atom.pdbx_c_terminal_atom_flag 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+ULC C7  C1  C 0 1 Y N N N N N 8.820  -11.198 -2.143 4.500  1.022  -1.650 C7  ULC 1  
+ULC C15 C2  C 0 1 Y N N N N N 8.634  -16.852 -3.516 -2.180 -0.199 0.747  C15 ULC 2  
+ULC C17 C3  C 0 1 Y N N N N N 9.761  -18.971 -3.273 -4.259 0.377  -0.287 C17 ULC 3  
+ULC C20 C4  C 0 1 N N N N N N 9.450  -19.597 -6.080 -5.375 -2.139 0.356  C20 ULC 4  
+ULC C21 C5  C 0 1 N N N N N N 8.827  -18.316 -5.543 -3.859 -2.001 0.481  C21 ULC 5  
+ULC C22 C6  C 0 1 Y N N N N N 9.978  -18.670 -1.931 -3.815 1.686  -0.422 C22 ULC 6  
+ULC C1  C7  C 0 1 N N N N N N 6.161  -13.725 0.561  2.019  1.842  2.105  C1  ULC 7  
+ULC C3  C8  C 0 1 Y N N N N N 8.098  -12.946 -0.702 2.901  0.689  0.100  C3  ULC 8  
+ULC O9  O1  O 0 1 N N N N N N 10.735 -11.277 0.890  5.001  -2.163 0.022  O9  ULC 9  
+ULC C11 C9  C 0 1 N N N N N N 7.398  -15.245 -0.807 0.556  0.928  0.384  C11 ULC 10 
+ULC C14 C10 C 0 1 Y N N N N N 8.863  -16.571 -2.178 -1.735 1.104  0.605  C14 ULC 11 
+ULC C16 C11 C 0 1 Y N N N N N 9.077  -18.048 -4.079 -3.441 -0.565 0.299  C16 ULC 12 
+ULC C19 C12 C 0 1 N N N N N N 10.676 -20.032 -5.305 -5.818 -1.454 -0.951 C19 ULC 13 
+ULC C23 C13 C 0 1 Y N N N N N 9.535  -17.481 -1.382 -2.559 2.051  0.014  C23 ULC 14 
+ULC C10 C14 C 0 1 N N N N N N 11.561 -10.147 0.625  4.379  -2.875 1.094  C10 ULC 15 
+ULC C18 C15 C 0 1 N N N N N N 10.300 -20.248 -3.863 -5.647 0.053  -0.773 C18 ULC 16 
+ULC C5  C16 C 0 1 Y N N N N N 9.831  -11.618 -0.044 4.479  -0.952 -0.297 C5  ULC 17 
+ULC C6  C17 C 0 1 Y N N N N N 9.780  -10.860 -1.209 5.039  -0.214 -1.330 C6  ULC 18 
+ULC C8  C18 C 0 1 Y N N N N N 7.954  -12.257 -1.904 3.413  1.479  -0.922 C8  ULC 19 
+ULC N2  N1  N 0 1 N N N N N N 7.257  -13.999 -0.361 1.808  1.139  0.837  N2  ULC 20 
+ULC N4  N2  N 0 1 Y N N N N N 9.018  -12.633 0.209  3.441  -0.488 0.380  N4  ULC 21 
+ULC O13 O2  O 0 1 N N N N N N 8.472  -15.326 -1.649 -0.496 1.455  1.041  O13 ULC 22 
+ULC S12 S1  S 0 1 N N N N N N 6.436  -16.532 -0.435 0.303  -0.009 -1.026 S12 ULC 23 
+ULC H1  H1  H 0 1 N N N N N N 8.743  -10.637 -3.062 4.920  1.618  -2.446 H1  ULC 24 
+ULC H2  H2  H 0 1 N N N N N N 8.106  -16.136 -4.129 -1.538 -0.938 1.205  H2  ULC 25 
+ULC H3  H3  H 0 1 N N N N N N 8.700  -20.400 -6.028 -5.647 -3.194 0.328  H3  ULC 26 
+ULC H4  H4  H 0 1 N N N N N N 9.739  -19.433 -7.129 -5.859 -1.658 1.207  H4  ULC 27 
+ULC H5  H5  H 0 1 N N N N N N 9.234  -17.472 -6.119 -3.547 -2.345 1.467  H5  ULC 28 
+ULC H6  H6  H 0 1 N N N N N N 7.740  -18.375 -5.698 -3.379 -2.614 -0.282 H6  ULC 29 
+ULC H7  H7  H 0 1 N N N N N N 10.502 -19.379 -1.307 -4.455 2.422  -0.886 H7  ULC 30 
+ULC H8  H8  H 0 1 N N N N N N 6.173  -12.661 0.840  2.102  2.912  1.918  H8  ULC 31 
+ULC H9  H9  H 0 1 N N N N N N 5.204  -13.966 0.075  1.176  1.653  2.770  H9  ULC 32 
+ULC H10 H10 H 0 1 N N N N N N 6.279  -14.342 1.464  2.937  1.482  2.572  H10 ULC 33 
+ULC H11 H11 H 0 1 N N N N N N 11.065 -20.970 -5.728 -5.200 -1.807 -1.777 H11 ULC 34 
+ULC H12 H12 H 0 1 N N N N N N 11.449 -19.252 -5.371 -6.864 -1.683 -1.150 H12 ULC 35 
+ULC H13 H13 H 0 1 N N N N N N 9.712  -17.264 -0.339 -2.223 3.071  -0.095 H13 ULC 36 
+ULC H14 H14 H 0 1 N N N N N N 12.247 -9.988  1.470  4.893  -3.824 1.246  H14 ULC 37 
+ULC H15 H15 H 0 1 N N N N N N 12.143 -10.325 -0.291 4.438  -2.281 2.007  H15 ULC 38 
+ULC H16 H16 H 0 1 N N N N N N 10.931 -9.255  0.491  3.334  -3.062 0.849  H16 ULC 39 
+ULC H17 H17 H 0 1 N N N N N N 9.530  -21.031 -3.801 -6.383 0.416  -0.055 H17 ULC 40 
+ULC H18 H18 H 0 1 N N N N N N 11.190 -20.563 -3.298 -5.807 0.549  -1.731 H18 ULC 41 
+ULC H19 H19 H 0 1 N N N N N N 10.463 -10.040 -1.377 5.886  -0.598 -1.878 H19 ULC 42 
+ULC H20 H20 H 0 1 N N N N N N 7.198  -12.536 -2.623 2.970  2.438  -1.146 H20 ULC 43 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+ULC C20 C21 SING N N 1  
+ULC C20 C19 SING N N 2  
+ULC C21 C16 SING N N 3  
+ULC C19 C18 SING N N 4  
+ULC C16 C15 DOUB Y N 5  
+ULC C16 C17 SING Y N 6  
+ULC C18 C17 SING N N 7  
+ULC C15 C14 SING Y N 8  
+ULC C17 C22 DOUB Y N 9  
+ULC C14 O13 SING N N 10 
+ULC C14 C23 DOUB Y N 11 
+ULC C7  C8  DOUB Y N 12 
+ULC C7  C6  SING Y N 13 
+ULC C22 C23 SING Y N 14 
+ULC C8  C3  SING Y N 15 
+ULC O13 C11 SING N N 16 
+ULC C6  C5  DOUB Y N 17 
+ULC C11 S12 DOUB N N 18 
+ULC C11 N2  SING N N 19 
+ULC C3  N2  SING N N 20 
+ULC C3  N4  DOUB Y N 21 
+ULC N2  C1  SING N N 22 
+ULC C5  N4  SING Y N 23 
+ULC C5  O9  SING N N 24 
+ULC C10 O9  SING N N 25 
+ULC C7  H1  SING N N 26 
+ULC C15 H2  SING N N 27 
+ULC C20 H3  SING N N 28 
+ULC C20 H4  SING N N 29 
+ULC C21 H5  SING N N 30 
+ULC C21 H6  SING N N 31 
+ULC C22 H7  SING N N 32 
+ULC C1  H8  SING N N 33 
+ULC C1  H9  SING N N 34 
+ULC C1  H10 SING N N 35 
+ULC C19 H11 SING N N 36 
+ULC C19 H12 SING N N 37 
+ULC C23 H13 SING N N 38 
+ULC C10 H14 SING N N 39 
+ULC C10 H15 SING N N 40 
+ULC C10 H16 SING N N 41 
+ULC C18 H17 SING N N 42 
+ULC C18 H18 SING N N 43 
+ULC C6  H19 SING N N 44 
+ULC C8  H20 SING N N 45 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+ULC InChI            InChI                1.06  "InChI=1S/C18H20N2O2S/c1-20(16-8-5-9-17(19-16)21-2)18(23)22-15-11-10-13-6-3-4-7-14(13)12-15/h5,8-12H,3-4,6-7H2,1-2H3" 
+ULC InChIKey         InChI                1.06  VPHPQNGOVQYUMG-UHFFFAOYSA-N                                                                                           
+ULC SMILES_CANONICAL CACTVS               3.385 "COc1cccc(n1)N(C)C(=S)Oc2ccc3CCCCc3c2"                                                                                
+ULC SMILES           CACTVS               3.385 "COc1cccc(n1)N(C)C(=S)Oc2ccc3CCCCc3c2"                                                                                
+ULC SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "CN(c1cccc(n1)OC)C(=S)Oc2ccc3c(c2)CCCC3"                                                                              
+ULC SMILES           "OpenEye OEToolkits" 2.0.7 "CN(c1cccc(n1)OC)C(=S)Oc2ccc3c(c2)CCCC3"                                                                              
+# 
+_pdbx_chem_comp_identifier.comp_id           ULC 
+_pdbx_chem_comp_identifier.type              "SYSTEMATIC NAME" 
+_pdbx_chem_comp_identifier.program           "OpenEye OEToolkits" 
+_pdbx_chem_comp_identifier.program_version   2.0.7 
+_pdbx_chem_comp_identifier.identifier        "~{O}-(5,6,7,8-tetrahydronaphthalen-2-yl) ~{N}-(6-methoxypyridin-2-yl)-~{N}-methyl-carbamothioate" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+ULC "Create component" 2023-02-07 PDBE 
+ULC "Initial release"  2024-02-21 RCSB 
+# 

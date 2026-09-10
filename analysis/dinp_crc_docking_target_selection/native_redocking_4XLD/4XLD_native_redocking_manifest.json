@@ -1,0 +1,53 @@
+{
+  "generated_utc": "2026-09-09T23:53:37.245964+00:00",
+  "assay": "4XLD native-ligand self-redocking",
+  "ligand": {
+    "resname": "BRL",
+    "description": "co-crystallized rosiglitazone",
+    "chain": "A",
+    "resseq": 502
+  },
+  "inputs": {
+    "pdb": {
+      "path": "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\inputs\\4XLD.pdb",
+      "sha256": "8b63e3e13768ebc4a82f59847233d029d635fb62696be9e2038ee60581d15234"
+    },
+    "ideal_sdf": {
+      "path": "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\native_redocking_4XLD\\BRL_ideal.sdf",
+      "sha256": "432194aafcfaa85db6dc0932cc9ef22228c8200329b7a6a4a29c29619b6c9b4a"
+    },
+    "receptor_pdbqt": {
+      "path": "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\prepared\\PPARG_4XLD_rigid.pdbqt",
+      "sha256": "32d6410a69511ea3ca1ca250e6faa224d5d9fe553754a8713b3f9956335f0c42"
+    },
+    "box": {
+      "path": "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\prepared\\PPARG_4XLD_box.txt",
+      "sha256": "57e3b2b46f942bb88f970973392ded74b51af4784bb7ed29f5704084fa19bb3f"
+    }
+  },
+  "parameters": {
+    "engine": "AutoDock Vina 1.2.7",
+    "seed": 20260909,
+    "exhaustiveness": 32,
+    "num_modes": 20,
+    "energy_range_kcal_mol": 5,
+    "cpu": 8,
+    "rmsd_pass_threshold_A": 2.0
+  },
+  "result": {
+    "top_affinity_kcal_mol": -8.816,
+    "top_receptor_frame_rmsd_A": 7.157623672700319,
+    "top_ranked_pass": false,
+    "lowest_rmsd_mode": 5,
+    "lowest_rmsd_A": 1.2696586785431745
+  },
+  "outputs": {
+    "native_pdb": "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\native_redocking_4XLD\\4XLD_native_BRL.pdb",
+    "native_sdf": "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\native_redocking_4XLD\\4XLD_native_BRL.sdf",
+    "native_pdbqt": "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\native_redocking_4XLD\\4XLD_native_BRL.pdbqt",
+    "redocked_pdbqt": "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\native_redocking_4XLD\\4XLD_native_redocked_BRL.pdbqt",
+    "rmsd_csv": "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\native_redocking_4XLD\\4XLD_native_redocking_rmsd.csv",
+    "log": "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\native_redocking_4XLD\\4XLD_native_redocking.log",
+    "report": "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\native_redocking_4XLD\\4XLD_native_redocking_QC_report.md"
+  }
+}

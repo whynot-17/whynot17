@@ -1,0 +1,193 @@
+{
+  "generated_utc": "2026-09-10T01:01:33.167486+00:00",
+  "inputs": {
+    "native_pdb": "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\native_redocking_4XLD\\4XLD_native_BRL.pdb",
+    "native_sdf": "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\native_redocking_4XLD\\4XLD_native_BRL.sdf",
+    "focused_redocked_pdbqt": "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\native_redocking_4XLD_focused_exh128\\4XLD_native_redocked_BRL_focused_exh128.pdbqt"
+  },
+  "poses": [
+    "Top1",
+    "Top2",
+    "Mode15"
+  ],
+  "core_atom_names": [
+    "S1",
+    "O2",
+    "O4",
+    "N3",
+    "C2",
+    "C4",
+    "C5",
+    "C7",
+    "C8",
+    "C9",
+    "C10",
+    "C11",
+    "C12",
+    "N18",
+    "C17",
+    "C19",
+    "C20",
+    "C21",
+    "C22"
+  ],
+  "excluded_atom_names": [
+    "O13",
+    "N16",
+    "C6",
+    "C14",
+    "C15",
+    "C16"
+  ],
+  "alignment": "Kabsch least-squares fit using all 25 BRL heavy atoms; core RMSD computed after the same transform",
+  "outputs": {
+    "figure_png": "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\brl_structure_overlap_core_audit\\4XLD_BRL_crystal_top1_top2_mode15_full_alignment_overlay.png",
+    "rmsd_csv": "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\brl_structure_overlap_core_audit\\4XLD_BRL_full_and_core_RMSD.csv",
+    "report": "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\brl_structure_overlap_core_audit\\4XLD_BRL_overlap_core_RMSD_report.md",
+    "receptor_frame_overlay_pdb": "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\brl_structure_overlap_core_audit\\4XLD_BRL_crystal_top1_top2_mode15_receptor_frame_overlay.pdb",
+    "full_heavy_aligned_overlay_pdb": "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\brl_structure_overlap_core_audit\\4XLD_BRL_crystal_top1_top2_mode15_full_heavy_aligned_overlay.pdb"
+  },
+  "results": {
+    "1": {
+      "mode": 1,
+      "label": "Top1",
+      "full_receptor_frame_rmsd_A": 2.3464767887196336,
+      "full_aligned_rmsd_A": 1.621086622360332,
+      "core_receptor_frame_rmsd_A": 2.097749684028604,
+      "core_aligned_rmsd_A": 1.4671020820081495,
+      "excluded_linker_sidechain_aligned_rmsd_A": 2.03316928579785,
+      "core_atom_count": 19,
+      "excluded_atom_count": 6,
+      "mobile_centroid_minus_crystal_centroid_A": [
+        -0.7157600000000173,
+        -0.9824399999999969,
+        -0.6357599999999994
+      ],
+      "core_atom_names": [
+        "S1",
+        "O2",
+        "O4",
+        "N3",
+        "C2",
+        "C4",
+        "C5",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C12",
+        "N18",
+        "C17",
+        "C19",
+        "C20",
+        "C21",
+        "C22"
+      ],
+      "excluded_atom_names": [
+        "O13",
+        "N16",
+        "C6",
+        "C14",
+        "C15",
+        "C16"
+      ],
+      "affinity_kcal_mol": -8.517,
+      "geometric_interpretation": "core preserved; deviation is concentrated in excluded linker/side-chain atoms"
+    },
+    "2": {
+      "mode": 2,
+      "label": "Top2",
+      "full_receptor_frame_rmsd_A": 2.0412748467563113,
+      "full_aligned_rmsd_A": 0.9326248305273697,
+      "core_receptor_frame_rmsd_A": 2.019177060091562,
+      "core_aligned_rmsd_A": 0.8735018720973754,
+      "excluded_linker_sidechain_aligned_rmsd_A": 1.0990618705901225,
+      "core_atom_count": 19,
+      "excluded_atom_count": 6,
+      "mobile_centroid_minus_crystal_centroid_A": [
+        -0.14096000000000686,
+        -1.344920000000002,
+        -0.6542399999999997
+      ],
+      "core_atom_names": [
+        "S1",
+        "O2",
+        "O4",
+        "N3",
+        "C2",
+        "C4",
+        "C5",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C12",
+        "N18",
+        "C17",
+        "C19",
+        "C20",
+        "C21",
+        "C22"
+      ],
+      "excluded_atom_names": [
+        "O13",
+        "N16",
+        "C6",
+        "C14",
+        "C15",
+        "C16"
+      ],
+      "affinity_kcal_mol": -8.37,
+      "geometric_interpretation": "core and overall ligand geometry preserved after full-heavy-atom alignment"
+    },
+    "15": {
+      "mode": 15,
+      "label": "Mode15",
+      "full_receptor_frame_rmsd_A": 1.3583585241017928,
+      "full_aligned_rmsd_A": 1.131642162587107,
+      "core_receptor_frame_rmsd_A": 1.4070364713037637,
+      "core_aligned_rmsd_A": 1.1988494065408206,
+      "excluded_linker_sidechain_aligned_rmsd_A": 0.8857945126568877,
+      "core_atom_count": 19,
+      "excluded_atom_count": 6,
+      "mobile_centroid_minus_crystal_centroid_A": [
+        -0.15136000000001815,
+        0.34240000000000137,
+        -0.2749999999999977
+      ],
+      "core_atom_names": [
+        "S1",
+        "O2",
+        "O4",
+        "N3",
+        "C2",
+        "C4",
+        "C5",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C12",
+        "N18",
+        "C17",
+        "C19",
+        "C20",
+        "C21",
+        "C22"
+      ],
+      "excluded_atom_names": [
+        "O13",
+        "N16",
+        "C6",
+        "C14",
+        "C15",
+        "C16"
+      ],
+      "affinity_kcal_mol": -7.72,
+      "geometric_interpretation": "core and overall ligand geometry preserved after full-heavy-atom alignment"
+    }
+  }
+}

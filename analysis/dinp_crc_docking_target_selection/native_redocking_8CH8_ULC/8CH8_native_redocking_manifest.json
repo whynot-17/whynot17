@@ -1,0 +1,61 @@
+{
+  "generated_utc": "2026-09-10T00:32:11.275468+00:00",
+  "assay": "8CH8 native-ligand self-redocking",
+  "target": {
+    "gene_symbol": "NR1I2",
+    "protein_name": "pregnane X receptor",
+    "pdb_id": "8CH8"
+  },
+  "ligand": {
+    "resname": "ULC",
+    "chain": "A",
+    "resseq": 501,
+    "heavy_atom_count": 23
+  },
+  "parameters": {
+    "engine": "AutoDock Vina 1.2.7",
+    "seed": 20260909,
+    "exhaustiveness": 32,
+    "num_modes": 20,
+    "energy_range_kcal_mol": 5,
+    "cpu": 8,
+    "rmsd_pass_threshold_A": 2.0
+  },
+  "result": {
+    "top_affinity_kcal_mol": -7.904,
+    "top_receptor_frame_rmsd_A": 8.735807861898063,
+    "top_ranked_pass": false,
+    "lowest_rmsd_mode": 5,
+    "lowest_rmsd_A": 7.010065257402635,
+    "native_like_pose_count": 0
+  },
+  "provenance": {
+    "pdb_sha256": "09ca66e4e621067b1fb942e8c155d844061113ef8be5a5fefc3729609bffd229",
+    "ideal_sdf_sha256": "c0b6688c3465a8cb5ec7f03783d809318321de2c53d22a950b39c42fea1bcbac",
+    "receptor_sha256": "f2c0ac8c5700b4b57f966f53718c124b891bd789d76b15cb631d092954a87091",
+    "box_sha256": "ca43dcf69e163156bf998ede1c2c1ef0401f52159c60a25414a4999fed929a10",
+    "command": [
+      "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\work\\bin\\vina_1.2.7_win.exe",
+      "--config",
+      "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\prepared\\NR1I2_8CH8_box.txt",
+      "--receptor",
+      "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\prepared\\NR1I2_8CH8_rigid.pdbqt",
+      "--ligand",
+      "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\native_redocking_8CH8_ULC\\8CH8_native_ULC.pdbqt",
+      "--out",
+      "F:\\Codex\\archived-runs\\2026-09-08\\codex-dinp-target-mining-crc-mr\\analysis\\dinp_crc_docking_target_selection\\native_redocking_8CH8_ULC\\8CH8_native_redocked_ULC.pdbqt",
+      "--exhaustiveness",
+      "32",
+      "--num_modes",
+      "20",
+      "--energy_range",
+      "5",
+      "--cpu",
+      "8",
+      "--seed",
+      "20260909",
+      "--verbosity",
+      "1"
+    ]
+  }
+}
