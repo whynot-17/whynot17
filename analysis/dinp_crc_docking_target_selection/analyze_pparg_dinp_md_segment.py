@@ -39,6 +39,7 @@ def main():
     parser = argparse.ArgumentParser(description="Analyze a PPARG-DINP trajectory segment without stopping the MD run.")
     parser.add_argument("--topology", type=Path, required=True)
     parser.add_argument("--trajectory", type=Path, required=True)
+    parser.add_argument("--start-ns", type=float, default=0.0)
     parser.add_argument("--end-ns", type=float, default=10.0)
     parser.add_argument("--out-dir", type=Path, required=True)
     args = parser.parse_args()
@@ -80,9 +81,14 @@ def main():
 
     rows = []
     end_ps = args.end_ns * 1000.0
+    start_ps = args.start_ns * 1000.0
+    if start_ps < 0 or end_ps <= start_ps:
+        raise ValueError("Require 0 <= start-ns < end-ns")
     for frame_index, ts in enumerate(universe.trajectory):
         if ts.time > end_ps:
             break
+        if ts.time < start_ps:
+            continue
         # DCDReporter may wrap the protein and ligand into different periodic
         # images.  Translate DINP to the nearest image of the protein before
         # fitting or measuring contacts, otherwise a harmless box crossing
@@ -117,7 +123,8 @@ def main():
     if not rows:
         raise RuntimeError("No frames found in requested segment")
 
-    csv_path = args.out_dir / f"pparg_dinp_0_{args.end_ns:g}ns_metrics.csv"
+    tag = f"{args.start_ns:g}_{args.end_ns:g}"
+    csv_path = args.out_dir / f"pparg_dinp_{tag}ns_metrics.csv"
     with csv_path.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
         writer.writeheader()
@@ -125,7 +132,7 @@ def main():
 
     times = np.asarray([r["time_ps"] for r in rows])
     arrays = {key: np.asarray([r[key] for r in rows], dtype=float) for key in rows[0] if key not in {"frame", "time_ps"}}
-    first_mask = times <= min(1000.0, times[-1])
+    first_mask = times <= min(times[0] + 1000.0, times[-1])
     last_mask = times >= max(times[-1] - 1000.0, times[0])
 
     def stats(values):
@@ -142,7 +149,7 @@ def main():
         "generated_utc": datetime.now(timezone.utc).isoformat(),
         "topology": str(args.topology),
         "trajectory": str(args.trajectory),
-        "segment": f"0-{args.end_ns:g} ns of available production frames",
+        "segment": f"{args.start_ns:g}-{args.end_ns:g} ns of available production frames",
         "n_atoms": universe.atoms.n_atoms,
         "n_frames": len(rows),
         "last_time_ps": float(times[-1]),
@@ -155,7 +162,7 @@ def main():
         "metrics": {key: stats(values) for key, values in arrays.items()},
         "interpretation_boundary": "This is a structural stability check; it does not establish experimental affinity or causality.",
     }
-    summary_path = args.out_dir / f"pparg_dinp_0_{args.end_ns:g}ns_summary.json"
+    summary_path = args.out_dir / f"pparg_dinp_{tag}ns_summary.json"
     summary_path.write_text(json.dumps(summary, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     try:
@@ -172,9 +179,9 @@ def main():
         axes[3].set_ylabel("Pocket contact retention")
         axes[3].set_xlabel("Production time (ns)")
         axes[3].set_ylim(-0.02, 1.02)
-        fig.suptitle("PPARG-DINP MD: first 0–10 ns")
+        fig.suptitle(f"PPARG-DINP MD: {args.start_ns:g}–{args.end_ns:g} ns")
         fig.tight_layout()
-        fig.savefig(args.out_dir / f"pparg_dinp_0_{args.end_ns:g}ns_metrics.png", dpi=180)
+        fig.savefig(args.out_dir / f"pparg_dinp_{tag}ns_metrics.png", dpi=180)
         plt.close(fig)
     except Exception as exc:
         summary["plot_warning"] = repr(exc)
