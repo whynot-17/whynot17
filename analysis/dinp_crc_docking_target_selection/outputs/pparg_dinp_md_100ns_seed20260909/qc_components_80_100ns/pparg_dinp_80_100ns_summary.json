@@ -1,0 +1,188 @@
+{
+  "generated_utc": "2026-09-11T06:07:56.878233+00:00",
+  "topology": "E:\\chatgpt\\pparg_dinp_md_run_20260909\\seed20260909_system\\system_topology.pdb",
+  "trajectory": "E:\\chatgpt\\pparg_dinp_md_run_20260909\\seed20260909\\production.dcd",
+  "segment": "80-100 ns of available production frames",
+  "n_atoms": 50321,
+  "n_frames": 1997,
+  "last_time_ps": 99960.00029802132,
+  "ligand_resname": "UNK",
+  "ligand_resid": 0,
+  "ligand_atoms": 72,
+  "ligand_heavy_atoms": 30,
+  "component_definition": {
+    "core": {
+      "description": "six phthalate aromatic-ring heavy atoms",
+      "heavy_atom_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "branch_A": {
+      "description": "first ester group plus isononyl chain",
+      "heavy_atom_indices": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    "branch_B": {
+      "description": "second ester group plus isononyl chain",
+      "heavy_atom_indices": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    "contact_cutoff_A": 4.5,
+    "core_contact_occupancy_definition": "fraction of pocket residues contacting the aromatic core at the initial frame that remain within the cutoff in each frame"
+  },
+  "initial_pocket_resids": [
+    227,
+    228,
+    255,
+    262,
+    280,
+    284,
+    285,
+    288,
+    289,
+    291,
+    295,
+    326,
+    329,
+    330,
+    333,
+    339,
+    340,
+    341,
+    342,
+    343,
+    344,
+    348
+  ],
+  "initial_pocket_residue_count": 22,
+  "initial_core_pocket_resids": [
+    227,
+    228,
+    288,
+    291,
+    295,
+    333,
+    343
+  ],
+  "initial_core_pocket_residue_count": 7,
+  "metrics": {
+    "protein_backbone_rmsd_A": {
+      "mean": 2.858104658641591,
+      "median": 2.853359596964204,
+      "min": 2.5054156378806303,
+      "max": 3.404001744962976,
+      "first_1ns_mean": 2.805931627506129,
+      "last_1ns_mean": 2.8636707566398134
+    },
+    "whole_ligand_rmsd_A": {
+      "mean": 3.357562077325736,
+      "median": 3.4090988358635377,
+      "min": 1.9422446561898445,
+      "max": 4.728863997050291,
+      "first_1ns_mean": 2.381691856233701,
+      "last_1ns_mean": 4.151322816734466
+    },
+    "ligand_heavy_rmsd_A": {
+      "mean": 3.357562077325736,
+      "median": 3.4090988358635377,
+      "min": 1.9422446561898445,
+      "max": 4.728863997050291,
+      "first_1ns_mean": 2.381691856233701,
+      "last_1ns_mean": 4.151322816734466
+    },
+    "core_rmsd_A": {
+      "mean": 1.8274282069946395,
+      "median": 1.8347491727088394,
+      "min": 0.2721727437422178,
+      "max": 4.286960242658756,
+      "first_1ns_mean": 1.4405912241387802,
+      "last_1ns_mean": 1.986883975956579
+    },
+    "branch_A_rmsd_A": {
+      "mean": 4.488407616712484,
+      "median": 4.687622213139526,
+      "min": 1.9081580616112968,
+      "max": 6.543250687232635,
+      "first_1ns_mean": 2.71032207595573,
+      "last_1ns_mean": 5.675199562519074
+    },
+    "branch_B_rmsd_A": {
+      "mean": 2.4434864346979266,
+      "median": 2.399674501101895,
+      "min": 1.4906479951600533,
+      "max": 3.8524909732985373,
+      "first_1ns_mean": 2.365923093880568,
+      "last_1ns_mean": 2.9598616609564283
+    },
+    "ligand_com_displacement_A": {
+      "mean": 1.578527387034793,
+      "median": 1.4434032248662367,
+      "min": 0.12233398091284367,
+      "max": 3.38959707227862,
+      "first_1ns_mean": 1.03628331236716,
+      "last_1ns_mean": 2.497006120010654
+    },
+    "core_com_displacement_A": {
+      "mean": 1.7423956183575975,
+      "median": 1.7481676229020553,
+      "min": 0.2086216454957865,
+      "max": 4.236740933891181,
+      "first_1ns_mean": 1.3112046537277573,
+      "last_1ns_mean": 1.8797999241865881
+    },
+    "pocket_contact_retention": {
+      "mean": 0.6626530705148632,
+      "median": 0.6818181818181818,
+      "min": 0.36363636363636365,
+      "max": 0.8181818181818182,
+      "first_1ns_mean": 0.6231818181818182,
+      "last_1ns_mean": 0.6118181818181818
+    },
+    "core_contact_occupancy": {
+      "mean": 0.5655626296587738,
+      "median": 0.5714285714285714,
+      "min": 0.14285714285714285,
+      "max": 1.0,
+      "first_1ns_mean": 0.5828571428571429,
+      "last_1ns_mean": 0.45428571428571424
+    },
+    "nearest_pocket_distance_A": {
+      "mean": 3.1035004245878235,
+      "median": 3.0983818120756887,
+      "min": 2.6946156603951676,
+      "max": 3.5771228154318218,
+      "first_1ns_mean": 3.0647177778892565,
+      "last_1ns_mean": 3.0961196130596993
+    }
+  },
+  "interpretation_boundary": "This is a structural stability check; it does not establish experimental affinity or causality."
+}

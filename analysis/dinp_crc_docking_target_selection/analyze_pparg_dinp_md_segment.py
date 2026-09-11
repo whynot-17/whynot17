@@ -16,6 +16,17 @@ PROTEIN_RESNAMES = {
 }
 WATER_ION_RESNAMES = {"HOH", "WAT", "TIP3", "SOL", "NA", "CL", "K", "CA", "MG"}
 
+# The OpenFF-generated PPARG--DINP topology retains the heavy-atom order of
+# dinp_pose_h.sdf.  Atoms 0--5 are the phthalate aromatic ring.  Each ester
+# group plus its isononyl chain is tracked as a separate branch, so a large
+# whole-ligand RMSD can be resolved into rigid-core versus chain motion.
+DINP_COMPONENTS = {
+    "core": np.arange(0, 6, dtype=int),
+    "branch_A": np.arange(6, 18, dtype=int),
+    "branch_B": np.arange(18, 30, dtype=int),
+}
+CONTACT_CUTOFF_A = 4.5
+
 
 def fit_kabsch(mobile: np.ndarray, reference: np.ndarray):
     mobile_center = mobile.mean(axis=0)
@@ -70,14 +81,39 @@ def main():
     universe.trajectory[0]
     reference_backbone = backbone.positions.copy()
     reference_ligand = ligand_heavy.positions.copy()
+    if ligand_heavy.n_atoms != 30:
+        raise RuntimeError(
+            "This component analysis expects the 30-heavy-atom DINP topology; "
+            f"observed {ligand_heavy.n_atoms} heavy atoms"
+        )
+    if not all(ligand_heavy.indices[indices].size == len(indices) for indices in DINP_COMPONENTS.values()):
+        raise RuntimeError("DINP component atom indexing failed")
+
+    reference_components = {
+        name: reference_ligand[indices].copy()
+        for name, indices in DINP_COMPONENTS.items()
+    }
+    reference_core_com = reference_components["core"].mean(axis=0)
+
     initial_distances = distance_array(ligand_heavy.positions, protein_heavy.positions)
     initial_min_by_atom = initial_distances.min(axis=0)
-    pocket_resids = sorted(set(int(resid) for resid in protein_heavy.resids[initial_min_by_atom <= 4.5]))
+    pocket_resids = sorted(set(int(resid) for resid in protein_heavy.resids[initial_min_by_atom <= CONTACT_CUTOFF_A]))
     if not pocket_resids:
         raise RuntimeError("No initial protein pocket atoms within 4.5 A of DINP")
     pocket_mask = np.isin(protein_heavy.resids, pocket_resids)
     pocket_atoms = protein_heavy[pocket_mask]
     pocket_resids_array = np.asarray(pocket_resids, dtype=int)
+    initial_core_distances = distance_array(
+        reference_components["core"], protein_heavy.positions
+    )
+    core_initial_min_by_atom = initial_core_distances.min(axis=0)
+    core_pocket_resids = sorted(
+        set(int(resid) for resid in protein_heavy.resids[core_initial_min_by_atom <= CONTACT_CUTOFF_A])
+    )
+    if not core_pocket_resids:
+        raise RuntimeError("No initial protein pocket atoms within 4.5 A of the DINP aromatic core")
+    core_pocket_atoms = protein_heavy[np.isin(protein_heavy.resids, core_pocket_resids)]
+    core_pocket_resids_array = np.asarray(core_pocket_resids, dtype=int)
 
     rows = []
     end_ps = args.end_ns * 1000.0
@@ -110,14 +146,37 @@ def main():
         retention = []
         for resid in pocket_resids_array:
             atom_mask = pocket_atoms.resids == resid
-            retention.append(float(distances[:, atom_mask].min() <= 4.5))
+            retention.append(float(distances[:, atom_mask].min() <= CONTACT_CUTOFF_A))
+
+        core_indices = DINP_COMPONENTS["core"]
+        core_positions = ligand_positions[core_indices]
+        core_aligned = aligned_ligand[core_indices]
+        core_distances = distance_array(core_positions, core_pocket_atoms.positions, box=ts.dimensions)
+        core_retention = []
+        for resid in core_pocket_resids_array:
+            atom_mask = core_pocket_atoms.resids == resid
+            core_retention.append(float(core_distances[:, atom_mask].min() <= CONTACT_CUTOFF_A))
         rows.append({
             "frame": frame_index,
             "time_ps": float(ts.time),
             "protein_backbone_rmsd_A": protein_rmsd,
+            "whole_ligand_rmsd_A": ligand_rmsd,
             "ligand_heavy_rmsd_A": ligand_rmsd,
+            "core_rmsd_A": rmsd(core_aligned, reference_components["core"]),
+            "branch_A_rmsd_A": rmsd(
+                aligned_ligand[DINP_COMPONENTS["branch_A"]],
+                reference_components["branch_A"],
+            ),
+            "branch_B_rmsd_A": rmsd(
+                aligned_ligand[DINP_COMPONENTS["branch_B"]],
+                reference_components["branch_B"],
+            ),
             "ligand_com_displacement_A": com_displacement,
+            "core_com_displacement_A": float(
+                np.linalg.norm(core_aligned.mean(axis=0) - reference_core_com)
+            ),
             "pocket_contact_retention": float(np.mean(retention)),
+            "core_contact_occupancy": float(np.mean(core_retention)),
             "nearest_pocket_distance_A": nearest,
         })
     if not rows:
@@ -157,8 +216,29 @@ def main():
         "ligand_resid": int(ligand_residue.resid),
         "ligand_atoms": ligand.n_atoms,
         "ligand_heavy_atoms": ligand_heavy.n_atoms,
+        "component_definition": {
+            "core": {
+                "description": "six phthalate aromatic-ring heavy atoms",
+                "heavy_atom_indices": DINP_COMPONENTS["core"].tolist(),
+            },
+            "branch_A": {
+                "description": "first ester group plus isononyl chain",
+                "heavy_atom_indices": DINP_COMPONENTS["branch_A"].tolist(),
+            },
+            "branch_B": {
+                "description": "second ester group plus isononyl chain",
+                "heavy_atom_indices": DINP_COMPONENTS["branch_B"].tolist(),
+            },
+            "contact_cutoff_A": CONTACT_CUTOFF_A,
+            "core_contact_occupancy_definition": (
+                "fraction of pocket residues contacting the aromatic core at the initial frame "
+                "that remain within the cutoff in each frame"
+            ),
+        },
         "initial_pocket_resids": pocket_resids,
         "initial_pocket_residue_count": len(pocket_resids),
+        "initial_core_pocket_resids": core_pocket_resids,
+        "initial_core_pocket_residue_count": len(core_pocket_resids),
         "metrics": {key: stats(values) for key, values in arrays.items()},
         "interpretation_boundary": "This is a structural stability check; it does not establish experimental affinity or causality.",
     }
@@ -167,18 +247,30 @@ def main():
 
     try:
         import matplotlib.pyplot as plt
-        fig, axes = plt.subplots(4, 1, figsize=(9, 11), sharex=True)
+        fig, axes = plt.subplots(6, 1, figsize=(9, 15), sharex=True)
         x = times / 1000.0
         axes[0].plot(x, arrays["protein_backbone_rmsd_A"], lw=0.8)
         axes[0].set_ylabel("Protein BB RMSD (A)")
-        axes[1].plot(x, arrays["ligand_heavy_rmsd_A"], lw=0.8, color="#c0392b")
-        axes[1].set_ylabel("DINP RMSD (A)")
-        axes[2].plot(x, arrays["ligand_com_displacement_A"], lw=0.8, color="#8e44ad")
-        axes[2].set_ylabel("DINP COM shift (A)")
-        axes[3].plot(x, arrays["pocket_contact_retention"], lw=0.8, color="#16803c")
-        axes[3].set_ylabel("Pocket contact retention")
-        axes[3].set_xlabel("Production time (ns)")
-        axes[3].set_ylim(-0.02, 1.02)
+        axes[1].plot(x, arrays["whole_ligand_rmsd_A"], lw=0.8, color="#c0392b", label="whole ligand")
+        axes[1].plot(x, arrays["core_rmsd_A"], lw=0.8, color="#2c3e50", label="aromatic core")
+        axes[1].set_ylabel("RMSD (A)")
+        axes[1].legend(loc="upper left", frameon=False)
+        axes[2].plot(x, arrays["branch_A_rmsd_A"], lw=0.8, color="#d35400", label="branch A")
+        axes[2].plot(x, arrays["branch_B_rmsd_A"], lw=0.8, color="#16a085", label="branch B")
+        axes[2].set_ylabel("Branch RMSD (A)")
+        axes[2].legend(loc="upper left", frameon=False)
+        axes[3].plot(x, arrays["ligand_com_displacement_A"], lw=0.8, color="#8e44ad", label="whole ligand")
+        axes[3].plot(x, arrays["core_com_displacement_A"], lw=0.8, color="#34495e", label="aromatic core")
+        axes[3].set_ylabel("COM shift (A)")
+        axes[3].legend(loc="upper left", frameon=False)
+        axes[4].plot(x, arrays["pocket_contact_retention"], lw=0.8, color="#16803c", label="whole pocket")
+        axes[4].plot(x, arrays["core_contact_occupancy"], lw=0.8, color="#1f618d", label="aromatic core")
+        axes[4].set_ylabel("Contact occupancy")
+        axes[4].set_ylim(-0.02, 1.02)
+        axes[4].legend(loc="upper left", frameon=False)
+        axes[5].plot(x, arrays["nearest_pocket_distance_A"], lw=0.8, color="#7f8c8d")
+        axes[5].set_ylabel("Nearest distance (A)")
+        axes[5].set_xlabel("Production time (ns)")
         fig.suptitle(f"PPARG-DINP MD: {args.start_ns:g}–{args.end_ns:g} ns")
         fig.tight_layout()
         fig.savefig(args.out_dir / f"pparg_dinp_{tag}ns_metrics.png", dpi=180)
