@@ -1,0 +1,6 @@
+{
+  "status": "completed",
+  "current_step": 50000000,
+  "target_steps": 50000000,
+  "platform": "OpenCL"
+}

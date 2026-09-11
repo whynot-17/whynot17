@@ -1,0 +1,20 @@
+{
+  "generated_utc": "2026-09-10T01:39:19.103947+00:00",
+  "status": "system_built",
+  "complex_pdb": "analysis\\dinp_crc_docking_target_selection\\prepared\\PPARG_4XLD_DINP_seed20260909_mode1_complex.pdb",
+  "protein_pdb": "analysis\\dinp_crc_docking_target_selection\\prepared\\PPARG_4XLD_protein_h.pdb",
+  "ligand_sdf": "dinp_pose.sdf",
+  "ligand_pose_sdf": "E:\\chatgpt\\pparg_dinp_md_run_20260909\\seed20260909_system\\DINP_docked_pose_h.sdf",
+  "ligand_forcefield": "openff-2.2.1",
+  "ligand_charge_method": "RDKit Gasteiger",
+  "protein_forcefield": "Amber14-all / TIP3P",
+  "temperature_k": 310.0,
+  "padding_nm": 1.0,
+  "ionic_strength_m": 0.15,
+  "n_particles": 50321,
+  "n_ligand_atoms": 72,
+  "n_topology_atoms": 50321,
+  "barostat": "MonteCarloBarostat 1 bar, volume moves every 25 steps",
+  "interpretation_boundary": "This system is suitable for structural stability MD; docking and MD do not establish experimental affinity or causality.",
+  "gasteiger_charge_sum_e": -4.2327252813834093e-16
+}

@@ -1,0 +1,19 @@
+{
+  "generated_utc": "2026-09-10T17:28:54.921737+00:00",
+  "system_xml": "E:\\chatgpt\\pparg_dinp_md_run_20260909\\seed20260909_system\\system.xml",
+  "topology_pdb": "E:\\chatgpt\\pparg_dinp_md_run_20260909\\seed20260909_system\\system_topology.pdb",
+  "initial_pdb": "E:\\chatgpt\\pparg_dinp_md_run_20260909\\seed20260909_system\\initial.pdb",
+  "output_dir": "E:\\chatgpt\\pparg_dinp_md_run_20260909\\seed20260909",
+  "n_particles": 50321,
+  "production_ns": 100.0,
+  "equilibration_ns": 0.1,
+  "timestep_fs": 2.0,
+  "temperature_k": 310.0,
+  "random_seed": 20260909,
+  "platform_requested": "OpenCL",
+  "platform_selected": "OpenCL",
+  "platform_properties": {
+    "Precision": "mixed"
+  },
+  "interpretation_boundary": "MD stability supports structural plausibility only; it does not establish experimental affinity or causality."
+}

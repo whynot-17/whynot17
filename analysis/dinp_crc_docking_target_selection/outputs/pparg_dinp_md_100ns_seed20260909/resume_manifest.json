@@ -1,0 +1,9 @@
+{
+  "resume_mode": "append trajectory and state outputs",
+  "last_state_at_resume": "49.2%,24580000,49160.000009097705,-668001.7103019282,132253.05113904516,-535748.6591628831,309.24316238622464,505.87600961070035,1.012564978325743,101,12:03:29",
+  "pid": 11548,
+  "output_dir": "E:\\chatgpt\\pparg_dinp_md_run_20260909\\seed20260909",
+  "resumed_at": "2026-09-10T12:29:50.3305587-05:00",
+  "status": "resumed",
+  "checkpoint_source": "E:\\chatgpt\\pparg_dinp_md_run_20260909\\seed20260909\\production.chk"
+}

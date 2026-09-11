@@ -1,0 +1,81 @@
+{
+  "generated_utc": "2026-09-11T01:46:27.882655+00:00",
+  "topology": "E:\\chatgpt\\pparg_dinp_md_run_20260909\\seed20260909_system\\system_topology.pdb",
+  "trajectory": "E:\\chatgpt\\pparg_dinp_md_run_20260909\\snapshot_0_85ns.dcd",
+  "segment": "50-80 ns of available production frames",
+  "n_atoms": 50321,
+  "n_frames": 3000,
+  "last_time_ps": 79990.00023848264,
+  "ligand_resname": "UNK",
+  "ligand_resid": 0,
+  "ligand_atoms": 72,
+  "ligand_heavy_atoms": 30,
+  "initial_pocket_resids": [
+    227,
+    228,
+    255,
+    262,
+    280,
+    284,
+    285,
+    288,
+    289,
+    291,
+    295,
+    326,
+    329,
+    330,
+    333,
+    339,
+    340,
+    341,
+    342,
+    343,
+    344,
+    348
+  ],
+  "initial_pocket_residue_count": 22,
+  "metrics": {
+    "protein_backbone_rmsd_A": {
+      "mean": 2.5220105727180115,
+      "median": 2.513147783223824,
+      "min": 2.037928712088389,
+      "max": 3.08291361260411,
+      "first_1ns_mean": 2.4533358205273617,
+      "last_1ns_mean": 2.6911332152017007
+    },
+    "ligand_heavy_rmsd_A": {
+      "mean": 2.190438126106442,
+      "median": 2.149656588686905,
+      "min": 1.06061098536561,
+      "max": 3.474176003620885,
+      "first_1ns_mean": 2.2459696889690557,
+      "last_1ns_mean": 2.1732474340238155
+    },
+    "ligand_com_displacement_A": {
+      "mean": 1.088333024435678,
+      "median": 1.0086673929802008,
+      "min": 0.040174750723334755,
+      "max": 2.8859794409144524,
+      "first_1ns_mean": 1.0844350384982668,
+      "last_1ns_mean": 1.008418642411639
+    },
+    "pocket_contact_retention": {
+      "mean": 0.718348484848485,
+      "median": 0.7272727272727273,
+      "min": 0.45454545454545453,
+      "max": 0.9090909090909091,
+      "first_1ns_mean": 0.6709090909090909,
+      "last_1ns_mean": 0.6781818181818184
+    },
+    "nearest_pocket_distance_A": {
+      "mean": 3.0572853306266072,
+      "median": 3.052785250265082,
+      "min": 2.664834992497597,
+      "max": 3.5482374509145003,
+      "first_1ns_mean": 3.054073686977722,
+      "last_1ns_mean": 3.0527007531788883
+    }
+  },
+  "interpretation_boundary": "This is a structural stability check; it does not establish experimental affinity or causality."
+}
