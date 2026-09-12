@@ -23,7 +23,7 @@ Primary result:
 In addition to stable-ML × Tier 1, the pairwise table audits overlap with:
 
 - PPI top-20 hub + pathway membership
-- transcriptomic replication in ≥2/4 independent primary datasets
+- transcriptomic replication in ≥2/3 independent primary datasets
 - top 20 genes from the PPI/pathway/transcriptomic cross-ranking
 
 Two-sided p-values across the 10 pairwise comparisons are Benjamini–Hochberg adjusted.
