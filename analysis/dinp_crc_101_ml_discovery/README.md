@@ -10,6 +10,7 @@ This module implements the frozen discovery → validation design:
 - External validation cohorts: GSE10950 and GSE74602.
 - Input universe: all 97 overlap genes. Existing Tier 1 labels and cross-ranking scores were not used during feature selection or model fitting.
 - Expression features used for fitting: 95. ACP3 and CCN2 were retained in the 97-gene audit universe but had no usable expression values in the shared matrix and were not imputed as features.
+- Before model fitting, the 95 measured genes are rank/percentile-normalized within each sample to the 0–1 interval, reducing dependence on absolute RNA-seq versus microarray scales.
 - Missing expression cells among measured features were median-imputed inside each training fold by the pipeline.
 
 ## 101-model catalog
@@ -20,25 +21,27 @@ The catalog contains 11 feature-selection configurations × 9 classifiers, plus 
 - Classifiers: logistic L2, logistic L1, linear SVM, RBF SVM, random forest, extra-trees, histogram gradient boosting, gradient boosting, and distance-weighted kNN.
 - Baselines: shrinkage LDA and Gaussian naive Bayes.
 
-Scaling, imputation, and supervised feature selection are fitted within each training fold. The final model for each combination is then refit on all TCGA-COAD samples before GSE prediction.
+Scaling, imputation, and supervised feature selection are fitted within each training fold. The final model for each combination is then refit on all rank-normalized TCGA-COAD samples before GSE prediction.
 
 ## Stability and external validation
 
-`model_selection_frequency_selective_90` is the fraction of the 90 non-all-feature models whose full-TCGA selector retained a gene. External-validation-qualified models are selective models with ROC-AUC ≥0.75 in both GSE10950 and GSE74602; there were 18 such models.
+Gene stability is the support frequency across the 10 independent selective selector configurations: six ANOVA F-test selectors and four mutual-information selectors. The nine classifiers attached to a given selector do not create nine independent gene-selection votes.
+
+The 101 model configurations are retained for classification-performance robustness. External-validation-qualified models are selective models with rank-normalized ROC-AUC ≥0.75 in both GSE10950 and GSE74602.
 
 `ml_priority_score` is the geometric mean of:
 
-1. selection frequency across all 90 selective models;
-2. selection frequency across the 18 external-validation-qualified models;
-3. a 0–1 rescaling of the mean external ROC-AUC in those qualified models.
+1. support frequency across the 10 independent selectors;
+2. inclusion frequency across qualified model configurations;
+3. a 0–1 rescaling of the mean external ROC-AUC of qualified multigene models containing the gene.
 
-The default stable-ML flag requires selection frequency ≥80% in both model sets. This flag is a transparent review threshold, not a causal or clinical cutoff.
+The stable-ML flag requires support in at least 8/10 independent selectors. Qualified-model inclusion and AUC remain secondary performance-robustness metrics and are not described as a single-gene AUC.
 
 ## Key result
 
 - 101 models completed.
-- 17 default stable-ML genes.
-- Only CEBPB overlaps the pre-existing Tier 1 PPI/pathway/transcriptomic cross-supported set under this strict stability threshold.
+- Stable-ML gene count is determined by the corrected ≥8/10 selector-support rule.
+- The overlap with the pre-existing Tier 1 PPI/pathway/transcriptomic cross-supported set is reported from the corrected output.
 
 The Tier 1 comparison is post hoc and independent; it is not part of the ML objective.
 

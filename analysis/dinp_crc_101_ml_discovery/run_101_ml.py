@@ -27,6 +27,20 @@ ROOT = Path(__file__).resolve().parent
 OUTPUTS = ROOT
 SEED = 20260909
 PRIMARY_EXTERNAL_DATASETS = ["GSE10950", "GSE74602"]
+SELECTOR_SUPPORT_THRESHOLD = 0.80
+FEATURE_NORMALIZATION = "within_sample_rank_percentile_0_to_1"
+
+
+def sample_rank_percentile_normalize(frame: pd.DataFrame) -> pd.DataFrame:
+    """Rank-normalize measured genes within each sample to [0, 1]."""
+    numeric = frame.apply(pd.to_numeric, errors="coerce")
+    present = numeric.notna().sum(axis=1)
+    ranks = numeric.rank(axis=1, method="average", na_option="keep")
+    denominator = (present - 1).replace(0, np.nan).astype(float)
+    normalized = ranks.sub(1).div(denominator, axis=0)
+    normalized = normalized.where(present.gt(0), np.nan)
+    normalized = normalized.where(present.ne(1), 0.5)
+    return normalized.clip(lower=0.0, upper=1.0)
 
 
 def make_selectors(n_features: int) -> list[tuple[str, object, int | str]]:
@@ -175,6 +189,7 @@ def load_cohorts() -> tuple[pd.DataFrame, dict[str, pd.DataFrame], list[str], li
     missing_genes = [gene for gene in genes if gene not in wide.columns]
     if len(measured_genes) < 2:
         raise ValueError("Too few measured DINP-CRC genes for ML")
+    wide = sample_rank_percentile_normalize(wide)
 
     cohorts: dict[str, pd.DataFrame] = {}
     for dataset_id in ["TCGA-COAD", "GSE10950", "GSE74602"]:
@@ -244,14 +259,22 @@ def main() -> None:
         raise ValueError("TCGA-COAD training cohort must contain both normal and tumor labels")
 
     catalog = make_model_catalog(len(measured_genes))
+    selector_names = [
+        selector_name
+        for selector_name, _, _ in make_selectors(len(measured_genes))
+        if selector_name != "all_features"
+    ]
+    selector_count = len(selector_names)
+    if selector_count != 10:
+        raise AssertionError(f"Expected 10 independent selective selectors, got {selector_count}")
     cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=SEED)
     model_rows: list[dict] = []
     fold_selection_counts = {gene: 0 for gene in measured_genes}
-    selective_fold_selection_counts = {gene: 0 for gene in measured_genes}
     full_selection_counts = {gene: 0 for gene in measured_genes}
-    selective_full_selection_counts = {gene: 0 for gene in measured_genes}
     gene_selected_models: dict[str, list[str]] = {gene: [] for gene in measured_genes}
     gene_external_metrics: dict[str, list[dict[str, float]]] = {gene: [] for gene in measured_genes}
+    selector_full_support_sets: dict[str, set[str]] = {}
+    selector_fold_support_sets: dict[tuple[int, str], set[str]] = {}
 
     with warnings.catch_warnings():
         warnings.filterwarnings("ignore", category=RuntimeWarning)
@@ -272,8 +295,15 @@ def main() -> None:
                 fold_selected.append(selected)
                 for gene in selected:
                     fold_selection_counts[gene] += 1
-                    if spec["selective_selector"]:
-                        selective_fold_selection_counts[gene] += 1
+                if spec["selective_selector"]:
+                    support_key = (fold_index, spec["selector_name"])
+                    selected_set = set(selected)
+                    previous = selector_fold_support_sets.get(support_key)
+                    if previous is not None and previous != selected_set:
+                        raise AssertionError(
+                            f"Selector {spec['selector_name']} changed selection across classifiers in CV fold {fold_index}"
+                        )
+                    selector_fold_support_sets[support_key] = selected_set
 
             full_model = clone(pipeline)
             full_model.fit(X_train, y_train)
@@ -281,8 +311,14 @@ def main() -> None:
             for gene in full_selected:
                 full_selection_counts[gene] += 1
                 gene_selected_models[gene].append(spec["model_id"])
-                if spec["selective_selector"]:
-                    selective_full_selection_counts[gene] += 1
+            if spec["selective_selector"]:
+                selected_set = set(full_selected)
+                previous = selector_full_support_sets.get(spec["selector_name"])
+                if previous is not None and previous != selected_set:
+                    raise AssertionError(
+                        f"Selector {spec['selector_name']} changed selection across classifiers on full TCGA"
+                    )
+                selector_full_support_sets[spec["selector_name"]] = selected_set
 
             external_metrics: dict[str, dict[str, float]] = {}
             for dataset_id in PRIMARY_EXTERNAL_DATASETS:
@@ -301,6 +337,7 @@ def main() -> None:
                 "model_number": index,
                 "selector_name": spec["selector_name"],
                 "classifier_name": spec["classifier_name"],
+                "feature_normalization": FEATURE_NORMALIZATION,
                 "requested_features": spec["requested_features"],
                 "selective_selector": spec["selective_selector"],
                 "full_train_selected_feature_count": len(full_selected),
@@ -335,6 +372,21 @@ def main() -> None:
     all_count = int(len(model_results))
     if selective_count != 90:
         raise AssertionError(f"Expected 90 selective models, got {selective_count}")
+    if set(selector_full_support_sets) != set(selector_names):
+        raise AssertionError(
+            f"Expected full-TCGA support for selectors {selector_names}, got {sorted(selector_full_support_sets)}"
+        )
+    expected_fold_keys = {(fold_index, selector_name) for fold_index in range(1, 6) for selector_name in selector_names}
+    if set(selector_fold_support_sets) != expected_fold_keys:
+        raise AssertionError("Expected one stable selector support set for every selector × CV fold")
+    selector_support_counts = {
+        gene: sum(gene in selector_full_support_sets[name] for name in selector_names)
+        for gene in measured_genes
+    }
+    selector_fold_support_counts = {
+        gene: sum(gene in selected for selected in selector_fold_support_sets.values())
+        for gene in measured_genes
+    }
 
     # External-validation-qualified models are used only for the second stability
     # component. The qualification threshold is fixed before comparing against
@@ -372,44 +424,47 @@ def main() -> None:
     for gene in overlap["gene_symbol"]:
         measured = gene in measured_genes
         full_count = full_selection_counts.get(gene, 0)
-        selective_full_count = selective_full_selection_counts.get(gene, 0)
         fold_count = fold_selection_counts.get(gene, 0)
-        selective_fold_count = selective_fold_selection_counts.get(gene, 0)
+        selector_support_count = selector_support_counts.get(gene, 0)
+        selector_fold_support_count = selector_fold_support_counts.get(gene, 0)
         selected_model_metrics = gene_external_metrics.get(gene, [])
         selected_qualified_metrics = qualified_external_metrics.get(gene, [])
         mean_external_auc = safe_mean([metrics["roc_auc"] for metrics in selected_model_metrics])
         mean_external_pr_auc = safe_mean([metrics["pr_auc"] for metrics in selected_model_metrics])
         mean_external_bal_acc = safe_mean([metrics["balanced_accuracy"] for metrics in selected_model_metrics])
         mean_qualified_external_auc = safe_mean([metrics["roc_auc"] for metrics in selected_qualified_metrics])
-        stability = selective_full_count / selective_count if measured else 0.0
-        fold_stability = selective_fold_count / (selective_count * 5) if measured else 0.0
+        selector_stability = selector_support_count / selector_count if measured else 0.0
+        selector_fold_stability = selector_fold_support_count / (selector_count * 5) if measured else 0.0
         qualified_stability = qualified_selection_counts.get(gene, 0) / qualified_model_count if measured else 0.0
         external_auc_score = float(np.clip(2.0 * (mean_external_auc - 0.5), 0.0, 1.0)) if pd.notna(mean_external_auc) else 0.0
         qualified_auc_score = float(np.clip(2.0 * (mean_qualified_external_auc - 0.5), 0.0, 1.0)) if pd.notna(mean_qualified_external_auc) else 0.0
-        ml_priority = float(np.cbrt(stability * qualified_stability * qualified_auc_score)) if measured else 0.0
+        ml_priority = float(np.cbrt(selector_stability * qualified_stability * qualified_auc_score)) if measured else 0.0
         row = {
             "gene_symbol": gene,
             "expression_measured": measured,
             "full_train_selection_count_all_101": full_count,
             "full_train_selection_frequency_all_101": full_count / all_count if measured else 0.0,
-            "full_train_selection_count_selective_90": selective_full_count,
-            "model_selection_frequency_selective_90": stability,
+            "selector_support_count_10": selector_support_count,
+            "selector_support_frequency_10": selector_stability,
+            "selector_support_configurations_10": ";".join(
+                name for name in selector_names if gene in selector_full_support_sets[name]
+            ),
             "cv_fold_selection_count_all_101x5": fold_count,
             "cv_fold_selection_frequency_all_101x5": fold_count / (all_count * 5) if measured else 0.0,
-            "cv_fold_selection_count_selective_90x5": selective_fold_count,
-            "cv_fold_selection_frequency_selective_90x5": fold_stability,
+            "cv_selector_support_count_10x5": selector_fold_support_count,
+            "cv_selector_support_frequency_10x5": selector_fold_stability,
             "selected_model_count_with_external_metrics": len(selected_model_metrics) // len(PRIMARY_EXTERNAL_DATASETS),
-            "mean_external_roc_auc_when_selected": mean_external_auc,
-            "mean_external_pr_auc_when_selected": mean_external_pr_auc,
-            "mean_external_balanced_accuracy_when_selected": mean_external_bal_acc,
+            "mean_external_roc_auc_of_models_containing_gene": mean_external_auc,
+            "mean_external_pr_auc_of_models_containing_gene": mean_external_pr_auc,
+            "mean_external_balanced_accuracy_of_models_containing_gene": mean_external_bal_acc,
             "external_auc_score_0_to_1": external_auc_score,
-            "external_qualified_model_count": qualified_selection_counts.get(gene, 0),
-            "external_qualified_model_selection_frequency": qualified_stability,
-            "mean_external_roc_auc_in_qualified_models": mean_qualified_external_auc,
+            "external_qualified_model_count_containing_gene": qualified_selection_counts.get(gene, 0),
+            "external_qualified_model_selection_frequency_containing_gene": qualified_stability,
+            "mean_external_roc_auc_of_qualified_models_containing_gene": mean_qualified_external_auc,
             "external_qualified_auc_score_0_to_1": qualified_auc_score,
             "ml_priority_score": ml_priority,
             "selected_model_ids": ";".join(gene_selected_models.get(gene, [])),
-            "stable_ml_flag": bool(measured and stability >= 0.80 and qualified_stability >= 0.80),
+            "stable_ml_flag": bool(measured and selector_stability >= SELECTOR_SUPPORT_THRESHOLD),
         }
         if not cross_rank.empty and gene in set(cross_rank["gene_symbol"]):
             cross_row = cross_rank[cross_rank["gene_symbol"].eq(gene)].iloc[0]
@@ -422,7 +477,7 @@ def main() -> None:
 
     gene_stability = pd.DataFrame(gene_rows)
     gene_stability = gene_stability.sort_values(
-        ["ml_priority_score", "model_selection_frequency_selective_90", "cv_fold_selection_frequency_selective_90x5", "gene_symbol"],
+        ["ml_priority_score", "selector_support_frequency_10", "cv_selector_support_frequency_10x5", "gene_symbol"],
         ascending=[False, False, False, True],
     ).reset_index(drop=True)
     gene_stability.insert(0, "ml_rank", np.arange(1, len(gene_stability) + 1))
@@ -467,8 +522,9 @@ def main() -> None:
         "- Input universe: all 97 DINP–CRC overlap genes; Tier 1/cross-ranking labels were not used to select features or fit models.",
         "- Training/discovery cohort: TCGA-COAD (tumor vs normal), stratified 5-fold cross-validation.",
         "- Primary external validation: GSE10950 and GSE74602. GSE156355 was not used in this discovery/validation run.",
-        "- Models: 101 total = 11 feature-selection configurations × 9 classifiers + 2 full-feature baselines.",
-        "- Feature selection and scaling were fitted inside each training fold; the final model was refit on all TCGA-COAD samples before external validation.",
+        "- Models: 101 total = 11 feature-selection configurations × 9 classifiers + 2 full-feature baselines; 10 selective selector configurations are treated as the independent gene-stability units.",
+        f"- Feature representation: {FEATURE_NORMALIZATION}; this removes dependence on absolute RNA-seq versus microarray expression scales before fitting and testing.",
+        "- Feature selection, imputation, and scaling were fitted inside each training fold; the final model was refit on all rank-normalized TCGA-COAD samples before external validation.",
         "",
         "## 101-model catalog",
         "",
@@ -477,27 +533,28 @@ def main() -> None:
         "",
         "## Stability and external-validation ranking",
         "",
-        "`model_selection_frequency_selective_90` is the fraction of the 90 non-all-feature models whose full-TCGA fitted selector retained a gene. The CV-fold frequency is reported separately. External-validation-qualified models are selective models with ROC-AUC ≥0.75 in both GSE10950 and GSE74602. The ML priority score is the geometric mean of all-selective-model frequency, qualified-model frequency, and qualified-model external ROC-AUC score; it does not use Tier 1 labels.",
+        "Gene stability is defined as the fraction of the 10 independent selective selector configurations (six ANOVA and four mutual-information selectors) that retain a gene on the full TCGA training set. The 101 model configurations are used for classification-performance robustness. External-validation-qualified models are selective models with ROC-AUC ≥0.75 in both GSE10950 and GSE74602. A gene-level qualified-model AUC is the mean AUC of qualified multigene models containing that gene; it is not a single-gene AUC. The ML priority score integrates selector support with qualified-model inclusion and qualified-model AUC; it does not use Tier 1 labels.",
         "",
         f"- Frozen input genes: {len(overlap)}",
         f"- Measured expression features used for fitting: {len(measured_genes)}",
         f"- Input genes without expression values: {len(missing_genes)} ({', '.join(missing_genes)})",
         f"- Models completed: {len(model_results)}",
+        f"- Independent selective selector configurations used for gene stability: {selector_count}",
         f"- External-validation-qualified selective models (ROC-AUC ≥0.75 in both GEO cohorts): {qualified_model_count}",
-        f"- Default stable-ML flag (selection frequency ≥80% in all selective models and ≥80% in qualified models): {len(stable)}",
+        f"- Stable ML genes (support in ≥80% of the 10 independent selectors, i.e. ≥8/10): {len(stable)}",
         f"- Stable ML genes overlapping pre-existing Tier 1: {len(overlap_stable_tier1)}",
         "",
         "## Top 20 ML-priority genes",
         "",
-        "| ML rank | Gene | Stable flag | Selective frequency | Qualified frequency | Qualified mean external AUC | Existing cross-rank | Tier 1 overlap | Direction |",
+        "| ML rank | Gene | Stable flag | Selector support | Qualified-model inclusion | Qualified mean AUC of models containing gene | Existing cross-rank | Tier 1 overlap | Direction |",
         "|---:|---|---|---:|---:|---:|---:|---|---|",
     ]
     for _, row in top_for_report.iterrows():
-        external_auc = "" if pd.isna(row["mean_external_roc_auc_in_qualified_models"]) else f"{row['mean_external_roc_auc_in_qualified_models']:.3f}"
+        external_auc = "" if pd.isna(row["mean_external_roc_auc_of_qualified_models_containing_gene"]) else f"{row['mean_external_roc_auc_of_qualified_models_containing_gene']:.3f}"
         cross_rank_value = row.get("cross_rank_cross_rank", "")
         tier1_flag = str(row.get("cross_support_flag_cross_rank", "")).lower() == "true"
         summary_lines.append(
-            f"| {int(row['ml_rank'])} | {row['gene_symbol']} | {'yes' if row['stable_ml_flag'] else 'no'} | {row['model_selection_frequency_selective_90']:.3f} | {row['external_qualified_model_selection_frequency']:.3f} | {external_auc} | {cross_rank_value} | {'yes' if tier1_flag else 'no'} | {row.get('consensus_direction_cross_rank', '')} |"
+            f"| {int(row['ml_rank'])} | {row['gene_symbol']} | {'yes' if row['stable_ml_flag'] else 'no'} | {int(row['selector_support_count_10'])}/10 | {row['external_qualified_model_selection_frequency_containing_gene']:.3f} | {external_auc} | {cross_rank_value} | {'yes' if tier1_flag else 'no'} | {row.get('consensus_direction_cross_rank', '')} |"
         )
     summary_lines.extend(
         [
@@ -506,7 +563,8 @@ def main() -> None:
             "",
             "This stage is discovery plus external classification validation for the tumor/normal expression phenotype. It does not establish DINP causality, and the high separability of tumor versus normal should not be confused with exposure-response evidence.",
             "",
-            "Tier 1/cross-rank overlap is an independent post hoc concordance check. It is not part of the ML feature-selection objective and should be reviewed before any MR instrument decision.",
+        "Tier 1/cross-rank overlap is an independent post hoc concordance check. It is not part of the ML feature-selection objective and should be reviewed before any MR instrument decision.",
+        "The qualified-model inclusion frequency is a model-configuration metric and should not be described as an independent selector-support probability.",
         ]
     )
     (OUTPUTS / "DINP_CRC_101ML_summary.md").write_text("\n".join(summary_lines) + "\n", encoding="utf-8")
@@ -521,6 +579,7 @@ def main() -> None:
         "training_dataset": "TCGA-COAD",
         "external_validation_datasets": PRIMARY_EXTERNAL_DATASETS,
         "excluded_from_this_run": ["GSE156355", "TCGA paired sensitivity", "TCGA-vs-GTEx sensitivity"],
+        "feature_normalization": FEATURE_NORMALIZATION,
         "training_sample_counts": train["label"].value_counts().sort_index().rename({0: "normal", 1: "tumor"}).to_dict(),
         "external_sample_counts": {
             dataset_id: cohorts[dataset_id]["label"].value_counts().sort_index().rename({0: "normal", 1: "tumor"}).to_dict()
@@ -528,11 +587,13 @@ def main() -> None:
         },
         "model_count": int(len(model_results)),
         "selective_model_count": selective_count,
+        "independent_selective_selector_count": selector_count,
         "external_validation_qualified_model_count": qualified_model_count,
         "cv": {"method": "StratifiedKFold", "n_splits": 5, "shuffle": True, "random_state": SEED},
-        "feature_selection_leakage_control": "selectors and StandardScaler fitted within each training fold",
-        "external_validation_qualified_definition": "selective model with GSE10950 ROC-AUC >= 0.75 and GSE74602 ROC-AUC >= 0.75",
-        "stable_ml_definition": "full-TCGA selection frequency >= 0.80 in all 90 selective models and >= 0.80 in external-validation-qualified selective models",
+        "feature_selection_leakage_control": "rank normalization is computed within each sample; selectors, imputation and StandardScaler are fitted within each training fold",
+        "external_validation_qualified_definition": "selective model with rank-normalized GSE10950 ROC-AUC >= 0.75 and rank-normalized GSE74602 ROC-AUC >= 0.75",
+        "stable_ml_definition": "full-TCGA support >= 0.80 in the 10 independent selective selector configurations (>=8/10); qualified-model inclusion is reported separately as performance robustness",
+        "qualified_model_gene_metric_definition": "mean external metric across qualified multigene model configurations containing the gene; not a single-gene AUC",
         "tier1_used_in_model_fit": False,
         "qc": {
             "model_ids_unique": int(model_results["model_id"].nunique()) == 101,
@@ -541,6 +602,8 @@ def main() -> None:
             "external_auc_range": [float(model_results["external_mean_roc_auc"].min()), float(model_results["external_mean_roc_auc"].max())],
             "stable_ml_count": int(len(stable)),
             "stable_ml_tier1_overlap_count": int(len(overlap_stable_tier1)),
+            "selector_support_set_consistent_across_classifiers": True,
+            "selector_full_support_counts_range": [int(min(selector_support_counts.values())), int(max(selector_support_counts.values()))],
         },
     }
     (OUTPUTS / "DINP_CRC_101ML_log.md").write_text(
@@ -552,7 +615,7 @@ def main() -> None:
 
     print(f"Completed 101 models; measured features={len(measured_genes)}; stable ML genes={len(stable)}")
     print("Top 10 ML genes:")
-    print(gene_stability[["ml_rank", "gene_symbol", "ml_priority_score", "model_selection_frequency_selective_90", "mean_external_roc_auc_when_selected"]].head(10).to_string(index=False))
+    print(gene_stability[["ml_rank", "gene_symbol", "ml_priority_score", "selector_support_frequency_10", "mean_external_roc_auc_of_models_containing_gene"]].head(10).to_string(index=False))
 
 
 if __name__ == "__main__":

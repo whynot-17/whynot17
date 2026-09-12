@@ -159,7 +159,7 @@ def main() -> None:
             set(membership.loc[membership["ppi_pathway_candidate_flag"], "gene_symbol"]),
         ),
         "transcriptomic_replicated_ge2": (
-            "Transcriptomic replicated in ≥2/4 primary datasets",
+            "Transcriptomic replicated in ≥2/3 primary datasets",
             set(membership.loc[membership["transcriptomic_replicated_ge2"], "gene_symbol"]),
         ),
         "crossrank_top20": ("Top 20 cross-ranked genes", set(membership.loc[membership["crossrank_top20"], "gene_symbol"])),
@@ -216,7 +216,7 @@ def main() -> None:
         "",
         "## Pairwise overlap audit",
         "",
-        "The full pairwise table tests the stable-ML and Tier 1 sets against PPI/pathway candidates, transcriptomic replication ≥2/4, and the top-20 cross-ranked set, always using the same 97-gene background. BH q-values adjust the two-sided Fisher tests across all pairwise comparisons.",
+        "The full pairwise table tests the stable-ML and Tier 1 sets against PPI/pathway candidates, transcriptomic replication ≥2/3, and the top-20 cross-ranked set, always using the same 97-gene background. BH q-values adjust the two-sided Fisher tests across all pairwise comparisons.",
         "",
         "| Set A | Set B | A | B | Overlap | Expected | Fold enrichment | Odds ratio | Fisher p | BH q |",
         "|---|---|---:|---:|---:|---:|---:|---:|---:|---:|",
