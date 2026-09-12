@@ -3,7 +3,7 @@
 ## Frozen design
 
 - Input universe: all 97 DINP–CRC overlap genes; Tier 1/cross-ranking labels were not used to select features or fit models.
-- Training/discovery cohort: TCGA-COAD (tumor vs normal), stratified 5-fold cross-validation.
+- Training/discovery cohort: TCGA-COAD (tumor vs normal), patient-grouped StratifiedGroupKFold cross-validation (5 folds; grouping identifier = manifest pair_id).
 - Primary external validation: GSE10950 and GSE74602. GSE156355 was not used in this discovery/validation run.
 - Models: 101 total = 11 feature-selection configurations × 9 classifiers + 2 full-feature baselines; 10 selective selector configurations are treated as the independent gene-stability units.
 - Feature representation: within_sample_rank_percentile_0_to_1; this removes dependence on absolute RNA-seq versus microarray expression scales before fitting and testing.
@@ -32,20 +32,20 @@ Gene stability is defined as the fraction of the 10 independent selective select
 | ML rank | Gene | Stable flag | Selector support | Qualified-model inclusion | Qualified mean AUC of models containing gene | Existing cross-rank | Tier 1 overlap | Direction |
 |---:|---|---|---:|---:|---:|---:|---|---|
 | 1 | ANGPT2 | yes | 10/10 | 1.000 | 0.983 | 57 | no | tumor_high |
-| 2 | CNR1 | yes | 10/10 | 1.000 | 0.983 | 62 | no | normal_high |
-| 3 | EPAS1 | yes | 10/10 | 1.000 | 0.983 | 36 | no | normal_high |
-| 4 | INHBA | yes | 10/10 | 1.000 | 0.983 | 71 | no | normal_high |
-| 5 | TIMP1 | yes | 10/10 | 1.000 | 0.983 | 38 | no | tumor_high |
-| 6 | UBE2C | yes | 10/10 | 1.000 | 0.983 | 69 | no | tumor_high |
-| 7 | VEGFA | yes | 10/10 | 1.000 | 0.983 | 91 | no | tumor_high |
-| 8 | CD36 | yes | 10/10 | 1.000 | 0.983 | 3 | no | normal_high |
+| 2 | CD36 | yes | 10/10 | 1.000 | 0.983 | 3 | no | normal_high |
+| 3 | CNR1 | yes | 10/10 | 1.000 | 0.983 | 62 | no | normal_high |
+| 4 | EPAS1 | yes | 10/10 | 1.000 | 0.983 | 36 | no | normal_high |
+| 5 | INHBA | yes | 10/10 | 1.000 | 0.983 | 71 | no | normal_high |
+| 6 | TIMP1 | yes | 10/10 | 1.000 | 0.983 | 38 | no | tumor_high |
+| 7 | UBE2C | yes | 10/10 | 1.000 | 0.983 | 69 | no | tumor_high |
+| 8 | VEGFA | yes | 10/10 | 1.000 | 0.983 | 91 | no | tumor_high |
 | 9 | BMP2 | yes | 10/10 | 1.000 | 0.983 | 58 | no | normal_high |
 | 10 | CAT | yes | 9/10 | 0.897 | 0.982 | 72 | no | normal_high |
-| 11 | MKI67 | yes | 8/10 | 0.794 | 0.984 | 77 | no | tumor_high |
-| 12 | ACLY | yes | 8/10 | 0.794 | 0.984 | 39 | no | tumor_high |
-| 13 | IL1A | yes | 8/10 | 0.794 | 0.984 | 2 | yes | tumor_high |
-| 14 | CEBPB | yes | 8/10 | 0.794 | 0.984 | 9 | yes | tumor_high |
-| 15 | RXRA | yes | 8/10 | 0.794 | 0.984 | 7 | no | normal_high |
+| 11 | CEBPB | yes | 8/10 | 0.794 | 0.984 | 9 | yes | tumor_high |
+| 12 | MKI67 | yes | 8/10 | 0.794 | 0.984 | 77 | no | tumor_high |
+| 13 | ACLY | yes | 8/10 | 0.794 | 0.984 | 39 | no | tumor_high |
+| 14 | RXRA | yes | 8/10 | 0.794 | 0.984 | 7 | no | normal_high |
+| 15 | IL1A | yes | 8/10 | 0.794 | 0.984 | 2 | yes | tumor_high |
 | 16 | FAS | yes | 8/10 | 0.794 | 0.984 | 16 | no | normal_high |
 | 17 | FASN | yes | 8/10 | 0.794 | 0.984 | 22 | no | tumor_high |
 | 18 | AGTR1 | no | 7/10 | 0.691 | 0.983 | 41 | no | normal_high |

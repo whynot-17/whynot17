@@ -13,7 +13,7 @@ from sklearn.feature_selection import SelectKBest, f_classif, mutual_info_classi
 from sklearn.ensemble import ExtraTreesClassifier, GradientBoostingClassifier, HistGradientBoostingClassifier, RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import average_precision_score, balanced_accuracy_score, confusion_matrix, f1_score, roc_auc_score
-from sklearn.model_selection import StratifiedKFold
+from sklearn.model_selection import StratifiedGroupKFold
 from sklearn.naive_bayes import GaussianNB
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.pipeline import Pipeline
@@ -199,8 +199,12 @@ def load_cohorts() -> tuple[pd.DataFrame, dict[str, pd.DataFrame], list[str], li
         current = current.drop_duplicates("sample_id")
         current = current.set_index("sample_id")
         current["label"] = (current["group"] == "tumor").astype(int)
+        current["patient_group"] = current["pair_id"].astype(str).str.strip()
+        if current["patient_group"].eq("").any():
+            raise ValueError(f"{dataset_id} contains samples without a patient grouping identifier")
         data = wide.loc[current.index, measured_genes].copy()
         data.insert(0, "label", current["label"].astype(int))
+        data["patient_group"] = current["patient_group"]
         cohorts[dataset_id] = data
 
     return overlap, cohorts, measured_genes, missing_genes
@@ -255,8 +259,13 @@ def main() -> None:
     train = cohorts["TCGA-COAD"]
     X_train = train[measured_genes]
     y_train = train["label"].to_numpy(dtype=int)
+    groups = train["patient_group"].astype(str).to_numpy()
     if set(np.unique(y_train)) != {0, 1}:
         raise ValueError("TCGA-COAD training cohort must contain both normal and tumor labels")
+    if not groups.size or any(not group for group in groups):
+        raise ValueError("TCGA-COAD training cohort must have non-empty patient groups")
+    if len(np.unique(groups)) < 5:
+        raise ValueError("TCGA-COAD must contain at least five patient groups for grouped 5-fold CV")
 
     catalog = make_model_catalog(len(measured_genes))
     selector_names = [
@@ -267,7 +276,27 @@ def main() -> None:
     selector_count = len(selector_names)
     if selector_count != 10:
         raise AssertionError(f"Expected 10 independent selective selectors, got {selector_count}")
-    cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=SEED)
+    cv = StratifiedGroupKFold(n_splits=5, shuffle=True, random_state=SEED)
+    cv_splits = list(cv.split(X_train, y_train, groups=groups))
+    if len(cv_splits) != 5:
+        raise AssertionError(f"Expected 5 grouped CV folds, got {len(cv_splits)}")
+    cv_fold_group_counts: list[dict[str, object]] = []
+    for fold_index, (fold_train_idx, fold_valid_idx) in enumerate(cv_splits, start=1):
+        fold_train_groups = set(groups[fold_train_idx])
+        fold_valid_groups = set(groups[fold_valid_idx])
+        if fold_train_groups & fold_valid_groups:
+            raise AssertionError(f"Patient-group leakage detected in grouped CV fold {fold_index}")
+        cv_fold_group_counts.append(
+            {
+                "fold": fold_index,
+                "train_patient_groups": len(fold_train_groups),
+                "valid_patient_groups": len(fold_valid_groups),
+                "train_normal": int((y_train[fold_train_idx] == 0).sum()),
+                "train_tumor": int((y_train[fold_train_idx] == 1).sum()),
+                "valid_normal": int((y_train[fold_valid_idx] == 0).sum()),
+                "valid_tumor": int((y_train[fold_valid_idx] == 1).sum()),
+            }
+        )
     model_rows: list[dict] = []
     fold_selection_counts = {gene: 0 for gene in measured_genes}
     full_selection_counts = {gene: 0 for gene in measured_genes}
@@ -283,7 +312,7 @@ def main() -> None:
             pipeline = make_pipeline(spec["selector"], spec["classifier"])
             fold_metrics: list[dict[str, float]] = []
             fold_selected: list[list[str]] = []
-            for fold_index, (train_idx, valid_idx) in enumerate(cv.split(X_train, y_train), start=1):
+            for fold_index, (train_idx, valid_idx) in enumerate(cv_splits, start=1):
                 fold_model = clone(pipeline)
                 fold_model.fit(X_train.iloc[train_idx], y_train[train_idx])
                 fold_X = X_train.iloc[valid_idx]
@@ -338,6 +367,7 @@ def main() -> None:
                 "selector_name": spec["selector_name"],
                 "classifier_name": spec["classifier_name"],
                 "feature_normalization": FEATURE_NORMALIZATION,
+                "cv_grouping": "patient_group",
                 "requested_features": spec["requested_features"],
                 "selective_selector": spec["selective_selector"],
                 "full_train_selected_feature_count": len(full_selected),
@@ -520,7 +550,7 @@ def main() -> None:
         "## Frozen design",
         "",
         "- Input universe: all 97 DINP–CRC overlap genes; Tier 1/cross-ranking labels were not used to select features or fit models.",
-        "- Training/discovery cohort: TCGA-COAD (tumor vs normal), stratified 5-fold cross-validation.",
+        "- Training/discovery cohort: TCGA-COAD (tumor vs normal), patient-grouped StratifiedGroupKFold cross-validation (5 folds; grouping identifier = manifest pair_id).",
         "- Primary external validation: GSE10950 and GSE74602. GSE156355 was not used in this discovery/validation run.",
         "- Models: 101 total = 11 feature-selection configurations × 9 classifiers + 2 full-feature baselines; 10 selective selector configurations are treated as the independent gene-stability units.",
         f"- Feature representation: {FEATURE_NORMALIZATION}; this removes dependence on absolute RNA-seq versus microarray expression scales before fitting and testing.",
@@ -589,8 +619,8 @@ def main() -> None:
         "selective_model_count": selective_count,
         "independent_selective_selector_count": selector_count,
         "external_validation_qualified_model_count": qualified_model_count,
-        "cv": {"method": "StratifiedKFold", "n_splits": 5, "shuffle": True, "random_state": SEED},
-        "feature_selection_leakage_control": "rank normalization is computed within each sample; selectors, imputation and StandardScaler are fitted within each training fold",
+        "cv": {"method": "StratifiedGroupKFold", "grouping_variable": "patient_group derived from manifest pair_id", "n_splits": 5, "shuffle": True, "random_state": SEED, "unique_patient_groups": int(len(np.unique(groups))), "fold_group_counts": cv_fold_group_counts},
+        "feature_selection_leakage_control": "rank normalization is computed within each sample; selectors, imputation and StandardScaler are fitted within each patient-grouped training fold",
         "external_validation_qualified_definition": "selective model with rank-normalized GSE10950 ROC-AUC >= 0.75 and rank-normalized GSE74602 ROC-AUC >= 0.75",
         "stable_ml_definition": "full-TCGA support >= 0.80 in the 10 independent selective selector configurations (>=8/10); qualified-model inclusion is reported separately as performance robustness",
         "qualified_model_gene_metric_definition": "mean external metric across qualified multigene model configurations containing the gene; not a single-gene AUC",

@@ -1,98 +1,98 @@
 gene_symbol,ml_rank,stable_ml_flag,ml_priority_score,expression_measured,cross_rank,cross_support_flag,ppi_pathway_candidate,independent_datasets_significant_fdr_lt_0_05,representative_term_count,hub_rank,cross_rank_score,candidate_tier,consensus_direction,stable_ml,tier1,ppi_pathway_candidate_flag,transcriptomic_replicated_ge2,crossrank_top20,overlap_group_stable_vs_tier1
-CEBPB,14,True,0.8501801338533097,True,9,True,True,3,12,17.0,0.7765114083058591,Tier 1: cross-supported,tumor_high,True,True,True,True,True,both_stable_ml_and_tier1
-IL1A,13,True,0.8501801338533097,True,2,True,True,3,21,15.0,0.9114995224156894,Tier 1: cross-supported,tumor_high,True,True,True,True,True,both_stable_ml_and_tier1
-ACLY,12,True,0.8501801338533097,True,39,False,False,3,9,46.0,0.5710428637899366,Tier 2: replicated + pathway,tumor_high,True,False,False,True,False,stable_ml_only
+CEBPB,11,True,0.8501801338533097,True,9,True,True,3,12,17.0,0.7765114083058591,Tier 1: cross-supported,tumor_high,True,True,True,True,True,both_stable_ml_and_tier1
+IL1A,15,True,0.8501801338533097,True,2,True,True,3,21,15.0,0.9114995224156894,Tier 1: cross-supported,tumor_high,True,True,True,True,True,both_stable_ml_and_tier1
+ACLY,13,True,0.8501801338533097,True,39,False,False,3,9,46.0,0.5710428637899366,Tier 2: replicated + pathway,tumor_high,True,False,False,True,False,stable_ml_only
 ANGPT2,1,True,0.9884468313447943,True,57,False,False,3,11,77.0,0.4656164286735046,Tier 2: replicated + pathway,tumor_high,True,False,False,True,False,stable_ml_only
 BMP2,9,True,0.9884468313447943,True,58,False,False,3,9,70.0,0.46195524735764315,Tier 2: replicated + pathway,normal_high,True,False,False,True,False,stable_ml_only
 CAT,10,True,0.9201499967402542,True,72,False,False,1,12,81.0,0.3148599491455605,Tier 4: other,normal_high,True,False,False,False,False,stable_ml_only
-CD36,8,True,0.9884468313447943,True,3,False,False,3,17,23.0,0.8562592600847383,Tier 2: replicated + pathway,normal_high,True,False,False,True,True,stable_ml_only
-CNR1,2,True,0.9884468313447943,True,62,False,False,3,12,82.0,0.44444183429643125,Tier 2: replicated + pathway,normal_high,True,False,False,True,False,stable_ml_only
-EPAS1,3,True,0.9884468313447943,True,36,False,False,3,11,55.0,0.5962586974351758,Tier 2: replicated + pathway,normal_high,True,False,False,True,False,stable_ml_only
+CD36,2,True,0.9884468313447943,True,3,False,False,3,17,23.0,0.8562592600847383,Tier 2: replicated + pathway,normal_high,True,False,False,True,True,stable_ml_only
+CNR1,3,True,0.9884468313447943,True,62,False,False,3,12,82.0,0.44444183429643125,Tier 2: replicated + pathway,normal_high,True,False,False,True,False,stable_ml_only
+EPAS1,4,True,0.9884468313447943,True,36,False,False,3,11,55.0,0.5962586974351758,Tier 2: replicated + pathway,normal_high,True,False,False,True,False,stable_ml_only
 FAS,16,True,0.8501801338533097,True,16,False,False,3,18,54.0,0.7219842091270774,Tier 2: replicated + pathway,normal_high,True,False,False,True,True,stable_ml_only
 FASN,17,True,0.850167511896872,True,22,False,False,3,11,32.0,0.6896934196655691,Tier 2: replicated + pathway,tumor_high,True,False,False,True,False,stable_ml_only
-INHBA,4,True,0.9884468313447943,True,71,False,False,3,10,86.0,0.3171303649567806,Tier 2: replicated + pathway,normal_high,True,False,False,True,False,stable_ml_only
-MKI67,11,True,0.8501801338533097,True,77,False,False,3,3,74.0,0.24562847187347348,Tier 2: replicated + pathway,tumor_high,True,False,False,True,False,stable_ml_only
-RXRA,15,True,0.8501801338533097,True,7,False,False,3,15,30.0,0.8049890026940303,Tier 2: replicated + pathway,normal_high,True,False,False,True,True,stable_ml_only
-TIMP1,5,True,0.9884468313447943,True,38,False,False,3,8,33.0,0.577340041821536,Tier 2: replicated + pathway,tumor_high,True,False,False,True,False,stable_ml_only
-UBE2C,6,True,0.9884468313447943,True,69,False,False,3,6,75.0,0.3424597576191406,Tier 2: replicated + pathway,tumor_high,True,False,False,True,False,stable_ml_only
-VEGFA,7,True,0.9884468313447943,True,91,False,False,2,0,63.0,0.0,"Tier 2b: replicated, no representative pathway",tumor_high,True,False,False,True,False,stable_ml_only
-ADIPOQ,23,False,0.7759040422874461,True,19,True,True,2,14,18.0,0.7181988768795525,Tier 1: cross-supported,normal_high,False,True,True,True,True,tier1_only
+INHBA,5,True,0.9884468313447943,True,71,False,False,3,10,86.0,0.3171303649567806,Tier 2: replicated + pathway,normal_high,True,False,False,True,False,stable_ml_only
+MKI67,12,True,0.8501801338533097,True,77,False,False,3,3,74.0,0.24562847187347348,Tier 2: replicated + pathway,tumor_high,True,False,False,True,False,stable_ml_only
+RXRA,14,True,0.8501801338533097,True,7,False,False,3,15,30.0,0.8049890026940303,Tier 2: replicated + pathway,normal_high,True,False,False,True,True,stable_ml_only
+TIMP1,6,True,0.9884468313447943,True,38,False,False,3,8,33.0,0.577340041821536,Tier 2: replicated + pathway,tumor_high,True,False,False,True,False,stable_ml_only
+UBE2C,7,True,0.9884468313447943,True,69,False,False,3,6,75.0,0.3424597576191406,Tier 2: replicated + pathway,tumor_high,True,False,False,True,False,stable_ml_only
+VEGFA,8,True,0.9884468313447943,True,91,False,False,2,0,63.0,0.0,"Tier 2b: replicated, no representative pathway",tumor_high,True,False,False,True,False,stable_ml_only
+ADIPOQ,24,False,0.7759040422874461,True,19,True,True,2,14,18.0,0.7181988768795525,Tier 1: cross-supported,normal_high,False,True,True,True,True,tier1_only
 ESR1,81,False,0.324552373926584,True,5,True,True,3,14,14.0,0.8357803219813668,Tier 1: cross-supported,normal_high,False,True,True,True,True,tier1_only
 IFNG,54,False,0.43244181144896376,True,21,True,True,2,20,9.0,0.7052036542436786,Tier 1: cross-supported,tumor_high,False,True,True,True,False,tier1_only
-IL13,33,False,0.6981581732769347,True,24,True,True,2,16,13.0,0.6743806158581473,Tier 1: cross-supported,tumor_high,False,True,True,True,False,tier1_only
+IL13,32,False,0.6981581732769347,True,24,True,True,2,16,13.0,0.6743806158581473,Tier 1: cross-supported,tumor_high,False,True,True,True,False,tier1_only
 IL18,35,False,0.6981581732769347,True,11,True,True,3,12,20.0,0.7666810931053485,Tier 1: cross-supported,normal_high,False,True,True,True,True,tier1_only
-IL1B,37,False,0.6159318101168869,True,1,True,True,3,26,6.0,0.9616416666031198,Tier 1: cross-supported,tumor_high,False,True,True,True,True,tier1_only
-IL6,60,False,0.43244181144896376,True,12,True,True,2,33,1.0,0.7565294730679974,Tier 1: cross-supported,tumor_high,False,True,True,True,True,tier1_only
-MMP9,57,False,0.43244181144896376,True,10,True,True,2,15,8.0,0.7730328131801563,Tier 1: cross-supported,tumor_high,False,True,True,True,True,tier1_only
-PPARA,78,False,0.324552373926584,True,14,True,True,3,15,16.0,0.7491399075023615,Tier 1: cross-supported,normal_high,False,True,True,True,True,tier1_only
+IL1B,36,False,0.6159318101168869,True,1,True,True,3,26,6.0,0.9616416666031198,Tier 1: cross-supported,tumor_high,False,True,True,True,True,tier1_only
+IL6,55,False,0.43244181144896376,True,12,True,True,2,33,1.0,0.7565294730679974,Tier 1: cross-supported,tumor_high,False,True,True,True,True,tier1_only
+MMP9,56,False,0.43244181144896376,True,10,True,True,2,15,8.0,0.7730328131801563,Tier 1: cross-supported,tumor_high,False,True,True,True,True,tier1_only
+PPARA,75,False,0.324552373926584,True,14,True,True,3,15,16.0,0.7491399075023615,Tier 1: cross-supported,normal_high,False,True,True,True,True,tier1_only
 PPARG,43,False,0.6156564374541913,True,6,True,True,2,20,7.0,0.8133264938243043,Tier 1: cross-supported,normal_high,False,True,True,True,True,tier1_only
-RELA,85,False,0.20482828920545848,True,17,True,True,2,28,12.0,0.7212930114155423,Tier 1: cross-supported,tumor_high,False,True,True,True,True,tier1_only
-SREBF1,66,False,0.4317353681451079,True,31,True,True,2,14,19.0,0.6247459830671009,Tier 1: cross-supported,tumor_high,False,True,True,True,False,tier1_only
+RELA,86,False,0.20482828920545848,True,17,True,True,2,28,12.0,0.7212930114155423,Tier 1: cross-supported,tumor_high,False,True,True,True,True,tier1_only
+SREBF1,65,False,0.4317353681451079,True,31,True,True,2,14,19.0,0.6247459830671009,Tier 1: cross-supported,tumor_high,False,True,True,True,False,tier1_only
 STAT3,40,False,0.6159318101168869,True,4,True,True,2,28,5.0,0.8477447545397062,Tier 1: cross-supported,normal_high,False,True,True,True,True,tier1_only
 TP53,38,False,0.6159318101168869,True,13,True,True,2,33,3.0,0.7512388840814761,Tier 1: cross-supported,tumor_high,False,True,True,True,True,tier1_only
 ACACA,21,False,0.7759040422874461,True,20,False,False,3,13,40.0,0.7161341423119625,Tier 2: replicated + pathway,tumor_high,False,False,False,True,True,neither
-ACE,86,False,0.20482828920545848,True,64,False,False,1,12,48.0,0.39943461710316647,Tier 4: other,normal_high,False,False,False,False,False,neither
+ACE,82,False,0.20482828920545848,True,64,False,False,1,12,48.0,0.39943461710316647,Tier 4: other,normal_high,False,False,False,False,False,neither
 ACP3,96,False,0.0,False,96,False,False,0,0,79.0,0.0,Tier 4: other,mixed_or_flat,False,False,False,False,False,neither
-ACSL4,28,False,0.6981581732769347,True,37,False,False,3,15,72.0,0.5795332382461118,Tier 2: replicated + pathway,tumor_high,False,False,False,True,False,neither
+ACSL4,25,False,0.6981581732769347,True,37,False,False,3,15,72.0,0.5795332382461118,Tier 2: replicated + pathway,tumor_high,False,False,False,True,False,neither
 AGTR1,18,False,0.7761734969179244,True,41,False,False,3,11,65.0,0.5445882786578613,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
 AKT1,72,False,0.324552373926584,True,35,False,True,1,42,4.0,0.5993305290123174,Tier 3: PPI/pathway only,normal_high,False,False,True,False,False,neither
-ALOX5,82,False,0.20482828920545848,True,95,False,False,0,13,76.0,0.0,Tier 4: other,normal_high,False,False,False,False,False,neither
-ANGPTL4,87,False,0.20482828920545848,True,73,False,False,1,8,67.0,0.3109603535111939,Tier 4: other,normal_high,False,False,False,False,False,neither
-AR,55,False,0.43244181144896376,True,51,False,False,2,8,37.0,0.4936187922840724,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
-ATF4,64,False,0.4317353681451079,True,30,False,False,3,22,58.0,0.6263316395713714,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
-ATG5,83,False,0.20482828920545848,True,70,False,False,1,9,49.0,0.33896502644890203,Tier 4: other,normal_high,False,False,False,False,False,neither
-BECN1,50,False,0.5274645876605155,True,61,False,False,1,14,39.0,0.4492326063344569,Tier 4: other,tumor_high,False,False,False,False,False,neither
-BSCL2,63,False,0.4317353681451079,True,81,False,False,2,4,80.0,0.19753725467279398,Tier 2: replicated + pathway,tumor_high,False,False,False,True,False,neither
+ALOX5,83,False,0.20482828920545848,True,95,False,False,0,13,76.0,0.0,Tier 4: other,normal_high,False,False,False,False,False,neither
+ANGPTL4,84,False,0.20482828920545848,True,73,False,False,1,8,67.0,0.3109603535111939,Tier 4: other,normal_high,False,False,False,False,False,neither
+AR,57,False,0.43244181144896376,True,51,False,False,2,8,37.0,0.4936187922840724,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
+ATF4,63,False,0.4317353681451079,True,30,False,False,3,22,58.0,0.6263316395713714,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
+ATG5,88,False,0.20482828920545848,True,70,False,False,1,9,49.0,0.33896502644890203,Tier 4: other,normal_high,False,False,False,False,False,neither
+BECN1,52,False,0.5274645876605155,True,61,False,False,1,14,39.0,0.4492326063344569,Tier 4: other,tumor_high,False,False,False,False,False,neither
+BSCL2,61,False,0.4317353681451079,True,81,False,False,2,4,80.0,0.19753725467279398,Tier 2: replicated + pathway,tumor_high,False,False,False,True,False,neither
 CCN2,97,False,0.0,False,94,False,False,0,12,44.0,0.0,Tier 4: other,mixed_or_flat,False,False,False,False,False,neither
-CCR7,58,False,0.43244181144896376,True,42,False,False,3,7,34.0,0.5339411183005239,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
-CD80,32,False,0.6981581732769347,True,66,False,False,2,6,22.0,0.39333407043762103,Tier 2: replicated + pathway,tumor_high,False,False,False,True,False,neither
-CD86,80,False,0.324552373926584,True,34,False,False,2,10,21.0,0.6040109283637607,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
-CEBPA,56,False,0.43244181144896376,True,28,False,False,2,16,26.0,0.637624162565851,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
+CCR7,59,False,0.43244181144896376,True,42,False,False,3,7,34.0,0.5339411183005239,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
+CD80,31,False,0.6981581732769347,True,66,False,False,2,6,22.0,0.39333407043762103,Tier 2: replicated + pathway,tumor_high,False,False,False,True,False,neither
+CD86,73,False,0.324552373926584,True,34,False,False,2,10,21.0,0.6040109283637607,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
+CEBPA,58,False,0.43244181144896376,True,28,False,False,2,16,26.0,0.637624162565851,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
 COPS5,53,False,0.43244181144896376,True,67,False,False,3,6,64.0,0.3920185620479922,Tier 2: replicated + pathway,tumor_high,False,False,False,True,False,neither
-CXCR4,92,False,0.20482828920545848,True,54,False,False,1,14,28.0,0.4760051336469252,Tier 4: other,normal_high,False,False,False,False,False,neither
-CYP11B1,76,False,0.324552373926584,True,78,False,False,1,9,73.0,0.2444360818725842,Tier 4: other,mixed_or_flat,False,False,False,False,False,neither
-CYP17A1,61,False,0.4317353681451079,True,76,False,False,1,7,59.0,0.2482698407597105,Tier 4: other,mixed_or_flat,False,False,False,False,False,neither
+CXCR4,89,False,0.20482828920545848,True,54,False,False,1,14,28.0,0.4760051336469252,Tier 4: other,normal_high,False,False,False,False,False,neither
+CYP11B1,79,False,0.324552373926584,True,78,False,False,1,9,73.0,0.2444360818725842,Tier 4: other,mixed_or_flat,False,False,False,False,False,neither
+CYP17A1,62,False,0.4317353681451079,True,76,False,False,1,7,59.0,0.2482698407597105,Tier 4: other,mixed_or_flat,False,False,False,False,False,neither
 CYP3A4,44,False,0.6156564374541913,True,40,False,False,3,11,61.0,0.56639463432995,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
-DUSP1,25,False,0.6981581732769347,True,65,False,False,3,7,71.0,0.39753096803616617,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
-FABP1,36,False,0.6159318101168869,True,47,False,False,3,9,62.0,0.503695415482141,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
-FDPS,73,False,0.324552373926584,True,52,False,False,3,9,66.0,0.4837257587733267,Tier 2: replicated + pathway,tumor_high,False,False,False,True,False,neither
-G6PD,27,False,0.6981581732769347,True,32,False,False,3,11,51.0,0.6146165362577758,Tier 2: replicated + pathway,tumor_high,False,False,False,True,False,neither
-GATA2,65,False,0.4317353681451079,True,29,False,False,3,21,69.0,0.637095452404198,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
-GJB2,84,False,0.20482828920545848,True,85,False,False,1,4,83.0,0.14695985674836348,Tier 4: other,tumor_high,False,False,False,False,False,neither
-GPX1,62,False,0.4317353681451079,True,92,False,False,2,0,,0.0,"Tier 2b: replicated, no representative pathway",tumor_high,False,False,False,True,False,neither
-GRN,29,False,0.6981581732769347,True,59,False,False,3,14,84.0,0.4505198128149029,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
+DUSP1,27,False,0.6981581732769347,True,65,False,False,3,7,71.0,0.39753096803616617,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
+FABP1,37,False,0.6159318101168869,True,47,False,False,3,9,62.0,0.503695415482141,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
+FDPS,74,False,0.324552373926584,True,52,False,False,3,9,66.0,0.4837257587733267,Tier 2: replicated + pathway,tumor_high,False,False,False,True,False,neither
+G6PD,28,False,0.6981581732769347,True,32,False,False,3,11,51.0,0.6146165362577758,Tier 2: replicated + pathway,tumor_high,False,False,False,True,False,neither
+GATA2,66,False,0.4317353681451079,True,29,False,False,3,21,69.0,0.637095452404198,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
+GJB2,85,False,0.20482828920545848,True,85,False,False,1,4,83.0,0.14695985674836348,Tier 4: other,tumor_high,False,False,False,False,False,neither
+GPX1,64,False,0.4317353681451079,True,92,False,False,2,0,,0.0,"Tier 2b: replicated, no representative pathway",tumor_high,False,False,False,True,False,neither
+GRN,30,False,0.6981581732769347,True,59,False,False,3,14,84.0,0.4505198128149029,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
 GSR,34,False,0.6981581732769347,True,74,False,False,1,7,57.0,0.2779685592785346,Tier 4: other,normal_high,False,False,False,False,False,neither
-GUCY2C,51,False,0.5274645876605155,True,84,False,False,2,3,85.0,0.150904550833032,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
-HMGCR,48,False,0.5274645876605155,True,44,False,False,2,12,41.0,0.5261622442848308,Tier 2: replicated + pathway,tumor_high,False,False,False,True,False,neither
-HSPA9,77,False,0.324552373926584,True,56,False,False,3,9,68.0,0.47309095972358484,Tier 2: replicated + pathway,tumor_high,False,False,False,True,False,neither
+GUCY2C,49,False,0.5274645876605155,True,84,False,False,2,3,85.0,0.150904550833032,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
+HMGCR,47,False,0.5274645876605155,True,44,False,False,2,12,41.0,0.5261622442848308,Tier 2: replicated + pathway,tumor_high,False,False,False,True,False,neither
+HSPA9,76,False,0.324552373926584,True,56,False,False,3,9,68.0,0.47309095972358484,Tier 2: replicated + pathway,tumor_high,False,False,False,True,False,neither
 IL33,70,False,0.324552373926584,True,55,False,False,1,15,35.0,0.4751434407789193,Tier 4: other,normal_high,False,False,False,False,False,neither
 IL4,69,False,0.3321666731095637,True,26,False,True,1,24,11.0,0.651916909875006,Tier 3: PPI/pathway only,normal_high,False,False,True,False,False,neither
-IL5,42,False,0.6156564374541913,True,45,False,False,2,10,25.0,0.5182277658140549,Tier 2: replicated + pathway,tumor_high,False,False,False,True,False,neither
-LDLR,30,False,0.6981581732769347,True,63,False,False,3,18,87.0,0.44398832190564963,Tier 2: replicated + pathway,tumor_high,False,False,False,True,False,neither
-LEPR,49,False,0.5274645876605155,True,15,False,False,3,14,43.0,0.7242091887528062,Tier 2: replicated + pathway,normal_high,False,False,False,True,True,neither
-MIR143,52,False,0.5274645876605155,True,97,False,False,0,0,88.0,0.0,Tier 4: other,mixed_or_flat,False,False,False,False,False,neither
+IL5,41,False,0.6156564374541913,True,45,False,False,2,10,25.0,0.5182277658140549,Tier 2: replicated + pathway,tumor_high,False,False,False,True,False,neither
+LDLR,33,False,0.6981581732769347,True,63,False,False,3,18,87.0,0.44398832190564963,Tier 2: replicated + pathway,tumor_high,False,False,False,True,False,neither
+LEPR,50,False,0.5274645876605155,True,15,False,False,3,14,43.0,0.7242091887528062,Tier 2: replicated + pathway,normal_high,False,False,False,True,True,neither
+MIR143,51,False,0.5274645876605155,True,97,False,False,0,0,88.0,0.0,Tier 4: other,mixed_or_flat,False,False,False,False,False,neither
 MMP2,67,False,0.4317353681451079,True,93,False,False,0,13,31.0,0.0,Tier 4: other,normal_high,False,False,False,False,False,neither
-MUC2,31,False,0.6981581732769347,True,87,False,False,1,4,89.0,0.1395992623373357,Tier 4: other,normal_high,False,False,False,False,False,neither
+MUC2,29,False,0.6981581732769347,True,87,False,False,1,4,89.0,0.1395992623373357,Tier 4: other,normal_high,False,False,False,False,False,neither
 NFE2L2,39,False,0.6159318101168869,True,48,False,False,1,15,24.0,0.5017281426034634,Tier 4: other,tumor_high,False,False,False,False,False,neither
-NLRP3,93,False,0.20482828920545848,True,27,False,False,3,10,36.0,0.6425604096088339,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
+NLRP3,90,False,0.20482828920545848,True,27,False,False,3,10,36.0,0.6425604096088339,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
 NOS3,22,False,0.7759040422874461,True,8,False,False,3,21,45.0,0.7831043009378256,Tier 2: replicated + pathway,tumor_high,False,False,False,True,True,neither
-NR1I2,88,False,0.20482828920545848,True,80,False,False,1,5,60.0,0.22557789088719177,Tier 4: other,normal_high,False,False,False,False,False,neither
+NR1I2,91,False,0.20482828920545848,True,80,False,False,1,5,60.0,0.22557789088719177,Tier 4: other,normal_high,False,False,False,False,False,neither
 NR3C1,19,False,0.7761734969179244,True,49,False,False,3,6,29.0,0.49885189033395994,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
 NR4A1,71,False,0.324552373926584,True,33,False,False,3,14,50.0,0.6040436324045612,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
-PGR,47,False,0.5274645876605155,True,50,False,False,3,7,47.0,0.4943522536782844,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
+PGR,48,False,0.5274645876605155,True,50,False,False,3,7,47.0,0.4943522536782844,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
 PPARD,20,False,0.7761734969179244,True,43,False,False,2,11,52.0,0.5329977574693783,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
 RBFOX1,46,False,0.5274645876605155,True,89,False,False,1,3,90.0,0.11455877371635881,Tier 4: other,normal_high,False,False,False,False,False,neither
 RYR1,68,False,0.4317353681451079,True,79,False,False,2,8,91.0,0.22911754743271762,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
-SIRT1,94,False,0.20482828920545848,True,25,False,True,1,23,10.0,0.6520011259862484,Tier 3: PPI/pathway only,normal_high,False,False,True,False,False,neither
+SIRT1,92,False,0.20482828920545848,True,25,False,True,1,23,10.0,0.6520011259862484,Tier 3: PPI/pathway only,normal_high,False,False,True,False,False,neither
 SIRT3,95,False,0.20482828920545848,True,75,False,False,3,5,78.0,0.2605279020787816,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
 SLC2A1,26,False,0.6981581732769347,True,18,False,False,3,17,53.0,0.72002172448698,Tier 2: replicated + pathway,tumor_high,False,False,False,True,True,neither
 SLC2A3,45,False,0.5286689871320777,True,90,False,False,1,4,92.0,0.10426679947573583,Tier 4: other,tumor_high,False,False,False,False,False,neither
-SORBS1,41,False,0.6156564374541913,True,82,False,False,3,6,93.0,0.1940090467517625,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
-SQSTM1,89,False,0.20482828920545848,True,53,False,False,1,17,38.0,0.48092188492980315,Tier 4: other,tumor_high,False,False,False,False,False,neither
-STAT6,74,False,0.324552373926584,True,60,False,False,1,12,27.0,0.44986239088824465,Tier 4: other,tumor_high,False,False,False,False,False,neither
-TIMP2,59,False,0.43244181144896376,True,68,False,False,3,5,56.0,0.3853849469811033,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
-TNC,90,False,0.20482828920545848,True,86,False,False,1,10,94.0,0.14259586508960093,Tier 4: other,normal_high,False,False,False,False,False,neither
-TNF,79,False,0.324552373926584,True,23,False,True,1,39,2.0,0.6885627726879282,Tier 3: PPI/pathway only,normal_high,False,False,True,False,False,neither
-TPM1,24,False,0.7759040422874461,True,83,False,False,3,8,95.0,0.181850717909535,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
-TXN,75,False,0.324552373926584,True,46,False,False,3,7,42.0,0.5103100015031348,Tier 2: replicated + pathway,tumor_high,False,False,False,True,False,neither
-WNT4,91,False,0.20482828920545848,True,88,False,False,2,10,96.0,0.12456896209444802,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
+SORBS1,42,False,0.6156564374541913,True,82,False,False,3,6,93.0,0.1940090467517625,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
+SQSTM1,93,False,0.20482828920545848,True,53,False,False,1,17,38.0,0.48092188492980315,Tier 4: other,tumor_high,False,False,False,False,False,neither
+STAT6,77,False,0.324552373926584,True,60,False,False,1,12,27.0,0.44986239088824465,Tier 4: other,tumor_high,False,False,False,False,False,neither
+TIMP2,60,False,0.43244181144896376,True,68,False,False,3,5,56.0,0.3853849469811033,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
+TNC,94,False,0.20482828920545848,True,86,False,False,1,10,94.0,0.14259586508960093,Tier 4: other,normal_high,False,False,False,False,False,neither
+TNF,80,False,0.324552373926584,True,23,False,True,1,39,2.0,0.6885627726879282,Tier 3: PPI/pathway only,normal_high,False,False,True,False,False,neither
+TPM1,23,False,0.7759040422874461,True,83,False,False,3,8,95.0,0.181850717909535,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
+TXN,78,False,0.324552373926584,True,46,False,False,3,7,42.0,0.5103100015031348,Tier 2: replicated + pathway,tumor_high,False,False,False,True,False,neither
+WNT4,87,False,0.20482828920545848,True,88,False,False,2,10,96.0,0.12456896209444802,Tier 2: replicated + pathway,normal_high,False,False,False,True,False,neither
