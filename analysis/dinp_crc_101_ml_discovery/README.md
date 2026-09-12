@@ -6,7 +6,7 @@ This module implements the frozen discovery → validation design:
 
 ## Design
 
-- Training/discovery cohort: TCGA-COAD tumor versus normal, with stratified 5-fold cross-validation.
+- Training/discovery cohort: TCGA-COAD tumor versus normal, with patient-grouped `StratifiedGroupKFold` cross-validation (5 folds; groups derived from manifest `pair_id`).
 - External validation cohorts: GSE10950 and GSE74602.
 - Input universe: all 97 overlap genes. Existing Tier 1 labels and cross-ranking scores were not used during feature selection or model fitting.
 - Expression features used for fitting: 95. ACP3 and CCN2 were retained in the 97-gene audit universe but had no usable expression values in the shared matrix and were not imputed as features.
@@ -21,7 +21,7 @@ The catalog contains 11 feature-selection configurations × 9 classifiers, plus 
 - Classifiers: logistic L2, logistic L1, linear SVM, RBF SVM, random forest, extra-trees, histogram gradient boosting, gradient boosting, and distance-weighted kNN.
 - Baselines: shrinkage LDA and Gaussian naive Bayes.
 
-Scaling, imputation, and supervised feature selection are fitted within each training fold. The final model for each combination is then refit on all rank-normalized TCGA-COAD samples before GSE prediction.
+Scaling, imputation, and supervised feature selection are fitted within each patient-grouped training fold. The final model for each combination is then refit on all rank-normalized TCGA-COAD samples before GSE prediction.
 
 ## Stability and external validation
 

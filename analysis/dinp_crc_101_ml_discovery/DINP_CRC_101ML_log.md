@@ -41,12 +41,61 @@
   "independent_selective_selector_count": 10,
   "external_validation_qualified_model_count": 68,
   "cv": {
-    "method": "StratifiedKFold",
+    "method": "StratifiedGroupKFold",
+    "grouping_variable": "patient_group derived from manifest pair_id",
     "n_splits": 5,
     "shuffle": true,
-    "random_state": 20260909
+    "random_state": 20260909,
+    "unique_patient_groups": 303,
+    "fold_group_counts": [
+      {
+        "fold": 1,
+        "train_patient_groups": 242,
+        "valid_patient_groups": 61,
+        "train_normal": 33,
+        "train_tumor": 230,
+        "valid_normal": 8,
+        "valid_tumor": 58
+      },
+      {
+        "fold": 2,
+        "train_patient_groups": 242,
+        "valid_patient_groups": 61,
+        "train_normal": 33,
+        "train_tumor": 230,
+        "valid_normal": 8,
+        "valid_tumor": 58
+      },
+      {
+        "fold": 3,
+        "train_patient_groups": 242,
+        "valid_patient_groups": 61,
+        "train_normal": 32,
+        "train_tumor": 230,
+        "valid_normal": 9,
+        "valid_tumor": 58
+      },
+      {
+        "fold": 4,
+        "train_patient_groups": 243,
+        "valid_patient_groups": 60,
+        "train_normal": 33,
+        "train_tumor": 231,
+        "valid_normal": 8,
+        "valid_tumor": 57
+      },
+      {
+        "fold": 5,
+        "train_patient_groups": 243,
+        "valid_patient_groups": 60,
+        "train_normal": 33,
+        "train_tumor": 231,
+        "valid_normal": 8,
+        "valid_tumor": 57
+      }
+    ]
   },
-  "feature_selection_leakage_control": "rank normalization is computed within each sample; selectors, imputation and StandardScaler are fitted within each training fold",
+  "feature_selection_leakage_control": "rank normalization is computed within each sample; selectors, imputation and StandardScaler are fitted within each patient-grouped training fold",
   "external_validation_qualified_definition": "selective model with rank-normalized GSE10950 ROC-AUC >= 0.75 and rank-normalized GSE74602 ROC-AUC >= 0.75",
   "stable_ml_definition": "full-TCGA support >= 0.80 in the 10 independent selective selector configurations (>=8/10); qualified-model inclusion is reported separately as performance robustness",
   "qualified_model_gene_metric_definition": "mean external metric across qualified multigene model configurations containing the gene; not a single-gene AUC",
