@@ -1,0 +1,21 @@
+{
+  "snapshot": "E:\\chatgpt\\pparg_minp_md\\run_20260915_seed20260917\\checkpoint_latest.pdb",
+  "n_atoms": 50480,
+  "protein_backbone_atoms": 1052,
+  "ligand_heavy_atoms": 21,
+  "definitions": {
+    "core": "MiNP aromatic carbons, SDF heavy-atom indices 13-18 (1-based)",
+    "branch_A": "MiNP alkyl chain, SDF heavy-atom indices 1-9",
+    "branch_B": "MiNP phthalate/acid arm, SDF heavy-atom indices 10-21"
+  },
+  "backbone_fit_rmsd_A": 2.508750014142631,
+  "whole_ligand_heavy_rmsd_A": 7.7631885745799725,
+  "core_rmsd_A": 5.182637592003456,
+  "branch_A_rmsd_A": 9.778689686294806,
+  "branch_B_rmsd_A": 5.809504324141564,
+  "whole_ligand_com_displacement_A": 5.910951574901918,
+  "core_com_displacement_A": 4.817225918039333,
+  "initial_core_contact_protein_heavy_atoms_within_4p5A": 12,
+  "core_contact_retention_fraction_4p5A": 0.08333333333333333,
+  "current_core_to_initial_pocket_nearest_A": 4.106965911716332
+}

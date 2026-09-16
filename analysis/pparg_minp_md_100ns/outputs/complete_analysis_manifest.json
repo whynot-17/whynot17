@@ -1,0 +1,25 @@
+{
+  "trajectory_frames": 9992,
+  "trajectory_time_max_ns": 99.92000029790206,
+  "initial_docking_residues": [
+    "ARG288",
+    "ILE341",
+    "LEU330",
+    "LEU333",
+    "LEU340",
+    "SER342"
+  ],
+  "representative_intermediate_time_ns": 75.50000022509613,
+  "cluster_threshold_core_rmsd_A": 2.0,
+  "last30_cluster_count": 7,
+  "dominant_last30_cluster_occupancy": 0.49666666666666665,
+  "files": {
+    "metrics": "E:\\chatgpt\\pparg_minp_md\\run_20260915_seed20260917\\trajectory_metrics_0_100ns_complete.csv",
+    "contact_samples": "E:\\chatgpt\\pparg_minp_md\\run_20260915_seed20260917\\contact_samples_0_100ns.csv",
+    "contacts_5ns": "E:\\chatgpt\\pparg_minp_md\\run_20260915_seed20260917\\contacts_5ns_0_100ns.csv",
+    "residue_occupancy": "E:\\chatgpt\\pparg_minp_md\\run_20260915_seed20260917\\residue_contact_occupancy.csv",
+    "pocket_residency": "E:\\chatgpt\\pparg_minp_md\\run_20260915_seed20260917\\pocket_residency_summary.json",
+    "late_summary": "E:\\chatgpt\\pparg_minp_md\\run_20260915_seed20260917\\event_and_late_stability_summary.json",
+    "overlay": "E:\\chatgpt\\pparg_minp_md\\run_20260915_seed20260917\\representative_initial_rearranged_final_cluster_overlay.pdb"
+  }
+}
