@@ -1,0 +1,34 @@
+{
+  "method": "same-method DINP vs MiNP PPARG 100 ns audit",
+  "systems": {
+    "DINP": {
+      "topology": "E:\\chatgpt\\pparg_dinp_md_run_20260909\\seed20260909_system\\system_topology.pdb",
+      "trajectory": "E:\\chatgpt\\pparg_dinp_md_run_20260909\\seed20260909\\production.dcd"
+    },
+    "MiNP": {
+      "topology": "E:\\chatgpt\\pparg_minp_md\\system\\seed20260917\\initial.pdb",
+      "trajectory": "E:\\chatgpt\\pparg_minp_md\\run_20260915_seed20260917\\production.dcd"
+    }
+  },
+  "outputs": [
+    "E:\\chatgpt\\whynot17\\analysis\\dinp_vs_minp_pparg_md_audit\\outputs\\comparison_audit_table.csv",
+    "E:\\chatgpt\\whynot17\\analysis\\dinp_vs_minp_pparg_md_audit\\outputs\\contact_comparison_5ns.csv",
+    "E:\\chatgpt\\whynot17\\analysis\\dinp_vs_minp_pparg_md_audit\\outputs\\contact_window_summary.csv",
+    "E:\\chatgpt\\whynot17\\analysis\\dinp_vs_minp_pparg_md_audit\\outputs\\DINP\\contacts_5ns.csv",
+    "E:\\chatgpt\\whynot17\\analysis\\dinp_vs_minp_pparg_md_audit\\outputs\\DINP\\last30ns_core_clusters.csv",
+    "E:\\chatgpt\\whynot17\\analysis\\dinp_vs_minp_pparg_md_audit\\outputs\\DINP\\ligand_rmsf_components.csv",
+    "E:\\chatgpt\\whynot17\\analysis\\dinp_vs_minp_pparg_md_audit\\outputs\\DINP\\metrics_0_100ns.csv",
+    "E:\\chatgpt\\whynot17\\analysis\\dinp_vs_minp_pparg_md_audit\\outputs\\DINP\\pocket_ca_rmsf.csv",
+    "E:\\chatgpt\\whynot17\\analysis\\dinp_vs_minp_pparg_md_audit\\outputs\\DINP\\residue_contact_occupancy.csv",
+    "E:\\chatgpt\\whynot17\\analysis\\dinp_vs_minp_pparg_md_audit\\outputs\\DINP\\summary.json",
+    "E:\\chatgpt\\whynot17\\analysis\\dinp_vs_minp_pparg_md_audit\\outputs\\MiNP\\contacts_5ns.csv",
+    "E:\\chatgpt\\whynot17\\analysis\\dinp_vs_minp_pparg_md_audit\\outputs\\MiNP\\last30ns_core_clusters.csv",
+    "E:\\chatgpt\\whynot17\\analysis\\dinp_vs_minp_pparg_md_audit\\outputs\\MiNP\\ligand_rmsf_components.csv",
+    "E:\\chatgpt\\whynot17\\analysis\\dinp_vs_minp_pparg_md_audit\\outputs\\MiNP\\metrics_0_100ns.csv",
+    "E:\\chatgpt\\whynot17\\analysis\\dinp_vs_minp_pparg_md_audit\\outputs\\MiNP\\pocket_ca_rmsf.csv",
+    "E:\\chatgpt\\whynot17\\analysis\\dinp_vs_minp_pparg_md_audit\\outputs\\MiNP\\residue_contact_occupancy.csv",
+    "E:\\chatgpt\\whynot17\\analysis\\dinp_vs_minp_pparg_md_audit\\outputs\\MiNP\\summary.json"
+  ],
+  "figures": [],
+  "report": "E:\\chatgpt\\whynot17\\analysis\\dinp_vs_minp_pparg_md_audit\\DINP_vs_MINP_PPARG_MD_AUDIT_REPORT.md"
+}
