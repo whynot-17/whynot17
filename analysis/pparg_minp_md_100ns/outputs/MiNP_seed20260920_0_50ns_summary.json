@@ -1,0 +1,254 @@
+{
+  "n_frames": 5000,
+  "time_start_ns": 0.010000000029814058,
+  "time_end_ns": 50.00000014907029,
+  "initial_contact_residues": [
+    "ARG288",
+    "ILE341",
+    "LEU330",
+    "LEU333",
+    "LEU340",
+    "SER342"
+  ],
+  "metrics": {
+    "protein_backbone_rmsd_A": {
+      "mean": 2.4207533060489244,
+      "sd": 0.2317122496381711,
+      "min": 1.6237729657615545,
+      "max": 3.0347845592686107
+    },
+    "whole_ligand_rmsd_A": {
+      "mean": 3.832327019775103,
+      "sd": 0.6680184264716748,
+      "min": 1.408555374280305,
+      "max": 7.033909871111383
+    },
+    "core_rmsd_A": {
+      "mean": 5.1498372992399215,
+      "sd": 0.9302779137456891,
+      "min": 1.675299482981703,
+      "max": 8.570390418989199
+    },
+    "branch_A_rmsd_A": {
+      "mean": 2.799420030029611,
+      "sd": 0.6798857845236848,
+      "min": 1.1358229571315244,
+      "max": 6.163752774417101
+    },
+    "branch_B_rmsd_A": {
+      "mean": 4.431834457586562,
+      "sd": 0.7856899580681759,
+      "min": 1.4195534235865785,
+      "max": 7.621608618461454
+    },
+    "whole_com_displacement_A": {
+      "mean": 2.033348259774113,
+      "sd": 1.1824559805167856,
+      "min": 0.08608043378906065,
+      "max": 6.52582220326927
+    },
+    "core_com_displacement_A": {
+      "mean": 4.7837388932844815,
+      "sd": 0.9989339390728117,
+      "min": 1.6006274710457282,
+      "max": 8.287897441985228
+    },
+    "core_internal_rmsd_A": {
+      "mean": 0.0501104083804168,
+      "sd": 0.011922948745456852,
+      "min": 0.015266926231339113,
+      "max": 0.10553537435417573
+    },
+    "pocket_min_distance_A": {
+      "mean": 3.496339208442501,
+      "sd": 0.6070563256098513,
+      "min": 0.8349653482778312,
+      "max": 5.006711585865423
+    },
+    "initial_contact_retention": {
+      "mean": 0.13043333333333335,
+      "sd": 0.11366828444596536,
+      "min": 0.0,
+      "max": 0.6666666666666666
+    }
+  },
+  "first_core_rmsd_ge_6_A": {
+    "time_ns": 0.06000000017888434,
+    "protein_backbone_rmsd_A": 1.6657938852556797,
+    "whole_ligand_rmsd_A": 4.642428864415088,
+    "core_rmsd_A": 6.149244586608801,
+    "branch_A_rmsd_A": 3.4460719472140844,
+    "branch_B_rmsd_A": 5.367466458487489,
+    "whole_com_displacement_A": 3.8331476978577226,
+    "core_com_displacement_A": 5.983115148787066,
+    "core_internal_rmsd_A": 0.05670933847427444,
+    "pocket_min_distance_A": 3.993203140689951,
+    "initial_contact_retention": 0.0
+  },
+  "max_core_rmsd": {
+    "time_ns": 17.660000052651622,
+    "protein_backbone_rmsd_A": 2.4002510113693845,
+    "whole_ligand_rmsd_A": 6.7197448432428795,
+    "core_rmsd_A": 8.570390418989199,
+    "branch_A_rmsd_A": 5.472462719159737,
+    "branch_B_rmsd_A": 7.520659058058765,
+    "whole_com_displacement_A": 5.496878741783231,
+    "core_com_displacement_A": 8.287897441985228,
+    "core_internal_rmsd_A": 0.04540838095566343,
+    "pocket_min_distance_A": 4.4861878261274155,
+    "initial_contact_retention": 0.0
+  },
+  "checkpoints": {
+    "0": {
+      "time_ns": 0.010000000029814058,
+      "protein_backbone_rmsd_A": 1.7270053285115934,
+      "whole_ligand_rmsd_A": 3.6461196197356704,
+      "core_rmsd_A": 4.672370939000269,
+      "branch_A_rmsd_A": 2.742315457842225,
+      "branch_B_rmsd_A": 4.198167331079971,
+      "whole_com_displacement_A": 2.7137978408760164,
+      "core_com_displacement_A": 4.489194783993095,
+      "core_internal_rmsd_A": 0.04860128024339033,
+      "pocket_min_distance_A": 3.4544548604689935,
+      "initial_contact_retention": 0.5
+    },
+    "5": {
+      "time_ns": 5.0000000149070285,
+      "protein_backbone_rmsd_A": 2.1418206892118525,
+      "whole_ligand_rmsd_A": 5.367320352829769,
+      "core_rmsd_A": 7.11951947887683,
+      "branch_A_rmsd_A": 3.9827762071523627,
+      "branch_B_rmsd_A": 6.20623427370672,
+      "whole_com_displacement_A": 4.431192147566413,
+      "core_com_displacement_A": 6.986595493985766,
+      "core_internal_rmsd_A": 0.04815586642520904,
+      "pocket_min_distance_A": 3.6620824313752958,
+      "initial_contact_retention": 0.0
+    },
+    "10": {
+      "time_ns": 10.000000029814057,
+      "protein_backbone_rmsd_A": 2.3163195572628137,
+      "whole_ligand_rmsd_A": 4.137888785242231,
+      "core_rmsd_A": 5.51111244566098,
+      "branch_A_rmsd_A": 3.3552178146438485,
+      "branch_B_rmsd_A": 4.639030217678142,
+      "whole_com_displacement_A": 2.6756576059630865,
+      "core_com_displacement_A": 5.205854387177844,
+      "core_internal_rmsd_A": 0.037339574838935095,
+      "pocket_min_distance_A": 2.7326154587899616,
+      "initial_contact_retention": 0.3333333333333333
+    },
+    "15": {
+      "time_ns": 15.000000044721086,
+      "protein_backbone_rmsd_A": 2.2946194959591137,
+      "whole_ligand_rmsd_A": 3.571166927291011,
+      "core_rmsd_A": 3.915837174767628,
+      "branch_A_rmsd_A": 3.324984407512424,
+      "branch_B_rmsd_A": 3.745199214575829,
+      "whole_com_displacement_A": 1.1153831303061348,
+      "core_com_displacement_A": 3.187923372859718,
+      "core_internal_rmsd_A": 0.056543101574504796,
+      "pocket_min_distance_A": 2.8040270309397086,
+      "initial_contact_retention": 0.16666666666666666
+    },
+    "20": {
+      "time_ns": 20.000000059628114,
+      "protein_backbone_rmsd_A": 2.4599689719225823,
+      "whole_ligand_rmsd_A": 4.0298324304207185,
+      "core_rmsd_A": 6.042243481452698,
+      "branch_A_rmsd_A": 2.251687558622223,
+      "branch_B_rmsd_A": 4.961515779878453,
+      "whole_com_displacement_A": 2.4721455458052053,
+      "core_com_displacement_A": 5.558201006227773,
+      "core_internal_rmsd_A": 0.06536092671300624,
+      "pocket_min_distance_A": 2.793200047177379,
+      "initial_contact_retention": 0.08333333333333333
+    },
+    "25": {
+      "time_ns": 25.000000074535144,
+      "protein_backbone_rmsd_A": 2.540074877976424,
+      "whole_ligand_rmsd_A": 3.9357559608968495,
+      "core_rmsd_A": 6.0360813656184495,
+      "branch_A_rmsd_A": 2.1687046279295545,
+      "branch_B_rmsd_A": 4.855959884423891,
+      "whole_com_displacement_A": 2.3756592832209247,
+      "core_com_displacement_A": 5.6288571666022635,
+      "core_internal_rmsd_A": 0.0484356586365107,
+      "pocket_min_distance_A": 4.529399582823925,
+      "initial_contact_retention": 0.0
+    },
+    "30": {
+      "time_ns": 30.00000008944217,
+      "protein_backbone_rmsd_A": 2.6166070119414924,
+      "whole_ligand_rmsd_A": 3.542012729180581,
+      "core_rmsd_A": 4.965746835732912,
+      "branch_A_rmsd_A": 2.7618625219640314,
+      "branch_B_rmsd_A": 4.029184949994611,
+      "whole_com_displacement_A": 1.416254316057596,
+      "core_com_displacement_A": 4.481379890518028,
+      "core_internal_rmsd_A": 0.040392451532886176,
+      "pocket_min_distance_A": 4.084636150293783,
+      "initial_contact_retention": 0.08333333333333333
+    },
+    "35": {
+      "time_ns": 35.0000001043492,
+      "protein_backbone_rmsd_A": 2.295779649692548,
+      "whole_ligand_rmsd_A": 3.3526187155079796,
+      "core_rmsd_A": 3.9649624449711047,
+      "branch_A_rmsd_A": 3.1010380509067303,
+      "branch_B_rmsd_A": 3.5295557362615195,
+      "whole_com_displacement_A": 0.26961876694332104,
+      "core_com_displacement_A": 3.4583371959147273,
+      "core_internal_rmsd_A": 0.03500094599340061,
+      "pocket_min_distance_A": 3.6505634112577368,
+      "initial_contact_retention": 0.16666666666666666
+    },
+    "40": {
+      "time_ns": 40.00000011925623,
+      "protein_backbone_rmsd_A": 2.212400441724989,
+      "whole_ligand_rmsd_A": 3.504809887196976,
+      "core_rmsd_A": 3.8832650300255835,
+      "branch_A_rmsd_A": 3.4492030326592413,
+      "branch_B_rmsd_A": 3.5459428131400625,
+      "whole_com_displacement_A": 0.5369707752529409,
+      "core_com_displacement_A": 3.3934565479330843,
+      "core_internal_rmsd_A": 0.04730173323877314,
+      "pocket_min_distance_A": 3.6372371799878325,
+      "initial_contact_retention": 0.25
+    },
+    "45": {
+      "time_ns": 45.00000013416326,
+      "protein_backbone_rmsd_A": 2.8346166474335233,
+      "whole_ligand_rmsd_A": 3.142067733769491,
+      "core_rmsd_A": 4.228985003829232,
+      "branch_A_rmsd_A": 2.1565724395398695,
+      "branch_B_rmsd_A": 3.713344632680173,
+      "whole_com_displacement_A": 1.5184566463486158,
+      "core_com_displacement_A": 3.937996679047417,
+      "core_internal_rmsd_A": 0.027082279517823327,
+      "pocket_min_distance_A": 3.8495997581650325,
+      "initial_contact_retention": 0.08333333333333333
+    },
+    "50": {
+      "time_ns": 50.00000014907029,
+      "protein_backbone_rmsd_A": 2.838576135242225,
+      "whole_ligand_rmsd_A": 3.022444822957423,
+      "core_rmsd_A": 4.125882172130776,
+      "branch_A_rmsd_A": 2.059578207881989,
+      "branch_B_rmsd_A": 3.578429186514934,
+      "whole_com_displacement_A": 1.0420584121086602,
+      "core_com_displacement_A": 3.8056974987192724,
+      "core_internal_rmsd_A": 0.05723787555899939,
+      "pocket_min_distance_A": 3.5384979191583783,
+      "initial_contact_retention": 0.16666666666666666
+    }
+  },
+  "contact_summary": {
+    "mean_contact_residues": 16.888,
+    "min_contact_residues": 12,
+    "max_contact_residues": 23,
+    "mean_contact_pairs": 101.014,
+    "mean_hbond_count": 0.424,
+    "max_hbond_count": 2
+  }
+}
