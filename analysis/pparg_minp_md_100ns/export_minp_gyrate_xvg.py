@@ -13,7 +13,7 @@ ROOT = Path(r"E:\chatgpt\whynot17\analysis\pparg_minp_md_100ns")
 OUT = ROOT / "outputs"
 TOPOLOGY = Path(r"E:\chatgpt\pparg_minp_md\system\seed20260917\initial.pdb")
 TRAJECTORY = Path(r"E:\chatgpt\pparg_minp_md\run_20260915_seed20260917\production.dcd")
-STRIDE = 10  # 0.1 ns from the 10 ps reporter interval
+STRIDE = 1  # every production frame, matching the RMSD XVG (about 0.01 ns)
 
 
 def components(xyz, masses):
@@ -58,7 +58,7 @@ def main():
     manifest_path = OUT / "gyrate_xvg_manifest.json"
     manifest = {
         "source": str(TRAJECTORY),
-        "sampling": "every 0.1 ns",
+        "sampling": "every production frame (about 0.01 ns)",
         "groups": {"protein": "protein heavy atoms", "ligand": "MiNP heavy atoms"},
         "columns": legends,
         "units": {"time": "ns", "rg": "nm"},

@@ -1,6 +1,6 @@
 {
   "source": "E:\\chatgpt\\pparg_minp_md\\run_20260915_seed20260917\\production.dcd",
-  "sampling": "every 0.1 ns",
+  "sampling": "every production frame (about 0.01 ns)",
   "groups": {
     "protein": "protein heavy atoms",
     "ligand": "MiNP heavy atoms"
@@ -19,6 +19,6 @@
     "time": "ns",
     "rg": "nm"
   },
-  "n_samples": 1000,
+  "n_samples": 9992,
   "output": "MiNP_gyrate_0_100ns.xvg"
 }

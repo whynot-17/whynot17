@@ -35,7 +35,7 @@ The report is in `MINP_PPARG_MD_COMPLETE_REPORT.md`. Figures are under `figures/
 & 'E:\\chatgpt\\pparg_md_env\\python.exe' -u .\\export_minp_metrics_xvg.py
 ```
 
-`export_minp_gyrate_xvg.py` is the authoritative gyrate export. It writes total Rg plus X/Y/Z components for both protein and ligand; `MiNP_gyrate_0_100ns.xvg` therefore has nine numeric columns including time.
+`export_minp_gyrate_xvg.py` is the authoritative gyrate export. It writes total Rg plus X/Y/Z components for both protein and ligand, using every production frame so its time axis matches the RMSD XVG; `MiNP_gyrate_0_100ns.xvg` therefore has nine numeric columns including time.
 
 ## Main result
 
