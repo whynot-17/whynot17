@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import csv
 import json
-import shutil
 from pathlib import Path
 
 
@@ -75,7 +74,6 @@ def main():
         ["protein_rg_A", "ligand_rg_A"],
         scale=0.1,
     )
-    shutil.copyfile(OUT / "MiNP_rg_0_100ns.xvg", OUT / "MiNP_gyrate_0_100ns.xvg")
     write_time_xvg(
         OUT / "MiNP_hbond_0_100ns.xvg",
         "MiNP–PPARG hydrogen-bond proxy",
@@ -106,7 +104,7 @@ def main():
         "source": "completed MiNP seed20260917 100 ns analysis tables",
         "outputs": [
             "MiNP_rmsd_0_100ns.xvg", "MiNP_ligand_rmsf_0_100ns.xvg", "MiNP_pocket_ca_rmsf_0_100ns.xvg",
-            "MiNP_sasa_0_100ns.xvg", "MiNP_rg_0_100ns.xvg", "MiNP_gyrate_0_100ns.xvg", "MiNP_hbond_0_100ns.xvg",
+            "MiNP_sasa_0_100ns.xvg", "MiNP_rg_0_100ns.xvg", "MiNP_hbond_0_100ns.xvg",
         ],
         "units": {"time": "ns", "rmsd": "nm", "rmsf": "nm", "sasa": "nm^2", "rg": "nm", "hbond": "count"},
     }

@@ -1,0 +1,24 @@
+{
+  "source": "E:\\chatgpt\\pparg_minp_md\\run_20260915_seed20260917\\production.dcd",
+  "sampling": "every 0.1 ns",
+  "groups": {
+    "protein": "protein heavy atoms",
+    "ligand": "MiNP heavy atoms"
+  },
+  "columns": [
+    "Protein Rg",
+    "Protein RgX",
+    "Protein RgY",
+    "Protein RgZ",
+    "Ligand Rg",
+    "Ligand RgX",
+    "Ligand RgY",
+    "Ligand RgZ"
+  ],
+  "units": {
+    "time": "ns",
+    "rg": "nm"
+  },
+  "n_samples": 1000,
+  "output": "MiNP_gyrate_0_100ns.xvg"
+}

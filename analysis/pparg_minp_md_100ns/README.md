@@ -29,11 +29,13 @@ The report is in `MINP_PPARG_MD_COMPLETE_REPORT.md`. Figures are under `figures/
 & 'E:\\chatgpt\\pparg_md_env\\python.exe' -u .\\export_minp_rmsd_xvg.py
 ```
 
-`export_minp_metrics_xvg.py` additionally exports `MiNP_rmsd_0_100ns.xvg`, `MiNP_ligand_rmsf_0_100ns.xvg`, `MiNP_pocket_ca_rmsf_0_100ns.xvg`, `MiNP_sasa_0_100ns.xvg`, `MiNP_rg_0_100ns.xvg`, `MiNP_gyrate_0_100ns.xvg`, and `MiNP_hbond_0_100ns.xvg`. RMSD/Rg/SASA/H-bond traces keep their native sampling; RMSF files are profiles over ligand atoms or pocket residues.
+`export_minp_metrics_xvg.py` additionally exports `MiNP_rmsd_0_100ns.xvg`, `MiNP_ligand_rmsf_0_100ns.xvg`, `MiNP_pocket_ca_rmsf_0_100ns.xvg`, `MiNP_sasa_0_100ns.xvg`, `MiNP_rg_0_100ns.xvg`, and `MiNP_hbond_0_100ns.xvg`. RMSD/Rg/SASA/H-bond traces keep their native sampling; RMSF files are profiles over ligand atoms or pocket residues.
 
 ```powershell
 & 'E:\\chatgpt\\pparg_md_env\\python.exe' -u .\\export_minp_metrics_xvg.py
 ```
+
+`export_minp_gyrate_xvg.py` is the authoritative gyrate export. It writes total Rg plus X/Y/Z components for both protein and ligand; `MiNP_gyrate_0_100ns.xvg` therefore has nine numeric columns including time.
 
 ## Main result
 
