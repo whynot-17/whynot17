@@ -1,0 +1,11 @@
+# MiNP–PPARG completed 100 ns MD; initial-pocket C-alpha RMSF; RMSF in nm
+@ title "MiNP initial-pocket C-alpha RMSF"
+@ xaxis label "Pocket residue index"
+@ yaxis label "RMSF (nm)"
+@ s0 legend "Pocket C-alpha RMSF"
+1 0.07074829 # ARG288
+2 0.06519928 # LEU330
+3 0.06218307 # LEU333
+4 0.05078478 # LEU340
+5 0.06305249 # ILE341
+6 0.08584175 # SER342

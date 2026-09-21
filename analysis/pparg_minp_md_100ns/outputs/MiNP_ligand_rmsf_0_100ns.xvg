@@ -1,0 +1,27 @@
+# MiNP–PPARG completed 100 ns MD; per ligand heavy atom; RMSF in nm
+@ title "MiNP ligand RMSF"
+@ xaxis label "Ligand heavy-atom index"
+@ yaxis label "RMSF (nm)"
+@ s0 legend "Protein-aligned RMSF"
+@ s1 legend "Core-internal RMSF"
+1 0.25730566 0.40463868 # C1x branch_A
+2 0.20440004 0.33950404 # C2x branch_A
+3 0.27132164 0.41495820 # C3x branch_A
+4 0.19871902 0.27631653 # C4x branch_A
+5 0.18905882 0.24046912 # C5x branch_A
+6 0.20494162 0.19222763 # C6x branch_A
+7 0.21682973 0.15291992 # C7x branch_A
+8 0.22147968 0.11396560 # C8x branch_A
+9 0.21473221 0.08364156 # C9x branch_A
+10 0.19700279 0.07774365 # O1x branch_B
+11 0.21134886 0.01814289 # C10x branch_B
+12 0.26101663 0.07219938 # O2x branch_B
+13 0.20672403 0.00470642 # C11x core
+14 0.22458414 0.00465339 # C12x core
+15 0.24694586 0.00473511 # C13x core
+16 0.24249242 0.00468997 # C14x core
+17 0.22662523 0.00461684 # C15x core
+18 0.21461156 0.00473561 # C16x core
+19 0.24247845 0.01928430 # C17x branch_B
+20 0.28126073 0.08863218 # O3x branch_B
+21 0.27581539 0.09880310 # O4x branch_B

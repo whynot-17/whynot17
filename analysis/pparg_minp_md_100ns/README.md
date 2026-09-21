@@ -29,6 +29,12 @@ The report is in `MINP_PPARG_MD_COMPLETE_REPORT.md`. Figures are under `figures/
 & 'E:\\chatgpt\\pparg_md_env\\python.exe' -u .\\export_minp_rmsd_xvg.py
 ```
 
+`export_minp_metrics_xvg.py` additionally exports `MiNP_rmsd_0_100ns.xvg`, `MiNP_ligand_rmsf_0_100ns.xvg`, `MiNP_pocket_ca_rmsf_0_100ns.xvg`, `MiNP_sasa_0_100ns.xvg`, `MiNP_rg_0_100ns.xvg`, `MiNP_gyrate_0_100ns.xvg`, and `MiNP_hbond_0_100ns.xvg`. RMSD/Rg/SASA/H-bond traces keep their native sampling; RMSF files are profiles over ligand atoms or pocket residues.
+
+```powershell
+& 'E:\\chatgpt\\pparg_md_env\\python.exe' -u .\\export_minp_metrics_xvg.py
+```
+
 ## Main result
 
 The ligand undergoes immediate relaxation, then a brief excursion around 75.50 ns, and returns to a later shifted ensemble. The aromatic core remains internally rigid, total contacts remain persistent, the original six-atom contact retention is low because the contact geometry changes, and the PPARG pocket does not show structural collapse.
