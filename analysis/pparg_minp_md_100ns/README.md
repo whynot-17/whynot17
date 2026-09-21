@@ -21,6 +21,14 @@ The report is in `MINP_PPARG_MD_COMPLETE_REPORT.md`. Figures are under `figures/
 & 'E:\chatgpt\pparg_md_env\python.exe' -u .\calculate_rg_sasa.py
 ```
 
+## XVG RMSD exports
+
+`export_minp_rmsd_xvg.py` exports GROMACS-style XVG traces from the completed 100 ns trajectory. Both traces use the initial PDB as reference and fit each frame on the protein backbone; the complex trace contains protein plus ligand heavy atoms, and the protein trace contains protein heavy atoms. Values are in nm and time is in ns.
+
+```powershell
+& 'E:\\chatgpt\\pparg_md_env\\python.exe' -u .\\export_minp_rmsd_xvg.py
+```
+
 ## Main result
 
 The ligand undergoes immediate relaxation, then a brief excursion around 75.50 ns, and returns to a later shifted ensemble. The aromatic core remains internally rigid, total contacts remain persistent, the original six-atom contact retention is low because the contact geometry changes, and the PPARG pocket does not show structural collapse.

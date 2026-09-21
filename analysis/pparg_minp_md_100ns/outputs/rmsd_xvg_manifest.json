@@ -1,0 +1,16 @@
+{
+  "trajectory": "E:\\chatgpt\\pparg_minp_md\\run_20260915_seed20260917\\production.dcd",
+  "reference": "E:\\chatgpt\\pparg_minp_md\\system\\seed20260917\\initial.pdb",
+  "fit_group": "protein backbone",
+  "complex_group": "protein and ligand heavy atoms",
+  "protein_group": "protein heavy atoms",
+  "n_frames": 9992,
+  "time_ns": [
+    0.010000000029814058,
+    99.92000029790206
+  ],
+  "outputs": [
+    "MiNP_complex_rmsd_0_100ns.xvg",
+    "MiNP_protein_rmsd_0_100ns.xvg"
+  ]
+}
