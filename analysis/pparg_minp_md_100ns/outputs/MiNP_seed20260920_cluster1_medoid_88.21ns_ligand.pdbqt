@@ -1,0 +1,108 @@
+REMARK MiNP-PPARG Cluster 1 medoid; target 88.21 ns; actual 88.21000 ns
+REMARK Protein-backbone fit RMSD 2.6324 A; coordinates aligned to initial.pdb
+REMARK SMILES CC(C)CCCCCCOC(=O)c1ccccc1C(=O)O
+
+REMARK SMILES IDX 9 1 10 2 11 3 12 4 13 5 18 6 14 7 17 8 15 9 16 10 19 11
+
+REMARK SMILES IDX 20 12 21 13 8 15 7 16 6 17 5 18 4 19 2 20 1 21 3 22
+
+REMARK H PARENT 21 14
+
+REMARK INDEX MAP 13 1 1 2 14 3 2 4 15 5 16 6 17 7 18 8 19 9 20 10 21 11 4 12
+
+REMARK INDEX MAP 3 13 45 14 10 15 9 16 7 17 5 18 6 19 8 20 11 21 12 22
+
+ROOT
+
+ATOM      1  C   UNL     1      57.007  24.336   3.726  1.00  0.00     0.233 C 
+
+ENDROOT
+
+BRANCH   1   2
+
+ATOM      2  O   UNL     1      46.973  25.312   6.525  1.00  0.00    -0.462 OA
+
+BRANCH   2   3
+
+ATOM      3  C   UNL     1      56.389  24.157   2.394  1.00  0.00     0.339 C 
+
+ATOM      4  O   UNL     1      47.813  26.041   7.577  1.00  0.00    -0.246 OA
+
+BRANCH   3   5
+
+ATOM      5  C   UNL     1      57.267  24.052   1.314  1.00  0.00     0.074 A 
+
+ATOM      6  C   UNL     1      58.673  23.934   1.513  1.00  0.00     0.074 A 
+
+ATOM      7  C   UNL     1      59.197  24.159   2.765  1.00  0.00     0.016 A 
+
+ATOM      8  C   UNL     1      58.406  24.309   3.926  1.00  0.00     0.016 A 
+
+ATOM      9  C   UNL     1      59.209  24.390   5.215  1.00  0.00     0.001 A 
+
+ATOM     10  C   UNL     1      58.871  25.268   5.986  1.00  0.00     0.001 A 
+
+BRANCH   6  11
+
+ATOM     11  C   UNL     1      60.380  23.758   5.357  1.00  0.00     0.336 C 
+
+ATOM     12  O   UNL     1      49.328  25.963   7.100  1.00  0.00    -0.246 OA
+
+BRANCH  11  13
+
+ATOM     13  O   UNL     1      47.340  27.529   7.869  1.00  0.00    -0.478 OA
+
+ATOM     14  H   UNL     1      60.487  22.936   4.843  1.00  0.00     0.297 HD
+
+ENDBRANCH  11  13
+
+ENDBRANCH   6  11
+
+ENDBRANCH   3   5
+
+ENDBRANCH   2   3
+
+ENDBRANCH   1   2
+
+BRANCH   1  15
+
+ATOM     15  C   UNL     1      55.347  25.733   4.848  1.00  0.00     0.042 C 
+
+BRANCH  15  16
+
+ATOM     16  C   UNL     1      54.168  25.871   5.749  1.00  0.00     0.003 C 
+
+BRANCH  16  17
+
+ATOM     17  C   UNL     1      52.067  27.196   6.086  1.00  0.00     0.000 C 
+
+BRANCH  17  18
+
+ATOM     18  C   UNL     1      50.375  26.609   8.023  1.00  0.00     0.000 C 
+
+BRANCH  18  19
+
+ATOM     19  C   UNL     1      51.848  26.508   7.442  1.00  0.00     0.003 C 
+
+BRANCH  19  20
+
+ATOM     20  C   UNL     1      53.546  27.194   5.598  1.00  0.00    -0.017 C 
+
+ATOM     21  C   UNL     1      56.035  24.551   4.871  1.00  0.00     0.007 C 
+
+ATOM     22  C   UNL     1      56.004  23.752   5.840  1.00  0.00     0.007 C 
+
+ENDBRANCH  19  20
+
+ENDBRANCH  18  19
+
+ENDBRANCH  17  18
+
+ENDBRANCH  16  17
+
+ENDBRANCH  15  16
+
+ENDBRANCH   1  15
+
+TORSDOF 11
+

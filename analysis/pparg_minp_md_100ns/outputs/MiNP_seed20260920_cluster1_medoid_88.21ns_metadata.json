@@ -1,0 +1,13 @@
+{
+  "cluster": 1,
+  "cluster_occupancy": 0.8633333333333333,
+  "target_time_ns": 88.21,
+  "actual_time_ns": 88.2100002629898,
+  "trajectory_frame_index": 8820,
+  "protein_backbone_fit_rmsd_A": 2.6324135429915265,
+  "complex_pdb": "E:\\chatgpt\\pparg_minp_md\\run_20260920_seed20260920\\MiNP_seed20260920_cluster1_medoid_88.21ns_complex.pdb",
+  "ligand_pdbqt": "E:\\chatgpt\\pparg_minp_md\\run_20260920_seed20260920\\MiNP_seed20260920_cluster1_medoid_88.21ns_ligand.pdbqt",
+  "pdbqt_template": "E:\\chatgpt\\pparg_minp_md\\prepared\\MiNP_CID110394.pdbqt",
+  "pdb_atoms": 4335,
+  "ligand_atoms_in_pdbqt": 22
+}
