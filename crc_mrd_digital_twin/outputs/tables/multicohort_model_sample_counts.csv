@@ -1,0 +1,5 @@
+﻿cohort,raw_or_reconstructed_n,y12_known_n,y12_events,y12_confirmed_final_nonrecurrence_controls,y12_late_recurrence_controls,y12_unknown,L3_n,L3_events,L3_MRD_history_n,L6_n,L6_events,L6_MRD_history_n
+Chen,240,181,15,149,17,59,181,15,240,179,13,240
+ColonAiQ,299,178,36,123,19,121,147,26,255,137,12,273
+COSMOS,334,332,21,288,23,2,330,19,334,326,15,334
+Tie,96,96,15,72,9,0,96,15,96,93,12,96
