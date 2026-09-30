@@ -1,0 +1,4 @@
+﻿timepoint,nominal_window,n_total,n_available,n_positive,n_negative,n_missing_or_unclassifiable,patient_specific_collection_date_available
+MRD window,2–10 weeks post-surgery; date field supplied,2240,2110,337,1773,130,yes
+3-month ctDNA,study-defined 70–112-day window; individual draw date absent,2240,1708,183,1525,532,no
+6-month ctDNA,study-defined 160–200-day window; individual draw date absent,2240,1396,119,1277,844,no

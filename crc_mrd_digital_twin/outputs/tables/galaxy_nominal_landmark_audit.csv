@@ -1,0 +1,4 @@
+﻿cohort,landmark,n,events_to_12m,controls_to_12m,time_rule
+GALAXY,L3_nominal,1516,251,1265,3m study window; exact sample dates unavailable
+GALAXY,L6_nominal,1185,113,1072,6m study window; exact sample dates unavailable
+GALAXY,L3_to_L6_paired_at_L6,1115,106,1009,3m+6m status; exact sample dates unavailable

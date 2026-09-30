@@ -1,0 +1,13 @@
+﻿metric,n,denominator,percent_of_denominator,known_12m_recurrence_events,known_12m_nonrecurrence,definition_note
+total_patients,2240,2240,1.0,,,Parsed patient rows; sequential row numbers were validated locally.
+complete_recurrence_flag_and_DFS_days,2240,2240,1.0,,,Recurred yes/no and DFS days both nonmissing.
+recurrence_yes_any_followup,514,2240,0.2294642857142857,,,Recurred=Yes at any reported follow-up.
+confirmed_12m_recurrence_endpoint,1987,2240,0.8870535714285714,373,1614,Recurrence by 365.24d=event; recurrence after 365.24d or no recurrence with DFS≥365.24d=control; earlier no-recurrence DFS is unknown.
+3m_ctDNA_status_available,1708,2240,0.7625,,,Study-defined 3-month status; exact day unavailable.
+6m_ctDNA_status_available,1396,2240,0.6232142857142857,,,Study-defined 6-month status; exact day unavailable.
+both_3m_and_6m_ctDNA_status_available,1307,2240,0.5834821428571428,,,Nominal 3m and 6m status columns both classifiable.
+MRD_window_plus_3m_plus_6m_complete,1261,2240,0.5629464285714286,,,All three statuses classifiable; enables baseline-history states.
+L3_nominal_status_Y12_known_and_event_free_at_91.3d,1516,2240,0.6767857142857143,251,1265,Study-labelled 3m status; requires known recurrence-only Y12 and DFS≥91.3d. Exact draw date unavailable.
+L6_nominal_status_Y12_known_and_event_free_at_182.6d,1185,2240,0.5290178571428571,113,1072,Study-labelled 6m status; requires known recurrence-only Y12 and DFS≥182.6d. Exact draw date unavailable.
+paired_3m6m_L6_nominal_risk_set,1115,2240,0.49776785714285715,106,1009,Both nominal timepoint statuses; known Y12 and DFS≥182.6d. Actual collection dates not supplied.
+complete_MRDwindow3m6m_L6_nominal_risk_set,1081,2240,0.4825892857142857,103,978,Both nominal timepoint statuses; known Y12 and DFS≥182.6d. Actual collection dates not supplied.

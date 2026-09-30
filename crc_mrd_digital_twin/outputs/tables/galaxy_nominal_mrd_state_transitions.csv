@@ -1,0 +1,10 @@
+﻿transition_3m_to_6m,transition_zh,n_with_both_statuses,n_L6_nominal_risk_set_Y12_known,recurrence_events_6_to_12m,confirmed_no_recurrence_through_12m,note
+negative_to_negative,阴→阴,1174,1027,45,982,L6 risk set uses surgery-relative 182.6-day threshold; individual 6m specimen dates are absent.
+negative_to_positive,阴→阳,43,30,21,9,L6 risk set uses surgery-relative 182.6-day threshold; individual 6m specimen dates are absent.
+positive_to_negative,阳→阴,19,18,8,10,L6 risk set uses surgery-relative 182.6-day threshold; individual 6m specimen dates are absent.
+positive_to_positive,阳→阳,71,40,32,8,L6 risk set uses surgery-relative 182.6-day threshold; individual 6m specimen dates are absent.
+three_timepoint_state:intermittent_mixed,intermittent_mixed,21,14,8,6,"State uses MRD-window, 3m and 6m statuses; study-defined timepoints only."
+three_timepoint_state:negative_to_positive_conversion,negative_to_positive_conversion,32,22,15,7,"State uses MRD-window, 3m and 6m statuses; study-defined timepoints only."
+three_timepoint_state:persistent_negative,persistent_negative,1064,933,38,895,"State uses MRD-window, 3m and 6m statuses; study-defined timepoints only."
+three_timepoint_state:persistent_positive,persistent_positive,58,32,28,4,"State uses MRD-window, 3m and 6m statuses; study-defined timepoints only."
+three_timepoint_state:positive_to_negative_clearance,positive_to_negative_clearance,86,80,14,66,"State uses MRD-window, 3m and 6m statuses; study-defined timepoints only."
