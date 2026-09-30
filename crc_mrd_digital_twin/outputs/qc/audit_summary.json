@@ -1,0 +1,81 @@
+{
+  "patients": 240,
+  "recurrence_events_from_R_time": 32,
+  "stage_II_events": 10,
+  "stage_III_events": 22,
+  "ctdna_samples": 1290,
+  "ctdna_patients": 240,
+  "ctdna_draws_per_patient": {
+    "n": 240,
+    "median": 5.0,
+    "q1": 3.0,
+    "q3": 8.0,
+    "min": 2.0,
+    "max": 9.0
+  },
+  "postoperative_draws_per_patient": {
+    "n": 240,
+    "median": 4.0,
+    "q1": 2.0,
+    "q3": 7.0,
+    "min": 1.0,
+    "max": 8.0
+  },
+  "samplepoint_counts": {
+    "P1": 240,
+    "P2": 240,
+    "P3": 164,
+    "P4": 140,
+    "P5": 131,
+    "P6": 113,
+    "P7": 104,
+    "P8": 79,
+    "P9": 79
+  },
+  "P1_positive": 154,
+  "P1_total": 240,
+  "P2_positive": 20,
+  "P2_total": 240,
+  "P2_positive_recurrences": 12,
+  "P2_negative_recurrences": 20,
+  "cea_samples": 970,
+  "cea_patients": 239,
+  "patients_without_cea": 1,
+  "preop_cea_n": 231,
+  "preop_cea_above5": 91,
+  "primary_tumor_variant_rows": 3990,
+  "variant_patients": 240,
+  "draws_at_or_after_recurrence": 24,
+  "lead_time_proxy": {
+    "n": 22,
+    "median": 7.095728952772074,
+    "q1": 2.8614014373716627,
+    "q3": 10.195010266940452,
+    "min": 0.00254620123203253,
+    "max": 25.292874743326486
+  },
+  "lead_time_proxy_n": 22,
+  "recurrence_time_months": {
+    "n": 32,
+    "median": 12.585,
+    "q1": 8.23,
+    "q3": 16.2275,
+    "min": 3.42,
+    "max": 25.49
+  },
+  "individual_censor_times_available": 0,
+  "death_status_or_time_available": 0,
+  "sample_ids_available": 0,
+  "ACT_yes": 174,
+  "ACT_no": 66,
+  "manifest_files": 18,
+  "verified_files": 18,
+  "postop_interval_cv": {
+    "n": 168,
+    "median": 0.363437775388628,
+    "q1": 0.304782744554401,
+    "q3": 0.4508807689260099,
+    "min": 0.0022483522454263185,
+    "max": 1.0203288961121442
+  }
+}

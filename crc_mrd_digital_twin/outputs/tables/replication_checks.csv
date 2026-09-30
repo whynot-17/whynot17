@@ -1,0 +1,13 @@
+﻿endpoint,published_result,raw_data_result,status
+Cohort size,240,240,MATCH
+Serial ctDNA rows,1290,1290,MATCH
+Recurrence events,32,32,MATCH
+Pre-op ctDNA positive,154/240,154/240,MATCH
+Day 3-7 ctDNA positive,20/240,20/240,MATCH
+P2-positive cases with recurrence,12/20,12/20,MATCH
+P2-negative cases with recurrence,20/220,20/220,MATCH
+Pre-op CEA >5 ng/mL,91/231,91/231,MATCH
+Postoperative ctDNA vs RFS HR/KM,HR 10.98 (95% CI 5.31-22.72),Not estimable,FAIL: censor/death times unavailable
+Post-ACT ctDNA vs RFS,HR 12.76 (95% CI 5.39-30.19),Cannot identify first post-ACT sample,FAIL: individual ACT timing unavailable
+Surveillance ctDNA vs RFS,HR 32.02 (95% CI 10.79-95.08),Cannot reconstruct analysis set,FAIL: censor and treatment timing unavailable
+ctDNA imaging lead time,Mean 5.01 months,Proxy only; see timing audit,FAIL: post-definitive-treatment status unavailable

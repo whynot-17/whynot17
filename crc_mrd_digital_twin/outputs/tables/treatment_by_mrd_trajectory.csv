@@ -1,0 +1,14 @@
+﻿ACT,trajectory,n_patients
+no,Negative to positive at last observed test,4
+no,Persistent negative,42
+no,Positive to negative at last observed test,1
+no,Single postoperative observation: Negative,17
+no,Single postoperative observation: Positive,2
+yes,Intermittent negative; positive endpoints,2
+yes,Intermittent positive; negative endpoints,7
+yes,Negative to positive at last observed test,8
+yes,Persistent negative,118
+yes,Persistent positive,3
+yes,Positive to negative at last observed test,8
+yes,Single postoperative observation: Negative,24
+yes,Single postoperative observation: Positive,4

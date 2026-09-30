@@ -1,0 +1,9 @@
+﻿scope,transition,n_pairs,denominator_pairs,proportion
+all observed consecutive draws,negative_to_negative,825,1050,0.7857142857142857
+all observed consecutive draws,negative_to_positive,26,1050,0.024761904761904763
+all observed consecutive draws,positive_to_negative,160,1050,0.1523809523809524
+all observed consecutive draws,positive_to_positive,39,1050,0.037142857142857144
+postoperative consecutive draws before recurrence,negative_to_negative,734,786,0.9338422391857506
+postoperative consecutive draws before recurrence,negative_to_positive,22,786,0.027989821882951654
+postoperative consecutive draws before recurrence,positive_to_negative,19,786,0.024173027989821884
+postoperative consecutive draws before recurrence,positive_to_positive,11,786,0.013994910941475827

@@ -1,0 +1,19 @@
+﻿outcome_group,sample_point,patients_with_draw,patients_in_group,coverage,draws_at_or_after_recurrence
+No documented recurrence,P1,208,208,1.0,0
+No documented recurrence,P2,208,208,1.0,0
+No documented recurrence,P3,143,208,0.6875,0
+No documented recurrence,P4,120,208,0.5769230769230769,0
+No documented recurrence,P5,116,208,0.5576923076923077,0
+No documented recurrence,P6,102,208,0.49038461538461536,0
+No documented recurrence,P7,96,208,0.46153846153846156,0
+No documented recurrence,P8,76,208,0.36538461538461536,0
+No documented recurrence,P9,78,208,0.375,0
+Documented recurrence,P1,32,32,1.0,0
+Documented recurrence,P2,32,32,1.0,0
+Documented recurrence,P3,21,32,0.65625,1
+Documented recurrence,P4,20,32,0.625,7
+Documented recurrence,P5,15,32,0.46875,4
+Documented recurrence,P6,11,32,0.34375,6
+Documented recurrence,P7,8,32,0.25,3
+Documented recurrence,P8,3,32,0.09375,2
+Documented recurrence,P9,1,32,0.03125,1

@@ -1,0 +1,2 @@
+﻿n_cea_measurements,n_patients_with_cea,n_patients_without_any_cea,n_patients_with_preoperative_cea,n_patients_without_preoperative_cea,n_preoperative_measurements_time_le_0,n_preoperative_cea_above_5_ng_ml,preoperative_rate_above_5,threshold_source
+970,239,1,231,9,231,91,0.3939393939393939,Supplementary Methods normal range 0.00-5.00 ng/mL; elevated derived as >5.00 for this audit

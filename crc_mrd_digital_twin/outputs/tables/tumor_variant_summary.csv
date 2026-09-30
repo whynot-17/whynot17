@@ -1,0 +1,2 @@
+﻿n_variant_rows,n_patients_with_primary_tumor_variants,median_variants_per_patient,q1_variants_per_patient,q3_variants_per_patient,min_variants_per_patient,max_variants_per_patient,source_material
+3990,240,6.0,5.0,9.0,1,327,Primary tumor tissue; not serial plasma variant data

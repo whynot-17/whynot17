@@ -1,0 +1,33 @@
+﻿source,variable,n_rows,n_missing,missing_percent,interpretation
+Table S1 patient-level,Age,240,0,0.0,
+Table S1 patient-level,Sex,240,0,0.0,
+Table S1 patient-level,PTL,240,0,0.0,
+Table S1 patient-level,Stage,240,0,0.0,
+Table S1 patient-level,Hist_type,240,0,0.0,
+Table S1 patient-level,Hist_grade,240,0,0.0,
+Table S1 patient-level,LV_invasion,240,0,0.0,
+Table S1 patient-level,N_invasion,240,0,0.0,
+Table S1 patient-level,MSI,240,0,0.0,
+Table S1 patient-level,ACT,240,0,0.0,
+Table S1 patient-level,R_time,240,208,86.66666666666667,Structural blank for patients without documented recurrence; not a last-follow-up time.
+Table S1 patient-level,R_treatment,240,208,86.66666666666667,Expected blank when no recurrence is documented.
+Dataset S1 primary-tumor variants,Patient_No,3990,0,0.0,
+Dataset S1 primary-tumor variants,Gene,3990,0,0.0,
+Dataset S1 primary-tumor variants,Chr_start,3990,0,0.0,
+Dataset S1 primary-tumor variants,Chr_end,3990,0,0.0,
+Dataset S1 primary-tumor variants,Ref,3990,0,0.0,
+Dataset S1 primary-tumor variants,Alt,3990,0,0.0,
+Dataset S1 primary-tumor variants,Variant_Classification,3990,0,0.0,
+Dataset S1 primary-tumor variants,AAChange,3990,94,2.355889724310777,
+Dataset S1 primary-tumor variants,Recurrent_in_COSMIC,3990,0,0.0,
+Dataset S1 primary-tumor variants,DP,3990,0,0.0,
+Dataset S1 primary-tumor variants,AD,3990,0,0.0,
+Dataset S2 ctDNA samples,Patient_No,1290,0,0.0,
+Dataset S2 ctDNA samples,Time_postop,1290,0,0.0,
+Dataset S2 ctDNA samples,Sample_point,1290,0,0.0,
+Dataset S2 ctDNA samples,ctDNA_status,1290,0,0.0,
+Dataset S3 CEA samples,Patient_No,970,0,0.0,
+Dataset S3 CEA samples,Time_postop,970,0,0.0,
+Dataset S3 CEA samples,CEA_value,970,2,0.20618556701030927,
+Dataset S3 patient availability,Preoperative CEA available,240,9,3.75,Nine patients lack a preoperative CEA; one has no CEA result at any time.
+Dataset S3 patient availability,Any CEA available,240,1,0.4166666666666667,Eight of the nine patients without preoperative CEA have a later CEA measurement.

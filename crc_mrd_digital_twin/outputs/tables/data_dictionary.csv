@@ -1,0 +1,30 @@
+﻿requested_concept,source_field,source_file,definition,availability,audit_note
+patient_id,Patient_No,Table S1 / Datasets S1-S3,伪匿名患者标识,可用,未提供唯一采血样本编号。
+age,Age,Table S1,年龄；列名未注明单位，论文报告为岁,可用,
+sex,Sex,Table S1,男性/女性,可用,
+tumor_site,PTL,Table S1,原发肿瘤部位：右侧/左侧,可用,未提供更精确的部位或结肠/直肠单独分类。
+stage,Stage,Table S1,病理分期 II/III 期,可用,
+T_stage,—,—,单独的 T 分期,不可用,不可推断。
+N_stage,—,—,单独的 N 分期,不可用,不可推断。
+pathology_risk_factors,Hist_type; Hist_grade; LV_invasion; N_invasion; MSI,Table S1,组织学类型、分级、淋巴血管侵犯、神经侵犯及 MSI,可用,未提供其他病理风险因素。
+baseline_CEA,CEA_value at Time_postop <= 0,Dataset S3,术前 CEA；按补充方法，单位为 ng/mL,可用,9 名患者缺少术前结果；其中 1 名患者完全没有 CEA 结果。
+surgery_date,—,—,手术绝对日期,不可用,生物标志物表仅提供相对月份。
+adjuvant_chemotherapy,ACT,Table S1,是否曾接受辅助化疗（是/否）,可用,
+chemotherapy_regimen,—,—,化疗方案/周期数,不可用,
+chemotherapy_timing,—,—,化疗起止时间及其与采血的先后关系,不可用,无法逐患者识别辅助化疗后的采血。
+recurrence_event,R_time nonblank,Table S1,首次记录的复发事件,可用（派生）,不包括单独记录的结直肠癌死亡。
+recurrence_time,R_time,Table S1,从手术到首次记录复发的月数,仅事件患者可用,未记录复发者为空；该值不是删失时间。
+death,—,—,死亡状态、日期及死因,不可用,
+follow_up_duration,—,—,逐患者末次随访/删失时间,不可用,论文报告队列随访中位数 27.4 个月，但未提供逐患者删失时间。
+sample_id,—,—,唯一采血编号,不可用,
+blood_draw_time,Time_postop,Datasets S2/S3,相对手术时间（月）,可用,P1 为术前采血，但记录时间为 0；解释时须结合 Sample_point。
+sample_point,Sample_point,Dataset S2,方案规定采样点 P1-P9,可用,
+ctDNA_status,ctDNA_status,Dataset S2,二元状态：阳性/阴性,可用,未观测到采血不等于 MRD 阴性。
+ctDNA_quantitative_value,—,—,血浆 ctDNA 浓度,不可用,
+plasma_VAF,—,—,逐样本 ctDNA 变异等位基因频率,不可用,Dataset S1 的 DP/AD 是原发肿瘤测序读数。
+plasma_variant_count,—,—,每份血浆样本中追踪/检出的变异数,不可用,
+tumor_mutations,Patient_No; Gene; Chr_start; Chr_end; Ref; Alt; Variant_Classification; AAChange; Recurrent_in_COSMIC; DP; AD,Dataset S1,原发肿瘤突变记录/测序读数,可用,未提供连续血浆样本的突变级别结果。
+assay_QC,—,—,逐样本检测质量控制/通过指标,不可用,方法有所说明，但没有样本级 QC 字段。
+CEA_measurement_time,Time_postop,Dataset S3,相对手术时间（月）,可用,
+CEA_value,CEA_value,Dataset S3,血清 CEA；按方法部分，单位为 ng/mL,可用,
+CEA_threshold,—,Supplementary Methods,正常范围 0.00-5.00 ng/mL,方法中有定义,本次审计将 >5.00 ng/mL 派生为升高。
