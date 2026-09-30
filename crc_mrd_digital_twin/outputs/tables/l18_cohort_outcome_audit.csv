@@ -1,0 +1,10 @@
+﻿cohort,raw_n,landmark_month,recurrence_by18_from_surgery,confirmed_nonrecurrence_through18_from_surgery,recurrence_before_or_at_landmark,not_confirmed_event_free_at_landmark,at_risk_at_landmark,events_after_landmark_through18,confirmed_controls_through18,unknown_endpoint_among_landmark_risk,known_outcome_with_mrd_history,model_n_with_mrd,model_events,model_controls
+Chen,240,3,25,130,0,17,223,25,130,68,155,155,25,130
+Chen,240,6,25,130,2,20,218,23,130,65,153,153,23,130
+Chen,240,12,25,130,15,59,166,10,130,26,140,140,10,130
+ColonAiQ,299,3,52,39,7,34,258,45,39,174,70,70,40,30
+ColonAiQ,299,6,52,39,23,50,226,29,39,158,56,56,26,30
+ColonAiQ,299,12,52,39,36,121,142,16,39,87,55,55,16,39
+COSMOS,334,3,25,303,2,0,332,23,303,6,326,326,23,303
+COSMOS,334,6,25,303,6,0,328,19,303,6,322,322,19,303
+COSMOS,334,12,25,303,21,2,311,4,303,4,307,307,4,303
