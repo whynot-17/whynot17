@@ -1,0 +1,4 @@
+﻿cohort,raw_or_reconstructed_n,recurrence_by_12m,confirmed_event_free_at_12m,12m_status_unconfirmed_before_12m,recurrence_12_to_24m,recurrence_after_24m,confirmed_nonrecurrence_followup_ge24m,unknown_24m_outcome_among_12m_at_risk,mrd_history_le12_among_12m_at_risk,l12_model_n,l12_model_events,l12_latest_positive,l12_latest_negative,l12_prior_positive_yes,l12_prior_positive_no,l12_transition_single_positive,l12_transition_single_negative,l12_transition_negative_to_negative,l12_transition_negative_to_positive,l12_transition_positive_to_negative,l12_transition_positive_to_positive,l12_model_controls,l12_cohort_include,l12_exclusion_reason,l12_primary_model_n,l12_primary_model_events
+Chen,240,15,166,59,16,1,84,65,166,101,16,5,96,7,94,1,12,81,3,3,1,85,1,,101,16
+ColonAiQ,299,36,142,121,19,0,0,123,141,19,19,7,12,9,10,3,1,5,1,6,3,0,0,可判定结局中事件或阴性对照少于10；不进入 L12 建模/LOCO,0,0
+COSMOS,334,21,311,2,19,4,258,30,311,281,19,9,272,20,261,0,0,263,1,9,8,262,1,,281,19

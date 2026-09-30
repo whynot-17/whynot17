@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="610" viewBox="0 0 1000 610">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,"Microsoft YaHei",sans-serif;fill:#202124}.axis{font-size:14px}.title{font-size:21px;font-weight:bold}</style>
+<text x="500.0" y="32" text-anchor="middle" class="title">LOCO Brier score：3、6、12月 landmark</text>
+<line x1="95" y1="525.0" x2="930" y2="525.0" stroke="#e1e4e8"/>
+<text x="83" y="530.0" text-anchor="end" class="axis">0.00</text>
+<line x1="95" y1="435.0" x2="930" y2="435.0" stroke="#e1e4e8"/>
+<text x="83" y="440.0" text-anchor="end" class="axis">0.04</text>
+<line x1="95" y1="345.0" x2="930" y2="345.0" stroke="#e1e4e8"/>
+<text x="83" y="350.0" text-anchor="end" class="axis">0.08</text>
+<line x1="95" y1="254.99999999999994" x2="930" y2="254.99999999999994" stroke="#e1e4e8"/>
+<text x="83" y="259.99999999999994" text-anchor="end" class="axis">0.12</text>
+<line x1="95" y1="165.00000000000006" x2="930" y2="165.00000000000006" stroke="#e1e4e8"/>
+<text x="83" y="170.00000000000006" text-anchor="end" class="axis">0.16</text>
+<line x1="95" y1="75.0" x2="930" y2="75.0" stroke="#e1e4e8"/>
+<text x="83" y="80.0" text-anchor="end" class="axis">0.20</text>
+<text x="260" y="559" text-anchor="middle" class="axis">3月：风险至12月</text>
+<text x="510" y="559" text-anchor="middle" class="axis">6月：风险至12月</text>
+<text x="760" y="559" text-anchor="middle" class="axis">12月：风险至24月</text>
+<line x1="236" y1="380.8468638240991" x2="236" y2="301.0733169488016" stroke="#4472c4" stroke-width="3"/><line x1="229" y1="380.8468638240991" x2="243" y2="380.8468638240991" stroke="#4472c4" stroke-width="2"/><line x1="229" y1="301.0733169488016" x2="243" y2="301.0733169488016" stroke="#4472c4" stroke-width="2"/><circle cx="236" cy="342.00377778034454" r="7" fill="#4472c4"/><text x="236" y="330.00377778034454" text-anchor="middle" class="axis">0.081</text>
+<line x1="284" y1="406.9201675195859" x2="284" y2="339.0342311725219" stroke="#d97922" stroke-width="3"/><line x1="277" y1="406.9201675195859" x2="291" y2="406.9201675195859" stroke="#d97922" stroke-width="2"/><line x1="277" y1="339.0342311725219" x2="291" y2="339.0342311725219" stroke="#d97922" stroke-width="2"/><circle cx="284" cy="380.9648768717599" r="7" fill="#d97922"/><text x="284" y="368.9648768717599" text-anchor="middle" class="axis">0.064</text>
+<line x1="486" y1="433.07836377209253" x2="486" y2="363.50830368049446" stroke="#4472c4" stroke-width="3"/><line x1="479" y1="433.07836377209253" x2="493" y2="433.07836377209253" stroke="#4472c4" stroke-width="2"/><line x1="479" y1="363.50830368049446" x2="493" y2="363.50830368049446" stroke="#4472c4" stroke-width="2"/><circle cx="486" cy="399.01553213626664" r="7" fill="#4472c4"/><text x="486" y="387.01553213626664" text-anchor="middle" class="axis">0.056</text>
+<line x1="534" y1="446.3638122926377" x2="534" y2="377.78364908765855" stroke="#d97922" stroke-width="3"/><line x1="527" y1="446.3638122926377" x2="541" y2="446.3638122926377" stroke="#d97922" stroke-width="2"/><line x1="527" y1="377.78364908765855" x2="541" y2="377.78364908765855" stroke="#d97922" stroke-width="2"/><circle cx="534" cy="422.199157887007" r="7" fill="#d97922"/><text x="534" y="410.199157887007" text-anchor="middle" class="axis">0.046</text>
+<line x1="736" y1="385.8301350681795" x2="736" y2="262.3086053634733" stroke="#4472c4" stroke-width="3"/><line x1="729" y1="385.8301350681795" x2="743" y2="385.8301350681795" stroke="#4472c4" stroke-width="2"/><line x1="729" y1="262.3086053634733" x2="743" y2="262.3086053634733" stroke="#4472c4" stroke-width="2"/><circle cx="736" cy="333.53866751342946" r="7" fill="#4472c4"/><text x="736" y="321.53866751342946" text-anchor="middle" class="axis">0.085</text>
+<line x1="784" y1="391.74987228328155" x2="784" y2="269.83763913979885" stroke="#d97922" stroke-width="3"/><line x1="777" y1="391.74987228328155" x2="791" y2="391.74987228328155" stroke="#d97922" stroke-width="2"/><line x1="777" y1="269.83763913979885" x2="791" y2="269.83763913979885" stroke="#d97922" stroke-width="2"/><circle cx="784" cy="340.2239926011083" r="7" fill="#d97922"/><text x="784" y="328.2239926011083" text-anchor="middle" class="axis">0.082</text>
+<line x1="95" y1="75" x2="95" y2="525" stroke="#333"/><line x1="95" y1="525" x2="930" y2="525" stroke="#333"/>
+<rect x="320" y="565" width="18" height="12" fill="#4472c4"/><text x="345" y="577" class="axis">Clinical only</text><rect x="505" y="565" width="18" height="12" fill="#d97922"/><text x="530" y="577" class="axis">Clinical + MRD</text>
+<text x="500" y="602" text-anchor="middle" class="axis">误差线为完整 LOCO patient-stratified bootstrap percentile 95% CI；L12 仅 Chen/COSMOS。</text></svg>
