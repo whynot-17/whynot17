@@ -1,0 +1,4 @@
+﻿landmark,n,events,cohort_n,prediction_source,model_refit
+L3,658,60,Chen:181;ColonAiQ:147;COSMOS:330,landmark_loco_patient_predictions.csv,no
+L6,642,40,Chen:179;ColonAiQ:137;COSMOS:326,landmark_loco_patient_predictions.csv,no
+L3_L6_paired,638,40,Chen:179;ColonAiQ:133;COSMOS:326,landmark_loco_patient_predictions.csv,no

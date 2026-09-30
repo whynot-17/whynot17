@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1070" height="550" viewBox="0 0 1070 550">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,"Microsoft YaHei",sans-serif;fill:#202124}.title{font-size:23px;font-weight:bold}.sub{font-size:14px;fill:#555}.lab{font-size:14px}.tiny{font-size:12px;fill:#555}</style>
+<text x="535.0" y="34" class="title" text-anchor="middle">当前 MRD 阴性患者中的分子记忆</text>
+<text x="535.0" y="59" class="sub" text-anchor="middle">描述性比较：当前阴性但既往曾阳性 vs 截至当前从未阳性；不作因果解释。</text>
+<text x="258" y="110" class="lab" text-anchor="end">L3 预测窗 (3,12]</text>
+<line x1="461.17755711542094" y1="79.0" x2="461.17755711542094" y2="79.0" stroke="#597da5" stroke-width="3"/>
+<circle cx="461.17755711542094" cy="79.0" r="7" fill="#597da5"/><text x="272" y="84.0" text-anchor="end" class="tiny">从未阳性（当前阴性） n=570</text>
+<line x1="461.17755711542094" y1="131.0" x2="707.8028656658735" y2="131.0" stroke="#597da5" stroke-width="3"/>
+<circle cx="461.17755711542094" cy="131.0" r="7" fill="#597da5"/><text x="272" y="136.0" text-anchor="end" class="tiny">既往阳性、当前阴性 n=13</text>
+<text x="258" y="265" class="lab" text-anchor="end">L6 预测窗 (6,12]</text>
+<line x1="392.0696210866381" y1="234.0" x2="398.51132770438073" y2="234.0" stroke="#597da5" stroke-width="3"/>
+<circle cx="392.0696210866381" cy="234.0" r="7" fill="#597da5"/><text x="272" y="239.0" text-anchor="end" class="tiny">从未阳性（当前阴性） n=560</text>
+<line x1="663.981573419457" y1="286.0" x2="856.0" y2="286.0" stroke="#597da5" stroke-width="3"/>
+<circle cx="856.0" cy="286.0" r="7" fill="#597da5"/><text x="272" y="291.0" text-anchor="end" class="tiny">既往阳性、当前阴性 n=38</text>
+<line x1="280.0" y1="435" x2="280.0" y2="441" stroke="#333"/><text x="280.0" y="460" text-anchor="middle" class="tiny">0.00</text>
+<line x1="460.0" y1="435" x2="460.0" y2="441" stroke="#333"/><text x="460.0" y="460" text-anchor="middle" class="tiny">0.03</text>
+<line x1="640.0" y1="435" x2="640.0" y2="441" stroke="#333"/><text x="640.0" y="460" text-anchor="middle" class="tiny">0.06</text>
+<line x1="820.0" y1="435" x2="820.0" y2="441" stroke="#333"/><text x="820.0" y="460" text-anchor="middle" class="tiny">0.09</text>
+<line x1="1000.0" y1="435" x2="1000.0" y2="441" stroke="#333"/><text x="1000.0" y="460" text-anchor="middle" class="tiny">0.12</text>
+<text x="640.0" y="520" class="lab" text-anchor="middle">cross-fitted 预测风险，中位数及患者 bootstrap 95% CI</text>
+</svg>

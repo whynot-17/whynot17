@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="850" viewBox="0 0 1500 850">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,"Microsoft YaHei",sans-serif;fill:#202124}.title{font-size:23px;font-weight:bold}.sub{font-size:14px;fill:#555}.lab{font-size:14px}.tiny{font-size:12px;fill:#555}</style>
+<text x="750.0" y="34" class="title" text-anchor="middle">L3 至 L6 MRD 数字孪生状态转移</text>
+<text x="750.0" y="59" class="sub" text-anchor="middle">节点宽度和连线宽度表示人数；患者级 ID 未展示。</text>
+<path d="M322,214.47100313479623 C640,214.47100313479623 860,214.47100313479623 1200,214.47100313479623" fill="none" stroke="#72b7a1" stroke-opacity="0.34" stroke-width="178.94200626959247"/>
+<path d="M322,364.09482758620686 C640,364.09482758620686 860,386.3362068965517 1200,386.3362068965517" fill="none" stroke="#72b7a1" stroke-opacity="0.34" stroke-width="120.30564263322883"/>
+<path d="M322,424.7531347962382 C640,424.7531347962382 860,720.967868338558 1200,720.967868338558" fill="none" stroke="#72b7a1" stroke-opacity="0.34" stroke-width="1.0109717868338557"/>
+<path d="M322,428.29153605015676 C640,428.29153605015676 860,761.9122257053291 1200,761.9122257053291" fill="none" stroke="#72b7a1" stroke-opacity="0.34" stroke-width="6.065830721003135"/>
+<path d="M322,442.44514106583074 C640,442.44514106583074 860,315.06269592476485 1200,315.06269592476485" fill="none" stroke="#e98989" stroke-opacity="0.34" stroke-width="22.241379310344826"/>
+<path d="M322,456.09326018808775 C640,456.09326018808775 860,711.8691222570533 1200,711.8691222570533" fill="none" stroke="#e98989" stroke-opacity="0.34" stroke-width="5.054858934169278"/>
+<path d="M322,469.74137931034477 C640,469.74137931034477 860,732.5940438871473 1200,732.5940438871473" fill="none" stroke="#e98989" stroke-opacity="0.34" stroke-width="22.241379310344826"/>
+<path d="M322,612.2884012539184 C640,612.2884012539184 860,577.9153605015674 1200,577.9153605015674" fill="none" stroke="#238b67" stroke-opacity="0.34" stroke-width="262.85266457680245"/>
+<path d="M322,745.7366771159874 C640,745.7366771159874 860,766.9670846394985 1200,766.9670846394985" fill="none" stroke="#238b67" stroke-opacity="0.34" stroke-width="4.043887147335423"/>
+<path d="M322,750.7915360501567 C640,750.7915360501567 860,717.4294670846394 1200,717.4294670846394" fill="none" stroke="#b82e38" stroke-opacity="0.34" stroke-width="6.065830721003135"/>
+<path d="M322,754.8354231974921 C640,754.8354231974921 860,744.7257053291535 1200,744.7257053291535" fill="none" stroke="#b82e38" stroke-opacity="0.34" stroke-width="2.0219435736677114"/>
+<path d="M322,761.9122257053291 C640,761.9122257053291 860,751.8025078369906 1200,751.8025078369906" fill="none" stroke="#4c91c6" stroke-opacity="0.34" stroke-width="12.13166144200627"/>
+<path d="M322,768.4835423197491 C640,768.4835423197491 860,758.3738244514105 1200,758.3738244514105" fill="none" stroke="#e67e22" stroke-opacity="0.34" stroke-width="1.0109717868338557"/>
+<path d="M322,769.4945141065829 C640,769.4945141065829 860,769.494514106583 1200,769.494514106583" fill="none" stroke="#e67e22" stroke-opacity="0.34" stroke-width="1.0109717868338557"/>
+<rect x="300" y="125" width="22" height="306.3244514106583" fill="#72b7a1"/>
+<text x="288" y="283.16222570532915" text-anchor="end" class="lab">单次阴性 n=303</text>
+<rect x="300" y="431.3244514106583" width="22" height="49.537617554858926" fill="#e98989"/>
+<text x="288" y="461.09326018808775" text-anchor="end" class="lab">单次阳性 n=49</text>
+<rect x="300" y="480.8620689655172" width="22" height="266.8965517241379" fill="#238b67"/>
+<text x="288" y="619.3103448275862" text-anchor="end" class="lab">持续阴性 n=264</text>
+<rect x="300" y="747.7586206896551" width="22" height="8.087774294670846" fill="#b82e38"/>
+<text x="288" y="756.8025078369906" text-anchor="end" class="lab">持续阳性 n=8</text>
+<rect x="300" y="755.8463949843259" width="22" height="12.13166144200627" fill="#4c91c6"/>
+<text x="288" y="766.9122257053291" text-anchor="end" class="lab">阳性后转阴（清除） n=12</text>
+<rect x="300" y="767.9780564263322" width="22" height="2.0219435736677114" fill="#e67e22"/>
+<text x="288" y="773.989028213166" text-anchor="end" class="lab">阴性后转阳（转换） n=2</text>
+<rect x="1200" y="125" width="22" height="178.94200626959247" fill="#72b7a1"/>
+<text x="1234" y="219.47100313479623" class="lab">单次阴性 n=177</text>
+<rect x="1200" y="303.94200626959247" width="22" height="22.241379310344826" fill="#e98989"/>
+<text x="1234" y="320.06269592476485" class="lab">单次阳性 n=22</text>
+<rect x="1200" y="326.1833855799373" width="22" height="383.1583072100313" fill="#238b67"/>
+<text x="1234" y="522.762539184953" class="lab">持续阴性 n=379</text>
+<rect x="1200" y="709.3416927899686" width="22" height="11.120689655172413" fill="#b82e38"/>
+<text x="1234" y="719.9020376175548" class="lab">持续阳性 n=11</text>
+<rect x="1200" y="720.4623824451411" width="22" height="38.41692789968651" fill="#4c91c6"/>
+<text x="1234" y="744.6708463949843" class="lab">阳性后转阴（清除） n=38</text>
+<rect x="1200" y="758.8793103448276" width="22" height="10.109717868338556" fill="#e67e22"/>
+<text x="1234" y="768.9341692789968" class="lab">阴性后转阳（转换） n=10</text>
+<rect x="1200" y="768.9890282131661" width="22" height="1.0109717868338557" fill="#9276b5"/>
+<text x="1234" y="774.494514106583" class="lab">间歇/混合 n=1</text>
+<text x="310" y="95" class="lab" text-anchor="middle">L3，未来复发窗 (3,12]</text>
+<text x="1210" y="95" class="lab" text-anchor="middle">L6，未来复发窗 (6,12]</text>
+</svg>
