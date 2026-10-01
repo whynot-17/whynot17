@@ -1,0 +1,3 @@
+﻿cohort,memory_group,n,events,observed_recurrence_rate,observed_rate_ci_low,observed_rate_ci_high,mean_predicted_risk,median_predicted_risk,prediction_source,L6_origin_median_month,outcome_window
+GALAXY,never_positive,933,38,0.04072883172561629,0.029815539972757966,0.055408547912079435,0.04514493476749197,0.05198624360673256,OOB bootstrap,6.0,cohort-defined L6 assessment to postoperative month 12
+GALAXY,previously_positive_now_negative,80,14,0.175,0.10720636440977926,0.2725754197883133,0.16415070335903084,0.18149539477741183,OOB bootstrap,6.0,cohort-defined L6 assessment to postoperative month 12

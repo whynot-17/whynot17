@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1420" viewBox="0 0 2400 1420">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif}</style>
+<text x="105" y="102" text-anchor="start" font-size="50" font-weight="700" fill="#18303B">分子记忆：当前 L6 阴性，不代表风险相同</text>
+<text x="108" y="149" text-anchor="start" font-size="27" font-weight="400" fill="#5E7078">GALAXY 开发队列｜两组当前均为 ctDNA 阴性；按 L6 前是否曾观察到阳性分层</text>
+<rect x="85" y="205" width="2230" height="105" rx="18" fill="#E5F3EE"/>
+<text x="120" y="269" text-anchor="start" font-size="39" font-weight="700" fill="#16836B">+ → −  ≠  − → −</text>
+<text x="560" y="274" text-anchor="start" font-size="27" font-weight="700" fill="#18303B">既往阳性、现已转阴者，L6 后至 12 月的复发率仍较高</text>
+<text x="130" y="481" text-anchor="start" font-size="31" font-weight="700" fill="#18303B">此前未观察到阳性 → 当前阴性</text>
+<text x="130" y="523" text-anchor="start" font-size="25" font-weight="400" fill="#5E7078">N=933　复发 38 例</text>
+<text x="130" y="571" text-anchor="start" font-size="23" font-weight="400" fill="#5E7078">当前状态：L6 ctDNA −</text>
+<text x="130" y="781" text-anchor="start" font-size="31" font-weight="700" fill="#18303B">既往曾阳性 → 当前阴性</text>
+<text x="130" y="823" text-anchor="start" font-size="25" font-weight="400" fill="#5E7078">N=80　复发 14 例</text>
+<text x="130" y="871" text-anchor="start" font-size="23" font-weight="400" fill="#5E7078">当前状态：L6 ctDNA −</text>
+<text x="1210" y="392" text-anchor="middle" font-size="26" font-weight="700" fill="#5E7078">观察复发率（Wilson 95% CI）</text>
+<line x1="885.0" y1="430" x2="885.0" y2="1010" stroke="#D8E1E4" stroke-width="1"/>
+<text x="885.0" y="1034" text-anchor="middle" font-size="18" font-weight="400" fill="#5E7078">0%</text>
+<line x1="993.3333333333334" y1="430" x2="993.3333333333334" y2="1010" stroke="#D8E1E4" stroke-width="1"/>
+<text x="993.3333333333334" y="1034" text-anchor="middle" font-size="18" font-weight="400" fill="#5E7078">5%</text>
+<line x1="1101.6666666666667" y1="430" x2="1101.6666666666667" y2="1010" stroke="#D8E1E4" stroke-width="1"/>
+<text x="1101.6666666666667" y="1034" text-anchor="middle" font-size="18" font-weight="400" fill="#5E7078">10%</text>
+<line x1="1210.0" y1="430" x2="1210.0" y2="1010" stroke="#D8E1E4" stroke-width="1"/>
+<text x="1210.0" y="1034" text-anchor="middle" font-size="18" font-weight="400" fill="#5E7078">15%</text>
+<line x1="1318.3333333333333" y1="430" x2="1318.3333333333333" y2="1010" stroke="#D8E1E4" stroke-width="1"/>
+<text x="1318.3333333333333" y="1034" text-anchor="middle" font-size="18" font-weight="400" fill="#5E7078">20%</text>
+<line x1="1426.6666666666665" y1="430" x2="1426.6666666666665" y2="1010" stroke="#D8E1E4" stroke-width="1"/>
+<text x="1426.6666666666665" y="1034" text-anchor="middle" font-size="18" font-weight="400" fill="#5E7078">25%</text>
+<line x1="1535.0" y1="430" x2="1535.0" y2="1010" stroke="#D8E1E4" stroke-width="1"/>
+<text x="1535.0" y="1034" text-anchor="middle" font-size="18" font-weight="400" fill="#5E7078">30%</text>
+<line x1="949.6003366076422" y1="520" x2="1005.0518538095055" y2="520" stroke="#16836B" stroke-width="8"/>
+<line x1="949.6003366076422" y1="506" x2="949.6003366076422" y2="534" stroke="#16836B" stroke-width="4"/>
+<line x1="1005.0518538095055" y1="506" x2="1005.0518538095055" y2="534" stroke="#16836B" stroke-width="4"/>
+<circle cx="973.2458020721687" cy="520" r="14" fill="#16836B" stroke="#FFFFFF" stroke-width="3"/>
+<text x="999.2458020721687" y="496" text-anchor="start" font-size="24" font-weight="700" fill="#16836B">4.1%  (3.0%–5.5%)</text>
+<line x1="1117.2804562211884" y1="820" x2="1475.580076208012" y2="820" stroke="#CB554B" stroke-width="8"/>
+<line x1="1117.2804562211884" y1="806" x2="1117.2804562211884" y2="834" stroke="#CB554B" stroke-width="4"/>
+<line x1="1475.580076208012" y1="806" x2="1475.580076208012" y2="834" stroke="#CB554B" stroke-width="4"/>
+<circle cx="1264.1666666666667" cy="820" r="14" fill="#CB554B" stroke="#FFFFFF" stroke-width="3"/>
+<text x="1290.1666666666667" y="796" text-anchor="start" font-size="24" font-weight="700" fill="#CB554B">17.5%  (10.7%–27.3%)</text>
+<text x="1940" y="392" text-anchor="middle" font-size="26" font-weight="700" fill="#5E7078">平均 OOB 预测风险</text>
+<line x1="1640.0" y1="430" x2="1640.0" y2="1010" stroke="#D8E1E4" stroke-width="1"/>
+<text x="1640.0" y="1034" text-anchor="middle" font-size="18" font-weight="400" fill="#5E7078">0%</text>
+<line x1="1760.0" y1="430" x2="1760.0" y2="1010" stroke="#D8E1E4" stroke-width="1"/>
+<text x="1760.0" y="1034" text-anchor="middle" font-size="18" font-weight="400" fill="#5E7078">5%</text>
+<line x1="1880.0" y1="430" x2="1880.0" y2="1010" stroke="#D8E1E4" stroke-width="1"/>
+<text x="1880.0" y="1034" text-anchor="middle" font-size="18" font-weight="400" fill="#5E7078">10%</text>
+<line x1="2000.0" y1="430" x2="2000.0" y2="1010" stroke="#D8E1E4" stroke-width="1"/>
+<text x="2000.0" y="1034" text-anchor="middle" font-size="18" font-weight="400" fill="#5E7078">15%</text>
+<line x1="2120.0" y1="430" x2="2120.0" y2="1010" stroke="#D8E1E4" stroke-width="1"/>
+<text x="2120.0" y="1034" text-anchor="middle" font-size="18" font-weight="400" fill="#5E7078">20%</text>
+<line x1="2240.0" y1="430" x2="2240.0" y2="1010" stroke="#D8E1E4" stroke-width="1"/>
+<text x="2240.0" y="1034" text-anchor="middle" font-size="18" font-weight="400" fill="#5E7078">25%</text>
+<line x1="1640" y1="520" x2="1748.3478434419808" y2="520" stroke="#16836B" stroke-width="9"/>
+<circle cx="1748.3478434419808" cy="520" r="15" fill="#16836B" stroke="#FFFFFF" stroke-width="3"/>
+<text x="1774.3478434419808" y="496" text-anchor="start" font-size="24" font-weight="700" fill="#16836B">4.5%  ·  中位数 5.2%</text>
+<line x1="1640" y1="820" x2="2033.961688061674" y2="820" stroke="#CB554B" stroke-width="9"/>
+<circle cx="2033.961688061674" cy="820" r="15" fill="#CB554B" stroke="#FFFFFF" stroke-width="3"/>
+<text x="2059.961688061674" y="796" text-anchor="start" font-size="24" font-weight="700" fill="#CB554B">16.4%  ·  中位数 18.1%</text>
+<rect x="130" y="1132" width="2115" height="155" rx="18" fill="#F4F7F7"/>
+<text x="175" y="1186" text-anchor="start" font-size="29" font-weight="700" fill="#18303B">观察复发率绝对差：+13.4 个百分点</text>
+<text x="1260" y="1186" text-anchor="start" font-size="29" font-weight="700" fill="#18303B">平均 OOB 风险绝对差：+11.9 个百分点</text>
+<text x="175" y="1232" text-anchor="start" font-size="22" font-weight="400" fill="#5E7078">解释为预测分层与既往 ctDNA 阳性史有关；不是治疗效应或因果效应。</text>
+<text x="175" y="1270" text-anchor="start" font-size="20" font-weight="400" fill="#5E7078">“未观察到阳性”仅描述可用采样史，不能证明未采样时段真实阴性；组间差异未作独立验证队列推断。</text>
+</svg>

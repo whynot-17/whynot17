@@ -1,0 +1,5 @@
+﻿case,transition,description,l3_status,l6_status,risk_before,risk_after,event,outcome,recurrence_day_postoperative,risk_origin_day
+A,negative_to_negative,低风险维持,0,0,0.06703717526072145,0.05210669857404718,0,no_recurrence_through_12m,,182.62125
+B,negative_to_positive,转阳后风险上升,0,1,0.08039107881317474,0.620557989942517,1,recurrence_by_12m,294.0,182.62125
+C,positive_to_negative,转阴后风险下降,1,0,0.4405656321058735,0.14975280171220332,0,no_recurrence_through_12m,,182.62125
+D,positive_to_positive,持续阳性，高风险,1,1,0.7394548837495036,0.8308924867336418,1,recurrence_by_12m,223.0,182.62125
