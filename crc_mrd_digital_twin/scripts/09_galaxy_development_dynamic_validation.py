@@ -24,12 +24,12 @@ from openpyxl import load_workbook
 from pypdf import PdfReader
 
 DAY_PER_MONTH = 365.2425 / 12.0
-ORIGIN_DAY = 200.0  # End of GALAXY's published 160-200 day 6-month window.
+ORIGIN_DAY = 6.0 * DAY_PER_MONTH  # Nominal 6-month landmark (182.62125 days); GALAXY labels 160-200 days as its 6-month timepoint.
 HORIZON_DAY = 365.2425
 L3_LOW, L3_HIGH, L3_TARGET = 70.0, 112.0, 91.3
 MRD0_LOW, MRD0_HIGH, MRD0_TARGET = 14.0, 70.0, 28.0
-L6_LOW, L6_HIGH, L6_TARGET = 160.0, 200.0, 182.6
-L6_STRICT_DAY = 6.0 * DAY_PER_MONTH
+L6_TARGET_MONTH = 6.0
+L6_HALF_QUARTER_MONTH = 1.5
 BOOT_REPS = 1000
 SEED = 20260930
 
@@ -188,7 +188,19 @@ def source_patients(root: Path):
                 p["history_days"] = hist
                 p["mrd0_status"], p["mrd0_day"] = pick_window(hist, MRD0_LOW, MRD0_HIGH - 1e-6, MRD0_TARGET)
                 p["l3_status"], p["l3_day"] = pick_window(hist, L3_LOW, L3_HIGH, L3_TARGET)
-                p["l6_status"], p["l6_day"] = pick_window(hist, L6_LOW, L6_HIGH, L6_TARGET)
+                if cohort == "COSMOS":
+                    l6_candidates = [(t, s) for t, s in hist
+                                     if abs(t / DAY_PER_MONTH - L6_TARGET_MONTH) < 1e-6]
+                else:
+                    l6_candidates = [(t, s) for t, s in hist
+                                     if abs(t / DAY_PER_MONTH - L6_TARGET_MONTH) <= L6_HALF_QUARTER_MONTH]
+                if l6_candidates:
+                    p["l6_day"], p["l6_status"] = min(
+                        l6_candidates, key=lambda z: (abs(z[0] / DAY_PER_MONTH - L6_TARGET_MONTH), z[0]))
+                    p["l6_status"] = int(p["l6_status"])
+                    p["l6_day"] = float(p["l6_day"])
+                else:
+                    p["l6_status"], p["l6_day"] = None, None
                 p["mrd0_day_exact"] = p["mrd3_day_exact"] = p["mrd6_day_exact"] = True
                 p["mrd3"] = p["l3_status"]
                 p["mrd6"] = p["l6_status"]
@@ -257,17 +269,16 @@ def analysis_records(cohorts):
                 pre_l3_values = [s for t, s in p.get("history_days", [])
                                  if l3_day is not None and t < l3_day and s in (0, 1)]
             counts["prior_mrd_history_before_l6"] += bool(prior_values)
-            at_risk, y = outcome_at_origin(p)
-            counts["event_free_at_200d"] += at_risk
+            origin_day = ORIGIN_DAY if cohort == "GALAXY" else p.get("l6_day")
+            at_risk, y = outcome_at_origin(p, origin_day if origin_day is not None else ORIGIN_DAY)
+            counts["event_free_at_landmark"] += at_risk
             counts["known_outcome_by_12m"] += at_risk and y is not None
-            counts["events_200d_to_12m"] += at_risk and y == 1
+            counts["events_from_landmark_to_12m"] += at_risk and y == 1
             counts["controls_through_12m"] += at_risk and y == 0
-            if cohort != "GALAXY" and p.get("l6_day") is not None:
-                counts["l6_sample_160_200d"] += 1
-                counts["l6_sample_at_or_before_6mo"] += p["l6_day"] <= L6_STRICT_DAY
+            if cohort != "GALAXY":
+                counts["l6_sample_in_cohort_defined_node"] += p.get("l6_day") is not None
             if cohort == "GALAXY":
-                counts["l6_sample_160_200d"] += p.get("l6_status") in (0, 1)
-                counts["strict_l6_date_known"] += 0
+                counts["l6_sample_in_cohort_defined_node"] += p.get("l6_status") in (0, 1)
             clinical_ok = all(p.get(k) is not None for k in ("age", "sex_male", "stage_high"))
             if at_risk and clinical_ok and complete:
                 traj = dict(p)
@@ -275,6 +286,7 @@ def analysis_records(cohorts):
                 traj["ever_prior_l3"] = int(any(s == 1 for s in pre_l3_values))
                 traj["ever_prior_l6"] = int(any(s == 1 for s in prior_values))
                 traj["transition"] = transition(p["l3_status"], p["l6_status"])
+                traj["landmark_day"] = origin_day if origin_day is not None else ORIGIN_DAY
                 trajectories[cohort].append(traj)
             if (at_risk and y is not None and clinical_ok and p.get("l6_status") in (0, 1)
                     and prior_values):
@@ -285,6 +297,7 @@ def analysis_records(cohorts):
                 val["transition"] = (transition(p["l3_status"], p["l6_status"])
                                       if p.get("l3_status") in (0, 1) else "l3_unavailable")
                 val["has_pre_l6_history"] = True
+                val["landmark_day"] = origin_day if origin_day is not None else ORIGIN_DAY
                 validation[cohort].append(val)
                 counts["validation_risk_set"] += 1
                 counts["validation_events"] += int(y == 1)
@@ -295,16 +308,28 @@ def analysis_records(cohorts):
                 rec["transition"] = transition(p["l3_status"], p["l6_status"])
                 rec["ever_prior_l3"] = int(any(s == 1 for s in pre_l3_values))
                 rec["ever_prior_l6"] = int(any(s == 1 for s in prior_values))
+                rec["landmark_day"] = origin_day if origin_day is not None else ORIGIN_DAY
                 result[cohort].append(rec)
         audit.append({"cohort": cohort, **counts})
+        selected_l6_days = [p["l6_day"] for p in patients if p.get("l6_day") is not None]
+        if cohort == "GALAXY":
+            l6_rule = "published study-defined 160-200-day L6 window; patient-specific date absent; nominal outcome origin day 182.621"
+        elif cohort == "COSMOS":
+            l6_rule = "scheduled month-6 assessment; patient-specific recorded 6-month sample is outcome origin"
+        elif cohort == "Chen":
+            l6_rule = "planned month-6 visit; closest observed test within 4.5-7.5 months; actual date is outcome origin"
+        else:
+            l6_rule = "quarterly surveillance; closest observed test within 4.5-7.5 months of month 6; actual date is outcome origin"
         timing.append({
             "cohort": cohort,
             "L3_rule": "study-defined 70-112 day" if cohort == "GALAXY" else "closest status within 70-112 days",
-            "L6_rule": "study-defined 160-200 day; individual date absent" if cohort == "GALAXY" else "closest status within 160-200 days",
-            "L6_records_160_200": counts["l6_sample_160_200d"],
-            "L6_records_at_or_before_6mo": "not identifiable; individual dates absent" if cohort == "GALAXY" else counts["l6_sample_at_or_before_6mo"],
-            "risk_origin_day": ORIGIN_DAY,
-            "outcome_window": "(200 days, 365.24 days] recurrence",
+            "L6_rule": l6_rule,
+            "L6_records_in_cohort_defined_node": counts["l6_sample_in_cohort_defined_node"],
+            "L6_selected_median_month": float(np.median(selected_l6_days) / DAY_PER_MONTH) if selected_l6_days else None,
+            "L6_selected_min_month": float(min(selected_l6_days) / DAY_PER_MONTH) if selected_l6_days else None,
+            "L6_selected_max_month": float(max(selected_l6_days) / DAY_PER_MONTH) if selected_l6_days else None,
+            "risk_origin": "nominal day 182.621" if cohort == "GALAXY" else "patient-specific actual L6 assessment date",
+            "outcome_window": "after cohort-defined L6 assessment through postoperative month 12",
             "patient_specific_L6_date_available": "no" if cohort == "GALAXY" else "yes",
         })
     return result, validation, trajectories, audit, timing
@@ -563,7 +588,7 @@ def make_figures(figdir, metrics, updates, memory, transitions, cases):
         body += f'<text x="{ox-15}" y="{oy+ph/2}" transform="rotate(-90 {ox-15} {oy+ph/2})" text-anchor="middle" font-size="12" font-family="Arial">Metric</text>'
     svg_write(figdir / "external_validation_auc_brier.svg", body)
 
-    body = '<text x="550" y="38" text-anchor="middle" font-size="22" font-family="Arial">同一(200天,12月]结局：L3信息到L6信息的风险更新（OOB）</text>'
+    body = '<text x="550" y="38" text-anchor="middle" font-size="22" font-family="Arial">同一(182.6天,12月]结局：L3信息到L6信息的风险更新（OOB）</text>'
     order=["negative_to_negative","negative_to_positive","positive_to_negative","positive_to_positive"]
     zh={"negative_to_negative":"阴→阴","negative_to_positive":"阴→阳","positive_to_negative":"阳→阴","positive_to_positive":"阳→阳"}
     cols={"negative_to_negative":"#238b67","negative_to_positive":"#e67e22","positive_to_negative":"#4c91c6","positive_to_positive":"#b82e38"}
@@ -591,7 +616,7 @@ def make_figures(figdir, metrics, updates, memory, transitions, cases):
                 body += f'<text x="{x}" y="{y+18}" font-size="12" font-family="Arial">{("Never positive" if gi==0 else "Prior +, current -")} n={r["n"]}</text><rect x="{x}" y="{y+30}" width="{obs*230}" height="18" fill="#d95d39"/><text x="{x+240}" y="{y+44}" font-size="12" font-family="Arial">actual {obs:.1%}</text><rect x="{x}" y="{y+58}" width="{pred*230}" height="18" fill="#457b9d"/><text x="{x+240}" y="{y+72}" font-size="12" font-family="Arial">predicted {pred:.1%}</text>'
     svg_write(figdir / "molecular_memory_validation.svg", body, 1150, max(360, ybase+len(memcohorts)*115))
 
-    body = '<text x="650" y="35" text-anchor="middle" font-size="23" font-family="Arial">各队列3月→6月MRD状态转移与(200天,12月]复发</text>'
+    body = '<text x="650" y="35" text-anchor="middle" font-size="23" font-family="Arial">各队列3月→6月MRD状态转移与(182.6天,12月]复发</text>'
     coh=sorted(set(r["cohort"] for r in transitions))
     trans_order=order
     for ci,c in enumerate(coh):
@@ -645,7 +670,7 @@ def main():
     csv_write(tables / "galaxy_model_coefficients.csv", beta_rows)
     (modelsdir / "galaxy_frozen_ridge_models.json").write_text(json.dumps({
         "development_cohort":"GALAXY", "origin_day":ORIGIN_DAY, "horizon_day":HORIZON_DAY,
-        "outcome":"clinical recurrence in (200 days, 365.24 days]", "ridge_lambda":1.0,
+        "outcome":"clinical recurrence in (182.62125 days, 365.2425 days]", "ridge_lambda":1.0,
         "models":{k:{"terms":v["terms"],"coefficients":[float(x) for x in v["beta"]],"age_scale":v["scale"]} for k,v in full_models.items()},
         "feature_note":"GALAXY patient-level site is unavailable; clinical core uses stage, age, sex. MRD is binary/assay-agnostic. Ever-prior-positive summarizes observed pre-L6 statuses; prior testing density differs by cohort."
     }, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -657,6 +682,34 @@ def main():
     for i, r in enumerate(galaxy):
         r["risk_before_oob"] = float(oob["L3_before"][i])
         r["risk_after_oob"] = float(oob["L6_after"][i])
+    trajectory_labels = {
+        "persistent_negative": (0, 0, "持续阴性"),
+        "conversion": (1, 0, "转阳"),
+        "clearance": (0, 1, "清除"),
+        "persistent_positive": (1, 1, "持续阳性"),
+    }
+    trajectory_main_rows = []
+    for name, (current, prior_positive, label) in trajectory_labels.items():
+        g = [r for r in galaxy if r["l6_status"] == current and r["ever_prior_l6"] == prior_positive]
+        if not g:
+            continue
+        events = int(sum(r["y"] for r in g))
+        ci_low, ci_high = wilson(events, len(g))
+        predicted = [r["risk_after_oob"] for r in g if np.isfinite(r["risk_after_oob"])]
+        trajectory_main_rows.append({
+            "trajectory": name, "trajectory_zh": label,
+            "current_l6_status": "positive" if current else "negative",
+            "prior_mrd_history": "既往至少一次阳性" if prior_positive else "既往未观察到阳性",
+            "n": len(g), "events_6_to_12m": events,
+            "recurrence_rate_6_to_12m": events / len(g),
+            "recurrence_rate_wilson_95ci_low": ci_low,
+            "recurrence_rate_wilson_95ci_high": ci_high,
+            "n_with_oob_predicted_risk": len(predicted),
+            "mean_oob_predicted_risk": float(np.mean(predicted)) if predicted else None,
+            "median_oob_predicted_risk": float(np.median(predicted)) if predicted else None,
+            "risk_origin_day": ORIGIN_DAY, "outcome_window": "(182.62125 days, 365.2425 days]",
+            "prediction_source": "paired patient-level bootstrap out-of-bag",
+        })
     calibration_rows = []
     for key,label in (("clinical","Clinical-only OOB"),
                       ("L3_before","Same-horizon L3 history OOB"),
@@ -676,6 +729,7 @@ def main():
         if not rs:
             continue
         y=np.asarray([r["y"] for r in rs],dtype=int)
+        origin_months=[float(r.get("landmark_day",ORIGIN_DAY))/DAY_PER_MONTH for r in rs]
         pc=predict(full_models["clinical"],rs,mod)
         pm=predict(full_models["L6_after"],rs,mod)
         ext_for_memory[cohort]=(rs,pm)
@@ -683,7 +737,11 @@ def main():
             met=metric_values(y,pred,mod)
             metric_rows.append({"cohort":cohort,"model":name,"n":len(rs),"events":int(y.sum()),
                                 "event_rate":float(y.mean()),**met,"model_frozen":cohort!="GALAXY",
-                                "validation_role":"development bootstrap" if cohort=="GALAXY" else "independent public validation"})
+                                "L6_origin_median_month":float(np.median(origin_months)),
+                                "L6_origin_min_month":float(min(origin_months)),"L6_origin_max_month":float(max(origin_months)),
+                                "outcome_window":"(day 182.621, postoperative month 12]" if cohort=="GALAXY" else "after individual cohort-defined L6 assessment through postoperative month 12",
+                                "validation_role":"development bootstrap" if cohort=="GALAXY" else
+                                    ("priority independent validation" if cohort in ("COSMOS", "Chen") else "exploratory; sparse events")})
             calibration_ext.extend(calibration_bins(y,pred,cohort,name))
         deltas=paired_delta_ci(y,pc,pm,mod,BOOT_REPS,SEED+len(cohort))
         for m,(lo,hi,nvalid) in deltas.items():
@@ -692,17 +750,19 @@ def main():
                  "delta_mrd_minus_clinical":metric_values(y,pm,mod)[m]-metric_values(y,pc,mod)[m],
                  "bootstrap_ci_low":lo,"bootstrap_ci_high":hi,"valid_bootstrap_replicates":nvalid}
             increment_rows.append(inc)
-        if cohort != "GALAXY":
+        if cohort in ("COSMOS", "Chen"):
             all_ext_y.extend(y.tolist()); all_ext_c.extend(pc.tolist()); all_ext_m.extend(pm.tolist())
     if all_ext_y:
         y=np.asarray(all_ext_y,dtype=int); pc=np.asarray(all_ext_c); pm=np.asarray(all_ext_m)
         for name,pred in (("Clinical-only",pc),("Clinical+MRD",pm)):
-            metric_rows.append({"cohort":"Pooled external","model":name,"n":len(y),"events":int(y.sum()),
+            metric_rows.append({"cohort":"Pooled priority external","model":name,"n":len(y),"events":int(y.sum()),
                                 "event_rate":float(y.mean()),**metric_values(y,pred,mod),"model_frozen":True,
-                                "validation_role":"pooled descriptive external validation"})
+                                "L6_origin_median_month":None,"L6_origin_min_month":None,"L6_origin_max_month":None,
+                                "outcome_window":"cohort-specific L6 assessment through postoperative month 12",
+                                "validation_role":"pooled priority external validation (COSMOS + Chen)"})
         d=paired_delta_ci(y,pc,pm,mod)
         for m,(lo,hi,nvalid) in d.items():
-            increment_rows.append({"cohort":"Pooled external","n":len(y),"events":int(y.sum()),"metric":m,
+            increment_rows.append({"cohort":"Pooled priority external","n":len(y),"events":int(y.sum()),"metric":m,
                 "clinical_only":metric_values(y,pc,mod)[m],"clinical_plus_mrd":metric_values(y,pm,mod)[m],
                 "delta_mrd_minus_clinical":metric_values(y,pm,mod)[m]-metric_values(y,pc,mod)[m],
                 "bootstrap_ci_low":lo,"bootstrap_ci_high":hi,"valid_bootstrap_replicates":nvalid})
@@ -720,7 +780,49 @@ def main():
             "after_L6_history_oob":after_metrics[metric],
             "delta_after_minus_before":after_metrics[metric]-before_metrics[metric],
             "delta_ci_low":lo,"delta_ci_high":hi,"valid_bootstrap_replicates":nvalid,
-            "n":len(galaxy),"events":int(same_y.sum()),"same_outcome_window":"(200 days, 365.24 days]"})
+            "n":len(galaxy),"events":int(same_y.sum()),"same_outcome_window":"(182.62125 days, 365.2425 days]"})
+
+    # Keep the previously completed day-200 analysis as a secondary sensitivity
+    # and make the comparison explicit beside the nominal day-182.6 primary run.
+    old_tables = root / "analysis_runs" / "galaxy_2024_l6_l12" / "outputs" / "tables"
+    old_boot_path = old_tables / "galaxy_internal_bootstrap_metrics.csv"
+    old_external_path = old_tables / "external_validation_metrics.csv"
+    old_same_path = old_tables / "same_horizon_model_performance.csv"
+    day200_boot, day200_internal = {}, None
+    if old_boot_path.exists() and old_external_path.exists():
+        with old_boot_path.open(encoding="utf-8-sig", newline="") as f:
+            for row in csv.DictReader(f):
+                day200_boot[(row["model"], row["metric"])] = row
+        with old_external_path.open(encoding="utf-8-sig", newline="") as f:
+            day200_internal = next((row for row in csv.DictReader(f)
+                                    if row.get("cohort") == "GALAXY" and row.get("model") == "Clinical-only"), None)
+    landmark_sensitivity_rows=[]
+    landmark_specs=[("nominal_L6_day182.6_primary",len(galaxy),int(sum(r["y"] for r in galaxy)),boot_rows)]
+    if day200_internal and day200_boot:
+        landmark_specs.append(("day200_secondary_sensitivity",int(day200_internal["n"]),int(day200_internal["events"]),day200_boot))
+    for landmark,n_landmark,event_count,source_rows in landmark_specs:
+        for model_name in ("Clinical-only","Clinical+MRD"):
+            for metric in ("auc","average_precision","brier"):
+                q=next(r for r in source_rows if r["model"]==model_name and r["metric"]==metric) if isinstance(source_rows,list) else source_rows[(model_name,metric)]
+                landmark_sensitivity_rows.append({"landmark_analysis":landmark,"n":n_landmark,"events":event_count,
+                    "model":model_name,"metric":metric,"apparent":float(q["apparent"]),
+                    "optimism_corrected":float(q["optimism_corrected"]),
+                    "corrected_ci_low":float(q["corrected_ci_low"]),"corrected_ci_high":float(q["corrected_ci_high"]),
+                    "bootstrap_refits":int(q.get("bootstrap_refits",args.bootstrap))})
+    day200_same={}
+    if old_same_path.exists():
+        with old_same_path.open(encoding="utf-8-sig", newline="") as f:
+            day200_same={row["metric"]:row for row in csv.DictReader(f)}
+    same_horizon_sensitivity_rows=[]
+    for r in same_perf_rows:
+        old=day200_same.get(r["metric"])
+        same_horizon_sensitivity_rows.append({"metric":r["metric"],"day1826_n":r["n"],"day1826_events":r["events"],
+            "day1826_before_L3_oob":r["before_L3_history_oob"],"day1826_after_L6_oob":r["after_L6_history_oob"],
+            "day1826_delta":r["delta_after_minus_before"],
+            "day200_n":int(old["n"]) if old else None,"day200_events":int(old["events"]) if old else None,
+            "day200_before_L3_oob":float(old["before_L3_history_oob"]) if old else None,
+            "day200_after_L6_oob":float(old["after_L6_history_oob"]) if old else None,
+            "day200_delta":float(old["delta_after_minus_before"]) if old else None})
 
     # Same-horizon patient-level update summary, using paired OOB predictions in GALAXY.
     update_rows=[]
@@ -739,7 +841,7 @@ def main():
             "delta_ci_low":ci[2][0],"delta_ci_high":ci[2][1],"prediction_method":"paired patient-level bootstrap out-of-bag",
             "bootstrap_replicates":BOOT_REPS})
 
-    # Descriptive transitions are shown for all cohorts on the same L6-window-end risk set.
+    # Descriptive L3-to-L6 transitions use each cohort's designated L6 risk set.
     transition_rows=[]
     for cohort,rs in rows_by_cohort.items():
         for tr in ("negative_to_negative","negative_to_positive","positive_to_negative","positive_to_positive"):
@@ -748,7 +850,8 @@ def main():
             ev=sum(r["y"] for r in g); lo,hi=wilson(ev,len(g))
             transition_rows.append({"cohort":cohort,"transition":tr,"n":len(g),"events":ev,
                                     "event_rate":ev/len(g),"event_rate_ci_low":lo,"event_rate_ci_high":hi,
-                                    "risk_origin_day":ORIGIN_DAY,"outcome_window":"(200 days, 365.24 days]"})
+                                    "L6_origin_median_month":float(np.median([r.get("landmark_day",ORIGIN_DAY) for r in g])/DAY_PER_MONTH),
+                                    "outcome_window":"cohort-defined L6 assessment to postoperative month 12"})
 
     # Molecular memory at current L6-negative status; predictions use OOB in GALAXY.
     memory_rows=[]
@@ -771,7 +874,8 @@ def main():
                 "mean_predicted_risk":float(np.mean(pr)) if pr else None,
                 "median_predicted_risk":float(np.median(pr)) if pr else None,
                 "prediction_source":"OOB bootstrap" if cohort=="GALAXY" else "frozen GALAXY model",
-                "risk_origin_day":ORIGIN_DAY,"outcome_window":"(200 days, 365.24 days]"})
+                "L6_origin_median_month":float(np.median([r.get("landmark_day",ORIGIN_DAY) for r in g])/DAY_PER_MONTH),
+                "outcome_window":"cohort-defined L6 assessment to postoperative month 12"})
 
     # Patient-specific GALAXY update rows stay in outputs/local_only and are never pushed.
     dynamic_rows=[]; case_candidates=[]
@@ -795,7 +899,7 @@ def main():
            "risk_before_update":float(trajectory_before[i]),"risk_after_update":float(trajectory_after[i]),
            "risk_delta":float(trajectory_after[i]-trajectory_before[i]),"recurrence_time_days":et or "",
            "recurrence_status":label,"followup_days":r.get("followup_days") or "",
-           "endpoint_200d_to_12m":r["y"] if r.get("y") is not None else "","risk_origin_day":ORIGIN_DAY}
+           "endpoint_landmark_to_12m":r["y"] if r.get("y") is not None else "","risk_origin_day":ORIGIN_DAY}
         dynamic_rows.append(d)
         if r.get("y") is not None:
             case_candidates.append({**d,"transition_zh":{"negative_to_negative":"阴→阴","negative_to_positive":"阴→阳","positive_to_negative":"阳→阴","positive_to_positive":"阳→阳"}[state],
@@ -815,6 +919,9 @@ def main():
     csv_write(tables/"clinical_vs_mrd_increment.csv",increment_rows)
     csv_write(tables/"same_horizon_update_summary.csv",update_rows)
     csv_write(tables/"same_horizon_model_performance.csv",same_perf_rows)
+    csv_write(tables/"galaxy_l6_landmark_sensitivity_comparison.csv",landmark_sensitivity_rows)
+    csv_write(tables/"same_horizon_landmark_sensitivity_comparison.csv",same_horizon_sensitivity_rows)
+    csv_write(tables/"galaxy_l6_l12_trajectory_main_table.csv",trajectory_main_rows)
     csv_write(tables/"molecular_memory_by_cohort.csv",memory_rows)
     csv_write(tables/"dynamic_state_transition_summary.csv",transition_rows)
     csv_write(tables/"galaxy_cohort_missingness_and_sample_audit.csv",audit)
@@ -825,32 +932,60 @@ def main():
     make_figures(figs,metric_rows,update_rows,memory_rows,transition_rows,selected_cases)
 
     def fmt(x):
-        try: return f"{float(x):.3f}"
+        try:
+            value=float(x)
+            return f"{value:.3f}" if math.isfinite(value) else "NA"
         except (ValueError,TypeError): return "NA"
     g_clin=next(r for r in metric_rows if r["cohort"]=="GALAXY" and r["model"]=="Clinical-only")
     g_mrd=next(r for r in metric_rows if r["cohort"]=="GALAXY" and r["model"]=="Clinical+MRD")
+    internal_calibration_lines=[]
+    for model_name in ("Clinical-only", "Clinical+MRD"):
+        row={r["metric"]:r for r in boot_rows if r["model"]==model_name}
+        ci,cs=row["calibration_intercept"],row["calibration_slope"]
+        internal_calibration_lines.append(
+            f"| {model_name} | {fmt(ci['apparent'])} | {fmt(ci['optimism_corrected'])} ({fmt(ci['corrected_ci_low'])}, {fmt(ci['corrected_ci_high'])}) | {fmt(cs['apparent'])} | {fmt(cs['optimism_corrected'])} ({fmt(cs['corrected_ci_low'])}, {fmt(cs['corrected_ci_high'])}) |")
+    landmark_sensitivity_lines=[]
+    for landmark in ("nominal_L6_day182.6_primary","day200_secondary_sensitivity"):
+        for model_name in ("Clinical-only","Clinical+MRD"):
+            a=next((r for r in landmark_sensitivity_rows if r["landmark_analysis"]==landmark and r["model"]==model_name and r["metric"]=="auc"),None)
+            p=next((r for r in landmark_sensitivity_rows if r["landmark_analysis"]==landmark and r["model"]==model_name and r["metric"]=="average_precision"),None)
+            b=next((r for r in landmark_sensitivity_rows if r["landmark_analysis"]==landmark and r["model"]==model_name and r["metric"]=="brier"),None)
+            if a and p and b:
+                label="主分析 day182.6" if landmark=="nominal_L6_day182.6_primary" else "敏感性 day200"
+                landmark_sensitivity_lines.append(f"| {label} | {a['n']} | {a['events']} | {model_name} | {fmt(a['optimism_corrected'])} ({fmt(a['corrected_ci_low'])}, {fmt(a['corrected_ci_high'])}) | {fmt(p['optimism_corrected'])} ({fmt(p['corrected_ci_low'])}, {fmt(p['corrected_ci_high'])}) | {fmt(b['optimism_corrected'])} ({fmt(b['corrected_ci_low'])}, {fmt(b['corrected_ci_high'])}) |")
     ext_lines=[]
-    for c in ("Chen","COSMOS","ColonAiQ","Pooled external"):
+    for c in ("COSMOS","Chen","ColonAiQ","Pooled priority external"):
         a=next((r for r in metric_rows if r["cohort"]==c and r["model"]=="Clinical-only"),None)
         b=next((r for r in metric_rows if r["cohort"]==c and r["model"]=="Clinical+MRD"),None)
         if a and b:
-            ext_lines.append(f"| {c} | {b['n']} | {b['events']} | {fmt(a['auc'])} / {fmt(a['average_precision'])} / {fmt(a['brier'])} | {fmt(b['auc'])} / {fmt(b['average_precision'])} / {fmt(b['brier'])} |")
+            role = "优先独立验证" if c in ("COSMOS", "Chen") else ("探索性（事件少）" if c == "ColonAiQ" else "优先队列合并")
+            l6_month = (f"{fmt(b['L6_origin_median_month'])} ({fmt(b['L6_origin_min_month'])}–{fmt(b['L6_origin_max_month'])})"
+                        if b.get("L6_origin_median_month") is not None else "按各自L6节点")
+            ext_lines.append(f"| {c} | {role} | {l6_month} | {b['n']} | {b['events']} | {fmt(a['auc'])} / {fmt(a['average_precision'])} / {fmt(a['brier'])} | {fmt(b['auc'])} / {fmt(b['average_precision'])} / {fmt(b['brier'])} |")
+    external_calibration_lines=[]
+    for c in ("COSMOS","Chen","ColonAiQ"):
+        for model_name in ("Clinical-only","Clinical+MRD"):
+            r=next((x for x in metric_rows if x["cohort"]==c and x["model"]==model_name),None)
+            if r:
+                external_calibration_lines.append(f"| {c} | {model_name} | {fmt(r['calibration_intercept'])} | {fmt(r['calibration_slope'])} |")
     group_lines=[f"| {r['transition_zh']} | {r['n']} | {r['events']} | {r['observed_recurrence_rate']:.1%} | {r['median_risk_before']:.1%} | {r['median_risk_after']:.1%} | {r['median_delta_risk']:+.1%} ({r['delta_ci_low']:+.1%}, {r['delta_ci_high']:+.1%}) |" for r in update_rows]
     perf_lines=[f"| {r['metric']} | {r['before_L3_history_oob']:.3f} | {r['after_L6_history_oob']:.3f} | {r['delta_after_minus_before']:+.3f} ({r['delta_ci_low']:+.3f}, {r['delta_ci_high']:+.3f}) |" for r in same_perf_rows]
+    same_horizon_sensitivity_lines=[f"| {r['metric']} | {r['day1826_before_L3_oob']:.3f} | {r['day1826_after_L6_oob']:.3f} | {r['day1826_delta']:+.3f} | {fmt(r['day200_before_L3_oob'])} | {fmt(r['day200_after_L6_oob'])} | {fmt(r['day200_delta'])} |" for r in same_horizon_sensitivity_rows]
     memory_lines=[f"| {r['cohort']} | {r['memory_group']} | {r['n']} | {r['events']} | {r['observed_recurrence_rate']:.1%} | {r['mean_predicted_risk']:.1%} |" for r in memory_rows]
+    trajectory_main_lines=[f"| {r['trajectory_zh']} | {'阳性' if r['current_l6_status']=='positive' else '阴性'} | {r['prior_mrd_history']} | {r['n']} | {r['events_6_to_12m']} | {r['recurrence_rate_6_to_12m']:.1%} ({r['recurrence_rate_wilson_95ci_low']:.1%}–{r['recurrence_rate_wilson_95ci_high']:.1%}) | {r['mean_oob_predicted_risk']:.1%} | {r['median_oob_predicted_risk']:.1%} |" for r in trajectory_main_rows]
     report=f"""# GALAXY 开发、独立公共验证与动态风险更新
 
 ## 分析目标与时间定义
 
 开发队列为 GALAXY 2024；Chen、COSMOS 和 ColonAiQ 在模型冻结后分别验证。结局为临床复发，不含 ctDNA molecular recurrence。临床变量限定为分期、年龄、性别；GALAXY 患者级补充表没有肿瘤部位字段，因此核心模型不含 site。MRD 使用阳性/阴性，不拼接 VAF 或不同 assay 的连续值。
 
-**时间定义与泄漏保护：** GALAXY 原文把术后160–200天定义为“6-month timepoint”，因此将该研究定义窗口称作临床 L6 是恰当的。补充表2没有个体采血日；为保证所有 L6 检测窗口均已结束，主分析把共同风险起点放在第200天，纳入第200天仍未复发者，预测 **(200天, 365.24天]** 内临床复发。临床上可表述为“基于术后6个月 ctDNA 窗口信息的12个月复发预测”；其精确统计风险窗从第200天开始，不等同于严格第182.6天或每位患者实际采血日开始。严格按第182.6天起算的 GALAXY 敏感性分析无法识别，不能臆造采血日。
+**主分析：名义L6 landmark。** GALAXY 原文将术后160–200天定义为6-month timepoint。本研究把该研究定义的 ctDNA 状态按名义术后6个月 day 182.6 作为 L6 输入，纳入 day 182.6 时无临床复发者，预测 **(182.6天, 365.24天]** 内临床复发。此为临床主分析。由于补充表2没有 GALAXY 患者级采血日期，day 182.6 是名义 landmark，采血实际日在160–200天内；该时间精度作为局限报告。day 200 起点的分析另列为时间窗敏感性分析。
 
-其他队列的主分析状态取各自160–200天窗口内最接近182.6天的实测结果；L3 取70–112天，MRD window 取14–<70天。所有结局使用同一第200天起点，且事件必须晚于起点。窗口和可用人数见 `mrd_window_harmonization_audit.csv`。
+L6按各研究自己的临床节点定义，不统一转换成同一个采血日：GALAXY采用原文160–200天研究定义窗（补充表无个体采血日，主分析风险起点按名义day182.6）；Chen按原文预设的术后6个月采样节点，在实际数据中选取4.5–7.5个月内最接近6个月的一次；COSMOS使用原始补充表中的scheduled month-6列；ColonAiQ按每3个月监测方案，选取4.5–7.5个月内最接近术后6个月的一次。Chen与ColonAiQ容差取季度采样间隔的一半，实际采样日作为该患者的风险起点。复发结局从各自L6评估之后计算至术后12个月。L3仍按70–112天、MRD window按14–<70天整理。研究采样方案分别见[GALAXY论文](https://doi.org/10.1038/s41591-024-03254-6)、[Chen等](https://d-nb.info/1241319898/34)、[COSMOS论文](https://pmc.ncbi.nlm.nih.gov/articles/PMC11443202/)及[ColonAiQ论文](https://pmc.ncbi.nlm.nih.gov/articles/PMC10119774/)。实际纳入人数及所选L6采样月份见 `mrd_window_harmonization_audit.csv`。
 
 ## GALAXY 开发
 
-匹配的三时间点风险集：N={len(galaxy)}，(200天,12月]复发={int(sum(r['y'] for r in galaxy))}。ridge logistic 的惩罚系数 λ=1；年龄以开发集均值{full_models['L6_after']['scale']['age_mean']:.2f}岁和标准差{full_models['L6_after']['scale']['age_sd']:.2f}标准化。Clinical-only 与 Clinical+MRD 在完全相同患者上比较。MRD模型变量为 L6 当前阳性及既往已观测 MRD 状态中任一次阳性；GALAXY 可用的既往列为 MRD-window/L3。外部队列按其实际 L6 前采样历史派生同一“ever observed positive”概念，检测频率不同会影响该特征的观察机会。
+匹配的三时间点风险集：N={len(galaxy)}，(182.6天,12月]复发={int(sum(r['y'] for r in galaxy))}。ridge logistic 的惩罚系数 λ=1；年龄以开发集均值{full_models['L6_after']['scale']['age_mean']:.2f}岁和标准差{full_models['L6_after']['scale']['age_sd']:.2f}标准化。Clinical-only 与 Clinical+MRD 在完全相同患者上比较。MRD模型变量为 L6 当前阳性及既往已观测 MRD 状态中任一次阳性；GALAXY 可用的既往列为 MRD-window/L3。外部队列按其实际 L6 前采样历史派生同一“ever observed positive”概念，检测频率不同会影响该特征的观察机会。
 
 | 模型 | apparent AUC | optimism-corrected AUC | apparent AP | corrected AP | apparent Brier | corrected Brier |
 |---|---:|---:|---:|---:|---:|---:|
@@ -859,15 +994,43 @@ def main():
 
 患者级 bootstrap 重抽样 {args.bootstrap} 次。校准截距、斜率及OOB校准分箱见相应表；完整回归系数与标准化参数已冻结至 `outputs/models/galaxy_frozen_ridge_models.json`。没有使用外部验证结果调参、重校准或选阈值。
 
+### GALAXY校准
+
+| 模型 | apparent截距 | optimism-corrected截距 (95% bootstrap CI) | apparent斜率 | optimism-corrected斜率 (95% bootstrap CI) |
+|---|---:|---:|---:|---:|
+{chr(10).join(internal_calibration_lines)}
+
+### day200 次要时间窗敏感性分析
+
+day200结果来自此前完整运行并保留在原分析目录的1000次bootstrap；它作为时间窗敏感性结果，不替代day182.6主分析。两个landmark的风险集不同，数值用于评估起点选择的稳健性。
+
+| 分析 | N | events | 模型 | corrected AUC (95% bootstrap CI) | corrected AP (95% bootstrap CI) | corrected Brier (95% bootstrap CI) |
+|---|---:|---:|---|---:|---:|---:|
+{chr(10).join(landmark_sensitivity_lines)}
+
 ## 冻结模型的公共验证
 
 表内顺序为 AUC / average precision / Brier；校准截距和斜率见 `external_validation_metrics.csv`。
 
-| 队列 | N | events | Clinical-only | Clinical+MRD |
-|---|---:|---:|---:|---:|
+| 队列 | 验证角色 | L6采样月，中位数（范围） | N | events | Clinical-only | Clinical+MRD |
+|---|---|---:|---:|---:|---:|---:|
 {chr(10).join(ext_lines)}
 
-外部队列按各自窗口、相同结局起点与同一套冻结系数评估；未做验证集特征选择、调参或重校准。MRD 增量的配对 bootstrap CI 见 `clinical_vs_mrd_increment.csv`。评估数据来自既有公开补充材料，样本量/事件少的队列其 calibration slope 与 AP 会不稳定，应结合 N、events 和区间解释。
+外部验证按COSMOS和Chen作为优先队列报告；ColonAiQ因可用事件少仅作探索性结果。纳入者须在各自L6评估前未复发、有可用既往MRD历史，并能判定术后12个月结局；事件要求发生在L6评估后、且不迟于术后12个月。各患者的L6到12个月预测时长会随实际评估日期略有不同，这保留了真实研究采样节奏。未做验证集特征选择、调参或重校准。MRD增量的配对bootstrap CI见 `clinical_vs_mrd_increment.csv`。样本量/事件少的队列其calibration slope与AP会不稳定，应结合N、events和区间解释。
+
+| 队列 | 模型 | 校准截距 | 校准斜率 |
+|---|---|---:|---:|
+{chr(10).join(external_calibration_lines)}
+
+## GALAXY L6→L12 主轨迹结果
+
+以下独立主表按**当前L6状态 + L6之前已观察到的MRD历史**划分持续阴性、转阳、清除和持续阳性。事件为名义day 182.6之后至术后12个月内临床复发；“平均预测风险/中位预测风险”来自GALAXY主模型的患者级bootstrap OOB预测。既往“无阳性”指纳入模型的既往可观测结果均无阳性，不代表未检测时间段的真实阴性。
+
+| L6→L12轨迹 | 当前L6 MRD | 既往MRD历史 | N | 6–12月复发 | 观察复发率 (95% Wilson CI) | 平均OOB预测风险 | 中位OOB预测风险 |
+|---|---|---|---:|---:|---:|---:|---:|
+{chr(10).join(trajectory_main_lines)}
+
+可下载的独立汇总表为 `outputs/tables/galaxy_l6_l12_trajectory_main_table.csv`；患者级预测仍只保存在本地 `outputs/local_only/`。
 
 ## 分子记忆
 
@@ -881,7 +1044,7 @@ GALAXY 的分子记忆在 OOB 估计中有清楚分层；验证队列的“既�
 
 ## 局限
 
-1. GALAXY 的160–200天窗口按原文可称为研究定义的6个月 L6；主分析的共同统计起点为第200天，排除了第182.6–200天复发，因此不是严格以第182.6天或个体实际采血日为起点的风险估计。
+1. GALAXY 的主分析将研究定义的160–200天状态映射到名义day 182.6 L6 landmark；实际采血日不可见，因此不能确认每个状态都在该名义日期前获得。day 200起点另作敏感性分析。
 2. GALAXY 缺少患者级3/6月采血日，不能完成严格≤6月敏感性分析，也不能用真实日期拟合患者特异的动态生存模型。
 3. GALAXY 没有个体 site，因此临床底模使用 stage、age、sex；无法检验加入部位后的效能。
 4. 化疗时间、CEA、影像随访等没有在所有公共队列同定义，未进入公共 core model；模型估计关联与预测，不解释 MRD 清除的因果或治疗反应效应。
@@ -897,7 +1060,7 @@ GALAXY 的分子记忆在 OOB 估计中有清楚分层；验证队列的“既�
 
 ## 目标
 
-在同一组 GALAXY 患者中，两个模型预测完全相同的结局 **(200天, 365.24天] 临床复发**：before 只用临床信息及 L3/MRD-window history；after 增加 L6 ctDNA 与截至L6的既往阳性记忆。模型形式均为 ridge logistic、λ=1；同一病人风险集；组间风险使用1000次患者级 bootstrap 的 out-of-bag (OOB) 预测，以降低开发集表观拟合偏倚。
+在同一组 GALAXY 患者中，两个模型预测完全相同的结局 **(182.6天, 365.24天] 临床复发**：before 只用临床信息及 L3/MRD-window history；after 增加 L6 ctDNA 与截至L6的既往阳性记忆。模型形式均为 ridge logistic、λ=1；同一病人风险集；组间风险使用1000次患者级 bootstrap 的 out-of-bag (OOB) 预测，以降低开发集表观拟合偏倚。
 
 ## 3月→6月状态分组
 
@@ -913,6 +1076,12 @@ GALAXY 的分子记忆在 OOB 估计中有清楚分层；验证队列的“既�
 
 `Δrisk = risk_after - risk_before`。负→阳应上调、阳→阴应下调的方向以估计结果为准，不预设必须成立。稀疏的转换/清除亚组需谨慎解读。完整患者级风险列只保存在 `outputs/local_only/patient_dynamic_predictions.csv`。真实代表性患者SVG也只在 `outputs/local_only/`。
 
+同一结局窗的起点敏感性（day200为此前完成的次要分析，风险集不同）：
+
+| 指标 | day182.6 L3 OOB | day182.6 L6 OOB | Δ | day200 L3 OOB | day200 L6 OOB | Δ |
+|---|---:|---:|---:|---:|---:|---:|
+{chr(10).join(same_horizon_sensitivity_lines)}
+
 ## 解释
 
 这是固定未来结局窗口上的纵向风险更新，不是比较 L3→12 与 L6→12 两个不同长度预测窗。它支持回答“同一患者在看到新L6 MRD后，面对同一结局窗口的风险估计如何变化”。由于两模型均在GALAXY开发，OOB预测用于组别汇总，独立可迁移性由冻结模型的Chen/COSMOS/ColonAiQ验证另行判断。
@@ -923,13 +1092,13 @@ GALAXY 的分子记忆在 OOB 估计中有清楚分层；验证队列的“既�
 
 本轮完成了固定结局窗口的 same-horizon 更新，不将其称作连续时间 joint model 或 time-dependent Cox。
 
-GALAXY 原文将术后160–200天称为6-month timepoint，故以研究定义窗口构造 L6 状态具有临床可解释性。但补充表没有患者级3/6月采血日期，不能把个体时间变 covariate 放在确切采血时点，也不能检验采血与复发的逐患者先后顺序。因此本轮**不拟合 time-dependent Cox 或 landmark supermodel**，不插值采血日。共同风险起点设为第200天，估计第200天至12个月的风险；这可作为基于6个月 ctDNA 窗口的12月预测来报告，但并非严格第182.6天或个体实际采血日开始的风险。严格≤182.6天起点的 GALAXY 分析无法识别。
+GALAXY 原文将术后160–200天称为6-month timepoint。本轮主分析按用户指定，以名义day 182.6作为 L6 landmark，预测至术后365.24天。补充表没有患者级3/6月采血日期，不能把个体时间变 covariate 放在确切采血时点，也不能检验采血与复发的逐患者先后顺序。因此本轮**不拟合 time-dependent Cox 或 landmark supermodel**，不插值采血日。day 200 作为次要敏感性分析，用于检验等待完整L6窗口结束的影响。
 
 ## 主要泄漏检查
 
-- L6 MRD 输入只来自 GALAXY 表中的研究定义6月列，外部队列只取160–200天内实测状态。
-- 主风险集排除第200天及以前复发者；外部队列的采样日有记录，所选状态必须早于复发事件。
-- 目标窗口为(200,365.24]天；复发早于或等于200天的患者不进入风险集；复发晚于365.24天只作为12月前无复发对照；非复发对照须有至少365.24天可确认随访。
+- GALAXY主分析采用研究定义的160–200天L6状态和名义day182.6风险起点；每个外部队列按自己的study-defined/clinically designated L6节点使用对应结果，没有跨队列统一的日数截止。
+- 各队列分别排除L6评估前或当日已复发者；预测结局是L6评估后至术后365.24天的临床复发。GALAXY个体采血日不可见，故只能使用名义day182.6；该研究窗内的实际事件与采血先后关系不能逐患者核验。
+- 复发晚于术后365.24天只作为12月前无复发对照；非复发对照须有至少365.24天可确认随访。
 - 未观测 ctDNA 不编码为阴性；临床结局早期截尾或随访不足者排除于拟合/验证集。
 - 外部队列未用于特征选择、惩罚参数选择、阈值选择或重校准。
 - 患者级同一结局窗风险更新用同一人群与配对OOB风险，避免将不同预测时距的风险直接相减。

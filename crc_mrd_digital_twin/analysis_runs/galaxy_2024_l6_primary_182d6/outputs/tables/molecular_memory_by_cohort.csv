@@ -1,0 +1,9 @@
+﻿cohort,memory_group,n,events,observed_recurrence_rate,observed_rate_ci_low,observed_rate_ci_high,mean_predicted_risk,median_predicted_risk,prediction_source,L6_origin_median_month,outcome_window
+GALAXY,never_positive,933,38,0.04072883172561629,0.029815539972757966,0.055408547912079435,0.04514493476749197,0.05198624360673256,OOB bootstrap,6.0,cohort-defined L6 assessment to postoperative month 12
+GALAXY,previously_positive_now_negative,80,14,0.175,0.10720636440977926,0.2725754197883133,0.16415070335903084,0.18149539477741183,OOB bootstrap,6.0,cohort-defined L6 assessment to postoperative month 12
+Chen,never_positive,115,2,0.017391304347826087,0.004782352362605557,0.06120016668847053,0.01868123275028527,0.02107449063936407,frozen GALAXY model,6.373716632443532,cohort-defined L6 assessment to postoperative month 12
+Chen,previously_positive_now_negative,6,2,0.3333333333333333,0.09677141110578041,0.700006684861608,0.05168869061891626,0.04620043720543948,frozen GALAXY model,6.012320328542096,cohort-defined L6 assessment to postoperative month 12
+ColonAiQ,never_positive,59,2,0.03389830508474576,0.00934590909166131,0.11543570750110752,0.01854243310015801,0.021029886168145533,frozen GALAXY model,6.5,cohort-defined L6 assessment to postoperative month 12
+ColonAiQ,previously_positive_now_negative,16,2,0.125,0.03497748774324047,0.36022827265758695,0.057696656788548996,0.06290473085750085,frozen GALAXY model,6.1,cohort-defined L6 assessment to postoperative month 12
+COSMOS,never_positive,271,6,0.02214022140221402,0.010185638114266326,0.04745289607438041,0.032159697341277355,0.021175189421072563,frozen GALAXY model,6.0,cohort-defined L6 assessment to postoperative month 12
+COSMOS,previously_positive_now_negative,15,1,0.06666666666666667,0.011866895493268553,0.2981652987378003,0.12175531872140567,0.14601786950251955,frozen GALAXY model,6.0,cohort-defined L6 assessment to postoperative month 12
