@@ -2,7 +2,7 @@
 
 本轮完成了固定结局窗口的 same-horizon 更新，不将其称作连续时间 joint model 或 time-dependent Cox。
 
-GALAXY 补充表提供DFS天数和研究标注的3月、6月 ctDNA 状态，但没有患者级3/6月采血日期。3月窗口为70–112天、6月窗口为160–200天；无法诚实地将患者级时间变 covariate 放在确切采血时点，也无法评估采血前后事件顺序。因此本轮**不拟合 time-dependent Cox 或 landmark supermodel**，不插值采血日。严格≤182.6天的 Galaxy 分析同样不可识别。主模型改用200天共同风险起点的保守 landmark，并明确为 L6-window-to-12m 近似。
+GALAXY 原文将术后160–200天称为6-month timepoint，故以研究定义窗口构造 L6 状态具有临床可解释性。但补充表没有患者级3/6月采血日期，不能把个体时间变 covariate 放在确切采血时点，也不能检验采血与复发的逐患者先后顺序。因此本轮**不拟合 time-dependent Cox 或 landmark supermodel**，不插值采血日。共同风险起点设为第200天，估计第200天至12个月的风险；这可作为基于6个月 ctDNA 窗口的12月预测来报告，但并非严格第182.6天或个体实际采血日开始的风险。严格≤182.6天起点的 GALAXY 分析无法识别。
 
 ## 主要泄漏检查
 
