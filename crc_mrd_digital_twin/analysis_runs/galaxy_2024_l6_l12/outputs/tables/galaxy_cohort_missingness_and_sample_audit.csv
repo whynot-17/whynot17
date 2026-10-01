@@ -1,0 +1,5 @@
+cohort,total,clinical_complete,mrd0_status,l3_status,l6_status,complete_3timepoints,prior_mrd_history_before_l6,event_free_at_200d,known_outcome_by_12m,events_200d_to_12m,controls_through_12m,l6_sample_160_200d,strict_l6_date_known,validation_risk_set,validation_events,l6_sample_at_or_before_6mo
+GALAXY,2240,2240,2110,1708,1396,1261,2175,1998,1754,140,1614,1396,0,1153,101,
+Chen,240,240,1,0,98,0,98,214,179,13,166,98,,79,5,42
+ColonAiQ,299,299,254,35,43,9,39,221,155,13,142,43,,28,1,18
+COSMOS,334,334,317,305,303,267,303,323,321,10,311,303,,295,10,303

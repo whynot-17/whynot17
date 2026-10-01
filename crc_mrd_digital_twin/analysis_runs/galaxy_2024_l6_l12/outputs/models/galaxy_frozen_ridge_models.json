@@ -1,0 +1,72 @@
+{
+  "development_cohort": "GALAXY",
+  "origin_day": 200.0,
+  "horizon_day": 365.2425,
+  "outcome": "clinical recurrence in (200 days, 365.24 days]",
+  "ridge_lambda": 1.0,
+  "models": {
+    "clinical": {
+      "terms": [
+        "intercept",
+        "stage_III_IV",
+        "age_z",
+        "sex_male"
+      ],
+      "coefficients": [
+        -3.587548476630676,
+        1.4359948943815637,
+        0.05636795939283301,
+        0.2301895185265873
+      ],
+      "age_scale": {
+        "age_mean": 66.32149532710281,
+        "age_sd": 11.338603550449996
+      }
+    },
+    "L3_before": {
+      "terms": [
+        "intercept",
+        "stage_III_IV",
+        "age_z",
+        "sex_male",
+        "current_mrd_positive_at_3m",
+        "ever_prior_mrd_positive"
+      ],
+      "coefficients": [
+        -3.8018315476463633,
+        1.155694789110158,
+        0.053342471612534074,
+        0.11415655355592211,
+        2.3287489705704303,
+        1.1317942722762682
+      ],
+      "age_scale": {
+        "age_mean": 66.32149532710281,
+        "age_sd": 11.338603550449996
+      }
+    },
+    "L6_after": {
+      "terms": [
+        "intercept",
+        "stage_III_IV",
+        "age_z",
+        "sex_male",
+        "current_mrd_positive_at_6m",
+        "ever_prior_mrd_positive"
+      ],
+      "coefficients": [
+        -4.114085780684533,
+        1.2447228902666843,
+        0.010088548012250809,
+        0.25457151861365584,
+        2.9272980053511706,
+        1.0911374950671417
+      ],
+      "age_scale": {
+        "age_mean": 66.32149532710281,
+        "age_sd": 11.338603550449996
+      }
+    }
+  },
+  "feature_note": "GALAXY patient-level site is unavailable; clinical core uses stage, age, sex. MRD is binary/assay-agnostic. Ever-prior-positive summarizes observed pre-L6 statuses; prior testing density differs by cohort."
+}

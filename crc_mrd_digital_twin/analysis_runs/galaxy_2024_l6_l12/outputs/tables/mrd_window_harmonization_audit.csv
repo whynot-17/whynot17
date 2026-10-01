@@ -1,0 +1,5 @@
+cohort,L3_rule,L6_rule,L6_records_160_200,L6_records_at_or_before_6mo,risk_origin_day,outcome_window,patient_specific_L6_date_available
+GALAXY,study-defined 70-112 day,study-defined 160-200 day; individual date absent,1396,not identifiable; individual dates absent,200.0,"(200 days, 365.24 days] recurrence",no
+Chen,closest status within 70-112 days,closest status within 160-200 days,98,42,200.0,"(200 days, 365.24 days] recurrence",yes
+ColonAiQ,closest status within 70-112 days,closest status within 160-200 days,43,18,200.0,"(200 days, 365.24 days] recurrence",yes
+COSMOS,closest status within 70-112 days,closest status within 160-200 days,303,303,200.0,"(200 days, 365.24 days] recurrence",yes
