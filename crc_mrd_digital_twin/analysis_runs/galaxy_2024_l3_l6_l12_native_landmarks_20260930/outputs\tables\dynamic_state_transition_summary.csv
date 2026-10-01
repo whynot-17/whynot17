@@ -1,0 +1,13 @@
+﻿cohort,transition,n,events,event_rate,event_rate_ci_low,event_rate_ci_high,L6_origin_median_month,outcome_window
+GALAXY,negative_to_negative,995,44,0.044221105527638194,0.03310455194586393,0.05884343240105027,6.0,cohort-defined L6 assessment to postoperative month 12
+GALAXY,negative_to_positive,28,19,0.6785714285714286,0.49338843180857617,0.8206675307750504,6.0,cohort-defined L6 assessment to postoperative month 12
+GALAXY,positive_to_negative,18,8,0.4444444444444444,0.24559518127005633,0.6628358435795723,6.0,cohort-defined L6 assessment to postoperative month 12
+GALAXY,positive_to_positive,40,32,0.8,0.652426936536005,0.895000102745623,6.0,cohort-defined L6 assessment to postoperative month 12
+ColonAiQ,negative_to_negative,28,1,0.03571428571428571,0.0063325198490377516,0.1771219774335332,6.7,cohort-defined L6 assessment to postoperative month 12
+ColonAiQ,negative_to_positive,5,1,0.2,0.03622410863243014,0.6244653702374747,6.9,cohort-defined L6 assessment to postoperative month 12
+ColonAiQ,positive_to_negative,3,0,0.0,5.551115123125783e-17,0.5614970317550454,6.1,cohort-defined L6 assessment to postoperative month 12
+ColonAiQ,positive_to_positive,1,0,0.0,0.0,0.7934506856227626,6.1,cohort-defined L6 assessment to postoperative month 12
+COSMOS,negative_to_negative,250,7,0.028,0.013628058600839217,0.05665777612286046,6.0,cohort-defined L6 assessment to postoperative month 12
+COSMOS,negative_to_positive,4,3,0.75,0.30064184258240184,0.9544127391902995,6.0,cohort-defined L6 assessment to postoperative month 12
+COSMOS,positive_to_negative,3,0,0.0,5.551115123125783e-17,0.5614970317550454,6.0,cohort-defined L6 assessment to postoperative month 12
+COSMOS,positive_to_positive,7,4,0.5714285714285714,0.2504583645276572,0.8417801447485302,6.0,cohort-defined L6 assessment to postoperative month 12

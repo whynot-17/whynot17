@@ -1,0 +1,17 @@
+﻿cohort,transition,n,events,recurrence_rate_after_L6_to_12m,wilson_95ci_low,wilson_95ci_high,L3_sample_month_median,L6_origin_month_median,outcome_window
+GALAXY,negative_to_negative,1027,45,0.043816942551119765,0.032906595697658844,0.05812724662378879,,6.0,after cohort-defined L6 through postoperative month 12
+GALAXY,negative_to_positive,30,21,0.7,0.5212421254128504,0.8333525173175619,,6.0,after cohort-defined L6 through postoperative month 12
+GALAXY,positive_to_negative,18,8,0.4444444444444444,0.24559518127005633,0.6628358435795723,,6.0,after cohort-defined L6 through postoperative month 12
+GALAXY,positive_to_positive,40,32,0.8,0.652426936536005,0.895000102745623,,6.0,after cohort-defined L6 through postoperative month 12
+ColonAiQ,negative_to_negative,30,1,0.03333333333333333,0.005908590381612455,0.16670390991409173,3.7,6.7,after cohort-defined L6 through postoperative month 12
+ColonAiQ,negative_to_positive,5,1,0.2,0.03622410863243014,0.6244653702374747,3.9,6.9,after cohort-defined L6 through postoperative month 12
+ColonAiQ,positive_to_negative,3,0,0.0,5.551115123125783e-17,0.5614970317550454,3.8,6.1,after cohort-defined L6 through postoperative month 12
+ColonAiQ,positive_to_positive,2,1,0.5,0.09453120573423074,0.9054687942657693,3.25,5.5,after cohort-defined L6 through postoperative month 12
+COSMOS,negative_to_negative,263,7,0.026615969581749048,0.012951360953858269,0.053910283782849636,3.0,6.0,after cohort-defined L6 through postoperative month 12
+COSMOS,negative_to_positive,4,3,0.75,0.30064184258240184,0.9544127391902995,3.0,6.0,after cohort-defined L6 through postoperative month 12
+COSMOS,positive_to_negative,3,0,0.0,5.551115123125783e-17,0.5614970317550454,3.0,6.0,after cohort-defined L6 through postoperative month 12
+COSMOS,positive_to_positive,8,4,0.5,0.21521606221387757,0.7847839377861224,3.0,6.0,after cohort-defined L6 through postoperative month 12
+Pooled public (descriptive),negative_to_negative,1320,53,0.04015151515151515,0.030826978443820322,0.05214478383845721,,,after cohort-defined L6 through postoperative month 12; cohorts remain identified in source rows
+Pooled public (descriptive),negative_to_positive,39,25,0.6410256410256411,0.4841814855954854,0.7725791454100714,,,after cohort-defined L6 through postoperative month 12; cohorts remain identified in source rows
+Pooled public (descriptive),positive_to_negative,24,8,0.3333333333333333,0.1797219032729775,0.5329368316186824,,,after cohort-defined L6 through postoperative month 12; cohorts remain identified in source rows
+Pooled public (descriptive),positive_to_positive,50,37,0.74,0.6044684273515117,0.8412847250644762,,,after cohort-defined L6 through postoperative month 12; cohorts remain identified in source rows

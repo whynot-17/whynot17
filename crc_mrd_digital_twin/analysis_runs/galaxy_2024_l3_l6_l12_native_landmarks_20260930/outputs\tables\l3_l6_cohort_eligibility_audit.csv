@@ -1,0 +1,5 @@
+﻿cohort,L3_assessments,L6_assessments,patients_with_both_statuses,patients_with_ordered_L3_before_L6,known_outcome_risk_set_after_L6,events_after_L6_through_12m,L3_rule,outcome_rule
+GALAXY,1708,1396,1307,1307,1115,106,published study-defined 70-112-day L3 window; patient-specific date absent,exclude recurrence on/before cohort L6; recurrence through month 12 or confirmed event-free follow-up through month 12
+Chen,0,154,0,0,0,0,not available: published postoperative ctDNA schedule starts at month 6,exclude recurrence on/before cohort L6; recurrence through month 12 or confirmed event-free follow-up through month 12
+ColonAiQ,61,137,61,61,40,3,quarterly surveillance; closest observed test within 1.5 months of month 3 and before selected L6,exclude recurrence on/before cohort L6; recurrence through month 12 or confirmed event-free follow-up through month 12
+COSMOS,281,303,281,281,278,14,scheduled month-3 status column; exact 3-month node,exclude recurrence on/before cohort L6; recurrence through month 12 or confirmed event-free follow-up through month 12
