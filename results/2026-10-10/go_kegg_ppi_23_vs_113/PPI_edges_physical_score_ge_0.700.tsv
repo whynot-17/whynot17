@@ -1,0 +1,2 @@
+stringId_A	stringId_B	preferredName_A	preferredName_B	ncbiTaxonId	score	nscore	fscore	pscore	ascore	escore	dscore	tscore	gene_A	gene_B	combined_score
+9606.ENSP00000359380	9606.ENSP00000378105	SCD	ELOVL6	9606	0.9	0	0	0	0	0	0.9	0	SCD	ELOVL6	0.9

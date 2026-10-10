@@ -1,0 +1,701 @@
+{
+  "analysis_date": "2026-10-10",
+  "analysis_timestamp_utc": "2026-10-10T12:59:07.978318+00:00",
+  "organism": "Homo sapiens (NCBI taxon 9606)",
+  "query_size": 23,
+  "background_size": 113,
+  "query_all_within_background": true,
+  "gprofiler_database_metadata": {
+    "GO:MF": {
+      "domain_size": 20208,
+      "number_of_terms": 10123,
+      "threshold": 1e-06
+    },
+    "GO:CC": {
+      "domain_size": 22155,
+      "number_of_terms": 4069,
+      "threshold": 1e-06
+    },
+    "GO:BP": {
+      "domain_size": 20972,
+      "number_of_terms": 24546,
+      "threshold": 1e-06
+    },
+    "KEGG": {
+      "domain_size": 8716,
+      "number_of_terms": 586,
+      "threshold": 1e-06
+    }
+  },
+  "gprofiler_query_metadata": {
+    "queries": {
+      "query_1": [
+        "AOC3",
+        "BMP2",
+        "CPT2",
+        "DDIT4",
+        "DES",
+        "ELOVL6",
+        "FABP1",
+        "FHL1",
+        "IL18",
+        "INHBA",
+        "MUC2",
+        "NR3C1",
+        "PCK1",
+        "PLAC8",
+        "RARRES2",
+        "RETSAT",
+        "RGS2",
+        "SCD",
+        "THRB",
+        "TIMP1",
+        "TPSAB1",
+        "UBE2C",
+        "ZP3"
+      ]
+    },
+    "organism": "hsapiens",
+    "all_results": false,
+    "ordered": false,
+    "no_iea": false,
+    "sources": [
+      "GO:MF",
+      "GO:CC",
+      "GO:BP",
+      "KEGG"
+    ],
+    "combined": false,
+    "aresolve": {},
+    "numeric_ns": "ENTREZGENE_ACC",
+    "domain_scope": "custom",
+    "measure_underrepresentation": false,
+    "significance_threshold_method": "g_SCS",
+    "user_threshold": 1.0,
+    "no_evidences": false,
+    "highlight": null
+  },
+  "gprofiler_mapping_metadata": {
+    "failed": [],
+    "ambiguous": {},
+    "duplicates": [],
+    "query": {
+      "query_1": {
+        "mapping": {
+          "AOC3": [
+            "ENSG00000131471"
+          ],
+          "BMP2": [
+            "ENSG00000125845"
+          ],
+          "CPT2": [
+            "ENSG00000157184"
+          ],
+          "DDIT4": [
+            "ENSG00000168209"
+          ],
+          "DES": [
+            "ENSG00000175084"
+          ],
+          "ELOVL6": [
+            "ENSG00000170522"
+          ],
+          "FABP1": [
+            "ENSG00000163586"
+          ],
+          "FHL1": [
+            "ENSG00000022267"
+          ],
+          "IL18": [
+            "ENSG00000150782"
+          ],
+          "INHBA": [
+            "ENSG00000122641"
+          ],
+          "MUC2": [
+            "ENSG00000198788"
+          ],
+          "NR3C1": [
+            "ENSG00000113580"
+          ],
+          "PCK1": [
+            "ENSG00000124253"
+          ],
+          "PLAC8": [
+            "ENSG00000145287"
+          ],
+          "RARRES2": [
+            "ENSG00000106538"
+          ],
+          "RETSAT": [
+            "ENSG00000042445"
+          ],
+          "RGS2": [
+            "ENSG00000116741"
+          ],
+          "SCD": [
+            "ENSG00000099194"
+          ],
+          "THRB": [
+            "ENSG00000151090"
+          ],
+          "TIMP1": [
+            "ENSG00000102265"
+          ],
+          "TPSAB1": [
+            "ENSG00000172236"
+          ],
+          "UBE2C": [
+            "ENSG00000175063"
+          ],
+          "ZP3": [
+            "ENSG00000188372"
+          ]
+        },
+        "ensgs": [
+          "ENSG00000131471",
+          "ENSG00000125845",
+          "ENSG00000157184",
+          "ENSG00000168209",
+          "ENSG00000175084",
+          "ENSG00000170522",
+          "ENSG00000163586",
+          "ENSG00000022267",
+          "ENSG00000150782",
+          "ENSG00000122641",
+          "ENSG00000198788",
+          "ENSG00000113580",
+          "ENSG00000124253",
+          "ENSG00000145287",
+          "ENSG00000106538",
+          "ENSG00000042445",
+          "ENSG00000116741",
+          "ENSG00000099194",
+          "ENSG00000151090",
+          "ENSG00000102265",
+          "ENSG00000172236",
+          "ENSG00000175063",
+          "ENSG00000188372"
+        ]
+      }
+    }
+  },
+  "gprofiler_fdr_metadata": {
+    "queries": {
+      "query_1": [
+        "AOC3",
+        "BMP2",
+        "CPT2",
+        "DDIT4",
+        "DES",
+        "ELOVL6",
+        "FABP1",
+        "FHL1",
+        "IL18",
+        "INHBA",
+        "MUC2",
+        "NR3C1",
+        "PCK1",
+        "PLAC8",
+        "RARRES2",
+        "RETSAT",
+        "RGS2",
+        "SCD",
+        "THRB",
+        "TIMP1",
+        "TPSAB1",
+        "UBE2C",
+        "ZP3"
+      ]
+    },
+    "organism": "hsapiens",
+    "all_results": false,
+    "ordered": false,
+    "no_iea": false,
+    "sources": [
+      "GO:MF",
+      "GO:CC",
+      "GO:BP",
+      "KEGG"
+    ],
+    "combined": false,
+    "aresolve": {},
+    "numeric_ns": "ENTREZGENE_ACC",
+    "domain_scope": "custom",
+    "measure_underrepresentation": false,
+    "significance_threshold_method": "fdr",
+    "user_threshold": 1.0,
+    "no_evidences": false,
+    "highlight": null
+  },
+  "gprofiler_data_version": "e114_eg62_p19_27110d83",
+  "gprofiler_timestamp": "2026-10-10T12:56:23.890498+00:00",
+  "gprofiler_fdr_data_version": "e114_eg62_p19_27110d83",
+  "gprofiler_fdr_timestamp": "2026-10-10T12:56:27.642680+00:00",
+  "string_version": [
+    {
+      "string_version": 12.5,
+      "stable_address": "https://version-12-5.string-db.org"
+    }
+  ],
+  "string_api_base": "https://version-12-5.string-db.org/api",
+  "string_confidence_cutoff": 700,
+  "string_functional_network_stats": {
+    "network_type": "functional",
+    "confidence_threshold": 0.7,
+    "n_query_genes": 23,
+    "n_nodes": 23,
+    "n_edges_score_ge_0.700": 3,
+    "mean_degree_over_all_query_nodes": 0.2608695652173913,
+    "connected_components": 20,
+    "component_sizes": [
+      3,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "largest_component_genes": [
+      "ELOVL6",
+      "PCK1",
+      "SCD"
+    ],
+    "greedy_modularity_communities": [
+      [
+        "ELOVL6",
+        "PCK1",
+        "SCD"
+      ],
+      [
+        "CPT2",
+        "FABP1"
+      ],
+      [
+        "AOC3"
+      ],
+      [
+        "BMP2"
+      ],
+      [
+        "DDIT4"
+      ],
+      [
+        "DES"
+      ],
+      [
+        "FHL1"
+      ],
+      [
+        "IL18"
+      ],
+      [
+        "INHBA"
+      ],
+      [
+        "MUC2"
+      ],
+      [
+        "NR3C1"
+      ],
+      [
+        "PLAC8"
+      ],
+      [
+        "RARRES2"
+      ],
+      [
+        "RETSAT"
+      ],
+      [
+        "RGS2"
+      ],
+      [
+        "THRB"
+      ],
+      [
+        "TIMP1"
+      ],
+      [
+        "TPSAB1"
+      ],
+      [
+        "UBE2C"
+      ],
+      [
+        "ZP3"
+      ]
+    ]
+  },
+  "string_physical_network_stats": {
+    "network_type": "physical",
+    "confidence_threshold": 0.7,
+    "n_query_genes": 23,
+    "n_nodes": 23,
+    "n_edges_score_ge_0.700": 1,
+    "mean_degree_over_all_query_nodes": 0.08695652173913043,
+    "connected_components": 22,
+    "component_sizes": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "largest_component_genes": [
+      "ELOVL6",
+      "SCD"
+    ],
+    "greedy_modularity_communities": [
+      [
+        "ELOVL6",
+        "SCD"
+      ],
+      [
+        "AOC3"
+      ],
+      [
+        "BMP2"
+      ],
+      [
+        "CPT2"
+      ],
+      [
+        "DDIT4"
+      ],
+      [
+        "DES"
+      ],
+      [
+        "FABP1"
+      ],
+      [
+        "FHL1"
+      ],
+      [
+        "IL18"
+      ],
+      [
+        "INHBA"
+      ],
+      [
+        "MUC2"
+      ],
+      [
+        "NR3C1"
+      ],
+      [
+        "PCK1"
+      ],
+      [
+        "PLAC8"
+      ],
+      [
+        "RARRES2"
+      ],
+      [
+        "RETSAT"
+      ],
+      [
+        "RGS2"
+      ],
+      [
+        "THRB"
+      ],
+      [
+        "TIMP1"
+      ],
+      [
+        "TPSAB1"
+      ],
+      [
+        "UBE2C"
+      ],
+      [
+        "ZP3"
+      ]
+    ]
+  },
+  "string_functional_network_stats_score_ge_0.400": {
+    "network_type": "functional",
+    "confidence_threshold": 0.4,
+    "n_query_genes": 23,
+    "n_nodes": 23,
+    "n_edges_score_ge_0.400": 16,
+    "mean_degree_over_all_query_nodes": 1.391304347826087,
+    "connected_components": 13,
+    "component_sizes": [
+      10,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "largest_component_genes": [
+      "CPT2",
+      "DDIT4",
+      "ELOVL6",
+      "FABP1",
+      "IL18",
+      "NR3C1",
+      "PCK1",
+      "RGS2",
+      "SCD",
+      "TIMP1"
+    ],
+    "greedy_modularity_communities": [
+      [
+        "CPT2",
+        "ELOVL6",
+        "FABP1",
+        "PCK1",
+        "SCD"
+      ],
+      [
+        "DDIT4",
+        "NR3C1",
+        "RGS2"
+      ],
+      [
+        "BMP2",
+        "INHBA"
+      ],
+      [
+        "IL18",
+        "TIMP1"
+      ],
+      [
+        "AOC3"
+      ],
+      [
+        "DES"
+      ],
+      [
+        "FHL1"
+      ],
+      [
+        "MUC2"
+      ],
+      [
+        "PLAC8"
+      ],
+      [
+        "RARRES2"
+      ],
+      [
+        "RETSAT"
+      ],
+      [
+        "THRB"
+      ],
+      [
+        "TPSAB1"
+      ],
+      [
+        "UBE2C"
+      ],
+      [
+        "ZP3"
+      ]
+    ]
+  },
+  "string_physical_network_stats_score_ge_0.400": {
+    "network_type": "physical",
+    "confidence_threshold": 0.4,
+    "n_query_genes": 23,
+    "n_nodes": 23,
+    "n_edges_score_ge_0.400": 1,
+    "mean_degree_over_all_query_nodes": 0.08695652173913043,
+    "connected_components": 22,
+    "component_sizes": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "largest_component_genes": [
+      "ELOVL6",
+      "SCD"
+    ],
+    "greedy_modularity_communities": [
+      [
+        "ELOVL6",
+        "SCD"
+      ],
+      [
+        "AOC3"
+      ],
+      [
+        "BMP2"
+      ],
+      [
+        "CPT2"
+      ],
+      [
+        "DDIT4"
+      ],
+      [
+        "DES"
+      ],
+      [
+        "FABP1"
+      ],
+      [
+        "FHL1"
+      ],
+      [
+        "IL18"
+      ],
+      [
+        "INHBA"
+      ],
+      [
+        "MUC2"
+      ],
+      [
+        "NR3C1"
+      ],
+      [
+        "PCK1"
+      ],
+      [
+        "PLAC8"
+      ],
+      [
+        "RARRES2"
+      ],
+      [
+        "RETSAT"
+      ],
+      [
+        "RGS2"
+      ],
+      [
+        "THRB"
+      ],
+      [
+        "TIMP1"
+      ],
+      [
+        "TPSAB1"
+      ],
+      [
+        "UBE2C"
+      ],
+      [
+        "ZP3"
+      ]
+    ]
+  },
+  "string_ppi_enrichment_custom_background": [
+    {
+      "number_of_nodes": 23,
+      "number_of_edges": 3,
+      "average_node_degree": 0.26,
+      "local_clustering_coefficient": 0.174,
+      "expected_number_of_edges": 2,
+      "p_value": 0.3732
+    }
+  ],
+  "string_ppi_enrichment_custom_background_score_ge_0.400": [
+    {
+      "number_of_nodes": 23,
+      "number_of_edges": 16,
+      "average_node_degree": 1.39,
+      "local_clustering_coefficient": 0.357,
+      "expected_number_of_edges": 13,
+      "p_value": 0.2821
+    }
+  ],
+  "gprofiler_significant_terms_by_source": {},
+  "gprofiler_significant_terms_by_source_FDR_sensitivity": {},
+  "gprofiler_min_corrected_p_by_source_FDR_sensitivity": {
+    "GO:BP": 0.45066438953596377,
+    "GO:CC": 0.7827415418861073,
+    "GO:MF": 0.5621402075668998,
+    "KEGG": 0.6954604731153402
+  },
+  "gprofiler_result_effective_domain_sizes_by_source": {
+    "GO:BP": {
+      "min": 113,
+      "max": 113
+    },
+    "GO:CC": {
+      "min": 113,
+      "max": 113
+    },
+    "GO:MF": {
+      "min": 113,
+      "max": 113
+    },
+    "KEGG": {
+      "min": 113,
+      "max": 113
+    }
+  },
+  "gprofiler_source_urls": {
+    "API": "https://biit.cs.ut.ee/gprofiler/api/gost/profile/",
+    "API_documentation": "https://biit.cs.ut.ee/gprofiler/page/apis"
+  },
+  "string_source_urls": {
+    "API_documentation": "https://string-db.org/help/api/",
+    "version": "https://version-12-5.string-db.org/api/tsv/version"
+  }
+}
