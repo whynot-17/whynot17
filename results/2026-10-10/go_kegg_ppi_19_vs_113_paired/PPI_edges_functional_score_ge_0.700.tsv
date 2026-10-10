@@ -1,0 +1,3 @@
+stringId_A	stringId_B	preferredName_A	preferredName_B	ncbiTaxonId	score	nscore	fscore	pscore	ascore	escore	dscore	tscore	gene_A	gene_B	combined_score
+9606.ENSP00000256104	9606.ENSP00000319814	FABP4	PCK1	9606	0.799	0	0	0	0.094	0	0.5	0.592	FABP4	PCK1	0.799
+9606.ENSP00000319814	9606.ENSP00000359380	PCK1	SCD	9606	0.714	0	0	0	0.06	0	0.0	0.709	PCK1	SCD	0.714
