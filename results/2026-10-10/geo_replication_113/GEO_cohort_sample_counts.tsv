@@ -1,0 +1,5 @@
+accession	platform	series_matrix_total_samples	included_tumor_samples	included_normal_samples	complete_patient_pairs_available	complete_patient_pairs_used	healthy_mucosa_excluded	statistical_method	sample_selection
+GSE21510	GPL570	148	19	25	1	1	0	OLS with patient-cluster robust SE	homogenized cancer vs homogenized normal; LCM tumors excluded because GEO says these were separately normalized and no LCM normal group is present
+GSE32323	GPL570	44	17	17	17	17	0	paired t-test	homogenized cancer vs homogenized normal; cell lines excluded
+GSE44076	GPL13667	246	98	98	98	98	50	paired t-test	98 paired tumor/adjacent-normal samples; 50 healthy mucosa samples excluded from the primary comparison
+GSE41258	GPL96	390	182	53	44	44	0	OLS with patient-cluster robust SE	included in analysis=Yes; Primary Tumor vs Normal Colon; other tissue types and No rows excluded
