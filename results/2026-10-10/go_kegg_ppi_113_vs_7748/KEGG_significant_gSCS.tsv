@@ -1,0 +1,7 @@
+source	term_id	term_name	p_value_g_SCS	significant_g_SCS_lt_0.05	query_size_mapped	background_size_effective	overlap_size	term_size	overlap_genes	description
+KEGG	KEGG:03320	PPAR signaling pathway	8.796081481770332e-18	True	113	6462	17	32	ACOX1;ADIPOQ;AQP7;CD36;CPT2;EHHADH;FABP1;FABP4;FADS2;PCK1;PLIN1;PLIN4;RXRA;RXRG;SCD;SCP2;SORBS1	PPAR signaling pathway
+KEGG	KEGG:01212	Fatty acid metabolism	4.8481039814492805e-08	True	113	6462	10	22	ACAA2;ACAT1;ACOX1;CPT2;EHHADH;ELOVL6;FADS2;FASN;SCD;SCP2	Fatty acid metabolism
+KEGG	KEGG:04920	Adipocytokine signaling pathway	7.92935078862404e-07	True	113	6462	9	20	ADIPOQ;CD36;LEPR;NPY;PCK1;RXRA;RXRG;SLC2A1;SLC2A4	Adipocytokine signaling pathway
+KEGG	KEGG:04152	AMPK signaling pathway	0.0007915813543097761	True	113	6462	8	28	ADIPOQ;CD36;CREB3L3;FASN;LEPR;PCK1;SCD;SLC2A4	AMPK signaling pathway
+KEGG	KEGG:01040	Biosynthesis of unsaturated fatty acids	0.00891749607421934	True	113	6462	5	9	ACOX1;ELOVL6;FADS2;SCD;SCP2	Biosynthesis of unsaturated fatty acids
+KEGG	KEGG:00071	Fatty acid degradation	0.019580054487779563	True	113	6462	6	18	ACAA2;ACAT1;ACOX1;CPT2;ECI2;EHHADH	Fatty acid degradation
