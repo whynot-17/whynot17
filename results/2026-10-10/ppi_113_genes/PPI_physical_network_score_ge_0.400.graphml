@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="combined_score" attr.type="double"/>
+<key id="d1" for="graph" attr.name="confidence_threshold" attr.type="double"/>
+<key id="d0" for="graph" attr.name="network_type" attr.type="string"/>
+<graph edgedefault="undirected"><data key="d0">physical</data>
+<data key="d1">0.4</data>
+<node id="ABHD6"/>
+<node id="ACAA2"/>
+<node id="ACAT1"/>
+<node id="ACOX1"/>
+<node id="ACSM3"/>
+<node id="ACSM5"/>
+<node id="ADIPOQ"/>
+<node id="AGTR1"/>
+<node id="ANGPT2"/>
+<node id="AOC3"/>
+<node id="AQP7"/>
+<node id="AR"/>
+<node id="ATP1A2"/>
+<node id="BMP2"/>
+<node id="CACNA2D3"/>
+<node id="CASQ1"/>
+<node id="CCL11"/>
+<node id="CCL24"/>
+<node id="CCR7"/>
+<node id="CD36"/>
+<node id="CDC42EP2"/>
+<node id="CEBPB"/>
+<node id="CFL2"/>
+<node id="CLIP4"/>
+<node id="CMYA5"/>
+<node id="CNR1"/>
+<node id="CNR2"/>
+<node id="CPT2"/>
+<node id="CRAT"/>
+<node id="CREB3L3"/>
+<node id="CYP11A1"/>
+<node id="CYP3A4"/>
+<node id="DDIT4"/>
+<node id="DES"/>
+<node id="DHCR7"/>
+<node id="DUSP1"/>
+<node id="ECI2"/>
+<node id="EHHADH"/>
+<node id="ELOVL6"/>
+<node id="EPAS1"/>
+<node id="ESR1"/>
+<node id="FABP1"/>
+<node id="FABP4"/>
+<node id="FADS2"/>
+<node id="FAS"/>
+<node id="FASN"/>
+<node id="FHL1"/>
+<node id="FLNC"/>
+<node id="FNDC5"/>
+<node id="GCM1"/>
+<node id="HAND2"/>
+<node id="HSPB6"/>
+<node id="HSPB7"/>
+<node id="IL13"/>
+<node id="IL18"/>
+<node id="IL1A"/>
+<node id="INHBA"/>
+<node id="INHBB"/>
+<node id="JPH2"/>
+<node id="LEPR"/>
+<node id="LHB"/>
+<node id="LPCAT3"/>
+<node id="LYNX1"/>
+<node id="MKI67"/>
+<node id="MUC2"/>
+<node id="MYOM1"/>
+<node id="NEB"/>
+<node id="NLRP3"/>
+<node id="NPY"/>
+<node id="NR3C1"/>
+<node id="NR5A1"/>
+<node id="NRAP"/>
+<node id="ORM2"/>
+<node id="PCK1"/>
+<node id="PDK4"/>
+<node id="PEX11A"/>
+<node id="PGR"/>
+<node id="PID1"/>
+<node id="PLAC8"/>
+<node id="PLIN1"/>
+<node id="PLIN4"/>
+<node id="RARRES2"/>
+<node id="RBFOX1"/>
+<node id="RDH16"/>
+<node id="RETSAT"/>
+<node id="RGS2"/>
+<node id="RXRA"/>
+<node id="RXRG"/>
+<node id="RYR1"/>
+<node id="SAA1"/>
+<node id="SAA2"/>
+<node id="SCD"/>
+<node id="SCP2"/>
+<node id="SLC2A1"/>
+<node id="SLC2A4"/>
+<node id="SORBS1"/>
+<node id="SPC24"/>
+<node id="SRL"/>
+<node id="STAR"/>
+<node id="STEAP4"/>
+<node id="SULT1C3"/>
+<node id="THRB"/>
+<node id="TIMP1"/>
+<node id="TNNT1"/>
+<node id="TPM1"/>
+<node id="TPM2"/>
+<node id="TPSAB1"/>
+<node id="TRIM72"/>
+<node id="TRPA1"/>
+<node id="TSLP"/>
+<node id="UBE2C"/>
+<node id="VEGFA"/>
+<node id="ZP3"/>
+<edge source="ACAA2" target="ACAT1">
+  <data key="d2">0.000748</data>
+</edge>
+<edge source="ACOX1" target="SCP2">
+  <data key="d2">0.000953</data>
+</edge>
+<edge source="AQP7" target="PLIN1">
+  <data key="d2">0.000456</data>
+</edge>
+<edge source="AR" target="NR3C1">
+  <data key="d2">0.0008219999999999999</data>
+</edge>
+<edge source="AR" target="PGR">
+  <data key="d2">0.000588</data>
+</edge>
+<edge source="AR" target="NR5A1">
+  <data key="d2">0.000516</data>
+</edge>
+<edge source="AR" target="CEBPB">
+  <data key="d2">0.000456</data>
+</edge>
+<edge source="CACNA2D3" target="RYR1">
+  <data key="d2">0.00054</data>
+</edge>
+<edge source="CASQ1" target="RYR1">
+  <data key="d2">0.0009</data>
+</edge>
+<edge source="CCL11" target="CCR7">
+  <data key="d2">0.00065</data>
+</edge>
+<edge source="CCL24" target="CCR7">
+  <data key="d2">0.00065</data>
+</edge>
+<edge source="CEBPB" target="ESR1">
+  <data key="d2">0.0009699999999999999</data>
+</edge>
+<edge source="CEBPB" target="NR3C1">
+  <data key="d2">0.0008359999999999999</data>
+</edge>
+<edge source="CEBPB" target="CYP11A1">
+  <data key="d2">0.000456</data>
+</edge>
+<edge source="CEBPB" target="STAR">
+  <data key="d2">0.000456</data>
+</edge>
+<edge source="CNR1" target="CNR2">
+  <data key="d2">0.0009809999999999999</data>
+</edge>
+<edge source="CYP11A1" target="NR5A1">
+  <data key="d2">0.000456</data>
+</edge>
+<edge source="DHCR7" target="NR3C1">
+  <data key="d2">0.000457</data>
+</edge>
+<edge source="ECI2" target="EHHADH">
+  <data key="d2">0.0009</data>
+</edge>
+<edge source="ECI2" target="SCP2">
+  <data key="d2">0.000492</data>
+</edge>
+<edge source="ELOVL6" target="SCD">
+  <data key="d2">0.0009</data>
+</edge>
+<edge source="EPAS1" target="NR3C1">
+  <data key="d2">0.000662</data>
+</edge>
+<edge source="EPAS1" target="ESR1">
+  <data key="d2">0.000458</data>
+</edge>
+<edge source="ESR1" target="PGR">
+  <data key="d2">0.000996</data>
+</edge>
+<edge source="ESR1" target="FHL1">
+  <data key="d2">0.0008020000000000001</data>
+</edge>
+<edge source="FLNC" target="HSPB7">
+  <data key="d2">0.0008</data>
+</edge>
+<edge source="IL1A" target="RBFOX1">
+  <data key="d2">0.000457</data>
+</edge>
+<edge source="INHBA" target="INHBB">
+  <data key="d2">0.0009419999999999999</data>
+</edge>
+<edge source="NEB" target="TPM2">
+  <data key="d2">0.000716</data>
+</edge>
+<edge source="NEB" target="TPM1">
+  <data key="d2">0.000716</data>
+</edge>
+<edge source="NEB" target="TNNT1">
+  <data key="d2">0.0005</data>
+</edge>
+<edge source="NR3C1" target="PGR">
+  <data key="d2">0.00053</data>
+</edge>
+<edge source="NR5A1" target="STAR">
+  <data key="d2">0.0008020000000000001</data>
+</edge>
+<edge source="RXRA" target="THRB">
+  <data key="d2">0.000999</data>
+</edge>
+<edge source="RXRA" target="RXRG">
+  <data key="d2">0.000991</data>
+</edge>
+<edge source="RXRG" target="THRB">
+  <data key="d2">0.000906</data>
+</edge>
+<edge source="SAA1" target="SAA2">
+  <data key="d2">0.000925</data>
+</edge>
+<edge source="SLC2A1" target="SLC2A4">
+  <data key="d2">0.0009</data>
+</edge>
+<edge source="SORBS1" target="TPM2">
+  <data key="d2">0.0005</data>
+</edge>
+<edge source="SORBS1" target="TPM1">
+  <data key="d2">0.0005</data>
+</edge>
+<edge source="TNNT1" target="TPM1">
+  <data key="d2">0.000994</data>
+</edge>
+<edge source="TNNT1" target="TPM2">
+  <data key="d2">0.0005</data>
+</edge>
+<edge source="TPM1" target="TPM2">
+  <data key="d2">0.000999</data>
+</edge>
+<edge source="TPM1" target="VEGFA">
+  <data key="d2">0.000456</data>
+</edge>
+</graph></graphml>
