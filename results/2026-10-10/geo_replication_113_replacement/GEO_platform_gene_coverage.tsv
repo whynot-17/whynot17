@@ -1,0 +1,5 @@
+accession	platform	target_genes_total	target_genes_with_probe	target_genes_without_probe	without_probe_symbols	unique_mapped_genes_tested_for_FDR	mapped_probe_count	series_matrix_feature_count	expression_transform	statistical_method
+GSE32323	GPL570	113	112	1	SULT1C3	22834	48899	54675	GEO series-matrix values retained	paired t-test on complete patient pairs
+GSE44076	GPL13667	113	111	2	ECI2;RBFOX1	20217	51305	49386	GEO series-matrix values retained	paired t-test on complete patient pairs
+GSE41258	GPL96	113	103	10	CFL2;CMYA5;CREB3L3;FNDC5;LYNX1;PLIN4;SRL;SULT1C3;TRIM72;TSLP	13908	23397	22283	log2(PLIER signal)	patient-cluster robust OLS mean difference
+GSE106582	GPL10558	113	112	1	PLIN4	20752	31261	47290	GEO series-matrix values retained	paired t-test on complete patient pairs

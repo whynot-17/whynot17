@@ -1,0 +1,48 @@
+{
+  "analysis_date": "2026-10-10",
+  "analysis_timestamp_utc": "2026-10-10T13:10:39.024743+00:00",
+  "organism": "Homo sapiens (NCBI taxon 9606)",
+  "query_gene_count": 113,
+  "cohorts": [
+    "GSE32323",
+    "GSE44076",
+    "GSE41258",
+    "GSE106582"
+  ],
+  "thresholds": {
+    "BH_FDR": 0.05,
+    "absolute_log2FC_strictly_greater_than": 1.0,
+    "three_of_four_rule": "each cohort must meet both thresholds; significant directions must agree",
+    "four_of_four_rule": "all cohorts must meet both thresholds; directions must agree"
+  },
+  "multiple_testing_universe": "all unique genes mapped from each platform after median probe aggregation",
+  "probe_collapsing": "median expression across probes assigned to each gene symbol",
+  "series_matrix_urls": {
+    "GSE32323": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE32nnn/GSE32323/matrix/GSE32323_series_matrix.txt.gz",
+    "GSE44076": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE44nnn/GSE44076/matrix/GSE44076_series_matrix.txt.gz",
+    "GSE41258": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE41nnn/GSE41258/matrix/GSE41258_series_matrix.txt.gz",
+    "GSE106582": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE106nnn/GSE106582/matrix/GSE106582_series_matrix.txt.gz"
+  },
+  "platform_annotation_urls": {
+    "GPL570": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPLnnn/GPL570/annot/GPL570.annot.gz",
+    "GPL96": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPLnnn/GPL96/annot/GPL96.annot.gz",
+    "GPL10558": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL10nnn/GPL10558/annot/GPL10558.annot.gz",
+    "GPL13667": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL13667&targ=self&view=data&form=text"
+  },
+  "checksums": {
+    "input_113_sha256": "fe3effb4b9bc9f37ebaeeff3ddb1a33dae59d48562379c5bef942f462705c4c1",
+    "GSE32323_series_matrix_sha256": "dbe47e952ad8a70a70d3cdec355766d11f5761bf7a9d4d5094c61b7191585ee2",
+    "GPL570_annotation_sha256": "d7cd44352127b1e34f3a720ebea86093ef255a38f1612a85a2962b71bde8f394",
+    "GSE44076_series_matrix_sha256": "096db6c83516d01e39a8c1e3b84b2b3759d9edb133e0ce40807251a69b2671bb",
+    "GPL13667_annotation_sha256": "dcdc398a6fffcb5b427ee595237e9a3cfe771aad3107406c14cf6bf71614ff24",
+    "GSE41258_series_matrix_sha256": "95931c3bb5fef20e4e056e4e3b1c354aa9272a7e1c60e1fd54e2849b30bb582a",
+    "GPL96_annotation_sha256": "88e0b22362bac779eb220b3b185c80faa6510a92b9358eaad159a561ab4351c4",
+    "GSE106582_series_matrix_sha256": "fb8f357665b57d6cca404f9db4275d9bdbd212c274e29e91467415ac6c7e425b",
+    "GPL10558_annotation_sha256": "c914fdbe1130906ce3b9c97f5a75280591c89c617c168fb687c641f683e76b45"
+  },
+  "software": {
+    "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+    "pandas": "2.3.3",
+    "numpy": "2.3.5"
+  }
+}

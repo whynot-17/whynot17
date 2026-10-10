@@ -1,0 +1,875 @@
+accession	gsm	sample_title	patient_id	assigned_group	included_in_test
+GSE32323	GSM800742	patient 006b, normal, homogenized	006	Normal	True
+GSE32323	GSM800743	patient 011b, normal, homogenized	011	Normal	True
+GSE32323	GSM800744	patient 024b, normal, homogenized	024	Normal	True
+GSE32323	GSM800745	patient 027b, normal, homogenized	027	Normal	True
+GSE32323	GSM800746	patient 028b, normal, homogenized	028	Normal	True
+GSE32323	GSM800747	patient 030b, normal, homogenized	030	Normal	True
+GSE32323	GSM800748	patient 031b, normal, homogenized	031	Normal	True
+GSE32323	GSM800749	patient 032b, normal, homogenized	032	Normal	True
+GSE32323	GSM800750	patient 033b, normal, homogenized	033	Normal	True
+GSE32323	GSM800751	patient 035b, normal, homogenized	035	Normal	True
+GSE32323	GSM800752	patient 036b, normal, homogenized	036	Normal	True
+GSE32323	GSM800753	patient 038b, normal, homogenized	038	Normal	True
+GSE32323	GSM800754	patient 041b, normal, homogenized	041	Normal	True
+GSE32323	GSM800755	patient 042b, normal, homogenized	042	Normal	True
+GSE32323	GSM800756	patient 044b, normal, homogenized	044	Normal	True
+GSE32323	GSM800757	patient 045b, normal, homogenized	045	Normal	True
+GSE32323	GSM800758	patient 047b, normal, homogenized	047	Normal	True
+GSE32323	GSM800759	patient 006b, cancer, homogenized	006	Tumor	True
+GSE32323	GSM800760	patient 011b, cancer, homogenized	011	Tumor	True
+GSE32323	GSM800761	patient 024b, cancer, homogenized	024	Tumor	True
+GSE32323	GSM800762	patient 027b, cancer, homogenized	027	Tumor	True
+GSE32323	GSM800763	patient 028b, cancer, homogenized	028	Tumor	True
+GSE32323	GSM800764	patient 030b, cancer, homogenized	030	Tumor	True
+GSE32323	GSM800765	patient 031b, cancer, homogenized	031	Tumor	True
+GSE32323	GSM800766	patient 032b, cancer, homogenized	032	Tumor	True
+GSE32323	GSM800767	patient 033b, cancer, homogenized	033	Tumor	True
+GSE32323	GSM800768	patient 035b, cancer, homogenized	035	Tumor	True
+GSE32323	GSM800769	patient 036b, cancer, homogenized	036	Tumor	True
+GSE32323	GSM800770	patient 038b, cancer, homogenized	038	Tumor	True
+GSE32323	GSM800771	patient 041b, cancer, homogenized	041	Tumor	True
+GSE32323	GSM800772	patient 042b, cancer, homogenized	042	Tumor	True
+GSE32323	GSM800773	patient 044b, cancer, homogenized	044	Tumor	True
+GSE32323	GSM800774	patient 045b, cancer, homogenized	045	Tumor	True
+GSE32323	GSM800775	patient 047b, cancer, homogenized	047	Tumor	True
+GSE32323	GSM800776	COLO320 cell line, 5aza treated		Excluded	False
+GSE32323	GSM800777	COLO320 cell line, control		Excluded	False
+GSE32323	GSM800778	HCT116 cell line, 5aza treated		Excluded	False
+GSE32323	GSM800779	HCT116 cell line, control		Excluded	False
+GSE32323	GSM800780	HT29 cell line, 5aza treated 2		Excluded	False
+GSE32323	GSM800781	HT29 cell line, control 2		Excluded	False
+GSE32323	GSM800782	RKO cell line, 5aza treated		Excluded	False
+GSE32323	GSM800783	RKO cell line, control		Excluded	False
+GSE32323	GSM800784	SW480 cell line, 5aza treated		Excluded	False
+GSE32323	GSM800785	SW480 cell line, control		Excluded	False
+GSE44076	GSM1077598	Mucosa sample from A2119 healthy donnor	A2119	Excluded	False
+GSE44076	GSM1077599	Mucosa sample from A2142 healthy donnor	A2142	Excluded	False
+GSE44076	GSM1077600	Mucosa sample from B2104 healthy donnor	B2104	Excluded	False
+GSE44076	GSM1077601	Mucosa sample from B2127 healthy donnor	B2127	Excluded	False
+GSE44076	GSM1077602	Mucosa sample from B2150 healthy donnor	B2150	Excluded	False
+GSE44076	GSM1077603	Mucosa sample from C2113 healthy donnor	C2113	Excluded	False
+GSE44076	GSM1077604	Mucosa sample from C2136 healthy donnor	C2136	Excluded	False
+GSE44076	GSM1077605	Mucosa sample from D2102 healthy donnor	D2102	Excluded	False
+GSE44076	GSM1077606	Mucosa sample from D2125 healthy donnor	D2125	Excluded	False
+GSE44076	GSM1077607	Mucosa sample from D2148 healthy donnor	D2148	Excluded	False
+GSE44076	GSM1077608	Mucosa sample from E2115 healthy donnor	E2115	Excluded	False
+GSE44076	GSM1077609	Mucosa sample from E2138 healthy donnor	E2138	Excluded	False
+GSE44076	GSM1077610	Mucosa sample from F2123 healthy donnor	F2123	Excluded	False
+GSE44076	GSM1077611	Mucosa sample from F2146 healthy donnor	F2146	Excluded	False
+GSE44076	GSM1077612	Mucosa sample from G2120 healthy donnor	G2120	Excluded	False
+GSE44076	GSM1077613	Mucosa sample from G2143 healthy donnor	G2143	Excluded	False
+GSE44076	GSM1077614	Mucosa sample from H2111 healthy donnor	H2111	Excluded	False
+GSE44076	GSM1077615	Mucosa sample from H2134 healthy donnor	H2134	Excluded	False
+GSE44076	GSM1077616	Mucosa sample from J2106 healthy donnor	J2106	Excluded	False
+GSE44076	GSM1077617	Mucosa sample from J2129 healthy donnor	J2129	Excluded	False
+GSE44076	GSM1077618	Mucosa sample from K2114 healthy donnor	K2114	Excluded	False
+GSE44076	GSM1077619	Mucosa sample from K2137 healthy donnor	K2137	Excluded	False
+GSE44076	GSM1077620	Mucosa sample from L2112 healthy donnor	L2112	Excluded	False
+GSE44076	GSM1077621	Mucosa sample from L2135 healthy donnor	L2135	Excluded	False
+GSE44076	GSM1077622	Mucosa sample from M2121 healthy donnor	M2121	Excluded	False
+GSE44076	GSM1077623	Mucosa sample from M2144 healthy donnor	M2144	Excluded	False
+GSE44076	GSM1077624	Mucosa sample from N2105 healthy donnor	N2105	Excluded	False
+GSE44076	GSM1077625	Mucosa sample from N2128 healthy donnor	N2128	Excluded	False
+GSE44076	GSM1077626	Mucosa sample from P2101 healthy donnor	P2101	Excluded	False
+GSE44076	GSM1077627	Mucosa sample from P2124 healthy donnor	P2124	Excluded	False
+GSE44076	GSM1077628	Mucosa sample from P2147 healthy donnor	P2147	Excluded	False
+GSE44076	GSM1077629	Mucosa sample from Q2109 healthy donnor	Q2109	Excluded	False
+GSE44076	GSM1077630	Mucosa sample from Q2132 healthy donnor	Q2132	Excluded	False
+GSE44076	GSM1077631	Mucosa sample from R2117 healthy donnor	R2117	Excluded	False
+GSE44076	GSM1077632	Mucosa sample from R2140 healthy donnor	R2140	Excluded	False
+GSE44076	GSM1077633	Mucosa sample from S2108 healthy donnor	S2108	Excluded	False
+GSE44076	GSM1077634	Mucosa sample from S2131 healthy donnor	S2131	Excluded	False
+GSE44076	GSM1077635	Mucosa sample from T2116 healthy donnor	T2116	Excluded	False
+GSE44076	GSM1077636	Mucosa sample from T2139 healthy donnor	T2139	Excluded	False
+GSE44076	GSM1077637	Mucosa sample from V2110 healthy donnor	V2110	Excluded	False
+GSE44076	GSM1077638	Mucosa sample from V2133 healthy donnor	V2133	Excluded	False
+GSE44076	GSM1077639	Mucosa sample from W2118 healthy donnor	W2118	Excluded	False
+GSE44076	GSM1077640	Mucosa sample from W2141 healthy donnor	W2141	Excluded	False
+GSE44076	GSM1077641	Mucosa sample from X2103 healthy donnor	X2103	Excluded	False
+GSE44076	GSM1077642	Mucosa sample from X2126 healthy donnor	X2126	Excluded	False
+GSE44076	GSM1077643	Mucosa sample from X2149 healthy donnor	X2149	Excluded	False
+GSE44076	GSM1077644	Mucosa sample from Y2122 healthy donnor	Y2122	Excluded	False
+GSE44076	GSM1077645	Mucosa sample from Y2145 healthy donnor	Y2145	Excluded	False
+GSE44076	GSM1077646	Mucosa sample from Z2107 healthy donnor	Z2107	Excluded	False
+GSE44076	GSM1077647	Mucosa sample from Z2130 healthy donnor	Z2130	Excluded	False
+GSE44076	GSM1077648	Normal paired sample from A2004 patient	A2004	Normal	True
+GSE44076	GSM1077649	Normal paired sample from A2027 patient	A2027	Normal	True
+GSE44076	GSM1077650	Normal paired sample from A2050 patient	A2050	Normal	True
+GSE44076	GSM1077651	Normal paired sample from A2096 patient	A2096	Normal	True
+GSE44076	GSM1077652	Normal paired sample from B2012 patient	B2012	Normal	True
+GSE44076	GSM1077653	Normal paired sample from B2035 patient	B2035	Normal	True
+GSE44076	GSM1077654	Normal paired sample from B2058 patient	B2058	Normal	True
+GSE44076	GSM1077655	Normal paired sample from B2081 patient	B2081	Normal	True
+GSE44076	GSM1077656	Normal paired sample from C2021 patient	C2021	Normal	True
+GSE44076	GSM1077657	Normal paired sample from C2044 patient	C2044	Normal	True
+GSE44076	GSM1077658	Normal paired sample from C2067 patient	C2067	Normal	True
+GSE44076	GSM1077659	Normal paired sample from C2090 patient	C2090	Normal	True
+GSE44076	GSM1077660	Normal paired sample from D2010 patient	D2010	Normal	True
+GSE44076	GSM1077661	Normal paired sample from D2033 patient	D2033	Normal	True
+GSE44076	GSM1077662	Normal paired sample from D2056 patient	D2056	Normal	True
+GSE44076	GSM1077663	Normal paired sample from D2079 patient	D2079	Normal	True
+GSE44076	GSM1077664	Normal paired sample from E2023 patient	E2023	Normal	True
+GSE44076	GSM1077665	Normal paired sample from E2046 patient	E2046	Normal	True
+GSE44076	GSM1077666	Normal paired sample from E2069 patient	E2069	Normal	True
+GSE44076	GSM1077667	Normal paired sample from E2092 patient	E2092	Normal	True
+GSE44076	GSM1077668	Normal paired sample from F2008 patient	F2008	Normal	True
+GSE44076	GSM1077669	Normal paired sample from F2031 patient	F2031	Normal	True
+GSE44076	GSM1077670	Normal paired sample from F2054 patient	F2054	Normal	True
+GSE44076	GSM1077671	Normal paired sample from F2077 patient	F2077	Normal	True
+GSE44076	GSM1077672	Normal paired sample from F2100 patient	F2100	Normal	True
+GSE44076	GSM1077673	Normal paired sample from G2005 patient	G2005	Normal	True
+GSE44076	GSM1077674	Normal paired sample from G2028 patient	G2028	Normal	True
+GSE44076	GSM1077675	Normal paired sample from G2051 patient	G2051	Normal	True
+GSE44076	GSM1077676	Normal paired sample from G2074 patient	G2074	Normal	True
+GSE44076	GSM1077677	Normal paired sample from G2097 patient	G2097	Normal	True
+GSE44076	GSM1077678	Normal paired sample from H2019 patient	H2019	Normal	True
+GSE44076	GSM1077679	Normal paired sample from H2042 patient	H2042	Normal	True
+GSE44076	GSM1077680	Normal paired sample from H2065 patient	H2065	Normal	True
+GSE44076	GSM1077681	Normal paired sample from H2088 patient	H2088	Normal	True
+GSE44076	GSM1077682	Normal paired sample from J2014 patient	J2014	Normal	True
+GSE44076	GSM1077683	Normal paired sample from J2037 patient	J2037	Normal	True
+GSE44076	GSM1077684	Normal paired sample from J2060 patient	J2060	Normal	True
+GSE44076	GSM1077685	Normal paired sample from J2083 patient	J2083	Normal	True
+GSE44076	GSM1077686	Normal paired sample from K2022 patient	K2022	Normal	True
+GSE44076	GSM1077687	Normal paired sample from K2045 patient	K2045	Normal	True
+GSE44076	GSM1077688	Normal paired sample from K2068 patient	K2068	Normal	True
+GSE44076	GSM1077689	Normal paired sample from K2091 patient	K2091	Normal	True
+GSE44076	GSM1077690	Normal paired sample from L2020 patient	L2020	Normal	True
+GSE44076	GSM1077691	Normal paired sample from L2043 patient	L2043	Normal	True
+GSE44076	GSM1077692	Normal paired sample from L2066 patient	L2066	Normal	True
+GSE44076	GSM1077693	Normal paired sample from L2089 patient	L2089	Normal	True
+GSE44076	GSM1077694	Normal paired sample from M2006 patient	M2006	Normal	True
+GSE44076	GSM1077695	Normal paired sample from M2029 patient	M2029	Normal	True
+GSE44076	GSM1077696	Normal paired sample from M2052 patient	M2052	Normal	True
+GSE44076	GSM1077697	Normal paired sample from M2075 patient	M2075	Normal	True
+GSE44076	GSM1077698	Normal paired sample from M2098 patient	M2098	Normal	True
+GSE44076	GSM1077699	Normal paired sample from N2013 patient	N2013	Normal	True
+GSE44076	GSM1077700	Normal paired sample from N2036 patient	N2036	Normal	True
+GSE44076	GSM1077701	Normal paired sample from N2059 patient	N2059	Normal	True
+GSE44076	GSM1077702	Normal paired sample from N2082 patient	N2082	Normal	True
+GSE44076	GSM1077703	Normal paired sample from P2009 patient	P2009	Normal	True
+GSE44076	GSM1077704	Normal paired sample from P2032 patient	P2032	Normal	True
+GSE44076	GSM1077705	Normal paired sample from P2055 patient	P2055	Normal	True
+GSE44076	GSM1077706	Normal paired sample from P2078 patient	P2078	Normal	True
+GSE44076	GSM1077707	Normal paired sample from Q2017 patient	Q2017	Normal	True
+GSE44076	GSM1077708	Normal paired sample from Q2040 patient	Q2040	Normal	True
+GSE44076	GSM1077709	Normal paired sample from Q2063 patient	Q2063	Normal	True
+GSE44076	GSM1077710	Normal paired sample from Q2086 patient	Q2086	Normal	True
+GSE44076	GSM1077711	Normal paired sample from R2002 patient	R2002	Normal	True
+GSE44076	GSM1077712	Normal paired sample from R2025 patient	R2025	Normal	True
+GSE44076	GSM1077713	Normal paired sample from R2048 patient	R2048	Normal	True
+GSE44076	GSM1077714	Normal paired sample from R2071 patient	R2071	Normal	True
+GSE44076	GSM1077715	Normal paired sample from R2094 patient	R2094	Normal	True
+GSE44076	GSM1077716	Normal paired sample from S2016 patient	S2016	Normal	True
+GSE44076	GSM1077717	Normal paired sample from S2039 patient	S2039	Normal	True
+GSE44076	GSM1077718	Normal paired sample from S2062 patient	S2062	Normal	True
+GSE44076	GSM1077719	Normal paired sample from T2001 patient	T2001	Normal	True
+GSE44076	GSM1077720	Normal paired sample from T2024 patient	T2024	Normal	True
+GSE44076	GSM1077721	Normal paired sample from T2047 patient	T2047	Normal	True
+GSE44076	GSM1077722	Normal paired sample from T2070 patient	T2070	Normal	True
+GSE44076	GSM1077723	Normal paired sample from T2093 patient	T2093	Normal	True
+GSE44076	GSM1077724	Normal paired sample from V2018 patient	V2018	Normal	True
+GSE44076	GSM1077725	Normal paired sample from V2041 patient	V2041	Normal	True
+GSE44076	GSM1077726	Normal paired sample from V2064 patient	V2064	Normal	True
+GSE44076	GSM1077727	Normal paired sample from V2087 patient	V2087	Normal	True
+GSE44076	GSM1077728	Normal paired sample from W2003 patient	W2003	Normal	True
+GSE44076	GSM1077729	Normal paired sample from W2026 patient	W2026	Normal	True
+GSE44076	GSM1077730	Normal paired sample from W2049 patient	W2049	Normal	True
+GSE44076	GSM1077731	Normal paired sample from W2072 patient	W2072	Normal	True
+GSE44076	GSM1077732	Normal paired sample from W2095 patient	W2095	Normal	True
+GSE44076	GSM1077733	Normal paired sample from X2011 patient	X2011	Normal	True
+GSE44076	GSM1077734	Normal paired sample from X2034 patient	X2034	Normal	True
+GSE44076	GSM1077735	Normal paired sample from X2057 patient	X2057	Normal	True
+GSE44076	GSM1077736	Normal paired sample from X2080 patient	X2080	Normal	True
+GSE44076	GSM1077737	Normal paired sample from Y2007 patient	Y2007	Normal	True
+GSE44076	GSM1077738	Normal paired sample from Y2030 patient	Y2030	Normal	True
+GSE44076	GSM1077739	Normal paired sample from Y2053 patient	Y2053	Normal	True
+GSE44076	GSM1077740	Normal paired sample from Y2076 patient	Y2076	Normal	True
+GSE44076	GSM1077741	Normal paired sample from Y2099 patient	Y2099	Normal	True
+GSE44076	GSM1077742	Normal paired sample from Z2015 patient	Z2015	Normal	True
+GSE44076	GSM1077743	Normal paired sample from Z2038 patient	Z2038	Normal	True
+GSE44076	GSM1077744	Normal paired sample from Z2061 patient	Z2061	Normal	True
+GSE44076	GSM1077745	Normal paired sample from Z2084 patient	Z2084	Normal	True
+GSE44076	GSM1077746	Tumor sample from A2004 patient	A2004	Tumor	True
+GSE44076	GSM1077747	Tumor sample from A2027 patient	A2027	Tumor	True
+GSE44076	GSM1077748	Tumor sample from A2050 patient	A2050	Tumor	True
+GSE44076	GSM1077749	Tumor sample from A2096 patient	A2096	Tumor	True
+GSE44076	GSM1077750	Tumor sample from B2012 patient	B2012	Tumor	True
+GSE44076	GSM1077751	Tumor sample from B2035 patient	B2035	Tumor	True
+GSE44076	GSM1077752	Tumor sample from B2058 patient	B2058	Tumor	True
+GSE44076	GSM1077753	Tumor sample from B2081 patient	B2081	Tumor	True
+GSE44076	GSM1077754	Tumor sample from C2021 patient	C2021	Tumor	True
+GSE44076	GSM1077755	Tumor sample from C2044 patient	C2044	Tumor	True
+GSE44076	GSM1077756	Tumor sample from C2067 patient	C2067	Tumor	True
+GSE44076	GSM1077757	Tumor sample from C2090 patient	C2090	Tumor	True
+GSE44076	GSM1077758	Tumor sample from D2010 patient	D2010	Tumor	True
+GSE44076	GSM1077759	Tumor sample from D2033 patient	D2033	Tumor	True
+GSE44076	GSM1077760	Tumor sample from D2056 patient	D2056	Tumor	True
+GSE44076	GSM1077761	Tumor sample from D2079 patient	D2079	Tumor	True
+GSE44076	GSM1077762	Tumor sample from E2023 patient	E2023	Tumor	True
+GSE44076	GSM1077763	Tumor sample from E2046 patient	E2046	Tumor	True
+GSE44076	GSM1077764	Tumor sample from E2069 patient	E2069	Tumor	True
+GSE44076	GSM1077765	Tumor sample from E2092 patient	E2092	Tumor	True
+GSE44076	GSM1077766	Tumor sample from F2008 patient	F2008	Tumor	True
+GSE44076	GSM1077767	Tumor sample from F2031 patient	F2031	Tumor	True
+GSE44076	GSM1077768	Tumor sample from F2054 patient	F2054	Tumor	True
+GSE44076	GSM1077769	Tumor sample from F2077 patient	F2077	Tumor	True
+GSE44076	GSM1077770	Tumor sample from F2100 patient	F2100	Tumor	True
+GSE44076	GSM1077771	Tumor sample from G2005 patient	G2005	Tumor	True
+GSE44076	GSM1077772	Tumor sample from G2028 patient	G2028	Tumor	True
+GSE44076	GSM1077773	Tumor sample from G2051 patient	G2051	Tumor	True
+GSE44076	GSM1077774	Tumor sample from G2074 patient	G2074	Tumor	True
+GSE44076	GSM1077775	Tumor sample from G2097 patient	G2097	Tumor	True
+GSE44076	GSM1077776	Tumor sample from H2019 patient	H2019	Tumor	True
+GSE44076	GSM1077777	Tumor sample from H2042 patient	H2042	Tumor	True
+GSE44076	GSM1077778	Tumor sample from H2065 patient	H2065	Tumor	True
+GSE44076	GSM1077779	Tumor sample from H2088 patient	H2088	Tumor	True
+GSE44076	GSM1077780	Tumor sample from J2014 patient	J2014	Tumor	True
+GSE44076	GSM1077781	Tumor sample from J2037 patient	J2037	Tumor	True
+GSE44076	GSM1077782	Tumor sample from J2060 patient	J2060	Tumor	True
+GSE44076	GSM1077783	Tumor sample from J2083 patient	J2083	Tumor	True
+GSE44076	GSM1077784	Tumor sample from K2022 patient	K2022	Tumor	True
+GSE44076	GSM1077785	Tumor sample from K2045 patient	K2045	Tumor	True
+GSE44076	GSM1077786	Tumor sample from K2068 patient	K2068	Tumor	True
+GSE44076	GSM1077787	Tumor sample from K2091 patient	K2091	Tumor	True
+GSE44076	GSM1077788	Tumor sample from L2020 patient	L2020	Tumor	True
+GSE44076	GSM1077789	Tumor sample from L2043 patient	L2043	Tumor	True
+GSE44076	GSM1077790	Tumor sample from L2066 patient	L2066	Tumor	True
+GSE44076	GSM1077791	Tumor sample from L2089 patient	L2089	Tumor	True
+GSE44076	GSM1077792	Tumor sample from M2006 patient	M2006	Tumor	True
+GSE44076	GSM1077793	Tumor sample from M2029 patient	M2029	Tumor	True
+GSE44076	GSM1077794	Tumor sample from M2052 patient	M2052	Tumor	True
+GSE44076	GSM1077795	Tumor sample from M2075 patient	M2075	Tumor	True
+GSE44076	GSM1077796	Tumor sample from M2098 patient	M2098	Tumor	True
+GSE44076	GSM1077797	Tumor sample from N2013 patient	N2013	Tumor	True
+GSE44076	GSM1077798	Tumor sample from N2036 patient	N2036	Tumor	True
+GSE44076	GSM1077799	Tumor sample from N2059 patient	N2059	Tumor	True
+GSE44076	GSM1077800	Tumor sample from N2082 patient	N2082	Tumor	True
+GSE44076	GSM1077801	Tumor sample from P2009 patient	P2009	Tumor	True
+GSE44076	GSM1077802	Tumor sample from P2032 patient	P2032	Tumor	True
+GSE44076	GSM1077803	Tumor sample from P2055 patient	P2055	Tumor	True
+GSE44076	GSM1077804	Tumor sample from P2078 patient	P2078	Tumor	True
+GSE44076	GSM1077805	Tumor sample from Q2017 patient	Q2017	Tumor	True
+GSE44076	GSM1077806	Tumor sample from Q2040 patient	Q2040	Tumor	True
+GSE44076	GSM1077807	Tumor sample from Q2063 patient	Q2063	Tumor	True
+GSE44076	GSM1077808	Tumor sample from Q2086 patient	Q2086	Tumor	True
+GSE44076	GSM1077809	Tumor sample from R2002 patient	R2002	Tumor	True
+GSE44076	GSM1077810	Tumor sample from R2025 patient	R2025	Tumor	True
+GSE44076	GSM1077811	Tumor sample from R2048 patient	R2048	Tumor	True
+GSE44076	GSM1077812	Tumor sample from R2071 patient	R2071	Tumor	True
+GSE44076	GSM1077813	Tumor sample from R2094 patient	R2094	Tumor	True
+GSE44076	GSM1077814	Tumor sample from S2016 patient	S2016	Tumor	True
+GSE44076	GSM1077815	Tumor sample from S2039 patient	S2039	Tumor	True
+GSE44076	GSM1077816	Tumor sample from S2062 patient	S2062	Tumor	True
+GSE44076	GSM1077817	Tumor sample from T2001 patient	T2001	Tumor	True
+GSE44076	GSM1077818	Tumor sample from T2024 patient	T2024	Tumor	True
+GSE44076	GSM1077819	Tumor sample from T2047 patient	T2047	Tumor	True
+GSE44076	GSM1077820	Tumor sample from T2070 patient	T2070	Tumor	True
+GSE44076	GSM1077821	Tumor sample from T2093 patient	T2093	Tumor	True
+GSE44076	GSM1077822	Tumor sample from V2018 patient	V2018	Tumor	True
+GSE44076	GSM1077823	Tumor sample from V2041 patient	V2041	Tumor	True
+GSE44076	GSM1077824	Tumor sample from V2064 patient	V2064	Tumor	True
+GSE44076	GSM1077825	Tumor sample from V2087 patient	V2087	Tumor	True
+GSE44076	GSM1077826	Tumor sample from W2003 patient	W2003	Tumor	True
+GSE44076	GSM1077827	Tumor sample from W2026 patient	W2026	Tumor	True
+GSE44076	GSM1077828	Tumor sample from W2049 patient	W2049	Tumor	True
+GSE44076	GSM1077829	Tumor sample from W2072 patient	W2072	Tumor	True
+GSE44076	GSM1077830	Tumor sample from W2095 patient	W2095	Tumor	True
+GSE44076	GSM1077831	Tumor sample from X2011 patient	X2011	Tumor	True
+GSE44076	GSM1077832	Tumor sample from X2034 patient	X2034	Tumor	True
+GSE44076	GSM1077833	Tumor sample from X2057 patient	X2057	Tumor	True
+GSE44076	GSM1077834	Tumor sample from X2080 patient	X2080	Tumor	True
+GSE44076	GSM1077835	Tumor sample from Y2007 patient	Y2007	Tumor	True
+GSE44076	GSM1077836	Tumor sample from Y2030 patient	Y2030	Tumor	True
+GSE44076	GSM1077837	Tumor sample from Y2053 patient	Y2053	Tumor	True
+GSE44076	GSM1077838	Tumor sample from Y2076 patient	Y2076	Tumor	True
+GSE44076	GSM1077839	Tumor sample from Y2099 patient	Y2099	Tumor	True
+GSE44076	GSM1077840	Tumor sample from Z2015 patient	Z2015	Tumor	True
+GSE44076	GSM1077841	Tumor sample from Z2038 patient	Z2038	Tumor	True
+GSE44076	GSM1077842	Tumor sample from Z2061 patient	Z2061	Tumor	True
+GSE44076	GSM1077843	Tumor sample from Z2084 patient	Z2084	Tumor	True
+GSE41258	GSM1012278	Polyp 00300BR2	300	Excluded	False
+GSE41258	GSM1012279	Liver Metastasis 00450UR1	450	Excluded	False
+GSE41258	GSM1012280	Liver Metastasis 00450UR1_ez	450	Excluded	False
+GSE41258	GSM1012281	Liver Metastasis 00450UR2	450	Excluded	False
+GSE41258	GSM1012282	Liver Metastasis 00464UR1	464	Excluded	False
+GSE41258	GSM1012283	Liver Metastasis 00485UR1	485	Excluded	False
+GSE41258	GSM1012284	Liver Metastasis 00485UR1_ez	485	Excluded	False
+GSE41258	GSM1012285	Liver Metastasis 00485UR2	485	Excluded	False
+GSE41258	GSM1012286	Primary Tumor 00620AR1	620	Tumor	True
+GSE41258	GSM1012287	Liver Metastasis 00823UR1	823	Excluded	False
+GSE41258	GSM1012288	Liver Metastasis 00823UR1_ez	823	Excluded	False
+GSE41258	GSM1012289	Liver Metastasis 00823UR2	823	Excluded	False
+GSE41258	GSM1012290	Liver Metastasis 00838UR1	838	Excluded	False
+GSE41258	GSM1012291	Liver Metastasis 00838UR1_ez	838	Excluded	False
+GSE41258	GSM1012292	Liver Metastasis 00838UR2	838	Excluded	False
+GSE41258	GSM1012293	Liver Metastasis 00852UR1	852	Excluded	False
+GSE41258	GSM1012294	Normal Liver 00871KR3	871	Excluded	False
+GSE41258	GSM1012295	Polyp 00888BR1	888	Excluded	False
+GSE41258	GSM1012296	Liver Metastasis 00947UR1	947	Excluded	False
+GSE41258	GSM1012297	Primary Tumor 00990AR1	990	Tumor	True
+GSE41258	GSM1012298	Normal Lung 01720MR1	1720	Excluded	False
+GSE41258	GSM1012299	Lung Metastasis 01720VR1	1720	Excluded	False
+GSE41258	GSM1012300	Polyp 01984BR1	1984	Excluded	False
+GSE41258	GSM1012301	Normal Lung 02050MR1	2050	Excluded	False
+GSE41258	GSM1012302	Lung Metastasis 02050VR1	2050	Excluded	False
+GSE41258	GSM1012303	Primary Tumor 02184AR2	2184	Tumor	True
+GSE41258	GSM1012304	Normal Colon 02184HR2	2184	Normal	True
+GSE41258	GSM1012305	Primary Tumor 02189AR1	2189	Tumor	True
+GSE41258	GSM1012306	Normal Colon 02189HR1	2189	Normal	True
+GSE41258	GSM1012307	Primary Tumor 02308AR1	2308	Tumor	True
+GSE41258	GSM1012308	Primary Tumor 02500AR1	2500	Tumor	True
+GSE41258	GSM1012309	Polyp 02663BR1	2663	Excluded	False
+GSE41258	GSM1012310	Primary Tumor 02679AR1	2679	Tumor	True
+GSE41258	GSM1012311	Polyp 02679BR1	2679	Excluded	False
+GSE41258	GSM1012312	Primary Tumor 02779AR1	2779	Tumor	True
+GSE41258	GSM1012313	Polyp 02779BR1	2779	Excluded	False
+GSE41258	GSM1012314	Primary Tumor 02815AR1	2815	Tumor	True
+GSE41258	GSM1012315	Normal Colon 02815HR1	2815	Normal	True
+GSE41258	GSM1012316	Primary Tumor 02832AR1	2832	Tumor	True
+GSE41258	GSM1012317	Primary Tumor 03023AR1	3023	Tumor	True
+GSE41258	GSM1012318	Normal Colon 03023HR1	3023	Normal	True
+GSE41258	GSM1012319	Primary Tumor 03156AR1	3156	Tumor	True
+GSE41258	GSM1012320	Primary Tumor 03283AR1	3283	Tumor	True
+GSE41258	GSM1012321	Lung Metastasis 03358VR1	3358	Excluded	False
+GSE41258	GSM1012322	Primary Tumor 03393AR1	3393	Tumor	True
+GSE41258	GSM1012323	Polyp 03393BR1	3393	Excluded	False
+GSE41258	GSM1012324	Primary Tumor 03401AR1	3401	Tumor	True
+GSE41258	GSM1012325	Primary Tumor 03465AR3	3465	Tumor	True
+GSE41258	GSM1012326	Primary Tumor 03519AR2	3519	Tumor	True
+GSE41258	GSM1012327	Normal Colon 03519HR2	3519	Normal	True
+GSE41258	GSM1012328	Primary Tumor 03531AR2	3531	Tumor	True
+GSE41258	GSM1012329	Polyp 03598BR2	3598	Excluded	False
+GSE41258	GSM1012330	Normal Colon 03598HR2	3598	Normal	True
+GSE41258	GSM1012331	Primary Tumor 03637AR2	3637	Tumor	True
+GSE41258	GSM1012332	Polyp 03637BR2	3637	Excluded	False
+GSE41258	GSM1012333	Normal Colon 03637HR2	3637	Normal	True
+GSE41258	GSM1012334	Primary Tumor 03657AR2	3657	Tumor	True
+GSE41258	GSM1012335	Normal Colon 03657HR2	3657	Normal	True
+GSE41258	GSM1012336	Primary Tumor 03706AR2	3706	Tumor	True
+GSE41258	GSM1012337	Normal Colon 03706HR2	3706	Normal	True
+GSE41258	GSM1012338	Primary Tumor 03752AR1	3752	Tumor	True
+GSE41258	GSM1012339	Primary Tumor 03753AR1	3753	Tumor	True
+GSE41258	GSM1012340	Normal Colon 03753HR3	3753	Normal	True
+GSE41258	GSM1012341	Primary Tumor 03777AR2	3777	Tumor	True
+GSE41258	GSM1012342	Normal Colon 03777hr3	3777	Normal	True
+GSE41258	GSM1012343	Lung Metastasis 03820VR1	3820	Excluded	False
+GSE41258	GSM1012344	Primary Tumor 03862AR2	3862	Tumor	True
+GSE41258	GSM1012345	Normal Colon 03862HR2	3862	Normal	True
+GSE41258	GSM1012346	Primary Tumor 04176AR2	4176	Tumor	True
+GSE41258	GSM1012347	Normal Colon 04176HR3	4176	Normal	True
+GSE41258	GSM1012348	Normal Lung 04222MR1	4222	Excluded	False
+GSE41258	GSM1012349	Lung Metastasis 04222VR1	4222	Excluded	False
+GSE41258	GSM1012350	Primary Tumor 04276AR2	4276	Tumor	True
+GSE41258	GSM1012351	Normal Colon 04276HR2	4276	Normal	True
+GSE41258	GSM1012352	Primary Tumor 04388AR2	4388	Tumor	True
+GSE41258	GSM1012353	Polyp 04449BR4	4449	Excluded	False
+GSE41258	GSM1012354	Primary Tumor 04494AR4	4494	Tumor	True
+GSE41258	GSM1012355	Normal Colon 04494HR4	4494	Normal	True
+GSE41258	GSM1012356	Primary Tumor 04549AR4	4549	Tumor	True
+GSE41258	GSM1012357	Normal Colon 04549HR4	4549	Normal	True
+GSE41258	GSM1012358	Primary Tumor 04800AR4	4800	Tumor	True
+GSE41258	GSM1012359	Normal Colon 04800hr4	4800	Normal	True
+GSE41258	GSM1012360	Polyp 04809BR1	4809	Excluded	False
+GSE41258	GSM1012361	Primary Tumor 05025AR4	5025	Tumor	True
+GSE41258	GSM1012362	Polyp 05192BR1	5192	Excluded	False
+GSE41258	GSM1012363	Primary Tumor 05334AR4	5334	Tumor	True
+GSE41258	GSM1012364	Primary Tumor 05424AR4	5424	Tumor	True
+GSE41258	GSM1012365	Polyp 05479BR1	5479	Excluded	False
+GSE41258	GSM1012366	Primary Tumor 05629AR4	5629	Tumor	True
+GSE41258	GSM1012367	Primary Tumor 05708AR2	5708	Tumor	True
+GSE41258	GSM1012368	Primary Tumor 05786AR2	5786	Tumor	True
+GSE41258	GSM1012369	Normal Colon 05786hr3	5786	Normal	True
+GSE41258	GSM1012370	Primary Tumor 05839AR2	5839	Tumor	True
+GSE41258	GSM1012371	Primary Tumor 05885AR2	5885	Tumor	True
+GSE41258	GSM1012372	Lung Metastasis 05969VR1	5969	Excluded	False
+GSE41258	GSM1012373	Primary Tumor 06051AR2	6051	Tumor	True
+GSE41258	GSM1012374	Primary Tumor 06220AR2	6220	Tumor	True
+GSE41258	GSM1012375	Primary Tumor 06265AR2	6265	Tumor	True
+GSE41258	GSM1012376	Primary Tumor 06314AR2	6314	Tumor	True
+GSE41258	GSM1012377	Lung Metastasis 06432VR1	6432	Excluded	False
+GSE41258	GSM1012378	Polyp 06572BR1	6572	Excluded	False
+GSE41258	GSM1012379	Primary Tumor 06657AR2	6657	Tumor	True
+GSE41258	GSM1012380	Normal Colon 06657HR3	6657	Normal	True
+GSE41258	GSM1012381	Primary Tumor 06706AR2	6706	Tumor	True
+GSE41258	GSM1012382	Normal Lung 06764MR3	6764	Excluded	False
+GSE41258	GSM1012383	Lung Metastasis 06764VR1	6764	Excluded	False
+GSE41258	GSM1012384	Primary Tumor 06840AR2	6840	Tumor	True
+GSE41258	GSM1012385	Primary Tumor 06997AR3	6997	Tumor	True
+GSE41258	GSM1012386	Primary Tumor 07061AR2	7061	Tumor	True
+GSE41258	GSM1012387	Primary Tumor 07145AR2	7145	Tumor	True
+GSE41258	GSM1012388	Polyp 07392BR2	7392	Excluded	False
+GSE41258	GSM1012389	Primary Tumor 07427AR2	7427	Tumor	True
+GSE41258	GSM1012390	Lung Metastasis 07445VR1	7445	Excluded	False
+GSE41258	GSM1012391	Primary Tumor 07576AR2	7576	Tumor	True
+GSE41258	GSM1012392	Primary Tumor 07632AR2	7632	Tumor	True
+GSE41258	GSM1012393	Primary Tumor 07662AR2	7662	Tumor	True
+GSE41258	GSM1012394	Polyp 07677BR1	7677	Excluded	False
+GSE41258	GSM1012395	Primary Tumor 07721AR2	7721	Tumor	True
+GSE41258	GSM1012396	Primary Tumor 07925AR2	7925	Tumor	True
+GSE41258	GSM1012397	Primary Tumor 07930AR2	7930	Tumor	True
+GSE41258	GSM1012398	Primary Tumor 07973AR2	7973	Tumor	True
+GSE41258	GSM1012399	Primary Tumor 08018AR2	8018	Tumor	True
+GSE41258	GSM1012400	Primary Tumor 08029AR2	8029	Tumor	True
+GSE41258	GSM1012401	Primary Tumor 08061AR2	8061	Tumor	True
+GSE41258	GSM1012402	Polyp 08070BR1	8070	Excluded	False
+GSE41258	GSM1012403	Normal Lung 08088MR1	8088	Excluded	False
+GSE41258	GSM1012404	Lung Metastasis 08088VR1	8088	Excluded	False
+GSE41258	GSM1012405	Primary Tumor 08168AR2	8168	Tumor	True
+GSE41258	GSM1012406	Polyp 08568BR1	8568	Excluded	False
+GSE41258	GSM1012407	Primary Tumor 08792AR2	8792	Tumor	True
+GSE41258	GSM1012408	Primary Tumor 09054AR2	9054	Tumor	True
+GSE41258	GSM1012409	Primary Tumor 09077AR2	9077	Tumor	True
+GSE41258	GSM1012410	Primary Tumor 09185AR2	9185	Tumor	True
+GSE41258	GSM1012411	Primary Tumor 09297AR2	9297	Tumor	True
+GSE41258	GSM1012412	Primary Tumor 09343AR2	9343	Tumor	True
+GSE41258	GSM1012413	Primary Tumor 09394AR2	9394	Tumor	True
+GSE41258	GSM1012414	Primary Tumor 09420AR2	9420	Tumor	True
+GSE41258	GSM1012415	Polyp 09446BR2	9446	Excluded	False
+GSE41258	GSM1012416	Primary Tumor 09468AR2	9468	Tumor	True
+GSE41258	GSM1012417	Polyp 09518BR3	9518	Excluded	False
+GSE41258	GSM1012418	Liver Metastasis 09518UR2	9518	Excluded	False
+GSE41258	GSM1012419	Primary Tumor 09728AR2	9728	Tumor	True
+GSE41258	GSM1012420	Polyp 09728BR2	9728	Excluded	False
+GSE41258	GSM1012421	Primary Tumor 09811AR2	9811	Tumor	True
+GSE41258	GSM1012422	Polyp 10078BR1	10078	Excluded	False
+GSE41258	GSM1012423	Primary Tumor 10194AR2	10194	Tumor	True
+GSE41258	GSM1012424	Primary Tumor 10216AR3	10216	Tumor	True
+GSE41258	GSM1012425	Lung Metastasis 10258VR1	10258	Excluded	False
+GSE41258	GSM1012426	Primary Tumor 10264AR3	10264	Tumor	True
+GSE41258	GSM1012427	Primary Tumor 10368AR3	10368	Tumor	True
+GSE41258	GSM1012428	Primary Tumor 10512AR3	10512	Tumor	True
+GSE41258	GSM1012429	Primary Tumor 10630AR3	10630	Tumor	True
+GSE41258	GSM1012430	Lung Metastasis 11185VR1	11185	Excluded	False
+GSE41258	GSM1012431	Lung Metastasis 11190VR1	11190	Excluded	False
+GSE41258	GSM1012432	Primary Tumor 11325AR3	11325	Tumor	True
+GSE41258	GSM1012433	Lung Metastasis 11670VR1	11670	Excluded	False
+GSE41258	GSM1012434	Primary Tumor 11718AR3	11718	Tumor	True
+GSE41258	GSM1012435	Normal Lung 12051MR1	12051	Excluded	False
+GSE41258	GSM1012436	Lung Metastasis 12051VR1	12051	Excluded	False
+GSE41258	GSM1012437	Primary Tumor 12237AR3	12237	Tumor	True
+GSE41258	GSM1012438	Lung Metastasis 12285VR1	12285	Excluded	False
+GSE41258	GSM1012439	Primary Tumor 12292AR3	12292	Tumor	True
+GSE41258	GSM1012440	Primary Tumor 12297AR3	12297	Tumor	True
+GSE41258	GSM1012441	Primary Tumor 12355AR3	12355	Tumor	True
+GSE41258	GSM1012442	Primary Tumor 12847AR3	12847	Tumor	True
+GSE41258	GSM1012443	Normal Lung 13279MR1	13279	Excluded	False
+GSE41258	GSM1012444	Lung Metastasis 13279VR1	13279	Excluded	False
+GSE41258	GSM1012445	Primary Tumor 13321AR3	13321	Tumor	True
+GSE41258	GSM1012446	Primary Tumor 13357AR3	13357	Tumor	True
+GSE41258	GSM1012447	Primary Tumor 14475AR3	14475	Tumor	True
+GSE41258	GSM1012448	Lung Metastasis 14756VR1	14756	Excluded	False
+GSE41258	GSM1012449	Lung Metastasis 14756VR1_ez	14756	Excluded	False
+GSE41258	GSM1012450	Lung Metastasis 14938VR1	14938	Excluded	False
+GSE41258	GSM1012451	Primary Tumor 15329AR3	15329	Tumor	True
+GSE41258	GSM1012452	Liver Metastasis 79744UR4	79744	Excluded	False
+GSE41258	GSM1012453	Liver Metastasis 80649UR4	80649	Excluded	False
+GSE41258	GSM1012454	Polyp A0022BR4	A0022	Excluded	False
+GSE41258	GSM1012455	Primary Tumor A0319AR4	A0319	Tumor	True
+GSE41258	GSM1012456	Primary Tumor A0702AR4	A0702	Tumor	True
+GSE41258	GSM1012457	Liver Metastasis A1288UR4	A1288	Excluded	False
+GSE41258	GSM1012458	Polyp A1327BR3	A1327	Excluded	False
+GSE41258	GSM1012459	Normal Colon A1327HR2	A1327	Normal	True
+GSE41258	GSM1012460	Liver Metastasis A1423UR4	A1423	Excluded	False
+GSE41258	GSM1012461	Primary Tumor A1516AR4	A1516	Tumor	True
+GSE41258	GSM1012462	Primary Tumor A1644AR4	A1644	Tumor	True
+GSE41258	GSM1012463	Primary Tumor A1716AR4	A1716	Tumor	True
+GSE41258	GSM1012464	Polyp A1853BR3	A1853	Excluded	False
+GSE41258	GSM1012465	Normal Colon A1853HR2	A1853	Normal	True
+GSE41258	GSM1012466	Normal Colon a2191hr	A2191	Normal	True
+GSE41258	GSM1012467	Primary Tumor A2226AR4	A2226	Tumor	True
+GSE41258	GSM1012468	Primary Tumor A2367AR4	A2367	Tumor	True
+GSE41258	GSM1012469	Primary Tumor A2434AR3	A2434	Tumor	True
+GSE41258	GSM1012470	Liver Metastasis A2561UR4	A2561	Excluded	False
+GSE41258	GSM1012471	Primary Tumor A2715AR3	A2715	Tumor	True
+GSE41258	GSM1012472	Liver Metastasis A3203UR4	A3203	Excluded	False
+GSE41258	GSM1012473	Polyp A3443BR4	A3443	Excluded	False
+GSE41258	GSM1012474	Primary Tumor A3536AR4	A3536	Tumor	True
+GSE41258	GSM1012475	Liver Metastasis A3622UR4	A3622	Excluded	False
+GSE41258	GSM1012476	Liver Metastasis A3684UR4	A3684	Excluded	False
+GSE41258	GSM1012477	Polyp A4177BR3	A4177	Excluded	False
+GSE41258	GSM1012478	Primary Tumor A4248AR4	A4248	Tumor	True
+GSE41258	GSM1012479	Primary Tumor A4342AR4	A4342	Tumor	True
+GSE41258	GSM1012480	Liver Metastasis A4396UR4	A4396	Excluded	False
+GSE41258	GSM1012481	Polyp A4410BR3	A4410	Excluded	False
+GSE41258	GSM1012482	Polyp A4410BR3_ren	A4410	Excluded	False
+GSE41258	GSM1012483	Normal Colon A4410HR2	A4410	Normal	True
+GSE41258	GSM1012484	Liver Metastasis A4674UR4	A4674	Excluded	False
+GSE41258	GSM1012485	Liver Metastasis A4756UR4	A4756	Excluded	False
+GSE41258	GSM1012486	Primary Tumor A4779AR3	A4779	Tumor	True
+GSE41258	GSM1012487	Normal Colon A4779HR2	A4779	Normal	True
+GSE41258	GSM1012488	Primary Tumor A4792AR4	A4792	Tumor	True
+GSE41258	GSM1012489	Primary Tumor A4902AR2	A4902	Excluded	False
+GSE41258	GSM1012490	Primary Tumor A4902AR3	A4902	Tumor	True
+GSE41258	GSM1012491	Microadenoma A4902DR2	A4902	Excluded	False
+GSE41258	GSM1012492	Primary Tumor A4947AR4	A4947	Tumor	True
+GSE41258	GSM1012493	Polyp A5086BR4	A5086	Excluded	False
+GSE41258	GSM1012494	Primary Tumor A5135AR2	A5135	Excluded	False
+GSE41258	GSM1012495	Primary Tumor A5135AR2_ez	A5135	Tumor	True
+GSE41258	GSM1012496	Microadenoma A5135DR2	A5135	Excluded	False
+GSE41258	GSM1012497	Polyp A5153BR3	A5153	Excluded	False
+GSE41258	GSM1012498	Normal Colon A5153HR	A5153	Normal	True
+GSE41258	GSM1012499	Primary Tumor A5320AR3	A5320	Tumor	True
+GSE41258	GSM1012500	Primary Tumor A5465AR3	A5465	Tumor	True
+GSE41258	GSM1012501	Liver Metastasis A5607UR4	A5607	Excluded	False
+GSE41258	GSM1012502	Primary Tumor A5627AR3	A5627	Tumor	True
+GSE41258	GSM1012503	Polyp A5627BR3	A5627	Excluded	False
+GSE41258	GSM1012504	Polyp A5790BR3	A5790	Excluded	False
+GSE41258	GSM1012505	Polyp A5790BR3_2	A5790	Excluded	False
+GSE41258	GSM1012506	Liver Metastasis A5960UR4	A5960	Excluded	False
+GSE41258	GSM1012507	Primary Tumor A6141AR	A6141	Tumor	True
+GSE41258	GSM1012508	Polyp A6143BR3	A6143	Excluded	False
+GSE41258	GSM1012509	Primary Tumor A6275AR3	A6275	Tumor	True
+GSE41258	GSM1012510	Primary Tumor A7366AR3	A7366	Tumor	True
+GSE41258	GSM1012511	Primary Tumor A8307AR4	A8307	Tumor	True
+GSE41258	GSM1012512	Polyp A8457BR3	A8457	Excluded	False
+GSE41258	GSM1012513	Primary Tumor A8528AR3	A8528	Tumor	True
+GSE41258	GSM1012514	Polyp A8528BR3	A8528	Excluded	False
+GSE41258	GSM1012515	Polyp A9369BR3	A9369	Excluded	False
+GSE41258	GSM1012516	Polyp C0020BR1	C0020	Excluded	False
+GSE41258	GSM1012517	Polyp C0035BR1	C0035	Excluded	False
+GSE41258	GSM1012518	Liver Metastasis C0045UR3	C0045	Excluded	False
+GSE41258	GSM1012519	Polyp C0047BR1	C0047	Excluded	False
+GSE41258	GSM1012520	Liver Metastasis C0056UR3	C0056	Excluded	False
+GSE41258	GSM1012521	Liver Metastasis C0059UR3	C0059	Excluded	False
+GSE41258	GSM1012522	Liver Metastasis C0068UR3	C0068	Excluded	False
+GSE41258	GSM1012523	Liver Metastasis C0072UR3	C0072	Excluded	False
+GSE41258	GSM1012524	Liver Metastasis C0075UR3	C0075	Excluded	False
+GSE41258	GSM1012525	Primary Tumor C0081AR3	C0081	Tumor	True
+GSE41258	GSM1012526	Primary Tumor C0101AR3	C0101	Tumor	True
+GSE41258	GSM1012527	Primary Tumor C0104AR3	C0104	Tumor	True
+GSE41258	GSM1012528	Primary Tumor C0105A	C0105	Tumor	True
+GSE41258	GSM1012529	Primary Tumor C0111AR1	C0111	Tumor	True
+GSE41258	GSM1012530	Normal Colon C0111HR1	C0111	Normal	True
+GSE41258	GSM1012531	Primary Tumor C0112AR1	C0112	Tumor	True
+GSE41258	GSM1012532	Primary Tumor C0113AR3	C0113	Tumor	True
+GSE41258	GSM1012533	Primary Tumor C0114AR1	C0114	Tumor	True
+GSE41258	GSM1012534	Normal Colon C0114HR1	C0114	Normal	True
+GSE41258	GSM1012535	Primary Tumor C0115AR3	C0115	Tumor	True
+GSE41258	GSM1012536	Primary Tumor C0117AR1	C0117	Tumor	True
+GSE41258	GSM1012537	Normal Colon C0117HR1	C0117	Normal	True
+GSE41258	GSM1012538	Primary Tumor C0122AR3	C0122	Tumor	True
+GSE41258	GSM1012539	Primary Tumor C0123AR3	C0123	Tumor	True
+GSE41258	GSM1012540	Normal Colon C0123HR1	C0123	Normal	True
+GSE41258	GSM1012541	Primary Tumor C0124AR3	C0124	Tumor	True
+GSE41258	GSM1012542	Primary Tumor C0125AR3	C0125	Tumor	True
+GSE41258	GSM1012543	Primary Tumor C0127AR3	C0127	Tumor	True
+GSE41258	GSM1012544	Primary Tumor C0128AR3	C0128	Tumor	True
+GSE41258	GSM1012545	Polyp C0128BR1	C0128	Excluded	False
+GSE41258	GSM1012546	Primary Tumor C0130AR3	C0130	Tumor	True
+GSE41258	GSM1012547	Primary Tumor C0134AR1	C0134	Tumor	True
+GSE41258	GSM1012548	Normal Colon C0134HR1	C0134	Normal	True
+GSE41258	GSM1012549	Primary Tumor C0136AR1	C0136	Tumor	True
+GSE41258	GSM1012550	Normal Colon C0136HR1	C0136	Normal	True
+GSE41258	GSM1012551	Normal Liver C0136KR1	C0136	Excluded	False
+GSE41258	GSM1012552	Liver Metastasis C0136UR1	C0136	Excluded	False
+GSE41258	GSM1012553	Primary Tumor C0137AR1	C0137	Tumor	True
+GSE41258	GSM1012554	Normal Colon C0137HR1	C0137	Normal	True
+GSE41258	GSM1012555	Normal Liver C0139KR1	C0139	Excluded	False
+GSE41258	GSM1012556	Normal Liver C0139KR2	C0139	Excluded	False
+GSE41258	GSM1012557	Liver Metastasis C0139UR1	C0139	Excluded	False
+GSE41258	GSM1012558	Primary Tumor C0140AR3	C0140	Tumor	True
+GSE41258	GSM1012559	Liver Metastasis C0141UR3	C0141	Excluded	False
+GSE41258	GSM1012560	Liver Metastasis C0145UR3	C0145	Excluded	False
+GSE41258	GSM1012561	Primary Tumor C0147AR1	C0147	Excluded	False
+GSE41258	GSM1012562	Primary Tumor C0147AR3	C0147	Tumor	True
+GSE41258	GSM1012563	Normal Colon C0147HR1	C0147	Normal	True
+GSE41258	GSM1012564	Primary Tumor C0149AR3	C0149	Tumor	True
+GSE41258	GSM1012565	Primary Tumor C0151AR1	C0151	Tumor	True
+GSE41258	GSM1012566	Liver Metastasis C0152UR3	C0152	Excluded	False
+GSE41258	GSM1012567	Primary Tumor C0153AR1	C0153	Tumor	True
+GSE41258	GSM1012568	Normal Colon C0153HR1	C0153	Normal	True
+GSE41258	GSM1012569	Primary Tumor C0154AR1	C0154	Tumor	True
+GSE41258	GSM1012570	Primary Tumor C0155AR3	C0155	Tumor	True
+GSE41258	GSM1012571	Primary Tumor C0156AR1	C0156	Tumor	True
+GSE41258	GSM1012572	Primary Tumor C0157AR1	C0157	Tumor	True
+GSE41258	GSM1012573	Normal Colon C0157H	C0157	Normal	True
+GSE41258	GSM1012574	Primary Tumor C0158AR1	C0158	Tumor	True
+GSE41258	GSM1012575	Normal Colon C0158H	C0158	Normal	True
+GSE41258	GSM1012576	Primary Tumor C0159AR3	C0159	Tumor	True
+GSE41258	GSM1012577	Primary Tumor C0168AR3	C0168	Tumor	True
+GSE41258	GSM1012578	Primary Tumor C0170AR1	C0170	Tumor	True
+GSE41258	GSM1012579	Primary Tumor C0171AR1	C0171	Tumor	True
+GSE41258	GSM1012580	Primary Tumor C0172AR1	C0172	Tumor	True
+GSE41258	GSM1012581	Normal Colon C0172HR1	C0172	Normal	True
+GSE41258	GSM1012582	Polyp C0177BR2	C0177	Excluded	False
+GSE41258	GSM1012583	Primary Tumor C0178AR1	C0178	Tumor	True
+GSE41258	GSM1012584	Primary Tumor C0180AR1	C0180	Tumor	True
+GSE41258	GSM1012585	Normal Colon C0180HR1	C0180	Normal	True
+GSE41258	GSM1012586	Primary Tumor C0181AR3	C0181	Tumor	True
+GSE41258	GSM1012587	Primary Tumor C0186AR3	C0186	Tumor	True
+GSE41258	GSM1012588	Primary Tumor C0192A	C0192	Tumor	True
+GSE41258	GSM1012589	Primary Tumor C0193AR1	C0193	Tumor	True
+GSE41258	GSM1012590	Normal Colon C0193HR1	C0193	Normal	True
+GSE41258	GSM1012591	Primary Tumor C0194AR1	C0194	Tumor	True
+GSE41258	GSM1012592	Normal Colon C0194HR1	C0194	Normal	True
+GSE41258	GSM1012593	Primary Tumor C0198AR1	C0198	Tumor	True
+GSE41258	GSM1012594	Normal Colon C0198HR1	C0198	Normal	True
+GSE41258	GSM1012595	Primary Tumor C0200AR3	C0200	Tumor	True
+GSE41258	GSM1012596	Primary Tumor C0203AR3	C0203	Tumor	True
+GSE41258	GSM1012597	Primary Tumor C0210AR1	C0210	Tumor	True
+GSE41258	GSM1012598	Polyp C0210BR1	C0210	Excluded	False
+GSE41258	GSM1012599	Polyp, high grade C0210CR1	C0210	Excluded	False
+GSE41258	GSM1012600	Primary Tumor C0221AR3	C0221	Tumor	True
+GSE41258	GSM1012601	Polyp C0224BR2	C0224	Excluded	False
+GSE41258	GSM1012602	Primary Tumor C0225AR3	C0225	Tumor	True
+GSE41258	GSM1012603	Normal Colon C02308H	2308	Normal	True
+GSE41258	GSM1012604	Primary Tumor C0234AR3	C0234	Tumor	True
+GSE41258	GSM1012605	Primary Tumor C0238AR3	C0238	Tumor	True
+GSE41258	GSM1012606	Normal Colon C0251HR1	C0251	Normal	True
+GSE41258	GSM1012607	Normal Liver C0251KR1	C0251	Excluded	False
+GSE41258	GSM1012608	Polyp C0252BR1	C0252	Excluded	False
+GSE41258	GSM1012609	Normal Liver C0253KR1	C0253	Excluded	False
+GSE41258	GSM1012610	Liver Metastasis C0253UR1	C0253	Excluded	False
+GSE41258	GSM1012611	Primary Tumor C0257AR3	C0257	Tumor	True
+GSE41258	GSM1012612	Normal Colon C0265HR1	C0265	Normal	True
+GSE41258	GSM1012613	Normal Liver C0265KR1	C0265	Excluded	False
+GSE41258	GSM1012614	Liver Metastasis C0265UR1	C0265	Excluded	False
+GSE41258	GSM1012615	Primary Tumor C0273A	C0273	Tumor	True
+GSE41258	GSM1012616	Primary Tumor C0275AR3	C0275	Tumor	True
+GSE41258	GSM1012617	Primary Tumor C0283AR3	C0283	Tumor	True
+GSE41258	GSM1012618	Primary Tumor C0285AR1	C0285	Tumor	True
+GSE41258	GSM1012619	Primary Tumor C0295AR3	C0295	Tumor	True
+GSE41258	GSM1012620	Primary Tumor C0297AR1	C0297	Tumor	True
+GSE41258	GSM1012621	Normal Colon C0297HR1	C0297	Normal	True
+GSE41258	GSM1012622	Primary Tumor C0298AR3	C0298	Tumor	True
+GSE41258	GSM1012623	Polyp C0298BR3	C0298	Excluded	False
+GSE41258	GSM1012624	Primary Tumor C0312AR3	C0312	Tumor	True
+GSE41258	GSM1012625	Normal Colon C03156H	3156	Normal	True
+GSE41258	GSM1012626	Polyp C0319BR3	C0319	Excluded	False
+GSE41258	GSM1012627	Primary Tumor C0323AR1	C0323	Tumor	True
+GSE41258	GSM1012628	Normal Colon C0323H	C0323	Normal	True
+GSE41258	GSM1012629	Primary Tumor C0329AR1	C0329	Tumor	True
+GSE41258	GSM1012630	Normal Colon C0329HR1	C0329	Normal	True
+GSE41258	GSM1012631	Primary Tumor C0330AR3	C0330	Tumor	True
+GSE41258	GSM1012632	Normal Liver C0331KR1	C0331	Excluded	False
+GSE41258	GSM1012633	Liver Metastasis C0331UR1	C0331	Excluded	False
+GSE41258	GSM1012634	Primary Tumor C0334AR3	C0334	Tumor	True
+GSE41258	GSM1012635	Primary Tumor C0353AR1	C0353	Tumor	True
+GSE41258	GSM1012636	Normal Colon C0353HR1	C0353	Normal	True
+GSE41258	GSM1012637	Normal Liver C0353KR1	C0353	Excluded	False
+GSE41258	GSM1012638	Liver Metastasis C0353UR1	C0353	Excluded	False
+GSE41258	GSM1012639	Primary Tumor C0415AR1	C0415	Tumor	True
+GSE41258	GSM1012640	Normal Colon C0415HR1	C0415	Normal	True
+GSE41258	GSM1012641	Normal Liver C0415KR1	C0415	Excluded	False
+GSE41258	GSM1012642	Liver Metastasis C0415UR1	C0415	Excluded	False
+GSE41258	GSM1012643	Primary Tumor C0472AR1	C0472	Tumor	True
+GSE41258	GSM1012644	Normal Liver C0472KR1	C0472	Excluded	False
+GSE41258	GSM1012645	Primary Tumor C0487AR3	C0487	Tumor	True
+GSE41258	GSM1012646	Normal Colon c0487hr3	C0487	Normal	True
+GSE41258	GSM1012647	Primary Tumor C0575A	C0575	Excluded	False
+GSE41258	GSM1012648	Normal Colon C0575HR1	C0575	Normal	True
+GSE41258	GSM1012649	Normal Liver C0575KR1	C0575	Excluded	False
+GSE41258	GSM1012650	Liver Metastasis C0575UR1	C0575	Excluded	False
+GSE41258	GSM1012651	Primary Tumor C0667AR1	C0667	Tumor	True
+GSE41258	GSM1012652	Normal Colon C0667HR1	C0667	Excluded	False
+GSE41258	GSM1012653	Normal Colon C0667HR1_ez	C0667	Normal	True
+GSE41258	GSM1012654	Normal Liver C0667KR1	C0667	Excluded	False
+GSE41258	GSM1012655	Liver Metastasis C0667UR1	C0667	Excluded	False
+GSE41258	GSM1012656	Cell line DLD1	Cell line	Excluded	False
+GSE41258	GSM1012657	Cell line HCT15	Cell line	Excluded	False
+GSE41258	GSM1012658	Cell line HCT15rehyb	Cell line	Excluded	False
+GSE41258	GSM1012659	Cell line HT29	Cell line	Excluded	False
+GSE41258	GSM1012660	Cell line HTB39	Cell line	Excluded	False
+GSE41258	GSM1012661	Cell line LNCap	Cell line	Excluded	False
+GSE41258	GSM1012662	Cell line LOVO	Cell line	Excluded	False
+GSE41258	GSM1012663	Cell line MCF7	Cell line	Excluded	False
+GSE41258	GSM1012664	Cell line NCM460	Cell line	Excluded	False
+GSE41258	GSM1012665	Cell line SW1116	Cell line	Excluded	False
+GSE41258	GSM1012666	Cell line SW620	Cell line	Excluded	False
+GSE41258	GSM1012667	Cell line WiDr	Cell line	Excluded	False
+GSE106582	GSM2843099	400072_A	400072	Tumor	True
+GSE106582	GSM2843100	400072_C	400072	Normal	True
+GSE106582	GSM2843101	400152_A	400152	Tumor	True
+GSE106582	GSM2843102	400152_C	400152	Normal	True
+GSE106582	GSM2843103	400200_C	400200	Normal	False
+GSE106582	GSM2843104	400216_A	400216	Tumor	True
+GSE106582	GSM2843105	400216_C	400216	Normal	True
+GSE106582	GSM2843106	400240_A	400240	Tumor	True
+GSE106582	GSM2843107	400240_C	400240	Normal	True
+GSE106582	GSM2843108	400264_C	400264	Normal	False
+GSE106582	GSM2843109	400280_C	400280	Normal	False
+GSE106582	GSM2843110	400288_A	400288	Tumor	True
+GSE106582	GSM2843111	400288_C	400288	Normal	True
+GSE106582	GSM2843112	400296_C	400296	Normal	False
+GSE106582	GSM2843113	400408_A	400408	Tumor	True
+GSE106582	GSM2843114	400408_C	400408	Normal	True
+GSE106582	GSM2843115	400448_C	400448	Normal	False
+GSE106582	GSM2843116	400456_C1	400456	Normal	False
+GSE106582	GSM2843117	400488_A	400488	Tumor	False
+GSE106582	GSM2843118	400600_C	400600	Normal	False
+GSE106582	GSM2843119	400688_A	400688	Tumor	True
+GSE106582	GSM2843120	400688_C	400688	Normal	True
+GSE106582	GSM2843121	400704_A	400704	Tumor	True
+GSE106582	GSM2843122	400704_C	400704	Normal	True
+GSE106582	GSM2843123	400712_A	400712	Tumor	False
+GSE106582	GSM2843124	400728_A	400728	Tumor	True
+GSE106582	GSM2843125	400728_C	400728	Normal	True
+GSE106582	GSM2843126	400872_C	400872	Normal	False
+GSE106582	GSM2843127	400896_A	400896	Tumor	True
+GSE106582	GSM2843128	400896_C1	400896	Normal	True
+GSE106582	GSM2843129	400992_A	400992	Tumor	True
+GSE106582	GSM2843130	400992_C	400992	Normal	True
+GSE106582	GSM2843131	401000_A	401000	Tumor	True
+GSE106582	GSM2843132	401000_C	401000	Normal	True
+GSE106582	GSM2843133	401088_A	401088	Tumor	False
+GSE106582	GSM2843134	401120_C	401120	Normal	False
+GSE106582	GSM2843135	401144_A	401144	Tumor	True
+GSE106582	GSM2843136	401144_C	401144	Normal	True
+GSE106582	GSM2843137	401176_A	401176	Tumor	False
+GSE106582	GSM2843138	401200_C	401200	Normal	False
+GSE106582	GSM2843139	401248_A	401248	Tumor	True
+GSE106582	GSM2843140	401248_C	401248	Normal	True
+GSE106582	GSM2843141	401288_C	401288	Normal	False
+GSE106582	GSM2843142	401304_A	401304	Tumor	False
+GSE106582	GSM2843143	401320_C	401320	Normal	False
+GSE106582	GSM2843144	401352_C	401352	Normal	False
+GSE106582	GSM2843145	401368_A	401368	Tumor	True
+GSE106582	GSM2843146	401368_C	401368	Normal	True
+GSE106582	GSM2843147	401424_A	401424	Tumor	True
+GSE106582	GSM2843148	401424_C1	401424	Normal	True
+GSE106582	GSM2843149	401464_A	401464	Tumor	True
+GSE106582	GSM2843150	401464_C1	401464	Normal	True
+GSE106582	GSM2843151	401504_C	401504	Normal	False
+GSE106582	GSM2843152	401624_A	401624	Tumor	True
+GSE106582	GSM2843153	401624_C	401624	Normal	True
+GSE106582	GSM2843154	401648_A	401648	Tumor	True
+GSE106582	GSM2843155	401648_C	401648	Normal	True
+GSE106582	GSM2843156	401664_A	401664	Tumor	True
+GSE106582	GSM2843157	401664_C1	401664	Normal	True
+GSE106582	GSM2843158	401696_A	401696	Tumor	True
+GSE106582	GSM2843159	401696_C1	401696	Normal	True
+GSE106582	GSM2843160	401728_A	401728	Tumor	True
+GSE106582	GSM2843161	401728_C1	401728	Normal	True
+GSE106582	GSM2843162	401816_A	401816	Tumor	True
+GSE106582	GSM2843163	401816_C1	401816	Normal	True
+GSE106582	GSM2843164	401848_C	401848	Normal	False
+GSE106582	GSM2843165	401864_A	401864	Tumor	True
+GSE106582	GSM2843166	401864_C1	401864	Normal	True
+GSE106582	GSM2843167	401896_C1	401896	Normal	False
+GSE106582	GSM2843168	401976_A	401976	Tumor	True
+GSE106582	GSM2843169	401976_C1	401976	Normal	True
+GSE106582	GSM2843170	401984_A	401984	Tumor	True
+GSE106582	GSM2843171	401984_C	401984	Normal	True
+GSE106582	GSM2843172	402016_C1	402016	Normal	False
+GSE106582	GSM2843173	402048_A	402048	Tumor	True
+GSE106582	GSM2843174	402048_C	402048	Normal	True
+GSE106582	GSM2843175	402096_A	402096	Tumor	True
+GSE106582	GSM2843176	402096_C1	402096	Normal	True
+GSE106582	GSM2843177	402152_C1	402152	Normal	False
+GSE106582	GSM2843178	402168_C	402168	Normal	False
+GSE106582	GSM2843179	402200_A	402200	Tumor	True
+GSE106582	GSM2843180	402200_C2	402200	Normal	True
+GSE106582	GSM2843181	402216_C1	402216	Normal	False
+GSE106582	GSM2843182	402232_A	402232	Tumor	False
+GSE106582	GSM2843183	402240_C1	402240	Normal	False
+GSE106582	GSM2843184	402256_A	402256	Tumor	True
+GSE106582	GSM2843185	402256_C1	402256	Normal	True
+GSE106582	GSM2843186	402264_A	402264	Tumor	False
+GSE106582	GSM2843187	402296_C2	402296	Normal	False
+GSE106582	GSM2843188	402376_C1	402376	Normal	False
+GSE106582	GSM2843189	402384_C	402384	Normal	False
+GSE106582	GSM2843190	402392_C2	402392	Normal	False
+GSE106582	GSM2843191	402400_A	402400	Tumor	True
+GSE106582	GSM2843192	402400_C1	402400	Normal	True
+GSE106582	GSM2843193	402408_A	402408	Tumor	True
+GSE106582	GSM2843194	402408_C1	402408	Normal	True
+GSE106582	GSM2843195	402424_C	402424	Normal	False
+GSE106582	GSM2843196	402432_A	402432	Tumor	False
+GSE106582	GSM2843197	402440_A	402440	Tumor	True
+GSE106582	GSM2843198	402440_C2	402440	Normal	True
+GSE106582	GSM2843199	402512_A	402512	Tumor	True
+GSE106582	GSM2843200	402512_C1	402512	Normal	True
+GSE106582	GSM2843201	402536_A	402536	Tumor	True
+GSE106582	GSM2843202	402536_C1	402536	Normal	True
+GSE106582	GSM2843203	402576_C1	402576	Normal	False
+GSE106582	GSM2843204	402608_C	402608	Normal	False
+GSE106582	GSM2843205	402648_A	402648	Tumor	True
+GSE106582	GSM2843206	402648_C1	402648	Normal	True
+GSE106582	GSM2843207	402672_A	402672	Tumor	True
+GSE106582	GSM2843208	402672_C1	402672	Normal	True
+GSE106582	GSM2843209	402744_C1	402744	Normal	False
+GSE106582	GSM2843210	402760_A	402760	Tumor	True
+GSE106582	GSM2843211	402760_C1	402760	Normal	True
+GSE106582	GSM2843212	402768_C1	402768	Normal	False
+GSE106582	GSM2843213	402800_A	402800	Tumor	True
+GSE106582	GSM2843214	402800_C1	402800	Normal	True
+GSE106582	GSM2843215	402872_C1	402872	Normal	False
+GSE106582	GSM2843216	402880_C1	402880	Normal	False
+GSE106582	GSM2843217	402968_C2	402968	Normal	False
+GSE106582	GSM2843218	402992_A	402992	Tumor	True
+GSE106582	GSM2843219	402992_C	402992	Normal	True
+GSE106582	GSM2843220	403032_C1	403032	Normal	False
+GSE106582	GSM2843221	403056_C1	403056	Normal	False
+GSE106582	GSM2843222	403064_A	403064	Tumor	True
+GSE106582	GSM2843223	403064_C1	403064	Normal	True
+GSE106582	GSM2843224	403080_A	403080	Tumor	True
+GSE106582	GSM2843225	403080_C1	403080	Normal	True
+GSE106582	GSM2843226	403176_A	403176	Tumor	True
+GSE106582	GSM2843227	403176_C1	403176	Normal	True
+GSE106582	GSM2843228	403320_A	403320	Tumor	True
+GSE106582	GSM2843229	403320_C1	403320	Normal	True
+GSE106582	GSM2843230	403368_A	403368	Tumor	True
+GSE106582	GSM2843231	403368_C	403368	Normal	True
+GSE106582	GSM2843232	403392_C1	403392	Normal	False
+GSE106582	GSM2843233	403416_C	403416	Normal	False
+GSE106582	GSM2843234	403432_C1	403432	Normal	False
+GSE106582	GSM2843235	403456_C2	403456	Normal	False
+GSE106582	GSM2843236	403664_C1	403664	Normal	False
+GSE106582	GSM2843237	403672_C1	403672	Normal	False
+GSE106582	GSM2843238	403704_C1	403704	Normal	False
+GSE106582	GSM2843239	403744_C1	403744	Normal	False
+GSE106582	GSM2843240	403752_A	403752	Tumor	True
+GSE106582	GSM2843241	403752_C1	403752	Normal	True
+GSE106582	GSM2843242	403800_C1	403800	Normal	False
+GSE106582	GSM2843243	403840_A	403840	Tumor	True
+GSE106582	GSM2843244	403840_C1	403840	Normal	True
+GSE106582	GSM2843245	403848_A	403848	Tumor	True
+GSE106582	GSM2843246	403848_C1	403848	Normal	True
+GSE106582	GSM2843247	403888_A	403888	Tumor	True
+GSE106582	GSM2843248	403888_C1	403888	Normal	True
+GSE106582	GSM2843249	403928_A	403928	Tumor	False
+GSE106582	GSM2843250	403944_C1	403944	Normal	False
+GSE106582	GSM2843251	403968_A	403968	Tumor	True
+GSE106582	GSM2843252	403968_C	403968	Normal	True
+GSE106582	GSM2843253	403976_A	403976	Tumor	True
+GSE106582	GSM2843254	403976_C	403976	Normal	True
+GSE106582	GSM2843255	404056_A	404056	Tumor	True
+GSE106582	GSM2843256	404056_C2	404056	Normal	True
+GSE106582	GSM2843257	404088_A	404088	Tumor	True
+GSE106582	GSM2843258	404088_C1	404088	Normal	True
+GSE106582	GSM2843259	404096_A	404096	Tumor	True
+GSE106582	GSM2843260	404096_C1	404096	Normal	True
+GSE106582	GSM2843261	404200_A	404200	Tumor	True
+GSE106582	GSM2843262	404200_C2	404200	Normal	True
+GSE106582	GSM2843263	404208_A	404208	Tumor	True
+GSE106582	GSM2843264	404208_C1	404208	Normal	True
+GSE106582	GSM2843265	404264_A	404264	Tumor	True
+GSE106582	GSM2843266	404264_C1	404264	Normal	True
+GSE106582	GSM2843267	404280_A	404280	Tumor	True
+GSE106582	GSM2843268	404280_C	404280	Normal	True
+GSE106582	GSM2843269	404296_A	404296	Tumor	True
+GSE106582	GSM2843270	404296_C1	404296	Normal	True
+GSE106582	GSM2843271	404304_A	404304	Tumor	True
+GSE106582	GSM2843272	404304_C1	404304	Normal	True
+GSE106582	GSM2843273	404312_A	404312	Tumor	True
+GSE106582	GSM2843274	404312_C1	404312	Normal	True
+GSE106582	GSM2843275	404328_A	404328	Tumor	True
+GSE106582	GSM2843276	404328_C1	404328	Normal	True
+GSE106582	GSM2843277	404336_C2	404336	Normal	False
+GSE106582	GSM2843278	404344_A	404344	Tumor	True
+GSE106582	GSM2843279	404344_C1	404344	Normal	True
+GSE106582	GSM2843280	404352_A	404352	Tumor	True
+GSE106582	GSM2843281	404352_C1	404352	Normal	True
+GSE106582	GSM2843282	404360_A	404360	Tumor	True
+GSE106582	GSM2843283	404360_C	404360	Normal	True
+GSE106582	GSM2843284	404368_C1	404368	Normal	False
+GSE106582	GSM2843285	404456_A	404456	Tumor	True
+GSE106582	GSM2843286	404456_C2	404456	Normal	True
+GSE106582	GSM2843287	404480_C1	404480	Normal	False
+GSE106582	GSM2843288	404656_A	404656	Tumor	True
+GSE106582	GSM2843289	404656_C2	404656	Normal	True
+GSE106582	GSM2843290	404768_C1	404768	Normal	False
+GSE106582	GSM2843291	404848_A	404848	Tumor	True
+GSE106582	GSM2843292	404848_C1	404848	Normal	True

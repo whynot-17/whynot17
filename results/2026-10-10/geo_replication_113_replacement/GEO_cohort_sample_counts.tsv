@@ -1,0 +1,5 @@
+accession	platform	series_matrix_total_samples	included_tumor_samples	included_normal_samples	complete_patient_pairs_available	complete_patient_pairs_used_for_test	included_expression_samples_used_for_test	excluded_samples	statistical_method
+GSE32323	GPL570	44	17	17	17	17	34	10	paired t-test on complete patient pairs
+GSE44076	GPL13667	246	98	98	98	98	196	50	paired t-test on complete patient pairs
+GSE41258	GPL96	390	182	53	44	44	235	155	patient-cluster robust OLS mean difference
+GSE106582	GPL10558	194	77	117	68	68	136	0	paired t-test on complete patient pairs
