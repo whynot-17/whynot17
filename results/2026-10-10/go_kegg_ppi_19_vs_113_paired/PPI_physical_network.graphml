@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="graph" attr.name="confidence_threshold" attr.type="double"/>
+<key id="d0" for="graph" attr.name="network_type" attr.type="string"/>
+<graph edgedefault="undirected"><data key="d0">physical</data>
+<data key="d1">0.7</data>
+<node id="AOC3"/>
+<node id="BMP2"/>
+<node id="DDIT4"/>
+<node id="DES"/>
+<node id="FABP4"/>
+<node id="FHL1"/>
+<node id="INHBA"/>
+<node id="MUC2"/>
+<node id="NR3C1"/>
+<node id="PCK1"/>
+<node id="PDK4"/>
+<node id="PID1"/>
+<node id="PLAC8"/>
+<node id="RETSAT"/>
+<node id="RGS2"/>
+<node id="SCD"/>
+<node id="TIMP1"/>
+<node id="TPSAB1"/>
+<node id="UBE2C"/>
+</graph></graphml>

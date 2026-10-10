@@ -1,0 +1,2 @@
+number_of_nodes	number_of_edges	average_node_degree	local_clustering_coefficient	expected_number_of_edges	p_value
+19	11	1.16	0.368	9	0.2535
