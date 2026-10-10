@@ -1,0 +1,2 @@
+total_series_matrix_samples	selected_tumor_samples	selected_normal_samples	complete_pairs_tested	group_means_tested	mapped_genes_for_BH_FDR	candidate_platform_coverage	test	expression_transform
+390	182	53	44	88	13908	103	paired t-test after averaging replicate arrays within patient and tissue	log2(PLIER signal)

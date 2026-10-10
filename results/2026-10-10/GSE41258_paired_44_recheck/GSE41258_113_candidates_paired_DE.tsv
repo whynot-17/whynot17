@@ -1,0 +1,114 @@
+gene_symbol	accession	platform	n_tumor	n_normal	n_pairs_used	statistical_method	probes_collapsed	log2FC_tumor_minus_normal	P_value	FDR_BH_all_mapped_genes	passes_FDR_and_abs_log2FC	direction
+ABHD6	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	4	-0.4141117583802851	5.716669926723995e-10	7.53625074321112e-09	False	Tumor_down
+ACAA2	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	-0.40919937337177964	5.652930470669182e-05	0.00021346988049434422	False	Tumor_down
+ACAT1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-1.0749916549632692	5.845687286804278e-13	1.9590799707198533e-11	True	Tumor_down
+ACOX1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	4	-0.32932899825680173	2.1270678877360365e-05	8.85726352773437e-05	False	Tumor_down
+ACSM3	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	-0.5029148845713173	9.876852662616757e-05	0.00035141280847192087	False	Tumor_down
+ACSM5	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	-0.06653369759521524	0.21681785031189443	0.2986533289232275	False	Tumor_down
+ADIPOQ	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-0.8845469056624252	0.00032371974758780057	0.0010108428939046095	False	Tumor_down
+AGTR1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	-0.8205036382492757	4.307685547649117e-09	4.552529680600602e-08	False	Tumor_down
+ANGPT2	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	1.109772267832551	8.003556887165204e-12	1.8995472557456256e-10	True	Tumor_up
+AOC3	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-2.029325852278161	7.77374052077838e-14	3.5448256774749416e-12	True	Tumor_down
+AQP7	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-0.03424267054874724	0.46709640358428617	0.5582518502234469	False	Tumor_down
+AR	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	-0.16348712065071785	0.0012342085472982632	0.003360487955329727	False	Tumor_down
+ATP1A2	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	-1.905104566170735	9.91466242533203e-13	3.105701013772925e-11	True	Tumor_down
+BMP2	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	-1.5386851407508855	1.0779993276126039e-14	6.784079026441672e-13	True	Tumor_down
+CACNA2D3	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-0.1755634767375216	0.06054486005578264	0.10204288822780234	False	Tumor_down
+CASQ1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-0.016013531781179733	0.8113512921033368	0.8564913677854428	False	Tumor_down
+CCL11	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-0.48564763393831784	0.0019195590401305993	0.004978968133184702	False	Tumor_down
+CCL24	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	0.6264451765250852	1.1241434347254516e-05	5.0014673353044085e-05	False	Tumor_up
+CCR7	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-0.3886134705995547	0.005737230294803525	0.013186811922017422	False	Tumor_down
+CD36	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	3	-1.2512971937692092	1.0281352839969588e-10	1.7269692668876454e-09	True	Tumor_down
+CDC42EP2	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	0.04343735774791215	0.5583676765047398	0.6437149904532429	False	Tumor_up
+CEBPB	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	0.8554811795514629	8.134285059641533e-11	1.401879016226697e-09	False	Tumor_up
+CFL2	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	0				False	not represented
+CLIP4	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-0.08515976716989854	0.17761806913896022	0.2532614420324645	False	Tumor_down
+CMYA5	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	0				False	not represented
+CNR1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	3	-0.2202121927511718	0.00030927859276168437	0.0009709811891940195	False	Tumor_down
+CNR2	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	0.047473169488593744	0.5411642915268059	0.6278372511306988	False	Tumor_up
+CPT2	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	-0.8521944749777908	1.3304117023433431e-14	8.080072469952496e-13	False	Tumor_down
+CRAT	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	-0.3869958085511691	1.3141609620120307e-06	7.360995030069804e-06	False	Tumor_down
+CREB3L3	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	0				False	not represented
+CYP11A1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-0.18129818298859338	0.14231948725422428	0.21120139017624318	False	Tumor_down
+CYP3A4	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	4	-0.8777638259663422	0.0001583864679152918	0.0005366233850830399	False	Tumor_down
+DDIT4	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	0.8133357047598708	1.2142625695530337e-07	8.732142614965662e-07	False	Tumor_up
+DES	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	3	-2.76087079035895	3.762570346857648e-09	4.040913388733295e-08	True	Tumor_down
+DHCR7	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	0.6875822182006155	7.535130300747604e-07	4.446270353109787e-06	False	Tumor_up
+DUSP1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	-1.2417995383501266	1.6534907941106784e-06	8.997163522883926e-06	True	Tumor_down
+ECI2	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-1.4075451804652361	1.3573218266232288e-10	2.2001902056731778e-09	True	Tumor_down
+EHHADH	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-0.8316114141140903	2.1743021417057543e-06	1.1524464248034921e-05	False	Tumor_down
+ELOVL6	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	-0.7526398447446031	5.279627577275492e-06	2.52941992231304e-05	False	Tumor_down
+EPAS1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	-0.30865150876218067	0.0021269657741055776	0.005460926709665935	False	Tumor_down
+ESR1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	9	-0.01098147997177062	0.7390695262382662	0.7996716174670768	False	Tumor_down
+FABP1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-2.232022161862013	4.7270954062123346e-09	4.9246773715057036e-08	True	Tumor_down
+FABP4	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-2.2943525480410054	5.597089261436815e-14	2.6659012824679188e-12	True	Tumor_down
+FADS2	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	0.6815770647259766	0.0001761409187093213	0.0005906598895363252	False	Tumor_up
+FAS	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	4	-0.8050840904852049	5.988873869319816e-12	1.4716123281713779e-10	False	Tumor_down
+FASN	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	0.44265622535323745	7.82586824156554e-07	4.598317511774125e-06	False	Tumor_up
+FHL1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	5	-2.620060481293637	9.496434847036693e-17	1.4050682537509184e-14	True	Tumor_down
+FLNC	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-1.6075323975132234	1.8690781677809083e-07	1.2799182253814316e-06	True	Tumor_down
+FNDC5	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	0				False	not represented
+GCM1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-0.07419567694051234	0.2824838018949629	0.371621709870899	False	Tumor_down
+HAND2	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-0.01680564903110041	0.8575506621357751	0.8923729445207839	False	Tumor_down
+HSPB6	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-1.0623020489889183	2.3651790434893607e-09	2.6765590021847052e-08	True	Tumor_down
+HSPB7	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-0.9816704838379372	4.553576956581811e-06	2.2221455548119236e-05	False	Tumor_down
+IL13	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	0.15273919113200282	0.05323661734183238	0.09144311152157648	False	Tumor_up
+IL18	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-0.4455077994615444	0.00043177652092808055	0.001310595341132201	False	Tumor_down
+IL1A	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	0.31208342581383625	8.954042963175109e-06	4.072361985998673e-05	False	Tumor_up
+INHBA	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	1.7787765312383383	7.745573268989997e-17	1.1969492558345875e-14	True	Tumor_up
+INHBB	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	1.0254560571964015	1.1554011257936726e-07	8.352036828242411e-07	True	Tumor_up
+JPH2	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-0.3291042683356382	0.011658257745330476	0.024548531222112986	False	Tumor_down
+LEPR	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	5	-0.2495852107860747	4.742751109818701e-05	0.0001825184904132775	False	Tumor_down
+LHB	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	0.07071281114298783	0.4459459004399484	0.5375468524283934	False	Tumor_up
+LPCAT3	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	-0.15957061083060298	0.03920087297587051	0.0706499600036811	False	Tumor_down
+LYNX1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	0				False	not represented
+MKI67	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	4	0.600825530834826	4.1196351587377915e-05	0.00016085313247536553	False	Tumor_up
+MUC2	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-2.72179847743403	5.571815184487266e-10	7.394351678039017e-09	True	Tumor_down
+MYOM1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-0.36742719415505953	2.3726941273625385e-05	9.748723758746878e-05	False	Tumor_down
+NEB	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	0.21497886848031664	0.00016461823532230068	0.0005551674143701644	False	Tumor_up
+NLRP3	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	3	0.11028775434834462	0.09323794224013021	0.147811843232159	False	Tumor_up
+NPY	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-0.04042600527860347	0.5792662894071106	0.6632448796471634	False	Tumor_down
+NR3C1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	4	-1.0814748389741033	5.502371193339758e-11	9.899997225998623e-10	True	Tumor_down
+NR5A1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	0.1443280697462508	0.04898927487749077	0.08532621991417988	False	Tumor_up
+NRAP	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	0.010200990301217683	0.8938262401197801	0.9201580568161289	False	Tumor_up
+ORM2	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	-0.5458414465468325	0.025342133993419415	0.048281972545270856	False	Tumor_down
+PCK1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-2.8395719298533684	2.0171569107051006e-12	5.808409588837793e-11	True	Tumor_down
+PDK4	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-1.4057944726514253	1.8123253701718874e-11	3.755515843972984e-10	True	Tumor_down
+PEX11A	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	-0.5151786046355561	6.572072516673743e-10	8.550456928147655e-09	False	Tumor_down
+PGR	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	0.009040951554587758	0.912440056838555	0.9348914329240182	False	Tumor_up
+PID1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-1.8551567940343683	1.2644419878703466e-12	3.856548063004557e-11	True	Tumor_down
+PLAC8	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-1.9493432698318587	1.0517049560551689e-10	1.7597320467693073e-09	True	Tumor_down
+PLIN1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-0.29222114796908727	0.23713003129359767	0.321442931309099	False	Tumor_down
+PLIN4	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	0				False	not represented
+RARRES2	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-0.5809939563750985	0.00030571364643117356	0.0009613080249976853	False	Tumor_down
+RBFOX1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	0.045826267447887155	0.4636943983287912	0.5548207150597625	False	Tumor_up
+RDH16	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	0.21804570475818164	0.002324410665537688	0.005906797649606828	False	Tumor_up
+RETSAT	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-0.9174008168396433	2.3442871357099803e-10	3.532431796690618e-09	False	Tumor_down
+RGS2	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-1.2995232615175623	2.96250093647958e-07	1.929857752906698e-06	True	Tumor_down
+RXRA	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	-0.23423192253226305	1.003253090968386e-05	4.508317928655352e-05	False	Tumor_down
+RXRG	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-0.2310851322019868	4.167487180046896e-05	0.0001624023863829987	False	Tumor_down
+RYR1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	0.5139761282390959	1.6303188353162124e-05	6.959629945235692e-05	False	Tumor_up
+SAA1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	-0.5818566714377285	0.08339690640385031	0.13440141069116457	False	Tumor_down
+SAA2	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	-0.5818566714377285	0.08339690640385031	0.13440141069116457	False	Tumor_down
+SCD	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	4	1.5085559925518786	2.86781565364224e-12	7.836066819421666e-11	True	Tumor_up
+SCP2	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	-0.8159308426553242	3.3428859606137975e-14	1.6754820216644307e-12	False	Tumor_down
+SLC2A1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	0.6845443303938757	2.0272452170440972e-08	1.784489017636032e-07	False	Tumor_up
+SLC2A4	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-0.15024322348753244	0.021301812100711744	0.04161618242684351	False	Tumor_down
+SORBS1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	4	-1.0425176157939118	2.163233644199318e-09	2.4864672333491002e-08	True	Tumor_down
+SPC24	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	0.003142011283376474	0.955788927175688	0.9678935464062701	False	Tumor_up
+SRL	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	0				False	not represented
+STAR	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	0.03533181080671124	0.5381946504430523	0.6251742419077901	False	Tumor_up
+STEAP4	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	0.13266453828958757	0.08312236315959005	0.13403477193841526	False	Tumor_up
+SULT1C3	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	0				False	not represented
+THRB	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	0.07412532869498153	0.2825837462335369	0.3716591735296657	False	Tumor_up
+TIMP1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	1.5629527163422468	1.3805163872999144e-15	1.2000138696604506e-13	True	Tumor_up
+TNNT1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	-0.09165964499281487	0.43441834423684833	0.5263887725776343	False	Tumor_down
+TPM1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	4	-1.1496507032276062	3.891605815988981e-09	4.157024092839843e-08	True	Tumor_down
+TPM2	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	-0.6783559627949753	0.000980230216221618	0.0027255181621771815	False	Tumor_down
+TPSAB1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	7	-1.3753062456897787	6.794889178528663e-12	1.6435359773039416e-10	True	Tumor_down
+TRIM72	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	0				False	not represented
+TRPA1	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	2	-0.4011169478676793	1.101686684151262e-07	8.005359667280958e-07	False	Tumor_down
+TSLP	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	0				False	not represented
+UBE2C	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	1.514918437990894	5.208558684028583e-16	5.4466642238698896e-14	True	Tumor_up
+VEGFA	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	4	1.1366738815667707	2.528233340744547e-12	7.00451579742533e-11	True	Tumor_up
+ZP3	GSE41258	GPL96	182	53	44	paired t-test; replicate arrays averaged within patient and tissue	1	0.5877315707482246	7.651641486139746e-09	7.536758483656628e-08	False	Tumor_up
