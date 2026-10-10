@@ -1,0 +1,5 @@
+accession	platform	complete_pairs_used	samples_used	tumor_samples	normal_samples	candidate_genes	genes_measured_on_platform	common_features_used	expression_transform	normalization
+GSE32323	GPL570	17	34	17	17	113	112	101	GEO series-matrix values retained	within-cohort gene-wise z-score over complete-pair samples; labels not used
+GSE44076	GPL13667	98	196	98	98	113	111	101	GEO series-matrix values retained	within-cohort gene-wise z-score over complete-pair samples; labels not used
+GSE41258	GPL96	44	88	44	44	113	103	101	log2(PLIER signal)	within-cohort gene-wise z-score over complete-pair samples; labels not used
+GSE106582	GPL10558	68	136	68	68	113	112	101	GEO series-matrix values retained	within-cohort gene-wise z-score over complete-pair samples; labels not used
