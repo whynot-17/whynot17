@@ -34,3 +34,6 @@ The same commit-and-push step is part of the project workflow for subsequent ana
 ## Scope and interpretation
 
 This is an in-silico prediction project. DepMap projections and GDSC associations are not equivalent to paired parental/OXA-R functional experiments. Drug candidates require independent validation of indication, novelty, exposure feasibility and wet-lab response.
+## Adjacent dataset audit
+
+A metadata-only clinical-label audit of the legacy CRC cohorts GSE39582, GSE28702 and GSE122246 is available under [research/legacy_crc_cohort_audit](research/legacy_crc_cohort_audit/). It is separate from the frozen DINP–MCOP analysis chain and contains no expression-matrix analysis.
