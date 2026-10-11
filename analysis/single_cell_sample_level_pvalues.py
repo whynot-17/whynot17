@@ -138,6 +138,8 @@ def main() -> None:
     out.to_csv(OUTPUT, sep="\t", index=False, float_format="%.10g")
 
     global_sig = out[out["q_global_lt_0_05"]].sort_values(["cohort", "cell_type", "gene"])
+    primary_sig = out[(out["cohort"] == "GSE132465") & out["q_within_cohort_lt_0_05"]].sort_values(["cell_type", "gene"])
+    primary_genes = primary_sig.groupby("gene", sort=True)
     cohort_counts = out.groupby("cohort")[["p_lt_0_05", "q_global_lt_0_05", "q_within_cohort_lt_0_05"]].sum()
     lines = [
         "# 16个基因单细胞队列的样本级配对检验",
@@ -164,12 +166,25 @@ def main() -> None:
             f"| {row.cohort} | {row.gene} | {row.cell_type} | {row.n_complete_pairs} | "
             f"{row.mean_paired_difference_tumor_minus_normal:.4f} | {row.p_value:.6g} | {row.q_value_BH_global:.6g} |"
         )
-    lines += ["", "队列内检验计数：", "", "| 队列 | 名义 p<0.05 | 全局BH q<0.05 | 队列内BH q<0.05 |", "|---|---:|---:|---:|"]
+    lines += [
+        "", "## 主分析：GSE132465",
+        "",
+        f"若将GSE132465作为主分析、GSE200997作为敏感性探索，GSE132465队列内BH校正后有 {len(primary_sig)} 个显著的基因×细胞类型比较；去重后是 {primary_sig['gene'].nunique()} 个不同基因（共16个算法基因）。",
+        "",
+        "| 基因 | 显著细胞类型 | 显著比较数 | 最小 p | 最小队列内 BH q |",
+        "|---|---|---:|---:|---:|",
+    ]
+    for gene, group in primary_genes:
+        lines.append(
+            f"| {gene} | {', '.join(sorted(group['cell_type'].unique()))} | {len(group)} | "
+            f"{group['p_value'].min():.6g} | {group['q_value_BH_within_cohort'].min():.6g} |"
+        )
+    lines += ["", "队列内检验计数（数字是基因×细胞类型比较，不是唯一基因数）：", "", "| 队列 | 名义 p<0.05 | 全局BH q<0.05 | 队列内BH q<0.05 |", "|---|---:|---:|---:|"]
     for cohort, row in cohort_counts.iterrows():
         lines.append(f"| {cohort} | {int(row['p_lt_0_05'])} | {int(row['q_global_lt_0_05'])} | {int(row['q_within_cohort_lt_0_05'])} |")
     lines += [
         "",
-        "本次13个全局显著比较全部来自GSE132465；GSE200997有13个名义 `p<0.05`，但没有通过全局或队列内BH校正的比较。因此这些结果尚未在第二个单细胞队列中达到多重校正后的显著性。尤其GSE200997部分细胞类型的完整配对数仅2–4，检验效能有限。",
+        f"全局BH的13个显著比较去重后为 {global_sig['gene'].nunique()} 个基因，全部来自GSE132465。GSE200997作为敏感性探索，有13个名义 `p<0.05` 比较，但没有通过队列内或全局BH校正的比较；部分细胞类型完整配对数仅2–4，检验效能有限。",
         "",
         "## 解读",
         "",
@@ -194,7 +209,8 @@ def main() -> None:
     print(out.groupby(["cohort", "cell_type"])["n_complete_pairs"].max().to_string())
     print("Nominal p < 0.05:", int(out["p_lt_0_05"].sum()))
     print("Global BH q < 0.05:", int(out["q_global_lt_0_05"].sum()))
-    print("Within-cohort BH q < 0.05:", int(out["q_within_cohort_lt_0_05"].sum()))
+    print("Within-cohort BH q < 0.05 comparisons:", int(out["q_within_cohort_lt_0_05"].sum()))
+    print("Primary GSE132465 unique genes passing within-cohort BH:", primary_sig["gene"].nunique(), sorted(primary_sig["gene"].unique()))
     print("Wrote:", OUTPUT)
     print("Wrote:", REPORT)
 
