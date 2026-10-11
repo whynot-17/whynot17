@@ -63,3 +63,5 @@ GEO记录：[GSE132465](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13
 按患者/样本汇总后进行双侧精确配对 Wilcoxon 检验，未将细胞当作独立重复。GSE132465识别到10对患者，GSE200997识别到7对患者；对每个基因×细胞类型仅纳入该类型在肿瘤和正常中均有细胞的完整配对。共检验256个基因×细胞类型×队列组合，全部组合统一进行BH-FDR校正。47个组合名义 p<0.05，13个通过全局BH校正（q<0.05），去重后为8个基因。若按GSE132465主分析、GSE200997敏感性探索解释，GSE132465队列内BH校正后有21个显著基因×细胞类型比较，去重后是**11个不同算法基因（16个中的11个）**；GSE200997队列内校正后为0个。
 
 详见 `sample_level_paired_test_report.md` 与 `sample_level_paired_tests.tsv`；复现脚本位于项目 `analysis/single_cell_sample_level_pvalues.py`。
+
+主分析11个唯一基因与前面报告的跨队列同定位、同方向表达信号相交，得到6个唯一基因：`FHL1, INHBA, PID1, SCD, TIMP1, UBE2C`（TIMP1虽在两个区室都有信号，按唯一基因计1个）。交集效应表见 `primary11_scRNA_concordance_intersection.tsv`，复现脚本为项目 `analysis/intersect_primary11_with_scRNA_concordance.py`。

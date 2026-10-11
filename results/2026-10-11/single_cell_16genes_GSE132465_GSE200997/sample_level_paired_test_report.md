@@ -67,3 +67,18 @@
 - `analysis/single_cell_sample_level_pvalues.py`：可复现分析脚本。
 
 队列来源：[GSE132465 GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132465)；[GSE200997 GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE200997)。
+## 主分析基因与跨队列单细胞一致信号的交集
+
+按前面报告的跨队列同细胞区室、肿瘤/正常方向一致信号定义，第二组有 8 个唯一基因：`FHL1, INHBA, PCK1, PID1, SCD, TIMP1, TPM1, UBE2C`。它与主分析GSE132465中BH-FDR通过的11个唯一基因相交，得到 **6 个唯一基因**：`FHL1, INHBA, PID1, SCD, TIMP1, UBE2C`。TIMP1在上皮和基质/成纤维两个区室均有一致信号，但交集按基因去重只计1个。
+
+| 基因 | 跨队列对应细胞类型 | 肿瘤−正常方向 | GSE132465主分析BH q | GSE200997方向差值（均值 log1p CP10K） |
+|---|---|---|---:|---:|
+| TIMP1 | Epithelial cells ↔ Epithelial | up | 0.01442 | 0.2959 |
+| TIMP1 | Stromal cells ↔ Fibroblast | up | 0.01442 | 1.1773 |
+| SCD | Epithelial cells ↔ Epithelial | up | 0.01442 | 0.0678 |
+| UBE2C | Epithelial cells ↔ Epithelial | up | 0.02206 | 0.0715 |
+| INHBA | Stromal cells ↔ Fibroblast | up | 0.01442 | 0.5624 |
+| FHL1 | Stromal cells ↔ Fibroblast | down | 0.01442 | -0.2314 |
+| PID1 | Stromal cells ↔ Fibroblast | down | 0.04464 | -0.2883 |
+
+GSE200997作为敏感性探索时，上述方向一致仅表示方向/定位支持，不代表该队列通过自身BH-FDR。逐区室配对效应与两队列p/q值见 `primary11_scRNA_concordance_intersection.tsv`；复现交集的脚本为 `analysis/intersect_primary11_with_scRNA_concordance.py`。
