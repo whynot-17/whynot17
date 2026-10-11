@@ -1,0 +1,16 @@
+cohort	sample_id	n_candidate_cells	n_qc_pass	n_cells_in_original_sample	expected_doublet_rate_for_scrublet	scrublet_threshold	n_scrublet_calls	scrublet_fraction	scrublet_completed	status
+GSE200997	T_cac1	65	61	1696			0	0.0	False	not_run_lt80_qc_pass_myeloid
+GSE200997	T_cac10	3	3	701			0	0.0	False	not_run_lt80_qc_pass_myeloid
+GSE200997	T_cac11	39	35	2866			0	0.0	False	not_run_lt80_qc_pass_myeloid
+GSE200997	T_cac12	28	28	4053			0	0.0	False	not_run_lt80_qc_pass_myeloid
+GSE200997	T_cac13	9	9	2660			0	0.0	False	not_run_lt80_qc_pass_myeloid
+GSE200997	T_cac14	33	33	4077			0	0.0	False	not_run_lt80_qc_pass_myeloid
+GSE200997	T_cac15	32	32	3679			0	0.0	False	not_run_lt80_qc_pass_myeloid
+GSE200997	T_cac16	117	117	1381	0.011048	0.022131138613608728	20	0.17094017094017094	True	scrublet_completed
+GSE200997	T_cac2	43	42	1677			0	0.0	False	not_run_lt80_qc_pass_myeloid
+GSE200997	T_cac3	54	50	1188			0	0.0	False	not_run_lt80_qc_pass_myeloid
+GSE200997	T_cac4	6	6	1591			0	0.0	False	not_run_lt80_qc_pass_myeloid
+GSE200997	T_cac6	153	153	1693	0.013544	0.04884350661559522	9	0.058823529411764705	True	scrublet_completed
+GSE200997	T_cac7	24	24	1502			0	0.0	False	not_run_lt80_qc_pass_myeloid
+GSE200997	T_cac8	80	80	999	0.01	0.015741014814921486	27	0.3375	True	scrublet_completed
+GSE200997	T_cac9	118	116	1649	0.013192	0.026632991714152655	16	0.13793103448275862	True	scrublet_completed

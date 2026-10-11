@@ -1,0 +1,98 @@
+{
+  "run_name": "PID1_myeloid_finelocalization",
+  "date": "2026-10-11",
+  "inputs": "Original GEO processed raw UMI matrices and original cell annotations only; no prior analysis results or caches read.",
+  "outputs": "D:\\DINP\\whynot17-new-project\\results\\2026-10-11\\PID1_myeloid_finelocalization",
+  "scanpy": "1.12.1",
+  "pid1_excluded_from_clustering_and_programs": true,
+  "gse200997_candidate_screen": "Tumor-only screen on original raw UMI marker rows; require >=2 core myeloid genes, LYZ plus another myeloid-specific support marker or >=3 core myeloid genes, and a myeloid log1p-marker module score >= every competing lineage module score. PTPRC alone is not sufficient.",
+  "qc": "UMI>=500, genes>=200, mitochondrial<=20%; sample-specific >4 MAD outlier filter; Scrublet within sample when >=80 QC-passing myeloid candidates; cross-lineage marker conflict screen.",
+  "doublets": "Scrublet 0.2.3 on QC-passing myeloid candidates, exact sklearn-neighbor mode (use_approx_neighbors=False), sample-adaptive expected rate 0.8% per 1,000 captured cells clipped to 1-10%; multi-lineage marker co-detection is exported as an audit flag; clusters dominated by strong competing-lineage markers are annotated as contamination and excluded from monocyte/macrophage contrasts.",
+  "cluster": "2000 seurat HVGs, sample-batch-aware when possible; PCA, neighbor graph, Leiden resolution 0.6; each cohort independently clustered. Annotations use PID1-free monocyte/macrophage/DC marker programs, strong competing-lineage clusters are flagged, and cluster marker tables are provided for audit.",
+  "gene_programs": {
+    "recruitment_chemotaxis": [
+      "CCR2",
+      "CCL2",
+      "CCL7",
+      "CXCR4",
+      "CX3CR1",
+      "SELL",
+      "ITGA4",
+      "ITGB1",
+      "SELPLG",
+      "ICAM1",
+      "ITGAL"
+    ],
+    "inflammation": [
+      "IL1B",
+      "TNF",
+      "IL6",
+      "CXCL8",
+      "CXCL2",
+      "CXCL3",
+      "CCL3",
+      "CCL4",
+      "NFKBIA",
+      "PTGS2",
+      "IL1RN",
+      "TNFAIP3"
+    ],
+    "interferon_response": [
+      "ISG15",
+      "IFI6",
+      "IFI27",
+      "IFI44L",
+      "IFIT1",
+      "IFIT2",
+      "IFIT3",
+      "MX1",
+      "OAS1",
+      "OAS2",
+      "RSAD2",
+      "STAT1",
+      "IRF7",
+      "CXCL10"
+    ],
+    "glycolysis": [
+      "SLC2A3",
+      "HK2",
+      "PFKP",
+      "ALDOA",
+      "GAPDH",
+      "ENO1",
+      "PKM",
+      "LDHA"
+    ],
+    "lipid_cholesterol": [
+      "SCD",
+      "FASN",
+      "ACSS2",
+      "HMGCR",
+      "LDLR",
+      "APOE",
+      "LPL",
+      "FABP5",
+      "CPT1A",
+      "CD36",
+      "ABCA1",
+      "ABCG1",
+      "HMOX1"
+    ],
+    "antigen_presentation": [
+      "HLA-DRA",
+      "HLA-DRB1",
+      "HLA-DPA1",
+      "HLA-DPB1",
+      "HLA-DMA",
+      "HLA-DMB",
+      "CD74",
+      "B2M",
+      "TAP1",
+      "TAP2"
+    ]
+  },
+  "paper_audit": {
+    "Nature_Cancer": "https://www.nature.com/articles/s43018-026-01189-0",
+    "PubMed": "https://pubmed.ncbi.nlm.nih.gov/42303776/"
+  }
+}

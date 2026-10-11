@@ -1,0 +1,22 @@
+cohort	comparison	min_cells_per_class_per_unit	n_paired_units	median_monocyte_mean_log1p	median_macrophage_mean_log1p	median_paired_delta_mono_minus_mac	n_delta_positive	n_delta_negative	wilcoxon_p	p_BH
+GSE200997	all reannotated monocytes vs all reannotated macrophages	10	5	0.2370240718126297	0.1153329849243164	0.19149458943581096	5	0	0.0625	0.1875
+GSE200997	Macrophage_C1QC vs Macrophage_inflammatory	10	1	0.1092718243598938	0.49650025367736816	-0.38722842931747437	0	1		
+GSE200997	Macrophage_C1QC vs Monocyte_CD14_classical	10	2	0.1051495298743248	0.2510603852570057	-0.1459108553826809	0	2	0.5	0.5
+GSE200997	Macrophage_C1QC vs Monocyte_CD14_classical_inflammatory	10	2	0.0720180869102478	0.35549017786979675	-0.28347209095954895	0	2	0.5	0.5
+GSE200997	Macrophage_inflammatory vs Monocyte_CD14_classical	10	0				0	0		
+GSE200997	Macrophage_inflammatory vs Monocyte_CD14_classical_inflammatory	10	1	0.49650025367736816	0.46148133277893066	0.0350189208984375	1	0		
+GSE200997	Monocyte_CD14_classical vs Monocyte_CD14_classical_inflammatory	10	0				0	0		
+GSE200997	all reannotated monocytes vs all reannotated macrophages	20	2	0.4351026935236795	0.19781896489865783	0.23728372862502167	2	0	0.5	0.5
+GSE200997	Macrophage_C1QC vs Macrophage_inflammatory	20	0				0	0		
+GSE200997	Macrophage_C1QC vs Monocyte_CD14_classical	20	1	0.16152289509773254	0.43509441614151	-0.27357152104377747	0	1		
+GSE200997	Macrophage_C1QC vs Monocyte_CD14_classical_inflammatory	20	1	0.1092718243598938	0.46148133277893066	-0.35220950841903687	0	1		
+GSE200997	Macrophage_inflammatory vs Monocyte_CD14_classical	20	0				0	0		
+GSE200997	Macrophage_inflammatory vs Monocyte_CD14_classical_inflammatory	20	0				0	0		
+GSE200997	Monocyte_CD14_classical vs Monocyte_CD14_classical_inflammatory	20	0				0	0		
+GSE200997	all reannotated monocytes vs all reannotated macrophages	50	1	0.43509441614151	0.15202154832727768	0.28307286781423235	1	0		
+GSE200997	Macrophage_C1QC vs Macrophage_inflammatory	50	0				0	0		
+GSE200997	Macrophage_C1QC vs Monocyte_CD14_classical	50	0				0	0		
+GSE200997	Macrophage_C1QC vs Monocyte_CD14_classical_inflammatory	50	0				0	0		
+GSE200997	Macrophage_inflammatory vs Monocyte_CD14_classical	50	0				0	0		
+GSE200997	Macrophage_inflammatory vs Monocyte_CD14_classical_inflammatory	50	0				0	0		
+GSE200997	Monocyte_CD14_classical vs Monocyte_CD14_classical_inflammatory	50	0				0	0		

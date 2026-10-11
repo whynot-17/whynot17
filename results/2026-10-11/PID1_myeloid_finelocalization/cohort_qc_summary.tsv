@@ -1,0 +1,3 @@
+cohort	n_annotation_cells	n_tumor_cells	n_candidate_mye	n_qc_pass	n_retained	n_clusters	n_units	n_scrublet_samples	n_scrublet_failed_or_skipped	pseudotime_status	hvg_n
+GSE132465	63689	47285	6400	6394	6338	13	23	16	7	exploratory_DPT_computed	2000
+GSE200997	49859	31586	804	789	717	9	15	4	11	exploratory_DPT_computed	2000

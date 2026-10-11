@@ -1,0 +1,2 @@
+cohort	pseudotime_status	n_monocytes	n_macrophages	n_units	status_detail	plot
+GSE132465	exploratory_DPT_computed	1274	4267	23	n_monocytes=1274; n_macrophages=4267; units=23; graph_components=1; largest_component_fraction=1.000	D:\DINP\whynot17-new-project\results\2026-10-11\PID1_myeloid_finelocalization\GSE132465_PID1_DPT_exploration.png

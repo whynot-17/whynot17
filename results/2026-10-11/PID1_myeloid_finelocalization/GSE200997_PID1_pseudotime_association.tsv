@@ -1,0 +1,2 @@
+cohort	analysis	status	n_cells	n_units	largest_component_fraction	PID1_beta_per_DPT_unit	se_cluster	p_value	caveat
+GSE200997	cell-level OLS with sample fixed effects, cluster-robust by unit	exploratory_DPT_computed	529	15	1.0	-0.32978687745396623	0.18285583925519014	0.07130425838269025	DPT is an expression ordering, not lineage tracing

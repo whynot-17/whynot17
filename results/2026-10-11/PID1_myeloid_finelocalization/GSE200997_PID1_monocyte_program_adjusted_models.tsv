@@ -1,0 +1,7 @@
+cohort	program	model	n_cells	n_units	beta_per_1SD_score	se_cluster	p_value	status	p_BH
+GSE200997	recruitment_chemotaxis	cell-level OLS; sample fixed effects; cluster-robust by unit	248	14	-0.01439270954952723	0.1336792113676088	0.9142606195260717	ok	0.9213903487947008
+GSE200997	inflammation	cell-level OLS; sample fixed effects; cluster-robust by unit	248	14	0.03805080173843357	0.043812497228558886	0.38512506997217344	ok	0.7702501399443469
+GSE200997	interferon_response	cell-level OLS; sample fixed effects; cluster-robust by unit	248	14	-0.11683219377447417	0.10700667693626922	0.27491155360730757	ok	0.7702501399443469
+GSE200997	glycolysis	cell-level OLS; sample fixed effects; cluster-robust by unit	248	14	0.017940370853769122	0.18179887385826915	0.9213903487947008	ok	0.9213903487947008
+GSE200997	lipid_cholesterol	cell-level OLS; sample fixed effects; cluster-robust by unit	248	14	0.13545346368019154	0.12257851414896985	0.26914472300959347	ok	0.7702501399443469
+GSE200997	antigen_presentation	cell-level OLS; sample fixed effects; cluster-robust by unit	248	14	0.016259259670777217	0.09668667688225054	0.8664539250633481	ok	0.9213903487947008
