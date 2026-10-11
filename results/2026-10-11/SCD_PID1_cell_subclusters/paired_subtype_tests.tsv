@@ -1,0 +1,85 @@
+cohort	compartment	metric	subtype_A	subtype_B	n_paired_samples	median_paired_difference_A_minus_B	p_value	test_status	BH_FDR_within_cohort_compartment_metric
+GSE132465	Tumor_epithelial	SCD_log1p_10K	CMS1	CMS2	3	0.0307263284921646	1.0	paired Wilcoxon on sample means	1.0
+GSE132465	Tumor_epithelial	SCD_log1p_10K	CMS1	CMS3	7	-0.1197794079780578	0.046875	paired Wilcoxon on sample means	0.08697509765625
+GSE132465	Tumor_epithelial	SCD_log1p_10K	CMS1	CMS4	0			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_epithelial	SCD_log1p_10K	CMS2	CMS3	14	0.1146345660090446	0.0579833984375	paired Wilcoxon on sample means	0.08697509765625
+GSE132465	Tumor_epithelial	SCD_log1p_10K	CMS2	CMS4	0			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_epithelial	SCD_log1p_10K	CMS3	CMS4	0			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_epithelial	lipid_module_z_excluding_SCD	CMS1	CMS2	3	0.0218274742364883	0.5	paired Wilcoxon on sample means	0.75
+GSE132465	Tumor_epithelial	lipid_module_z_excluding_SCD	CMS1	CMS3	7	-0.014656264334917	0.9375	paired Wilcoxon on sample means	0.9375
+GSE132465	Tumor_epithelial	lipid_module_z_excluding_SCD	CMS1	CMS4	0			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_epithelial	lipid_module_z_excluding_SCD	CMS2	CMS3	14	0.0842141509056091	0.029541015625	paired Wilcoxon on sample means	0.088623046875
+GSE132465	Tumor_epithelial	lipid_module_z_excluding_SCD	CMS2	CMS4	0			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_epithelial	lipid_module_z_excluding_SCD	CMS3	CMS4	0			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	PID1_log1p_10K	Myofibroblasts	Stromal 1	2			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	PID1_log1p_10K	Myofibroblasts	Stromal 2	4	0.0156564451754093	0.625	paired Wilcoxon on sample means	0.625
+GSE132465	Tumor_fibroblast	PID1_log1p_10K	Myofibroblasts	Stromal 3	1			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	PID1_log1p_10K	Stromal 1	Stromal 2	1			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	PID1_log1p_10K	Stromal 1	Stromal 3	0			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	PID1_log1p_10K	Stromal 2	Stromal 3	0			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	CAF_myCAF_z	Myofibroblasts	Stromal 1	2			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	CAF_myCAF_z	Myofibroblasts	Stromal 2	4	0.2232893854379654	0.25	paired Wilcoxon on sample means	0.25
+GSE132465	Tumor_fibroblast	CAF_myCAF_z	Myofibroblasts	Stromal 3	1			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	CAF_myCAF_z	Stromal 1	Stromal 2	1			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	CAF_myCAF_z	Stromal 1	Stromal 3	0			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	CAF_myCAF_z	Stromal 2	Stromal 3	0			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	CAF_iCAF_z	Myofibroblasts	Stromal 1	2			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	CAF_iCAF_z	Myofibroblasts	Stromal 2	4	-0.3288081884384155	0.375	paired Wilcoxon on sample means	0.375
+GSE132465	Tumor_fibroblast	CAF_iCAF_z	Myofibroblasts	Stromal 3	1			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	CAF_iCAF_z	Stromal 1	Stromal 2	1			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	CAF_iCAF_z	Stromal 1	Stromal 3	0			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	CAF_iCAF_z	Stromal 2	Stromal 3	0			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	CAF_ECM_CAF_z	Myofibroblasts	Stromal 1	2			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	CAF_ECM_CAF_z	Myofibroblasts	Stromal 2	4	0.1846769154071808	0.125	paired Wilcoxon on sample means	0.125
+GSE132465	Tumor_fibroblast	CAF_ECM_CAF_z	Myofibroblasts	Stromal 3	1			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	CAF_ECM_CAF_z	Stromal 1	Stromal 2	1			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	CAF_ECM_CAF_z	Stromal 1	Stromal 3	0			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	CAF_ECM_CAF_z	Stromal 2	Stromal 3	0			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	CAF_apCAF_z	Myofibroblasts	Stromal 1	2			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	CAF_apCAF_z	Myofibroblasts	Stromal 2	4	-0.1003040075302124	0.625	paired Wilcoxon on sample means	0.625
+GSE132465	Tumor_fibroblast	CAF_apCAF_z	Myofibroblasts	Stromal 3	1			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	CAF_apCAF_z	Stromal 1	Stromal 2	1			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	CAF_apCAF_z	Stromal 1	Stromal 3	0			<3 paired samples with >=10 cells per subtype	
+GSE132465	Tumor_fibroblast	CAF_apCAF_z	Stromal 2	Stromal 3	0			<3 paired samples with >=10 cells per subtype	
+GSE200997	Tumor_epithelial	SCD_log1p_10K	CMS1	CMS2	8	-0.0001680478453636	0.9453125	paired Wilcoxon on sample means	0.9453125
+GSE200997	Tumor_epithelial	SCD_log1p_10K	CMS1	CMS3	8	0.0093400925397872	0.9453125	paired Wilcoxon on sample means	0.9453125
+GSE200997	Tumor_epithelial	SCD_log1p_10K	CMS1	CMS4	3	0.0661505162715911	0.5	paired Wilcoxon on sample means	0.8818359375
+GSE200997	Tumor_epithelial	SCD_log1p_10K	CMS2	CMS3	13	0.0378849692642688	0.587890625	paired Wilcoxon on sample means	0.8818359375
+GSE200997	Tumor_epithelial	SCD_log1p_10K	CMS2	CMS4	3	0.0805476307868957	0.5	paired Wilcoxon on sample means	0.8818359375
+GSE200997	Tumor_epithelial	SCD_log1p_10K	CMS3	CMS4	3	0.0849802941083908	0.5	paired Wilcoxon on sample means	0.8818359375
+GSE200997	Tumor_epithelial	lipid_module_z_excluding_SCD	CMS1	CMS2	8	0.0247267317026853	0.7421875	paired Wilcoxon on sample means	0.75
+GSE200997	Tumor_epithelial	lipid_module_z_excluding_SCD	CMS1	CMS3	8	-0.0047393003478646	0.4609375	paired Wilcoxon on sample means	0.75
+GSE200997	Tumor_epithelial	lipid_module_z_excluding_SCD	CMS1	CMS4	3	0.0200607907027006	0.5	paired Wilcoxon on sample means	0.75
+GSE200997	Tumor_epithelial	lipid_module_z_excluding_SCD	CMS2	CMS3	13	-0.0389402322471141	0.587890625	paired Wilcoxon on sample means	0.75
+GSE200997	Tumor_epithelial	lipid_module_z_excluding_SCD	CMS2	CMS4	3	0.0113950949162244	0.75	paired Wilcoxon on sample means	0.75
+GSE200997	Tumor_epithelial	lipid_module_z_excluding_SCD	CMS3	CMS4	3	0.0603165104985237	0.25	paired Wilcoxon on sample means	0.75
+GSE200997	Tumor_fibroblast	PID1_log1p_10K	ECM_CAF	apCAF	3	0.0654316022992134	1.0	paired Wilcoxon on sample means	1.0
+GSE200997	Tumor_fibroblast	PID1_log1p_10K	ECM_CAF	iCAF	2			<3 paired samples with >=10 cells per subtype	
+GSE200997	Tumor_fibroblast	PID1_log1p_10K	ECM_CAF	myCAF	5	0.0488097965717315	0.0625	paired Wilcoxon on sample means	0.1875
+GSE200997	Tumor_fibroblast	PID1_log1p_10K	apCAF	iCAF	2			<3 paired samples with >=10 cells per subtype	
+GSE200997	Tumor_fibroblast	PID1_log1p_10K	apCAF	myCAF	3	-0.0348602980375289	1.0	paired Wilcoxon on sample means	1.0
+GSE200997	Tumor_fibroblast	PID1_log1p_10K	iCAF	myCAF	2			<3 paired samples with >=10 cells per subtype	
+GSE200997	Tumor_fibroblast	CAF_myCAF_z	ECM_CAF	apCAF	3	0.1824283301830291	0.5	paired Wilcoxon on sample means	0.5
+GSE200997	Tumor_fibroblast	CAF_myCAF_z	ECM_CAF	iCAF	2			<3 paired samples with >=10 cells per subtype	
+GSE200997	Tumor_fibroblast	CAF_myCAF_z	ECM_CAF	myCAF	5	-0.9714173078536988	0.0625	paired Wilcoxon on sample means	0.1875
+GSE200997	Tumor_fibroblast	CAF_myCAF_z	apCAF	iCAF	2			<3 paired samples with >=10 cells per subtype	
+GSE200997	Tumor_fibroblast	CAF_myCAF_z	apCAF	myCAF	3	-1.1036070585250854	0.25	paired Wilcoxon on sample means	0.375
+GSE200997	Tumor_fibroblast	CAF_myCAF_z	iCAF	myCAF	2			<3 paired samples with >=10 cells per subtype	
+GSE200997	Tumor_fibroblast	CAF_iCAF_z	ECM_CAF	apCAF	3	0.0215482413768768	1.0	paired Wilcoxon on sample means	1.0
+GSE200997	Tumor_fibroblast	CAF_iCAF_z	ECM_CAF	iCAF	2			<3 paired samples with >=10 cells per subtype	
+GSE200997	Tumor_fibroblast	CAF_iCAF_z	ECM_CAF	myCAF	5	-0.0145095586776733	0.8125	paired Wilcoxon on sample means	1.0
+GSE200997	Tumor_fibroblast	CAF_iCAF_z	apCAF	iCAF	2			<3 paired samples with >=10 cells per subtype	
+GSE200997	Tumor_fibroblast	CAF_iCAF_z	apCAF	myCAF	3	0.0003485232591629	0.75	paired Wilcoxon on sample means	1.0
+GSE200997	Tumor_fibroblast	CAF_iCAF_z	iCAF	myCAF	2			<3 paired samples with >=10 cells per subtype	
+GSE200997	Tumor_fibroblast	CAF_ECM_CAF_z	ECM_CAF	apCAF	3	0.7934980392456055	0.25	paired Wilcoxon on sample means	0.25
+GSE200997	Tumor_fibroblast	CAF_ECM_CAF_z	ECM_CAF	iCAF	2			<3 paired samples with >=10 cells per subtype	
+GSE200997	Tumor_fibroblast	CAF_ECM_CAF_z	ECM_CAF	myCAF	5	0.73567795753479	0.0625	paired Wilcoxon on sample means	0.1875
+GSE200997	Tumor_fibroblast	CAF_ECM_CAF_z	apCAF	iCAF	2			<3 paired samples with >=10 cells per subtype	
+GSE200997	Tumor_fibroblast	CAF_ECM_CAF_z	apCAF	myCAF	3	-0.1774010360240936	0.25	paired Wilcoxon on sample means	0.25
+GSE200997	Tumor_fibroblast	CAF_ECM_CAF_z	iCAF	myCAF	2			<3 paired samples with >=10 cells per subtype	
+GSE200997	Tumor_fibroblast	CAF_apCAF_z	ECM_CAF	apCAF	3	-0.7711513042449951	0.25	paired Wilcoxon on sample means	0.375
+GSE200997	Tumor_fibroblast	CAF_apCAF_z	ECM_CAF	iCAF	2			<3 paired samples with >=10 cells per subtype	
+GSE200997	Tumor_fibroblast	CAF_apCAF_z	ECM_CAF	myCAF	5	0.0337121710181236	1.0	paired Wilcoxon on sample means	1.0
+GSE200997	Tumor_fibroblast	CAF_apCAF_z	apCAF	iCAF	2			<3 paired samples with >=10 cells per subtype	
+GSE200997	Tumor_fibroblast	CAF_apCAF_z	apCAF	myCAF	3	0.8016811609268188	0.25	paired Wilcoxon on sample means	0.375
+GSE200997	Tumor_fibroblast	CAF_apCAF_z	iCAF	myCAF	2			<3 paired samples with >=10 cells per subtype	
