@@ -1,0 +1,45 @@
+{
+  "cohorts": {
+    "GSE132465": {
+      "cells": 1256,
+      "units_any_target_subtype": 22,
+      "paired_units_min5": 17,
+      "paired_units_min10": 12,
+      "paired_units_min20": 8,
+      "cells_C1QC": 451,
+      "cells_inflammatory": 805
+    },
+    "GSE200997": {
+      "cells": 198,
+      "units_any_target_subtype": 12,
+      "paired_units_min5": 1,
+      "paired_units_min10": 1,
+      "paired_units_min20": 0,
+      "cells_C1QC": 173,
+      "cells_inflammatory": 25
+    }
+  },
+  "primary_network_cohort": "GSE132465",
+  "external_scoring_cohort": "GSE200997",
+  "filter": "two macrophage subtypes; qc_pass; not Scrublet doublet; no marker-lineage conflict",
+  "unit_of_inference": "patient/sample; paired Wilcoxon; no cell-level inferential p-values",
+  "paired_thresholds_primary": [
+    5,
+    10,
+    20
+  ],
+  "primary_paired_stats_min10": {
+    "minimum_cells_per_subtype": 10,
+    "n_paired_units": 12
+  },
+  "n_regulons_scored_primary": 140,
+  "n_regulons_scored_external": 140,
+  "primary_cells_scored": 1256,
+  "external_cells_scored": 198,
+  "TF_seed": 777,
+  "pyscenic_version": "0.12.1",
+  "python_version": "3.10.22",
+  "numpy_version": "1.23.5",
+  "motif_ranking_database": "hg38_10kbp_up_10kbp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+  "motif_annotations": "motifs-v10nr_clust-nr.hgnc-m0.001-o0.0.tbl"
+}
