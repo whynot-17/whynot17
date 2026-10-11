@@ -56,3 +56,10 @@ GEO记录：[GSE132465](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13
 - `GSE200997_marker_coverage.tsv`：GSE200997细胞类型推断所用标志面板及矩阵覆盖情况。
 - `cell_annotation_and_label_scores.tsv.gz`：逐细胞注释、文库大小及推断标签分数。
 - `analysis_metadata.json`：输入文件校验和、细胞数和处理配置。
+
+
+## 样本级配对显著性检验（补充）
+
+按患者/样本汇总后进行双侧精确配对 Wilcoxon 检验，未将细胞当作独立重复。GSE132465识别到10对患者，GSE200997识别到7对患者；对每个基因×细胞类型仅纳入该类型在肿瘤和正常中均有细胞的完整配对。共检验256个组合，全部组合统一进行BH-FDR校正。47个组合名义 p<0.05，13个通过全局BH校正（q<0.05）；这13个全部来自GSE132465。GSE200997有13个名义 p<0.05，但没有通过BH校正的组合，暂未在第二队列中复现多重校正后的显著性。
+
+详见 `sample_level_paired_test_report.md` 与 `sample_level_paired_tests.tsv`；复现脚本位于项目 `analysis/single_cell_sample_level_pvalues.py`。
