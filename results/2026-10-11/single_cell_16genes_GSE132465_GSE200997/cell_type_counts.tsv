@@ -1,0 +1,33 @@
+cohort	condition	cell_type	n_cells	n_samples	n_higher_confidence_cells	median_library_umi	cell_type_label_method
+GSE132465	Normal	B cells	5208	10	0	8423.0	GEO original cell_type annotation
+GSE132465	Normal	Epithelial cells	1070	10	0	4519.0	GEO original cell_type annotation
+GSE132465	Normal	Mast cells	184	10	0	2009.0	GEO original cell_type annotation
+GSE132465	Normal	Myeloids	369	10	0	5900.0	GEO original cell_type annotation
+GSE132465	Normal	Stromal cells	3197	10	0	5722.0	GEO original cell_type annotation
+GSE132465	Normal	T cells	6376	10	0	3084.5	GEO original cell_type annotation
+GSE132465	Tumor	B cells	3938	23	0	4471.5	GEO original cell_type annotation
+GSE132465	Tumor	Epithelial cells	17469	23	0	19351.0	GEO original cell_type annotation
+GSE132465	Tumor	Mast cells	3	2	0	4008.0	GEO original cell_type annotation
+GSE132465	Tumor	Myeloids	6400	23	0	4811.0	GEO original cell_type annotation
+GSE132465	Tumor	Stromal cells	2736	23	0	9850.0	GEO original cell_type annotation
+GSE132465	Tumor	T cells	16739	23	0	2418.0	GEO original cell_type annotation
+GSE200997	Normal	B_cell	5588	7	5367	3151.0	coarse marker-score inference; top mean log1p(CP10K), at least 2 detected markers
+GSE200997	Normal	Endothelial	45	7	44	1741.0	coarse marker-score inference; top mean log1p(CP10K), at least 2 detected markers
+GSE200997	Normal	Epithelial	2500	7	2499	1357.0	coarse marker-score inference; top mean log1p(CP10K), at least 2 detected markers
+GSE200997	Normal	Fibroblast	178	7	177	2102.5	coarse marker-score inference; top mean log1p(CP10K), at least 2 detected markers
+GSE200997	Normal	Mast	15	4	15	1568.0	coarse marker-score inference; top mean log1p(CP10K), at least 2 detected markers
+GSE200997	Normal	Myeloid	25	6	23	4658.0	coarse marker-score inference; top mean log1p(CP10K), at least 2 detected markers
+GSE200997	Normal	NK	970	7	931	2777.5	coarse marker-score inference; top mean log1p(CP10K), at least 2 detected markers
+GSE200997	Normal	Plasma	997	7	980	11185.0	coarse marker-score inference; top mean log1p(CP10K), at least 2 detected markers
+GSE200997	Normal	T_cell	6508	7	6212	3210.0	coarse marker-score inference; top mean log1p(CP10K), at least 2 detected markers
+GSE200997	Normal	Unassigned	1447	7	0	955.0	coarse marker-score inference; top mean log1p(CP10K), at least 2 detected markers
+GSE200997	Tumor	B_cell	6181	16	5746	2956.0	coarse marker-score inference; top mean log1p(CP10K), at least 2 detected markers
+GSE200997	Tumor	Endothelial	371	10	370	2473.0	coarse marker-score inference; top mean log1p(CP10K), at least 2 detected markers
+GSE200997	Tumor	Epithelial	6582	16	6573	2484.5	coarse marker-score inference; top mean log1p(CP10K), at least 2 detected markers
+GSE200997	Tumor	Fibroblast	568	14	565	2566.5	coarse marker-score inference; top mean log1p(CP10K), at least 2 detected markers
+GSE200997	Tumor	Mast	137	14	137	2371.0	coarse marker-score inference; top mean log1p(CP10K), at least 2 detected markers
+GSE200997	Tumor	Myeloid	473	14	448	3491.0	coarse marker-score inference; top mean log1p(CP10K), at least 2 detected markers
+GSE200997	Tumor	NK	2754	16	2656	2630.0	coarse marker-score inference; top mean log1p(CP10K), at least 2 detected markers
+GSE200997	Tumor	Plasma	2536	16	2496	8628.0	coarse marker-score inference; top mean log1p(CP10K), at least 2 detected markers
+GSE200997	Tumor	T_cell	9697	16	9147	2846.0	coarse marker-score inference; top mean log1p(CP10K), at least 2 detected markers
+GSE200997	Tumor	Unassigned	2287	16	0	966.0	coarse marker-score inference; top mean log1p(CP10K), at least 2 detected markers

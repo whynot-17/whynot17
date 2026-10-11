@@ -1,0 +1,398 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="816" viewBox="0 0 1180 816">
+<rect width="100%" height="100%" fill="white"/>
+<text x="115" y="34" font-family="Arial,sans-serif" font-size="22" font-weight="bold">GSE200997: 16-gene single-cell expression</text>
+<text x="115" y="58" font-family="Arial,sans-serif" font-size="13" fill="#444">Dot size: cells with detected UMI (%)  |  Color: mean log1p(CP10K), capped at 3</text>
+<rect x="107" y="74" width="1046" height="34" fill="#f7f9fb"/>
+<text x="101" y="97" text-anchor="end" font-family="Arial,sans-serif" font-size="13">ABHD6</text>
+<text x="101" y="131" text-anchor="end" font-family="Arial,sans-serif" font-size="13">ACAT1</text>
+<rect x="107" y="142" width="1046" height="34" fill="#f7f9fb"/>
+<text x="101" y="165" text-anchor="end" font-family="Arial,sans-serif" font-size="13">BMP2</text>
+<text x="101" y="199" text-anchor="end" font-family="Arial,sans-serif" font-size="13">CPT2</text>
+<rect x="107" y="210" width="1046" height="34" fill="#f7f9fb"/>
+<text x="101" y="233" text-anchor="end" font-family="Arial,sans-serif" font-size="13">ELOVL6</text>
+<text x="101" y="267" text-anchor="end" font-family="Arial,sans-serif" font-size="13">FABP4</text>
+<rect x="107" y="278" width="1046" height="34" fill="#f7f9fb"/>
+<text x="101" y="301" text-anchor="end" font-family="Arial,sans-serif" font-size="13">FHL1</text>
+<text x="101" y="335" text-anchor="end" font-family="Arial,sans-serif" font-size="13">INHBA</text>
+<rect x="107" y="346" width="1046" height="34" fill="#f7f9fb"/>
+<text x="101" y="369" text-anchor="end" font-family="Arial,sans-serif" font-size="13">PCK1</text>
+<text x="101" y="403" text-anchor="end" font-family="Arial,sans-serif" font-size="13">PID1</text>
+<rect x="107" y="414" width="1046" height="34" fill="#f7f9fb"/>
+<text x="101" y="437" text-anchor="end" font-family="Arial,sans-serif" font-size="13">RETSAT</text>
+<text x="101" y="471" text-anchor="end" font-family="Arial,sans-serif" font-size="13">SCD</text>
+<rect x="107" y="482" width="1046" height="34" fill="#f7f9fb"/>
+<text x="101" y="505" text-anchor="end" font-family="Arial,sans-serif" font-size="13">SCP2</text>
+<text x="101" y="539" text-anchor="end" font-family="Arial,sans-serif" font-size="13">TIMP1</text>
+<rect x="107" y="550" width="1046" height="34" fill="#f7f9fb"/>
+<text x="101" y="573" text-anchor="end" font-family="Arial,sans-serif" font-size="13">TPM1</text>
+<text x="101" y="607" text-anchor="end" font-family="Arial,sans-serif" font-size="13">UBE2C</text>
+<circle cx="140.8" cy="92.0" r="2.15" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="140.8" cy="126.0" r="3.20" fill="#eff4fa" stroke="#667" stroke-width="0.4"/>
+<circle cx="140.8" cy="160.0" r="3.29" fill="#ebf1f7" stroke="#667" stroke-width="0.4"/>
+<circle cx="140.8" cy="194.0" r="2.85" fill="#f2f6fc" stroke="#667" stroke-width="0.4"/>
+<circle cx="140.8" cy="228.0" r="2.83" fill="#f1f5fb" stroke="#667" stroke-width="0.4"/>
+<circle cx="140.8" cy="262.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="140.8" cy="296.0" r="1.71" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="140.8" cy="330.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="140.8" cy="364.0" r="5.56" fill="#b4c2d6" stroke="#667" stroke-width="0.4"/>
+<circle cx="140.8" cy="398.0" r="2.78" fill="#f1f6fb" stroke="#667" stroke-width="0.4"/>
+<circle cx="140.8" cy="432.0" r="3.54" fill="#eaf0f7" stroke="#667" stroke-width="0.4"/>
+<circle cx="140.8" cy="466.0" r="2.10" fill="#f5fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="140.8" cy="500.0" r="4.42" fill="#dfe6f0" stroke="#667" stroke-width="0.4"/>
+<circle cx="140.8" cy="534.0" r="3.07" fill="#edf2f9" stroke="#667" stroke-width="0.4"/>
+<circle cx="140.8" cy="568.0" r="7.15" fill="#6e87aa" stroke="#667" stroke-width="0.4"/>
+<circle cx="140.8" cy="602.0" r="1.98" fill="#f5fafe" stroke="#667" stroke-width="0.4"/>
+<text x="140.8" y="654" transform="rotate(-55 140.8 654)" text-anchor="end" font-family="Arial,sans-serif" font-size="11">Epithelial</text>
+<text x="140.8" y="797" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">N</text>
+<circle cx="192.2" cy="92.0" r="2.40" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="192.2" cy="126.0" r="3.47" fill="#eff4fa" stroke="#667" stroke-width="0.4"/>
+<circle cx="192.2" cy="160.0" r="2.90" fill="#f1f6fb" stroke="#667" stroke-width="0.4"/>
+<circle cx="192.2" cy="194.0" r="2.87" fill="#f3f7fc" stroke="#667" stroke-width="0.4"/>
+<circle cx="192.2" cy="228.0" r="2.84" fill="#f3f7fc" stroke="#667" stroke-width="0.4"/>
+<circle cx="192.2" cy="262.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="192.2" cy="296.0" r="1.72" fill="#f6fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="192.2" cy="330.0" r="1.56" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="192.2" cy="364.0" r="4.54" fill="#d8e0ec" stroke="#667" stroke-width="0.4"/>
+<circle cx="192.2" cy="398.0" r="3.01" fill="#f1f6fc" stroke="#667" stroke-width="0.4"/>
+<circle cx="192.2" cy="432.0" r="3.21" fill="#f0f5fb" stroke="#667" stroke-width="0.4"/>
+<circle cx="192.2" cy="466.0" r="4.31" fill="#e4eaf3" stroke="#667" stroke-width="0.4"/>
+<circle cx="192.2" cy="500.0" r="5.07" fill="#dbe3ed" stroke="#667" stroke-width="0.4"/>
+<circle cx="192.2" cy="534.0" r="5.54" fill="#ccd6e4" stroke="#667" stroke-width="0.4"/>
+<circle cx="192.2" cy="568.0" r="6.86" fill="#9dafc7" stroke="#667" stroke-width="0.4"/>
+<circle cx="192.2" cy="602.0" r="3.21" fill="#eef3f9" stroke="#667" stroke-width="0.4"/>
+<text x="192.2" y="654" transform="rotate(-55 192.2 654)" text-anchor="end" font-family="Arial,sans-serif" font-size="11">Epithelial</text>
+<text x="192.2" y="797" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">T</text>
+<circle cx="243.8" cy="92.0" r="2.16" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="243.8" cy="126.0" r="4.19" fill="#e6ecf4" stroke="#667" stroke-width="0.4"/>
+<circle cx="243.8" cy="160.0" r="3.62" fill="#e9eff6" stroke="#667" stroke-width="0.4"/>
+<circle cx="243.8" cy="194.0" r="2.44" fill="#f4f9fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="243.8" cy="228.0" r="1.75" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="243.8" cy="262.0" r="3.49" fill="#e3eaf2" stroke="#667" stroke-width="0.4"/>
+<circle cx="243.8" cy="296.0" r="6.40" fill="#a8b8ce" stroke="#667" stroke-width="0.4"/>
+<circle cx="243.8" cy="330.0" r="1.98" fill="#f6fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="243.8" cy="364.0" r="1.75" fill="#f6fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="243.8" cy="398.0" r="4.57" fill="#dee6f0" stroke="#667" stroke-width="0.4"/>
+<circle cx="243.8" cy="432.0" r="3.20" fill="#eff4fa" stroke="#667" stroke-width="0.4"/>
+<circle cx="243.8" cy="466.0" r="2.16" fill="#f4f9fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="243.8" cy="500.0" r="5.04" fill="#d7dfeb" stroke="#667" stroke-width="0.4"/>
+<circle cx="243.8" cy="534.0" r="7.69" fill="#4d6b96" stroke="#667" stroke-width="0.4"/>
+<circle cx="243.8" cy="568.0" r="6.83" fill="#93a6c1" stroke="#667" stroke-width="0.4"/>
+<circle cx="243.8" cy="602.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<text x="243.8" y="654" transform="rotate(-55 243.8 654)" text-anchor="end" font-family="Arial,sans-serif" font-size="11">Fibroblast</text>
+<text x="243.8" y="797" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">N</text>
+<circle cx="295.2" cy="92.0" r="2.18" fill="#f6fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="295.2" cy="126.0" r="3.85" fill="#ebf1f7" stroke="#667" stroke-width="0.4"/>
+<circle cx="295.2" cy="160.0" r="3.31" fill="#edf3f9" stroke="#667" stroke-width="0.4"/>
+<circle cx="295.2" cy="194.0" r="2.23" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="295.2" cy="228.0" r="2.36" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="295.2" cy="262.0" r="2.96" fill="#f0f5fb" stroke="#667" stroke-width="0.4"/>
+<circle cx="295.2" cy="296.0" r="5.98" fill="#bfccdc" stroke="#667" stroke-width="0.4"/>
+<circle cx="295.2" cy="330.0" r="5.40" fill="#c7d2e1" stroke="#667" stroke-width="0.4"/>
+<circle cx="295.2" cy="364.0" r="2.02" fill="#f5fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="295.2" cy="398.0" r="2.96" fill="#f0f5fb" stroke="#667" stroke-width="0.4"/>
+<circle cx="295.2" cy="432.0" r="2.59" fill="#f4f8fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="295.2" cy="466.0" r="2.66" fill="#f2f7fc" stroke="#667" stroke-width="0.4"/>
+<circle cx="295.2" cy="500.0" r="5.26" fill="#d6dfea" stroke="#667" stroke-width="0.4"/>
+<circle cx="295.2" cy="534.0" r="8.07" fill="#1b4177" stroke="#667" stroke-width="0.4"/>
+<circle cx="295.2" cy="568.0" r="7.74" fill="#54719a" stroke="#667" stroke-width="0.4"/>
+<circle cx="295.2" cy="602.0" r="2.08" fill="#f6fafe" stroke="#667" stroke-width="0.4"/>
+<text x="295.2" y="654" transform="rotate(-55 295.2 654)" text-anchor="end" font-family="Arial,sans-serif" font-size="11">Fibroblast</text>
+<text x="295.2" y="797" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">T</text>
+<circle cx="346.8" cy="92.0" r="3.29" fill="#edf3f9" stroke="#667" stroke-width="0.4"/>
+<circle cx="346.8" cy="126.0" r="2.68" fill="#f4f8fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="346.8" cy="160.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="346.8" cy="194.0" r="2.68" fill="#f3f8fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="346.8" cy="228.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="346.8" cy="262.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="346.8" cy="296.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="346.8" cy="330.0" r="2.68" fill="#f2f7fc" stroke="#667" stroke-width="0.4"/>
+<circle cx="346.8" cy="364.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="346.8" cy="398.0" r="4.51" fill="#e0e8f1" stroke="#667" stroke-width="0.4"/>
+<circle cx="346.8" cy="432.0" r="2.68" fill="#f4f8fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="346.8" cy="466.0" r="2.68" fill="#f4f9fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="346.8" cy="500.0" r="5.12" fill="#dae3ed" stroke="#667" stroke-width="0.4"/>
+<circle cx="346.8" cy="534.0" r="7.82" fill="#24477c" stroke="#667" stroke-width="0.4"/>
+<circle cx="346.8" cy="568.0" r="3.29" fill="#ecf1f8" stroke="#667" stroke-width="0.4"/>
+<circle cx="346.8" cy="602.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<text x="346.8" y="654" transform="rotate(-55 346.8 654)" text-anchor="end" font-family="Arial,sans-serif" font-size="11">Myeloid</text>
+<text x="346.8" y="797" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">N</text>
+<circle cx="398.2" cy="92.0" r="2.38" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="398.2" cy="126.0" r="3.53" fill="#eff4fa" stroke="#667" stroke-width="0.4"/>
+<circle cx="398.2" cy="160.0" r="1.79" fill="#f6faff" stroke="#667" stroke-width="0.4"/>
+<circle cx="398.2" cy="194.0" r="2.68" fill="#f4f9fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="398.2" cy="228.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="398.2" cy="262.0" r="1.68" fill="#f6faff" stroke="#667" stroke-width="0.4"/>
+<circle cx="398.2" cy="296.0" r="2.10" fill="#f6fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="398.2" cy="330.0" r="3.21" fill="#eaf0f7" stroke="#667" stroke-width="0.4"/>
+<circle cx="398.2" cy="364.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="398.2" cy="398.0" r="4.32" fill="#e5ebf4" stroke="#667" stroke-width="0.4"/>
+<circle cx="398.2" cy="432.0" r="2.38" fill="#f5fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="398.2" cy="466.0" r="3.32" fill="#eff4fa" stroke="#667" stroke-width="0.4"/>
+<circle cx="398.2" cy="500.0" r="5.39" fill="#d6dfeb" stroke="#667" stroke-width="0.4"/>
+<circle cx="398.2" cy="534.0" r="7.90" fill="#2c4e81" stroke="#667" stroke-width="0.4"/>
+<circle cx="398.2" cy="568.0" r="3.61" fill="#edf3f9" stroke="#667" stroke-width="0.4"/>
+<circle cx="398.2" cy="602.0" r="2.38" fill="#f3f8fd" stroke="#667" stroke-width="0.4"/>
+<text x="398.2" y="654" transform="rotate(-55 398.2 654)" text-anchor="end" font-family="Arial,sans-serif" font-size="11">Myeloid</text>
+<text x="398.2" y="797" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">T</text>
+<circle cx="449.8" cy="92.0" r="2.13" fill="#f5fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="449.8" cy="126.0" r="2.87" fill="#f1f6fc" stroke="#667" stroke-width="0.4"/>
+<circle cx="449.8" cy="160.0" r="1.29" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="449.8" cy="194.0" r="2.16" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="449.8" cy="228.0" r="2.11" fill="#f5fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="449.8" cy="262.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="449.8" cy="296.0" r="2.46" fill="#f4f8fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="449.8" cy="330.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="449.8" cy="364.0" r="1.58" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="449.8" cy="398.0" r="1.29" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="449.8" cy="432.0" r="2.33" fill="#f5f9fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="449.8" cy="466.0" r="1.65" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="449.8" cy="500.0" r="4.74" fill="#dde5ef" stroke="#667" stroke-width="0.4"/>
+<circle cx="449.8" cy="534.0" r="3.72" fill="#eaf0f7" stroke="#667" stroke-width="0.4"/>
+<circle cx="449.8" cy="568.0" r="2.39" fill="#f4f8fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="449.8" cy="602.0" r="1.66" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<text x="449.8" y="654" transform="rotate(-55 449.8 654)" text-anchor="end" font-family="Arial,sans-serif" font-size="11">T cell</text>
+<text x="449.8" y="797" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">N</text>
+<circle cx="501.2" cy="92.0" r="2.15" fill="#f5fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="501.2" cy="126.0" r="3.11" fill="#f0f5fb" stroke="#667" stroke-width="0.4"/>
+<circle cx="501.2" cy="160.0" r="1.28" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="501.2" cy="194.0" r="2.30" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="501.2" cy="228.0" r="2.56" fill="#f3f8fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="501.2" cy="262.0" r="1.28" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="501.2" cy="296.0" r="2.72" fill="#f2f7fc" stroke="#667" stroke-width="0.4"/>
+<circle cx="501.2" cy="330.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="501.2" cy="364.0" r="1.46" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="501.2" cy="398.0" r="1.33" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="501.2" cy="432.0" r="2.43" fill="#f4f8fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="501.2" cy="466.0" r="1.76" fill="#f6fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="501.2" cy="500.0" r="4.90" fill="#dae2ed" stroke="#667" stroke-width="0.4"/>
+<circle cx="501.2" cy="534.0" r="4.49" fill="#dfe7f0" stroke="#667" stroke-width="0.4"/>
+<circle cx="501.2" cy="568.0" r="2.55" fill="#f3f8fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="501.2" cy="602.0" r="2.08" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<text x="501.2" y="654" transform="rotate(-55 501.2 654)" text-anchor="end" font-family="Arial,sans-serif" font-size="11">T cell</text>
+<text x="501.2" y="797" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">T</text>
+<circle cx="552.8" cy="92.0" r="2.26" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="552.8" cy="126.0" r="2.87" fill="#f2f7fc" stroke="#667" stroke-width="0.4"/>
+<circle cx="552.8" cy="160.0" r="1.42" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="552.8" cy="194.0" r="2.22" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="552.8" cy="228.0" r="1.79" fill="#f6faff" stroke="#667" stroke-width="0.4"/>
+<circle cx="552.8" cy="262.0" r="1.30" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="552.8" cy="296.0" r="2.11" fill="#f5fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="552.8" cy="330.0" r="1.40" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="552.8" cy="364.0" r="1.60" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="552.8" cy="398.0" r="1.61" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="552.8" cy="432.0" r="2.17" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="552.8" cy="466.0" r="1.65" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="552.8" cy="500.0" r="4.55" fill="#e1e8f1" stroke="#667" stroke-width="0.4"/>
+<circle cx="552.8" cy="534.0" r="2.94" fill="#f0f5fb" stroke="#667" stroke-width="0.4"/>
+<circle cx="552.8" cy="568.0" r="2.32" fill="#f5f9fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="552.8" cy="602.0" r="2.08" fill="#f5fafe" stroke="#667" stroke-width="0.4"/>
+<text x="552.8" y="654" transform="rotate(-55 552.8 654)" text-anchor="end" font-family="Arial,sans-serif" font-size="11">B cell</text>
+<text x="552.8" y="797" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">N</text>
+<circle cx="604.2" cy="92.0" r="2.31" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="604.2" cy="126.0" r="3.05" fill="#f1f6fb" stroke="#667" stroke-width="0.4"/>
+<circle cx="604.2" cy="160.0" r="1.36" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="604.2" cy="194.0" r="2.35" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="604.2" cy="228.0" r="2.00" fill="#f6fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="604.2" cy="262.0" r="1.33" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="604.2" cy="296.0" r="2.48" fill="#f4f8fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="604.2" cy="330.0" r="1.41" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="604.2" cy="364.0" r="1.51" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="604.2" cy="398.0" r="1.77" fill="#f6fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="604.2" cy="432.0" r="2.19" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="604.2" cy="466.0" r="1.80" fill="#f6faff" stroke="#667" stroke-width="0.4"/>
+<circle cx="604.2" cy="500.0" r="4.60" fill="#dfe7f0" stroke="#667" stroke-width="0.4"/>
+<circle cx="604.2" cy="534.0" r="3.89" fill="#e6ecf4" stroke="#667" stroke-width="0.4"/>
+<circle cx="604.2" cy="568.0" r="2.38" fill="#f4f9fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="604.2" cy="602.0" r="2.09" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<text x="604.2" y="654" transform="rotate(-55 604.2 654)" text-anchor="end" font-family="Arial,sans-serif" font-size="11">B cell</text>
+<text x="604.2" y="797" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">T</text>
+<circle cx="655.8" cy="92.0" r="1.61" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="655.8" cy="126.0" r="3.98" fill="#f0f5fb" stroke="#667" stroke-width="0.4"/>
+<circle cx="655.8" cy="160.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="655.8" cy="194.0" r="2.75" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="655.8" cy="228.0" r="1.86" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="655.8" cy="262.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="655.8" cy="296.0" r="2.77" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="655.8" cy="330.0" r="1.43" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="655.8" cy="364.0" r="1.90" fill="#f6fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="655.8" cy="398.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="655.8" cy="432.0" r="2.46" fill="#f6fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="655.8" cy="466.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="655.8" cy="500.0" r="4.41" fill="#edf2f9" stroke="#667" stroke-width="0.4"/>
+<circle cx="655.8" cy="534.0" r="6.91" fill="#bbc8da" stroke="#667" stroke-width="0.4"/>
+<circle cx="655.8" cy="568.0" r="2.53" fill="#f4f8fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="655.8" cy="602.0" r="1.53" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<text x="655.8" y="654" transform="rotate(-55 655.8 654)" text-anchor="end" font-family="Arial,sans-serif" font-size="11">Plasma</text>
+<text x="655.8" y="797" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">N</text>
+<circle cx="707.2" cy="92.0" r="1.81" fill="#f6fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="707.2" cy="126.0" r="3.85" fill="#f0f5fa" stroke="#667" stroke-width="0.4"/>
+<circle cx="707.2" cy="160.0" r="1.41" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="707.2" cy="194.0" r="2.41" fill="#f6fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="707.2" cy="228.0" r="1.96" fill="#f6fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="707.2" cy="262.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="707.2" cy="296.0" r="2.71" fill="#f4f9fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="707.2" cy="330.0" r="1.35" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="707.2" cy="364.0" r="1.59" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="707.2" cy="398.0" r="1.53" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="707.2" cy="432.0" r="2.38" fill="#f5fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="707.2" cy="466.0" r="1.73" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="707.2" cy="500.0" r="4.32" fill="#edf2f9" stroke="#667" stroke-width="0.4"/>
+<circle cx="707.2" cy="534.0" r="5.30" fill="#d8e1ec" stroke="#667" stroke-width="0.4"/>
+<circle cx="707.2" cy="568.0" r="2.64" fill="#f4f8fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="707.2" cy="602.0" r="1.96" fill="#f6faff" stroke="#667" stroke-width="0.4"/>
+<text x="707.2" y="654" transform="rotate(-55 707.2 654)" text-anchor="end" font-family="Arial,sans-serif" font-size="11">Plasma</text>
+<text x="707.2" y="797" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">T</text>
+<circle cx="758.8" cy="92.0" r="2.21" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="758.8" cy="126.0" r="2.79" fill="#f2f7fc" stroke="#667" stroke-width="0.4"/>
+<circle cx="758.8" cy="160.0" r="1.44" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="758.8" cy="194.0" r="2.41" fill="#f4f8fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="758.8" cy="228.0" r="2.70" fill="#f2f7fc" stroke="#667" stroke-width="0.4"/>
+<circle cx="758.8" cy="262.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="758.8" cy="296.0" r="1.83" fill="#f6fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="758.8" cy="330.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="758.8" cy="364.0" r="1.61" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="758.8" cy="398.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="758.8" cy="432.0" r="2.41" fill="#f4f8fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="758.8" cy="466.0" r="1.61" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="758.8" cy="500.0" r="5.30" fill="#d2dbe8" stroke="#667" stroke-width="0.4"/>
+<circle cx="758.8" cy="534.0" r="4.10" fill="#e4ebf4" stroke="#667" stroke-width="0.4"/>
+<circle cx="758.8" cy="568.0" r="2.50" fill="#f4f8fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="758.8" cy="602.0" r="1.78" fill="#f6faff" stroke="#667" stroke-width="0.4"/>
+<text x="758.8" y="654" transform="rotate(-55 758.8 654)" text-anchor="end" font-family="Arial,sans-serif" font-size="11">NK</text>
+<text x="758.8" y="797" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">N</text>
+<circle cx="810.2" cy="92.0" r="2.40" fill="#f4f9fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="810.2" cy="126.0" r="3.43" fill="#eef3f9" stroke="#667" stroke-width="0.4"/>
+<circle cx="810.2" cy="160.0" r="1.57" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="810.2" cy="194.0" r="2.43" fill="#f4f9fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="810.2" cy="228.0" r="3.13" fill="#f0f5fa" stroke="#667" stroke-width="0.4"/>
+<circle cx="810.2" cy="262.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="810.2" cy="296.0" r="2.03" fill="#f6fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="810.2" cy="330.0" r="1.34" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="810.2" cy="364.0" r="1.55" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="810.2" cy="398.0" r="1.40" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="810.2" cy="432.0" r="2.43" fill="#f4f8fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="810.2" cy="466.0" r="2.01" fill="#f6fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="810.2" cy="500.0" r="5.24" fill="#d4dde9" stroke="#667" stroke-width="0.4"/>
+<circle cx="810.2" cy="534.0" r="4.03" fill="#e6ecf4" stroke="#667" stroke-width="0.4"/>
+<circle cx="810.2" cy="568.0" r="2.62" fill="#f3f8fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="810.2" cy="602.0" r="2.51" fill="#f3f7fc" stroke="#667" stroke-width="0.4"/>
+<text x="810.2" y="654" transform="rotate(-55 810.2 654)" text-anchor="end" font-family="Arial,sans-serif" font-size="11">NK</text>
+<text x="810.2" y="797" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">T</text>
+<circle cx="861.8" cy="92.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="861.8" cy="126.0" r="3.67" fill="#e6ecf4" stroke="#667" stroke-width="0.4"/>
+<circle cx="861.8" cy="160.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="861.8" cy="194.0" r="2.30" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="861.8" cy="228.0" r="2.30" fill="#f4f8fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="861.8" cy="262.0" r="3.11" fill="#e8eef6" stroke="#667" stroke-width="0.4"/>
+<circle cx="861.8" cy="296.0" r="3.11" fill="#edf2f9" stroke="#667" stroke-width="0.4"/>
+<circle cx="861.8" cy="330.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="861.8" cy="364.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="861.8" cy="398.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="861.8" cy="432.0" r="2.30" fill="#f3f8fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="861.8" cy="466.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="861.8" cy="500.0" r="4.86" fill="#d9e2ed" stroke="#667" stroke-width="0.4"/>
+<circle cx="861.8" cy="534.0" r="7.14" fill="#8398b7" stroke="#667" stroke-width="0.4"/>
+<circle cx="861.8" cy="568.0" r="3.67" fill="#e4ebf3" stroke="#667" stroke-width="0.4"/>
+<circle cx="861.8" cy="602.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<text x="861.8" y="654" transform="rotate(-55 861.8 654)" text-anchor="end" font-family="Arial,sans-serif" font-size="11">Endothelial</text>
+<text x="861.8" y="797" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">N</text>
+<circle cx="913.2" cy="92.0" r="2.64" fill="#f3f8fc" stroke="#667" stroke-width="0.4"/>
+<circle cx="913.2" cy="126.0" r="4.74" fill="#dde5ef" stroke="#667" stroke-width="0.4"/>
+<circle cx="913.2" cy="160.0" r="2.69" fill="#f3f7fc" stroke="#667" stroke-width="0.4"/>
+<circle cx="913.2" cy="194.0" r="2.41" fill="#f4f9fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="913.2" cy="228.0" r="1.58" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="913.2" cy="262.0" r="2.35" fill="#f4f8fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="913.2" cy="296.0" r="4.10" fill="#e4ebf4" stroke="#667" stroke-width="0.4"/>
+<circle cx="913.2" cy="330.0" r="2.14" fill="#f5fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="913.2" cy="364.0" r="1.74" fill="#f6faff" stroke="#667" stroke-width="0.4"/>
+<circle cx="913.2" cy="398.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="913.2" cy="432.0" r="2.92" fill="#f2f7fc" stroke="#667" stroke-width="0.4"/>
+<circle cx="913.2" cy="466.0" r="2.41" fill="#f4f9fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="913.2" cy="500.0" r="5.19" fill="#d5dfea" stroke="#667" stroke-width="0.4"/>
+<circle cx="913.2" cy="534.0" r="7.15" fill="#899ebb" stroke="#667" stroke-width="0.4"/>
+<circle cx="913.2" cy="568.0" r="5.78" fill="#bdcadb" stroke="#667" stroke-width="0.4"/>
+<circle cx="913.2" cy="602.0" r="2.53" fill="#f3f8fd" stroke="#667" stroke-width="0.4"/>
+<text x="913.2" y="654" transform="rotate(-55 913.2 654)" text-anchor="end" font-family="Arial,sans-serif" font-size="11">Endothelial</text>
+<text x="913.2" y="797" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">T</text>
+<circle cx="964.8" cy="92.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="964.8" cy="126.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="964.8" cy="160.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="964.8" cy="194.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="964.8" cy="228.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="964.8" cy="262.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="964.8" cy="296.0" r="3.11" fill="#f2f6fc" stroke="#667" stroke-width="0.4"/>
+<circle cx="964.8" cy="330.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="964.8" cy="364.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="964.8" cy="398.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="964.8" cy="432.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="964.8" cy="466.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="964.8" cy="500.0" r="5.02" fill="#cfd9e7" stroke="#667" stroke-width="0.4"/>
+<circle cx="964.8" cy="534.0" r="6.26" fill="#b1bfd3" stroke="#667" stroke-width="0.4"/>
+<circle cx="964.8" cy="568.0" r="3.11" fill="#eff4fa" stroke="#667" stroke-width="0.4"/>
+<circle cx="964.8" cy="602.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<text x="964.8" y="654" transform="rotate(-55 964.8 654)" text-anchor="end" font-family="Arial,sans-serif" font-size="11">Mast</text>
+<text x="964.8" y="797" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">N</text>
+<circle cx="1016.2" cy="92.0" r="2.61" fill="#f2f7fc" stroke="#667" stroke-width="0.4"/>
+<circle cx="1016.2" cy="126.0" r="2.46" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="1016.2" cy="160.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="1016.2" cy="194.0" r="2.30" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="1016.2" cy="228.0" r="2.61" fill="#f3f8fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="1016.2" cy="262.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="1016.2" cy="296.0" r="3.57" fill="#ecf1f8" stroke="#667" stroke-width="0.4"/>
+<circle cx="1016.2" cy="330.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="1016.2" cy="364.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="1016.2" cy="398.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="1016.2" cy="432.0" r="1.83" fill="#f6faff" stroke="#667" stroke-width="0.4"/>
+<circle cx="1016.2" cy="466.0" r="1.83" fill="#f6faff" stroke="#667" stroke-width="0.4"/>
+<circle cx="1016.2" cy="500.0" r="4.99" fill="#d7e0eb" stroke="#667" stroke-width="0.4"/>
+<circle cx="1016.2" cy="534.0" r="7.20" fill="#849ab8" stroke="#667" stroke-width="0.4"/>
+<circle cx="1016.2" cy="568.0" r="3.73" fill="#eaf0f7" stroke="#667" stroke-width="0.4"/>
+<circle cx="1016.2" cy="602.0" r="1.83" fill="#f6fbff" stroke="#667" stroke-width="0.4"/>
+<text x="1016.2" y="654" transform="rotate(-55 1016.2 654)" text-anchor="end" font-family="Arial,sans-serif" font-size="11">Mast</text>
+<text x="1016.2" y="797" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">T</text>
+<circle cx="1067.8" cy="92.0" r="1.98" fill="#f5fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="1067.8" cy="126.0" r="2.38" fill="#f3f8fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="1067.8" cy="160.0" r="1.95" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="1067.8" cy="194.0" r="1.87" fill="#f6fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="1067.8" cy="228.0" r="2.00" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="1067.8" cy="262.0" r="1.85" fill="#f5fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="1067.8" cy="296.0" r="2.53" fill="#f2f7fc" stroke="#667" stroke-width="0.4"/>
+<circle cx="1067.8" cy="330.0" r="1.20" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="1067.8" cy="364.0" r="2.95" fill="#eaf0f7" stroke="#667" stroke-width="0.4"/>
+<circle cx="1067.8" cy="398.0" r="1.78" fill="#f6fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="1067.8" cy="432.0" r="2.33" fill="#f3f7fc" stroke="#667" stroke-width="0.4"/>
+<circle cx="1067.8" cy="466.0" r="1.82" fill="#f6fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="1067.8" cy="500.0" r="3.26" fill="#ebf1f8" stroke="#667" stroke-width="0.4"/>
+<circle cx="1067.8" cy="534.0" r="3.10" fill="#ecf2f8" stroke="#667" stroke-width="0.4"/>
+<circle cx="1067.8" cy="568.0" r="3.84" fill="#d8e1ec" stroke="#667" stroke-width="0.4"/>
+<circle cx="1067.8" cy="602.0" r="1.39" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<text x="1067.8" y="654" transform="rotate(-55 1067.8 654)" text-anchor="end" font-family="Arial,sans-serif" font-size="11">Unassigned</text>
+<text x="1067.8" y="797" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">N</text>
+<circle cx="1119.2" cy="92.0" r="1.84" fill="#f6fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="1119.2" cy="126.0" r="2.31" fill="#f3f8fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="1119.2" cy="160.0" r="1.99" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="1119.2" cy="194.0" r="2.02" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="1119.2" cy="228.0" r="2.03" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="1119.2" cy="262.0" r="1.58" fill="#f7fbff" stroke="#667" stroke-width="0.4"/>
+<circle cx="1119.2" cy="296.0" r="2.46" fill="#f2f7fc" stroke="#667" stroke-width="0.4"/>
+<circle cx="1119.2" cy="330.0" r="1.87" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="1119.2" cy="364.0" r="2.68" fill="#eef3f9" stroke="#667" stroke-width="0.4"/>
+<circle cx="1119.2" cy="398.0" r="1.89" fill="#f5fafe" stroke="#667" stroke-width="0.4"/>
+<circle cx="1119.2" cy="432.0" r="2.13" fill="#f4f9fd" stroke="#667" stroke-width="0.4"/>
+<circle cx="1119.2" cy="466.0" r="2.05" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<circle cx="1119.2" cy="500.0" r="3.27" fill="#ebf1f7" stroke="#667" stroke-width="0.4"/>
+<circle cx="1119.2" cy="534.0" r="3.79" fill="#dfe6f0" stroke="#667" stroke-width="0.4"/>
+<circle cx="1119.2" cy="568.0" r="3.72" fill="#dee6f0" stroke="#667" stroke-width="0.4"/>
+<circle cx="1119.2" cy="602.0" r="2.03" fill="#f5f9fe" stroke="#667" stroke-width="0.4"/>
+<text x="1119.2" y="654" transform="rotate(-55 1119.2 654)" text-anchor="end" font-family="Arial,sans-serif" font-size="11">Unassigned</text>
+<text x="1119.2" y="797" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#555">T</text>
+<text x="118" y="756" font-family="Arial,sans-serif" font-size="10" fill="#555">Detection</text>
+<circle cx="186" cy="753" r="3.54" fill="#6b8fb3"/>
+<text x="186" y="771" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#555">10%</text>
+<circle cx="234" cy="753" r="5.25" fill="#6b8fb3"/>
+<text x="234" y="771" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#555">30%</text>
+<circle cx="282" cy="753" r="6.93" fill="#6b8fb3"/>
+<text x="282" y="771" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#555">60%</text>
+<circle cx="330" cy="753" r="8.22" fill="#6b8fb3"/>
+<text x="330" y="771" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#555">90%</text>
+</svg>
