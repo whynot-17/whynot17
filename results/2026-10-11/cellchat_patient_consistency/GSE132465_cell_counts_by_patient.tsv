@@ -1,0 +1,165 @@
+sample_id	original_type	celltype	n_cells
+SMC01	Epithelial cells	Epithelial	1093
+SMC01	Myeloids	Macrophage	68
+SMC01	Myeloids	Monocyte	73
+SMC01	Myeloids	Other_myeloid	30
+SMC01	Stromal cells	ECM_CAF	97
+SMC01	Stromal cells	Stromal_other	41
+SMC01	Stromal cells	myCAF	16
+SMC02	Epithelial cells	Epithelial	352
+SMC02	Myeloids	Macrophage	150
+SMC02	Myeloids	Monocyte	432
+SMC02	Myeloids	Other_myeloid	33
+SMC02	Stromal cells	ECM_CAF	59
+SMC02	Stromal cells	Stromal_other	38
+SMC02	Stromal cells	myCAF	8
+SMC03	Epithelial cells	Epithelial	796
+SMC03	Myeloids	Macrophage	219
+SMC03	Myeloids	Monocyte	95
+SMC03	Myeloids	Other_myeloid	2
+SMC03	Stromal cells	ECM_CAF	181
+SMC03	Stromal cells	Stromal_other	31
+SMC03	Stromal cells	myCAF	6
+SMC04	Epithelial cells	Epithelial	307
+SMC04	Myeloids	Macrophage	200
+SMC04	Myeloids	Monocyte	597
+SMC04	Myeloids	Other_myeloid	26
+SMC04	Stromal cells	ECM_CAF	41
+SMC04	Stromal cells	Stromal_other	83
+SMC04	Stromal cells	apCAF	5
+SMC04	Stromal cells	myCAF	20
+SMC05	Epithelial cells	Epithelial	13
+SMC05	Myeloids	Macrophage	14
+SMC05	Myeloids	Monocyte	5
+SMC05	Myeloids	Other_myeloid	1
+SMC05	Stromal cells	ECM_CAF	8
+SMC05	Stromal cells	Stromal_other	4
+SMC05	Stromal cells	myCAF	4
+SMC06	Epithelial cells	Epithelial	189
+SMC06	Myeloids	Macrophage	100
+SMC06	Myeloids	Monocyte	114
+SMC06	Myeloids	Other_myeloid	1
+SMC06	Stromal cells	ECM_CAF	68
+SMC06	Stromal cells	Stromal_other	7
+SMC06	Stromal cells	myCAF	8
+SMC07	Epithelial cells	Epithelial	542
+SMC07	Myeloids	Macrophage	219
+SMC07	Myeloids	Monocyte	74
+SMC07	Myeloids	Other_myeloid	39
+SMC07	Stromal cells	ECM_CAF	69
+SMC07	Stromal cells	Stromal_other	97
+SMC07	Stromal cells	apCAF	1
+SMC07	Stromal cells	myCAF	42
+SMC08	Epithelial cells	Epithelial	320
+SMC08	Myeloids	Macrophage	166
+SMC08	Myeloids	Monocyte	137
+SMC08	Myeloids	Other_myeloid	7
+SMC08	Stromal cells	ECM_CAF	128
+SMC08	Stromal cells	Stromal_other	23
+SMC08	Stromal cells	myCAF	7
+SMC09	Epithelial cells	Epithelial	1887
+SMC09	Myeloids	Macrophage	195
+SMC09	Myeloids	Monocyte	186
+SMC09	Myeloids	Other_myeloid	20
+SMC09	Stromal cells	ECM_CAF	13
+SMC09	Stromal cells	Stromal_other	20
+SMC09	Stromal cells	myCAF	12
+SMC10	Epithelial cells	Epithelial	511
+SMC10	Myeloids	Macrophage	606
+SMC10	Myeloids	Monocyte	57
+SMC10	Myeloids	Other_myeloid	8
+SMC10	Stromal cells	ECM_CAF	95
+SMC10	Stromal cells	Stromal_other	44
+SMC10	Stromal cells	apCAF	1
+SMC10	Stromal cells	myCAF	18
+SMC11	Epithelial cells	Epithelial	326
+SMC11	Myeloids	Macrophage	53
+SMC11	Myeloids	Monocyte	17
+SMC11	Myeloids	Other_myeloid	6
+SMC11	Stromal cells	ECM_CAF	21
+SMC11	Stromal cells	Stromal_other	21
+SMC11	Stromal cells	myCAF	11
+SMC14	Epithelial cells	Epithelial	166
+SMC14	Myeloids	Macrophage	250
+SMC14	Myeloids	Monocyte	322
+SMC14	Myeloids	Other_myeloid	21
+SMC14	Stromal cells	ECM_CAF	128
+SMC14	Stromal cells	Stromal_other	140
+SMC14	Stromal cells	apCAF	4
+SMC14	Stromal cells	myCAF	25
+SMC15	Epithelial cells	Epithelial	319
+SMC15	Myeloids	Macrophage	76
+SMC15	Myeloids	Monocyte	63
+SMC15	Myeloids	Other_myeloid	9
+SMC15	Stromal cells	ECM_CAF	111
+SMC15	Stromal cells	Stromal_other	112
+SMC15	Stromal cells	apCAF	10
+SMC15	Stromal cells	myCAF	73
+SMC16	Epithelial cells	Epithelial	2720
+SMC16	Myeloids	Macrophage	28
+SMC16	Myeloids	Monocyte	15
+SMC16	Myeloids	Other_myeloid	3
+SMC16	Stromal cells	ECM_CAF	16
+SMC16	Stromal cells	Stromal_other	11
+SMC16	Stromal cells	myCAF	2
+SMC17	Epithelial cells	Epithelial	505
+SMC17	Myeloids	Macrophage	149
+SMC17	Myeloids	Monocyte	202
+SMC17	Myeloids	Other_myeloid	11
+SMC17	Stromal cells	ECM_CAF	68
+SMC17	Stromal cells	Stromal_other	73
+SMC17	Stromal cells	apCAF	1
+SMC17	Stromal cells	myCAF	61
+SMC18	Epithelial cells	Epithelial	1516
+SMC18	Myeloids	Macrophage	49
+SMC18	Myeloids	Monocyte	30
+SMC18	Stromal cells	ECM_CAF	2
+SMC18	Stromal cells	Stromal_other	5
+SMC19	Epithelial cells	Epithelial	382
+SMC19	Myeloids	Macrophage	21
+SMC19	Myeloids	Monocyte	6
+SMC19	Myeloids	Other_myeloid	3
+SMC19	Stromal cells	ECM_CAF	24
+SMC19	Stromal cells	Stromal_other	10
+SMC19	Stromal cells	myCAF	3
+SMC20	Epithelial cells	Epithelial	524
+SMC20	Myeloids	Macrophage	317
+SMC20	Myeloids	Monocyte	5
+SMC20	Myeloids	Other_myeloid	25
+SMC20	Stromal cells	ECM_CAF	301
+SMC20	Stromal cells	Stromal_other	30
+SMC20	Stromal cells	myCAF	43
+SMC21	Epithelial cells	Epithelial	1727
+SMC21	Myeloids	Macrophage	50
+SMC21	Myeloids	Monocyte	10
+SMC21	Myeloids	Other_myeloid	2
+SMC21	Stromal cells	ECM_CAF	4
+SMC22	Epithelial cells	Epithelial	1902
+SMC22	Myeloids	Macrophage	37
+SMC22	Myeloids	Monocyte	48
+SMC22	Myeloids	Other_myeloid	1
+SMC22	Stromal cells	ECM_CAF	4
+SMC22	Stromal cells	Stromal_other	10
+SMC22	Stromal cells	myCAF	2
+SMC23	Epithelial cells	Epithelial	639
+SMC23	Myeloids	Macrophage	145
+SMC23	Myeloids	Monocyte	84
+SMC23	Myeloids	Other_myeloid	13
+SMC23	Stromal cells	ECM_CAF	16
+SMC23	Stromal cells	Stromal_other	12
+SMC23	Stromal cells	myCAF	5
+SMC24	Epithelial cells	Epithelial	317
+SMC24	Myeloids	Macrophage	136
+SMC24	Myeloids	Monocyte	230
+SMC24	Myeloids	Other_myeloid	13
+SMC24	Stromal cells	ECM_CAF	30
+SMC24	Stromal cells	Stromal_other	18
+SMC24	Stromal cells	apCAF	1
+SMC24	Stromal cells	myCAF	6
+SMC25	Epithelial cells	Epithelial	416
+SMC25	Myeloids	Macrophage	38
+SMC25	Myeloids	Monocyte	35
+SMC25	Myeloids	Other_myeloid	3
+SMC25	Stromal cells	ECM_CAF	5
+SMC25	Stromal cells	Stromal_other	20
+SMC25	Stromal cells	myCAF	2

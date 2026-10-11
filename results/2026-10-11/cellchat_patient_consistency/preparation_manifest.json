@@ -1,0 +1,14 @@
+{
+  "GSE132465_source_annotation": "GEO processed cell annotation; tumor epithelial, myeloid and stromal broad labels retained as candidate compartments",
+  "GSE132465_subclustering": "Full raw transcriptome within original tumor myeloid and stromal cells; Scanpy HVG/PCA/neighbors/Leiden; marker-program cluster labels",
+  "GSE200997_source_annotation": "GEO processed metadata has tumor/normal, sample and MSI only; target lineages are assigned only when their multi-marker score wins against epithelial, myeloid, fibroblast, T/NK, B/plasma, endothelial, pericyte and mast controls; ambiguous cells remain unassigned",
+  "GSE200997_subclustering": "Full raw transcriptome within marker-inferred tumor myeloid and fibroblast candidates; Scanpy HVG/PCA/neighbors/Leiden; marker-program cluster labels",
+  "target_genes": [
+    "SCD",
+    "PID1"
+  ],
+  "target_gene_usage": "Neither SCD nor PID1 used for cell clustering or annotation. SCD is summarized against a lipid-metabolism marker score that excludes SCD; PID1 is summarized after myeloid subtype annotation.",
+  "normalization_for_CellChat": "log1p(raw UMI / complete-cell UMI total * 10000), restricted to CellChatDB.human ligand/receptor symbols plus marker genes",
+  "minimum_cluster_group_cells_for_CellChat": 10,
+  "GSE200997_unit": "Tumor specimen/sample; no patient identifier is supplied in processed metadata"
+}

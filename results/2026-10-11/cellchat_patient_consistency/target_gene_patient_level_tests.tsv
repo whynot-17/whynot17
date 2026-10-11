@@ -1,0 +1,5 @@
+cohort	comparison	unit_type	n_units	statistic	p_value	median_difference	leave_one_out_stat_min	leave_one_out_stat_max	note	p_BH
+GSE132465	Epithelial SCD mean vs lipid-program score excluding SCD	patient	23	0.575098814229249	0.004094228298326096		0.5143986448334276	0.6431394692264258	Spearman correlation of per-unit mean log1p expression and custom non-SCD lipid marker score	0.004094228298326096
+GSE132465	PID1 mean: Monocyte minus Macrophage	patient	23	33.0	0.0007376670837402344	0.13414353			Paired patient/sample-level test; cell-level measurements are summarized within unit first	0.0014753341674804688
+GSE200997	Epithelial SCD mean vs lipid-program score excluding SCD	tumor_sample	16	0.5	0.04858028888702393		0.4035714285714285	0.6	Spearman correlation of per-unit mean log1p expression and custom non-SCD lipid marker score	0.04858028888702393
+GSE200997	PID1 mean: Monocyte minus Macrophage	tumor_sample	15	1.0	0.0028734139278525227	0.11104535800000001			Paired patient/sample-level test; cell-level measurements are summarized within unit first	0.005746827855705045
