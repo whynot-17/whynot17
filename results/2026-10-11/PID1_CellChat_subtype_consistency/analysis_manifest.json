@@ -1,0 +1,29 @@
+{
+  "run_date": "2026-10-11",
+  "analysis": "PID1-associated epithelial-myeloid CellChat at fine myeloid subtype resolution",
+  "cohorts": [
+    "GSE132465",
+    "GSE200997"
+  ],
+  "units": {
+    "GSE132465": "patient",
+    "GSE200997": "tumor sample"
+  },
+  "expression_input": "Prior CellChat ligand/receptor panel matrices generated from original GEO UMI data; only this referenced CellChat input was reused.",
+  "epithelial_annotation": "Epithelial cell label from the prior CellChat preparation, limited to tumor epithelial cells.",
+  "myeloid_annotation": "Current PID1_myeloid_finelocalization annotations; only eligible Monocyte_* and Macrophage_* states included.",
+  "cellchat": {
+    "version": "2.2.0.9001",
+    "database": "CellChatDB.human",
+    "average": "triMean",
+    "population_size": false,
+    "nboot": 100,
+    "min_cells": ">10",
+    "seed": "20261011 + ordered unit index"
+  },
+  "not_done": [
+    "machine learning",
+    "causal inference",
+    "all-cell communication"
+  ]
+}
