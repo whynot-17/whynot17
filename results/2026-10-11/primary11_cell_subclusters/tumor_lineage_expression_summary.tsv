@@ -1,0 +1,177 @@
+cohort	tumor_lineage	lineage_definition	population_type	gene	n_cells	n_samples	mean_log1p_10K	median_log1p_10K	pct_cells_detected
+GSE132465	B cells	GEO original Cell_type	broad_tumor_lineage	ABHD6	3938	23	0.009727748110890388	0.0	0.9649568308786186
+GSE132465	B cells	GEO original Cell_type	broad_tumor_lineage	ACAT1	3938	23	0.09800940752029419	0.0	13.07770441848654
+GSE132465	B cells	GEO original Cell_type	broad_tumor_lineage	BMP2	3938	23	0.0051020607352256775	0.0	0.6348400203148806
+GSE132465	B cells	GEO original Cell_type	broad_tumor_lineage	FABP4	3938	23	0.00038324290653690696	0.0	0.10157440325038089
+GSE132465	B cells	GEO original Cell_type	broad_tumor_lineage	FHL1	3938	23	0.006338087841868401	0.0	0.7872016251904521
+GSE132465	B cells	GEO original Cell_type	broad_tumor_lineage	INHBA	3938	23	0.007726875599473715	0.0	1.1173184357541899
+GSE132465	B cells	GEO original Cell_type	broad_tumor_lineage	PID1	3938	23	0.001780856866389513	0.0	0.22854240731335704
+GSE132465	B cells	GEO original Cell_type	broad_tumor_lineage	SCD	3938	23	0.016953324899077415	0.0	2.437785678009142
+GSE132465	B cells	GEO original Cell_type	broad_tumor_lineage	SCP2	3938	23	0.2526990473270416	0.0	25.393600812595224
+GSE132465	B cells	GEO original Cell_type	broad_tumor_lineage	TIMP1	3938	23	0.3091678321361542	0.0	30.319959370238696
+GSE132465	B cells	GEO original Cell_type	broad_tumor_lineage	UBE2C	3938	23	0.042830947786569595	0.0	5.256475368207212
+GSE132465	Epithelial cells	GEO original Cell_type	broad_tumor_lineage	ABHD6	17469	23	0.02837453782558441	0.0	7.916881332646403
+GSE132465	Epithelial cells	GEO original Cell_type	broad_tumor_lineage	ACAT1	17469	23	0.2405541092157364	0.0	41.88562596599691
+GSE132465	Epithelial cells	GEO original Cell_type	broad_tumor_lineage	BMP2	17469	23	0.10803564637899399	0.0	19.634781613143282
+GSE132465	Epithelial cells	GEO original Cell_type	broad_tumor_lineage	FABP4	17469	23	0.0005792995798401535	0.0	0.09159081802049344
+GSE132465	Epithelial cells	GEO original Cell_type	broad_tumor_lineage	FHL1	17469	23	0.00460459990426898	0.0	1.2135783387715382
+GSE132465	Epithelial cells	GEO original Cell_type	broad_tumor_lineage	INHBA	17469	23	0.007511505391448736	0.0	1.8031942297784647
+GSE132465	Epithelial cells	GEO original Cell_type	broad_tumor_lineage	PID1	17469	23	0.07551183551549911	0.0	15.936802335565858
+GSE132465	Epithelial cells	GEO original Cell_type	broad_tumor_lineage	SCD	17469	23	0.5894333124160767	0.39309313893318176	59.310779094395784
+GSE132465	Epithelial cells	GEO original Cell_type	broad_tumor_lineage	SCP2	17469	23	0.6344721913337708	0.6264482736587524	74.86404487950084
+GSE132465	Epithelial cells	GEO original Cell_type	broad_tumor_lineage	TIMP1	17469	23	1.1249526739120483	1.1359323263168335	82.36876753105501
+GSE132465	Epithelial cells	GEO original Cell_type	broad_tumor_lineage	UBE2C	17469	23	0.28835737705230713	0.0	28.936974068349645
+GSE132465	Mast cells	GEO original Cell_type	broad_tumor_lineage	ABHD6	3	2	0.0	0.0	0.0
+GSE132465	Mast cells	GEO original Cell_type	broad_tumor_lineage	ACAT1	3	2	0.0	0.0	0.0
+GSE132465	Mast cells	GEO original Cell_type	broad_tumor_lineage	BMP2	3	2	0.0	0.0	0.0
+GSE132465	Mast cells	GEO original Cell_type	broad_tumor_lineage	FABP4	3	2	0.0	0.0	0.0
+GSE132465	Mast cells	GEO original Cell_type	broad_tumor_lineage	FHL1	3	2	0.907193660736084	1.2467244863510132	66.66666666666666
+GSE132465	Mast cells	GEO original Cell_type	broad_tumor_lineage	INHBA	3	2	0.0	0.0	0.0
+GSE132465	Mast cells	GEO original Cell_type	broad_tumor_lineage	PID1	3	2	0.0	0.0	0.0
+GSE132465	Mast cells	GEO original Cell_type	broad_tumor_lineage	SCD	3	2	0.0	0.0	0.0
+GSE132465	Mast cells	GEO original Cell_type	broad_tumor_lineage	SCP2	3	2	0.4916187822818756	0.0	33.33333333333333
+GSE132465	Mast cells	GEO original Cell_type	broad_tumor_lineage	TIMP1	3	2	2.3398330211639404	1.7900947332382202	100.0
+GSE132465	Mast cells	GEO original Cell_type	broad_tumor_lineage	UBE2C	3	2	0.0	0.0	0.0
+GSE132465	Myeloids	GEO original Cell_type	broad_tumor_lineage	ABHD6	6400	23	0.04268858954310417	0.0	4.953125
+GSE132465	Myeloids	GEO original Cell_type	broad_tumor_lineage	ACAT1	6400	23	0.10014054924249649	0.0	11.140625
+GSE132465	Myeloids	GEO original Cell_type	broad_tumor_lineage	BMP2	6400	23	0.008441618643701077	0.0	0.796875
+GSE132465	Myeloids	GEO original Cell_type	broad_tumor_lineage	FABP4	6400	23	0.006449763663113117	0.0	0.546875
+GSE132465	Myeloids	GEO original Cell_type	broad_tumor_lineage	FHL1	6400	23	0.007582281716167927	0.0	0.75
+GSE132465	Myeloids	GEO original Cell_type	broad_tumor_lineage	INHBA	6400	23	0.6587706208229065	0.0	33.703125
+GSE132465	Myeloids	GEO original Cell_type	broad_tumor_lineage	PID1	6400	23	0.14452490210533142	0.0	11.5
+GSE132465	Myeloids	GEO original Cell_type	broad_tumor_lineage	SCD	6400	23	0.18485194444656372	0.0	16.515625
+GSE132465	Myeloids	GEO original Cell_type	broad_tumor_lineage	SCP2	6400	23	0.46916717290878296	0.0	39.65625
+GSE132465	Myeloids	GEO original Cell_type	broad_tumor_lineage	TIMP1	6400	23	2.4764750003814697	2.3552939891815186	80.9375
+GSE132465	Myeloids	GEO original Cell_type	broad_tumor_lineage	UBE2C	6400	23	0.04734121635556221	0.0	4.25
+GSE132465	Stromal cells	GEO original Cell_type	broad_tumor_lineage	ABHD6	2736	23	0.02233036421239376	0.0	3.9108187134502925
+GSE132465	Stromal cells	GEO original Cell_type	broad_tumor_lineage	ACAT1	2736	23	0.2169615924358368	0.0	29.97076023391813
+GSE132465	Stromal cells	GEO original Cell_type	broad_tumor_lineage	BMP2	2736	23	0.17152023315429688	0.0	20.029239766081872
+GSE132465	Stromal cells	GEO original Cell_type	broad_tumor_lineage	FABP4	2736	23	0.08849471062421799	0.0	5.957602339181286
+GSE132465	Stromal cells	GEO original Cell_type	broad_tumor_lineage	FHL1	2736	23	0.3238705098628998	0.0	36.001461988304094
+GSE132465	Stromal cells	GEO original Cell_type	broad_tumor_lineage	INHBA	2736	23	0.7325750589370728	0.0	46.893274853801174
+GSE132465	Stromal cells	GEO original Cell_type	broad_tumor_lineage	PID1	2736	23	0.0633159652352333	0.0	9.247076023391813
+GSE132465	Stromal cells	GEO original Cell_type	broad_tumor_lineage	SCD	2736	23	0.07965952157974243	0.0	11.988304093567251
+GSE132465	Stromal cells	GEO original Cell_type	broad_tumor_lineage	SCP2	2736	23	0.7435981631278992	0.8032417297363281	69.66374269005848
+GSE132465	Stromal cells	GEO original Cell_type	broad_tumor_lineage	TIMP1	2736	23	2.8556160926818848	2.8365845680236816	96.4546783625731
+GSE132465	Stromal cells	GEO original Cell_type	broad_tumor_lineage	UBE2C	2736	23	0.07268574088811874	0.0	7.346491228070176
+GSE132465	T cells	GEO original Cell_type	broad_tumor_lineage	ABHD6	16739	23	0.014090521261096	0.0	0.9080590238365494
+GSE132465	T cells	GEO original Cell_type	broad_tumor_lineage	ACAT1	16739	23	0.0928419679403305	0.0	6.15329470099767
+GSE132465	T cells	GEO original Cell_type	broad_tumor_lineage	BMP2	16739	23	0.003290246706455946	0.0	0.21506661090865642
+GSE132465	T cells	GEO original Cell_type	broad_tumor_lineage	FABP4	16739	23	0.0004131816967856139	0.0	0.023896290100961826
+GSE132465	T cells	GEO original Cell_type	broad_tumor_lineage	FHL1	16739	23	0.019048554822802544	0.0	1.3023478105024195
+GSE132465	T cells	GEO original Cell_type	broad_tumor_lineage	INHBA	16739	23	0.006925596855580807	0.0	0.4540295119182747
+GSE132465	T cells	GEO original Cell_type	broad_tumor_lineage	PID1	16739	23	0.0031334245577454567	0.0	0.21506661090865642
+GSE132465	T cells	GEO original Cell_type	broad_tumor_lineage	SCD	16739	23	0.029431942850351334	0.0	1.8937809905012246
+GSE132465	T cells	GEO original Cell_type	broad_tumor_lineage	SCP2	16739	23	0.4797016978263855	0.0	28.86074436943665
+GSE132465	T cells	GEO original Cell_type	broad_tumor_lineage	TIMP1	16739	23	0.35665640234947205	0.0	20.94509827349304
+GSE132465	T cells	GEO original Cell_type	broad_tumor_lineage	UBE2C	16739	23	0.04507032409310341	0.0	2.604695621004839
+GSE200997	B_cell	marker-inferred broad lineage	broad_tumor_lineage	ABHD6	5746	16	0.029646648094058037	0.0	2.297250261051166
+GSE200997	B_cell	marker-inferred broad lineage	broad_tumor_lineage	ACAT1	5746	16	0.07904472202062607	0.0	6.19561434041072
+GSE200997	B_cell	marker-inferred broad lineage	broad_tumor_lineage	BMP2	5746	16	0.000686745741404593	0.0	0.05221023320570832
+GSE200997	B_cell	marker-inferred broad lineage	broad_tumor_lineage	FABP4	5746	16	0.00034332176437601447	0.0	0.034806822137138885
+GSE200997	B_cell	marker-inferred broad lineage	broad_tumor_lineage	FHL1	5746	16	0.035954102873802185	0.0	2.697528715628263
+GSE200997	B_cell	marker-inferred broad lineage	broad_tumor_lineage	INHBA	5746	16	0.0013536256738007069	0.0	0.08701705534284719
+GSE200997	B_cell	marker-inferred broad lineage	broad_tumor_lineage	PID1	5746	16	0.006722825113683939	0.0	0.591715976331361
+GSE200997	B_cell	marker-inferred broad lineage	broad_tumor_lineage	SCD	5746	16	0.007898766547441483	0.0	0.6787330316742082
+GSE200997	B_cell	marker-inferred broad lineage	broad_tumor_lineage	SCP2	5746	16	0.2883548438549042	0.0	20.55342847198051
+GSE200997	B_cell	marker-inferred broad lineage	broad_tumor_lineage	TIMP1	5746	16	0.2062588930130005	0.0	12.356421858684302
+GSE200997	B_cell	marker-inferred broad lineage	broad_tumor_lineage	UBE2C	5746	16	0.023999042809009552	0.0	1.4792899408284024
+GSE200997	Endothelial	marker-inferred broad lineage	broad_tumor_lineage	ABHD6	370	10	0.05081983655691147	0.0	3.783783783783784
+GSE200997	Endothelial	marker-inferred broad lineage	broad_tumor_lineage	ACAT1	370	10	0.3282720148563385	0.0	22.972972972972975
+GSE200997	Endothelial	marker-inferred broad lineage	broad_tumor_lineage	BMP2	370	10	0.05525744706392288	0.0	4.054054054054054
+GSE200997	Endothelial	marker-inferred broad lineage	broad_tumor_lineage	FABP4	370	10	0.03942243009805679	0.0	2.4324324324324325
+GSE200997	Endothelial	marker-inferred broad lineage	broad_tumor_lineage	FHL1	370	10	0.23326733708381653	0.0	15.405405405405407
+GSE200997	Endothelial	marker-inferred broad lineage	broad_tumor_lineage	INHBA	370	10	0.019558925181627274	0.0	1.6216216216216217
+GSE200997	Endothelial	marker-inferred broad lineage	broad_tumor_lineage	PID1	370	10	0.0	0.0	0.0
+GSE200997	Endothelial	marker-inferred broad lineage	broad_tumor_lineage	SCD	370	10	0.03456711769104004	0.0	2.7027027027027026
+GSE200997	Endothelial	marker-inferred broad lineage	broad_tumor_lineage	SCP2	370	10	0.41922080516815186	0.0	28.91891891891892
+GSE200997	Endothelial	marker-inferred broad lineage	broad_tumor_lineage	TIMP1	370	10	1.3746018409729004	1.6423968076705933	64.5945945945946
+GSE200997	Endothelial	marker-inferred broad lineage	broad_tumor_lineage	UBE2C	370	10	0.04695044830441475	0.0	3.2432432432432434
+GSE200997	Epithelial	marker-inferred broad lineage	broad_tumor_lineage	ABHD6	6573	16	0.026093676686286926	0.0	2.601551802829758
+GSE200997	Epithelial	marker-inferred broad lineage	broad_tumor_lineage	ACAT1	6573	16	0.09968635439872742	0.0	9.38688574471322
+GSE200997	Epithelial	marker-inferred broad lineage	broad_tumor_lineage	BMP2	6573	16	0.07521273195743561	0.0	5.263958618591206
+GSE200997	Epithelial	marker-inferred broad lineage	broad_tumor_lineage	FABP4	6573	16	0.0	0.0	0.0
+GSE200997	Epithelial	marker-inferred broad lineage	broad_tumor_lineage	FHL1	6573	16	0.006535226013511419	0.0	0.4716263502205994
+GSE200997	Epithelial	marker-inferred broad lineage	broad_tumor_lineage	INHBA	6573	16	0.0036616185680031776	0.0	0.24342005172676098
+GSE200997	Epithelial	marker-inferred broad lineage	broad_tumor_lineage	PID1	6573	16	0.07068561762571335	0.0	6.009432527004412
+GSE200997	Epithelial	marker-inferred broad lineage	broad_tumor_lineage	SCD	6573	16	0.24489961564540863	0.0	17.678381256656017
+GSE200997	Epithelial	marker-inferred broad lineage	broad_tumor_lineage	SCP2	6573	16	0.3558894693851471	0.0	27.36954206602769
+GSE200997	Epithelial	marker-inferred broad lineage	broad_tumor_lineage	TIMP1	6573	16	0.5426706671714783	0.0	34.428723566103756
+GSE200997	Epithelial	marker-inferred broad lineage	broad_tumor_lineage	UBE2C	6573	16	0.1164625808596611	0.0	7.424311577666211
+GSE200997	Fibroblast	marker-inferred broad lineage	broad_tumor_lineage	ABHD6	565	14	0.018579311668872833	0.0	1.7699115044247788
+GSE200997	Fibroblast	marker-inferred broad lineage	broad_tumor_lineage	ACAT1	565	14	0.1526324599981308	0.0	12.743362831858407
+GSE200997	Fibroblast	marker-inferred broad lineage	broad_tumor_lineage	BMP2	565	14	0.1233295276761055	0.0	8.141592920353983
+GSE200997	Fibroblast	marker-inferred broad lineage	broad_tumor_lineage	FABP4	565	14	0.08591543883085251	0.0	5.486725663716814
+GSE200997	Fibroblast	marker-inferred broad lineage	broad_tumor_lineage	FHL1	565	14	0.700510561466217	0.0	41.769911504424776
+GSE200997	Fibroblast	marker-inferred broad lineage	broad_tumor_lineage	INHBA	565	14	0.6070322394371033	0.0	32.38938053097345
+GSE200997	Fibroblast	marker-inferred broad lineage	broad_tumor_lineage	PID1	565	14	0.09015744924545288	0.0	5.663716814159292
+GSE200997	Fibroblast	marker-inferred broad lineage	broad_tumor_lineage	SCD	565	14	0.05715359002351761	0.0	3.893805309734513
+GSE200997	Fibroblast	marker-inferred broad lineage	broad_tumor_lineage	SCP2	565	14	0.4177021384239197	0.0	30.08849557522124
+GSE200997	Fibroblast	marker-inferred broad lineage	broad_tumor_lineage	TIMP1	565	14	2.7589433193206787	2.9731223583221436	86.19469026548673
+GSE200997	Fibroblast	marker-inferred broad lineage	broad_tumor_lineage	UBE2C	565	14	0.01889355480670929	0.0	1.415929203539823
+GSE200997	Mast	marker-inferred broad lineage	broad_tumor_lineage	ABHD6	137	14	0.05828975886106491	0.0	3.64963503649635
+GSE200997	Mast	marker-inferred broad lineage	broad_tumor_lineage	ACAT1	137	14	0.02919887565076351	0.0	2.9197080291970803
+GSE200997	Mast	marker-inferred broad lineage	broad_tumor_lineage	BMP2	137	14	0.0	0.0	0.0
+GSE200997	Mast	marker-inferred broad lineage	broad_tumor_lineage	FABP4	137	14	0.0	0.0	0.0
+GSE200997	Mast	marker-inferred broad lineage	broad_tumor_lineage	FHL1	137	14	0.14170949161052704	0.0	10.218978102189782
+GSE200997	Mast	marker-inferred broad lineage	broad_tumor_lineage	INHBA	137	14	0.0	0.0	0.0
+GSE200997	Mast	marker-inferred broad lineage	broad_tumor_lineage	PID1	137	14	0.0	0.0	0.0
+GSE200997	Mast	marker-inferred broad lineage	broad_tumor_lineage	SCD	137	14	0.009037491865456104	0.0	0.7299270072992701
+GSE200997	Mast	marker-inferred broad lineage	broad_tumor_lineage	SCP2	137	14	0.39919933676719666	0.0	26.277372262773724
+GSE200997	Mast	marker-inferred broad lineage	broad_tumor_lineage	TIMP1	137	14	1.440733551979065	1.7263325452804565	65.69343065693431
+GSE200997	Mast	marker-inferred broad lineage	broad_tumor_lineage	UBE2C	137	14	0.0071479519829154015	0.0	0.7299270072992701
+GSE200997	Myeloid	marker-inferred broad lineage	broad_tumor_lineage	ABHD6	448	14	0.026511268690228462	0.0	2.6785714285714284
+GSE200997	Myeloid	marker-inferred broad lineage	broad_tumor_lineage	ACAT1	448	14	0.09976213425397873	0.0	9.821428571428571
+GSE200997	Myeloid	marker-inferred broad lineage	broad_tumor_lineage	BMP2	448	14	0.00901898741722107	0.0	0.6696428571428571
+GSE200997	Myeloid	marker-inferred broad lineage	broad_tumor_lineage	FABP4	448	14	0.009433460421860218	0.0	0.4464285714285714
+GSE200997	Myeloid	marker-inferred broad lineage	broad_tumor_lineage	FHL1	448	14	0.018524179235100746	0.0	1.3392857142857142
+GSE200997	Myeloid	marker-inferred broad lineage	broad_tumor_lineage	INHBA	448	14	0.16262586414813995	0.0	7.366071428571429
+GSE200997	Myeloid	marker-inferred broad lineage	broad_tumor_lineage	PID1	448	14	0.2379654347896576	0.0	17.857142857142858
+GSE200997	Myeloid	marker-inferred broad lineage	broad_tumor_lineage	SCD	448	14	0.10217572748661041	0.0	8.258928571428571
+GSE200997	Myeloid	marker-inferred broad lineage	broad_tumor_lineage	SCP2	448	14	0.411895751953125	0.0	31.69642857142857
+GSE200997	Myeloid	marker-inferred broad lineage	broad_tumor_lineage	TIMP1	448	14	2.589280366897583	2.543198347091675	82.58928571428571
+GSE200997	Myeloid	marker-inferred broad lineage	broad_tumor_lineage	UBE2C	448	14	0.04650404304265976	0.0	2.455357142857143
+GSE200997	NK	marker-inferred broad lineage	broad_tumor_lineage	ABHD6	2656	16	0.03597841411828995	0.0	2.635542168674699
+GSE200997	NK	marker-inferred broad lineage	broad_tumor_lineage	ACAT1	2656	16	0.11578366905450821	0.0	9.262048192771084
+GSE200997	NK	marker-inferred broad lineage	broad_tumor_lineage	BMP2	2656	16	0.0035482950042933226	0.0	0.2635542168674699
+GSE200997	NK	marker-inferred broad lineage	broad_tumor_lineage	FABP4	2656	16	0.0	0.0	0.0
+GSE200997	NK	marker-inferred broad lineage	broad_tumor_lineage	FHL1	2656	16	0.015374845825135708	0.0	1.3177710843373496
+GSE200997	NK	marker-inferred broad lineage	broad_tumor_lineage	INHBA	2656	16	0.0003081450704485178	0.0	0.03765060240963856
+GSE200997	NK	marker-inferred broad lineage	broad_tumor_lineage	PID1	2656	16	0.0015115045243874192	0.0	0.07530120481927711
+GSE200997	NK	marker-inferred broad lineage	broad_tumor_lineage	SCD	2656	16	0.01441310252994299	0.0	1.167168674698795
+GSE200997	NK	marker-inferred broad lineage	broad_tumor_lineage	SCP2	2656	16	0.4368492364883423	0.0	29.706325301204817
+GSE200997	NK	marker-inferred broad lineage	broad_tumor_lineage	TIMP1	2656	16	0.22011107206344604	0.0	14.57078313253012
+GSE200997	NK	marker-inferred broad lineage	broad_tumor_lineage	UBE2C	2656	16	0.05160926282405853	0.0	3.049698795180723
+GSE200997	Plasma	marker-inferred broad lineage	broad_tumor_lineage	ABHD6	2496	16	0.0051039280369877815	0.0	0.6009615384615385
+GSE200997	Plasma	marker-inferred broad lineage	broad_tumor_lineage	ACAT1	2496	16	0.0925193652510643	0.0	12.980769230769232
+GSE200997	Plasma	marker-inferred broad lineage	broad_tumor_lineage	BMP2	2496	16	0.0012747864238917828	0.0	0.08012820512820512
+GSE200997	Plasma	marker-inferred broad lineage	broad_tumor_lineage	FABP4	2496	16	0.0	0.0	0.0
+GSE200997	Plasma	marker-inferred broad lineage	broad_tumor_lineage	FHL1	2496	16	0.03392522782087326	0.0	4.126602564102564
+GSE200997	Plasma	marker-inferred broad lineage	broad_tumor_lineage	INHBA	2496	16	8.633283141534775e-05	0.0	0.04006410256410256
+GSE200997	Plasma	marker-inferred broad lineage	broad_tumor_lineage	PID1	2496	16	0.0018225128296762705	0.0	0.2003205128205128
+GSE200997	Plasma	marker-inferred broad lineage	broad_tumor_lineage	SCD	2496	16	0.0052038151770830154	0.0	0.5208333333333333
+GSE200997	Plasma	marker-inferred broad lineage	broad_tumor_lineage	SCP2	2496	16	0.12523913383483887	0.0	17.98878205128205
+GSE200997	Plasma	marker-inferred broad lineage	broad_tumor_lineage	TIMP1	2496	16	0.39436814188957214	0.0	31.009615384615387
+GSE200997	Plasma	marker-inferred broad lineage	broad_tumor_lineage	UBE2C	2496	16	0.00906338170170784	0.0	1.0817307692307692
+GSE200997	T_cell	marker-inferred broad lineage	broad_tumor_lineage	ABHD6	9147	16	0.020750675350427628	0.0	1.5961517437411175
+GSE200997	T_cell	marker-inferred broad lineage	broad_tumor_lineage	ACAT1	9147	16	0.08345071971416473	0.0	6.668853175904668
+GSE200997	T_cell	marker-inferred broad lineage	broad_tumor_lineage	BMP2	9147	16	0.0001873944711405784	0.0	0.010932546190007653
+GSE200997	T_cell	marker-inferred broad lineage	broad_tumor_lineage	FABP4	9147	16	0.00012618578330148011	0.0	0.010932546190007653
+GSE200997	T_cell	marker-inferred broad lineage	broad_tumor_lineage	FHL1	9147	16	0.056593336164951324	0.0	4.154367552202908
+GSE200997	T_cell	marker-inferred broad lineage	broad_tumor_lineage	INHBA	9147	16	0.0	0.0	0.0
+GSE200997	T_cell	marker-inferred broad lineage	broad_tumor_lineage	PID1	9147	16	0.00046723333070985973	0.0	0.032797638570022956
+GSE200997	T_cell	marker-inferred broad lineage	broad_tumor_lineage	SCD	9147	16	0.006017089821398258	0.0	0.5138296709303597
+GSE200997	T_cell	marker-inferred broad lineage	broad_tumor_lineage	SCP2	9147	16	0.3642612099647522	0.0	24.980868044167487
+GSE200997	T_cell	marker-inferred broad lineage	broad_tumor_lineage	TIMP1	9147	16	0.2961912751197815	0.0	19.503662402973653
+GSE200997	T_cell	marker-inferred broad lineage	broad_tumor_lineage	UBE2C	9147	16	0.023520685732364655	0.0	1.3775008199409644
+GSE200997	Unassigned/low-confidence	marker-inferred broad lineage	broad_tumor_lineage	ABHD6	3448	16	0.019245173782110214	0.0	1.2761020881670533
+GSE200997	Unassigned/low-confidence	marker-inferred broad lineage	broad_tumor_lineage	ACAT1	3448	16	0.0577203631401062	0.0	3.857308584686775
+GSE200997	Unassigned/low-confidence	marker-inferred broad lineage	broad_tumor_lineage	BMP2	3448	16	0.018067779019474983	0.0	0.7540603248259861
+GSE200997	Unassigned/low-confidence	marker-inferred broad lineage	broad_tumor_lineage	FABP4	3448	16	0.0047347345389425755	0.0	0.20301624129930393
+GSE200997	Unassigned/low-confidence	marker-inferred broad lineage	broad_tumor_lineage	FHL1	3448	16	0.06374713033437729	0.0	3.7412993039443156
+GSE200997	Unassigned/low-confidence	marker-inferred broad lineage	broad_tumor_lineage	INHBA	3448	16	0.01621093414723873	0.0	0.6090487238979118
+GSE200997	Unassigned/low-confidence	marker-inferred broad lineage	broad_tumor_lineage	PID1	3448	16	0.014474338851869106	0.0	0.7830626450116009
+GSE200997	Unassigned/low-confidence	marker-inferred broad lineage	broad_tumor_lineage	SCD	3448	16	0.02470536157488823	0.0	1.2761020881670533
+GSE200997	Unassigned/low-confidence	marker-inferred broad lineage	broad_tumor_lineage	SCP2	3448	16	0.22684462368488312	0.0	14.327146171693736
+GSE200997	Unassigned/low-confidence	marker-inferred broad lineage	broad_tumor_lineage	TIMP1	3448	16	0.3282727301120758	0.0	16.15429234338747
+GSE200997	Unassigned/low-confidence	marker-inferred broad lineage	broad_tumor_lineage	UBE2C	3448	16	0.0293925441801548	0.0	1.5081206496519721

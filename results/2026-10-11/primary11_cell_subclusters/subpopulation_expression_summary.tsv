@@ -1,0 +1,177 @@
+cohort	compartment	subtype	subtype_source	population_type	gene	n_cells	n_samples	mean_log1p_10K	median_log1p_10K	pct_cells_detected
+GSE132465	Tumor_epithelial	CMS1	GEO original Cell_type/Cell_subtype	annotated_subpopulation	ABHD6	1201	21	0.02472800947725773	0.0	7.49375520399667
+GSE132465	Tumor_epithelial	CMS1	GEO original Cell_type/Cell_subtype	annotated_subpopulation	ACAT1	1201	21	0.20484600961208344	0.0	36.63613655287261
+GSE132465	Tumor_epithelial	CMS1	GEO original Cell_type/Cell_subtype	annotated_subpopulation	BMP2	1201	21	0.084913469851017	0.0	16.069941715237302
+GSE132465	Tumor_epithelial	CMS1	GEO original Cell_type/Cell_subtype	annotated_subpopulation	FABP4	1201	21	0.003352283500134945	0.0	0.4163197335553705
+GSE132465	Tumor_epithelial	CMS1	GEO original Cell_type/Cell_subtype	annotated_subpopulation	FHL1	1201	21	0.0031553811859339476	0.0	0.9991673605328892
+GSE132465	Tumor_epithelial	CMS1	GEO original Cell_type/Cell_subtype	annotated_subpopulation	INHBA	1201	21	0.019830642268061638	0.0	4.579517069109076
+GSE132465	Tumor_epithelial	CMS1	GEO original Cell_type/Cell_subtype	annotated_subpopulation	PID1	1201	21	0.02384048141539097	0.0	6.244796003330558
+GSE132465	Tumor_epithelial	CMS1	GEO original Cell_type/Cell_subtype	annotated_subpopulation	SCD	1201	21	0.354544073343277	0.0	46.960865945045796
+GSE132465	Tumor_epithelial	CMS1	GEO original Cell_type/Cell_subtype	annotated_subpopulation	SCP2	1201	21	0.7718387246131897	0.8057020902633667	78.51790174854288
+GSE132465	Tumor_epithelial	CMS1	GEO original Cell_type/Cell_subtype	annotated_subpopulation	TIMP1	1201	21	1.9914878606796265	2.088096857070923	91.09075770191507
+GSE132465	Tumor_epithelial	CMS1	GEO original Cell_type/Cell_subtype	annotated_subpopulation	UBE2C	1201	21	0.2893872559070587	0.0	29.80849292256453
+GSE132465	Tumor_epithelial	CMS2	GEO original Cell_type/Cell_subtype	annotated_subpopulation	ABHD6	10771	21	0.03180369734764099	0.0	9.154210379723331
+GSE132465	Tumor_epithelial	CMS2	GEO original Cell_type/Cell_subtype	annotated_subpopulation	ACAT1	10771	21	0.2888295352458954	0.0	49.27119116145205
+GSE132465	Tumor_epithelial	CMS2	GEO original Cell_type/Cell_subtype	annotated_subpopulation	BMP2	10771	21	0.0892685055732727	0.0	18.429115216785814
+GSE132465	Tumor_epithelial	CMS2	GEO original Cell_type/Cell_subtype	annotated_subpopulation	FABP4	10771	21	0.00041149856406264007	0.0	0.08355770123479714
+GSE132465	Tumor_epithelial	CMS2	GEO original Cell_type/Cell_subtype	annotated_subpopulation	FHL1	10771	21	0.0055754464119672775	0.0	1.513322811252437
+GSE132465	Tumor_epithelial	CMS2	GEO original Cell_type/Cell_subtype	annotated_subpopulation	INHBA	10771	21	0.00500696012750268	0.0	1.2812180856002229
+GSE132465	Tumor_epithelial	CMS2	GEO original Cell_type/Cell_subtype	annotated_subpopulation	PID1	10771	21	0.1019802913069725	0.0	21.63216043078637
+GSE132465	Tumor_epithelial	CMS2	GEO original Cell_type/Cell_subtype	annotated_subpopulation	SCD	10771	21	0.6052243113517761	0.4138367772102356	61.72128864543682
+GSE132465	Tumor_epithelial	CMS2	GEO original Cell_type/Cell_subtype	annotated_subpopulation	SCP2	10771	21	0.5712175965309143	0.560399055480957	74.02283910500418
+GSE132465	Tumor_epithelial	CMS2	GEO original Cell_type/Cell_subtype	annotated_subpopulation	TIMP1	10771	21	1.004910945892334	1.055656909942627	80.41036115495311
+GSE132465	Tumor_epithelial	CMS2	GEO original Cell_type/Cell_subtype	annotated_subpopulation	UBE2C	10771	21	0.3576367497444153	0.0	33.74802710983196
+GSE132465	Tumor_epithelial	CMS3	GEO original Cell_type/Cell_subtype	annotated_subpopulation	ABHD6	5486	23	0.022497056052088737	0.0	5.596062705067444
+GSE132465	Tumor_epithelial	CMS3	GEO original Cell_type/Cell_subtype	annotated_subpopulation	ACAT1	5486	23	0.1537427455186844	0.0	28.600072912869123
+GSE132465	Tumor_epithelial	CMS3	GEO original Cell_type/Cell_subtype	annotated_subpopulation	BMP2	5486	23	0.15016084909439087	0.0	22.821728034998177
+GSE132465	Tumor_epithelial	CMS3	GEO original Cell_type/Cell_subtype	annotated_subpopulation	FABP4	5486	23	0.0003028510545846075	0.0	0.03645643456069996
+GSE132465	Tumor_epithelial	CMS3	GEO original Cell_type/Cell_subtype	annotated_subpopulation	FHL1	5486	23	0.003024972975254059	0.0	0.6744440393729494
+GSE132465	Tumor_epithelial	CMS3	GEO original Cell_type/Cell_subtype	annotated_subpopulation	INHBA	5486	23	0.009746977128088474	0.0	2.223842508202698
+GSE132465	Tumor_epithelial	CMS3	GEO original Cell_type/Cell_subtype	annotated_subpopulation	PID1	5486	23	0.03500804677605629	0.0	6.908494349252643
+GSE132465	Tumor_epithelial	CMS3	GEO original Cell_type/Cell_subtype	annotated_subpopulation	SCD	5486	23	0.6107467412948608	0.41475099325180054	57.38242799854174
+GSE132465	Tumor_epithelial	CMS3	GEO original Cell_type/Cell_subtype	annotated_subpopulation	SCP2	5486	23	0.7288596034049988	0.7537503242492676	75.81115566897557
+GSE132465	Tumor_epithelial	CMS3	GEO original Cell_type/Cell_subtype	annotated_subpopulation	TIMP1	5486	23	1.170693278312683	1.1689103841781616	84.36018957345972
+GSE132465	Tumor_epithelial	CMS3	GEO original Cell_type/Cell_subtype	annotated_subpopulation	UBE2C	5486	23	0.15268957614898682	0.0	19.35836675173168
+GSE132465	Tumor_epithelial	CMS4	GEO original Cell_type/Cell_subtype	annotated_subpopulation	ABHD6	11	9	0.0	0.0	0.0
+GSE132465	Tumor_epithelial	CMS4	GEO original Cell_type/Cell_subtype	annotated_subpopulation	ACAT1	11	9	0.16399508714675903	0.0	9.090909090909092
+GSE132465	Tumor_epithelial	CMS4	GEO original Cell_type/Cell_subtype	annotated_subpopulation	BMP2	11	9	0.0	0.0	0.0
+GSE132465	Tumor_epithelial	CMS4	GEO original Cell_type/Cell_subtype	annotated_subpopulation	FABP4	11	9	0.0	0.0	0.0
+GSE132465	Tumor_epithelial	CMS4	GEO original Cell_type/Cell_subtype	annotated_subpopulation	FHL1	11	9	0.0	0.0	0.0
+GSE132465	Tumor_epithelial	CMS4	GEO original Cell_type/Cell_subtype	annotated_subpopulation	INHBA	11	9	0.0	0.0	0.0
+GSE132465	Tumor_epithelial	CMS4	GEO original Cell_type/Cell_subtype	annotated_subpopulation	PID1	11	9	0.0	0.0	0.0
+GSE132465	Tumor_epithelial	CMS4	GEO original Cell_type/Cell_subtype	annotated_subpopulation	SCD	11	9	0.14324980974197388	0.0	9.090909090909092
+GSE132465	Tumor_epithelial	CMS4	GEO original Cell_type/Cell_subtype	annotated_subpopulation	SCP2	11	9	0.5006858706474304	0.0	27.27272727272727
+GSE132465	Tumor_epithelial	CMS4	GEO original Cell_type/Cell_subtype	annotated_subpopulation	TIMP1	11	9	1.2458109855651855	1.8039460182189941	54.54545454545454
+GSE132465	Tumor_epithelial	CMS4	GEO original Cell_type/Cell_subtype	annotated_subpopulation	UBE2C	11	9	0.0	0.0	0.0
+GSE132465	Tumor_fibroblast	Myofibroblasts	GEO original Cell_type/Cell_subtype	annotated_subpopulation	ABHD6	1146	23	0.027791332453489304	0.0	4.799301919720768
+GSE132465	Tumor_fibroblast	Myofibroblasts	GEO original Cell_type/Cell_subtype	annotated_subpopulation	ACAT1	1146	23	0.15105561912059784	0.0	24.694589877835952
+GSE132465	Tumor_fibroblast	Myofibroblasts	GEO original Cell_type/Cell_subtype	annotated_subpopulation	BMP2	1146	23	0.15875984728336334	0.0	19.9825479930192
+GSE132465	Tumor_fibroblast	Myofibroblasts	GEO original Cell_type/Cell_subtype	annotated_subpopulation	FABP4	1146	23	0.01979011483490467	0.0	1.6579406631762654
+GSE132465	Tumor_fibroblast	Myofibroblasts	GEO original Cell_type/Cell_subtype	annotated_subpopulation	FHL1	1146	23	0.29261916875839233	0.0	39.179755671902264
+GSE132465	Tumor_fibroblast	Myofibroblasts	GEO original Cell_type/Cell_subtype	annotated_subpopulation	INHBA	1146	23	1.310937523841858	1.405304193496704	80.0174520069808
+GSE132465	Tumor_fibroblast	Myofibroblasts	GEO original Cell_type/Cell_subtype	annotated_subpopulation	PID1	1146	23	0.1117083728313446	0.0	16.404886561954623
+GSE132465	Tumor_fibroblast	Myofibroblasts	GEO original Cell_type/Cell_subtype	annotated_subpopulation	SCD	1146	23	0.08481180667877197	0.0	14.31064572425829
+GSE132465	Tumor_fibroblast	Myofibroblasts	GEO original Cell_type/Cell_subtype	annotated_subpopulation	SCP2	1146	23	0.7381552457809448	0.7999125719070435	71.11692844677138
+GSE132465	Tumor_fibroblast	Myofibroblasts	GEO original Cell_type/Cell_subtype	annotated_subpopulation	TIMP1	1146	23	3.2293567657470703	3.139108657836914	99.21465968586386
+GSE132465	Tumor_fibroblast	Myofibroblasts	GEO original Cell_type/Cell_subtype	annotated_subpopulation	UBE2C	1146	23	0.07332447171211243	0.0	7.329842931937172
+GSE132465	Tumor_fibroblast	Stromal 1	GEO original Cell_type/Cell_subtype	annotated_subpopulation	ABHD6	73	16	0.033855777233839035	0.0	6.8493150684931505
+GSE132465	Tumor_fibroblast	Stromal 1	GEO original Cell_type/Cell_subtype	annotated_subpopulation	ACAT1	73	16	0.13685114681720734	0.0	20.54794520547945
+GSE132465	Tumor_fibroblast	Stromal 1	GEO original Cell_type/Cell_subtype	annotated_subpopulation	BMP2	73	16	0.08617376536130905	0.0	9.58904109589041
+GSE132465	Tumor_fibroblast	Stromal 1	GEO original Cell_type/Cell_subtype	annotated_subpopulation	FABP4	73	16	0.11068425327539444	0.0	8.21917808219178
+GSE132465	Tumor_fibroblast	Stromal 1	GEO original Cell_type/Cell_subtype	annotated_subpopulation	FHL1	73	16	0.48245927691459656	0.0	43.83561643835616
+GSE132465	Tumor_fibroblast	Stromal 1	GEO original Cell_type/Cell_subtype	annotated_subpopulation	INHBA	73	16	0.4897116422653198	0.0	42.465753424657535
+GSE132465	Tumor_fibroblast	Stromal 1	GEO original Cell_type/Cell_subtype	annotated_subpopulation	PID1	73	16	0.14109934866428375	0.0	17.80821917808219
+GSE132465	Tumor_fibroblast	Stromal 1	GEO original Cell_type/Cell_subtype	annotated_subpopulation	SCD	73	16	0.12381397932767868	0.0	16.43835616438356
+GSE132465	Tumor_fibroblast	Stromal 1	GEO original Cell_type/Cell_subtype	annotated_subpopulation	SCP2	73	16	0.5794998407363892	0.6308451890945435	57.534246575342465
+GSE132465	Tumor_fibroblast	Stromal 1	GEO original Cell_type/Cell_subtype	annotated_subpopulation	TIMP1	73	16	3.0316357612609863	3.0133492946624756	97.26027397260275
+GSE132465	Tumor_fibroblast	Stromal 1	GEO original Cell_type/Cell_subtype	annotated_subpopulation	UBE2C	73	16	0.04136526584625244	0.0	6.8493150684931505
+GSE132465	Tumor_fibroblast	Stromal 2	GEO original Cell_type/Cell_subtype	annotated_subpopulation	ABHD6	158	19	0.0019569487776607275	0.0	0.6329113924050633
+GSE132465	Tumor_fibroblast	Stromal 2	GEO original Cell_type/Cell_subtype	annotated_subpopulation	ACAT1	158	19	0.19137059152126312	0.0	25.949367088607595
+GSE132465	Tumor_fibroblast	Stromal 2	GEO original Cell_type/Cell_subtype	annotated_subpopulation	BMP2	158	19	0.26112258434295654	0.0	26.582278481012654
+GSE132465	Tumor_fibroblast	Stromal 2	GEO original Cell_type/Cell_subtype	annotated_subpopulation	FABP4	158	19	0.1257687509059906	0.0	11.39240506329114
+GSE132465	Tumor_fibroblast	Stromal 2	GEO original Cell_type/Cell_subtype	annotated_subpopulation	FHL1	158	19	0.710074245929718	0.7459654808044434	66.45569620253164
+GSE132465	Tumor_fibroblast	Stromal 2	GEO original Cell_type/Cell_subtype	annotated_subpopulation	INHBA	158	19	0.9029369354248047	0.960362434387207	63.29113924050633
+GSE132465	Tumor_fibroblast	Stromal 2	GEO original Cell_type/Cell_subtype	annotated_subpopulation	PID1	158	19	0.07772630453109741	0.0	12.658227848101266
+GSE132465	Tumor_fibroblast	Stromal 2	GEO original Cell_type/Cell_subtype	annotated_subpopulation	SCD	158	19	0.09894774109125137	0.0	15.18987341772152
+GSE132465	Tumor_fibroblast	Stromal 2	GEO original Cell_type/Cell_subtype	annotated_subpopulation	SCP2	158	19	0.7849603295326233	0.8638952374458313	67.08860759493672
+GSE132465	Tumor_fibroblast	Stromal 2	GEO original Cell_type/Cell_subtype	annotated_subpopulation	TIMP1	158	19	3.393214702606201	3.492863178253174	98.73417721518987
+GSE132465	Tumor_fibroblast	Stromal 2	GEO original Cell_type/Cell_subtype	annotated_subpopulation	UBE2C	158	19	0.036754753440618515	0.0	6.329113924050633
+GSE132465	Tumor_fibroblast	Stromal 3	GEO original Cell_type/Cell_subtype	annotated_subpopulation	ABHD6	124	10	0.00986978318542242	0.0	2.4193548387096775
+GSE132465	Tumor_fibroblast	Stromal 3	GEO original Cell_type/Cell_subtype	annotated_subpopulation	ACAT1	124	10	0.23447147011756897	0.0	36.29032258064516
+GSE132465	Tumor_fibroblast	Stromal 3	GEO original Cell_type/Cell_subtype	annotated_subpopulation	BMP2	124	10	0.39498111605644226	0.0	43.54838709677419
+GSE132465	Tumor_fibroblast	Stromal 3	GEO original Cell_type/Cell_subtype	annotated_subpopulation	FABP4	124	10	0.007162454538047314	0.0	0.8064516129032258
+GSE132465	Tumor_fibroblast	Stromal 3	GEO original Cell_type/Cell_subtype	annotated_subpopulation	FHL1	124	10	0.2329900711774826	0.0	25.806451612903224
+GSE132465	Tumor_fibroblast	Stromal 3	GEO original Cell_type/Cell_subtype	annotated_subpopulation	INHBA	124	10	1.3350871801376343	1.201159954071045	70.96774193548387
+GSE132465	Tumor_fibroblast	Stromal 3	GEO original Cell_type/Cell_subtype	annotated_subpopulation	PID1	124	10	0.13835592567920685	0.0	18.548387096774192
+GSE132465	Tumor_fibroblast	Stromal 3	GEO original Cell_type/Cell_subtype	annotated_subpopulation	SCD	124	10	0.02295411005616188	0.0	4.838709677419355
+GSE132465	Tumor_fibroblast	Stromal 3	GEO original Cell_type/Cell_subtype	annotated_subpopulation	SCP2	124	10	0.668350875377655	0.6866859197616577	76.61290322580645
+GSE132465	Tumor_fibroblast	Stromal 3	GEO original Cell_type/Cell_subtype	annotated_subpopulation	TIMP1	124	10	3.976628541946411	3.9993247985839844	100.0
+GSE132465	Tumor_fibroblast	Stromal 3	GEO original Cell_type/Cell_subtype	annotated_subpopulation	UBE2C	124	10	0.015378030948340893	0.0	2.4193548387096775
+GSE200997	Tumor_epithelial	CMS1	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	ABHD6	440	13	0.029366863891482353	0.0	3.4090909090909087
+GSE200997	Tumor_epithelial	CMS1	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	ACAT1	440	13	0.07598216086626053	0.0	6.8181818181818175
+GSE200997	Tumor_epithelial	CMS1	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	BMP2	440	13	0.059895314276218414	0.0	3.6363636363636362
+GSE200997	Tumor_epithelial	CMS1	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	FABP4	440	13	0.0	0.0	0.0
+GSE200997	Tumor_epithelial	CMS1	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	FHL1	440	13	0.01074474211782217	0.0	0.6818181818181818
+GSE200997	Tumor_epithelial	CMS1	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	INHBA	440	13	0.0047463285736739635	0.0	0.45454545454545453
+GSE200997	Tumor_epithelial	CMS1	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	PID1	440	13	0.04187697917222977	0.0	3.4090909090909087
+GSE200997	Tumor_epithelial	CMS1	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	SCD	440	13	0.2756809592247009	0.0	19.318181818181817
+GSE200997	Tumor_epithelial	CMS1	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	SCP2	440	13	0.34760963916778564	0.0	27.954545454545453
+GSE200997	Tumor_epithelial	CMS1	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	TIMP1	440	13	0.6237314939498901	0.0	33.409090909090914
+GSE200997	Tumor_epithelial	CMS1	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	UBE2C	440	13	0.09014956653118134	0.0	5.909090909090909
+GSE200997	Tumor_epithelial	CMS2	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	ABHD6	2488	15	0.025296339765191078	0.0	2.7331189710610935
+GSE200997	Tumor_epithelial	CMS2	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	ACAT1	2488	15	0.10687102377414703	0.0	10.2491961414791
+GSE200997	Tumor_epithelial	CMS2	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	BMP2	2488	15	0.050940919667482376	0.0	3.9790996784565915
+GSE200997	Tumor_epithelial	CMS2	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	FABP4	2488	15	0.0	0.0	0.0
+GSE200997	Tumor_epithelial	CMS2	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	FHL1	2488	15	0.0025160692166537046	0.0	0.28135048231511256
+GSE200997	Tumor_epithelial	CMS2	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	INHBA	2488	15	0.0053474088199436665	0.0	0.28135048231511256
+GSE200997	Tumor_epithelial	CMS2	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	PID1	2488	15	0.06144542619585991	0.0	5.908360128617363
+GSE200997	Tumor_epithelial	CMS2	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	SCD	2488	15	0.22197726368904114	0.0	17.926045016077172
+GSE200997	Tumor_epithelial	CMS2	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	SCP2	2488	15	0.3126438856124878	0.0	25.643086816720256
+GSE200997	Tumor_epithelial	CMS2	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	TIMP1	2488	15	0.47076091170310974	0.0	33.440514469453376
+GSE200997	Tumor_epithelial	CMS2	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	UBE2C	2488	15	0.14319874346256256	0.0	8.762057877813504
+GSE200997	Tumor_epithelial	CMS3	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	ABHD6	3552	15	0.02560577355325222	0.0	2.336711711711712
+GSE200997	Tumor_epithelial	CMS3	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	ACAT1	3552	15	0.09924833476543427	0.0	9.29054054054054
+GSE200997	Tumor_epithelial	CMS3	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	BMP2	3552	15	0.09410960972309113	0.0	6.3907657657657655
+GSE200997	Tumor_epithelial	CMS3	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	FABP4	3552	15	0.0	0.0	0.0
+GSE200997	Tumor_epithelial	CMS3	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	FHL1	3552	15	0.00804759282618761	0.0	0.5349099099099099
+GSE200997	Tumor_epithelial	CMS3	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	INHBA	3552	15	0.0012310155434533954	0.0	0.11261261261261261
+GSE200997	Tumor_epithelial	CMS3	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	PID1	3552	15	0.08156900107860565	0.0	6.447072072072071
+GSE200997	Tumor_epithelial	CMS3	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	SCD	3552	15	0.25828495621681213	0.0	17.39864864864865
+GSE200997	Tumor_epithelial	CMS3	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	SCP2	3552	15	0.3911592960357666	0.0	28.77252252252252
+GSE200997	Tumor_epithelial	CMS3	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	TIMP1	3552	15	0.5761256217956543	0.0	34.96621621621622
+GSE200997	Tumor_epithelial	CMS3	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	UBE2C	3552	15	0.10087918490171432	0.0	6.672297297297297
+GSE200997	Tumor_epithelial	CMS4	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	ABHD6	93	12	0.0505731962621212	0.0	5.376344086021505
+GSE200997	Tumor_epithelial	CMS4	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	ACAT1	93	12	0.036354757845401764	0.0	2.1505376344086025
+GSE200997	Tumor_epithelial	CMS4	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	BMP2	93	12	0.07527945935726166	0.0	4.301075268817205
+GSE200997	Tumor_epithelial	CMS4	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	FABP4	93	12	0.0	0.0	0.0
+GSE200997	Tumor_epithelial	CMS4	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	FHL1	93	12	0.03637981787323952	0.0	2.1505376344086025
+GSE200997	Tumor_epithelial	CMS4	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	INHBA	93	12	0.04626360163092613	0.0	3.225806451612903
+GSE200997	Tumor_epithelial	CMS4	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	PID1	93	12	0.0385095477104187	0.0	4.301075268817205
+GSE200997	Tumor_epithelial	CMS4	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	SCD	93	12	0.20126815140247345	0.0	13.978494623655912
+GSE200997	Tumor_epithelial	CMS4	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	SCP2	93	12	0.20491737127304077	0.0	17.20430107526882
+GSE200997	Tumor_epithelial	CMS4	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	TIMP1	93	12	0.8051712512969971	0.0	45.16129032258064
+GSE200997	Tumor_epithelial	CMS4	GEO per-cell CMS prediction + marker-inferred epithelial lineage	annotated_subpopulation	UBE2C	93	12	0.12087603658437729	0.0	7.526881720430108
+GSE200997	Tumor_fibroblast	ECM_CAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	ABHD6	184	10	0.03732963651418686	0.0	3.260869565217391
+GSE200997	Tumor_fibroblast	ECM_CAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	ACAT1	184	10	0.15761056542396545	0.0	12.5
+GSE200997	Tumor_fibroblast	ECM_CAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	BMP2	184	10	0.21461889147758484	0.0	14.130434782608695
+GSE200997	Tumor_fibroblast	ECM_CAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	FABP4	184	10	0.07307131588459015	0.0	3.804347826086957
+GSE200997	Tumor_fibroblast	ECM_CAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	FHL1	184	10	0.5410267114639282	0.0	35.869565217391305
+GSE200997	Tumor_fibroblast	ECM_CAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	INHBA	184	10	0.9465427398681641	0.0	47.28260869565217
+GSE200997	Tumor_fibroblast	ECM_CAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	PID1	184	10	0.08551327884197235	0.0	5.434782608695652
+GSE200997	Tumor_fibroblast	ECM_CAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	SCD	184	10	0.07577970623970032	0.0	4.891304347826087
+GSE200997	Tumor_fibroblast	ECM_CAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	SCP2	184	10	0.3669143319129944	0.0	27.717391304347828
+GSE200997	Tumor_fibroblast	ECM_CAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	TIMP1	184	10	2.7806055545806885	3.053722381591797	84.23913043478261
+GSE200997	Tumor_fibroblast	ECM_CAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	UBE2C	184	10	0.01511740405112505	0.0	1.0869565217391304
+GSE200997	Tumor_fibroblast	apCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	ABHD6	78	12	0.011896627955138683	0.0	1.282051282051282
+GSE200997	Tumor_fibroblast	apCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	ACAT1	78	12	0.2180609405040741	0.0	16.666666666666664
+GSE200997	Tumor_fibroblast	apCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	BMP2	78	12	0.04075388237833977	0.0	2.564102564102564
+GSE200997	Tumor_fibroblast	apCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	FABP4	78	12	0.062389228492975235	0.0	3.8461538461538463
+GSE200997	Tumor_fibroblast	apCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	FHL1	78	12	0.6578645706176758	0.0	39.743589743589745
+GSE200997	Tumor_fibroblast	apCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	INHBA	78	12	0.2923131287097931	0.0	16.666666666666664
+GSE200997	Tumor_fibroblast	apCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	PID1	78	12	0.08841267228126526	0.0	5.128205128205128
+GSE200997	Tumor_fibroblast	apCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	SCD	78	12	0.04304894432425499	0.0	1.282051282051282
+GSE200997	Tumor_fibroblast	apCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	SCP2	78	12	0.3144759237766266	0.0	24.358974358974358
+GSE200997	Tumor_fibroblast	apCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	TIMP1	78	12	2.5959231853485107	2.8649988174438477	82.05128205128204
+GSE200997	Tumor_fibroblast	apCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	UBE2C	78	12	0.07298053801059723	0.0	5.128205128205128
+GSE200997	Tumor_fibroblast	iCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	ABHD6	126	12	0.021434301510453224	0.0	2.380952380952381
+GSE200997	Tumor_fibroblast	iCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	ACAT1	126	12	0.07549411803483963	0.0	6.349206349206349
+GSE200997	Tumor_fibroblast	iCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	BMP2	126	12	0.10001539438962936	0.0	7.936507936507936
+GSE200997	Tumor_fibroblast	iCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	FABP4	126	12	0.15799763798713684	0.0	9.523809523809524
+GSE200997	Tumor_fibroblast	iCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	FHL1	126	12	0.7562823295593262	0.0	41.269841269841265
+GSE200997	Tumor_fibroblast	iCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	INHBA	126	12	0.3164225220680237	0.0	17.46031746031746
+GSE200997	Tumor_fibroblast	iCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	PID1	126	12	0.19809727370738983	0.0	11.904761904761903
+GSE200997	Tumor_fibroblast	iCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	SCD	126	12	0.036536362022161484	0.0	3.1746031746031744
+GSE200997	Tumor_fibroblast	iCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	SCP2	126	12	0.3959910571575165	0.0	25.396825396825395
+GSE200997	Tumor_fibroblast	iCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	TIMP1	126	12	2.7943227291107178	2.9078521728515625	88.09523809523809
+GSE200997	Tumor_fibroblast	iCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	UBE2C	126	12	0.012308591976761818	0.0	0.7936507936507936
+GSE200997	Tumor_fibroblast	myCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	ABHD6	177	12	0.0	0.0	0.0
+GSE200997	Tumor_fibroblast	myCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	ACAT1	177	12	0.17353665828704834	0.0	15.819209039548024
+GSE200997	Tumor_fibroblast	myCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	BMP2	177	12	0.08141560852527618	0.0	4.519774011299435
+GSE200997	Tumor_fibroblast	myCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	FABP4	177	12	0.05832228064537048	0.0	5.084745762711865
+GSE200997	Tumor_fibroblast	myCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	FHL1	177	12	0.8453927040100098	0.0	49.152542372881356
+GSE200997	Tumor_fibroblast	myCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	INHBA	177	12	0.5996592044830322	0.0	34.463276836158194
+GSE200997	Tumor_fibroblast	myCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	PID1	177	12	0.01891564577817917	0.0	1.694915254237288
+GSE200997	Tumor_fibroblast	myCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	SCD	177	12	0.058683138340711594	0.0	4.519774011299435
+GSE200997	Tumor_fibroblast	myCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	SCP2	177	12	0.5314434766769409	0.0	38.4180790960452
+GSE200997	Tumor_fibroblast	myCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	TIMP1	177	12	2.783078670501709	2.9810791015625	88.70056497175142
+GSE200997	Tumor_fibroblast	myCAF	Marker-inferred fibroblast lineage; CAF program assigned by module score	annotated_subpopulation	UBE2C	177	12	0.0036716999020427465	0.0	0.5649717514124294
