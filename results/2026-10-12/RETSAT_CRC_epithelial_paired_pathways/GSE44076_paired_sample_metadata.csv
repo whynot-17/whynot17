@@ -1,0 +1,197 @@
+sample,title,patient,condition,metadata_text
+GSM1077648,Normal paired sample from A2004 patient,A2004,Normal,Normal paired sample from A2004 patient | age: 66
+GSM1077746,Tumor sample from A2004 patient,A2004,Tumor,Tumor sample from A2004 patient | age: 66
+GSM1077649,Normal paired sample from A2027 patient,A2027,Normal,Normal paired sample from A2027 patient | age: 51
+GSM1077747,Tumor sample from A2027 patient,A2027,Tumor,Tumor sample from A2027 patient | age: 51
+GSM1077650,Normal paired sample from A2050 patient,A2050,Normal,Normal paired sample from A2050 patient | age: 60
+GSM1077748,Tumor sample from A2050 patient,A2050,Tumor,Tumor sample from A2050 patient | age: 60
+GSM1077651,Normal paired sample from A2096 patient,A2096,Normal,Normal paired sample from A2096 patient | age: 85
+GSM1077749,Tumor sample from A2096 patient,A2096,Tumor,Tumor sample from A2096 patient | age: 85
+GSM1077652,Normal paired sample from B2012 patient,B2012,Normal,Normal paired sample from B2012 patient | age: 68
+GSM1077750,Tumor sample from B2012 patient,B2012,Tumor,Tumor sample from B2012 patient | age: 68
+GSM1077653,Normal paired sample from B2035 patient,B2035,Normal,Normal paired sample from B2035 patient | age: 68
+GSM1077751,Tumor sample from B2035 patient,B2035,Tumor,Tumor sample from B2035 patient | age: 68
+GSM1077654,Normal paired sample from B2058 patient,B2058,Normal,Normal paired sample from B2058 patient | age: 67
+GSM1077752,Tumor sample from B2058 patient,B2058,Tumor,Tumor sample from B2058 patient | age: 67
+GSM1077655,Normal paired sample from B2081 patient,B2081,Normal,Normal paired sample from B2081 patient | age: 79
+GSM1077753,Tumor sample from B2081 patient,B2081,Tumor,Tumor sample from B2081 patient | age: 79
+GSM1077656,Normal paired sample from C2021 patient,C2021,Normal,Normal paired sample from C2021 patient | age: 73
+GSM1077754,Tumor sample from C2021 patient,C2021,Tumor,Tumor sample from C2021 patient | age: 73
+GSM1077657,Normal paired sample from C2044 patient,C2044,Normal,Normal paired sample from C2044 patient | age: 59
+GSM1077755,Tumor sample from C2044 patient,C2044,Tumor,Tumor sample from C2044 patient | age: 59
+GSM1077658,Normal paired sample from C2067 patient,C2067,Normal,Normal paired sample from C2067 patient | age: 83
+GSM1077756,Tumor sample from C2067 patient,C2067,Tumor,Tumor sample from C2067 patient | age: 83
+GSM1077659,Normal paired sample from C2090 patient,C2090,Normal,Normal paired sample from C2090 patient | age: 70
+GSM1077757,Tumor sample from C2090 patient,C2090,Tumor,Tumor sample from C2090 patient | age: 70
+GSM1077660,Normal paired sample from D2010 patient,D2010,Normal,Normal paired sample from D2010 patient | age: 66
+GSM1077758,Tumor sample from D2010 patient,D2010,Tumor,Tumor sample from D2010 patient | age: 66
+GSM1077661,Normal paired sample from D2033 patient,D2033,Normal,Normal paired sample from D2033 patient | age: 70
+GSM1077759,Tumor sample from D2033 patient,D2033,Tumor,Tumor sample from D2033 patient | age: 70
+GSM1077662,Normal paired sample from D2056 patient,D2056,Normal,Normal paired sample from D2056 patient | age: 72
+GSM1077760,Tumor sample from D2056 patient,D2056,Tumor,Tumor sample from D2056 patient | age: 72
+GSM1077663,Normal paired sample from D2079 patient,D2079,Normal,Normal paired sample from D2079 patient | age: 78
+GSM1077761,Tumor sample from D2079 patient,D2079,Tumor,Tumor sample from D2079 patient | age: 78
+GSM1077664,Normal paired sample from E2023 patient,E2023,Normal,Normal paired sample from E2023 patient | age: 76
+GSM1077762,Tumor sample from E2023 patient,E2023,Tumor,Tumor sample from E2023 patient | age: 76
+GSM1077665,Normal paired sample from E2046 patient,E2046,Normal,Normal paired sample from E2046 patient | age: 64
+GSM1077763,Tumor sample from E2046 patient,E2046,Tumor,Tumor sample from E2046 patient | age: 64
+GSM1077666,Normal paired sample from E2069 patient,E2069,Normal,Normal paired sample from E2069 patient | age: 57
+GSM1077764,Tumor sample from E2069 patient,E2069,Tumor,Tumor sample from E2069 patient | age: 57
+GSM1077667,Normal paired sample from E2092 patient,E2092,Normal,Normal paired sample from E2092 patient | age: 76
+GSM1077765,Tumor sample from E2092 patient,E2092,Tumor,Tumor sample from E2092 patient | age: 76
+GSM1077668,Normal paired sample from F2008 patient,F2008,Normal,Normal paired sample from F2008 patient | age: 55
+GSM1077766,Tumor sample from F2008 patient,F2008,Tumor,Tumor sample from F2008 patient | age: 55
+GSM1077669,Normal paired sample from F2031 patient,F2031,Normal,Normal paired sample from F2031 patient | age: 78
+GSM1077767,Tumor sample from F2031 patient,F2031,Tumor,Tumor sample from F2031 patient | age: 78
+GSM1077670,Normal paired sample from F2054 patient,F2054,Normal,Normal paired sample from F2054 patient | age: 82
+GSM1077768,Tumor sample from F2054 patient,F2054,Tumor,Tumor sample from F2054 patient | age: 82
+GSM1077671,Normal paired sample from F2077 patient,F2077,Normal,Normal paired sample from F2077 patient | age: 69
+GSM1077769,Tumor sample from F2077 patient,F2077,Tumor,Tumor sample from F2077 patient | age: 69
+GSM1077672,Normal paired sample from F2100 patient,F2100,Normal,Normal paired sample from F2100 patient | age: 79
+GSM1077770,Tumor sample from F2100 patient,F2100,Tumor,Tumor sample from F2100 patient | age: 79
+GSM1077673,Normal paired sample from G2005 patient,G2005,Normal,Normal paired sample from G2005 patient | age: 86
+GSM1077771,Tumor sample from G2005 patient,G2005,Tumor,Tumor sample from G2005 patient | age: 86
+GSM1077674,Normal paired sample from G2028 patient,G2028,Normal,Normal paired sample from G2028 patient | age: 85
+GSM1077772,Tumor sample from G2028 patient,G2028,Tumor,Tumor sample from G2028 patient | age: 85
+GSM1077675,Normal paired sample from G2051 patient,G2051,Normal,Normal paired sample from G2051 patient | age: 64
+GSM1077773,Tumor sample from G2051 patient,G2051,Tumor,Tumor sample from G2051 patient | age: 64
+GSM1077676,Normal paired sample from G2074 patient,G2074,Normal,Normal paired sample from G2074 patient | age: 87
+GSM1077774,Tumor sample from G2074 patient,G2074,Tumor,Tumor sample from G2074 patient | age: 87
+GSM1077677,Normal paired sample from G2097 patient,G2097,Normal,Normal paired sample from G2097 patient | age: 73
+GSM1077775,Tumor sample from G2097 patient,G2097,Tumor,Tumor sample from G2097 patient | age: 73
+GSM1077678,Normal paired sample from H2019 patient,H2019,Normal,Normal paired sample from H2019 patient | age: 73
+GSM1077776,Tumor sample from H2019 patient,H2019,Tumor,Tumor sample from H2019 patient | age: 73
+GSM1077679,Normal paired sample from H2042 patient,H2042,Normal,Normal paired sample from H2042 patient | age: 75
+GSM1077777,Tumor sample from H2042 patient,H2042,Tumor,Tumor sample from H2042 patient | age: 75
+GSM1077680,Normal paired sample from H2065 patient,H2065,Normal,Normal paired sample from H2065 patient | age: 56
+GSM1077778,Tumor sample from H2065 patient,H2065,Tumor,Tumor sample from H2065 patient | age: 56
+GSM1077681,Normal paired sample from H2088 patient,H2088,Normal,Normal paired sample from H2088 patient | age: 60
+GSM1077779,Tumor sample from H2088 patient,H2088,Tumor,Tumor sample from H2088 patient | age: 60
+GSM1077682,Normal paired sample from J2014 patient,J2014,Normal,Normal paired sample from J2014 patient | age: 68
+GSM1077780,Tumor sample from J2014 patient,J2014,Tumor,Tumor sample from J2014 patient | age: 68
+GSM1077683,Normal paired sample from J2037 patient,J2037,Normal,Normal paired sample from J2037 patient | age: 43
+GSM1077781,Tumor sample from J2037 patient,J2037,Tumor,Tumor sample from J2037 patient | age: 43
+GSM1077684,Normal paired sample from J2060 patient,J2060,Normal,Normal paired sample from J2060 patient | age: 79
+GSM1077782,Tumor sample from J2060 patient,J2060,Tumor,Tumor sample from J2060 patient | age: 79
+GSM1077685,Normal paired sample from J2083 patient,J2083,Normal,Normal paired sample from J2083 patient | age: 62
+GSM1077783,Tumor sample from J2083 patient,J2083,Tumor,Tumor sample from J2083 patient | age: 62
+GSM1077686,Normal paired sample from K2022 patient,K2022,Normal,Normal paired sample from K2022 patient | age: 70
+GSM1077784,Tumor sample from K2022 patient,K2022,Tumor,Tumor sample from K2022 patient | age: 70
+GSM1077687,Normal paired sample from K2045 patient,K2045,Normal,Normal paired sample from K2045 patient | age: 80
+GSM1077785,Tumor sample from K2045 patient,K2045,Tumor,Tumor sample from K2045 patient | age: 80
+GSM1077688,Normal paired sample from K2068 patient,K2068,Normal,Normal paired sample from K2068 patient | age: 70
+GSM1077786,Tumor sample from K2068 patient,K2068,Tumor,Tumor sample from K2068 patient | age: 70
+GSM1077689,Normal paired sample from K2091 patient,K2091,Normal,Normal paired sample from K2091 patient | age: 49
+GSM1077787,Tumor sample from K2091 patient,K2091,Tumor,Tumor sample from K2091 patient | age: 49
+GSM1077690,Normal paired sample from L2020 patient,L2020,Normal,Normal paired sample from L2020 patient | age: 66
+GSM1077788,Tumor sample from L2020 patient,L2020,Tumor,Tumor sample from L2020 patient | age: 66
+GSM1077691,Normal paired sample from L2043 patient,L2043,Normal,Normal paired sample from L2043 patient | age: 70
+GSM1077789,Tumor sample from L2043 patient,L2043,Tumor,Tumor sample from L2043 patient | age: 70
+GSM1077692,Normal paired sample from L2066 patient,L2066,Normal,Normal paired sample from L2066 patient | age: 76
+GSM1077790,Tumor sample from L2066 patient,L2066,Tumor,Tumor sample from L2066 patient | age: 76
+GSM1077693,Normal paired sample from L2089 patient,L2089,Normal,Normal paired sample from L2089 patient | age: 83
+GSM1077791,Tumor sample from L2089 patient,L2089,Tumor,Tumor sample from L2089 patient | age: 83
+GSM1077694,Normal paired sample from M2006 patient,M2006,Normal,Normal paired sample from M2006 patient | age: 58
+GSM1077792,Tumor sample from M2006 patient,M2006,Tumor,Tumor sample from M2006 patient | age: 58
+GSM1077695,Normal paired sample from M2029 patient,M2029,Normal,Normal paired sample from M2029 patient | age: 67
+GSM1077793,Tumor sample from M2029 patient,M2029,Tumor,Tumor sample from M2029 patient | age: 67
+GSM1077696,Normal paired sample from M2052 patient,M2052,Normal,Normal paired sample from M2052 patient | age: 71
+GSM1077794,Tumor sample from M2052 patient,M2052,Tumor,Tumor sample from M2052 patient | age: 71
+GSM1077697,Normal paired sample from M2075 patient,M2075,Normal,Normal paired sample from M2075 patient | age: 79
+GSM1077795,Tumor sample from M2075 patient,M2075,Tumor,Tumor sample from M2075 patient | age: 79
+GSM1077698,Normal paired sample from M2098 patient,M2098,Normal,Normal paired sample from M2098 patient | age: 68
+GSM1077796,Tumor sample from M2098 patient,M2098,Tumor,Tumor sample from M2098 patient | age: 68
+GSM1077699,Normal paired sample from N2013 patient,N2013,Normal,Normal paired sample from N2013 patient | age: 65
+GSM1077797,Tumor sample from N2013 patient,N2013,Tumor,Tumor sample from N2013 patient | age: 65
+GSM1077700,Normal paired sample from N2036 patient,N2036,Normal,Normal paired sample from N2036 patient | age: 65
+GSM1077798,Tumor sample from N2036 patient,N2036,Tumor,Tumor sample from N2036 patient | age: 65
+GSM1077701,Normal paired sample from N2059 patient,N2059,Normal,Normal paired sample from N2059 patient | age: 74
+GSM1077799,Tumor sample from N2059 patient,N2059,Tumor,Tumor sample from N2059 patient | age: 74
+GSM1077702,Normal paired sample from N2082 patient,N2082,Normal,Normal paired sample from N2082 patient | age: 73
+GSM1077800,Tumor sample from N2082 patient,N2082,Tumor,Tumor sample from N2082 patient | age: 73
+GSM1077703,Normal paired sample from P2009 patient,P2009,Normal,Normal paired sample from P2009 patient | age: 62
+GSM1077801,Tumor sample from P2009 patient,P2009,Tumor,Tumor sample from P2009 patient | age: 62
+GSM1077704,Normal paired sample from P2032 patient,P2032,Normal,Normal paired sample from P2032 patient | age: 67
+GSM1077802,Tumor sample from P2032 patient,P2032,Tumor,Tumor sample from P2032 patient | age: 67
+GSM1077705,Normal paired sample from P2055 patient,P2055,Normal,Normal paired sample from P2055 patient | age: 57
+GSM1077803,Tumor sample from P2055 patient,P2055,Tumor,Tumor sample from P2055 patient | age: 57
+GSM1077706,Normal paired sample from P2078 patient,P2078,Normal,Normal paired sample from P2078 patient | age: 75
+GSM1077804,Tumor sample from P2078 patient,P2078,Tumor,Tumor sample from P2078 patient | age: 75
+GSM1077707,Normal paired sample from Q2017 patient,Q2017,Normal,Normal paired sample from Q2017 patient | age: 74
+GSM1077805,Tumor sample from Q2017 patient,Q2017,Tumor,Tumor sample from Q2017 patient | age: 74
+GSM1077708,Normal paired sample from Q2040 patient,Q2040,Normal,Normal paired sample from Q2040 patient | age: 75
+GSM1077806,Tumor sample from Q2040 patient,Q2040,Tumor,Tumor sample from Q2040 patient | age: 75
+GSM1077709,Normal paired sample from Q2063 patient,Q2063,Normal,Normal paired sample from Q2063 patient | age: 74
+GSM1077807,Tumor sample from Q2063 patient,Q2063,Tumor,Tumor sample from Q2063 patient | age: 74
+GSM1077710,Normal paired sample from Q2086 patient,Q2086,Normal,Normal paired sample from Q2086 patient | age: 83
+GSM1077808,Tumor sample from Q2086 patient,Q2086,Tumor,Tumor sample from Q2086 patient | age: 83
+GSM1077711,Normal paired sample from R2002 patient,R2002,Normal,Normal paired sample from R2002 patient | age: 84
+GSM1077809,Tumor sample from R2002 patient,R2002,Tumor,Tumor sample from R2002 patient | age: 84
+GSM1077712,Normal paired sample from R2025 patient,R2025,Normal,Normal paired sample from R2025 patient | age: 73
+GSM1077810,Tumor sample from R2025 patient,R2025,Tumor,Tumor sample from R2025 patient | age: 73
+GSM1077713,Normal paired sample from R2048 patient,R2048,Normal,Normal paired sample from R2048 patient | age: 73
+GSM1077811,Tumor sample from R2048 patient,R2048,Tumor,Tumor sample from R2048 patient | age: 73
+GSM1077714,Normal paired sample from R2071 patient,R2071,Normal,Normal paired sample from R2071 patient | age: 76
+GSM1077812,Tumor sample from R2071 patient,R2071,Tumor,Tumor sample from R2071 patient | age: 76
+GSM1077715,Normal paired sample from R2094 patient,R2094,Normal,Normal paired sample from R2094 patient | age: 61
+GSM1077813,Tumor sample from R2094 patient,R2094,Tumor,Tumor sample from R2094 patient | age: 61
+GSM1077716,Normal paired sample from S2016 patient,S2016,Normal,Normal paired sample from S2016 patient | age: 78
+GSM1077814,Tumor sample from S2016 patient,S2016,Tumor,Tumor sample from S2016 patient | age: 78
+GSM1077717,Normal paired sample from S2039 patient,S2039,Normal,Normal paired sample from S2039 patient | age: 78
+GSM1077815,Tumor sample from S2039 patient,S2039,Tumor,Tumor sample from S2039 patient | age: 78
+GSM1077718,Normal paired sample from S2062 patient,S2062,Normal,Normal paired sample from S2062 patient | age: 70
+GSM1077816,Tumor sample from S2062 patient,S2062,Tumor,Tumor sample from S2062 patient | age: 70
+GSM1077719,Normal paired sample from T2001 patient,T2001,Normal,Normal paired sample from T2001 patient | age: 79
+GSM1077817,Tumor sample from T2001 patient,T2001,Tumor,Tumor sample from T2001 patient | age: 79
+GSM1077720,Normal paired sample from T2024 patient,T2024,Normal,Normal paired sample from T2024 patient | age: 80
+GSM1077818,Tumor sample from T2024 patient,T2024,Tumor,Tumor sample from T2024 patient | age: 80
+GSM1077721,Normal paired sample from T2047 patient,T2047,Normal,Normal paired sample from T2047 patient | age: 70
+GSM1077819,Tumor sample from T2047 patient,T2047,Tumor,Tumor sample from T2047 patient | age: 70
+GSM1077722,Normal paired sample from T2070 patient,T2070,Normal,Normal paired sample from T2070 patient | age: 64
+GSM1077820,Tumor sample from T2070 patient,T2070,Tumor,Tumor sample from T2070 patient | age: 64
+GSM1077723,Normal paired sample from T2093 patient,T2093,Normal,Normal paired sample from T2093 patient | age: 81
+GSM1077821,Tumor sample from T2093 patient,T2093,Tumor,Tumor sample from T2093 patient | age: 81
+GSM1077724,Normal paired sample from V2018 patient,V2018,Normal,Normal paired sample from V2018 patient | age: 64
+GSM1077822,Tumor sample from V2018 patient,V2018,Tumor,Tumor sample from V2018 patient | age: 64
+GSM1077725,Normal paired sample from V2041 patient,V2041,Normal,Normal paired sample from V2041 patient | age: 73
+GSM1077823,Tumor sample from V2041 patient,V2041,Tumor,Tumor sample from V2041 patient | age: 73
+GSM1077726,Normal paired sample from V2064 patient,V2064,Normal,Normal paired sample from V2064 patient | age: 82
+GSM1077824,Tumor sample from V2064 patient,V2064,Tumor,Tumor sample from V2064 patient | age: 82
+GSM1077727,Normal paired sample from V2087 patient,V2087,Normal,Normal paired sample from V2087 patient | age: 72
+GSM1077825,Tumor sample from V2087 patient,V2087,Tumor,Tumor sample from V2087 patient | age: 72
+GSM1077728,Normal paired sample from W2003 patient,W2003,Normal,Normal paired sample from W2003 patient | age: 79
+GSM1077826,Tumor sample from W2003 patient,W2003,Tumor,Tumor sample from W2003 patient | age: 79
+GSM1077729,Normal paired sample from W2026 patient,W2026,Normal,Normal paired sample from W2026 patient | age: 69
+GSM1077827,Tumor sample from W2026 patient,W2026,Tumor,Tumor sample from W2026 patient | age: 69
+GSM1077730,Normal paired sample from W2049 patient,W2049,Normal,Normal paired sample from W2049 patient | age: 55
+GSM1077828,Tumor sample from W2049 patient,W2049,Tumor,Tumor sample from W2049 patient | age: 55
+GSM1077731,Normal paired sample from W2072 patient,W2072,Normal,Normal paired sample from W2072 patient | age: 67
+GSM1077829,Tumor sample from W2072 patient,W2072,Tumor,Tumor sample from W2072 patient | age: 67
+GSM1077732,Normal paired sample from W2095 patient,W2095,Normal,Normal paired sample from W2095 patient | age: 65
+GSM1077830,Tumor sample from W2095 patient,W2095,Tumor,Tumor sample from W2095 patient | age: 65
+GSM1077733,Normal paired sample from X2011 patient,X2011,Normal,Normal paired sample from X2011 patient | age: 75
+GSM1077831,Tumor sample from X2011 patient,X2011,Tumor,Tumor sample from X2011 patient | age: 75
+GSM1077734,Normal paired sample from X2034 patient,X2034,Normal,Normal paired sample from X2034 patient | age: 55
+GSM1077832,Tumor sample from X2034 patient,X2034,Tumor,Tumor sample from X2034 patient | age: 55
+GSM1077735,Normal paired sample from X2057 patient,X2057,Normal,Normal paired sample from X2057 patient | age: 73
+GSM1077833,Tumor sample from X2057 patient,X2057,Tumor,Tumor sample from X2057 patient | age: 73
+GSM1077736,Normal paired sample from X2080 patient,X2080,Normal,Normal paired sample from X2080 patient | age: 69
+GSM1077834,Tumor sample from X2080 patient,X2080,Tumor,Tumor sample from X2080 patient | age: 69
+GSM1077737,Normal paired sample from Y2007 patient,Y2007,Normal,Normal paired sample from Y2007 patient | age: 62
+GSM1077835,Tumor sample from Y2007 patient,Y2007,Tumor,Tumor sample from Y2007 patient | age: 62
+GSM1077738,Normal paired sample from Y2030 patient,Y2030,Normal,Normal paired sample from Y2030 patient | age: 69
+GSM1077836,Tumor sample from Y2030 patient,Y2030,Tumor,Tumor sample from Y2030 patient | age: 69
+GSM1077739,Normal paired sample from Y2053 patient,Y2053,Normal,Normal paired sample from Y2053 patient | age: 71
+GSM1077837,Tumor sample from Y2053 patient,Y2053,Tumor,Tumor sample from Y2053 patient | age: 71
+GSM1077740,Normal paired sample from Y2076 patient,Y2076,Normal,Normal paired sample from Y2076 patient | age: 78
+GSM1077838,Tumor sample from Y2076 patient,Y2076,Tumor,Tumor sample from Y2076 patient | age: 78
+GSM1077741,Normal paired sample from Y2099 patient,Y2099,Normal,Normal paired sample from Y2099 patient | age: 72
+GSM1077839,Tumor sample from Y2099 patient,Y2099,Tumor,Tumor sample from Y2099 patient | age: 72
+GSM1077742,Normal paired sample from Z2015 patient,Z2015,Normal,Normal paired sample from Z2015 patient | age: 84
+GSM1077840,Tumor sample from Z2015 patient,Z2015,Tumor,Tumor sample from Z2015 patient | age: 84
+GSM1077743,Normal paired sample from Z2038 patient,Z2038,Normal,Normal paired sample from Z2038 patient | age: 65
+GSM1077841,Tumor sample from Z2038 patient,Z2038,Tumor,Tumor sample from Z2038 patient | age: 65
+GSM1077744,Normal paired sample from Z2061 patient,Z2061,Normal,Normal paired sample from Z2061 patient | age: 53
+GSM1077842,Tumor sample from Z2061 patient,Z2061,Tumor,Tumor sample from Z2061 patient | age: 53
+GSM1077745,Normal paired sample from Z2084 patient,Z2084,Normal,Normal paired sample from Z2084 patient | age: 81
+GSM1077843,Tumor sample from Z2084 patient,Z2084,Tumor,Tumor sample from Z2084 patient | age: 81

@@ -1,0 +1,3 @@
+cell_type,tumor_cells,patients,positive_cells,median_patient_log2CPM,mean_group_detection_pct,groups_ge10,pct_of_tumor_RETSAT_positive_cells,dataset,weighted_detection_pct
+epithelial_like,6814,16,499.0,4.008405231910168,7.232479487687784,15,45.7378551787351,GSE200997,7.323158203698268
+non_epithelial,24772,16,592.0,2.782113339729769,2.326093159305916,16,54.2621448212649,GSE200997,2.3897949297594057

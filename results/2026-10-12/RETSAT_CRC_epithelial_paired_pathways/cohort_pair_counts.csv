@@ -1,0 +1,5 @@
+cohort,n_pairs,type,filter
+GSE132465,10,single-cell epithelial pseudobulk,author epithelial label in GSE132465; ≥2/5 epithelial markers in GSE200997; ≥10 cells per sample
+GSE200997,7,single-cell epithelial pseudobulk,author epithelial label in GSE132465; ≥2/5 epithelial markers in GSE200997; ≥10 cells per sample
+GSE44076,98,paired bulk microarray (GPL13667),exactly one tumor and matched normal per patient; unrelated healthy donor normals excluded
+GSE32323,17,paired bulk microarray (GPL570),exactly one tumor and matched normal per patient; unrelated healthy donor normals excluded
